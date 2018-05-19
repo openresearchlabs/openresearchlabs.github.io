@@ -3,7 +3,7 @@
   
     
     <url>
-      <loc>/2017/07/31/eurostat.html</loc>
+      <loc>http://localhost:4000/2017/07/31/eurostat.html</loc>
       
         <lastmod>2017-07-31T00:00:00+02:00</lastmod>
       
@@ -18,7 +18,7 @@
   
     
     <url>
-      <loc>/jekyll/update/2017/07/30/summerschool.html</loc>
+      <loc>http://localhost:4000/jekyll/update/2017/07/30/summerschool.html</loc>
       
         <lastmod>2017-07-30T16:00:00+02:00</lastmod>
       
@@ -34,24 +34,9 @@
   
     
     <url>
-      <loc>/404.html</loc>
+      <loc>http://localhost:4000/404.html</loc>
       
-        <lastmod>2018-05-20T01:03:56+02:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/404.html</loc>
-      
-        <lastmod>2018-05-20T01:03:56+02:00</lastmod>
+        <lastmod>2018-05-20T01:09:38+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -64,24 +49,9 @@
   
     
     <url>
-      <loc>/aboutwebsite.html</loc>
+      <loc>http://localhost:4000/404.html</loc>
       
-        <lastmod>2018-05-20T01:03:56+02:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/allnews.html</loc>
-      
-        <lastmod>2018-05-20T01:03:56+02:00</lastmod>
+        <lastmod>2018-05-20T01:09:38+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -94,24 +64,9 @@
   
     
     <url>
-      <loc>/blog.html</loc>
+      <loc>http://localhost:4000/aboutwebsite.html</loc>
       
-        <lastmod>2018-05-20T01:03:56+02:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/code/</loc>
-      
-        <lastmod>2018-05-20T01:03:56+02:00</lastmod>
+        <lastmod>2018-05-20T01:09:38+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -124,24 +79,9 @@
   
     
     <url>
-      <loc>/contact/</loc>
+      <loc>http://localhost:4000/allnews.html</loc>
       
-        <lastmod>2018-05-20T01:03:56+02:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/cv/</loc>
-      
-        <lastmod>2018-05-20T01:03:56+02:00</lastmod>
+        <lastmod>2018-05-20T01:09:38+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -154,24 +94,9 @@
   
     
     <url>
-      <loc>/db_contact</loc>
+      <loc>http://localhost:4000/blog.html</loc>
       
-        <lastmod>2018-05-20T01:03:56+02:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/db_data</loc>
-      
-        <lastmod>2018-05-20T01:03:56+02:00</lastmod>
+        <lastmod>2018-05-20T01:09:38+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -184,24 +109,9 @@
   
     
     <url>
-      <loc>/db_index</loc>
+      <loc>http://localhost:4000/code/</loc>
       
-        <lastmod>2018-05-20T01:03:56+02:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/edu/</loc>
-      
-        <lastmod>2018-05-20T01:03:56+02:00</lastmod>
+        <lastmod>2018-05-20T01:09:38+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -214,24 +124,9 @@
   
     
     <url>
-      <loc>/feed.xml</loc>
+      <loc>http://localhost:4000/contact/</loc>
       
-        <lastmod>2018-05-20T01:03:56+02:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/</loc>
-      
-        <lastmod>2018-05-20T01:03:56+02:00</lastmod>
+        <lastmod>2018-05-20T01:09:38+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -244,24 +139,9 @@
   
     
     <url>
-      <loc>/publications/lahti.html</loc>
+      <loc>http://localhost:4000/cv/</loc>
       
-        <lastmod>2018-05-20T01:03:56+02:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/leo_lahti/</loc>
-      
-        <lastmod>2018-05-20T01:03:56+02:00</lastmod>
+        <lastmod>2018-05-20T01:09:38+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -274,24 +154,9 @@
   
     
     <url>
-      <loc>/licensing/</loc>
+      <loc>http://localhost:4000/db_contact</loc>
       
-        <lastmod>2018-05-20T01:03:56+02:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/css/main.css</loc>
-      
-        <lastmod>2018-05-20T01:03:56+02:00</lastmod>
+        <lastmod>2018-05-20T01:09:38+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -304,24 +169,9 @@
   
     
     <url>
-      <loc>/media/</loc>
+      <loc>http://localhost:4000/db_data</loc>
       
-        <lastmod>2018-05-20T01:03:56+02:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/edu/microbiome/</loc>
-      
-        <lastmod>2018-05-20T01:03:56+02:00</lastmod>
+        <lastmod>2018-05-20T01:09:38+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -334,24 +184,9 @@
   
     
     <url>
-      <loc>/pictures/</loc>
+      <loc>http://localhost:4000/db_index</loc>
       
-        <lastmod>2018-05-20T01:03:56+02:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/edu/probprog/</loc>
-      
-        <lastmod>2018-05-20T01:03:56+02:00</lastmod>
+        <lastmod>2018-05-20T01:09:38+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -364,24 +199,9 @@
   
     
     <url>
-      <loc>/publications/</loc>
+      <loc>http://localhost:4000/edu/</loc>
       
-        <lastmod>2018-05-20T01:03:56+02:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/recruit/</loc>
-      
-        <lastmod>2018-05-20T01:03:56+02:00</lastmod>
+        <lastmod>2018-05-20T01:09:38+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -394,41 +214,9 @@
   
     
     <url>
-      <loc>/research/</loc>
+      <loc>http://localhost:4000/feed.xml</loc>
       
-        <lastmod>2018-05-20T01:03:56+02:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/team/resources.html</loc>
-      
-        <lastmod>2018-05-20T01:03:56+02:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-  
-    
-    <url>
-      <loc>/team/</loc>
-      
-        <lastmod>2018-05-20T01:03:56+02:00</lastmod>
+        <lastmod>2018-05-20T01:09:38+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -441,9 +229,221 @@
   
     
     <url>
-      <loc>/vacancies</loc>
+      <loc>http://localhost:4000/</loc>
       
-        <lastmod>2018-05-20T01:03:56+02:00</lastmod>
+        <lastmod>2018-05-20T01:09:38+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/publications/lahti.html</loc>
+      
+        <lastmod>2018-05-20T01:09:38+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/leo_lahti/</loc>
+      
+        <lastmod>2018-05-20T01:09:38+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/licensing/</loc>
+      
+        <lastmod>2018-05-20T01:09:38+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/css/main.css</loc>
+      
+        <lastmod>2018-05-20T01:09:38+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/media/</loc>
+      
+        <lastmod>2018-05-20T01:09:38+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/edu/microbiome/</loc>
+      
+        <lastmod>2018-05-20T01:09:38+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/pictures/</loc>
+      
+        <lastmod>2018-05-20T01:09:38+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/edu/probprog/</loc>
+      
+        <lastmod>2018-05-20T01:09:38+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/publications/</loc>
+      
+        <lastmod>2018-05-20T01:09:38+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/recruit/</loc>
+      
+        <lastmod>2018-05-20T01:09:38+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/research/</loc>
+      
+        <lastmod>2018-05-20T01:09:38+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/team/resources.html</loc>
+      
+        <lastmod>2018-05-20T01:09:38+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/team/</loc>
+      
+        <lastmod>2018-05-20T01:09:38+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/vacancies</loc>
+      
+        <lastmod>2018-05-20T01:09:38+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>

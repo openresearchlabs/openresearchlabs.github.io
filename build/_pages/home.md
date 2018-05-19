@@ -1,7 +1,7 @@
 ---
 title: "Lahti Lab - Home"
 layout: homelay
-excerpt: "Lahti Lab at University of Turku."
+excerpt: "Lahti Lab, University of Turku, Finland."
 sitemap: false
 permalink: /
 ---

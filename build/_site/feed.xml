@@ -4,10 +4,10 @@
     <title>Lahti Lab</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 20 May 2018 01:03:56 +0200</pubDate>
-    <lastBuildDate>Sun, 20 May 2018 01:03:56 +0200</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 20 May 2018 01:09:38 +0200</pubDate>
+    <lastBuildDate>Sun, 20 May 2018 01:09:38 +0200</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
     
       <item>
@@ -16,8 +16,8 @@
 
 </description>
         <pubDate>Mon, 31 Jul 2017 00:00:00 +0200</pubDate>
-        <link>/2017/07/31/eurostat.html</link>
-        <guid isPermaLink="true">/2017/07/31/eurostat.html</guid>
+        <link>http://localhost:4000/2017/07/31/eurostat.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/07/31/eurostat.html</guid>
         
         
       </item>
@@ -28,8 +28,8 @@
 
 </description>
         <pubDate>Sun, 30 Jul 2017 16:00:00 +0200</pubDate>
-        <link>/jekyll/update/2017/07/30/summerschool.html</link>
-        <guid isPermaLink="true">/jekyll/update/2017/07/30/summerschool.html</guid>
+        <link>http://localhost:4000/jekyll/update/2017/07/30/summerschool.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2017/07/30/summerschool.html</guid>
         
         
         <category>jekyll</category>
