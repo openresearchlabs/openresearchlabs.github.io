@@ -1,0 +1,45 @@
+#- name: 
+#  photo: rock.jpg
+#  info:
+#  email:
+#  number_educ: 
+#  education1:  
+#  education2:  
+#  education3: 
+#  education4:  
+
+- name: Ville Laitinen
+  photo: Ville_Laitinen.jpg
+  info: PhD student
+  email: ville.laitinen@utu.fi
+
+- name: Aaro Salosensaari
+  photo: Aaro_salosensaari.jpg
+  info: PhD student (co-supervised with Teemu Niiranen)
+  email: aaro.salosensaari@utu.fi
+
+- name: Joonatan Palmu
+  photo: Joonatan_Palmu.jpg
+  info: PhD student (University of Turku; co-supervised with Doc Teemu Niiranen)
+  email: joonatan.palmu@utu.fi
+
+- name: Ville Vaara
+  photo: Ville_Vaara.jpg
+  info: PhD student (University of Helsinki; co-supervised with Prof Mikko Tolonen)
+  email: ville.vaara@helsinki.fi
+
+- name: Anna Sorjamaa 
+  photo: Anna_Sorjamaa.jpg
+  info: PhD student (University of Oulu; co-supervised with Doc Justus Reunanen)
+  email: anna.sorjamaa@oulu.fi
+
+- name: Sudarshan Shetty
+  photo: Sudarshan_Shetty.jpg
+  info: PhD student (Wageningen University; co-supervised with Prof Willem de Vos)
+  email: sudarshan.shetty@wur.nl
+
+- name: "This could be you !"
+  photo: bio-photo.jpg
+  info: See <a href="http://www.iki.fi/Leo.Lahti/vacancies.md">openings</a> for more info
+  email: leo.lahti@iki.fi
+  number_educ: 0
