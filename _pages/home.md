@@ -6,11 +6,11 @@ sitemap: false
 permalink: /
 ---
 
-**Modern statistical data analysis from theory to application**
+**Modern data analysis from theory to practice**
 
-- Theory: machine learning/AI, computational science, modern statistical data analysis  
-- Methods: data science, probabilistic programming, open research software, open science
-- Applications: human microbiome, functional genomics, statistical ecology, population cohort studies, computational history, computational social science
+- Theory: Machine learning/AI, statistical and algorithmic data analysis, computational science
+- Methods: Data science, probabilistic programs, open science
+- Applications: molecular life sciences and health research, digital humanities, statistical ecology
 
 
 
