@@ -6139,7 +6139,8 @@ img {
   border-radius: 2%; }
 
 body {
-  padding-top: 70px; }
+  padding-top: 70px;
+  font-size: 18px; }
 
 figcaption {
   text-align: right;
@@ -6209,7 +6210,7 @@ pubtit {
   border-radius: 3px 3px 3px 3px;
   margin-bottom: 20px;
   margin-top: 20px;
-  margin-left: 30px;
+  margin-left: 40px;
   margin-right: 30px; }
 
 /* Bibliography - remove numbers from citation list*/
