@@ -1,0 +1,1068 @@
+References
+==========
+
+
+@Misc{Bjork2018,
+  author =	 {Anna Björk and Juho-Matti Paavolainen and Teemu
+                  Ropponen and Mikael Laakso and Leo Lahti},
+  title =	 {Opening academic publishing: development and
+                  application of systematic evaluation criteria},
+  year =	 2018,
+  publisher =	 {Open Science and Research Initiative (ATT)},
+  month =	 {January},
+  note =	 {Report on the openness of major scientific
+                  publishers.},
+  url =		 {http://www.avointiede.fi/keskeiset-julkaisut},
+  pdf =		 {publications/papers/2018-Bjork-ATT.pdf}
+}
+
+
+@Article{Timmis2018,
+  author =	 {Timmis, Kenneth and Jebok, Franziska and Molinari,
+                  Gabriellaand Rohde, Manfred and Lahti, Leo},
+  title =	 {Microbiome Yarns: human biome reproduction,
+                  evolution and visual acuity},
+  journal =	 {Microbial Biotechnology},
+  year =	 2018,
+  volume =	 11,
+  number =	 1,
+  pages =	 {149--159},
+  month =	 {January},
+  doi =		 {10.1111/1751-7915.13037},
+  note =	 {Comics piece for the popularization of microbiome
+                  research.}
+}
+
+
+@Article{Buelow2017,
+  author =	 {Elena Buelow and Teresita {d.J.} Bello González and
+                  Susana Fuentes and Wouter A.A. {de Steenhuijsen
+                  Piters} and Leo Lahti and Jumamurat R. Bayjanov and
+                  Eline A.M. Majoor and Johanna C. Braat and Maaike
+                  S. van Mourik and Evelien A.N. Oostdijk and Rob
+                  J.L. Willems and Marc J.M. Bonten and Mark W.J. van
+                  Passel and Hauke Smidt and Willem van Schaik},
+  title =	 {Comparative gut microbiota and resistome profiling
+                  of intensive care patients receiving selective
+ digestive tract decontamination and healthy
+                  subjects},
+  journal =	 {Microbiome},
+  year =	 2017,
+  volume =	 5,
+  number =	 1,
+  pages =	 88,
+  month =	 {Aug},
+  doi =		 {10.1186/s40168-017-0309-z}
+}
+
+
+
+@Article{Lahti17phos,
+  author =	 {Leo Lahti and Filipe da Silva and Markus Petteri
+                  Laine and Viivi Lähteenoja and Mikko Tolonen},
+  title =	 {Alchemy & algorithms: perspectives on the philosophy
+                  and history of open science},
+  journal =	 {RIO Journal},
+  year =	 2017,
+  volume =	 3,
+  pages =	 {e13593},
+  month =	 {May},
+  url =		 {http://riojournal.com/articles.php?id=13593},
+  doi =		 {10.3897/rio.3.e13593},
+  note =	 {Preprint awaiting post-publication review.}
+}
+
+
+
+
+
+
+
+@Article{Faust2017,
+  author =	 {Karoline Faust and Didier Gonze and Leo Lahti and
+                  Jeroen Raes},
+  title =	 {Multi-stability and the origin of microbial
+                  community types},
+  journal =	 {ISME Journal},
+  year =	 2017,
+  volume =	 11,
+  pages =	 {2159--2166},
+  month =	 {may},
+  doi =		 {10.1038/ismej.2017.60}
+}
+
+
+
+@Article{Tolonen15EnnenNyt,
+  author =	 {Mikko Tolonen and Leo Lahti},
+  title =	 {Aatehistoria ja digitaalisten aineistojen
+                  mahdollisuudet},
+  journal =	 {Ennen \& Nyt 2},
+  year =	 2015,
+  volume =	 2,
+  month =	 {8},
+  url =
+                  {http://www.ennenjanyt.net/2015/08/aatehistoria-ja-digitaalisten-aineistojen-mahdollisuudet}
+}
+
+@InProceedings{Tolonen16dh,
+  author =	 {Mikko Tolonen and Niko Ilom{\"a}ki and Hege
+                  Roivainen and Leo Lahti},
+  title =	 {Printing in a Periphery: a Quantitative Study of
+                  Finnish Knowledge Production, 1640-1828},
+  booktitle =	 {Digital Humanities 2016: Conference Abstracts},
+  year =	 2016,
+  publisher =	 {Jagiellonian University & Pedagogical University,
+                  Kraków},
+  address =	 {Krakow, Poland},
+  pages =	 {383--385},
+  month =	 7
+}
+
+
+
+@Article{Lahti15LIBER,
+  author =	 {Leo Lahti and Niko Ilom{\"a}ki and Mikko Tolonen},
+  title =	 {A quantitative study of history in the English
+                  short-title catalogue (ESTC) 1470-1800},
+  journal =	 {LIBER Quarterly},
+  year =	 2015,
+  volume =	 25,
+  number =	 2,
+  pages =	 {87-116},
+  month =	 {12},
+  issn =	 {2213-056X},
+  url =
+                  {http://liber.library.uu.nl/index.php/lq/article/view/10112}
+}
+
+
+@Article{Ritari15,
+  author =	 {Jarmo Ritari and Jarkko Salojärvi and Leo Lahti and
+                  Willem M. de Vos},
+  title =	 {Improved taxonomic assignment of human intestinal
+                  16S rRNA sequences by a dedicated reference
+                  database},
+  journal =	 {BMC Genomics},
+  year =	 2015,
+  volume =	 16,
+  pages =	 1056,
+  month =	 {12},
+  doi =		 {10.1186/s12864-015-2265-y},
+  url =		 {http://www.biomedcentral.com/1471-2164/16/1056}
+}
+
+
+@InProceedings{Laine15,
+  author =	 {Heidi Laine and Leo Lahti and Anne Lehto and Samuli
+                  Ollila and Markus Miettinen},
+  title =	 {Beyond Open Access - The Changing Culture of
+                  Producing and Disseminating Scientific Knowledge},
+  booktitle =	 {Proceedings of the 19th International Academic
+                  Mindtrek Conference in Tampere, Finland — September 22 - 24, 2015},
+  year =	 2015,
+  address =	 {ACM New York, NY, USA},
+  organization = {AcademicMindTrek'15: Proceedings of the 19th
+                  International Academic Mindtrek Conference},
+  publisher =	 {ACM},
+  address =	 {New York, NY, USA},
+  location =	 {Tampere, Finland},
+  isbn =	 {978-1-4503-3948-3},
+  pdf = {publications/papers/2015-Laine-Mindtrek.pdf},
+  url =		 {http://dl.acm.org/citation.cfm?id=2818187}
+}
+
+@Article{Su2015,
+  author =	 {Jing Su and Carl Ekman and Nikolay Oskolkov and Leo
+                  Lahti and Kristoffer Ström and Alvis Brazma and Leif
+                  Groop and Johan Rung and and Ola Hansson},
+  title =	 {A novel atlas of gene expression in human skeletal
+                  muscle reveals molecular changes associated with
+                  aging},
+  journal =	 {Skeletal Muscle},
+  year =	 2015,
+  volume =	 5,
+  number =	 35,
+  doi =		 {10.1186/s13395-015-0059-1},
+  month =	 {10}
+}
+
+@Misc{Lahti13icml,
+  author =	 {Leo Lahti, Juuso Parkkinen, Joona Lehtomäki and
+                  Markus Kainu},
+  title =	 {rOpenGov: open source ecosystem for computational
+                  social sciences and digital humanities},
+  howpublished = {Presentation at ICML/MLOSS workshop (Int'l Conf. on
+                  Machine Learning - Open Source Software workshop).},
+  month =	 {12},
+  year =	 2013,
+  url =		 {http://ropengov.github.io}
+}
+
+@Article{Siavash15,
+  author =	 {S Atashgahi and R Aydin and MR Dimitrov and D
+                  Sipkema and K Hamonts and L Lahti and F Maphosa and
+                  T Cruse and D Springael and W Dejonghe and H Smidt},
+  title =	 {Impact of a wastewater treatment plant on microbial
+                  community composition and function in a hyporheic
+                  zone of a eutrophic river},
+  journal =	 {Scientific Reports},
+  year =	 2015,
+  volume =	 5,
+  number =	 17284,
+  month =	 {11},
+  doi =		 {10.1038/srep17284}
+}
+
+@Article{Faust15,
+  author =	 {Karoline Faust and Leo Lahti and Didier Gonze and
+                  Willem M de Vos and Jeroen Raes},
+  title =	 {Metagenomics meets time series analysis: unraveling
+                  microbial community dynamics},
+  journal =	 {Current Opinion in Microbiology},
+  year =	 2015,
+  volume =	 25,
+  pages =	 {56--66},
+  month =	 {6},
+  url =
+                  {http://www.sciencedirect.com/science/article/pii/S1369527415000478},
+  doi =		 {10.1016/j.mib.2015.04.004},
+  annote =	 {Shared first author.}
+}
+
+
+
+
+@Article{OKeefe15,
+  author =	 {SJD O'Keefe and JV Li and L Lahti and J Ou and F
+                  Carbonero and K Mohammed and JM Posma and J Kinross
+                  and E Wahl and E Ruder and K Vipperla and V Naidoo
+                  and L Mtshali and S Tims and PGB Puylaert, J DeLany
+                  and A Krasinskas and AC Benefiel and HO Kaseb and K
+                  Newton and JK Nicholson and WM de Vos and HR Gaskins
+                  and EG Zoetendal},
+  title =	 {Fat, Fiber and Cancer Risk in African, Americans and
+                  Rural Africans},
+  journal =	 {Nature Communications},
+  year =	 2015,
+  volume =	 6,
+  pages =	 6342,
+  month =	 {Apr},
+  doi =		 {10.1038/ncomms7342},
+  note =	 {Top science article in Guardian on the release day.},
+  pdf =		 {publications/papers/2015-OKeefe-NComms.pdf},
+  annote =	 {Guardian:
+                  http://www.theguardian.com/science/2015/apr/28/bowel-cancer-risk-may-be-reduced-by-rural-african-diet-study-finds}
+}
+
+@Article{Aleksic14,
+  author =	 {Jelena Aleksic and Adrian Alexa and Teresa K Attwood
+                  and Neil Chue Hong and Martin Dahl{\"o} and Robert
+                  Davey and Holger Dinkel and Konrad U F{\"o}rstner
+                  and Ivo Grigorov and Jean-Karim Hériché and Leo
+                  Lahti and Dan MacLean and Michael L Markie and Jenny
+                  Molloy and Maria Victoria Schneider and Camille
+                  Scott and Richard Smith-Unna and Bruno Miguel
+                  Vieira},
+  title =	 {The Open Science Peer Review Oath},
+  journal =	 {F1000Research},
+  year =	 2015,
+  volume =	 3,
+  pages =	 271,
+  note =	 {As part of the AllBio: Open Science &
+                  Reproducibility Best Practice Workshop},
+  doi =		 {10.12688/f1000research.5686.2}
+}
+
+
+@Article{Niini12,
+  author =	 {Tarja Niini and Ilari Scheinin and Leo Lahti and
+                  Suvi Savola and Fredrik Mertens and Jaakko Hollmén
+                  and Tom Böhling and Aarne Kivioja and Karolin H
+                  Nord and Sakari Knuutila},
+  title =	 {Homozygous Deletions of Cadherin Genes in
+                  Chondrosarcoma – an Array CGH Study},
+  journal =	 {Cancer Genetics},
+  year =	 2012,
+  volume =	 205,
+  number =	 11,
+  pages =	 {588-93},
+  month =	 {11},
+  url =		 {http://www.ncbi.nlm.nih.gov/pubmed?term=23146407}
+}
+
+@Article{Lahti12cmi,
+  author =	 {Anne Salonen and Jarkko Saloj{\"a}rvi and Leo Lahti
+                  and and Willem M. de Vos},
+  title =	 {The adult intestinal core microbiota is determined
+                  by analysis depth and health status},
+  journal =	 {Clinical Microbiology and Infection},
+  year =	 2012,
+  volume =	 18,
+  number =	 {Suppl. 4},
+  pages =	 {16–20},
+  url =
+                  {http://onlinelibrary.wiley.com/doi/10.1111/j.1469-0691.2012.03855.x/abstract}
+}
+
+
+@Article{Mosakhani12,
+  author =	 {Neda Mosakhani and Leo Lahti and Ioana Borze and
+                  Marja-Liisa Karjalainen-Lindsberg and Jari Sundstrom
+                  and Raija Ristamaki and Pia Osterlund and Sakari
+                  Knuutila and and Virinder Kaur Sarhadi},
+  title =	 {MicroRNA profiling predicts survival in anti-EGFR
+                  treated chemorefractory metastatic colorectal cancer
+                  patients with wild-type KRAS and BRAF},
+  journal =	 {Cancer Genetics},
+  year =	 2012,
+  volume =	 205,
+  number =	 11,
+  pages =	 {545-51},
+  month =	 {11},
+  url =
+                  {http://www.sciencedirect.com/science/article/pii/S2210776212002293}
+}
+
+
+
+@Article{Lahti2012intcomp,
+  author =	 {Leo Lahti and Martin Sch{\"a}fer and Hans-Ulrich
+                  Klein and Silvio Bicciato and Martin Dugas},
+  title =	 {Cancer gene prioritization by integrative analysis
+                  of mRNA expression and DNA copy number data: a
+                  comparative review},
+  journal =	 {Briefings in Bioinformatics},
+  year =	 2013,
+  volume =	 14,
+  number =	 1,
+  pages =	 {27--35},
+  url =
+                  {http://bib.oxfordjournals.org/content/14/1/27.abstract.html?etoc},
+  annote =	 {Implementation available at
+                  http://intcomp.r-forge.r-project.org}
+}
+
+
+
+@Article{Lahti13provasI,
+  author =	 {Leo Lahti and Anne Salonen and Riina A. Kekkonen and
+                  Jarkko Salojärvi and Jonna Jalanka-Tuovinen and
+                  Airi Palva and Matej Orešič and Willem M. de Vos},
+  title =	 {Associations between the human intestinal
+                  microbiota, Lactobacillus rhamnosus GG and
+                  serum lipids indicated by integrated analysis of
+                  high-throughput profiling data},
+  journal =	 {PeerJ},
+  year =	 2013,
+  volume =	 1,
+  pages =	 {e32},
+  url =		 {http://dx.doi.org/10.7717/peerj.32},
+  pmid =	 23638368
+}
+
+@Article{Sarhadi13,
+  author =	 {Virinder Kaur Sarhadi and Leo Lahti and Ilari
+                  Scheinin and Anne Tyyb{\"a}kinoja and Suvi Savola
+                  and Anu Usvasalo and Riikka R{\"a}ty and Erkki
+                  Elonen and Pekka Ellonen and Ulla M Saarinen-Pihkala
+                  and Sakari Knuutila},
+  title =	 {Targeted Resequencing of 9p in Acute Lymphoblastic
+                  Leukemia Yields Concordant Results with Array CGH
+                  and Reveals Novel Genomic Alterations},
+  journal =	 {Genomics},
+  year =	 2013,
+  volume =	 102,
+  number =	 3,
+  pages =	 {182--188},
+  url = {http://www.sciencedirect.com/science/article/pii/S0888754313000025},
+  annote =	 {Shared first author.}
+}
+
+
+@Article{Mosakhani12LL,
+  author =	 {N Mosakhani and VK Sarhadi and A Usvasalo and ML
+                  Karjalainen-Lindsberg and L Lahti and K Tuononen and
+                  UM Saarinen-Pihkala and S Knuutila},
+  title =	 {MicroRNA profiling in pediatric acute lymphoblastic
+                  leukemia: novel prognostic tools},
+  journal =	 {Leukemia \& Lymphoma},
+  year =	 2012,
+  volume =	 53,
+  number =	 12,
+  pages =	 {2517-20},
+  month =	 {Dec},
+  url =
+                  {http://informahealthcare.com/doi/abs/10.3109/10428194.2012.685731}
+}
+
+@Article{Harris17,
+  author =	 {Keith Harris and Todd L Parsons and Umer Z Ijaz and
+                  Leo Lahti and Ian Holmes and Christopher Quince},
+  title =	 {Linking statistical and ecological theory: Hubbell's
+                  unified neutral theory of biodiversity as a
+                  hierarchical Dirichlet process},
+  journal =	 {Proceedings of the IEEE},
+  year =	 2017,
+  volume =	 105,
+  number =	 3,
+  pages =	 {516--529},
+  month =	 {March},
+  note =	 {Preprint at http://arxiv.org/abs/1410.4038}
+}
+
+@Article{Alneberg14,
+  author =	 {Johannes Alneberg and Brynjar Smári Bjarnason and
+                  Ino de Bruijn and Melanie Schirmer and Joshua Quick
+                  and Umer Z Ijaz and Leo Lahti and Nicholas J Loman
+                  and Anders F Andersson and Christopher Quince},
+  title =	 {Binning metagenomic contigs by coverage and
+                  composition},
+  journal =	 {Nature Methods},
+  year =	 2014,
+  volume =	 11,
+  number =	 {1144--1146},
+  doi =		 {10.1038/nmeth.3103},
+  annote =	 {CONCOCT method}
+}
+
+@Article{lahti14natcomm,
+  author =	 {Leo Lahti and Jarkko Saloj{\"a}rvi and Anne Salonen
+                  and Marten Scheffer and Willem M. de Vos},
+  title =	 {Tipping elements in the human intestinal ecosystem},
+  journal =	 {Nature Communications},
+  year =	 2014,
+  volume =	 5,
+  pages =	 4344,
+  month =	 {7},
+  doi =		 {10.1038/ncomms5344}
+}
+
+@Article{salonen14,
+  author =	 {Anne Salonen and Leo Lahti and Jarkko Saloj{\"a}rvi
+                  and Grietje Holtrop and Katri Korpela and Sylvia
+                  Duncan and Priya Date and Alexandra Johnstone and
+                  Gerald Lobley and Petra Louis and Harry Flint and
+                  Willem M. de Vos},
+  title =	 {Impact of diet and individual variation on
+                  intestinal microbiota composition and fermentation
+                  products in obese men},
+  journal =	 {ISME Journal},
+  year =	 2014,
+  volume =	 8,
+  pages =	 {2218--2230},
+  url =
+                  {http://www.nature.com/ismej/journal/vaop/ncurrent/full/ismej201463a.html},
+  doi =		 {10.1038/ismej.2014.63}
+}
+
+
+@Article{bender13,
+  author =	 {Leo Lahti},
+  title =	 {Intestinal microbiota, individuality and
+                  health. In: Computational Methods Aiding Early-Stage
+                  Drug Design (Dagstuhl Seminar 13212)},
+  pages =	 {78--94},
+  journal =	 {Dagstuhl Reports},
+  ISSN =	 {2192-5283},
+  year =	 2013,
+  volume =	 3,
+  number =	 5,
+  editor =	 {Andreas Bender and Hinrich G{\"o}hlmann and Sepp
+                  Hochreiter and Ziv Shkedy},
+  publisher =	 {Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},
+  address =	 {Dagstuhl, Germany},
+  URL =		 {http://drops.dagstuhl.de/opus/volltexte/2013/4179},
+  URN =		 {urn:nbn:de:0030-drops-41791},
+  doi =		 {http://dx.doi.org/10.4230/DagRep.3.5.78},
+  annote =	 {Keywords: Bioinformatics, Chemoinformatics, Machine
+                  learning, Statistics, Interdisciplinary
+                  applications. Short abstract for the Dagstuhl
+                  seminar.}
+}
+
+
+
+
+
+@Article{Salonen12,
+  author =	 {Anne Salonen and Jarkko Saloj{\"a}rvi and Leo Lahti
+                  and Willem M. de Vos},
+  title =	 {The Adult Intestinal Core Microbiota Is Determined
+                  by Analysis Depth and Health Status},
+  journal =	 {Clinical Microbiology and Infection},
+  year =	 2012,
+  volume =	 18,
+  issue =	 S4,
+  pages =	 {16-20}
+}
+
+
+@article{Lahti11rpa,
+  author =	 {Leo Lahti and Laura L. Elo and Tero Aittokallio and
+                  Samuel Kaski},
+  title =	 {Probabilistic Analysis of Probe Reliability in
+                  Differential Gene Expression Studies with Short
+                  Oligonucleotide Arrays},
+  journal =	 {IEEE/ACM Transactions on Computational Biology and
+                  Bioinformatics},
+  year =	 2011,
+  volume =	 8,
+  number =	 1,
+  pages =	 {217--225},
+  month =	 {Jan.-Mar.},
+  doi =		 {10.1109/TCBB.2009.38},
+  pdf = {https://www.researchgate.net/publication/224439493_Probabilistic_Analysis_of_Probe_Reliability_in_Differential_Gene_Expression_Studies_with_Short_Oligonucleotide_Arrays/file/9fcfd4fbe8b3e5387a.pdf},
+  url =
+                  {http://www.computer.org/portal/web/csdl/doi/10.1109/TCBB.2009.38},
+  publisher =	 {IEEE Computer Society},
+  address =	 {Los Alamitos, CA, USA},
+  annote =	 {Open source implementation:
+                  http://bioconductor.org/packages/release/bioc/html/RPA.html}
+}
+
+
+
+
+@Misc{Lahti11-louhos,
+  author =	 {Juuso Parkkinen and Leo Lahti},
+  title =	 {Louhos blog},
+  howpublished = {Wordpress blog},
+  url =		 {http://louhos.wordpress.com/},
+  note =	 {Regular blog with case studies on the analysis of
+                  open government and other public data sources with a
+                  particular focus on Finland}
+}
+
+@Misc{Lahti11intcomp,
+  author =	 {Leo Lahti and Martin Sch{\"a}fer and Hans-Ulrich
+                  Klein and Silvio Bicciato and Martin Dugas},
+  title =	 {intcomp: a benchmarking pipeline for integrative
+                  cancer gene detection algorithms},
+  howpublished = {R-forge},
+  month =	 {2},
+  year =	 2011,
+  url =		 {http://intcomp.r-forge.r-project.org/},
+  note =	 {Computer program.}
+}
+
+@Article{Jalanka-Tuovinen11,
+  author =	 {Jonna Jalanka-Tuovinen and Anne Salonen and Janne
+                  Nikkil{\"a} and Outi Immonen and Riina Kekkonen and
+                  Leo Lahti and Airi Palva and Willem M. de Vos},
+  title =	 {Intestinal microbiota in healthy adults: Temporal
+                  analysis reveals individual and common core and
+                  relation to intestinal symptoms},
+  journal =	 {PLoS One},
+  year =	 2011,
+  volume =	 6,
+  number =	 7,
+  pages =	 {e23035},
+  url =
+                  {http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0023035}
+}
+
+@InProceedings{Louhimo11camda,
+  author =	 {Riku Louhimo and Viljami Aittom{\"a}ki and Ali
+                  Faisal and Marko Laakso and Ping Chen and Kristian
+                  Ovaska and Erkka Valo and Leo Lahti and Vladimir
+                  Rogojin and Samuel Kaski and Sampsa Hautaniemi. },
+  title =	 {Systematic Use of Computational Methods Allows
+                  Stratifying Treatment Responders in Glioblastoma
+                  Multiforme},
+  booktitle =	 {Proc. Critical Assessment of Massive Data Analysis
+                  (CAMDA) workshop},
+  year =	 2011,
+  month =	 7,
+  address =	 {Vienna, Austria}
+}
+
+@article{Louhimo14,
+  author =	 {Riku Louhimo and Viljami Aittom{\"a}ki and Ali
+                  Faisal and Marko Laakso and Ping Chen and Kristian
+                  Ovaska and Erkka Valo and Leo Lahti and Vladimir
+                  Rogojin and Samuel Kaski and Sampsa Hautaniemi},
+  journal =	 {Systems Biomedicine},
+  language =	 {eng},
+  pages =	 {130-136},
+  title =	 {Systematic use of computational methods allows
+                  stratification of treatment responders in
+                  glioblastoma multiforme},
+  volume =	 1,
+  number =	 2,
+  year =	 2014,
+  doi =		 {10.4161/sysb.28904}
+}
+
+@Article{Nymark11,
+  author =	 {Penny Nymark and Mohamed Guled and Ioana Borze and
+                  Ali Faisal and Leo Lahti and Kaisa Salmenkivi and
+                  Eeva Kettunen and Sisko Anttila and Sakari Knuutila},
+  title =	 {Integrative Analysis of microRNA, mRNA and aCGH Data
+                  Reveals Asbestos- and Histology-Related Changes in
+                  Lung Cancer},
+  journal =	 {Genes, Chromosomes and Cancer},
+  year =	 2011,
+  volume =	 50,
+  number =	 8,
+  pages =	 {585--597},
+  url =
+                  {http://onlinelibrary.wiley.com/doi/10.1002/gcc.20880/full}
+}
+
+@Article{Niini11mfh,
+  author =	 {Tarja Niini and Leo Lahti and Francesca Michelacci
+                  and Shinsuke Ninomiya and Claudia Maria Hattinger
+                  and Mohamed Guled and Tom B{\"o}hling and Piero
+                  Picci and Massimo Serra and Sakari Knuutila},
+  title =	 {Array Comparative Genomic Hybridization Reveals
+                  Frequent Alterations of G1/S Checkpoint Genes in
+                  Undifferentiated Pleomorphic Sarcoma of Bone},
+  journal =	 {Genes, Chromosomes and Cancer},
+  year =	 2011,
+  volume =	 50,
+  number =	 5,
+  pages =	 {291--306},
+  url =
+                  {http://onlinelibrary.wiley.com/doi/10.1002/gcc.20851/abstract},
+  doi =		 {10.1002/gcc.20851},
+  annote =	 {was: Niini10mfh}
+}
+
+
+
+
+@InProceedings{Faisal2011,
+  author =	 {Ali Faisal and Riku Louhimo and Leo Lahti and Sampsa
+                  Hautaniemi and Samuel Kaski},
+  title =	 {Biomarker discovery via dependency analysis of
+                  multi-view functional genomics data},
+  booktitle =	 {NIPS 2011 workshop From Statistical Genetics to
+                  Predictive Models in Personalized Medicine},
+  year =	 {2011}
+}
+
+
+@PhdThesis{Lahti10thesis,
+  author =	 {Leo Lahti},
+  title =	 {Probabilistic analysis of the human transcriptome
+                  with side information},
+  school =	 {Aalto University School of Science and Technology,
+                  Faculty of Information and Natural Sciences,
+                  Department of Information and Computer Science},
+  year =	 2010,
+  address =	 {Espoo},
+  month =	 {12},
+  series =	 {TKK Dissertations in Information and Computer
+                  Science},
+  number =	 {TKK-ICS-D19},
+  note =	 {The LaTeX sources and the pdf version are freely
+                  available under cc-by license at
+                  http://www.iki.fi/Leo.Lahti},
+  key =		 {probabilistic models, Bayesian analysis, data
+                  integration, gene expression, microarrays,
+                  computational science, data analysis, machine
+                  learning, computational biology, open source, open
+                  access, creative commons},
+  url =		 {http://lib.tkk.fi/Diss/2010/isbn9789526033686/},
+  issn =	 {1797-5069},
+  abstract =	 {Recent advances in high-throughput measurement
+                  technologies and efficient sharing of biomedical
+                  data through community databases have made it
+                  possible to investigate the complete collection of
+                  genetic material, the genome, which encodes the
+                  heritable genetic program of an organism. This has
+                  opened up new views to the study of living organisms
+                  with a profound impact on biological research.
+                  Functional genomics is a subdiscipline of molecular
+                  biology that investigates the functional
+                  organization of genetic information.  This thesis
+                  develops computational strategies to investigate a
+                  key functional layer of the genome, the
+                  transcriptome. The time- and context-specific
+                  transcriptional activity of the genes regulates the
+                  function of living cells through protein
+                  synthesis. Efficient computational techniques are
+                  needed in order to extract useful information from
+                  high-dimensional genomic observations that are
+                  associated with high levels of complex
+                  variation. Statistical learning and probabilistic
+                  models provide the theoretical framework for
+                  combining statistical evidence across multiple
+                  observations and the wealth of background
+                  information in genomic data repositories.  This
+                  thesis addresses three key challenges in
+                  transcriptome analysis. First, new preprocessing
+                  techniques that utilize side information in genomic
+                  sequence databases and microarray collections are
+                  developed to improve the accuracy of high-throughput
+                  microarray measurements.  Second, a novel
+                  exploratory approach is proposed in order to
+                  construct a global view of cell-biological network
+                  activation patterns and functional relatedness
+                  between tissues across normal human
+                  body. Information in genomic interaction databases
+                  is used to derive constraints that help to focus the
+                  modeling in those parts of the data that are
+                  supported by known or potential interactions between
+                  the genes, and to scale up the analysis. The third
+                  contribution is to develop novel approaches to model
+                  dependency between co-occurring measurement
+                  sources. The methods are used to study cancer
+                  mechanisms and transcriptome evolution; integrative
+                  analysis of the human transcriptome and other layers
+                  of genomic information allows the identification of
+                  functional mechanisms and interactions that could
+                  not be detected based on the individual measurement
+                  sources. Open source implementations of the key
+                  methodological contributions have been released to
+                  facilitate their further adoption by the research
+                  community.}
+}
+
+@Article{Lahti10bioinf,
+  author =	 {Leo Lahti and Juha E.A. Knuuttila and Samuel Kaski},
+  title =	 {Global modeling of transcriptional responses in
+                  interaction networks},
+  journal =	 {Bioinformatics},
+  year =	 2010,
+  doi =		 {10.1093/bioinformatics/btq500},
+  pages =	 {2713--2720},
+  volume =	 26,
+  issue =	 21,
+  note =	 {Implementations in R and Matlab available at
+                  http://netpro.r-forge.r-project.org/},
+  url =
+                  {http://bioinformatics.oxfordjournals.org/content/26/21/2713},
+		  pdf = {publications/papers/2010-Bioinformatics-Lahti-NetResponse.pdf},
+  annote = {ArXiv: http://arxiv.org/abs/1202.0501; R/Matlab source code http://netpro.r-forge.r-project.org}
+
+}
+
+@Article{Mosakhani10,
+  author =	 {Neda Mosakhani and Mohamed Guled and Leo Lahti and
+                  Ioana Borze and Minna Forsman and Jorma Ryh{\"a}nen
+                  and Sakari Knuutila},
+  title =	 {Unique microRNA profile in Dupuytren's contracture
+                  supports deregulation of \beta-catenin pathway},
+  journal =	 {Modern Pathology},
+  year =	 2010,
+  volume =	 23,
+  pages =	 {1544--1522},
+  url =
+                  {http://www.nature.com/modpathol/journal/v23/n11/full/modpathol2010146a.html},
+  note =	 {The International Dupuytren Award 2011}
+}
+
+@Article{Borze11,
+  author =	 {Ioana Borze and Mohamed Guled and Suad Musse and
+                  Anna Raunio and Erkki Elonen and Ulla
+                  Saarinen-Pihkala and Marja-Liisa
+                  Karjalainen-Lindsberg and Leo Lahti and Sakari
+                  Knuutila.},
+  title =	 {MicroRNA microarrays on archive bone marrow core
+                  biopsies of leukemias - method validation},
+  journal =	 {Leukemia Research},
+  year =	 2011,
+  volume =	 35,
+  issue =	 2,
+  pages =	 {188--195},
+  url =		 {http://dx.doi.org/10.1016/j.leukres.2010.08.005}
+}
+
+@Misc{Lahti10blog,
+  author =	 {Leo Lahti},
+  title =	 {opencomp blog},
+  howpublished = {Wordpress blog},
+  url =		 {http://antagomir.wordpress.com/},
+  note =	 {Blog}
+}
+
+@Misc{Lahti10pint,
+  author =	 {Olli-Pekka Huovilainen and Leo Lahti},
+  title =	 {pint: Pairwise integration of functional genomics
+                  data},
+  howpublished = {BioConductor},
+  month =	 {April},
+  year =	 2010,
+  url =
+                  {http://bioconductor.org/packages/devel/bioc/html/pint.html},
+  note =	 {Computer program.}
+}
+
+@Misc{Lahti10dmt,
+  author =	 {Leo Lahti and Abhishek Tripathi and Olli-Pekka
+                  Huovilainen},
+  title =	 {Dependency modeling toolkit},
+  howpublished = {ICML workshop},
+  month =	 {6},
+  year =	 2010,
+  url =		 {http://dmt.r-forge.r-project.org/},
+  note =	 {Computer program.}
+}
+
+@Misc{Lahti10netresponse,
+  author =	 {Leo Lahti and Antonio Gusmao and Olli-Pekka
+                  Huovilainen},
+  title =	 {NetResponse (functional network analysis)},
+  howpublished = {BioConductor},
+  month =	 {October},
+  year =	 2010,
+  url =
+                  {http://www.bioconductor.org/help/bioc-views/devel/bioc/html/netresponse.html},
+  doi =		 {https://doi.org/10.18129/B9.BIOC.NETRESPONSE},
+  note =	 {Computer program.}
+}
+
+@Misc{Lahti09rpa,
+  author =	 {Leo Lahti},
+  title =	 {RPA: probe reliability and differential gene
+                  expression analysis},
+  howpublished = {BioConductor},
+  month =	 {October},
+  year =	 2009,
+  url =
+                  {http://bioconductor.org/packages/release/bioc/html/RPA.html},
+  doi =		 {https://doi.org/10.18129/B9.BIOC.RPA},
+  note =	 {Computer program.}
+}
+
+@Article{Guled09,
+  author =	 {Mohamed Guled and Leo Lahti and Pamela M. Lindholm
+                  and Kaisa Salmenkivi and Izhar Bagwan and Andrew
+                  G. Nicholson and Sakari Knuutila},
+  title =	 {CDKN2A, NF2 and JUN Are Dysregulated Among Other
+                  Genes by miRNAs in Malignant Mesothelioma - a miRNA
+                  Microarray Analysis},
+  journal =	 {Genes, Chromosomes and Cancer},
+  year =	 2009,
+  volume =	 48,
+  number =	 7,
+  pages =	 {615--623},
+  url =
+                  {http://www3.interscience.wiley.com/journal/122358263/abstract}
+}
+
+
+
+
+
+
+@InProceedings{Lahti09mlsp,
+  author =	 {Leo Lahti and Samuel Myllykangas and Sakari Knuutila
+                  and Samuel Kaski},
+  title =	 {Dependency detection with similarity constraints},
+  booktitle =	 {Proc. MLSP'09 IEEE International Workshop on Machine
+                  Learning for Signal Processing XIX},
+  year =	 2009,
+  pages =	 {198--203},
+  address =	 {Piscataway, NJ},
+  note =	 {Open source implementation:
+                  http://bioconductor.org/packages/release/bioc/html/pint.html},
+  url =		 {http://arxiv.org/abs/1101.5919},
+  pdf =
+                  [https://www.researchgate.net/publication/48198833_Dependency_detection_with_similarity_constraints/file/9fcfd505af3f9e2f78.pdf
+},
+annote = {arXiv: http://arxiv.org/abs/1101.5919 -  R/Bioconductor (pint): http://bioconductor.org/packages/release/bioc/html/pint.html}
+
+}
+
+@article{Elo05,
+  author =	 {Elo, Laura L. and Lahti, Leo and Skottman, Heli and
+                  Kyl{\"a}niemi, Minna and Lahesmaa, Riitta and
+                  Aittokallio, Tero},
+  title =	 {Integrating probe-level expression changes across
+                  generations of Affymetrix arrays},
+  journal =	 {Nucleic Acids Research},
+  volume =	 33,
+  number =	 22,
+  pages =	 {e193},
+  doi =		 {10.1093/nar/gni193},
+  year =	 2005,
+  URL =
+                  {http://nar.oxfordjournals.org/cgi/content/abstract/33/22/e193
+                  },
+  eprint =
+                  {http://nar.oxfordjournals.org/cgi/reprint/33/22/e193.pdf}
+}
+
+@Article{Kaski05,
+  author =	 {Samuel Kaski and Janne Nikkil{\"a} and Janne
+                  Sinkkonen and Leo Lahti and Juha Knuuttila and
+                  Christophe Roos},
+  title =	 {Associative clustering for exploring dependencies
+                  between functional genomics data sets},
+  journal =	 {IEEE/ACM Transactions on Computational Biology and
+                  Bioinformatics},
+  year =	 2005,
+  volume =	 2,
+  number =	 3,
+  pages =	 {203--216},
+  note =	 {Special Issue on Machine Learning for Bioinformatics
+                  -- Part 2},
+  url =
+                  {http://www.cis.hut.fi/projects/mi/abstracts/tcbb05.html},
+  pdf =
+                  {https://www.researchgate.net/publication/6751780_Associative_clustering_for_exploring_dependencies_between_functional_genomics_data_sets/file/9fcfd505af3fa6d1b8.pdf}
+}
+
+@MastersThesis{Lahti03,
+  author =	 {Lahti, Leo},
+  title =	 {Comparative functional genome analysis using
+                  associative clustering},
+  school =	 {Helsinki University of Technology},
+  year =	 2003,
+  note =	 {(in Finnish)}
+}
+
+@Misc{Lahti09bsc,
+  author =	 {Leo Lahti},
+  title =	 {Concerning Blackburn's quasi-realism in securing
+                  moral discussion},
+  howpublished = {B.Sc. thesis. University of Helsinki, Faculty of
+                  Political Sciences},
+  month =	 {7},
+  year =	 2009,
+  url =
+                  {http://www.roihu.info/publications/theses/LeoLahti-BSc-2008.pdf},
+  note =	 {(In Finnish)}
+}
+
+@Article{Nymark07,
+  author =	 {Penny Nymark and Pamela M. Lindholm and Mikko
+                  V. Korpela and Leo Lahti and Salla Ruosaari and
+                  Samuel Kaski and Jaakko Hollmen and Sisko Anttila
+                  and Vuokko L. Kinnula and Sakari Knuutila},
+  title =	 {Gene Expression Profiles in Asbestos-exposed
+                  Epithelial and Mesothelial Lung Cell Lines},
+  journal =	 {BMC Genomics},
+  year =	 2007,
+  volume =	 8,
+  number =	 62,
+  url =
+                  {http://www.biomedcentral.com/1471-2164/8/62/abstract},
+  annote =	 {Includes CCA application on two asbestos-exposed
+                  cell lines.}
+}
+
+@TechReport{Sinkkonen05tr,
+  author =	 {Janne Sinkkonen and Samuel Kaski and Janne
+                  Nikkil{\"a} and Leo Lahti},
+  title =	 {Associative Clustering (AC): Technical Details},
+  institution =	 {Helsinki University of Technology},
+  year =	 2005,
+  number =	 {A84},
+  address =	 {Espoo, Finland},
+  month =	 {April},
+  note =	 {Publications in Computer and Information Science}
+}
+
+@InCollection{Sinkkonen04ecml,
+  author =	 {Janne Sinkkonen and Janne Nikkil\"{a} and Leo Lahti
+                  and Samuel Kaski},
+  title =	 {Associative Clustering},
+  booktitle =	 {Machine Learning: ECML2004 (Proceedings of the
+                  ECML'04, 15th European Conference on Machine
+                  Learning)},
+  editor =	 {Boulicaut and Esposito and Giannotti and Pedreschi},
+  pages =	 {396--406},
+  publisher =	 {Springer},
+  address =	 {Berlin},
+  year =	 2004,
+  url =
+                  {http://www.cis.hut.fi/projects/mi/abstracts/ecml04.html},
+  pdf =
+                  {http://www.researchgate.net/publication/225904975_Associative_Clustering}
+}
+
+
+
+
+@Misc{Lahti04socbin,
+  author =	 {Leo Lahti and Juha Knuuttila and Janne Nikkil{\"a}
+                  and Samuel Kaski},
+  title =	 {Exploring dependencies in the expression of
+                  orthologous man-mouse gene pairs},
+  year =	 2004,
+  note =	 {In Bioinformatics 2004, Link\"oping, Sweden, 6
+                  3-6, 2004.  A poster.}
+}
+
+
+@TechReport{Sinkkonen03tr,
+  author =	 {Janne Sinkkonen and Janne Nikkil\"{a} and Leo Lahti
+                  and Samuel Kaski},
+  title =	 {Associative Clustering by Maximizing a {B}ayes
+                  Factor},
+  institution =	 {Helsinki University of Technology, Laboratory of
+                  Computer and Information Science},
+  year =	 2003,
+  number =	 {A68},
+  address =	 {Espoo, Finland}
+}
+
+
+
+@article{Lahti17eurostat,
+  author =	 {Leo Lahti and Janne Huovari and Markus Kainu and Przemysław Biecek},
+  title =	 {Retrieval and Analysis of Eurostat Open Data with the eurostat Package},
+  year =	 2017,
+  journal =	 {The R Journal},
+  url =          {https://journal.r-project.org/archive/2017/RJ-2017-019/index.html},
+  pages =	 {385--392},
+  volume =	 9,
+  number =	 1,
+  note =	 {R package homepage URL: http://ropengov.github.io/eurostat/}
+
+}
+
+
+@Article{Shetty2017,
+  author =	 {Shetty, SA and Hugenholtz, F and Lahti, L and Smidt,
+                  H and de Vos, WM and Danchin, A},
+  title =	 {Intestinal microbiome landscaping: Insight in
+                  community assemblage and implications for microbial
+                  modulation strategies},
+  journal =	 {FEMS Microbiology Reviews},
+  volume =	 41,
+  issue =	 2,
+  month =	 {March},
+  pages =	 {182--199},
+  year =	 2017,
+  pages =	 {fuw045},
+  doi =		 {10.1093/femsre/fuw045}
+}
+
+
+@Article{sarhadi14,
+  author =	 {Virinder Sarhadi and Leo Lahti and Ilari Scheinin and Pekka Ellonen and Eeva Kettunen and Massimo Serra and Katia Scotlandi and Pierro Picci and Sakari Knuutila},
+  title =	 {Copy Number Alterations and Neoplasia Specific
+                  Mutations in MELK, PDCD1LG2, TLN1, and PAX5 at 9p in
+                  Different Neoplasias},
+  journal =	 {Genes, Chromosomes and Cancer},
+  year =	 2014,
+  volume =	 53,
+  number =	 7,
+  pages =	 {579--588},
+  month =	 7,
+  doi =		 {10.1002/gcc.22168}
+}
+
+@Article{Lahti13nar,
+  author =	 {Leo Lahti and Aurora Torrente and Laura L Elo and
+                  Alvis Brazma and Johan Rung},
+  title =	 {A fully scalable online pre-processing algorithm for
+                  short oligonucleotide microarray atlases},
+  journal =	 {Nucleic Acids Research},
+  volume =	 41,
+  number =	 10,
+  year =	 2013,
+  pages =	 {e110},
+  doi =		 {10.1093/nar/gkt229},
+  note =	 {Implementation available through Bioconductor RPA
+                  package.}
+}
+
+
+
+
