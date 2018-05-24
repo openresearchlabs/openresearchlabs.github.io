@@ -13,21 +13,19 @@ modern statistical and algorithmic data analysis, blending elements
 from various theoretical and methodological fields including
 statistical machine learning/AI, probabilistic programming, and data
 science among others. Our focus is on data-rich applications ranging
-from molecular life sciences to computational history. We run the
-[computational
+from molecular life sciences to computational history. We are running
+the [Computational
 biosciences](http://www.utu.fi/en/units/sci/units/math/Research/Pages/Computational-Systems-Biology-and-Biomedicine.aspx)
-research group in the Department of Mathematics and Statistics,
-University of Turku, and founding member of [Helsinki Computational
-History Group](https://comhis.github.io/).
+group in University of Turku, and are founding members of [Helsinki
+Computational History Group](https://comhis.github.io/).
 
 There is a great demand for targeted algorithmic methods to extract
-information and insights from data with minimal human intervention. By
-combining information across multiple, complementary sources it is
-possible to overcome some of the limitations and statistical
-uncertainties associated with individual data sets. Open source
-implementations turn the new models into accessible tools to guide
-modeling and experimentation. Open research practices play an
-important role in our work.
+information and insights from data with minimal human intervention to
+guide modeling and experimentation. By combining information across
+multiple, complementary sources it is possible to overcome some of the
+limitations and statistical uncertainties associated with individual
+data sets. Open research practices play an important role in our
+all work.
 
 
 <!--<li>**PhD position open** for calls until May 26, 2017 in Computational (bio)science in KU Leuven, Belgium / University of Turku, Finland ([English](https://rekry.saima.fi/certiahome/open_job_view.html?id=00003662&did=5600&lang=en&jc=14&nav_from_open_jobs_view_new=true) / [Finnish](https://rekry.saima.fi/certiahome/open_job_view.html?id=00003662&did=5600&lang=fi&jc=14&nav_from_open_jobs_view_new=true))-->
