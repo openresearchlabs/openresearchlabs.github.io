@@ -13,8 +13,9 @@ modern statistical and algorithmic data analysis, blending elements
 from various theoretical and methodological fields including
 statistical machine learning/AI, probabilistic programming, and data
 science among others. Our focus is on data-rich applications ranging
-from molecular life sciences to computational history. We are running
-the [Computational
+from molecular life sciences to computational history.
+
+The team coordinates [Computational
 biosciences](http://www.utu.fi/en/units/sci/units/math/Research/Pages/Computational-Systems-Biology-and-Biomedicine.aspx)
 group in University of Turku, and are founding members of [Helsinki
 Computational History Group](https://comhis.github.io/).

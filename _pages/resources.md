@@ -17,7 +17,7 @@ permalink: /team/resources.html
 
 # Public outreach
 
-- Guidelines on public outreach in research: [Finnish](http://www.tjnk.fi/sites/tjnk.fi/files/tiedeviestinnan_suositukset_2018.pdf) / [English](http://www.tjnk.fi/sites/tjnk.fi/files/recom_scicommunication_2018.pdf) / [Swedish](http://www.tjnk.fi/sites/tjnk.fi/files/rekom_vetensskapkommunikation_2018.pdf) The Committee for Public Information 2018
+Guidelines on public outreach in research: [Finnish](http://www.tjnk.fi/sites/tjnk.fi/files/tiedeviestinnan_suositukset_2018.pdf) / [English](http://www.tjnk.fi/sites/tjnk.fi/files/recom_scicommunication_2018.pdf) / [Swedish](http://www.tjnk.fi/sites/tjnk.fi/files/rekom_vetensskapkommunikation_2018.pdf). The Committee for Public Information, 2018.
 
 
 # Review process 
