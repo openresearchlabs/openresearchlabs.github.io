@@ -19,17 +19,17 @@ Presentation slides, posters and other material available via [Github](https://g
 
 
 
-[**Academy of Finland video blog**](https://www.youtube.com/watch?v=duF4LBCII9o&t=4s) 2/2017  
+2/2017 [**Academy of Finland video blog**](https://www.youtube.com/watch?v=duF4LBCII9o&t=4s) 
 
-[**Open Peer Review**](http://livestream.com/accounts/2914987/events/4349899/videos/100125511/player?autoPlay=false&height=360&mute=false&width=640) Presentation in Academic MindTrek, Tampere 24.9.2015
+9/2015 [**Open Peer Review**](http://livestream.com/accounts/2914987/events/4349899/videos/100125511/player?autoPlay=false&height=360&mute=false&width=640) in Academic MindTrek, Tampere 
 
-[**Open science interview**](http://blogs.helsinki.fi/tiedeviestinta/2014/02/26/leo-lahti/) University of Helsinki 'Tiedeviestinnän verkkosivut' 26.2.2014.
+26.2/2014 [**Open science interview**](http://blogs.helsinki.fi/tiedeviestinta/2014/02/26/leo-lahti/) University of Helsinki
 
-[**Apps4Finland interview**](http://vimeo.com/49912227), Helsinki, Finland 21.9.2012.
+9/2012 [**Apps4Finland interview**](http://vimeo.com/49912227)
 
-[**Open Tools for Open Data in Finland**](http://www.livestream.com/shareconference/video?clipId=pla_62b42b8c-eea4-4555-9447-c3432e356c81), SHARE Conference, Belgrade, Serbia 26.4.2012. 
+4/2012 [**Open Tools for Open Data in Finland**](http://www.livestream.com/shareconference/video?clipId=pla_62b42b8c-eea4-4555-9447-c3432e356c81), SHARE Conference, Belgrade, Serbia 
 
-[**Avoimen datan soRvi-kirjaston esittely**](http://www.hri.fi/visualisointiblogi/videot/leo-lahti-esittelee-sorvi-ympariston/) (in Finnish) ([video 1](http://www.hri.fi/visualisointiblogi/videot/leo-lahti-esittelee-sorvi-ympariston/) [video 2](http://www.hri.fi/visualisointiblogi/videot/sorvi-esimerkki-1-leo-lahti-esittelee-sorvi-ohjelmiston-kayttoa/) [video 3](http://www.hri.fi/visualisointiblogi/videot/sorvi-esimerkki-2-leo-lahti-esittelee-sorvi-ohjelmiston-kayttoa/));
+1/2012 [**Avoimen datan soRvi-kirjaston esittely**](http://www.hri.fi/visualisointiblogi/videot/leo-lahti-esittelee-sorvi-ympariston/) (in Finnish) ([video 1](http://www.hri.fi/visualisointiblogi/videot/leo-lahti-esittelee-sorvi-ympariston/) [video 2](http://www.hri.fi/visualisointiblogi/videot/sorvi-esimerkki-1-leo-lahti-esittelee-sorvi-ohjelmiston-kayttoa/) [video 3](http://www.hri.fi/visualisointiblogi/videot/sorvi-esimerkki-2-leo-lahti-esittelee-sorvi-ohjelmiston-kayttoa/));
 
 
 <!--[**Avoin data ja avoimet välineet Suomessa**](http://www.youtube.com/watch?v=4re-3qtm1os), Instanssi festival for digital creativity, Jyväskylä, Finland. March 2012.-->
@@ -43,12 +43,11 @@ Presentation slides, posters and other material available via [Github](https://g
 Presentation slides
 -----
 
-
-You can find the PDF/OpenOffice files for most slides [here](https://github.com/antagomir/antagomir.github.io/tree/master/files/publications/slides). See also the separate page on [teaching material](../edu/).
+Find the PDF/OpenOffice files for most slides [here](https://github.com/antagomir/antagomir.github.io/tree/master/files/publications/slides). See also the separate page on [teaching material](../edu/).
 
 [International summer school on microbial network analysis](http://psbweb05.psb.ugent.be/conet/econetschool/index.php) in Leuven, Belgium Sep 11-13, 2017. [Lecture slides](https://github.com/antagomir/antagomir.github.io/blob/master/files/publications/slides/20170913-Leuven-Lecture-Lahti.odp?raw=true) [R Tutorial](https://github.com/antagomir/antagomir.github.io/blob/master/files/publications/slides/20170913-Leuven-Tutorial-Lahti.odp?raw=true)  
 
-[rOpenGov: a community project for open government data](https://speakerdeck.com/antagomir/ropengov-at-user2017) in Brussel UseR! Conference, July 6, 2017  
+[rOpenGov: a community project for open government data](https://speakerdeck.com/antagomir/ropengov-at-user2017) in Brussel UseR! Conference, 7/2017  
 
 [The semantics of data integration](https://github.com/antagomir/antagomir.github.com/blob/master/files/publications/slides/20170227-Lahti.pdf), Brussels, Belgium 2/2017
 

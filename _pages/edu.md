@@ -20,10 +20,10 @@ Courses and seminars
 2/2018  
 VIB/KU Leuven, Belgium [Introduction to probabilistic programming](http://www.vib.be/en/training/research-training/courses/Pages/Probabilistic-programming-with-(R)Stan,-a-new-approach-to-linear-models.aspx). Lecture slides [ODP](https://github.com/antagomir/antagomir.github.io/blob/master/files/publications/slides/20180226-rstan-VIB.odp); [PDF](https://github.com/antagomir/antagomir.github.io/blob/master/files/publications/slides/20180226-rstan-VIB.pdf)
 
-9/2017
+9/2017  
 KU Leuven [International summer school on microbial network analysis](http://psbweb05.psb.ugent.be/conet/econetschool/index.php)
 
-12/2016
+12/2016  
 University of Helsinki [Conference on Philosophy and History of Open Science (#PHOS16)](https://www.helsinki.fi/en/researchgroups/helsinki-digital-humanities/phos16-conference)
 
 <!--Further courses in the past on high-throughput bioinformatics,
