@@ -10,7 +10,7 @@ permalink: /team/
 
 # Research team
 
-**Welcome to contact us to discuss research/study positions and collaboration (BSc/MSc/PhD/Postdoc).** 
+**Welcome to contact us to discuss research/study positions and collaboration.** 
 
 <!--Jump to [PhD students](#phd), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors).-->
 

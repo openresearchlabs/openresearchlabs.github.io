@@ -23,7 +23,7 @@ Presentation slides, posters and other material available via [Github](https://g
 
 9/2015 [**Open Peer Review**](http://livestream.com/accounts/2914987/events/4349899/videos/100125511/player?autoPlay=false&height=360&mute=false&width=640) in Academic MindTrek, Tampere 
 
-2/2014 [**Open science interview**](http://blogs.helsinki.fi/tiedeviestinta/2014/02/26/leo-lahti/) University of Helsinki
+2/2014 [**Open science interview**](http://blogs.helsinki.fi/tiedeviestinta/2014/02/26/leo-lahti/) University of Helsinki, Finland.
 
 9/2012 [**Apps4Finland interview**](http://vimeo.com/49912227)
 
@@ -36,7 +36,7 @@ Presentation slides, posters and other material available via [Github](https://g
 
 <!--[**Apps4Finland-gaalaesitelmä**](http://bambuser.com/v/2148849) (at 38:10), Apps4Finland Gala. Vanha ylioppilastalo. Helsinki, Finland. November 2011.-->
 
-[**Dependency Modeling Toolkit**](http://videolectures.net/icml2010_lahti_dmt/), ICML/MLSS Workshop. Haifa, Israel. June 2010.
+6/2010 [**Dependency Modeling Toolkit**](http://videolectures.net/icml2010_lahti_dmt/), ICML/MLSS Workshop. Haifa, Israel. 
 
 
 

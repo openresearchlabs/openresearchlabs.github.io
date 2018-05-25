@@ -28,7 +28,7 @@ You are welcome to contact us to discuss research/study positions and collaborat
 
 **Visiting address** Yliopistonmäki, Turku <a href="http://www.utu.fi/en/university/contact/Pages/home.aspx">(Map)</a>
 
-You can also find in <a href="https://twitter.com/antagomir">Twitter</a>, <a href="https://github.com/antagomir">Github</a>, IRC (antagomir @ IRCnet / FreeNode).
+<!--You can also follow in <a href="https://twitter.com/antagomir">Twitter</a>-->
 
 
 
