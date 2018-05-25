@@ -10,7 +10,7 @@ permalink: /publications/
 Publications
 ============
 
-The complete bibliography is available in [BibTex](lahti.bib). You can find most papers and other outputs from [here](publications/), or just ask by email.
+The complete bibliography is available in [BibTex](lahti.bib). You can find most papers and other outputs from [here](publications/), or just ask by email. For code, data, and audiovisual material see the separate [code](../code/) and [media](../media/) pages.
 
 
 <!-- This is for altmetrics padges from http://www.altmetric.com/-->
@@ -49,9 +49,6 @@ For source material (LaTeX code, figures etc.) of these theses, see [Github](htt
 {% bibliography --file lahti  --query @*[status=abstract && status!=highlight && keywords!=openscience] %}
 
 
-## Digital material
-
-See the separate [code](../code/) and [media](../media/) pages.
 
 
 <!--The material is presented to ensure timely dissemination of scholarly and technical work. While I aim to grant CC or other open source/copyleft licenses for the content wherever possible, kindly note that copyright in the external links and all rights therein are retained by authors or by other copyright holders.-->

@@ -32,7 +32,7 @@ all work.
 <!--<li>**PhD position open** for calls until May 26, 2017 in Computational (bio)science in KU Leuven, Belgium / University of Turku, Finland ([English](https://rekry.saima.fi/certiahome/open_job_view.html?id=00003662&did=5600&lang=en&jc=14&nav_from_open_jobs_view_new=true) / [Finnish](https://rekry.saima.fi/certiahome/open_job_view.html?id=00003662&did=5600&lang=fi&jc=14&nav_from_open_jobs_view_new=true))-->
 
 
-<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" style="width: 450px">
+<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" style="width: 350px">
     <!-- Menu -->
     <ol class="carousel-indicators">
         <li data-target="#carousel" data-slide-to="0" class="active"></li>
