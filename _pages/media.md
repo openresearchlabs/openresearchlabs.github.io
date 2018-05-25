@@ -23,7 +23,7 @@ Presentation slides, posters and other material available via [Github](https://g
 
 9/2015 [**Open Peer Review**](http://livestream.com/accounts/2914987/events/4349899/videos/100125511/player?autoPlay=false&height=360&mute=false&width=640) in Academic MindTrek, Tampere 
 
-26.2/2014 [**Open science interview**](http://blogs.helsinki.fi/tiedeviestinta/2014/02/26/leo-lahti/) University of Helsinki
+2/2014 [**Open science interview**](http://blogs.helsinki.fi/tiedeviestinta/2014/02/26/leo-lahti/) University of Helsinki
 
 9/2012 [**Apps4Finland interview**](http://vimeo.com/49912227)
 
@@ -43,7 +43,7 @@ Presentation slides, posters and other material available via [Github](https://g
 Presentation slides
 -----
 
-Find the PDF/OpenOffice files for most slides [here](https://github.com/antagomir/antagomir.github.io/tree/master/files/publications/slides). See also the separate page on [teaching material](../edu/).
+PDF/OpenOffice source files [here](https://github.com/antagomir/antagomir.github.io/tree/master/files/publications/slides). See also separate page on [teaching material](../edu/).
 
 [International summer school on microbial network analysis](http://psbweb05.psb.ugent.be/conet/econetschool/index.php) in Leuven, Belgium Sep 11-13, 2017. [Lecture slides](https://github.com/antagomir/antagomir.github.io/blob/master/files/publications/slides/20170913-Leuven-Lecture-Lahti.odp?raw=true) [R Tutorial](https://github.com/antagomir/antagomir.github.io/blob/master/files/publications/slides/20170913-Leuven-Tutorial-Lahti.odp?raw=true)  
 
@@ -69,8 +69,8 @@ Further slides available via [Github](https://github.com/antagomir/antagomir.git
 Blogs
 ------
 
-[rOpenGov](http://ropengov.github.io) Co-authored blog on open data analysis
-[Louhos](http://louhos.wordpress.com) Finnish blog on open government data analysis
+[rOpenGov](http://ropengov.github.io) Co-authored blog on open data analysis  
+[Louhos](http://louhos.wordpress.com) Finnish blog on open government data analysis  
 [opencomp](http://antagomir.wordpress.com) Open research blog  
 
 
@@ -79,13 +79,17 @@ Selected posters
 -----
 
 
-[Opportunities and challenges in large-scale microbiome-profiling studies](../files/publications/posters/20160901-Turku/poster.pdf) _Biocity symposium, Turku, Finland 2016_.
+[Opportunities and challenges in large-scale microbiome-profiling studies](../files/publications/posters/20160901-Turku/poster.pdf)
+_Biocity symposium, Turku, Finland 2016_.
 
-[Human intestinal microbiota dynamics and stability in large population cohorts](../files/publications/posters/20150331-IHMC/poster.pdf) _IHMC 2015_.
+[Human intestinal microbiota dynamics and stability in large population cohorts](../files/publications/posters/20150331-IHMC/poster.pdf)  
+_International Human Microbiome Conference 2015_.
 
-[Diversity and Stability analysis of the Human Gut Microbiota from Birth to Retirement](http://www.slideshare.net/antagomir/poster-14221161) _ECCB, Basel 2012_.
+[Diversity and Stability analysis of the Human Gut Microbiota from Birth to Retirement](http://www.slideshare.net/antagomir/poster-14221161)
 
-[Fully scalable online­preprocessing approach for large­scale gene expression atlases](../files/publications/posters/20120908-ECCB-RPA/poster.pdf) _ECCB, Basel 2012_.
+[Fully scalable online­preprocessing approach for large­scale gene expression atlases](../files/publications/posters/20120908-ECCB-RPA/poster.pdf)
+_European Conference on Computational Biology, Basel 2012_.
+
 
 <!--
 [Meta-analysis of human gut microbiota: Community composition and health associations](http://posters.f1000.com/P1886) _ISMB, Vienna 2011_.

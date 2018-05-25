@@ -23,15 +23,12 @@ You are welcome to contact us to discuss research/study positions and collaborat
   **Email** <a href="mailto:leo.lahti@iki.fi"><i class="fa fa-fw fa-envelope-o"></i>leo.lahti@iki.fi</a>  
 <p></p>
 
-<!--**IRC** antagomir @ IRCnet / FreeNode-->
-
-**Homepage** [http://www.iki.fi/Leo.Lahti](http://www.iki.fi/Leo.Lahti)  
-
-**Twitter** <a href="https://twitter.com/antagomir">@antagomir</a>  
 
 **Mail** Department of Mathematics and Statistics, Yliopistonmäki, FI-20014, University of Turku, Finland
 
-**Visit**  <a href="http://www.utu.fi/en/university/contact/Pages/home.aspx">Map</a>
+**Visiting address** Yliopistonmäki, Turku <a href="http://www.utu.fi/en/university/contact/Pages/home.aspx">(Map)</a>
+
+You can also find in <a href="https://twitter.com/antagomir">Twitter</a>, <a href="https://github.com/antagomir">Github</a>, IRC (antagomir @ IRCnet / FreeNode).
 
 
 

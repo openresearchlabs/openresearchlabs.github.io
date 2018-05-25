@@ -76,5 +76,5 @@ Data
 
 [Probiotics intervention data with high-throughput profiling of the gut microbiome and serum lipidome](https://github.com/microbiome/microbiome/blob/master/data/peerj32.rda) (RData format); from Associations between the human intestinal microbiota, Lactobacillus rhamnosus GG and serum lipids indicated by integrated analysis of high-throughput profiling data. [Lahti et al. PeerJ 1:e32, 2013](http://dx.doi.org/10.7717/peerj.32) 
 
-<center><a href="http://opendefinition.org/"><img alt="This material is Open Knowledge" border="0" src="http://m.okfn.org/images/ok_buttons/ok_80x15_blue.png"/></a></center>
+<!--<center><a href="http://opendefinition.org/"><img alt="This material is Open Knowledge" border="0" src="http://m.okfn.org/images/ok_buttons/ok_80x15_blue.png"/></a></center>-->
 

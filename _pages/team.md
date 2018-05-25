@@ -18,7 +18,7 @@ permalink: /team/
 Principal Investigator: Leo Lahti
 ------------------------
 
-<img class='inset right' src='../images/teampic/Leo_Lahti.jpg' title='Leo Lahti' alt='Photo' width='120px' />
+<img class='inset right' src='../images/teampic/Leo_Lahti2.jpg' title='Leo Lahti' alt='Photo' width='120px' />
 
 - Academy of Finland Research Fellow 2016-2021  
 - [University of Turku](https://www.utu.fi/en/units/sci/units/math/Pages/home.aspx), Finland. Docent/Adjunct Professor. Applied Mathematics.
