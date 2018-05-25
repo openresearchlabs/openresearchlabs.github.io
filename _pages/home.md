@@ -8,17 +8,19 @@ permalink: /
 
 **Modern data analysis from theory to practice**
 
-We carry out research on the theory, methods and applications of
-modern statistical and algorithmic data analysis, blending elements
-from various theoretical and methodological fields including
-statistical machine learning/AI, probabilistic programming, and data
-science among others. Our focus is on data-rich applications ranging
-from molecular life sciences to computational history.
+We carry out research on theory, methods and applications of modern
+statistical and algorithmic data analysis, blending elements from
+various fields including statistical machine learning/AI,
+probabilistic programming, numerical ecology, and data science among
+others.
 
-The team coordinates [Computational
+Our focus is on data-rich applications ranging from molecular life
+sciences to computational history. The [research team](team.md) is led
+by PI Leo Lahti who coordinates the [Computational
 biosciences](http://www.utu.fi/en/units/sci/units/math/Research/Pages/Computational-Systems-Biology-and-Biomedicine.aspx)
-group in University of Turku, and are founding members of [Helsinki
-Computational History Group](https://comhis.github.io/).
+group in University of Turku, Finland. We are also founding members
+and part of [Helsinki Computational History
+Group](https://comhis.github.io/).
 
 There is a great demand for targeted algorithmic methods to extract
 information and insights from data with minimal human intervention to
