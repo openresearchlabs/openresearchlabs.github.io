@@ -23,7 +23,7 @@ Principal Investigator: Leo Lahti
 - Academy of Finland Research Fellow 2016-2021  
 - [University of Turku](https://www.utu.fi/en/units/sci/units/math/Pages/home.aspx), Finland. Docent/Adjunct Professor. Applied Mathematics.
 - [Blueprint Genetics](https://blueprintgenetics.com/) - Scientific Advisor (AI & Machine Learning)
-- [VIB/KU Leuven](http://www.kuleuven.be/wieiswie/en/unit/50000700), Belgium. Visiting Researcher  
+- [VIB/KU Leuven (Raes Lab)](http://www.kuleuven.be/wieiswie/en/unit/50000700), Belgium. Visiting Researcher  
 - [Open Science work group](http://fi.okfn.org/wg/openscience/) of the Open Knowledge Finland (OKF). Founding member and former coordinator  
 - Twitter: [@antagomir](https://twitter.com/antagomir)
 
