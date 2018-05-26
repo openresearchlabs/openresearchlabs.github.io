@@ -1,7 +1,7 @@
 ---
 title: "Media"
 layout: gridlay
-excerpt: "Lahti Lab -- Media"
+excerpt: "Media"
 sitemap: false
 permalink: /media/
 ---
@@ -11,7 +11,7 @@ permalink: /media/
 Video lectures and interviews 
 -----
 
-Presentation slides, posters and other material available via [Github](https://github.com/antagomir/antagomir.github.com/tree/master/files/publications) and [SlideShare](http://www.slideshare.net/antagomir/presentations)
+Presentation slides, posters and other material available via [Github](https://github.com/openresearchlabs/openresearchlabs.github.io/tree/master/publications/publications/) and [SlideShare](http://www.slideshare.net/antagomir/presentations)
 
 <!--<iframe src="http://livestream.com/accounts/2914987/events/4349899/videos/100125511/player?autoPlay=false&mute=false" frameborder="0" scrolling="no"></iframe>-->
 <!-- To adjust frame size use: -->
@@ -43,27 +43,27 @@ Presentation slides, posters and other material available via [Github](https://g
 Presentation slides
 -----
 
-PDF/OpenOffice source files [here](https://github.com/antagomir/antagomir.github.io/tree/master/files/publications/slides). See also separate page on [teaching material](../edu/).
+PDF/OpenOffice source files [here](https://github.com/openresearchlabs/openresearchlabs.github.io/tree/master/publications/publications/slides). See also separate page on [teaching material](../edu/).
 
-[International summer school on microbial network analysis](http://psbweb05.psb.ugent.be/conet/econetschool/index.php) in Leuven, Belgium Sep 11-13, 2017. [Lecture slides](https://github.com/antagomir/antagomir.github.io/blob/master/files/publications/slides/20170913-Leuven-Lecture-Lahti.odp?raw=true) [R Tutorial](https://github.com/antagomir/antagomir.github.io/blob/master/files/publications/slides/20170913-Leuven-Tutorial-Lahti.odp?raw=true)  
+[International summer school on microbial network analysis](http://psbweb05.psb.ugent.be/conet/econetschool/index.php) in Leuven, Belgium Sep 11-13, 2017. [Lecture slides](https://github.com/antagomir/antagomir.github.io/blob/master/publications/publications/slides/20170913-Leuven-Lecture-Lahti.odp?raw=true) [R Tutorial](https://github.com/antagomir/antagomir.github.io/blob/master/publications/publications/slides/20170913-Leuven-Tutorial-Lahti.odp?raw=true)  
 
 [rOpenGov: a community project for open government data](https://speakerdeck.com/antagomir/ropengov-at-user2017) in Brussel UseR! Conference, 7/2017  
 
-[The semantics of data integration](https://github.com/antagomir/antagomir.github.com/blob/master/files/publications/slides/20170227-Lahti.pdf), Brussels, Belgium 2/2017
+[The semantics of data integration](https://github.com/openresearchlabs/openresearchlabs.github.io/tree/master/publications/publications/slides/20170227-Lahti.pdf), Brussels, Belgium 2/2017
 
-[Human microbiome: from individuals to populations](https://github.com/rOpenGov/fennica/blob/master/inst/examples/20170216-Oulu-Lahti.pdf), Oulu, Finland 2/2017
+[Human microbiome: from individuals to populations](https://github.com/COMHIS/fennica/blob/master/inst/examples/20170216-Oulu-Lahti.pdf), Oulu, Finland 2/2017
 
-[Population-level profiling of the human microbiome](https://github.com/antagomir/antagomir.github.com/blob/master/files/publications/slides/20170215-Lahti-NAEM.odp?raw=true), Lunteren, The Netherlands 2/2017  
+[Population-level profiling of the human microbiome](https://github.com/openresearchlabs/openresearchlabs.github.io/tree/master/publications/publications/slides/20170215-Lahti-NAEM.odp?raw=true), Lunteren, The Netherlands 2/2017  
 
-[Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1640-1828](https://github.com/rOpenGov/fennica/blob/master/inst/examples/20160715-Krakow-Fennica.pdf) Krakow, Poland, 7/2016.
+[Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1640-1828](https://github.com/COMHIS/fennica/blob/master/inst/examples/20160715-Krakow-Fennica.pdf) Krakow, Poland, 7/2016.
 
-[Population-level microbiome profiling studies](https://github.com/antagomir/antagomir.github.com/tree/master/files/publications/slides/20161028-BSM-Lahti.pdf) Brussels, Belgium, 2016.
+[Population-level microbiome profiling studies](https://github.com/antagomir/antagomir.github.com/tree/master/publications/publications/slides/20161028-BSM-Lahti.pdf) Brussels, Belgium, 2016.
 
-[Digital humanities and open science](https://github.com/antagomir/antagomir.github.com/tree/master/files/publications/slides/20160916-HY-LeoLahti.pdf) Helsinki, Finland, 2016.
+[Digital humanities and open science](https://github.com/antagomir/antagomir.github.com/tree/master/publications/publications/slides/20160916-HY-LeoLahti.pdf) Helsinki, Finland, 2016.
 
-[Opportunities and challenges in large-scale microbiome profiling studies](https://github.com/antagomir/antagomir.github.com/tree/master/files/publications/slides/20160901-Lahti.pdf) Turku, Finland 9/2016.
+[Opportunities and challenges in large-scale microbiome profiling studies](https://github.com/antagomir/antagomir.github.com/tree/master/publications/publications/slides/20160901-Lahti.pdf) Turku, Finland 9/2016.
 
-Further slides available via [Github](https://github.com/antagomir/antagomir.github.com/tree/master/files/publications) and [SlideShare](http://www.slideshare.net/antagomir/presentations)
+Further slides available via [Github](https://github.com/antagomir/antagomir.github.com/tree/master/publications/publications) and [SlideShare](http://www.slideshare.net/antagomir/presentations)
 
 
 Blogs
@@ -79,24 +79,24 @@ Selected posters
 -----
 
 
-[Opportunities and challenges in large-scale microbiome-profiling studies](../files/publications/posters/20160901-Turku/poster.pdf)
+[Opportunities and challenges in large-scale microbiome-profiling studies](../publications/publications/posters/20160901-Turku/poster.pdf)
 _Biocity symposium, Turku, Finland 2016_.
 
-[Human intestinal microbiota dynamics and stability in large population cohorts](../files/publications/posters/20150331-IHMC/poster.pdf)  
+[Human intestinal microbiota dynamics and stability in large population cohorts](../publications/publications/posters/20150331-IHMC/poster.pdf)  
 _International Human Microbiome Conference 2015_.
 
 [Diversity and Stability analysis of the Human Gut Microbiota from Birth to Retirement](http://www.slideshare.net/antagomir/poster-14221161)
 
-[Fully scalable online­preprocessing approach for large­scale gene expression atlases](../files/publications/posters/20120908-ECCB-RPA/poster.pdf)
+[Fully scalable online­preprocessing approach for large­scale gene expression atlases](../publications/publications/posters/20120908-ECCB-RPA/poster.pdf)
 _European Conference on Computational Biology, Basel 2012_.
 
 
 <!--
 [Meta-analysis of human gut microbiota: Community composition and health associations](http://posters.f1000.com/P1886) _ISMB, Vienna 2011_.
 
-[Combining multiple data sources in functional genomics for improving genome-wide inferences](../files/publications/posters/sysbioposteri07.pdf) _SYSBIO symposium, Helsinki, Finland 2007_.
+[Combining multiple data sources in functional genomics for improving genome-wide inferences](../publications/publications/posters/sysbioposteri07.pdf) _SYSBIO symposium, Helsinki, Finland 2007_.
 
-[Probabilistic analysis of probe performance on short nucleotide arrays](../files/publications/posters/ismb07_a4.pdf) _ISMB, Vienna, 2007_. 
+[Probabilistic analysis of probe performance on short nucleotide arrays](../publications/publications/posters/ismb07_a4.pdf) _ISMB, Vienna, 2007_. 
 -->
 
 

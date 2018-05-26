@@ -16,7 +16,7 @@ Open research data and software
 
 [![Research software impact](http://depsy.org/api/person/333684/badge.svg)](http://depsy.org/person/333684) 
 
-Mature open source projects are listed below. See [GitHub](https://github.com/antagomir) for bleeding edge code. See also the brief [memo on open licensing of scientific material](licensing/).
+Mature open source projects are listed below. See [GitHub](https://github.com/antagomir) for bleeding edge code. See also the brief [memo on open licensing of scientific material](../licensing/).
 
 
 
