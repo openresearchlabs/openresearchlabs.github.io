@@ -9,13 +9,13 @@
 #  education4:  
 
 - name: Ville Laitinen
-  photo: ../images/teampic/Leo_Lahti2.jpg
+  photo: ville_laitinen.jpg
   info: PhD student
   email: ville.laitinen@utu.fi
 
 - name: Aaro Salosensaari
   photo: Aaro_salosensaari.jpg
-  info: PhD student (co-supervised with Teemu Niiranen)
+  info: PhD student (co-supervised with Doc Teemu Niiranen)
   email: aaro.salosensaari@utu.fi
 
 - name: Joonatan Palmu
