@@ -36,8 +36,8 @@ computational inference, data fusion in bioinformatics.-->
 Teaching software
 -----
 
-[An open framework for creating and assessing exercises for R courses](https://ropengov.github.io/edu/). UseR2017! talk on commu
-nity-based learning and knowledge sharing; 7/2017
+7/2017 UseR2017!  
+[An open framework for creating and assessing exercises for R courses](https://ropengov.github.io/edu/)
 
 
 Tutorials and Data
