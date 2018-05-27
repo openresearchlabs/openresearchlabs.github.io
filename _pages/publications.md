@@ -20,7 +20,6 @@ For code, data, and audiovisual material see the separate [code](../code/) and [
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 
 
-
 ## Selected work
 
 {% bibliography --file lahti --query @*[status=highlight] %}
