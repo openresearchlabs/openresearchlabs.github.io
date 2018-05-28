@@ -7,6 +7,10 @@ permalink: /team/resources.html
 ---
 
 
+# Expectations
+
+[Code of conduct and expectations for lab members](expectations)
+
 
 # Research ethics and integrity
 
