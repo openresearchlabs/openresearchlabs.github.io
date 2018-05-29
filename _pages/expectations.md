@@ -3,7 +3,7 @@ title: "Welcome"
 layout: gridlay
 excerpt: "Welcome"
 sitemap: false
-permalink: /code/
+permalink: /team/
 ---
 
 
