@@ -7,12 +7,6 @@ permalink: /media/
 ---
 
 
-<!--
-Member of organizing committee Philosophy and History of Open Science (PHOS) 2016 - International conference with 100+ registered participants, 15 invited (mostly international) speakers in University of Helsinki; Finnish Bioinformatics Days 2008-2010 (3 years). 
-
-Member of program committee Digital Humanities in the Nordics (DH2018). International conference, University of Helsinki (Open Science chair); European Conference on Machine Learning & Principles and Practice of Knowledge Discovery (ECML-PKDD 2017-2018). 
--->
-
 
 Versus - online journal
 -------------

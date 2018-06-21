@@ -7,9 +7,6 @@ permalink: /code/
 ---
 
 
-<!--<img class='inset right' src='../images/meitsi2006.jpg' title='Leo Lahti' alt='Photo' width='120px' />-->
-
-
 
 Open research data and software
 ----------------------------------
