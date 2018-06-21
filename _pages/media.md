@@ -6,13 +6,12 @@ sitemap: false
 permalink: /media/
 ---
 
-Work groups University of Turku open science methods policy (OpenUTU work group 2017-);
 
-Societies Open Knowledge Finland ry. Open Science Work Group. Founder & coordinator 2013-15. Board member Finnish Society for Bioinformatics: PR 2008-9; Vice president 2009-10; Treasurer  2002 in Mathematics student union, Helsinki University of Technology; 
-
+<!--
 Member of organizing committee Philosophy and History of Open Science (PHOS) 2016 - International conference with 100+ registered participants, 15 invited (mostly international) speakers in University of Helsinki; Finnish Bioinformatics Days 2008-2010 (3 years). 
 
 Member of program committee Digital Humanities in the Nordics (DH2018). International conference, University of Helsinki (Open Science chair); European Conference on Machine Learning & Principles and Practice of Knowledge Discovery (ECML-PKDD 2017-2018). 
+-->
 
 
 Versus - online journal
