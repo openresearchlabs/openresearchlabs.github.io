@@ -6,6 +6,19 @@ sitemap: false
 permalink: /media/
 ---
 
+Work groups University of Turku open science methods policy (OpenUTU work group 2017-);
+
+Societies Open Knowledge Finland ry. Open Science Work Group. Founder & coordinator 2013-15. Board member Finnish Society for Bioinformatics: PR 2008-9; Vice president 2009-10; Treasurer  2002 in Mathematics student union, Helsinki University of Technology; 
+
+Member of organizing committee Philosophy and History of Open Science (PHOS) 2016 - International conference with 100+ registered participants, 15 invited (mostly international) speakers in University of Helsinki; Finnish Bioinformatics Days 2008-2010 (3 years). 
+
+Member of program committee Digital Humanities in the Nordics (DH2018). International conference, University of Helsinki (Open Science chair); European Conference on Machine Learning & Principles and Practice of Knowledge Discovery (ECML-PKDD 2017-2018). 
+
+
+Versus - online journal
+-------------
+
+[Versus](https://www.versuslehti.fi/english/) is an online research forum published by Society for Regional and Environmental Studies, Finnish Society for Environmental Social Science, and Geographical Society of Finland. It aims to make research more visible and effective by publishing popularized versions of scholarly work and providing an academic discussion forum. Editorial board. 
 
 
 Video lectures and interviews 
@@ -16,6 +29,8 @@ Presentation slides, posters and other material available via [Github](https://g
 <!--<iframe src="http://livestream.com/accounts/2914987/events/4349899/videos/100125511/player?autoPlay=false&mute=false" frameborder="0" scrolling="no"></iframe>-->
 <!-- To adjust frame size use: -->
 <!--<iframe src="http://livestream.com/accounts/2914987/events/4349899/videos/100125511/player?autoPlay=false&height=360&mute=false&width=640" width="640" height="360" frameborder="0" scrolling="no"></iframe>-->
+
+
 
 
 
