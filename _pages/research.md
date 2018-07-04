@@ -1,7 +1,7 @@
 ---
-title: "Lahti Lab - Research"
+title: "Open Research Labs - Research"
 layout: textlay
-excerpt: "Lahti Lab / Research"
+excerpt: "Open Research Labs / Research"
 sitemap: false
 permalink: /research/
 ---

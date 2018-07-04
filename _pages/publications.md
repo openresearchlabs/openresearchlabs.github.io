@@ -1,7 +1,7 @@
 ---
 title: "Publications"
 layout: gridlay
-excerpt: "Lahti Lab -- Publications."
+excerpt: "Open Research Labs -- Publications."
 sitemap: false
 permalink: /publications/
 ---
