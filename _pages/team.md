@@ -26,7 +26,8 @@ Principal Investigator: Leo Lahti
 - [VIB/KU Leuven (Raes Lab)](http://www.kuleuven.be/wieiswie/en/unit/50000700), Belgium. Visiting Researcher  
 - [Open Science work group](http://fi.okfn.org/wg/openscience/) of the Open Knowledge Finland (OKF). Founding member and former coordinator  
 - Twitter: [@antagomir](https://twitter.com/antagomir)
-
+- ORCID: [ORCID: 0000-0001-5537-637X](http://orcid.org/0000-0001-5537-637X)
+- [Other academic accounts](leo_lahti.md)
 
 ## PhD Students 
 {% assign number_printed = 0 %}

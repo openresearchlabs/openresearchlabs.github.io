@@ -7,8 +7,11 @@ permalink: /leo_lahti/
 ---
 
 
-Principal Investigator: [Leo Lahti](leo_lahti)
+
+Online accounts: Leo Lahti
 ------------------------
+
+<!--
 
 Dr Leo Lahti is a computational scientist, with a focus on modern statistical data analysis and probabilistic models. The key applications include large population cohorts studies, functional genomics, microbial ecology of the human body, and computational history. Dr Lahti has worked in VIB/KU Leuven, Belgium (2015-2018), Wageningen University, The Netherlands (2012-2015), University of Turku, University of Helsinki, Finland, Aalto University.
 
@@ -22,11 +25,11 @@ Dr Leo Lahti is a computational scientist, with a focus on modern statistical da
 
 ![]({{ site.url }}{{ site.baseurl }}/images/meitsi2006.jpg){: style="width: 300px; float: right; border: 10px"}
 
+<!--
 
 <!--*[http://roihu.info/cv.pdf Curriculum Vitae]-->
 <p></p>
 
-<!--<a title="Leo Lahti" href="http://www.researchgate.net/profile/Leo_Lahti/"><img src="http://www.researchgate.net/images/public/profile_share_badge.png" alt="Leo Lahti" /></a>-->
 **Researcher profiles, networks, publication databases and impact altmetrics**  
   * [University of Helsinki TUHAT publication database](https://tuhat.halvi.helsinki.fi/portal/en/persons/leo-mikael-lahti%285d23e9ba-1f39-42f0-b23b-77fe12413479%29.html)
   * [ResearchGate](http://www.researchgate.net/profile/Leo_Lahti/)  
@@ -44,8 +47,7 @@ Dr Leo Lahti is a computational scientist, with a focus on modern statistical da
   * [ImpactStory](https://impactstory.org/u/0000-0001-5537-637X)
   * [Depsy research software impact](http://depsy.org/person/333684)  
   * [University of Turku Research Portal](https://research.utu.fi/converis/portal/Person/17607336?auxfun=&lang=en_GB)
-
-<!--* [Loop](http://loop.frontiersin.org/people/295152/overview)-->
+  * [Loop](http://loop.frontiersin.org/people/295152/overview)
 
 <!--
  * 2016-2021 [Academy of Finland Research Fellow](http://webfocus.aka.fi/ibi_apps/WFServlet?IBIF_ex=x_HakKuvaus&CLICKED_ON=&HAKNRO1=295741&UILANG=en&IBIAPP_app=aka_ext&TULOSTE=HTML). 
