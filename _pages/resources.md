@@ -7,6 +7,13 @@ permalink: /team/resources.html
 ---
 
 
+# Joining the group
+
+- Check this page
+- Join [Slack](https://sdacrew.slack.com)
+- Send your picture and info to Leo, to be added on the [website](team/)
+
+
 # Expectations
 
 [Code of conduct and expectations for lab members](../team/expectations)
