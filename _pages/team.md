@@ -18,6 +18,32 @@ permalink: /team/
 Principal Investigator: Leo Lahti
 ------------------------
 
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="column">
+    <img class='inset right' src='../images/teampic/Leo_Lahti2.jpg' title='Leo Lahti' alt='Photo' width='120px'/>     
+    <!--<p>Some text..</p>-->
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <!--<h2>Column 2</h2>-->
+    <ul>
+      <li>Academy of Finland Research Fellow 2016-2021</li>
+      <li>[University of Turku](https://research.utu.fi/converis/portal/Person/17607336?auxfun=&lang=en_GB), Finland. Docent/Adjunct Professor. Applied Mathematics.</li>
+      <li>[Blueprint Genetics](https://blueprintgenetics.com/) - Scientific Advisor (AI & Machine Learning)</li>
+    </ul>
+  </div>
+</div>
+
+<!--
 <img class='inset right' src='../images/teampic/Leo_Lahti2.jpg' title='Leo Lahti' alt='Photo' width='120px'/> 
 - Academy of Finland Research Fellow 2016-2021  
 - [University of Turku](https://research.utu.fi/converis/portal/Person/17607336?auxfun=&lang=en_GB), Finland. Docent/Adjunct Professor. Applied Mathematics.
@@ -27,6 +53,7 @@ Principal Investigator: Leo Lahti
 <!--- Twitter: [@antagomir](https://twitter.com/antagomir)-->
 - [ORCID: 0000-0001-5537-637X](http://orcid.org/0000-0001-5537-637X); [ResearcherID: G-3170-2010](http://www.researcherid.com/rid/G-3170-2010); [Google Scholar](https://tinyurl.com/ng6g6tk); [Scopus](https://www.scopus.com/authid/detail.uri?authorId=8679063700); [ResearchGate](http://www.researchgate.net/profile/Leo_Lahti/); [Publon](https://publons.com/author/246930/leo-lahti#stats); [ImpactStory](https://impactstory.org/u/0000-0001-5537-637X); [Depsy software impact](http://depsy.org/person/333684); [Loop](http://loop.frontiersin.org/people/295152/overview); [ScienceOpen](https://www.scienceopen.com/user/statistics/leo_lahti); [CiteUlike](http://www.citeulike.org/author/Lahti:L); [PubMed](http://www.ncbi.nlm.nih.gov/sites/myncbi/collections/public/1VaRtFbzqhfLWsXzDa1c5CSQK); [TUHAT](https://tuhat.halvi.helsinki.fi/portal/en/persons/leo-mikael-lahti%285d23e9ba-1f39-42f0-b23b-77fe12413479%29.html)  
 <img class='inset right' src='../images/orcid_qrcode_leolahti.png' title='Leo Lahti ORCID QR code' alt='Photo' width='80px'/> <a href="https://twitter.com/antagomir"><img class='inset right' src='../images/twitter.jpeg' title='antagomir@twitter' alt='Photo' width='80px'/></a>
+-->
 
 ## PhD Students 
 {% assign number_printed = 0 %}
