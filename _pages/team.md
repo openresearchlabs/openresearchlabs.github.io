@@ -26,7 +26,7 @@ Principal Investigator: Leo Lahti
 - [Open Science work group](http://fi.okfn.org/wg/openscience/) of the Open Knowledge Finland (OKF). Founding member.
 <!--- Twitter: [@antagomir](https://twitter.com/antagomir)-->
 - [ORCID: 0000-0001-5537-637X](http://orcid.org/0000-0001-5537-637X); [ResearcherID: G-3170-2010](http://www.researcherid.com/rid/G-3170-2010); [Google Scholar](https://tinyurl.com/ng6g6tk); [Scopus](https://www.scopus.com/authid/detail.uri?authorId=8679063700); [ResearchGate](http://www.researchgate.net/profile/Leo_Lahti/); [Publon](https://publons.com/author/246930/leo-lahti#stats); [ImpactStory](https://impactstory.org/u/0000-0001-5537-637X); [Depsy software impact](http://depsy.org/person/333684); [Loop](http://loop.frontiersin.org/people/295152/overview); [ScienceOpen](https://www.scienceopen.com/user/statistics/leo_lahti); [CiteUlike](http://www.citeulike.org/author/Lahti:L); [PubMed](http://www.ncbi.nlm.nih.gov/sites/myncbi/collections/public/1VaRtFbzqhfLWsXzDa1c5CSQK); [TUHAT](https://tuhat.halvi.helsinki.fi/portal/en/persons/leo-mikael-lahti%285d23e9ba-1f39-42f0-b23b-77fe12413479%29.html)  
-<img class='inset right' src='../images/orcid_qrcode_leolahti.png' title='Leo Lahti ORCID QR code' alt='Photo' width='120px'/> <a href="https://twitter.com/antagomir"><img class='inset right' src='../images/twitter.jpeg' title='antagomir@twitter' alt='Photo' width='120px'/></a>
+<img class='inset right' src='../images/orcid_qrcode_leolahti.png' title='Leo Lahti ORCID QR code' alt='Photo' width='80px'/> <a href="https://twitter.com/antagomir"><img class='inset right' src='../images/twitter.jpeg' title='antagomir@twitter' alt='Photo' width='80px'/></a>
 
 ## PhD Students 
 {% assign number_printed = 0 %}
