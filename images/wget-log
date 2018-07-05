@@ -1,0 +1,6 @@
+--2018-07-05 14:11:17--  https://www.google.com/search?q=twitter+logo
+Resolving www.google.com (www.google.com)... 64.233.162.105, 64.233.162.147, 64.233.162.104, ...
+Connecting to www.google.com (www.google.com)|64.233.162.105|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2018-07-05 14:11:18 ERROR 403: Forbidden.
+
