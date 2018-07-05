@@ -8,7 +8,7 @@ permalink: /leo_lahti/
 
 
 
-Online accounts: Leo Lahti
+Links to academic services online: Leo Lahti
 ------------------------
 
 <!--
@@ -30,15 +30,13 @@ Dr Leo Lahti is a computational scientist, with a focus on modern statistical da
 <!--*[http://roihu.info/cv.pdf Curriculum Vitae]-->
 <p></p>
 
-**Researcher profiles, networks, publication databases and impact altmetrics**  
+**Researcher profiles, networks, publication databases and impact altmetrics**
+  * [University of Turku Research Portal](https://research.utu.fi/converis/portal/Person/17607336?auxfun=&lang=en_GB)
   * [University of Helsinki TUHAT publication database](https://tuhat.halvi.helsinki.fi/portal/en/persons/leo-mikael-lahti%285d23e9ba-1f39-42f0-b23b-77fe12413479%29.html)
   * [ResearchGate](http://www.researchgate.net/profile/Leo_Lahti/)  
   * [ORCID: 0000-0001-5537-637X](http://orcid.org/0000-0001-5537-637X)
   * [ResearcherID: G-3170-2010](http://www.researcherid.com/rid/G-3170-2010)
   * [ScienceOpen](https://www.scienceopen.com/user/statistics/leo_lahti)
-  * [ORCID QR code](orcid_qrcode_leolahti.png)  
-  * [PeerJ](https://peerj.com/antagomir/)
-  * [Microsoft Academic Research](http://academic.research.microsoft.com/Author/785237)
   * [CiteUlike](http://www.citeulike.org/author/Lahti:L)
   * [PubMed](http://www.ncbi.nlm.nih.gov/sites/myncbi/collections/public/1VaRtFbzqhfLWsXzDa1c5CSQK)
   * [Google Scholar](https://tinyurl.com/ng6g6tk)
@@ -46,7 +44,6 @@ Dr Leo Lahti is a computational scientist, with a focus on modern statistical da
   * [Publon reviewer profile](https://publons.com/author/246930/leo-lahti#stats)
   * [ImpactStory](https://impactstory.org/u/0000-0001-5537-637X)
   * [Depsy research software impact](http://depsy.org/person/333684)  
-  * [University of Turku Research Portal](https://research.utu.fi/converis/portal/Person/17607336?auxfun=&lang=en_GB)
   * [Loop](http://loop.frontiersin.org/people/295152/overview)
 
 <!--
