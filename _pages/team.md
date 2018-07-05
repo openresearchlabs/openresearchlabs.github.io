@@ -18,8 +18,7 @@ permalink: /team/
 Principal Investigator: Leo Lahti
 ------------------------
 
-<img class='inset right' src='../images/teampic/Leo_Lahti2.jpg' title='Leo Lahti' alt='Photo' width='120px' /> <img class='inset right' src='../images/orcid_qrcode_leolahti.png' title='Leo Lahti ORCID QR code' alt='Photo' width='120px' />
-
+<img class='inset right' src='../images/teampic/Leo_Lahti2.jpg' title='Leo Lahti' alt='Photo' width='120px' /> <img class='inset right' src='../images/orcid_qrcode_leolahti.png' title='Leo Lahti ORCID QR code' alt='Photo' width='100px' /> <a href="https://twitter.com/antagomir"><img class='inset right' src='../images/twitter.jpeg' title='antagomir@twitter' alt='Photo' width='100px' /></a>
 - Academy of Finland Research Fellow 2016-2021  
 - [University of Turku](https://research.utu.fi/converis/portal/Person/17607336?auxfun=&lang=en_GB), Finland. Docent/Adjunct Professor. Applied Mathematics.
 - [Blueprint Genetics](https://blueprintgenetics.com/) - Scientific Advisor (AI & Machine Learning)
