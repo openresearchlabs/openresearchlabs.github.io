@@ -18,30 +18,6 @@ permalink: /team/
 Principal Investigator: Leo Lahti
 ------------------------
 
-/* Create two equal columns that sits next to each other */
-.column {
-    flex: 50%;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
-}
-</style>
-</head>
-<body>
-
-<div class="row">
-  <div class="column">
-    <img class='inset right' src='../images/teampic/Leo_Lahti2.jpg' title='Leo Lahti' alt='Photo' width='120px'/>     
-    <!--<p>Some text..</p>-->
-  </div>
-  <div class="column" style="background-color:#bbb;">
-    <!--<h2>Column 2</h2>-->
-    <ul>
-      <li>Academy of Finland Research Fellow 2016-2021</li>
-      <li>[University of Turku](https://research.utu.fi/converis/portal/Person/17607336?auxfun=&lang=en_GB), Finland. Docent/Adjunct Professor. Applied Mathematics.</li>
-      <li>[Blueprint Genetics](https://blueprintgenetics.com/) - Scientific Advisor (AI & Machine Learning)</li>
-    </ul>
-  </div>
-</div>
 
 <!--
 <img class='inset right' src='../images/teampic/Leo_Lahti2.jpg' title='Leo Lahti' alt='Photo' width='120px'/> 
