@@ -5,3 +5,10 @@ Run deploy.sh in the build branch
 Then run deploy_site.sh in the master branch
 
 Should work while implementing a better solution.
+
+-------------------
+
+# Installation
+sudo gem install jekyll
+sudo gem update
+bundle install
