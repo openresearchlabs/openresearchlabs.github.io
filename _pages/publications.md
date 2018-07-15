@@ -28,10 +28,13 @@ For code, data, and audiovisual material see the separate [code](../code/) and [
 
 {% bibliography --file lahti  --query @article[keywords!=dh && status!=other && status!=highlight] %}
 
-
 ## Digital humanities and computational social science
 
 {% bibliography --file lahti  --query @article[keywords=dh && status!=highlight] %}
+
+
+## Open science
+
 {% bibliography --file lahti  --query @*[keywords=openscience] %}
 
 
