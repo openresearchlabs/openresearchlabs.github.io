@@ -24,7 +24,8 @@ For code, data, and audiovisual material see the separate [code](../code/) and [
 
 {% bibliography --file lahti --query @*[status=highlight] %}
 
-## Computational biology and biomedicine
+
+## Computational bioscience
 
 {% bibliography --file lahti  --query @article[keywords!=dh && status!=other && status!=highlight] %}
 
