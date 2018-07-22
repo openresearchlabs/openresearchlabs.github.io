@@ -20,12 +20,12 @@ For code, data, and audiovisual material see the separate [code](../code/) and [
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 
 
-## Selected work
+## Selected papers
 
 {% bibliography --file bibtex/lahti --query @*[status=highlight] %}
 
 
-## Computational bioscience
+## Computational biosciences
 
 {% bibliography --file bibtex/lahti --query @article[keywords!=dh && status!=other && status!=highlight] %}
 

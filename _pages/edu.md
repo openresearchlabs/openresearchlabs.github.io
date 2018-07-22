@@ -15,7 +15,7 @@ Courses and seminars
 ---------------------
 
 5/2018 Wageningen, The Netherlands  
-[Open and reproducible microbiome data analysis - international summer school](https://mibwurrepo.github.io/OPEN-REPRODUCIBLE-MICROBIOME-DATA-ANALYSIS-2018/) 
+[International spring school on open and reproducible microbiome data analysis](https://mibwurrepo.github.io/OPEN-REPRODUCIBLE-MICROBIOME-DATA-ANALYSIS-2018/) 
 
 2/2018 VIB/KU Leuven, Belgium  
 Introduction to probabilistic programming.
