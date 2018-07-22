@@ -10,28 +10,30 @@ permalink: /team/resources.html
 # Joining the group
 
 - Check this page
-- Join [Slack](https://sdacrew.slack.com)
+- Join the group [Slack](https://sdacrew.slack.com) (ask for invitation if necessary)
+- Start following the latest table of contents for main journals (Nature, Science..) with [Feedly](http://feedly.com) or another reader. Later add other relevant journals and feeds. Keeping track on the latest research is essential.
+- You can join the [group gcalendar](https://calendar.google.com/calendar/embed?src=88i752i5rd0m16rduatss6o4uk%40group.calendar.google.com&ctz=Europe%2FBrussels)
 - Send your picture and info to Leo, to be added on the [website](team/)
 
 
-# Expectations
+## Expectations
 
 [Code of conduct and expectations for lab members](../team/expectations)
 
 
-# Research ethics and integrity
+## Research ethics and integrity
 
 [Guidelines on responsible research conduct](http://www.tenk.fi/en/responsible-conduct-of-research) (Finnish National Board on Research Integrity)
 
 [Finnish National Board on Research Integrity](http://www.tenk.fi/) has various resources on research ethics
 
 
-# Public outreach
+## Public outreach
 
 Guidelines on public outreach in research: [Finnish](http://www.tjnk.fi/sites/tjnk.fi/files/tiedeviestinnan_suositukset_2018.pdf) / [English](http://www.tjnk.fi/sites/tjnk.fi/files/recom_scicommunication_2018.pdf) / [Swedish](http://www.tjnk.fi/sites/tjnk.fi/files/rekom_vetensskapkommunikation_2018.pdf). The Committee for Public Information, 2018.
 
 
-# Review process 
+## Review process 
 
 [Ten simple rules for writing a response to reviewers](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005730) Noble WS (2017). PLoS Comput Biol 13(10): e1005730. https://doi.org/10.1371/journal.pcbi.1005730
 
