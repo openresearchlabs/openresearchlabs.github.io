@@ -10,12 +10,13 @@ permalink: /team/resources.html
 ## Checklist: joining the group
 
 - Check this page
-- Join the group [Slack](https://sdacrew.slack.com) (ask for invitation if necessary)
-- Start following the latest table of contents for main journals (Nature, Science..) with [Feedly](http://feedly.com) or another reader. Later add other relevant journals and feeds. Keeping track on the latest research is essential.
-- You can join the [group gcalendar](https://calendar.google.com/calendar/embed?src=88i752i5rd0m16rduatss6o4uk%40group.calendar.google.com&ctz=Europe%2FBrussels)
 - Send your picture and info to Leo, to be added on the [website](team/)
-- Read the [code of conduct and expectations for lab members](../team/expectations)
+- Join group [Slack](https://sdacrew.slack.com) (ask for invitation if necessary)
+- Join regular group meetings. For info on times and places, you can join the [group gcalendar](https://calendar.google.com/calendar/embed?src=88i752i5rd0m16rduatss6o4uk%40group.calendar.google.com&ctz=Europe%2FBrussels); otherwise, find out the times from other group members.
+- Start following main journals (Nature, Science..) with [Feedly](http://feedly.com) or another reader. Later add other relevant journals and feeds. Keeping track on the latest research is essential.
+- Read [code of conduct and expectations for lab members](../team/expectations)
 - Familiarize with the material below; available here also for later reference.
+- Get a unique researcher identifier ([ORCID](https://orcid.org/))!
 
 
 ### Research ethics and integrity
