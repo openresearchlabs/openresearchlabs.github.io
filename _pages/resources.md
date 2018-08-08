@@ -17,6 +17,7 @@ permalink: /team/resources.html
 - Read [code of conduct and expectations for lab members](../team/expectations)
 - Familiarize with the material below; available here also for later reference.
 - Get a unique researcher identifier ([ORCID](https://orcid.org/))!
+- Start immediately to keep systematic track on your academic activities (presentations, publications, mobility, software releases, relevant positions in academia, academic societies or companies etc); including date, place, and other relevant information; these details will be needed many times later on in academic career.
 
 
 ### Research ethics and integrity
