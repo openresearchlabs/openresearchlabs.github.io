@@ -10,7 +10,7 @@ permalink: /contact/
 Contact
 ========
 
-You are welcome to contact us to discuss research/study positions and collaboration opportunities.
+Welcome to contact us to discuss research/study positions and collaboration opportunities.
 
 <!--[PI Leo Lahti](http://www.iki.fi/Leo.Lahti), Docent / Adjunct Professor-->
 
@@ -23,6 +23,8 @@ You are welcome to contact us to discuss research/study positions and collaborat
   **Email** <a href="mailto:leo.lahti@iki.fi"><i class="fa fa-fw fa-envelope-o"></i>leo.lahti@iki.fi</a>  
 <p></p>
 
+
+**Twitter** Follow us in [Twitter](https://twitter.com/openreslabs)
 
 **Mail** Department of Mathematics and Statistics, Yliopistonmäki, FI-20014, University of Turku, Finland
 
