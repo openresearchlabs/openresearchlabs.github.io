@@ -17,7 +17,8 @@ permalink: /team/resources.html
 - Read [code of conduct and expectations for lab members](../team/expectations)
 - Familiarize with the material below; available here also for later reference.
 - Get a unique researcher identifier ([ORCID](https://orcid.org/))!
-- Start immediately to keep systematic track on your academic activities (presentations, publications, mobility, software releases, relevant positions in academia, academic societies or companies etc); including date, place, and other relevant information; these details will be needed many times later on in academic career.
+- Start to keep systematic and detailed track record on your academic activities (presentations, publications, mobility, software releases, relevant positions in academia, academic societies or companies etc); including date, place, and other relevant information; these details will be needed many times later on in academic career.
+- Check the [group home page](http://www.iki.fi/Leo.Lahti). All publications and other research outputs (data, code, video etc.) of the research group can be found from there (and if not, please send a note to Leo)
 
 
 ### Research ethics and integrity
@@ -38,6 +39,15 @@ Guidelines on public outreach in research: [Finnish](http://www.tjnk.fi/sites/tj
 
 [Ten simple rules for reviewers](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0020110) Bourne PE, Korngreen A (2006). PLoS Comput Biol 2(9): e110. https://doi.org/10.1371/journal.pcbi.0020110
 
+
+
+### Useful resources
+
+We aim to share source materials within the group:
+
+- [Publication materials](https://gitlab.utu.fi/opencomp/publications)
+- [Funding applications](https://gitlab.utu.fi/opencomp/funding)
+- [Slides](https://gitlab.utu.fi/opencomp/slides)
 
 
 
