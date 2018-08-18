@@ -27,8 +27,14 @@ permalink: /team/resources.html
 
 [Finnish National Board on Research Integrity](http://www.tenk.fi/) has various resources on research ethics
 
+### Writing research papers
+
+[Ten Simple Rules for Getting Published](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0010057)
+
 
 ### Public outreach
+
+[Ten Simple Rules for Making Good Oral Presentations](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030077)
 
 Guidelines on public outreach in research: [Finnish](http://www.tjnk.fi/sites/tjnk.fi/files/tiedeviestinnan_suositukset_2018.pdf) / [English](http://www.tjnk.fi/sites/tjnk.fi/files/recom_scicommunication_2018.pdf) / [Swedish](http://www.tjnk.fi/sites/tjnk.fi/files/rekom_vetensskapkommunikation_2018.pdf). The Committee for Public Information, 2018.
 
@@ -40,8 +46,12 @@ Guidelines on public outreach in research: [Finnish](http://www.tjnk.fi/sites/tj
 [Ten simple rules for reviewers](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0020110) Bourne PE, Korngreen A (2006). PLoS Comput Biol 2(9): e110. https://doi.org/10.1371/journal.pcbi.0020110
 
 
+### Funding
 
-### Useful resources
+[Ten Simple Rules for Getting Grants](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0020012)
+
+
+### Team resources
 
 We aim to share source materials within the group:
 
