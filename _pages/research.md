@@ -74,13 +74,13 @@ following the emergence of print press in the 15th century. We also publish algo
 
 **Open science** We have actively supported [Open Knowledge Finland
   Open Science work group](https://fi.okfn.org/wg/openscience/), which
-  received Open Science and Research award of the Ministry of
-  Education and Culture in 2017. Some highlights include a [Report on
+  received **Open Science and Research award of the Ministry of
+  Education and Culture in 2017**. Some highlights include a [Report on
   the openness of academic
   publishers](https://openscience.fi/-/openness-of-academic-publishers-evaluated-for-the-first-time),
   commissioned by Finnish Ministry of Education and Culture; [opening of several agreements with academic publishers in 2017](http://finelib.fi/finelib-agreements-published/) and [opening
   of scientific journal subscription costs in Finland
-  2010-2016](http://openscience.fi/-/transparency-and-openness-to-scientific-publishing-the-finnish-research-organisations-pay-millions-of-euros-annually-to-the-large-publishers)
+  2010-2017](https://fi.okfn.org/2018/08/27/finland-remains-a-leading-country-in-the-transparency-of-academic-publishing-costs)
   following our FOI requests; the Election Data Analytics project
   funded by Sitra (2012-2013). The
   [rOpenGov](http://ropengov.github.io) network for open government
