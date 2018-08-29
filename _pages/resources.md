@@ -50,6 +50,11 @@ Guidelines on public outreach in research: [Finnish](http://www.tjnk.fi/sites/tj
 
 [Ten Simple Rules for Getting Grants](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0020012)
 
+### PhD and Postdoc process
+
+[Ten simple rules for surviving an interdisciplinary PhD](https://doi.org/10.1371/journal.pcbi.1005512)
+
+[Ten Simple Rules for Finishing Your PhD](https://doi.org/10.1371/journal.pcbi.1003954)
 
 ### Team resources
 
