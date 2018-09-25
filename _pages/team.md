@@ -169,12 +169,12 @@ permalink: /team/
 
 
 
-
+<!--
 ## Former students
-
 **PhD Students** Jose Caldas (With Prof Samuel Kaski; Aalto 2012)
+-->
 
-**Master Students** Hege Roivainen (Helsinki 2017); Marnix Denys (KU Leuven 2017); Tineka Blake (Wageningen 2015); Emilio Ugaldes Morales (Wageningen 2014)  
+<!--**Master Students** Leila Paquay (Leuven 2018); Hege Roivainen (Helsinki 2017); Marnix Denys (KU Leuven 2017); Tineka Blake (Wageningen 2015); Emilio Ugaldes Morales (Wageningen 2014)-->
 
 <!--**Bachelor Students** Maija Nevala (TKK 2008); Jyry Suvilehto (TKK 2007)-->
  
