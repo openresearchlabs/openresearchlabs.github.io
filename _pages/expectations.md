@@ -11,26 +11,28 @@ Welcome to the Lab!
 ----------------------------------
 
 
-## Mission Statement
+### Mission Statement
 
 The lab has three central goals:
-  - To do quality science 
-  - To develop each lab member to become a successful scientist
-  - To maintain a collegial and intellectually stimulating environment
+  - Carry out high-quality research 
+  - To develop each lab member as a successful researcher
+  - To promote a collegial and intellectually stimulating environment
 
-As your thesis advisor, I will provide the mentorship and training needed to help you develop into an independent scientist. To accomplish this goal, it is important that we establish effective communication and align expectations with each other. This document provides a framework for communicating the culture of my lab, and how you and I will work together to further your scientific productivity and intellectual development. I believe in mentoring each individual in a manner that best meets their needs, and I look forward to having open discussions about these expectations and revisiting them as necessary to enable your successful professional development. **This document is not a substitute for university rules and regulations, and that those policies and any legal requirements supersede anything in this document.**
+As your thesis advisor, I will provide the mentorship and training needed to help you develop into an independent scientist. To accomplish this, it is important that we establish effective communication and align expectations with each other. This document provides a framework for communicating the culture of my lab, and how you and I will work together to further your scientific productivity and intellectual development. I believe in mentoring each individual in a manner that best meets their needs, and I look forward to having open discussions about these expectations and revisiting them as necessary to enable your successful professional development.
 
-## What you can expect from me
-  - **I will set the scientific direction for the lab and provide the means to pursue those directions.** This will include helping you to find a research topic, writing grants to fund the research, and maintaining the necessary university protocols for us to utilize the laboratory. Additionally, I will seek out collaborators for our work to further your opportunities.
+**This document is not a substitute for university rules and regulations, and those policies and any legal requirements supersede anything in this document.**
+
+### What you can expect from me
+  - **I will set the scientific direction for the lab and provide the means to pursue those directions.** This will include helping you to find a research topic, writing grants to fund the research, and maintaining the necessary university protocols for us to utilize the laboratory. Additionally, I will seek out collaborators to further your opportunities.
   - **I am committed to mentoring you now and in the future.** I am committed to your education and training while in my lab, and to advising and guiding your career development. I will work to promote you and your work.
-  - **I will encourage you to attend scientific meetings and make an effort to fund these activities.** These meetings are important to showcase your work and for the networking opportunities as you pursue positions after your time in my lab ends.
-  - **I will be available for regular meetings and will provide timely review of research.** In addition, I will do my best to provide an open door policy and respond quickly to e-mails.  Please be aware that there will be times when I will be unavailable due to other obligations. For abstracts and small data questions, I will generally be able to review in 1-2 days, for papers and thesis, I will need 1-2 weeks. In the event of a lab emergency, I may be contacted on my cell phone.
+  - **I will encourage you to attend scientific meetings and make an effort to fund these activities.** These meetings are important to showcase your, and our, work and for the networking opportunities as you pursue positions after your time in my lab ends.
+  - **I will be available for regular meetings and will provide timely review of research.** In addition, I will do my best to provide an open door policy and respond quickly to electronic communication through our standard channels (email, Slack..).  Please be aware that there will be times when I will be unavailable due to other obligations. For abstracts and small data questions, I will generally be able to review in 1-2 days, for papers and thesis, I will need 1-2 weeks. In the event of critical issues, I may be contacted on my cell phone.
   - **I will provide a work environment that is intellectually stimulating, supportive, safe, and free from harassment.** I take seriously any difficulties you experience in relationship to this statement – if there are conflicts with another lab member, please inform me and I will work with you and the other lab member to find a resolution. I will strive to understand your unique situation and am open to your suggestions on how to improve your experience in the lab.
 
 ### What I expect from you
 **You will take ownership of your educational experience**
-  - **You will need to determine the requirements for your individual graduate program and are responsible for insuring that you are in compliance.** As you progress, I will work with you to select courses, qualifying exams, and committee members.
-  - You will **keep me updated on your research progress and challenges.**
+  - **You will need to determine the requirements for your individual graduate program and are responsible for ensuring that you are in compliance.** As you progress, I will work with you to select courses, qualifying exams, and committee members.
+  - You will **keep me regularly updated on your research progress and challenges.**
   - To earn your degree **you must transition towards independence**. We will work together to track this process, but ultimately when you earn a degree will be up to the work you produce, not simply the time you put in. 
   - **Seek out professional development opportunities** – being a successful scientist involves more than being good at the bench. You must communicate well (presentations, papers, grants), develop personal skills (lab management, mentoring), maintain high ethical standards, and for a faculty career, teach. However, these opportunities must be balanced with the most important element of your career development – research progress towards your thesis. 
 
@@ -45,17 +47,18 @@ As your thesis advisor, I will provide the mentorship and training needed to hel
 
 **You will contribute to the lab and be a good lab citizen**
   - Senior graduate students are responsible for helping to train new students in the ways of the world (i.e. lab procedures, how individual/group meetings work, literature searching, etc.). **Science is a community** - many people will help you along the way and you should return the favor. Share your insider knowledge of techniques with others.
-  - **Data belongs to the lab, not to any one individual** – as a result, you will be expected to leave your original notebooks and files when you leave the lab. In addition, there will be times when you will be asked to assist me in submitting grant applications to NIH/NSF/etc. This activity is essential to provide continuing support for the lab.
+  - **Data (and code) belongs to the lab, not to any one individual** – as a result, you will be expected to leave your original notebooks and files when you leave the lab. In addition, there will be times when you will be asked to assist me in submitting grant applications to NIH/NSF/etc. This activity is essential to provide continuing support for the lab.
   - You will have **designated lab jobs** such as ordering, general maintenance, taking care of one of the instruments, etc. Failure to do your lab jobs not only affects you, it can impede the entire lab and will not be tolerated. Everyone is expected to help with dishes, making sure that supplies do not run out, aliquotting, reporting problems with equipment to the person in charge, and general lab cleanliness.
   - You will **keep the relevant documentation up-to-date.**
   - When working in the labs of other investigators, be polite, neat, and gracious. Always follow their rules. If something breaks during your use, report it immediately to the appropriate person.
   - **Be respectful, tolerant of, and work collegially with laboratory colleagues:  respect individual differences in values, personalities, and work styles.**
 
+
 ## Nuts and Bolts
 
 ### Hours and Vacation
 
-I do not believe in tracking hours – instead, I am interested to see that you are productive. _However, if I sense that this is being taken advantage of, the situation will be addressed_. You will quickly recognize that biology is not a 9-5 proposition - night and weekend hours come with the territory. I ask that you discuss with me at least 4 weeks before a planned absence - this way we can determine if it is an appropriate time for a vacation and if there are grant or other deadlines during that period we have ample time to prepare. I expect you to satisfactorily complete all assigned research duties prior to your planned departure.
+I do not believe in tracking hours – instead, I am interested to see that you are productive. _However, if I sense that this is being taken advantage of, the situation will be addressed_. You will quickly recognize that research is not a 9-5 proposition - night and weekend hours come with the territory. I ask that you will preferably discuss with me at least 4 weeks before a planned absence - this way we can determine if it is an appropriate time for a vacation and if there are grant or other deadlines during that period we have ample time to prepare. I expect you to satisfactorily complete all assigned research duties prior to your planned departure.
 
 ### Meetings
 Come prepared to discuss/present your recent research and next steps. 
