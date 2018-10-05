@@ -30,7 +30,7 @@
 
 - name: Anna Aatsinki
   photo: bio-photo.jpg
-  info: PhD student (Turku; co-supervised with Linnea Karlsson)
+  info: PhD student (Turku; co-supervised with Doc Linnea Karlsson)
   email: anna.sorjamaa@oulu.fi
 
 - name: Sudarshan Shetty
@@ -43,8 +43,3 @@
   info: PhD student (Helsinki; co-supervised with Prof Mikko Tolonen)
   email: ville.vaara@helsinki.fi
 
-- name: "This could be you !"
-  photo: bio-photo.jpg
-  info: See <a href="http://www.iki.fi/Leo.Lahti/vacancies.md">openings</a> for more info
-  email: leo.lahti@iki.fi
-  number_educ: 0
