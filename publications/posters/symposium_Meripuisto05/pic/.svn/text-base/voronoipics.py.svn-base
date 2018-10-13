@@ -1,0 +1,22 @@
+from Numeric import *
+from simpleStat import squared_distances as sqrdist
+from voronoi import *
+
+if __name__=='__main__':
+    import gist
+    import RandomArray
+    m1=RandomArray.random((5,2))*2
+    m2=RandomArray.random((3,2))*2    
+    blist1=borders(m1,2.0)
+    blist2=borders(m2,2.0)
+    gist.winkill(0);gist.window(0,style="nobox.gs")    
+    gist.winkill(1);gist.window(1,style="nobox.gs")
+    for b in blist1:
+        gist.window(0);gist.plg([b[0][1],b[1][1]], [b[0][0],b[1][0]],marks=0,width=13.0)
+    for b in blist2:
+        gist.window(1);gist.plg([b[0][1],b[1][1]], [b[0][0],b[1][0]],marks=0,width=13.0)
+    gist.window(0);gist.plg(m1[:,1],m1[:,0],type="none",marker="+",msize=3.0)
+    gist.window(1);gist.plg(m2[:,1],m2[:,0],type="none",marker="+",msize=3.0)
+    gist.window(0);gist.eps('voronoipic1');gist.fma()
+    gist.window(1);gist.eps('voronoipic2');gist.fma()
+
