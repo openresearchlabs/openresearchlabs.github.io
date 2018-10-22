@@ -27,7 +27,7 @@ For code, data, and audiovisual material see the separate [code](../code/) and [
 
 ## Computational biosciences
 
-{% bibliography --file bibtex/lahti --query @article[keywords!=dh && status!=other && status!=highlight] %}
+{% bibliography --file bibtex/lahti --query @*[keywords!=dh && status!=other && status!=highlight] %}
 
 
 ## Digital humanities and computational social science
