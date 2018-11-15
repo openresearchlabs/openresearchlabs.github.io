@@ -21,6 +21,9 @@ permalink: /team/resources.html
 - Check the [group home page](http://www.iki.fi/Leo.Lahti). All publications and other research outputs (data, code, video etc.) of the research group can be found from there (and if not, please send a note to Leo)
 
 
+The [Lab manual](https://github.com/openresearchlabs/labmanual) from Aly lab contains many good aspects. Will be updated for our situation later but meanwhile have a look and pick up the relevant parts.
+
+
 ### Research ethics and integrity
 
 [Guidelines on responsible research conduct](http://www.tenk.fi/en/responsible-conduct-of-research) (Finnish National Board on Research Integrity)
