@@ -81,3 +81,4 @@ We aim to share source materials within the group:
 - [Funding applications](https://gitlab.utu.fi/opencomp/funding)
 - [Slides](https://gitlab.utu.fi/opencomp/slides)
 - [Google docs](https://drive.google.com/drive/u/0/folders/18wqW0Aa6ny1gKkS7UyXbHBfRw1urPyc-?ths=true) (journal clubs, relevant documents etc.)
+- [Scripts](https://gitlab.com/openresearchlabs/scripts) (reproducible examples/case studies with general applicability)
