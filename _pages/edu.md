@@ -14,6 +14,11 @@ permalink: /edu/
 Courses and seminars
 ---------------------
 
+Winter 2018/2019 Weekly reading circle on [Machine Learning - a
+Probabilistic Perspective](https://www.cs.ubc.ca/~murphyk/MLbook/) by
+K. Murphy. Location: Turku, Finland. Contact us if you're interested
+to join.
+
 5/2018 Wageningen, The Netherlands  
 [International spring school on open and reproducible microbiome data analysis](https://mibwurrepo.github.io/OPEN-REPRODUCIBLE-MICROBIOME-DATA-ANALYSIS-2018/) 
 
