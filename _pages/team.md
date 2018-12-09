@@ -10,7 +10,7 @@ permalink: /team/
 
 # Research team
 
-**Welcome to contact us to discuss research/study positions and collaboration.**  One Postdoc position is now open (<a href="https://t.co/f78kf6YmZw">Call DL Jan 15, 2019</a>).
+**Welcome to contact us to discuss research/study positions and collaboration.**  A postdoc position in computational biomedicine is now open for applications (<a href="https://rekry.saima.fi/certiahome/application_edit_welcome.html?field_id=0&job_name=Postdoctoral+Researcher+%28fixed-term%29&job_id=6537&jc=14&lang=en&place_id=160&did=5600">Call DL Jan 15, 2019</a>).
 
 
 <div class="col-sm-12 clearfix">
