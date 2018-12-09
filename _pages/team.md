@@ -10,7 +10,8 @@ permalink: /team/
 
 # Research team
 
-**Welcome to contact us to discuss research/study positions and collaboration.** 
+**Welcome to contact us to discuss research/study positions and collaboration.**  One Postdoc position is now open (<a href="https://t.co/f78kf6YmZw">Call DL Jan 15, 2019</a>).
+
 
 <div class="col-sm-12 clearfix">
 
