@@ -15,11 +15,9 @@ probabilistic programming, numerical ecology, and data science among
 others.
 
 Our focus is on data-rich applications ranging from molecular life
-sciences to computational history. The [research team](team.md) is led
+sciences to computational history. The [research team](https://openresearchlabs.github.io/team/) is led
 by PI Leo Lahti who coordinates the [Computational
-biosciences](http://www.utu.fi/en/units/sci/units/math/Research/Pages/Computational-Systems-Biology-and-Biomedicine.aspx)
-group in University of Turku, Finland. We are also founding members
-and part of [Helsinki Computational History
+biosciences](https://www.utu.fi/en/university/faculty-of-science-and-engineering/mathematics-and-statistics) group in University of Turku, Finland. We are also founding members and part of [Helsinki Computational History
 Group](https://comhis.github.io/).
 
 There is a great demand for targeted algorithmic methods to extract
