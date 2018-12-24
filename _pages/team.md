@@ -34,7 +34,7 @@ permalink: /team/
   <li><a href="http://fi.okfn.org/wg/openscience/">Open Science work group</a>, OKF Finland. Founding member.</li>
 
   
-  <li><a href="../team/pgp_lahti_pm.asc">PGP key</a>;
+  <li><a href="../images/pgp_lahti_pm.asc">PGP key</a>;
   <a href="http://orcid.org/0000-0001-5537-637X">ORCID: 0000-0001-5537-637X</a>;
 <a href="http://www.researcherid.com/rid/G-3170-2010">ResearcherID: G-3170-2010</a>;
 <a href="https://tinyurl.com/ng6g6tk">Google Scholar</a>;
