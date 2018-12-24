@@ -33,8 +33,9 @@ permalink: /team/
   <!--<li>[VIB/KU Leuven (Raes Lab)](http://www.kuleuven.be/wieiswie/en/unit/50000700), Belgium. Visiting Researcher</li>-->
   <li><a href="http://fi.okfn.org/wg/openscience/">Open Science work group</a>, OKF Finland. Founding member.</li>
 
-  <li><a href="pgp_lahti_pm.asc">PGP key</a>
-  <li><a href="http://orcid.org/0000-0001-5537-637X">ORCID: 0000-0001-5537-637X</a>;
+  
+  <li><a href="pgp_lahti_pm.asc">PGP key</a>;
+  <a href="http://orcid.org/0000-0001-5537-637X">ORCID: 0000-0001-5537-637X</a>;
 <a href="http://www.researcherid.com/rid/G-3170-2010">ResearcherID: G-3170-2010</a>;
 <a href="https://tinyurl.com/ng6g6tk">Google Scholar</a>;
 <a href="https://www.scopus.com/authid/detail.uri?authorId=8679063700">Scopus</a>;
