@@ -22,7 +22,7 @@ For code, data, and audiovisual material see the separate [code](../code/) and [
 
 ## Selected papers
 
-{% bibliography --file bibtex/lahti --query @*[status=highlight] %}
+{% bibliography --file bibtex/lahti --query @*[keywords=highlight] %}
 
 
 ## Computational biosciences
