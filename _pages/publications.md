@@ -45,7 +45,7 @@ For code, data, and audiovisual material see the separate [code](../code/) and [
 
 For source material (LaTeX code, figures etc.) of these theses, see [Github](https://github.com/antagomir/thesis).
 
-{% bibliography --file bibtex/lahti  --query @*[status=thesis] %}
+{% bibliography --file bibtex/lahti  --query @*[category=thesis] %}
 
 
 ## Technical reports and outreach
