@@ -27,24 +27,24 @@ For code, data, and audiovisual material see the separate [code](../code/) and [
 
 ## Computational biosciences
 
-{% bibliography --file bibtex/lahti --query @*[keywords!=dh && status!=other && status!=highlight && status!=openscience] %}
+{% bibliography --file bibtex/lahti --query @*[status==bioscience] %}
 
 
 ## Digital humanities and computational social science
 
-{% bibliography --file bibtex/lahti  --query @article[keywords=dh && status!=highlight] %}
+{% bibliography --file bibtex/lahti  --query @article[status==dh] %}
 
 
 ## Open science
 
-{% bibliography --file bibtex/lahti  --query @*[keywords=openscience] %}
+{% bibliography --file bibtex/lahti  --query @*[status==openscience] %}
 
 
 ## Theses and assignments
 
 For source material (LaTeX code, figures etc.) of these theses, see [Github](https://github.com/antagomir/thesis).
 
-{% bibliography --file bibtex/lahti  --query @*[status=thesis && status!=highlight] %}
+{% bibliography --file bibtex/lahti  --query @*[status=thesis] %}
 
 
 ## Technical reports and outreach
