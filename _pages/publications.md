@@ -27,32 +27,32 @@ For code, data, and audiovisual material see the separate [code](../code/) and [
 
 ## Computational biosciences
 
-{% bibliography --file bibtex/lahti --query @*[keywords!=dh && status!=other && status!=highlight && status!=openscience] %}
+{% bibliography --file bibtex/lahti --query @*[status=bioscience] %}
+{% bibliography --file bibtex/lahti --query @*[status=datascience] %}
 
 
 ## Digital humanities and computational social science
 
-{% bibliography --file bibtex/lahti  --query @article[keywords=dh && status!=highlight] %}
+{% bibliography --file bibtex/lahti  --query @article[status=dh] %}
 
 
 ## Open science
 
-{% bibliography --file bibtex/lahti  --query @*[keywords=openscience] %}
+{% bibliography --file bibtex/lahti  --query @*[status=openscience] %}
 
 
 ## Theses and assignments
 
 For source material (LaTeX code, figures etc.) of these theses, see [Github](https://github.com/antagomir/thesis).
 
-{% bibliography --file bibtex/lahti  --query @*[status=thesis && status!=highlight] %}
+{% bibliography --file bibtex/lahti  --query @*[status=thesis] %}
 
 
 ## Technical reports and outreach
 
-<!--{% bibliography --file bibtex/lahti  --query @misc[status!=poster && status!=abstract && status!=thesis && howpublished!=blog && howpublished!=software] %}-->
-{% bibliography --file bibtex/lahti  --query @techreport[status!=thesis && howpublished!=blog && howpublished!=software && status!=highlight && keywords!=openscience] %}
-{% bibliography --file bibtex/lahti  --query @*[status=other && howpublished!=blog && howpublished!=software && status!=highlight && keywords!=openscience] %}
-{% bibliography --file bibtex/lahti  --query @*[status=abstract && status!=highlight && keywords!=openscience] %}
+{% bibliography --file bibtex/lahti  --query @*[status=other] %}
+{% bibliography --file bibtex/lahti  --query @*[status=abstract] %}
+
 
 
 
