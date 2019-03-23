@@ -17,7 +17,7 @@ Versus - online journal
 Video lectures and interviews 
 -----
 
-Presentation slides, posters and other material available via [Github](https://github.com/openresearchlabs/openresearchlabs.github.io/tree/master/publications) and [SlideShare](http://www.slideshare.net/antagomir/presentations)
+Presentation slides, posters and other material available via [Github](https://github.com/openresearchlabs/openresearchlabs.github.io/tree/master/publications/publications/) and [SlideShare](http://www.slideshare.net/antagomir/presentations)
 
 <!--<iframe src="http://livestream.com/accounts/2914987/events/4349899/videos/100125511/player?autoPlay=false&mute=false" frameborder="0" scrolling="no"></iframe>-->
 <!-- To adjust frame size use: -->
