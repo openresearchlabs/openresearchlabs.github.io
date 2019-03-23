@@ -14,10 +14,7 @@ permalink: /edu/
 Courses and seminars
 ---------------------
 
-Winter 2018/2019 Weekly reading circle on [Machine Learning - a
-Probabilistic Perspective](https://www.cs.ubc.ca/~murphyk/MLbook/) by
-K. Murphy. Location: Turku, Finland. Contact us if you're interested
-to join.
+**2018-2019** [Weekly research seminar and journal club on machine learning and data science](seminar.md) in University of Turku, Finland
 
 9/2019 KU Leuven  
 [International summer school on microbial community modeling](http://psbweb05.psb.ugent.be/conet/microbemodelschool/index.php)
