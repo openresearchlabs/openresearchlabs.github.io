@@ -10,10 +10,10 @@ permalink: /seminar/
 Seminar on machine learning and data science
 ----------------------------------
 
-[We](./) are running a **weekly research seminar and journal club on machine learning and data science** in University of Turku, Finland. These are open and informal events. The exact location and topics may vary, so contact us if you're interested!
+[We](../) are running a **weekly research seminar and journal club on machine learning and data science** in University of Turku, Finland. These are open and informal events. The exact location and topics may vary, so contact us if you're interested!
 
 
-### Reading circle
+### Research seminar / Reading circle
 
 **Thursdays 10-11:30am** (2018-2019). We cover material from the following books, a chapter per week.
 
