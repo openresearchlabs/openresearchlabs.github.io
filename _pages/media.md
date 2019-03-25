@@ -24,8 +24,7 @@ Presentation slides, posters and other material available via [Github](https://g
 <!--<iframe src="http://livestream.com/accounts/2914987/events/4349899/videos/100125511/player?autoPlay=false&height=360&mute=false&width=640" width="640" height="360" frameborder="0" scrolling="no"></iframe>-->
 
 
-
-
+3/2018 [**Microcosm within us: gut microbiome**](https://www.youtube.com/watch?v=68a-tMganyQ) Science Cafe talk in Turku, Finland
 
 2/2017 [**Academy of Finland video blog**](https://www.youtube.com/watch?v=duF4LBCII9o&t=4s) 
 
