@@ -23,6 +23,15 @@ permalink: /team/resources.html
 
 The [Lab manual](https://github.com/openresearchlabs/labmanual) from Aly lab contains many good aspects. Will be updated for our situation later but meanwhile have a look and pick up the relevant parts.
 
+### Mailing lists
+
+We have the following email lists:
+
+ * [mda@lists.utu.fi](https://lists.utu.fi/mailman/listinfo/datascience): Research group mailing list. 
+ * [datascience@lists.utu.fi](https://lists.utu.fi/mailman/listinfo/datascience): Announcement on the regular book reading circle. Will be automatically forwarded to the research group email list, no need to subscribe separately.
+ * [coffeeseminar@lists.utu.fi](https://lists.utu.fi/mailman/listinfo/datascience): Announcement on the semi-regular journal club. Will be automatically forwarded to the research group email list, no need to subscribe separately.
+
+
 
 ### Research ethics and integrity
 
