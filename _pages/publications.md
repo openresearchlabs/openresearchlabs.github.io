@@ -33,7 +33,7 @@ For code, data, and audiovisual material see the separate [code](../code/) and [
 
 ## Digital humanities and computational social science
 
-{% bibliography --file bibtex/lahti  --query @article[status=dh] %}
+{% bibliography --file bibtex/lahti  --query @*[status=dh] %}
 
 
 ## Open science
