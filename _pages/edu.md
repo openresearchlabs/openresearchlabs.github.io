@@ -16,7 +16,16 @@ Courses and seminars
 
 2018/2019 [Research seminar and journal club](../seminar/) on machine learning and data science.
 
-9/2019 KU Leuven  
+Dec 16-20, 2019 Pune, India  
+Modern statistics for microbiome bioinformatics.
+
+Sep 2-4, 2019 [Singapore Centre for Environmental and Life Science Engineering](http://www.scelse.sg/)  
+Contemporary themes in microbiome data science.
+
+Sep 12-13, 2019 Nijmegen  
+Advanced statistical techniques in microbiome bioinformatics
+
+Sep 16-18, 2019 KU Leuven  
 [International summer school on microbial community modeling](http://psbweb05.psb.ugent.be/conet/microbemodelschool/index.php)
 
 5/2018 Wageningen, The Netherlands  
