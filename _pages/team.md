@@ -10,7 +10,7 @@ permalink: /team/
 
 # Research team
 
-**Welcome to contact us to discuss research/study positions and collaboration.** See also [open positions](recruit.md)  
+**Welcome to contact us to discuss research/study positions and collaboration.** See also [open positions](../recruit/)  
 
 
 <div class="col-sm-12 clearfix">
