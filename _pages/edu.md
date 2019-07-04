@@ -16,8 +16,11 @@ Courses and seminars
 
 2018/2019 [Research seminar and journal club](../seminar/) on machine learning and data science.
 
-Dec 16-20, 2019 Pune, India  
+Dec 16-20, 2019 [Pune, India](https://pbs.twimg.com/media/D-cRz8YUYAEuzNj.jpg)
 Modern statistics for microbiome bioinformatics.
+
+Oct 14-16, 2019 [Wageningen University and Research Center, The Netherlands](https://www.vlaggraduateschool.nl/nl/cursus/IMHA19.htm#tab0)
+Intestinal microbiome of humans and animals. VLAG Graduate School course.
 
 Sep 2-4, 2019 [Singapore Centre for Environmental and Life Science Engineering](http://www.scelse.sg/)  
 Contemporary themes in microbiome data science.
