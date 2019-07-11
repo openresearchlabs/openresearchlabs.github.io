@@ -17,7 +17,7 @@ Versus - online journal
 Video lectures and interviews 
 -----
 
-Presentation slides, posters and other material available via [Github](https://github.com/openresearchlabs/openresearchlabs.github.io/tree/master/publications) and [SlideShare](http://www.slideshare.net/antagomir/presentations)
+Presentation slides, posters and other material available via [Github](https://github.com/openresearchlabs/openresearchlabs.github.io/tree/master/publications).
 
 <!--<iframe src="http://livestream.com/accounts/2914987/events/4349899/videos/100125511/player?autoPlay=false&mute=false" frameborder="0" scrolling="no"></iframe>-->
 <!-- To adjust frame size use: -->
@@ -50,7 +50,7 @@ Presentation slides, posters and other material available via [Github](https://g
 Presentation slides
 -----
 
-PDF/OpenOffice source files [here](https://gitlab.utu.fi/opencomp/outreach/tree/master/slides). See also separate page on [teaching material](../edu/).
+For presentation material, see [Github](https://github.com/openresearchlabs/openresearchlabs.github.io/tree/master/publications).
 
 [International summer school on microbial network analysis](http://psbweb05.psb.ugent.be/conet/econetschool/index.php) in Leuven, Belgium Sep 11-13, 2017. [Lecture slides](https://github.com/antagomir/antagomir.github.io/blob/master/publications/publications/slides/20170913-Leuven-Lecture-Lahti.odp?raw=true) [R Tutorial](https://github.com/antagomir/antagomir.github.io/blob/master/publications/publications/slides/20170913-Leuven-Tutorial-Lahti.odp?raw=true)  
 
@@ -85,6 +85,8 @@ Blogs
 Selected posters
 -----
 
+[The Emerging Paradigm of Bibliographic Data Science](https://www.helsinki.fi/en/researchgroups/computational-history/dh2019-poster)
+_Digital Humanities conference. Utrecht, 2019_.
 
 [Opportunities and challenges in large-scale microbiome-profiling studies](../publications/publications/posters/20160901-Turku/poster.pdf)
 _Biocity symposium, Turku, Finland 2016_.
