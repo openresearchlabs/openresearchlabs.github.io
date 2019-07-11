@@ -50,7 +50,7 @@ Presentation slides, posters and other material available via [Github](https://g
 Presentation slides
 -----
 
-PDF/OpenOffice source files [here](https://github.com/openresearchlabs/openresearchlabs.github.io/tree/master/publications/publications/slides). See also separate page on [teaching material](../edu/).
+PDF/OpenOffice source files [here](https://gitlab.utu.fi/opencomp/outreach/tree/master/slides). See also separate page on [teaching material](../edu/).
 
 [International summer school on microbial network analysis](http://psbweb05.psb.ugent.be/conet/econetschool/index.php) in Leuven, Belgium Sep 11-13, 2017. [Lecture slides](https://github.com/antagomir/antagomir.github.io/blob/master/publications/publications/slides/20170913-Leuven-Lecture-Lahti.odp?raw=true) [R Tutorial](https://github.com/antagomir/antagomir.github.io/blob/master/publications/publications/slides/20170913-Leuven-Tutorial-Lahti.odp?raw=true)  
 
