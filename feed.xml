@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Turku Data Science Lab</title>
+    <title>Turku Data Science Group</title>
     <description>Research homepage. University of Turku, Finland. PI Leo Lahti. &gt;</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Aug 2019 18:39:40 +0300</pubDate>
-    <lastBuildDate>Thu, 01 Aug 2019 18:39:40 +0300</lastBuildDate>
+    <pubDate>Thu, 01 Aug 2019 18:57:50 +0300</pubDate>
+    <lastBuildDate>Thu, 01 Aug 2019 18:57:50 +0300</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
