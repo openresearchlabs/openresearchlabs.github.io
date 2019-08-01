@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>  
+  
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Licensing</title>
+  <meta name="description" content="Research homepage. University of Turku, Finland. PI Leo Lahti. >">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="/licensing/">
+<link rel="shortcut icon" type ="image/x-icon" href="/images/favicon.ico">
+
+
+
+</head>
+
+
+  <body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	  </button>
+	
+    <a class="navbar-brand" href="/">Open Research Labs</a>
+	</div>
+	
+	<div class="collapse navbar-collapse" id="navbar-collapse-1">
+
+	  <ul class="nav navbar-nav navbar-right">
+		<li><a href="/">Home</a></li>
+		<li><a href="/allnews">News</a></li>
+		<li><a href="/team">Team</a></li>
+		<li><a href="/research">Research</a></li>		
+		<li><a href="/publications">Publications</a></li>
+		<li><a href="/code">Code</a></li>
+		<li><a href="/media">Media</a></li>
+		<li><a href="/edu">Teaching</a></li>	
+		<li><a href="/contact">Contact</a></li>		
+	  </ul>
+	  
+	</div>
+  </div>
+
+</div>
+
+
+    <p></p>
+    
+    <div class="container-fluid">
+      <div class="row">
+
+	<p style="margin-bottom:50px;"></p>
+	
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Licensing</h1>
+  </header>
+
+  <article class="post-content">
+    <h1 id="open-licensing-of-scientific-material">Open licensing of scientific material</h1>
+
+<p>This memo gives recommendations for selecting open source license for
+scientific material, including software, data and documents.  Let us
+continue to make the newest computational techniques easily available
+to spark new applications and further development!</p>
+
+<h2 id="recommended-open-licenses-for-academic-publishing">Recommended open licenses for academic publishing</h2>
+
+<h1 id="software-and-source-code">Software and source code</h1>
+
+<p>The modified BSD licenses (in particular FreeBSD) and MIT license set minimal restrictions on the end user, and have therefore been recommended for academic purposes, for instance at ICML/MLOSS workshop 2010 (<a href="http://www.stanford.edu/~vcs/Papers.html">V. Stodden</a> and G. Bradski), and in the <a href="http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002598">Quick Guide to Software Licensing for the Scientist-Programmer</a> in PLoS CB. Also note that none of the standard licenses below excludes commercial use. Based on my experiences in developing scientific open source tools, I suggest the following preference order for selecting an open license:</p>
+
+<ul>
+  <li><a href="http://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_.28.22Simplified_BSD_License.22_or_.22FreeBSD_License.22.29">FreeBSD</a> (or other modified BSD licenses). Allows essentially free reuse of the code, and relicensing by others, assuming that the original open licensing statement is distributed with the code. Preferred over MIT since makes an explicit statement concerning binary versions of the code and contains a notice prohibiting the use of the name of the copyright holder in promotion. See also <a href="http://en.wikipedia.org/wiki/BSD_licenses">other BSD licenses</a> that are slightly more restrictive than FreeBSD.</li>
+  <li><a href="http://en.wikipedia.org/wiki/MIT_License">MIT license</a> Essentially similar to FreeBSD but slightly less explicit regarding binary versions of the code.</li>
+  <li><a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt">GPL (&gt;=2)</a> is more restrictive than FreeBSD or MIT licenses. One reason to license software under GPL occurs when your code contains parts of GPL-licensed code: the complete source code utilizing portions of GPL-licensed code needs to be released under GPL since this is a viral license. For compatibility, GPL(&gt;=2) is often preferred over GPLv2 to allow end user select between GPLv2 and any later version. GPL should not the default choice for academic publishing since its requirements of viral distribution are somewhat incompatible with the general scientific standard of unrestricted reuse.</li>
+  <li><a href="http://www.gnu.org/licenses/why-not-lgpl.html">LGPL</a> requires that modified versions of your code are also published under LGPL, but not the whole software that utilizes the code. It is therefore less restrictive than GPL, but more restrictive than BSD or MIT that only require preservation of the license note in the code. See also <a href="http://www.gnu.org/licenses/why-not-lgpl.html">reasons not to use LGPL</a>.</li>
+</ul>
+
+<p>There are many <a href="http://en.wikipedia.org/wiki/List_of_FSF_approved_software_licenses">other open licenses</a> but they may set restrictions that are not appropriate for academic purposes, or may have compatibility problems with other licenses. For instance, <a href="http://www.apache.org/licenses/">Apache2.0</a> is nearly identical to FreeBSD and MIT, but <a href="http://stackoverflow.com/questions/40100/apache-licence-vs-bsd-vs-mit">not always GPL2-compatible</a> which may prevent reuse (see also <a href="http://www.oss-watch.ac.uk/resources/opensourceyourcode.xml">this link</a>). Many people tend to think that <a href="http://www.gnu.org/licenses/gpl-3.0.html">GPLv3</a> sets too extensive restrictions, including requirements on hardware (see also <a href="http://www.oreillynet.com/linux/blog/2007/06/linus_take_on_sun_opensolaris_1.html">this</a> and <a href="http://www.oss-watch.ac.uk/resources/gpl3final.xml">this</a> for further discussion). ‘'’Public domain’’’ or ‘'’missing license’’’ do not imply open source and can prevent the reuse of your work since the concepts are legally ill-defined. ‘'’Non-commercial clause’’’ is sometimes assigned to license (‘‘not for commercial purposes’’); note however that none of the standard open licenses sets such restrictions- commercial use of academic research results is not restricted in general, so why should source code be different? For further info, check <a href="http://en.wikipedia.org/wiki/Comparison_of_free_software_licenses">comparison of free software licenses</a>.</p>
+
+<h1 id="data">Data</h1>
+
+<ul>
+  <li><a href="http://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a> (Recommended for data)</li>
+  <li><a href="http://wiki.creativecommons.org/CC0_FAQ">CC0</a> (Recommended for metadata; gives away all rights)</li>
+  <li><a href="http://www.opendatacommons.org/licenses/by/">ODC-BY</a> Open Data Commons Attribution License (another open data license)</li>
+  <li><a href="http://www.opendatacommons.org/about/">Public Domain Dedication and License (PDDL)</a> (another open data license)</li>
+</ul>
+
+<p>See also the <a href="http://opendatamanual.org/">Open Data Manual</a></p>
+
+<h1 id="documents">Documents</h1>
+
+<ul>
+  <li><a href="http://creativecommons.org/choose/">Creative Commons</a></li>
+  <li><a href="http://www.gnu.org/licenses/fdl.html">GNU Free Documentation License</a></li>
+</ul>
+
+<h1 id="publishing-your-work">Publishing your work</h1>
+
+<p>The following repositories can be used to distribute
+all research documents (data, code, publications, videos etc.). Github
+is mostly for code; Figshare and Dryad are suited for data and
+miscellaneous material:</p>
+
+<ul>
+  <li><a href="http://github.org">Github</a> (use primarily for code)</li>
+  <li><a href="http://figshare.com">Figshare</a></li>
+  <li><a href="http://datadryad.org">Data Dryad</a> (includes a fee)</li>
+</ul>
+
+<p>You can also list your work in an appropriate repository for open
+source content:</p>
+
+<ul>
+  <li>Software: <a href="http://mloss.org/software/">Machine Learning Open Source Software (MLOSS)</a></li>
+  <li>Data: <a href="http://oad.simmons.edu/oadwiki/Data_repositories">Public repositories for open data</a></li>
+  <li>Documents: <a href="http://arxiv.org">arXiv</a>; bioArXiv; etc.</li>
+</ul>
+
+<h2 id="open-licensing-step-by-step">Open licensing step-by-step</h2>
+
+<ol>
+  <li>
+    <p>Pick a standard license (see suggestions below)</p>
+  </li>
+  <li>
+    <p>Check <a href="http://en.wikipedia.org/wiki/GNU_General_Public_License#Compatibility_and_multi-licensing">license compatibility</a> if your project includes external source code.</p>
+  </li>
+  <li>
+    <p>Ensure that you own sufficient copyrights for the licensing</p>
+  </li>
+  <li>
+    <p>Mention the license name in your documentation and source files,
+and include the full license as a text file or provide a link.</p>
+  </li>
+  <li>
+    <p>Add your personal information (i.e. name, email, affiliation) in
+the license.</p>
+  </li>
+</ol>
+
+<h2 id="why-license-my-work">Why license my work?</h2>
+
+<p>Minimally restrictive licenses can help to promote the core scientific standards of publicity, transparency, reproducibility, and unrestricted use of research results. Motivations for open licensing include:</p>
+
+<ul>
+  <li>Guarantee your own rights to your work</li>
+  <li>Encourage the reuse of your work in a legally sustainable manner with minimal effort; missing licensing statements can prevent reuse</li>
+  <li>Enforce core scientific standards of transparency and reproducibility (see <a href="http://www.stanford.edu/~vcs/Papers.html">papers by V. Stodden</a>)</li>
+  <li>Valued by funding organizations, other scientists, fellow geeks, and laymen.</li>
+  <li>It is simple</li>
+  <li><a href="http://www.nature.com/news/2010/101013/full/467753a.html">Publish your computer code: it is good enough (Nature News)</a></li>
+</ul>
+
+<h2 id="links-and-references">Links and References</h2>
+<ul>
+  <li><a href="http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002598">A Quick Guide to Software Licensing for the Scientist-Programmer</a>; Morin/Urban/Sliz, PLoS CB 2012</li>
+  <li><a href="http://julkinendata.posterous.com/#!/avoimen-datan-lisensointimalleja-maailmalta">Pohdintoja avoimen datan lisensoinnista Suomessa</a></li>
+  <li>Hietanen, Herkko: <a href="http://urn.fi/URN:ISBN:978-952-214-721-9">The Pursuit of Efficient Copyright Licensing — How Some Rights Reserved Attempts to Solve the Problems of All Rights Reserved</a>. Doctoral dissertation, 2008.</li>
+  <li>Oksanen, Ville: <a href="http://lib.tkk.fi/Diss/2008/isbn9789529983445/isbn9789529983445.pdf">Five Essays on Copyright in the Digital Era</a>. Doctoral dissertation, 2008.</li>
+  <li>Stodden, Victoria: <a href="http://www.stanford.edu/~vcs/Papers.html">Research on open standards for computational science</a></li>
+  <li><a href="http://www.opensource.com/">opensource.com</a></li>
+</ul>
+
+
+  </article>
+
+</div>
+
+	
+      </div>
+    </div>
+
+    <div id="footer" class="panel">
+  <div class="panel-footer">
+	<div class="container-fluid">
+	  <div class="row">
+		<div class="col-sm-4">
+			
+		  <p>&copy 2018 Leo Lahti<br/ >
+		      Open Research Labs<br/ >
+		      Site: Jekyll <a href="/aboutwebsite.html">open source</a></p>.
+              <!--<p>We are part of <a href="http://www.utu.fi/">University of Turku</a></p>-->
+		   <p>  </p><p>
+
+		</div>
+		
+		<div class="col-sm-4">
+		  Contact:<br />
+		  FI-20014 University of Turku<br />
+		  Finland 
+            (<a href="http://www.utu.fi/en/university/contact/Pages/home.aspx">Directions</a>)
+		</div>
+	  </div>
+	</div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+
+
+  </body>
+
+  <p></p>
+  
+</html>
+
