@@ -1,7 +1,7 @@
 ---
 title: "Team"
 layout: gridlay
-excerpt: "Open Research Labs: Team members"
+excerpt: "Team members"
 sitemap: false
 permalink: /team/
 ---
