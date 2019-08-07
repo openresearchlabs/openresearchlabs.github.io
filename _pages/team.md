@@ -29,8 +29,8 @@ permalink: /team/
   <ul style="overflow: hidden">
   <li>Academy of Finland Research Fellow 2016-2021</li>
   <li><a href="https://research.utu.fi/converis/portal/Person/17607336?auxfun=&lang=en_GB">University of Turku, Finland</a>. Docent/Adjunct Professor. Applied Mathematics.</li>
-  <li><a href="">Turku City Data Co.</a>Board member and scientific advisor.</li>  
-  <li><a href="https://blueprintgenetics.com">Blueprint Genetics</a>. Scientific Advisor (AI & Machine Learning)</li>
+  <li><a href="">Turku City Data Co.</a> Board member and scientific advisor.</li>  
+  <li><a href="https://blueprintgenetics.com">Blueprint Genetics</a>. Scientific Advisor (AI & ML)</li>
   <!--<li>[VIB/KU Leuven (Raes Lab)](http://www.kuleuven.be/wieiswie/en/unit/50000700), Belgium. Visiting Researcher</li>-->
   <li><a href="http://fi.okfn.org/wg/openscience/">Open Science work group</a>, OKF Finland. Founding member.</li>
 
