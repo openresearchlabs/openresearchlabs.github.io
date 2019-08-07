@@ -78,14 +78,12 @@ following the emergence of print press in the 15th century. We also publish algo
   Education and Culture in 2017**. Some highlights include a [Report on
   the openness of academic
   publishers](https://openscience.fi/-/openness-of-academic-publishers-evaluated-for-the-first-time),
-  commissioned by Finnish Ministry of Education and Culture; [opening of several agreements with academic publishers in 2017](http://finelib.fi/finelib-agreements-published/) and [opening
+  commissioned by Finnish Ministry of Education and Culture; [opening of several agreements with academic publishers in 2017-2019](http://finelib.fi/finelib-agreements-published/) and [opening
   of scientific journal subscription costs in Finland
   2010-2017](https://fi.okfn.org/2018/08/27/finland-remains-a-leading-country-in-the-transparency-of-academic-publishing-costs)
-  following our FOI requests; the Election Data Analytics project
-  funded by Sitra (2012-2013). The
-  [rOpenGov](http://ropengov.github.io) network for open government
-  data analytics (awards from Helsinki Region Infoshare, Sitra, and
-  Apps4Finland). 
+  following our FOI requests.
+
+
 
 
 
