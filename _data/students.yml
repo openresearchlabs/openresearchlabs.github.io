@@ -1,11 +1,15 @@
+- name: Wisam Tariq Saleem
+  photo: bio-photo.jpg
+  info: MSc student
+
+- name: Jani Paasivirta
+  photo: bio-photo.jpg
+  info: MSc student
+  
 - name: Anastasia Karavaeva 
   photo: bio-photo.jpg.jpg
   info: MSc student
 
-- name: Wisam Tariq Saleem
-  photo: bio-photo.jpg
-  info: MSc student
-  
 - name: Binu Matthew
   photo: bio-photo.jpg
   info: MSc student

@@ -29,6 +29,7 @@ permalink: /team/
   <ul style="overflow: hidden">
   <li>Academy of Finland Research Fellow 2016-2021</li>
   <li><a href="https://research.utu.fi/converis/portal/Person/17607336?auxfun=&lang=en_GB">University of Turku, Finland</a>. Docent/Adjunct Professor. Applied Mathematics.</li>
+  <li><a href="">Turku City Data Co.</a>Board member and scientific advisor.</li>  
   <li><a href="https://blueprintgenetics.com">Blueprint Genetics</a>. Scientific Advisor (AI & Machine Learning)</li>
   <!--<li>[VIB/KU Leuven (Raes Lab)](http://www.kuleuven.be/wieiswie/en/unit/50000700), Belgium. Visiting Researcher</li>-->
   <li><a href="http://fi.okfn.org/wg/openscience/">Open Science work group</a>, OKF Finland. Founding member.</li>
@@ -115,6 +116,64 @@ permalink: /team/
 
 
 
+## Visitors
+
+{% assign number_printed = 0 %}
+{% for member in site.data.visitors %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+  <h4>{{ member.name }}</h4>
+  <i>{{ member.info }}</i>
+  <ul style="overflow: hidden">
+  
+  {% if member.number_educ == 1 %}
+  <li> {{ member.education1 }} </li>
+  {% endif %}
+  
+  {% if member.number_educ == 2 %}
+  <li> {{ member.education1 }} </li>
+  <li> {{ member.education2 }} </li>
+  {% endif %}
+  
+  {% if member.number_educ == 3 %}
+  <li> {{ member.education1 }} </li>
+  <li> {{ member.education2 }} </li>
+  <li> {{ member.education3 }} </li>
+  {% endif %}
+  
+  {% if member.number_educ == 4 %}
+  <li> {{ member.education1 }} </li>
+  <li> {{ member.education2 }} </li>
+  <li> {{ member.education3 }} </li>
+  <li> {{ member.education4 }} </li>
+  {% endif %}
+  
+  </ul>
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+
+
+
+
 
 ## Undergraduate Students 
 
@@ -129,7 +188,7 @@ permalink: /team/
 
 <div class="col-sm-6 clearfix">
   <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}<br>email: <{{ member.email }}></i>
+  <i>{{ member.info }}</i>
   <ul style="overflow: hidden">
   
   {% if member.number_educ == 1 %}
