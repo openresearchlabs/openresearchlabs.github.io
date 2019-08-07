@@ -13,9 +13,15 @@ algorithmic data analysis, blending elements from various fields
 including statistical machine learning/AI, probabilistic programming,
 data science, and information engineering.
 
-Our focus is on data-rich applications that range from molecular life
-sciences to computational history. The [team](https://openresearchlabs.github.io/team/) is led by PI Leo Lahti who coordinates the [Computational
-biosciences](https://www.utu.fi/en/university/faculty-of-science-and-engineering/mathematics-and-statistics) group in University of Turku, Finland. We are also founding members and part of [Helsinki Computational History Group](http://www.helsinki.fi/computational-history).
+Our methodologically oriented research is motivated by data-rich
+applications that range from molecular life sciences to computational
+history. The [team](https://openresearchlabs.github.io/team/) is led
+by PI Leo Lahti who coordinates the [Computational
+biosciences](https://www.utu.fi/en/university/faculty-of-science-and-engineering/mathematics-and-statistics)
+group in University of Turku, Finland. We are also founding members
+and part of [Helsinki Computational History
+Group](http://www.helsinki.fi/computational-history), and have active
+networks with data science companies and public organizations.
 
 There is a great demand for targeted algorithmic methods to extract
 information and insights from data with minimal human intervention to
