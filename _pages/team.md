@@ -6,8 +6,6 @@ sitemap: false
 permalink: /team/
 ---
 
-
-
 # Research team
 
 **Welcome to contact us to discuss research/study positions and collaboration.** See also [open positions](../recruit/)  
