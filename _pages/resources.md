@@ -15,7 +15,7 @@ permalink: /team/resources.html
 - Join group [Slack](https://sdacrew.slack.com) (ask for invitation if necessary)
 - Join regular group meetings. For info on times and places, you can join the [group gcalendar](https://calendar.google.com/calendar/embed?src=88i752i5rd0m16rduatss6o4uk%40group.calendar.google.com&ctz=Europe%2FBrussels); otherwise, find out the times from other group members.
 - Start following main journals (Nature, Science..) with [Feedly](http://feedly.com) or another reader. Later add other relevant journals and feeds. Keeping track on the latest research is essential.
-- Read [code of conduct and expectations for lab members](../team/expectations)
+- Read [code of conduct and expectations for lab members](../team/expectations) and let PI know what you think
 - Familiarize with the material below; available here also for later reference.
 - Get a unique researcher identifier ([ORCID](https://orcid.org/))!
 - Start to keep systematic and detailed track record on your academic activities (presentations, publications, mobility, software releases, relevant positions in academia, academic societies or companies etc); including date, place, and other relevant information; these details will be needed many times later on in academic career.
@@ -26,7 +26,7 @@ The [Lab manual](https://github.com/openresearchlabs/labmanual) from Aly lab con
 
 ### Mailing lists
 
-We have the following email lists:
+We have the following email lists - ask to be added there.
 
  * [mda@lists.utu.fi](https://lists.utu.fi/mailman/listinfo/datascience): Research group mailing list. 
  * [datascience@lists.utu.fi](https://lists.utu.fi/mailman/listinfo/datascience): Announcement on the regular book reading circle. Will be automatically forwarded to the research group email list, no need to subscribe separately.
