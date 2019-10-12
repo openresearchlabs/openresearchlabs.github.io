@@ -79,7 +79,10 @@ developments in them;
 
 ### Funding
 
+Potential funding sources are listed in [Intranet](https://gitlab.utu.fi/opencomp/funding/funding_sources). For PhD studies, Postdocs, research projects, research visits to/from Finland, events, etc.
+
 [Ten Simple Rules for Getting Grants](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0020012)
+
 
 
 
