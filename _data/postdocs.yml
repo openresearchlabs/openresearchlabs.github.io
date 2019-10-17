@@ -1,0 +1,15 @@
+#- name: 
+#  photo: rock.jpg
+#  info:
+#  email:
+#  number_educ: 
+#  education1:  
+#  education2:  
+#  education3: 
+#  education4:  
+
+- name: Matti Ruuskanen
+  photo: matti_ruuskanen.jpg
+  info: Postdoc
+  email: matti.ruuskanen@utu.fi
+
