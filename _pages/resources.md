@@ -48,7 +48,7 @@ We have the following email lists - ask to be added there.
 
 ### Publishing research data and code
 
-[How to publish and archive research software and code](../publishing_code/)
+[How to publish and archive research software, code and data](https://openresearchlabs.github.io/team/publishing_code/)
 
 
 
