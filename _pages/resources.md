@@ -48,7 +48,8 @@ We have the following email lists - ask to be added there.
 
 ### Publishing research data and code
 
-[How to publish and archive research software and code](publishing_code.md)
+[How to publish and archive research software and code](../publishing_code/)
+
 
 
 ### Public outreach
@@ -60,9 +61,9 @@ Guidelines on public outreach in research: [Finnish](http://www.tjnk.fi/sites/tj
 
 ### Review process 
 
-[Ten simple rules for writing a response to reviewers](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005730) Noble WS (2017). PLoS Comput Biol 13(10): e1005730. https://doi.org/10.1371/journal.pcbi.1005730
+[Ten simple rules for writing a response to reviewers](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005730) Noble WS (2017). PLoS Comput Biol 13(10): e1005730. 
 
-[Ten simple rules for reviewers](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0020110) Bourne PE, Korngreen A (2006). PLoS Comput Biol 2(9): e110. https://doi.org/10.1371/journal.pcbi.0020110
+[Ten simple rules for reviewers](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0020110) Bourne PE, Korngreen A (2006). PLoS Comput Biol 2(9): e110. 
 
 
 ### PhD and Postdoc process

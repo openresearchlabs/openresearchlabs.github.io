@@ -1,7 +1,6 @@
 # How to publish and archive research software or source code
 
-
- * **Choose open license** The code is not really "open" without an open license. Common ones include MIT, FreeBSD and GPL3. The MIT license is often recommended due to its simplicity. See [Quick guide to software licensing for a scientist programmer](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002598)
+ * **Choose open license** The code is not really "open" without an open license. Common ones include MIT, FreeBSD and GPL3. The MIT license is often recommended due to its simplicity. See [Quick guide to software licensing for a scientist programmer](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002598). See also the brief [memo on open licensing of scientific material](../licensing/).
 
  * **Add version number**
 
