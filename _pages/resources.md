@@ -10,10 +10,11 @@ permalink: /team/resources.html
 ## Checklist: joining the group
 
 - Check this page
-- Check the [welcome page of the department](https://tech.utu.fi/en/staff-welcome-info/?post_password=t39vmqubo3vj39hymjf)
+- Check the [department welcome page](https://tech.utu.fi/en/staff-welcome-info/?post_password=t39vmqubo3vj39hymjf)
 - Send your picture and info to Leo, to be added on the [website](team/)
 - Join group [Slack](https://sdacrew.slack.com) (ask for invitation if necessary)
-- Join regular group meetings. For info on times and places, you can join the [group gcalendar](https://calendar.google.com/calendar/embed?src=88i752i5rd0m16rduatss6o4uk%40group.calendar.google.com&ctz=Europe%2FBrussels); otherwise, find out the times from other group members.
+- Open [UTU Gitlab account](https://gitlab.utu.fi) and request group permissions from your instructor
+- Join regular [group meetings](https://gitlab.utu.fi/opencomp/team/blob/master/meetings.md). For info on times and places, you can join the [group gcalendar](https://calendar.google.com/calendar/embed?src=88i752i5rd0m16rduatss6o4uk%40group.calendar.google.com&ctz=Europe%2FBrussels); otherwise, find out the times from other group members.
 - Start following main journals (Nature, Science..) with [Feedly](http://feedly.com) or another reader. Later add other relevant journals and feeds. Keeping track on the latest research is essential.
 - Read [code of conduct and expectations for lab members](../team/expectations) and let PI know what you think
 - Familiarize with the material below; available here also for later reference.
