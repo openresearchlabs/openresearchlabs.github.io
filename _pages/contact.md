@@ -27,7 +27,7 @@ Welcome to contact us to discuss research/study positions and collaboration oppo
 
 **Mail** Department of Future Technologies. Faculty of Natural Sciences and Engineering, Yliopistonmäki, FI-20014, University of Turku, Finland
 
-**Visiting address** Agora, 4th floor, room 380. Yliopistonmäki, Turku <a href="http://www.utu.fi/en/university/contact/Pages/home.aspx">(Map)</a>
+**Visiting address** Agora, 4th floor, room 452E. Yliopistonmäki, Turku <a href="http://www.utu.fi/en/university/contact/Pages/home.aspx">(Map)</a>
 
 <!--You can also follow in <a href="https://twitter.com/antagomir">Twitter</a>-->
 
