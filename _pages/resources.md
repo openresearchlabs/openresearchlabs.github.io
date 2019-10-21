@@ -40,9 +40,15 @@ We have the following email lists - ask to be added there.
 
 [Finnish National Board on Research Integrity](http://www.tenk.fi/) has various resources on research ethics
 
+
 ### Writing research papers
 
 [Ten Simple Rules for Getting Published](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0010057)
+
+
+### Publishing research data and code
+
+[How to publish and archive research software and code](publishing_code.md)
 
 
 ### Public outreach
@@ -82,8 +88,6 @@ developments in them;
 Potential funding sources are listed in [Intranet](https://gitlab.utu.fi/opencomp/funding/funding_sources). For PhD studies, Postdocs, research projects, research visits to/from Finland, events, etc.
 
 [Ten Simple Rules for Getting Grants](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0020012)
-
-
 
 
 ### Team resources
