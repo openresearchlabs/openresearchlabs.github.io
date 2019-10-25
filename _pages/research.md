@@ -64,13 +64,12 @@ functional genomics.  For more details, check the [list of
 publications](/work/pubs) and the [PhD
 thesis](http://lib.tkk.fi/Diss/2010/isbn9789526033686).-->
 
-
 **Computational humanities** We develop open algorithms and research
 tools for digital humanities as part of [Helsinki Computational
 History (COMHIS) Group](http://comhis.github.io) and as the founder of
 [rOpenGov](https://ropengov.github.io). Our current focus is in
 modeling the history of public discourse across several centuries
-following the emergence of print press in the 15th century. We also publish algorithms open government data, such as [eurostat](http://ropengov.github.io/eurostat/) and manage the [rOpenGov](https://ropengov.github.io) developer network, which has over 20 R packages and tens of thousands of annual downloads.
+following the emergence of print press in the 15th century (see a [poster in Digital Humanities 2019](https://www.helsinki.fi/en/researchgroups/computational-history/dh2019-poster)). We also publish algorithms open government data, such as [eurostat](http://ropengov.github.io/eurostat/) and manage the [rOpenGov](https://ropengov.github.io) developer network, which has over 20 R packages and tens of thousands of annual downloads.
 
 **Open science** We have actively supported [Open Knowledge Finland
   Open Science work group](https://fi.okfn.org/wg/openscience/), which
