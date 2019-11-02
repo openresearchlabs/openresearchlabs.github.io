@@ -48,14 +48,6 @@ For source material (LaTeX code, figures etc.) of these theses, see [Github](htt
 {% bibliography --file bibtex/lahti  --query @*[category=thesis] %}
 
 
-## Technical reports and outreach
-
-{% bibliography --file bibtex/lahti  --query @*[status=other] %}
-{% bibliography --file bibtex/lahti  --query @*[status=abstract] %}
-
-
-
-
 
 <!--The material is presented to ensure timely dissemination of scholarly and technical work. While I aim to grant CC or other open source/copyleft licenses for the content wherever possible, kindly note that copyright in the external links and all rights therein are retained by authors or by other copyright holders.-->
 
