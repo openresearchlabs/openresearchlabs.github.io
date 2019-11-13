@@ -42,18 +42,19 @@ We have the following email lists - ask to be added there.
 [Finnish National Board on Research Integrity](http://www.tenk.fi/) has various resources on research ethics
 
 
-### Writing research papers
+### Writing research 
 
 [Ten Simple Rules for Getting Published](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0010057)
 
 
-### Publishing research data and code
+### Publishing data and code
 
 [How to publish and archive research software, code and data](https://openresearchlabs.github.io/release/)
 
 
+### Outreach (presentations, media etc.)
 
-### Public outreach
+[Ten Simple Rules for a Good Poster Presentation](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030102)
 
 [Ten Simple Rules for Making Good Oral Presentations](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030077)
 
