@@ -89,6 +89,8 @@ developments in them;
 
 Potential funding sources are listed in [Intranet](https://gitlab.utu.fi/opencomp/funding/funding_sources). For PhD studies, Postdocs, research projects, research visits to/from Finland, events, etc.
 
+[Funding application material (confidential)](https://gitlab.utu.fi/opencomp/funding)
+
 [Ten Simple Rules for Getting Grants](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0020012)
 
 
@@ -96,8 +98,8 @@ Potential funding sources are listed in [Intranet](https://gitlab.utu.fi/opencom
 
 We aim to share source materials within the group:
 
+- [Group meetings](https://gitlab.utu.fi/opencomp/team/blob/master/meetings.md)
 - [Publication materials](https://gitlab.utu.fi/opencomp/publications)
-- [Funding applications](https://gitlab.utu.fi/opencomp/funding)
 - [Slides](https://gitlab.utu.fi/opencomp/slides)
 - [Google docs](https://drive.google.com/drive/u/0/folders/18wqW0Aa6ny1gKkS7UyXbHBfRw1urPyc-?ths=true) (journal clubs, relevant documents etc.)
 - [Scripts](https://gitlab.com/openresearchlabs/scripts) (reproducible examples/case studies with general applicability)
