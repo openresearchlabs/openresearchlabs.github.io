@@ -29,7 +29,7 @@ permalink: /team/
   <li>Academy of Finland Research Fellow 2016-2021</li>
   <li>Director of Turku Center for Computational Humanities</li>  
   <li>Founding member of <a href="http://www.helsinki.fi/computational-history">Helsinki Computational History Group</a></li>    
-  <li><a href="">Turku City Data Co.</a> Board member and scientific advisor.</li>  
+  <li><a href="https://turkucitydata.fi">Turku City Data Co.</a> Board member and scientific advisor.</li>  
   <li><a href="https://blueprintgenetics.com">Blueprint Genetics</a>. Scientific Advisor (AI & ML)</li>
   <li><a href="http://fi.okfn.org/wg/openscience/">Open Science work group</a>, OKF Finland. Founding member.</li>
 
