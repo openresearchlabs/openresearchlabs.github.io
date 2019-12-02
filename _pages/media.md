@@ -24,6 +24,8 @@ Presentation slides, posters and other material available via [Github](https://g
 <!--<iframe src="http://livestream.com/accounts/2914987/events/4349899/videos/100125511/player?autoPlay=false&height=360&mute=false&width=640" width="640" height="360" frameborder="0" scrolling="no"></iframe>-->
 
 
+11/2019 [**Integrating open science in the humanities: the case of computational history**](https://researchdata.springernature.com/users/334226-mikko-tolonen-leo-lahti/posts/56722-integrating-open-science-in-the-humanities-the-case-of-computational-history?fbclid=IwAR0f6C3jluizvZG6krIYMQ8P8VmPJi9lKVCjn62d1Db12eIB7YWIBXoT3l0) Springer-Nature blog post and links to the streamed presentations.
+
 3/2018 [**Microcosm within us: gut microbiome**](https://www.youtube.com/watch?v=68a-tMganyQ) Science Cafe talk in Turku, Finland
 
 2/2017 [**Academy of Finland video blog**](https://www.youtube.com/watch?v=duF4LBCII9o&t=4s) 
