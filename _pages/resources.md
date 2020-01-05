@@ -38,6 +38,8 @@ We have the following email lists - ask to be added there.
 
 ### Research ethics and integrity
 
+[Ten simple rules towards healthier research labs](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006914)
+
 [Guidelines on responsible research conduct](http://www.tenk.fi/en/responsible-conduct-of-research) (Finnish National Board on Research Integrity)
 
 [Finnish National Board on Research Integrity](http://www.tenk.fi/) has various resources on research ethics

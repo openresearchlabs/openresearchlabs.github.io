@@ -10,8 +10,6 @@ permalink: /team/expectations/
 Welcome to the Lab!
 ----------------------------------
 
-_This document has been modified from: Masters KS, Kreeger PK (2017) Ten simple rules for developing a mentor–mentee expectations document. PLoS Comp Biol 13(9):e1005709. [doi:10.1371/journal.pcbi.1005709](https://doi.org/10.1371/journal.pcbi.1005709)_
-
 
 ### Mission Statement
 
@@ -51,19 +49,22 @@ The more senior members of the group, and in particular me as the group leader, 
 **You will contribute to the lab and be a good lab citizen**
   - Senior graduate students are responsible for helping to train new students. **Science is a community** - many people will help you along the way and you should return the favor. Share your insider knowledge of techniques with others.
   - **Data (and code) belongs to the lab, not to any one individual** – you will be expected to leave your original code and other relevant research materials to the use of the research group after you leave. In addition, there will be times when you will be asked to assist me in submitting grant applications to NIH/NSF/etc. This activity is essential to provide continuing support for our team.
-  - You will have **designated lab jobs** such as general maintenance, taking care of the website, teaching tasks, keeping the agreed time schedules, participating the meetings etc. Failure to do your lab jobs not only affects you, it can impede the entire lab and will not be tolerated. Everyone is expected to help.
+  - Everyone will have **designated lab jobs** such as general maintenance, taking care of the website, teaching tasks, keeping the agreed time schedules, participating the meetings etc. Failure to do your lab jobs not only affects you, it can impede the entire lab and will not be tolerated. Everyone is expected to help.
   - You will **keep the relevant documentation up-to-date.**
-  - When working in the labs of other investigators, be polite, neat, and gracious. Always follow their rules. If something breaks during your use, report it immediately to the appropriate person.
-  - **Be respectful, tolerant of, and work collegially with laboratory colleagues:  respect individual differences in values, personalities, and work styles.**
+  - When working in the labs of other investigators, be polite, neat, and gracious. Always follow their rules. 
+  - **Be respectful, tolerant of, and work collegially. Respect individual differences in values, personalities, and work styles.**
 
 
 ## Nuts and Bolts
+
+[Ten simple rules towards healthier research labs](https://doi.org/10.1371/journal.pcbi.1006914). 
 
 ### Hours and Vacation
 
 I do not believe in tracking hours – instead, I am interested to see that you are productive. _However, if I sense that this is being taken advantage of, the situation will be addressed_. You will quickly recognize that research is not a 9-5 proposition - night and weekend hours come with the territory. I ask that you will preferably discuss with me at least 4 weeks before a planned absence - this way we can determine if it is an appropriate time for a vacation and if there are grant or other deadlines during that period we have ample time to prepare. I expect you to satisfactorily complete all assigned research duties prior to your planned departure.
 
 ### Meetings
+
 Come prepared to discuss/present your recent research and next steps. 
 
 ### Annual Evaluations
@@ -78,3 +79,11 @@ One of the most important tasks in science is disseminating your research throug
 If a conflict arises with another lab member during your time in my lab, I will work with you to find a resolution. If the conflict fails to be resolved or you do not feel comfortable involving me, I encourage you to consult with the Department Chair, Chair of your graduate program, or the university ombuds office to attempt to settle the disagreement.
 
 
+
+### Sources
+
+This page has adapted material and ideas from the following.
+
+* Ten simple rules for developing a mentor–mentee expectations. Masters KS, Kreeger PK (2017). PLoS Comp Biol 13(9):e1005709. [doi:10.1371/journal.pcbi.1005709](https://doi.org/10.1371/journal.pcbi.1005709)_
+
+* Ten simple rules towards healthier research labs. Maestre FT (2019) Ten simple rules towards healthier research labs. PLoS Comput Biol 15(4): e1006914. [doi:10.1371/journal.pcbi.1006914](https://doi.org/10.1371/journal.pcbi.1006914)
