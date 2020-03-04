@@ -14,9 +14,11 @@ permalink: /edu/
 Courses and seminars
 ---------------------
 
+Apr 20-23, 2020. Hasselt University, Limburg, Belgium. [Microbiome Data Analysis Workshop](https://microbiome-workshop.meetinghand.com/)
+
 3-4/2020 University of Turku. [Machine Learning and Algorithmics Seminar (TKO_3121 5 op)](https://opas.peppi.utu.fi/fi/opintojakso/TKO_3121/3255). 
 
-2018-2019 [Research seminar and journal club](../seminar/) on machine learning and data science.
+2018-2020 [Research seminar and journal club](../seminar/) on machine learning and data science. University of Turku, Finland. Contact our research team for details.
 
 Dec 16-20, 2019 [Pune, India](https://pbs.twimg.com/media/D-cRz8YUYAEuzNj.jpg)
 Modern statistics for microbiome bioinformatics.
