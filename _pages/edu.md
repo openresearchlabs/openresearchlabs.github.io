@@ -14,11 +14,13 @@ permalink: /edu/
 Courses and seminars
 ---------------------
 
+2020 [Research seminar on probabilistic data analysis](https://gitlab.com/openresearchlabs/probabilistic_data_analysis_2020) in University of Turku, Finland. 
+
 Apr 20-23, 2020. Hasselt University, Limburg, Belgium. [Microbiome Data Analysis Workshop](https://microbiome-workshop.meetinghand.com/)
 
 3-4/2020 University of Turku. [Machine Learning and Algorithmics Seminar (TKO_3121 5 op)](https://opas.peppi.utu.fi/fi/opintojakso/TKO_3121/3255). 
 
-2018-2020 [Research seminar and journal club](../seminar/) on machine learning and data science. University of Turku, Finland. Contact our research team for details.
+2018-2019 [Research seminar on probabilistic machine learning](../seminar/). University of Turku, Finland based on [Machine learning - a probabilistic perspective](https://www.cs.ubc.ca/~murphyk/MLbook/) (K. Muprhy). [PDF](https://doc.lagout.org/science/Artificial%20Intelligence/Machine%20learning/Machine%20Learning_%20A%20Probabilistic%20Perspective%20%5BMurphy%202012-08-24%5D.pdf).
 
 Dec 16-20, 2019 [Pune, India](https://pbs.twimg.com/media/D-cRz8YUYAEuzNj.jpg)
 Modern statistics for microbiome bioinformatics.
