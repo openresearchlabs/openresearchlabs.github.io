@@ -14,7 +14,14 @@ permalink: /team/resources.html
 - Send your picture and info to Leo, to be added on the [website](team/)
 - Join group [Slack](https://sdacrew.slack.com) (ask for invitation if necessary)
 - Open [UTU Gitlab account](https://gitlab.utu.fi) and request group permissions from your instructor
-- Join regular [group meetings](https://gitlab.utu.fi/opencomp/team/blob/master/meetings.md). For info on times and places, you can join the [group gcalendar](https://calendar.google.com/calendar/embed?src=88i752i5rd0m16rduatss6o4uk%40group.calendar.google.com&ctz=Europe%2FBrussels); otherwise, find out the times from other group members.
+
+- Join regular [group meetings](https://gitlab.utu.fi/opencomp/team/blob/master/meetings.md). For info on times and places.
+
+- Join the [group gcalendar](https://calendar.google.com/calendar/embed?src=88i752i5rd0m16rduatss6o4uk%40group.calendar.google.com&ctz=Europe%2FBrussels); or if you do not want to use that, let's discuss in the group meeting if we should change this.
+
+- Join the [group absence gcalendar](https://calendar.google.com/calendar?cid=dXFoaDkzcWszaDk4NGtyaGsxNDJmaWM0OTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) and mark your planned absences there.
+
+
 - Start following main journals (Nature, Science..) with [Feedly](http://feedly.com) or another reader. Later add other relevant journals and feeds. Keeping track on the latest research is essential.
 - Read [code of conduct and expectations for lab members](../team/expectations) and let PI know what you think
 - Be aware of the [responsibilities of postgraduate students and requirements for the doctoral degree](https://www.utu.fi/sites/default/files/public%3A//media/file/SCI-postgraduate-education-instructions.pdf)
