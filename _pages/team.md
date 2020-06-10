@@ -302,13 +302,3 @@ permalink: /team/
 
 
 
-
-Material
----------------------------
-
-Resources and tips on joining the group, responsible research, journals and conferences, and other info are being collected [here](resources.html)
-
-
-
-
-
