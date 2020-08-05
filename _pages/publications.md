@@ -41,6 +41,11 @@ For code, data, and audiovisual material see the separate [code](../code/) and [
 {% bibliography --file bibtex/lahti  --query @*[status=openscience] %}
 
 
+## Popularized articles and general writings
+
+{% bibliography --file bibtex/lahti  --query @*[status=general] %}
+
+
 ## Theses and assignments
 
 For source material (LaTeX code, figures etc.) of these theses, see [Github](https://github.com/antagomir/thesis).
