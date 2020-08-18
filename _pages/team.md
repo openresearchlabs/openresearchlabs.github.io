@@ -167,7 +167,7 @@ permalink: /team/
 
 
 
-
+<!--
 ## Visitors
 
 {% assign number_printed = 0 %}
@@ -210,6 +210,7 @@ permalink: /team/
   </ul>
 </div>
 
+
 {% assign number_printed = number_printed | plus: 1 %}
 
 {% if even_odd == 1 %}
@@ -223,12 +224,9 @@ permalink: /team/
 </div>
 {% endif %}
 
+-->
 
-
-
-
-
-## Undergraduate Students 
+## Research assistants
 
 {% assign number_printed = 0 %}
 {% for member in site.data.students %}
@@ -289,7 +287,7 @@ permalink: /team/
 **PhD Students** Jose Caldas (With Prof Samuel Kaski; Aalto 2012)
 -->
 
-<!--**Master Students** Leila Paquay (Leuven 2018); Hege Roivainen (Helsinki 2017); Marnix Denys (KU Leuven 2017); Tineka Blake (Wageningen 2015); Emilio Ugaldes Morales (Wageningen 2014)-->
+<!--**Master Students** Anastasia Karavaeva, Binu Matthew, Leila Paquay (Leuven 2018); Hege Roivainen (Helsinki 2017); Marnix Denys (KU Leuven 2017); Tineka Blake (Wageningen 2015); Emilio Ugaldes Morales (Wageningen 2014)-->
 
 <!--**Bachelor Students** Maija Nevala (TKK 2008); Jyry Suvilehto (TKK 2007)-->
  
