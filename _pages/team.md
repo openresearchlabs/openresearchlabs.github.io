@@ -281,6 +281,12 @@ permalink: /team/
 {% endif %}
 
 
+## Alumni
+
+- Prashant Gaikwad
+- Aaro Salosensaari
+- Anastasia Karavaeva
+
 
 <!--
 ## Former students
