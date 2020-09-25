@@ -3,7 +3,7 @@ title: "Home"
 layout: textlay
 excerpt: "News"
 sitemap: false
-permalink: /allnews.html
+permalink: /allnews/
 ---
 
 # News
