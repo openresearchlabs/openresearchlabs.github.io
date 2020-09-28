@@ -13,10 +13,10 @@
   info: PhD student
   email: ville.laitinen@utu.fi
 
-- name: Joonatan Palmu
-  photo: joonatan_palmu.jpeg
-  info: PhD student (with Dr Teemu Niiranen)
-  email: joonatan.palmu@utu.fi
+- name: <a href="https://scholar.google.com/citations?user=XrlaLlUAAAAJ&hl=en">Moein Khalighi</a>
+  photo: moein_khalighi.jpg
+  info: PhD student
+  email: moein.khalighi@utu.fi
 
 - name: Anna Aatsinki
   photo: anna_aatsinki.jpg
@@ -28,16 +28,15 @@
   info: PhD student (Oulu; with Dr Justus Reunanen)
   email: anna.sorjamaa@oulu.fi
 
+- name: Joonatan Palmu
+  photo: joonatan_palmu.jpeg
+  info: PhD student (with Dr Teemu Niiranen)
+  email: joonatan.palmu@utu.fi
+
 - name: Ville Vaara
   photo: ville_vaara.jpg
   info: PhD student (Helsinki; with Prof Mikko Tolonen)
   email: ville.vaara@helsinki.fi
-
-- name: <a href="https://scholar.google.com/citations?user=XrlaLlUAAAAJ&hl=en">Moein Khalighi</a>
-  photo: moein_khalighi.jpg
-  info: PhD student
-  email: moein.khalighi@utu.fi
-
 
   
 
