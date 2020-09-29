@@ -1,41 +1,30 @@
+---
+layout: null
+---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Turku Data Science Group</title>
-    <description>Research homepage. University of Turku, Finland. PI Leo Lahti. &gt;</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 25 Sep 2020 16:23:03 +0300</pubDate>
-    <lastBuildDate>Fri, 25 Sep 2020 16:23:03 +0300</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
-    
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <generator>Jekyll v{{ jekyll.version }}</generator>
+    {% for post in site.posts limit:10 %}
       <item>
-        <title>eurostat R package</title>
-        <description>&lt;p&gt;The eurostat R package is now &lt;a href=&quot;https://journal.r-project.org/archive/2017/RJ-2017-019/index.html&quot;&gt;published in R Journal&lt;/a&gt;. Retrieval and Analysis of Eurostat Open Data with the eurostat Package. Leo Lahti, Janne Huovari, Markus Kainu and Przemysław Biecek, The R Journal (2017) 9:1, pages 385-392.&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 31 Jul 2017 00:00:00 +0300</pubDate>
-        <link>/2017/07/31/eurostat.html</link>
-        <guid isPermaLink="true">/2017/07/31/eurostat.html</guid>
-        
-        
+        <title>{{ post.title | xml_escape }}</title>
+        <description>{{ post.content | xml_escape }}</description>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+        {% for tag in post.tags %}
+        <category>{{ tag | xml_escape }}</category>
+        {% endfor %}
+        {% for cat in post.categories %}
+        <category>{{ cat | xml_escape }}</category>
+        {% endfor %}
       </item>
-    
-      <item>
-        <title>Summer school on ecological network analysis</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://psbweb05.psb.ugent.be/conet/econetschool/index.php&quot;&gt;International summer school on ecological network analysis&lt;/a&gt; in Leuven, Belgium Sep 11-13, 2017. We introduce students at the Master and PhD level to ecological network theory and network inference applied to microbial sequencing data. The course includes research talks on the latest developments in the field. Beyond the educational purposes, we also hope to facilitate scientific exchange between theoretical ecologists and bioinformaticians analyzing large-scale sequencing data sets of microbial communities.&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 30 Jul 2017 17:00:00 +0300</pubDate>
-        <link>/jekyll/update/2017/07/30/summerschool.html</link>
-        <guid isPermaLink="true">/jekyll/update/2017/07/30/summerschool.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
+    {% endfor %}
   </channel>
 </rss>
