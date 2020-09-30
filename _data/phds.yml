@@ -1,0 +1,42 @@
+#- name: 
+#  photo: rock.jpg
+#  info:
+#  email:
+#  number_educ: 
+#  education1:  
+#  education2:  
+#  education3: 
+#  education4:  
+
+- name: Ville Laitinen
+  photo: ville_laitinen.jpg
+  info: PhD student
+  email: ville.laitinen@utu.fi
+
+- name: <a href="https://scholar.google.com/citations?user=XrlaLlUAAAAJ&hl=en">Moein Khalighi</a>
+  photo: moein_khalighi.jpg
+  info: PhD student
+  email: moein.khalighi@utu.fi
+
+- name: Anna Aatsinki
+  photo: anna_aatsinki.jpg
+  info: PhD student (with Dr Linnea Karlsson)
+  email: anna.aatsinki@utu.fi
+
+- name: Anna Sorjamaa 
+  photo: bio-photo.jpg
+  info: PhD student (Oulu; with Dr Justus Reunanen)
+  email: anna.sorjamaa@oulu.fi
+
+- name: Joonatan Palmu
+  photo: joonatan_palmu.jpeg
+  info: PhD student (with Dr Teemu Niiranen)
+  email: joonatan.palmu@utu.fi
+
+- name: Ville Vaara
+  photo: ville_vaara.jpg
+  info: PhD student (Helsinki; with Prof Mikko Tolonen)
+  email: ville.vaara@helsinki.fi
+
+  
+
