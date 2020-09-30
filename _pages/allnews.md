@@ -1,6 +1,6 @@
 ---
 title: "News"
-layout: textlay
+layout: gridlay
 excerpt: "News"
 sitemap: false
 permalink: /allnews/
