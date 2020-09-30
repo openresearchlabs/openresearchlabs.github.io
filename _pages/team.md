@@ -14,7 +14,7 @@ permalink: /team/
 <div class="col-sm-12 clearfix">
 
   <div class="col-sm-3 clearfix" width="25%"> 
-  <img src="../images/teampic/Leo_Lahti2.jpg" class="img-responsive" width="100%" style="float: left" /><br/>
+  <img src="../images/teampic/leo_sci.jpg" class="img-responsive" width="100%" style="float: left" /><br/>
 
   <i><leo.lahti@iki.fi></i><br/>
   
@@ -280,6 +280,12 @@ permalink: /team/
 </div>
 {% endif %}
 
+
+## Alumni
+
+- Prashant Gaikwad
+- Aaro Salosensaari
+- Anastasia Karavaeva
 
 
 <!--
