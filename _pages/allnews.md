@@ -1,9 +1,9 @@
 ---
-title: "News"
+title: "Home"
 layout: textlay
 excerpt: "News"
 sitemap: false
-permalink: /allnews/
+permalink: /allnews.html
 ---
 
 # News
