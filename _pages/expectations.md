@@ -24,6 +24,7 @@ The more senior members of the group, and in particular me as the group leader, 
 
 
 ### What you can expect from me
+
   - **I will set the scientific direction for the lab and provide the means to pursue those directions.** This will include helping you to find a research topic, writing grants to fund the research, and maintaining the necessary university protocols for us to utilize available resources. Additionally, I will seek out and support collaborations to further your opportunities.
   - **I am committed to mentoring you now and in the future.** I am committed to your education and training while in the team, and to advising and guiding your career development. I will work to promote you and your work.
   - **I will encourage you to attend scientific meetings and make an effort to fund these activities.** These meetings are important to showcase your, and our, work and for the networking opportunities as you pursue positions after your time in my lab ends.
@@ -55,13 +56,10 @@ The more senior members of the group, and in particular me as the group leader, 
   - **Be respectful, tolerant of, and work collegially. Respect individual differences in values, personalities, and work styles.**
 
 
-## Nuts and Bolts
-
-[Ten simple rules towards healthier research labs](https://doi.org/10.1371/journal.pcbi.1006914). 
-
 ### Hours and Vacation
 
-I do not believe in tracking hours – instead, I am interested to see that you are productive. _However, if I sense that this is being taken advantage of, the situation will be addressed_. You will quickly recognize that research is not a 9-5 proposition - night and weekend hours come with the territory. I ask that you will preferably discuss with me at least 4 weeks before a planned absence - this way we can determine if it is an appropriate time for a vacation and if there are grant or other deadlines during that period we have ample time to prepare. I expect you to satisfactorily complete all assigned research duties prior to your planned departure.
+I do not believe in tracking hours – instead, I am interested to see that you are productive. _However, if I sense that this is being taken advantage of, the situation will be addressed_. You will quickly recognize that research is not a 9-5 proposition - night and weekend hours come with the territory. I ask that you will preferably discuss with me well before a planned absence - this way we can determine if it is an appropriate time for a vacation and if there are grant or other deadlines during that period we have ample time to prepare. I expect you to satisfactorily complete all assigned research duties prior to your planned departure.
+
 
 ### Meetings
 
