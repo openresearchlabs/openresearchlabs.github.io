@@ -1,7 +1,7 @@
 ---
 title: "Turku Data Science Group - Home"
 layout: homelay
-excerpt: "Data Science Group, University of Turku, Finland."
+excerpt: "Data Science, University of Turku, Finland."
 sitemap: false
 permalink: /
 ---
