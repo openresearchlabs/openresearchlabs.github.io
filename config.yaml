@@ -22,7 +22,7 @@ menu:
     #  url: /blog/
     #  weight: 2
     - identifier: edu
-      name: Teaching
+      name: Edu
       url: /edu/
       weight: 3
     - identifier: contact
