@@ -11,7 +11,7 @@ keywords: team
 <div class="col-sm-12 clearfix">
 
   <div class="col-sm-3 clearfix" width="25%"> 
-  <img src="../static/img/teampic/leo_sci.jpg" class="img-responsive" width="100%" style="float: left" /><br/>
+  <img src="../img/teampic/leo_sci.jpg" class="img-responsive" width="100%" style="float: left" /><br/>
 
   <i><leo.lahti@iki.fi></i><br/>
   
