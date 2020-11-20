@@ -1,14 +1,11 @@
 ---
-title: "Research"
-layout: textlay
-excerpt: "Research"
-sitemap: false
-permalink: /research/
+title: Research
+description: Research
+keywords: research
 ---
 
 
-Research topics
----------------
+# Research topics
 
 **We carry out research on the theory, methods and applications of
 modern statistical data analysis. Our focus is on data-rich

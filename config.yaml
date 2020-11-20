@@ -32,7 +32,23 @@ menu:
     - identifier: code
       name: Code
       url: /code/
-      weight: 5            
+      weight: 5
+    - identifier: media
+      name: Media
+      url: /media/
+      weight: 6
+    - identifier: publications
+      name: Publications
+      url: /publications/
+      weight: 7
+    - identifier: research
+      name: Research
+      url: /research/
+      weight: 8
+    - identifier: team
+      name: Team
+      url: /team/
+      weight: 9          
   topbar:
     - name: GitHub
       pre: <i class='fab fa-2x fa-github'></i>

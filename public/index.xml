@@ -83,17 +83,6 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     
     <item>
       <title></title>
-      <link>http://datascience.utu.fi/readme/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://datascience.utu.fi/readme/</guid>
-      <description>Custom Jekyll Theme This site is being developed in the devel branch. Deploy to master with ./deploy.sh - expect some minutes of delay sometimes
-Re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is update.d
-Jekyll also offers powerful support for code snippets:</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>http://datascience.utu.fi/recruit/2017-sa-eng/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -179,10 +168,10 @@ In recent years, the human microbiome has been characterised in great detail in 
     
     <item>
       <title>Leo Lahti</title>
-      <link>http://datascience.utu.fi/leo_lahti/</link>
+      <link>http://datascience.utu.fi/old/leo_lahti/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://datascience.utu.fi/leo_lahti/</guid>
+      <guid>http://datascience.utu.fi/old/leo_lahti/</guid>
       <description>Links to academic services online: Leo Lahti 
 Researcher profiles, networks, publication databases and impact altmetrics
  University of Turku Research Portal University of Helsinki TUHAT publication database ResearchGate ORCID: 0000-0001-5537-637X ResearcherID: G-3170-2010 ScienceOpen CiteUlike PubMed Google Scholar Scopus Publon reviewer profile ImpactStory Depsy research software impact Loop    </description>
@@ -190,10 +179,10 @@ Researcher profiles, networks, publication databases and impact altmetrics
     
     <item>
       <title>Licensing</title>
-      <link>http://datascience.utu.fi/licensing/</link>
+      <link>http://datascience.utu.fi/old/licensing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://datascience.utu.fi/licensing/</guid>
+      <guid>http://datascience.utu.fi/old/licensing/</guid>
       <description>Open licensing of scientific material This memo gives recommendations for selecting open source license for scientific material, including software, data and documents. Let us continue to make the newest computational techniques easily available to spark new applications and further development!
 Recommended open licenses for academic publishing Software and source code The modified BSD licenses (in particular FreeBSD) and MIT license set minimal restrictions on the end user, and have therefore been recommended for academic purposes, for instance at ICML/MLOSS workshop 2010 (V.</description>
     </item>
@@ -204,9 +193,12 @@ Recommended open licenses for academic publishing Software and source code The m
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://datascience.utu.fi/media/</guid>
-      <description>Versus - online journal Versus is an online research forum published by Society for Regional and Environmental Studies, Finnish Society for Environmental Social Science, and Geographical Society of Finland. It aims to make research more visible and effective by publishing popularized versions of scholarly work and providing an academic discussion forum. Editorial board.
-Video lectures and interviews Presentation slides, posters and other material available via Github.
--- -- 11/2019 Integrating open science in the humanities: the case of computational history Springer-Nature blog post and links to the streamed presentations.</description>
+      <description>Video lectures and interviews Presentation slides, posters and other material available via Github.
+-- -- 11/2019 Integrating open science in the humanities: the case of computational history Springer-Nature blog post and links to the streamed presentations.
+3/2018 Microcosm within us: gut microbiome Science Cafe talk in Turku, Finland
+2/2017 Academy of Finland video blog
+9/2015 Open Peer Review in Academic MindTrek, Tampere
+2/2014 Open science interview University of Helsinki, Finland.</description>
     </item>
     
     <item>
@@ -282,10 +274,10 @@ Digital humanities and computational social science {% bibliography &amp;ndash;f
     
     <item>
       <title>Publishing data and code</title>
-      <link>http://datascience.utu.fi/publishing_code/</link>
+      <link>http://datascience.utu.fi/old/publishing_code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://datascience.utu.fi/publishing_code/</guid>
+      <guid>http://datascience.utu.fi/old/publishing_code/</guid>
       <description>How to publish and archive research software or source code   Choose open license The code is not really &amp;ldquo;open&amp;rdquo; without an open license. Common ones include MIT, FreeBSD and GPL3. The MIT license is often recommended due to its simplicity. See Quick guide to software licensing for a scientist programmer. See also the brief memo on open licensing of scientific material.
   Add version number
   Document the experiments.</description>
@@ -302,10 +294,10 @@ Digital humanities and computational social science {% bibliography &amp;ndash;f
     
     <item>
       <title>Research seminar</title>
-      <link>http://datascience.utu.fi/seminar/</link>
+      <link>http://datascience.utu.fi/old/seminar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://datascience.utu.fi/seminar/</guid>
+      <guid>http://datascience.utu.fi/old/seminar/</guid>
       <description>Seminar on machine learning and data science We are running a weekly research seminar and journal club on machine learning and data science in University of Turku, Finland. These are open and informal events. The exact location and topics may vary, so contact us if you&amp;rsquo;re interested!
 Research seminar / Reading circle Thursdays 10-11:30am (2018-2019). We cover material from the following books, a chapter per week.
 Machine learning - a probabilistic perspective (K.</description>
@@ -378,10 +370,10 @@ Our methodologically oriented research is motivated by data-rich applications th
     
     <item>
       <title>Vacancies</title>
-      <link>http://datascience.utu.fi/vacancies/</link>
+      <link>http://datascience.utu.fi/old/vacancies/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://datascience.utu.fi/vacancies/</guid>
+      <guid>http://datascience.utu.fi/old/vacancies/</guid>
       <description>Open positions We are always looking for new group members with passion, talent, and grit!
 PhD and Postdoc positions If you are interested in working with us as a PhD student or postdoc, please send me an email. State briefly why you are interested and attach a CV, including information about the grades you had as an undergraduate. Important: please insert &amp;ldquo;Application PhD&amp;rdquo; or &amp;ldquo;Application Postdoc&amp;rdquo; in the subject line.</description>
     </item>

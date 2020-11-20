@@ -1,11 +1,8 @@
 ---
-layout: default
 title: Open positions
-permalink: /recruit/
 ---
 
-Open positions
-----------------
+# Open positions
 
 Applications for trainee/MSc/PhD/Postdoc positions from outstanding students are welcome. Please [contact](../contact) the PI to discuss the opportunities in more details. The topics are in data science methodology and applications in biosciences, social sciences and humanities.
 

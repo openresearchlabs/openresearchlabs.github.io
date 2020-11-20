@@ -1,21 +1,11 @@
 ---
-title: "Media"
-layout: gridlay
-excerpt: "Media"
-sitemap: false
-permalink: /media/
+title: Media
+description: Media
+keywords: media
 ---
 
 
-
-Versus - online journal
--------------
-
-[Versus](https://www.versuslehti.fi/english/) is an online research forum published by Society for Regional and Environmental Studies, Finnish Society for Environmental Social Science, and Geographical Society of Finland. It aims to make research more visible and effective by publishing popularized versions of scholarly work and providing an academic discussion forum. Editorial board. 
-
-
-Video lectures and interviews 
------
+# Video lectures and interviews 
 
 Presentation slides, posters and other material available via [Github](https://github.com/openresearchlabs/openresearchlabs.github.io/tree/master/publications).
 
@@ -49,21 +39,26 @@ Presentation slides, posters and other material available via [Github](https://g
 
 
 
-Presentation slides
------
+# Presentation slides
 
 Presentation material is available through [Gitlab](https://gitlab.utu.fi/opencomp/outreach) and [SlideShare](http://www.slideshare.net/antagomir/presentations).
 
 
-Blogs
-------
+# Blogs
 
-[rOpenGov](http://ropengov.github.io) Co-authored blog on open data analysis  
-[Louhos](http://louhos.wordpress.com) Finnish blog on open government data analysis  
-[opencomp](http://antagomir.wordpress.com) Open research blog  
+[rOpenGov](http://ropengov.org) Co-authored blog on open data analysis  
+
+<!--[Louhos](http://louhos.wordpress.com) Finnish blog on open government data analysis-->
+<!--[opencomp](http://antagomir.wordpress.com) Open research blog-->
 
 
+# Versus - online journal
 
+
+[Versus](https://www.versuslehti.fi/english/) is an online research forum published by Society for Regional and Environmental Studies, Finnish Society for Environmental Social Science, and Geographical Society of Finland. It aims to make research more visible and effective by publishing popularized versions of scholarly work and providing an academic discussion forum. Editorial board. 
+
+
+<!--
 Selected posters
 -----
 
@@ -73,6 +68,7 @@ _Digital Humanities conference. Utrecht, 2019_.
 [Opportunities and challenges in large-scale microbiome-profiling studies](../publications/publications/posters/20160901-Turku/poster.pdf)
 _Biocity symposium, Turku, Finland 2016_.
 
+-->
 
 <!--
 

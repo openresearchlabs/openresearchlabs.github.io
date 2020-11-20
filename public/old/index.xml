@@ -36,6 +36,27 @@ All pages are written in markdown for easy editing, and Jekyll uses Liquid for t
     </item>
     
     <item>
+      <title>Leo Lahti</title>
+      <link>http://datascience.utu.fi/old/leo_lahti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/old/leo_lahti/</guid>
+      <description>Links to academic services online: Leo Lahti 
+Researcher profiles, networks, publication databases and impact altmetrics
+ University of Turku Research Portal University of Helsinki TUHAT publication database ResearchGate ORCID: 0000-0001-5537-637X ResearcherID: G-3170-2010 ScienceOpen CiteUlike PubMed Google Scholar Scopus Publon reviewer profile ImpactStory Depsy research software impact Loop    </description>
+    </item>
+    
+    <item>
+      <title>Licensing</title>
+      <link>http://datascience.utu.fi/old/licensing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/old/licensing/</guid>
+      <description>Open licensing of scientific material This memo gives recommendations for selecting open source license for scientific material, including software, data and documents. Let us continue to make the newest computational techniques easily available to spark new applications and further development!
+Recommended open licenses for academic publishing Software and source code The modified BSD licenses (in particular FreeBSD) and MIT license set minimal restrictions on the end user, and have therefore been recommended for academic purposes, for instance at ICML/MLOSS workshop 2010 (V.</description>
+    </item>
+    
+    <item>
       <title>News</title>
       <link>http://datascience.utu.fi/old/allnews/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -44,6 +65,28 @@ All pages are written in markdown for easy editing, and Jekyll uses Liquid for t
       <description>News {% for article in site.data.news %}
 {{ article.date }} {{ article.headline }}
 {% endfor %} </description>
+    </item>
+    
+    <item>
+      <title>Publishing data and code</title>
+      <link>http://datascience.utu.fi/old/publishing_code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/old/publishing_code/</guid>
+      <description>How to publish and archive research software or source code   Choose open license The code is not really &amp;ldquo;open&amp;rdquo; without an open license. Common ones include MIT, FreeBSD and GPL3. The MIT license is often recommended due to its simplicity. See Quick guide to software licensing for a scientist programmer. See also the brief memo on open licensing of scientific material.
+  Add version number
+  Document the experiments.</description>
+    </item>
+    
+    <item>
+      <title>Research seminar</title>
+      <link>http://datascience.utu.fi/old/seminar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/old/seminar/</guid>
+      <description>Seminar on machine learning and data science We are running a weekly research seminar and journal club on machine learning and data science in University of Turku, Finland. These are open and informal events. The exact location and topics may vary, so contact us if you&amp;rsquo;re interested!
+Research seminar / Reading circle Thursdays 10-11:30am (2018-2019). We cover material from the following books, a chapter per week.
+Machine learning - a probabilistic perspective (K.</description>
     </item>
     
     <item>
@@ -64,6 +107,16 @@ All pages are written in markdown for easy editing, and Jekyll uses Liquid for t
       <description>Modern data analysis from theory to practice
 We carry out research on theory, methods and applications of modern algorithmic data analysis, blending elements from various fields including statistical machine learning/AI, probabilistic programming, data science, and information engineering.
 Our methodologically oriented research is motivated by data-rich applications that range from molecular life sciences to computational social sciences and humanities (SSH) research. Turku Data Science Group is led by Associate Prof. Leo Lahti.</description>
+    </item>
+    
+    <item>
+      <title>Vacancies</title>
+      <link>http://datascience.utu.fi/old/vacancies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/old/vacancies/</guid>
+      <description>Open positions We are always looking for new group members with passion, talent, and grit!
+PhD and Postdoc positions If you are interested in working with us as a PhD student or postdoc, please send me an email. State briefly why you are interested and attach a CV, including information about the grades you had as an undergraduate. Important: please insert &amp;ldquo;Application PhD&amp;rdquo; or &amp;ldquo;Application Postdoc&amp;rdquo; in the subject line.</description>
     </item>
     
   </channel>

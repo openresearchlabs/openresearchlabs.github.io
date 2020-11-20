@@ -1,14 +1,11 @@
 ---
-title: "Publications"
-layout: gridlay
-excerpt: "Publications."
-sitemap: false
-permalink: /publications/
+title: Publications
+keywords: papers, publications
+description: Research outputs
 ---
 
 
-Publications
-============
+# Publications
 
 The complete bibliography is available in [BibTex](https://github.com/openresearchlabs/openresearchlabs.github.io/blob/build/publications/bibtex/lahti.bib). You can find most papers and other outputs from [here](https://github.com/openresearchlabs/openresearchlabs.github.io/tree/master/publications), or just ask by email.
 

@@ -116,11 +116,6 @@
   </url>
   
   <url>
-    <loc>http://datascience.utu.fi/readme/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://datascience.utu.fi/recruit/2017-sa-eng/</loc>
   </url>
   
@@ -161,11 +156,11 @@
   </url>
   
   <url>
-    <loc>http://datascience.utu.fi/leo_lahti/</loc>
+    <loc>http://datascience.utu.fi/old/leo_lahti/</loc>
   </url>
   
   <url>
-    <loc>http://datascience.utu.fi/licensing/</loc>
+    <loc>http://datascience.utu.fi/old/licensing/</loc>
   </url>
   
   <url>
@@ -213,7 +208,7 @@
   </url>
   
   <url>
-    <loc>http://datascience.utu.fi/publishing_code/</loc>
+    <loc>http://datascience.utu.fi/old/publishing_code/</loc>
   </url>
   
   <url>
@@ -225,7 +220,7 @@
   </url>
   
   <url>
-    <loc>http://datascience.utu.fi/seminar/</loc>
+    <loc>http://datascience.utu.fi/old/seminar/</loc>
   </url>
   
   <url>
@@ -257,7 +252,7 @@
   </url>
   
   <url>
-    <loc>http://datascience.utu.fi/vacancies/</loc>
+    <loc>http://datascience.utu.fi/old/vacancies/</loc>
   </url>
   
   <url>
