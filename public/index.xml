@@ -64,6 +64,18 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     
     <item>
       <title></title>
+      <link>http://datascience.utu.fi/old/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/old/contact/</guid>
+      <description>Test test
+   Email leo.lahti@iki.fi
+
+&amp;ndash;&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>http://datascience.utu.fi/old/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -151,9 +163,7 @@ Digital Humanities and Computational Social Science rOpenGov R package ecosystem
       
       <guid>http://datascience.utu.fi/contact/</guid>
       <description>Contact Welcome to contact us to discuss research/study positions and collaboration opportunities.
-   Email leo.lahti@iki.fi
-
--- Twitter Follow us in Twitter
+Twitter Follow us in Twitter
 Mail Department of Future Technologies. Faculty of Natural Sciences and Engineering, Yliopistonmäki, FI-20014, University of Turku, Finland
 Visiting address Agora, 4th floor, room 452E. Yliopistonmäki, Turku (Map)
 Tel: +358 (0)50 436 4626</description>
@@ -181,10 +191,10 @@ In recent years, the human microbiome has been characterised in great detail in 
     
     <item>
       <title>edu</title>
-      <link>http://datascience.utu.fi/edu/</link>
+      <link>http://datascience.utu.fi/edu/edu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://datascience.utu.fi/edu/</guid>
+      <guid>http://datascience.utu.fi/edu/edu/</guid>
       <description>Courses and seminars 2020 Research seminar on probabilistic data analysis in University of Turku, Finland.
 Apr 20-23, 2020. Hasselt University, Limburg, Belgium. Microbiome Data Analysis Workshop
 3-4/2020 University of Turku. Machine Learning and Algorithmics Seminar (TKO_3121 5 op).

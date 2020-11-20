@@ -7,6 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://datascience.utu.fi/edu/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>edu</title>
+      <link>http://datascience.utu.fi/edu/edu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/edu/edu/</guid>
+      <description>Courses and seminars 2020 Research seminar on probabilistic data analysis in University of Turku, Finland.
+Apr 20-23, 2020. Hasselt University, Limburg, Belgium. Microbiome Data Analysis Workshop
+3-4/2020 University of Turku. Machine Learning and Algorithmics Seminar (TKO_3121 5 op).
+2018-2019 Research seminar on probabilistic machine learning. University of Turku, Finland based on Machine learning - a probabilistic perspective (K. Muprhy). PDF.
+Dec 16-20, 2019 Pune, India Modern statistics for microbiome bioinformatics.</description>
+    </item>
+    
+    <item>
       <title>Microbial bioinformatics and statistical ecology</title>
       <link>http://datascience.utu.fi/edu/microbiome/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
