@@ -54,7 +54,7 @@ keywords: team
 
 Email: first.last - at - utu.fi
 
- * Matti Ruuskanen [![Matti Ruuskanen](img/teampic/matti_ruuskanen.jpg)]
+ * Matti Ruuskanen [![Matti Ruuskanen](../img/teampic/matti_ruuskanen.jpg)]
  * Guilhem Sommeria-Klein
  * Pande Putu Erawijantari
  
@@ -62,25 +62,25 @@ Email: first.last - at - utu.fi
 ## PhD Students 
 
 Ville Laitinen
-  [![Ville Laitinen](img/teampic/ville_laitinen.jpg)]
+  [Ville Laitinen](../img/teampic/ville_laitinen.jpg)
 
 <a href="https://scholar.google.com/citations?user=XrlaLlUAAAAJ&hl=en">Moein Khalighi</a>
-  [![Matti Ruuskanen](img/teampic/moein_khalighi.jpg)]
+  [Matti Ruuskanen](../img/teampic/moein_khalighi.jpg)
 
 Anna Aatsinki
-  [![Anna Aatsinki](img/teampic/anna_aatsinki.jpg)]
+  [Anna Aatsinki](../img/teampic/anna_aatsinki.jpg)
   info: PhD student (with Prof Linnea Karlsson)
 
 Anna Sorjamaa
-  [![Anna Sorjamaa](img/teampic/anna_sorjamaa.jpg)]
+  [Anna Sorjamaa](../img/teampic/anna_sorjamaa.jpg)
   info: PhD student (Oulu; with Dr Justus Reunanen)
 
 Joonatan Palmu
-  [![Joonatan Palmu](img/teampic/joonatan_palmu.jpeg
+  [Joonatan Palmu](../img/teampic/joonatan_palmu.jpeg
   info: PhD student (with Prof Teemu Niiranen)
 
 Ville Vaara
-  [![Ville Vaara](img/teampic/ville_vaara.jpg)]
+  [Ville Vaara](../img/teampic/ville_vaara.jpg)
   info: PhD student (Helsinki; with Prof Mikko Tolonen)
 
 
@@ -89,19 +89,19 @@ Ville Vaara
 Wisam Tariq Saleem
 
 Pyry Kantanen
-  [![Pyry Kantanen](img/teampic/bio-photo.jpg)]
+  [Pyry Kantanen](../img/teampic/bio-photo.jpg)
 
 Binu Matthew
-  [![Binu Matthew](img/teampic/bio-photo.jpg)]
+  [Binu Matthew](../img/teampic/bio-photo.jpg)
 
 Iiro Tiihonen
-  [![Iiro Tiihonen](img/teampic/bio-photo.jpg)]
+  [Iiro Tiihonen](../img/teampic/bio-photo.jpg)
 
 Tuomas Borman
-  [![Tuomas Borman](img/teampic/bio-photo.jpg)]
+  [Tuomas Borman](../img/teampic/bio-photo.jpg)
 
 Renuka Potbhare
-  [![Renuka Potbhare](img/teampic/renuka.jpg)]
+  [Renuka Potbhare](../img/teampic/renuka.jpg)
   M. Phil. Student (with Dr. Richa Ashma, Pune University)
 
 
