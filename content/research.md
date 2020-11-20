@@ -18,7 +18,7 @@ of the limitations and statistical uncertainties associated with
 individual data sets. Open source implementations turn the new models
 into accessible tools to guide modeling and experimentation.
 
-[![kuva](img/isme14.jpg)]  
+![kuva](img/isme14.jpg)] 
 
 **Modern statistical data analysis** Our research blends elements from multiple theoretical and methodological fields, including statistical machine learning/AI, probabilistic programming, numerical ecology, and data science.
 
