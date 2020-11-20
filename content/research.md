@@ -18,7 +18,7 @@ of the limitations and statistical uncertainties associated with
 individual data sets. Open source implementations turn the new models
 into accessible tools to guide modeling and experimentation.
 
-![]({{ site.url }}{{ site.baseurl }}/images/isme14.jpg){: style="width: 300px; float: right; border: 20px; margin-left: 30px;"}
+[![kuva](img/isme14.jpg)]  
 
 **Modern statistical data analysis** Our research blends elements from multiple theoretical and methodological fields, including statistical machine learning/AI, probabilistic programming, numerical ecology, and data science.
 
@@ -102,6 +102,23 @@ See [separate page](/work/teaching)
 -->
 
 
+**Funding and support**
+
+ * Academy of Finland
+ * Government of India
+ * University of Turku graduate school on mathematics and statistics
+ * Turku University Foundation
+ * Sitra
+ * European Union
+ * Kordelin foundation
+ * Helsinki Region Infoshare
+ * Apps4Finland
+ * Waterloo Institute for Complexity and Innovation
+ * Dupuytren research foundation
+ 
+
+<!--
+
 **We are grateful for support from our collaborators and research funders.**
 
 <figure class="fourth">
@@ -117,7 +134,7 @@ See [separate page](/work/teaching)
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Blueprint1.png" style="width: 70px">              
 </figure>
 
-
+-->
 
 
  

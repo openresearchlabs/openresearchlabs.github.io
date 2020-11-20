@@ -1,7 +1,8 @@
 ---
 title: edu
+identifier: edu
 description: Teaching resources
-keywords: teaching, courses
+keywords: teaching
 ---
 
 
