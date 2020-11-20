@@ -180,6 +180,19 @@ In recent years, the human microbiome has been characterised in great detail in 
     </item>
     
     <item>
+      <title>edu</title>
+      <link>http://datascience.utu.fi/edu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/edu/</guid>
+      <description>Courses and seminars 2020 Research seminar on probabilistic data analysis in University of Turku, Finland.
+Apr 20-23, 2020. Hasselt University, Limburg, Belgium. Microbiome Data Analysis Workshop
+3-4/2020 University of Turku. Machine Learning and Algorithmics Seminar (TKO_3121 5 op).
+2018-2019 Research seminar on probabilistic machine learning. University of Turku, Finland based on Machine learning - a probabilistic perspective (K. Muprhy). PDF.
+Dec 16-20, 2019 Pune, India Modern statistics for microbiome bioinformatics.</description>
+    </item>
+    
+    <item>
       <title>Leo Lahti</title>
       <link>http://datascience.utu.fi/old/leo_lahti/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -311,19 +324,6 @@ Full list under construction.</description>
       <description>Seminar on machine learning and data science We are running a weekly research seminar and journal club on machine learning and data science in University of Turku, Finland. These are open and informal events. The exact location and topics may vary, so contact us if you&amp;rsquo;re interested!
 Research seminar / Reading circle Thursdays 10-11:30am (2018-2019). We cover material from the following books, a chapter per week.
 Machine learning - a probabilistic perspective (K.</description>
-    </item>
-    
-    <item>
-      <title>Teaching</title>
-      <link>http://datascience.utu.fi/edu/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://datascience.utu.fi/edu/</guid>
-      <description>Courses and seminars 2020 Research seminar on probabilistic data analysis in University of Turku, Finland.
-Apr 20-23, 2020. Hasselt University, Limburg, Belgium. Microbiome Data Analysis Workshop
-3-4/2020 University of Turku. Machine Learning and Algorithmics Seminar (TKO_3121 5 op).
-2018-2019 Research seminar on probabilistic machine learning. University of Turku, Finland based on Machine learning - a probabilistic perspective (K. Muprhy). PDF.
-Dec 16-20, 2019 Pune, India Modern statistics for microbiome bioinformatics.</description>
     </item>
     
     <item>

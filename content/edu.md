@@ -1,5 +1,5 @@
 ---
-title: Teaching
+title: edu
 description: Teaching resources
 keywords: teaching, courses
 ---
