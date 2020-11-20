@@ -7,6 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://datascience.utu.fi/old/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title></title>
+      <link>http://datascience.utu.fi/old/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/old/publications/</guid>
+      <description>The complete bibliography is available in BibTex. You can find most papers and other outputs from here, or just ask by email.
+For code, data, and audiovisual material see the separate code and media pages.
+ Selected papers {% bibliography &amp;ndash;file bibtex/lahti &amp;ndash;query @*[keywords=highlight] %}
+Computational biosciences {% bibliography &amp;ndash;file bibtex/lahti &amp;ndash;query @[status=bioscience] %} {% bibliography &amp;ndash;file bibtex/lahti &amp;ndash;query @[status=datascience] %}
+Digital humanities and computational social science {% bibliography &amp;ndash;file bibtex/lahti &amp;ndash;query @*[status=dh] %}</description>
+    </item>
+    
+    <item>
       <title>About the website</title>
       <link>http://datascience.utu.fi/old/aboutwebsite/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

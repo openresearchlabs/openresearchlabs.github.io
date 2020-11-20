@@ -64,6 +64,19 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     
     <item>
       <title></title>
+      <link>http://datascience.utu.fi/old/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/old/publications/</guid>
+      <description>The complete bibliography is available in BibTex. You can find most papers and other outputs from here, or just ask by email.
+For code, data, and audiovisual material see the separate code and media pages.
+ Selected papers {% bibliography &amp;ndash;file bibtex/lahti &amp;ndash;query @*[keywords=highlight] %}
+Computational biosciences {% bibliography &amp;ndash;file bibtex/lahti &amp;ndash;query @[status=bioscience] %} {% bibliography &amp;ndash;file bibtex/lahti &amp;ndash;query @[status=datascience] %}
+Digital humanities and computational social science {% bibliography &amp;ndash;file bibtex/lahti &amp;ndash;query @*[status=dh] %}</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>http://datascience.utu.fi/publications/assignments/readme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -265,11 +278,8 @@ Recommended open licenses for academic publishing Software and source code The m
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://datascience.utu.fi/publications/</guid>
-      <description>Publications The complete bibliography is available in BibTex. You can find most papers and other outputs from here, or just ask by email.
-For code, data, and audiovisual material see the separate code and media pages.
- Selected papers {% bibliography &amp;ndash;file bibtex/lahti &amp;ndash;query @*[keywords=highlight] %}
-Computational biosciences {% bibliography &amp;ndash;file bibtex/lahti &amp;ndash;query @[status=bioscience] %} {% bibliography &amp;ndash;file bibtex/lahti &amp;ndash;query @[status=datascience] %}
-Digital humanities and computational social science {% bibliography &amp;ndash;file bibtex/lahti &amp;ndash;query @*[status=dh] %}</description>
+      <description>Publications See Google scholar.
+Full list under construction.</description>
     </item>
     
     <item>
