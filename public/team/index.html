@@ -7,7 +7,7 @@
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <title>Team</title>
+  <title>Teams</title>
   <meta name="author" content="DevCows" />
   
   
@@ -66,7 +66,7 @@
   
   <meta property="og:locale" content="en_us">
   <meta property="og:site_name" content="Universal">
-  <meta property="og:title" content="Team">
+  <meta property="og:title" content="Teams">
   <meta property="og:type" content="website">
   <meta property="og:url" content="http://datascience.utu.fi/team/" />
   <meta property="og:description" content="Site template made by devcows using hugo">
@@ -85,7 +85,7 @@
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@GoHugoIO">
-  <meta name="twitter:title" content="Team">
+  <meta name="twitter:title" content="Teams">
   
   <meta name="twitter:image" content="http://datascience.utu.fi/img/sharing-default.png">
   
@@ -104,9 +104,9 @@
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand home" href="/">
-                    <img src="/img/logo.png" alt="Team logo" class="hidden-xs hidden-sm">
-                    <img src="/img/logo-small.png" alt="Team logo" class="visible-xs visible-sm">
-                    <span class="sr-only">Team - go to homepage</span>
+                    <img src="/img/logo.png" alt="Teams logo" class="hidden-xs hidden-sm">
+                    <img src="/img/logo-small.png" alt="Teams logo" class="visible-xs visible-sm">
+                    <span class="sr-only">Teams - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -138,7 +138,7 @@
                   
                   <li class="dropdown">
                     
-                    <a href="/faq/">FAQ</a>
+                    <a href="/edu/">Teaching</a>
                     
                   </li>
                   
@@ -182,7 +182,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Team</h1>
+                <h1>Teams</h1>
             </div>
         </div>
     </div>
@@ -190,257 +190,170 @@
 
 
         <div id="content">
-            
-
             <div class="container">
-
                 <div class="row">
+                    
 
-                    <div class="col-md-12">
+                    <div class="col-md-9" id="blog-listing-medium">
 
-                        <div>
-                          <h1 id="research-team">Research team</h1>
-<p><strong>Welcome to contact us to discuss research/study positions and collaboration.</strong> See also <a href="../recruit/">open positions</a></p>
-<div class="col-sm-12 clearfix">
-  <div class="col-sm-3 clearfix" width="25%"> 
-  <img src="../images/teampic/leo_sci.jpg" class="img-responsive" width="100%" style="float: left" /><br/>
-<p><i><a href="mailto:leo.lahti@iki.fi">leo.lahti@iki.fi</a></i><br/></p>
-<p><a href="http://orcid.org/0000-0001-5537-637X"><img src='../images/orcid_qrcode_leolahti.png' title='Leo Lahti ORCID QR code 0000-0001-5537-637X' alt='ORCID: 0000-0001-5537-637X' width='33%'/></a> <a href="https://twitter.com/antagomir"><img src='../images/twitter.jpeg' title='antagomir@twitter' alt='https://twitter.com/antagomir' width='25%'/></a></p>
-  </div>
-  <h4>Leo Lahti (Group leader)</h4>
-  <ul style="overflow: hidden">
-  <li>Associate Professor (Data Science)</li>
-  <li>Academy of Finland Research Fellow 2016-2021</li>
-  <li>Director of Turku Center for Computational Humanities</li>  
-  <li>Founding member of <a href="http://www.helsinki.fi/computational-history">Helsinki Computational History Group</a></li>    
-  <li><a href="https://turkucitydata.fi">Turku City Data Co.</a> Board member and scientific advisor.</li>  
-  <li><a href="https://blueprintgenetics.com">Blueprint Genetics</a>. Scientific Advisor (AI & ML)</li>
-  <li><a href="http://fi.okfn.org/wg/openscience/">Open Science work group</a>, OKF Finland. Founding member.</li>
-  <li><a href="../images/pgp_lahti_pm.asc">PGP key</a>;
-  <a href="http://orcid.org/0000-0001-5537-637X">ORCID: 0000-0001-5537-637X</a>;
-<a href="http://www.researcherid.com/rid/G-3170-2010">ResearcherID: G-3170-2010</a>;
-<a href="https://tinyurl.com/ng6g6tk">Google Scholar</a>;
-<a href="https://www.scopus.com/authid/detail.uri?authorId=8679063700">Scopus</a>;
-<a href="http://www.researchgate.net/profile/Leo_Lahti/">ResearchGate</a>;
-<a href="https://publons.com/author/246930/leo-lahti#stats">Publon</a>;
-<a href="https://impactstory.org/u/0000-0001-5537-637X">ImpactStory</a>;
-<a href="http://depsy.org/person/333684">Depsy software impact</a>; 
-<a href="http://loop.frontiersin.org/people/295152/overview">Loop</a>; 
-<a href="https://www.scienceopen.com/user/statistics/leo_lahti">ScienceOpen</a>;
-<a href="http://www.citeulike.org/author/Lahti:L">CiteUlike</a>; 
-<a href="http://www.ncbi.nlm.nih.gov/sites/myncbi/collections/public/1VaRtFbzqhfLWsXzDa1c5CSQK">PubMed</a>; 
-<a href="https://tuhat.halvi.helsinki.fi/portal/en/persons/leo-mikael-lahti%285d23e9ba-1f39-42f0-b23b-77fe12413479%29.html">TUHAT</a></li>
-</ul>
-</div>
-<p></p>
-<h2 id="postdocs">Postdocs</h2>
-<p>{% assign number_printed = 0 %}
-{% for member in site.data.postdocs %}</p>
-<p>{% assign even_odd = number_printed | modulo: 2 %}</p>
-<p>{% if even_odd == 0 %}</p>
-<div class="row">
-{% endif %}
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}<br>email: <{{ member.email }}></i>
-  <ul style="overflow: hidden">
-<p>{% if member.number_educ == 1 %}</p>
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-<p>{% if member.number_educ == 2 %}</p>
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-<p>{% if member.number_educ == 3 %}</p>
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-<p>{% if member.number_educ == 4 %}</p>
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
-  </ul>
-</div>
-<p>{% assign number_printed = number_printed | plus: 1 %}</p>
-<p>{% if even_odd == 1 %}</p>
-</div>
-{% endif %}
-<p>{% endfor %}</p>
-<p>{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}</p>
-</div>
-{% endif %}
-<p></p>
-<h2 id="phd-students">PhD Students</h2>
-<p>{% assign number_printed = 0 %}
-{% for member in site.data.phds %}</p>
-<p>{% assign even_odd = number_printed | modulo: 2 %}</p>
-<p>{% if even_odd == 0 %}</p>
-<div class="row">
-{% endif %}
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}<br>email: <{{ member.email }}></i>
-  <ul style="overflow: hidden">
-<p>{% if member.number_educ == 1 %}</p>
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-<p>{% if member.number_educ == 2 %}</p>
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-<p>{% if member.number_educ == 3 %}</p>
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-<p>{% if member.number_educ == 4 %}</p>
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
-  </ul>
-</div>
-<p>{% assign number_printed = number_printed | plus: 1 %}</p>
-<p>{% if even_odd == 1 %}</p>
-</div>
-{% endif %}
-<p>{% endfor %}</p>
-<p>{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}</p>
-</div>
-{% endif %}
-<!--
-## Visitors
+                        
+                        
 
-{% assign number_printed = 0 %}
-{% for member in site.data.visitors %}
+                        <ul class="pager">
+                            
+                            <li class="previous disabled"><a href="#">&larr; Newer</a></li>
+                            
 
-{% assign even_odd = number_printed | modulo: 2 %}
+                            
+                            <li class="next disabled"><a href="#">Older &rarr;</a></li>
+                            
+                        </ul>
+                    </div>
+                    
 
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
+                    
 
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}<br>email: <{{ member.email }}></i>  
-  <ul style="overflow: hidden">
-  
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-  
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-  
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-  
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
-  
-  </ul>
+                    
+
+                    <div class="col-md-3">
+
+                        
+
+                        
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+      <h3 class="panel-title">Search</h3>
+    </div>
+
+    <div class="panel-body">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
+            <div class="input-group">
+                <input type="search" name="q" class="form-control" placeholder="Search">
+                <input type="hidden" name="sitesearch" value="http://datascience.utu.fi/">
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
+                </span>
+            </div>
+        </form>
+    </div>
 </div>
 
 
-{% assign number_printed = number_printed | plus: 1 %}
 
-{% if even_odd == 1 %}
-</div>
-{% endif %}
 
-{% endfor %}
 
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
 
--->
-<h2 id="research-assistants">Research assistants</h2>
-<p>{% assign number_printed = 0 %}
-{% for member in site.data.students %}</p>
-<p>{% assign even_odd = number_printed | modulo: 2 %}</p>
-<p>{% if even_odd == 0 %}</p>
-<div class="row">
-{% endif %}
-<div class="col-sm-6 clearfix">
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}</i>
-  <ul style="overflow: hidden">
-<p>{% if member.number_educ == 1 %}</p>
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-<p>{% if member.number_educ == 2 %}</p>
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-<p>{% if member.number_educ == 3 %}</p>
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-<p>{% if member.number_educ == 4 %}</p>
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
-  </ul>
-</div>
-<p>{% assign number_printed = number_printed | plus: 1 %}</p>
-<p>{% if even_odd == 1 %}</p>
-</div>
-{% endif %}
-<p>{% endfor %}</p>
-<p>{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}</p>
-</div>
-{% endif %}
-<h2 id="alumni">Alumni</h2>
-<ul>
-<li>Prashant Gaikwad</li>
-<li>Aaro Salosensaari</li>
-<li>Anastasia Karavaeva</li>
-</ul>
-<!--
-## Former students
-**PhD Students** Jose Caldas (With Prof Samuel Kaski; Aalto 2012)
--->
-<!--**Master Students** Anastasia Karavaeva, Binu Matthew, Leila Paquay (Leuven 2018); Hege Roivainen (Helsinki 2017); Marnix Denys (KU Leuven 2017); Tineka Blake (Wageningen 2015); Emilio Ugaldes Morales (Wageningen 2014)-->
-<!--**Bachelor Students** Maija Nevala (TKK 2008); Jyry Suvilehto (TKK 2007)-->
-<!--
-## Administrative Support
-<a href="mailto:support@utu.fi">N.N</a> is helping us. and other groups) with administration.
--->
 
-                        </div>
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+        <h3 class="panel-title">Categories</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="nav nav-pills nav-stacked">
+            
+            
+            <li>
+                <a href="/categories/lorem">lorem (1)</a>
+            </li>
+            
+            <li>
+                <a href="/categories/programming">programming (2)</a>
+            </li>
+            
+            <li>
+                <a href="/categories/pseudo">pseudo (1)</a>
+            </li>
+            
+            <li>
+                <a href="/categories/r">r (1)</a>
+            </li>
+            
+            <li>
+                <a href="/categories/starting">starting (1)</a>
+            </li>
+            
+        </ul>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+<div class="panel sidebar-menu">
+
+    <div class="panel-heading">
+        <h3 class="panel-title">Tags</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="tag-cloud">
+            
+            
+            <li>
+                <a href="/tags/go"><i class="fas fa-tags"></i> go</a>
+            </li>
+            
+            <li>
+                <a href="/tags/golang"><i class="fas fa-tags"></i> golang</a>
+            </li>
+            
+            <li>
+                <a href="/tags/hugo"><i class="fas fa-tags"></i> hugo</a>
+            </li>
+            
+            <li>
+                <a href="/tags/ipsum"><i class="fas fa-tags"></i> ipsum</a>
+            </li>
+            
+            <li>
+                <a href="/tags/plot"><i class="fas fa-tags"></i> plot</a>
+            </li>
+            
+            <li>
+                <a href="/tags/programming"><i class="fas fa-tags"></i> programming</a>
+            </li>
+            
+            <li>
+                <a href="/tags/r-markdown"><i class="fas fa-tags"></i> r-markdown</a>
+            </li>
+            
+            <li>
+                <a href="/tags/regression"><i class="fas fa-tags"></i> regression</a>
+            </li>
+            
+            <li>
+                <a href="/tags/theme"><i class="fas fa-tags"></i> theme</a>
+            </li>
+            
+        </ul>
+    </div>
+
+</div>
+
+
+
+
+
+
+                        
 
                     </div>
+                    
+
+                    
 
                 </div>
                 
-
             </div>
-            
-
             
         </div>
         
@@ -571,6 +484,19 @@
     
 
     
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'G-3HREPRC83G', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
 <script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 

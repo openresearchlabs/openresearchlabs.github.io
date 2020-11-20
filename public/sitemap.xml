@@ -108,16 +108,32 @@
   </url>
   
   <url>
+    <loc>http://datascience.utu.fi/publications/assignments/readme/</loc>
+  </url>
+  
+  <url>
+    <loc>http://datascience.utu.fi/publications/readme/</loc>
+  </url>
+  
+  <url>
     <loc>http://datascience.utu.fi/readme/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://datascience.utu.fi/aboutwebsite/</loc>
+    <loc>http://datascience.utu.fi/recruit/2017-sa-eng/</loc>
   </url>
   
   <url>
-    <loc>http://datascience.utu.fi/blog/</loc>
+    <loc>http://datascience.utu.fi/recruit/2017-sa-fin/</loc>
+  </url>
+  
+  <url>
+    <loc>http://datascience.utu.fi/old/aboutwebsite/</loc>
+  </url>
+  
+  <url>
+    <loc>http://datascience.utu.fi/old/blog/</loc>
   </url>
   
   <url>
@@ -133,11 +149,11 @@
   </url>
   
   <url>
-    <loc>http://datascience.utu.fi/cv/</loc>
+    <loc>http://datascience.utu.fi/old/cv/</loc>
   </url>
   
   <url>
-    <loc>http://datascience.utu.fi/faq/</loc>
+    <loc>http://datascience.utu.fi/edu/</loc>
   </url>
   
   <url>
@@ -161,11 +177,19 @@
   </url>
   
   <url>
+    <loc>http://datascience.utu.fi/edu/microbiome/</loc>
+  </url>
+  
+  <url>
     <loc>http://datascience.utu.fi/blog/1/01/01/migrate-from-jekyll/</loc>
   </url>
   
   <url>
-    <loc>http://datascience.utu.fi/allnews/</loc>
+    <loc>http://datascience.utu.fi/old/allnews/</loc>
+  </url>
+  
+  <url>
+    <loc>http://datascience.utu.fi/old/</loc>
   </url>
   
   <url>
@@ -177,11 +201,23 @@
   </url>
   
   <url>
+    <loc>http://datascience.utu.fi/edu/probprog/</loc>
+  </url>
+  
+  <url>
+    <loc>http://datascience.utu.fi/publications/</loc>
+  </url>
+  
+  <url>
     <loc>http://datascience.utu.fi/publications/</loc>
   </url>
   
   <url>
     <loc>http://datascience.utu.fi/publishing_code/</loc>
+  </url>
+  
+  <url>
+    <loc>http://datascience.utu.fi/recruit/</loc>
   </url>
   
   <url>
@@ -201,11 +237,23 @@
   </url>
   
   <url>
-    <loc>http://datascience.utu.fi/docs/</loc>
+    <loc>http://datascience.utu.fi/team/</loc>
   </url>
   
   <url>
-    <loc>http://datascience.utu.fi/home/</loc>
+    <loc>http://datascience.utu.fi/edu/seminar_topics/</loc>
+  </url>
+  
+  <url>
+    <loc>http://datascience.utu.fi/edu/tko3121/</loc>
+  </url>
+  
+  <url>
+    <loc>http://datascience.utu.fi/old/docs/</loc>
+  </url>
+  
+  <url>
+    <loc>http://datascience.utu.fi/old/home/</loc>
   </url>
   
   <url>
@@ -213,7 +261,7 @@
   </url>
   
   <url>
-    <loc>http://datascience.utu.fi/expectations/</loc>
+    <loc>http://datascience.utu.fi/team/expectations/</loc>
   </url>
   
 </urlset>

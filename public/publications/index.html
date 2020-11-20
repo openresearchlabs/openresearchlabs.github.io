@@ -138,7 +138,7 @@
                   
                   <li class="dropdown">
                     
-                    <a href="/faq/">FAQ</a>
+                    <a href="/edu/">Teaching</a>
                     
                   </li>
                   
@@ -190,46 +190,170 @@
 
 
         <div id="content">
-            
-
             <div class="container">
-
                 <div class="row">
+                    
 
-                    <div class="col-md-12">
+                    <div class="col-md-9" id="blog-listing-medium">
 
-                        <div>
-                          <h1 id="publications">Publications</h1>
-<p>The complete bibliography is available in <a href="https://github.com/openresearchlabs/openresearchlabs.github.io/blob/build/publications/bibtex/lahti.bib">BibTex</a>. You can find most papers and other outputs from <a href="https://github.com/openresearchlabs/openresearchlabs.github.io/tree/master/publications">here</a>, or just ask by email.</p>
-<p>For code, data, and audiovisual material see the separate <a href="../code/">code</a> and <a href="../media/">media</a> pages.</p>
-<!-- This is for altmetrics padges from http://www.altmetric.com/-->
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-<h2 id="selected-papers">Selected papers</h2>
-<p>{% bibliography &ndash;file bibtex/lahti &ndash;query @*[keywords=highlight] %}</p>
-<h2 id="computational-biosciences">Computational biosciences</h2>
-<p>{% bibliography &ndash;file bibtex/lahti &ndash;query @<em>[status=bioscience] %}
-{% bibliography &ndash;file bibtex/lahti &ndash;query @</em>[status=datascience] %}</p>
-<h2 id="digital-humanities-and-computational-social-science">Digital humanities and computational social science</h2>
-<p>{% bibliography &ndash;file bibtex/lahti  &ndash;query @*[status=dh] %}</p>
-<h2 id="open-science">Open science</h2>
-<p>{% bibliography &ndash;file bibtex/lahti  &ndash;query @*[status=openscience] %}</p>
-<h2 id="popularized-articles-and-general-writings">Popularized articles and general writings</h2>
-<p>{% bibliography &ndash;file bibtex/lahti  &ndash;query @*[status=general] %}</p>
-<h2 id="theses-and-assignments">Theses and assignments</h2>
-<p>For source material (LaTeX code, figures etc.) of these theses, see <a href="https://github.com/antagomir/thesis">Github</a>.</p>
-<p>{% bibliography &ndash;file bibtex/lahti  &ndash;query @*[category=thesis] %}</p>
-<!--The material is presented to ensure timely dissemination of scholarly and technical work. While I aim to grant CC or other open source/copyleft licenses for the content wherever possible, kindly note that copyright in the external links and all rights therein are retained by authors or by other copyright holders.-->
+                        
+                        
 
-                        </div>
+                        <ul class="pager">
+                            
+                            <li class="previous disabled"><a href="#">&larr; Newer</a></li>
+                            
+
+                            
+                            <li class="next disabled"><a href="#">Older &rarr;</a></li>
+                            
+                        </ul>
+                    </div>
+                    
+
+                    
+
+                    
+
+                    <div class="col-md-3">
+
+                        
+
+                        
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+      <h3 class="panel-title">Search</h3>
+    </div>
+
+    <div class="panel-body">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
+            <div class="input-group">
+                <input type="search" name="q" class="form-control" placeholder="Search">
+                <input type="hidden" name="sitesearch" value="http://datascience.utu.fi/">
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
+                </span>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+        <h3 class="panel-title">Categories</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="nav nav-pills nav-stacked">
+            
+            
+            <li>
+                <a href="/categories/lorem">lorem (1)</a>
+            </li>
+            
+            <li>
+                <a href="/categories/programming">programming (2)</a>
+            </li>
+            
+            <li>
+                <a href="/categories/pseudo">pseudo (1)</a>
+            </li>
+            
+            <li>
+                <a href="/categories/r">r (1)</a>
+            </li>
+            
+            <li>
+                <a href="/categories/starting">starting (1)</a>
+            </li>
+            
+        </ul>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+<div class="panel sidebar-menu">
+
+    <div class="panel-heading">
+        <h3 class="panel-title">Tags</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="tag-cloud">
+            
+            
+            <li>
+                <a href="/tags/go"><i class="fas fa-tags"></i> go</a>
+            </li>
+            
+            <li>
+                <a href="/tags/golang"><i class="fas fa-tags"></i> golang</a>
+            </li>
+            
+            <li>
+                <a href="/tags/hugo"><i class="fas fa-tags"></i> hugo</a>
+            </li>
+            
+            <li>
+                <a href="/tags/ipsum"><i class="fas fa-tags"></i> ipsum</a>
+            </li>
+            
+            <li>
+                <a href="/tags/plot"><i class="fas fa-tags"></i> plot</a>
+            </li>
+            
+            <li>
+                <a href="/tags/programming"><i class="fas fa-tags"></i> programming</a>
+            </li>
+            
+            <li>
+                <a href="/tags/r-markdown"><i class="fas fa-tags"></i> r-markdown</a>
+            </li>
+            
+            <li>
+                <a href="/tags/regression"><i class="fas fa-tags"></i> regression</a>
+            </li>
+            
+            <li>
+                <a href="/tags/theme"><i class="fas fa-tags"></i> theme</a>
+            </li>
+            
+        </ul>
+    </div>
+
+</div>
+
+
+
+
+
+
+                        
 
                     </div>
+                    
+
+                    
 
                 </div>
                 
-
             </div>
-            
-
             
         </div>
         
@@ -360,6 +484,19 @@
     
 
     
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'G-3HREPRC83G', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
 <script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 

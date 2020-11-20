@@ -64,6 +64,25 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     
     <item>
       <title></title>
+      <link>http://datascience.utu.fi/publications/assignments/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/publications/assignments/readme/</guid>
+      <description>publications Self-archived publication material</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://datascience.utu.fi/publications/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/publications/readme/</guid>
+      <description>Publications / Leo Lahti Publication material of our research group is collected in this folder.
+ Presentation material in UTU Gitlab Some slides also available through SlideShare  Note that the copyrights may differ by publication.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>http://datascience.utu.fi/readme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -74,21 +93,42 @@ Jekyll also offers powerful support for code snippets:</description>
     </item>
     
     <item>
-      <title>About the website</title>
-      <link>http://datascience.utu.fi/aboutwebsite/</link>
+      <title></title>
+      <link>http://datascience.utu.fi/recruit/2017-sa-eng/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://datascience.utu.fi/aboutwebsite/</guid>
+      <guid>http://datascience.utu.fi/recruit/2017-sa-eng/</guid>
+      <description>PhD student position / Project Researcher / Research Assistant Open PhD student position / Project Researcher / Research Assistant in high-throughput biomedical data analysis (Finland / Belgium) 1.7.2017 – 30.6.2019
+A position is open for a PhD candidate on high-throughput biomedical data analysis in the research team of Dr. Leo Lahti in University of Turku, Finland. The project provides a unique opportunity to gain widely applicable data analytical skills and make pioneering work in a rapidly emerging, data-intensive biomedical research area; a particular focus of the project is on computational analysis and modeling of the human microbiome and its individuality, dynamics, and function in large population cohorts.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://datascience.utu.fi/recruit/2017-sa-fin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/recruit/2017-sa-fin/</guid>
+      <description>Tohtorikoulutettava / Projektitutkija / Tutkimusavustaja Haetaan määräaikaiseen työsuhteeseen ajalle 1.7.2017 – 30.6.2019 jatko-opiskelijaa / projektitutkijaa / tutkimusavustajaa biolääketieteellisen data-analyysin alalla (Suomi / Belgia)
+Jatko-opiskelupaikka biolääketieteellisen data-analyysin alalla on avoinna Dos. Leo Lahden tutkimusryhmässä (Turun yliopisto, Matematiikan ja tilastotieteen laitos). Hanke tarjoaa erinomaiset mahdollisuudet kartuttaa laajalti sovellettavia data-analyysivalmiuksia sekä uuden tutkimuksen tekemiseen nopeasti kasvavalla tutkimusalalla. Hanke keskittyy ihmiskehon mikrobiekosysteemien laskennalliseen mallitukseen. Rahoittajana on Suomen Akatemia. Suositeltu aloituspäivä on 1.7.2017.
+Työnkuva Paikka on suunnattu täysipäiväiseen tutkimukseen ja jatko-opiskeluun ja sisältää tavanomaisen osallistumisen opetus- ja tutkimuksen tukitehtäviin.</description>
+    </item>
+    
+    <item>
+      <title>About the website</title>
+      <link>http://datascience.utu.fi/old/aboutwebsite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/old/aboutwebsite/</guid>
       <description>Make your own Jekyll website for your academic research group This website is powered by Jekyll and uses some Bootstrap and Bootswatch. The page borrows open source code from Allan Lab. The site is simple yet adaptable.
 All pages are written in markdown for easy editing, and Jekyll uses Liquid for the data-driven pages. The publication list is automatically generated from bibtex, and requires the jekyll-scholar plugin. The news items, and group members are stored as .</description>
     </item>
     
     <item>
       <title>Blog</title>
-      <link>http://datascience.utu.fi/blog/</link>
+      <link>http://datascience.utu.fi/old/blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://datascience.utu.fi/blog/</guid>
+      <guid>http://datascience.utu.fi/old/blog/</guid>
       <description>{% for post in site.posts %} {% capture y %}{{post.date | date:&#34;%Y&#34;}}{% endcapture %} {% if year != y %} {% assign year = y %} {{ y }} {% endif %} {{ post.date | date:&#34;%Y-%m-%d&#34; }} {{ post.title }}  {% endfor %}  </description>
     </item>
     
@@ -129,22 +169,12 @@ In recent years, the human microbiome has been characterised in great detail in 
     
     <item>
       <title>CV</title>
-      <link>http://datascience.utu.fi/cv/</link>
+      <link>http://datascience.utu.fi/old/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://datascience.utu.fi/cv/</guid>
+      <guid>http://datascience.utu.fi/old/cv/</guid>
       <description>I embed a current version of my CV below. You can also download the PDF here.
 {% include embedpdf.html code=&amp;ldquo;30ah9tgxevj1vl9/svm-cv.pdf&amp;rdquo; width=100 height=800 %}</description>
-    </item>
-    
-    <item>
-      <title>FAQ</title>
-      <link>http://datascience.utu.fi/faq/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://datascience.utu.fi/faq/</guid>
-      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER? Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
     </item>
     
     <item>
@@ -180,6 +210,15 @@ Video lectures and interviews Presentation slides, posters and other material av
     </item>
     
     <item>
+      <title>Microbial bioinformatics and statistical ecology</title>
+      <link>http://datascience.utu.fi/edu/microbiome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/edu/microbiome/</guid>
+      <description>Course 2 Lorem</description>
+    </item>
+    
+    <item>
       <title>Migrate from Jekyll</title>
       <link>http://datascience.utu.fi/blog/1/01/01/migrate-from-jekyll/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -192,10 +231,10 @@ Video lectures and interviews Presentation slides, posters and other material av
     
     <item>
       <title>News</title>
-      <link>http://datascience.utu.fi/allnews/</link>
+      <link>http://datascience.utu.fi/old/allnews/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://datascience.utu.fi/allnews/</guid>
+      <guid>http://datascience.utu.fi/old/allnews/</guid>
       <description>News {% for article in site.data.news %}
 {{ article.date }} {{ article.headline }}
 {% endfor %} </description>
@@ -217,6 +256,15 @@ Video lectures and interviews Presentation slides, posters and other material av
       
       <guid>http://datascience.utu.fi/404/</guid>
       <description>Sorry, but the page you were trying to view does not exist.</description>
+    </item>
+    
+    <item>
+      <title>Probabilistic programming</title>
+      <link>http://datascience.utu.fi/edu/probprog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/edu/probprog/</guid>
+      <description>Introduction probabilistic programming </description>
     </item>
     
     <item>
@@ -289,20 +337,40 @@ Dec 16-20, 2019 Pune, India Modern statistics for microbiome bioinformatics.</de
     </item>
     
     <item>
-      <title>Turku Data Science</title>
-      <link>http://datascience.utu.fi/docs/</link>
+      <title>TKO_3121: Topics</title>
+      <link>http://datascience.utu.fi/edu/seminar_topics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://datascience.utu.fi/docs/</guid>
+      <guid>http://datascience.utu.fi/edu/seminar_topics/</guid>
+      <description>Machine Learning and Algorithmics Seminar 2020  Course page (Peppi) Moodle for Machine Learning and Algorithmics Seminar 2020  Proposed seminar topics Session 1: Introduction  Participants Overview and practicalities Assigning the topics  Session 2: Overview  Introduction lecture: contemporary themes in machine learning Discussion Finalizing the schedule  Session 3: Position papers Replication, Communication, and the Population Dynamics of Scientific Discovery. McElreath, R., &amp;amp; Smaldino, P. E. (2015).</description>
+    </item>
+    
+    <item>
+      <title>TKO_3121: Topics</title>
+      <link>http://datascience.utu.fi/edu/tko3121/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/edu/tko3121/</guid>
+      <description>Machine Learning and Algorithmics Seminar 2020 Replication, Communication, and the Population Dynamics of Scientific Discovery. McElreath, R., &amp;amp; Smaldino, P. E. (2015).
+Sparsity information and regularization in the horseshoe and other shrinkage priors. In Electronic Journal of Statistics, 11(2):5018-5051. Juho Piironen and Aki Vehtari (2017). arXiv:1707.01694. After the article was published, the regularized horseshoe prior has been implemented in rstanarm and brms (without conditioning on sigma).
+Probabilistic principal component analysis. Journal of the Royal Statistical Society: Series B (Statistical Methodology), 61(3), 611–622.</description>
+    </item>
+    
+    <item>
+      <title>Turku Data Science</title>
+      <link>http://datascience.utu.fi/old/docs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/old/docs/</guid>
       <description>Turku Data Science group site has moved to datascience.utu.fi</description>
     </item>
     
     <item>
       <title>Turku Data Science Group - Home</title>
-      <link>http://datascience.utu.fi/home/</link>
+      <link>http://datascience.utu.fi/old/home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://datascience.utu.fi/home/</guid>
+      <guid>http://datascience.utu.fi/old/home/</guid>
       <description>Modern data analysis from theory to practice
 We carry out research on theory, methods and applications of modern algorithmic data analysis, blending elements from various fields including statistical machine learning/AI, probabilistic programming, data science, and information engineering.
 Our methodologically oriented research is motivated by data-rich applications that range from molecular life sciences to computational social sciences and humanities (SSH) research. Turku Data Science Group is led by Associate Prof. Leo Lahti.</description>
@@ -320,10 +388,10 @@ PhD and Postdoc positions If you are interested in working with us as a PhD stud
     
     <item>
       <title>Welcome</title>
-      <link>http://datascience.utu.fi/expectations/</link>
+      <link>http://datascience.utu.fi/team/expectations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://datascience.utu.fi/expectations/</guid>
+      <guid>http://datascience.utu.fi/team/expectations/</guid>
       <description>Welcome to the Lab! Mission Statement The lab has three central goals:
  Carry out high-quality research Develop each lab member as a successful researcher Promote a collegial and intellectually stimulating environment  The more senior members of the group, and in particular me as the group leader, will provide the mentorship and training needed to help you develop into an independent scientist. To accomplish this, it is important that we establish effective communication and align expectations with each other.</description>
     </item>
