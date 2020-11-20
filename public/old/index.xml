@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Olds on Universal</title>
+    <link>http://datascience.utu.fi/old/</link>
+    <description>Recent content in Olds on Universal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://datascience.utu.fi/old/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About the website</title>
+      <link>http://datascience.utu.fi/old/aboutwebsite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/old/aboutwebsite/</guid>
+      <description>Make your own Jekyll website for your academic research group This website is powered by Jekyll and uses some Bootstrap and Bootswatch. The page borrows open source code from Allan Lab. The site is simple yet adaptable.
+All pages are written in markdown for easy editing, and Jekyll uses Liquid for the data-driven pages. The publication list is automatically generated from bibtex, and requires the jekyll-scholar plugin. The news items, and group members are stored as .</description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>http://datascience.utu.fi/old/blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/old/blog/</guid>
+      <description>{% for post in site.posts %} {% capture y %}{{post.date | date:&#34;%Y&#34;}}{% endcapture %} {% if year != y %} {% assign year = y %} {{ y }} {% endif %} {{ post.date | date:&#34;%Y-%m-%d&#34; }} {{ post.title }}  {% endfor %}  </description>
+    </item>
+    
+    <item>
+      <title>CV</title>
+      <link>http://datascience.utu.fi/old/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/old/cv/</guid>
+      <description>I embed a current version of my CV below. You can also download the PDF here.
+{% include embedpdf.html code=&amp;ldquo;30ah9tgxevj1vl9/svm-cv.pdf&amp;rdquo; width=100 height=800 %}</description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>http://datascience.utu.fi/old/allnews/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/old/allnews/</guid>
+      <description>News {% for article in site.data.news %}
+{{ article.date }} {{ article.headline }}
+{% endfor %} </description>
+    </item>
+    
+    <item>
+      <title>Turku Data Science</title>
+      <link>http://datascience.utu.fi/old/docs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/old/docs/</guid>
+      <description>Turku Data Science group site has moved to datascience.utu.fi</description>
+    </item>
+    
+    <item>
+      <title>Turku Data Science Group - Home</title>
+      <link>http://datascience.utu.fi/old/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/old/home/</guid>
+      <description>Modern data analysis from theory to practice
+We carry out research on theory, methods and applications of modern algorithmic data analysis, blending elements from various fields including statistical machine learning/AI, probabilistic programming, data science, and information engineering.
+Our methodologically oriented research is motivated by data-rich applications that range from molecular life sciences to computational social sciences and humanities (SSH) research. Turku Data Science Group is led by Associate Prof. Leo Lahti.</description>
+    </item>
+    
+  </channel>
+</rss>
