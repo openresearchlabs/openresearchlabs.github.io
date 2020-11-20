@@ -89,11 +89,11 @@ All pages are written in markdown for easy editing, and Jekyll uses Liquid for t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://datascience.utu.fi/blog/</guid>
-      <description></description>
+      <description>{% for post in site.posts %} {% capture y %}{{post.date | date:&#34;%Y&#34;}}{% endcapture %} {% if year != y %} {% assign year = y %} {{ y }} {% endif %} {{ post.date | date:&#34;%Y-%m-%d&#34; }} {{ post.title }}  {% endfor %}  </description>
     </item>
     
     <item>
-      <title>Code and data</title>
+      <title>Code</title>
       <link>http://datascience.utu.fi/code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -109,9 +109,12 @@ Digital Humanities and Computational Social Science rOpenGov R package ecosystem
       
       <guid>http://datascience.utu.fi/contact/</guid>
       <description>Contact Welcome to contact us to discuss research/study positions and collaboration opportunities.
-Email leo.lahti@iki.fiTwitter Follow us in Twitter
+   Email leo.lahti@iki.fi
+
+-- Twitter Follow us in Twitter
 Mail Department of Future Technologies. Faculty of Natural Sciences and Engineering, Yliopistonmäki, FI-20014, University of Turku, Finland
-Visiting address Agora, 4th floor, room 452E. Yliopistonmäki, Turku (Map)Tel: +358 (0)50 436 4626</description>
+Visiting address Agora, 4th floor, room 452E. Yliopistonmäki, Turku (Map)
+Tel: +358 (0)50 436 4626</description>
     </item>
     
     <item>
@@ -150,7 +153,8 @@ In recent years, the human microbiome has been characterised in great detail in 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://datascience.utu.fi/leo_lahti/</guid>
-      <description>Links to academic services online: Leo Lahti Researcher profiles, networks, publication databases and impact altmetrics
+      <description>Links to academic services online: Leo Lahti 
+Researcher profiles, networks, publication databases and impact altmetrics
  University of Turku Research Portal University of Helsinki TUHAT publication database ResearchGate ORCID: 0000-0001-5537-637X ResearcherID: G-3170-2010 ScienceOpen CiteUlike PubMed Google Scholar Scopus Publon reviewer profile ImpactStory Depsy research software impact Loop    </description>
     </item>
     
@@ -172,7 +176,7 @@ Recommended open licenses for academic publishing Software and source code The m
       <guid>http://datascience.utu.fi/media/</guid>
       <description>Versus - online journal Versus is an online research forum published by Society for Regional and Environmental Studies, Finnish Society for Environmental Social Science, and Geographical Society of Finland. It aims to make research more visible and effective by publishing popularized versions of scholarly work and providing an academic discussion forum. Editorial board.
 Video lectures and interviews Presentation slides, posters and other material available via Github.
-11/2019 Integrating open science in the humanities: the case of computational history Springer-Nature blog post and links to the streamed presentations.</description>
+-- -- 11/2019 Integrating open science in the humanities: the case of computational history Springer-Nature blog post and links to the streamed presentations.</description>
     </item>
     
     <item>
@@ -192,7 +196,9 @@ Video lectures and interviews Presentation slides, posters and other material av
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://datascience.utu.fi/allnews/</guid>
-      <description>News {% for article in site.data.news %}</description>
+      <description>News {% for article in site.data.news %}
+{{ article.date }} {{ article.headline }}
+{% endfor %} </description>
     </item>
     
     <item>
@@ -221,7 +227,7 @@ Video lectures and interviews Presentation slides, posters and other material av
       <guid>http://datascience.utu.fi/publications/</guid>
       <description>Publications The complete bibliography is available in BibTex. You can find most papers and other outputs from here, or just ask by email.
 For code, data, and audiovisual material see the separate code and media pages.
-Selected papers {% bibliography &amp;ndash;file bibtex/lahti &amp;ndash;query @*[keywords=highlight] %}
+ Selected papers {% bibliography &amp;ndash;file bibtex/lahti &amp;ndash;query @*[keywords=highlight] %}
 Computational biosciences {% bibliography &amp;ndash;file bibtex/lahti &amp;ndash;query @[status=bioscience] %} {% bibliography &amp;ndash;file bibtex/lahti &amp;ndash;query @[status=datascience] %}
 Digital humanities and computational social science {% bibliography &amp;ndash;file bibtex/lahti &amp;ndash;query @*[status=dh] %}</description>
     </item>
@@ -277,14 +283,9 @@ Dec 16-20, 2019 Pune, India Modern statistics for microbiome bioinformatics.</de
       
       <guid>http://datascience.utu.fi/team/</guid>
       <description>Research team Welcome to contact us to discuss research/study positions and collaboration. See also open positions
-leo.lahti@iki.fiPostdocs {% assign number_printed = 0 %} {% for member in site.data.postdocs %}
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 0 %}
-{% if member.number_educ == 1 %}
-{% if member.number_educ == 2 %}
-{% if member.number_educ == 3 %}
-{% if member.number_educ == 4 %}
-{% assign number_printed = number_printed | plus: 1 %}</description>
+ leo.lahti@iki.fi
+ 
+ Leo Lahti (Group leader) Associate Professor (Data Science) Academy of Finland Research Fellow 2016-2021 Director of Turku Center for Computational Humanities Founding member of Helsinki Computational History Group Turku City Data Co. Board member and scientific advisor. Blueprint Genetics. Scientific Advisor (AI &amp; ML) Open Science work group, OKF Finland.</description>
     </item>
     
     <item>
@@ -293,7 +294,7 @@ leo.lahti@iki.fiPostdocs {% assign number_printed = 0 %} {% for member in site.d
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://datascience.utu.fi/docs/</guid>
-      <description>Turku Data Science group site has moved to datascience.</description>
+      <description>Turku Data Science group site has moved to datascience.utu.fi</description>
     </item>
     
     <item>

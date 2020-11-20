@@ -149,6 +149,13 @@
                     
                   </li>
                   
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/code/">Code</a>
+                    
+                  </li>
+                  
                 </ul>
             </div>
             
@@ -194,7 +201,9 @@
                         <div>
                           <h1 id="news">News</h1>
 <p>{% for article in site.data.news %}</p>
-<!-- raw HTML omitted -->
+<p>{{ article.date }} <br>
+<em>{{ article.headline }}</em></p>
+{% endfor %}
 
                         </div>
 

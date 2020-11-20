@@ -4,8 +4,13 @@ theme: hugo-universal-theme
 languageCode: en-us
 defaultContentLanguage: en
 disqusShortname: devcows
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 googleAnalytics: ''
 paginate: 10
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 menu:
   main:
     - identifier: home
@@ -24,6 +29,10 @@ menu:
       name: Contact
       url: /contact/
       weight: 4
+    - identifier: code
+      name: Code
+      url: /code/
+      weight: 5            
   topbar:
     - name: GitHub
       pre: <i class='fab fa-2x fa-github'></i>

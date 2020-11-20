@@ -7,16 +7,16 @@
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <title>Code and data</title>
+  <title>Code</title>
   <meta name="author" content="DevCows" />
   
   
   
   
-  <meta name="keywords" content="devows, hugo, go">
+  <meta name="keywords" content="devows, hugo, go, code">
   
   
-  <meta name="description" content="Site template made by devcows using hugo">
+  <meta name="description" content="Code resources">
 
   <meta name="generator" content="Hugo 0.75.1" />
 
@@ -66,10 +66,10 @@
   
   <meta property="og:locale" content="en_us">
   <meta property="og:site_name" content="Universal">
-  <meta property="og:title" content="Code and data">
+  <meta property="og:title" content="Code">
   <meta property="og:type" content="website">
   <meta property="og:url" content="http://datascience.utu.fi/code/" />
-  <meta property="og:description" content="Site template made by devcows using hugo">
+  <meta property="og:description" content="Code resources">
   <meta property="og:image" content="http://datascience.utu.fi/img/sharing-default.png">
   <meta property="og:image:type" content="image/png">
   
@@ -85,11 +85,11 @@
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@GoHugoIO">
-  <meta name="twitter:title" content="Code and data">
+  <meta name="twitter:title" content="Code">
   
   <meta name="twitter:image" content="http://datascience.utu.fi/img/sharing-default.png">
   
-  <meta name="twitter:description" content="Site template made by devcows using hugo">
+  <meta name="twitter:description" content="Code resources">
   
 
 </head>
@@ -104,9 +104,9 @@
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand home" href="/">
-                    <img src="/img/logo.png" alt="Code and data logo" class="hidden-xs hidden-sm">
-                    <img src="/img/logo-small.png" alt="Code and data logo" class="visible-xs visible-sm">
-                    <span class="sr-only">Code and data - go to homepage</span>
+                    <img src="/img/logo.png" alt="Code logo" class="hidden-xs hidden-sm">
+                    <img src="/img/logo-small.png" alt="Code logo" class="visible-xs visible-sm">
+                    <span class="sr-only">Code - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -149,6 +149,13 @@
                     
                   </li>
                   
+                  
+                  <li class="dropdown active">
+                    
+                    <a href="/code/">Code</a>
+                    
+                  </li>
+                  
                 </ul>
             </div>
             
@@ -175,7 +182,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Code and data</h1>
+                <h1>Code</h1>
             </div>
         </div>
     </div>
@@ -192,12 +199,12 @@
                     <div class="col-md-12">
 
                         <div>
-                          <h2 id="open-research-data-and-software">Open research data and software</h2>
+                          <h1 id="open-research-data-and-software">Open research data and software</h1>
 <p><a href="http://depsy.org/person/333684"><img src="http://depsy.org/api/person/333684/badge.svg" alt="Research software impact"></a>. Mature open source projects are listed below.</p>
 <h3 id="digital-humanities-and-computational-social-science">Digital Humanities and Computational Social Science</h3>
 <p><strong><a href="http://ropengov.github.io">rOpenGov</a></strong> R package ecosystem for open data and computational social science (R/GitHub) includes 20+ R packages. Introduced and NIPS Machine Learning Open Source Software workshop in 2013. Tools for <a href="http://ropengov.github.io/eurostat">Eurostat open data</a>, <a href="http://github.com/ropengov/sotkanet">Sotkanet database</a> of National Institute for Health and Welfare (Finland), <a href="http://ropengov.github.io/pxweb">PX-web API</a> used by the Statistical authorities in many countries, <a href="http://github.com/ropengov/gisfin">Finnish geospatial data</a>, <a href="http://github.com/ropengov/sorvi">Finnish open government data</a>, and <a href="http://ropengov.github.io/projects/">other tools</a>.</p>
 <p><strong><a href="http://helsinki.fi/computational-history">COMHIS</a></strong> open data analytics infrastructure of Helsinki Computational History Group. Includes tools for <a href="http://github.com/COMHIS/fennica">Finnish national bibliography</a>, <a href="http://github.com/COMHIS/kungliga">Swedish national bibliography</a>, <a href="http://github.com/COMHIS/estc">English Short Title Catalogue (ESTC)</a>, and <a href="http://github.com/COMHIS/cerl">Heritage of the Printed Book database (CERL)</a>.</p>
-<!-- raw HTML omitted -->
+<!--**[Datavaalit](http://www.datavaalit.fi)** Parliamentary monitoring infrastructure for Finnish election and parliamentary data. Funded by Sitra 2012-2013. Double-winner of Apps4Finland 2012.-->
 <h3 id="machine-learning-and-ecological-models">Machine learning and ecological models</h3>
 <p><strong><a href="http://dmt.r-forge.r-project.org">DMT</a></strong> Dependency Modeling Toolkit. Probabilistic tools for dependency analysis between multiple data sources (R/CRAN). Probabilistic PCA, factor analysis, CCA, regularized variants, dependency-based dimensionality reduction etc. <em>ICML/MLOSS workshop, Israel 2010</em>.</p>
 <p><strong><a href="http://www.early-warning-signals.org/">earlywarnings</a></strong> Methods for identification of critical transitions between ecosystem states from time series data (CRAN). Co-developer. <a href="http://cran.r-project.org/web/packages/earlywarnings/index.html">CRAN</a>/<a href="https://github.com/earlywarningtoolbox/earlywarnings-R/tree/master/earlywarnings">Github</a>. <em>WICI Data Challenge 2013 runner-up / Waterloo Institute for Complex Systems and Innovation.</em></p>
@@ -212,13 +219,12 @@
 <p><strong><a href="http://bioconductor.org/packages/release/bioc/html/pint.html">pint</a></strong> Probabilistic data integration for DNA/RNA data in functional genomics
 (R/Bioc). <a href="http://arxiv.org/abs/1101.5919"><em>MLSP</em> 2009</a>.</p>
 <p><strong><a href="http://intcomp.r-forge.r-project.org">intcomp</a></strong> Benchmarking for integrative cancer gene discovery algorithms. <a href="http://bib.oxfordjournals.org/content/early/2012/03/21/bib.bbs005.abstract"><em>Briefings in Bioinformatics</em> 2012</a></p>
-<h2 id="data">Data</h2>
+<h1 id="data">Data</h1>
 <p><a href="http://finelib.fi/negotiations/negotiations/">Full agreement texts for academic publisher agreements</a>. The agreements were released by the FinELib consortium of research libraries following our FOI request in April 2018.</p>
 <p><a href="http://ropengov.github.io/r/2018/12/05/FOI/">Scientific journal subscription costs in Finland 2010-2017; MoE/ATT</a>. The data set was released by Finnish Ministry of Education (Open Science and Research Initiative) following my Freedom of Information Request (<a href="http://ropengov.github.io/r/2016/06/10/FOI/">summary</a>). Finland became the first country to systematically collect and release this information.</p>
 <p><a href="http://doi.org/10.5061/dryad.pk75d">Human Gut Microbiota Atlas (Data Dryad)</a>; Genus level profiling of the human gut microbiota for 1006 western adults; <a href="http://www.nature.com/ncomms/2014/140708/ncomms5344/full/ncomms5344.html">Lahti et al. <em>Nature Communications</em> 5:4344, 2014</a></p>
 <p><a href="http://dx.doi.org/10.5061/dryad.1mn1n">Gut microbiota profiling in African-American diet swap experiment</a>; Data Dryad; <a href="http://www.nature.com/ncomms/2015/150428/ncomms7342/full/ncomms7342.html">O’Keefe et al. <em>Nature Communications</em> 6:6342, 2015</a></p>
 <p><a href="https://github.com/microbiome/microbiome/blob/master/data/peerj32.rda">Probiotics intervention data with high-throughput profiling of the gut microbiome and serum lipidome</a> (RData format); from Associations between the human intestinal microbiota, Lactobacillus rhamnosus GG and serum lipids indicated by integrated analysis of high-throughput profiling data. <a href="http://dx.doi.org/10.7717/peerj.32">Lahti et al. PeerJ 1:e32, 2013</a></p>
-<!-- raw HTML omitted -->
 
                         </div>
 

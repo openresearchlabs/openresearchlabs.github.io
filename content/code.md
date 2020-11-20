@@ -1,15 +1,11 @@
 ---
-title: "Code and data"
-layout: gridlay
-excerpt: "Code"
-sitemap: false
-permalink: /code/
+description: Code resources
+keywords: code
+title: Code
 ---
 
 
-
-Open research data and software
-----------------------------------
+# Open research data and software
 
 [![Research software impact](http://depsy.org/api/person/333684/badge.svg)](http://depsy.org/person/333684). Mature open source projects are listed below. 
 
@@ -56,10 +52,7 @@ Open research data and software
 
 
 
-
-
-Data
------
+# Data
 
 [Full agreement texts for academic publisher agreements](http://finelib.fi/negotiations/negotiations/). The agreements were released by the FinELib consortium of research libraries following our FOI request in April 2018.
 
@@ -71,5 +64,5 @@ Data
 
 [Probiotics intervention data with high-throughput profiling of the gut microbiome and serum lipidome](https://github.com/microbiome/microbiome/blob/master/data/peerj32.rda) (RData format); from Associations between the human intestinal microbiota, Lactobacillus rhamnosus GG and serum lipids indicated by integrated analysis of high-throughput profiling data. [Lahti et al. PeerJ 1:e32, 2013](http://dx.doi.org/10.7717/peerj.32) 
 
-<!--<center><a href="http://opendefinition.org/"><img alt="This material is Open Knowledge" border="0" src="http://m.okfn.org/images/ok_buttons/ok_80x15_blue.png"/></a></center>-->
+
 
