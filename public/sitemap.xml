@@ -116,11 +116,11 @@
   </url>
   
   <url>
-    <loc>http://datascience.utu.fi/publications/assignments/readme/</loc>
+    <loc>http://datascience.utu.fi/publication_resources/assignments/readme/</loc>
   </url>
   
   <url>
-    <loc>http://datascience.utu.fi/publications/readme/</loc>
+    <loc>http://datascience.utu.fi/publication_resources/readme/</loc>
   </url>
   
   <url>
@@ -212,7 +212,7 @@
   </url>
   
   <url>
-    <loc>http://datascience.utu.fi/publications/</loc>
+    <loc>http://datascience.utu.fi/publication_resources/</loc>
   </url>
   
   <url>
@@ -240,7 +240,7 @@
   </url>
   
   <url>
-    <loc>http://datascience.utu.fi/team/</loc>
+    <loc>http://datascience.utu.fi/team_resources/</loc>
   </url>
   
   <url>
@@ -264,7 +264,7 @@
   </url>
   
   <url>
-    <loc>http://datascience.utu.fi/team/expectations/</loc>
+    <loc>http://datascience.utu.fi/team_resources/expectations/</loc>
   </url>
   
 </urlset>
