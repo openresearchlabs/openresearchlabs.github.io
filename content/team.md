@@ -48,6 +48,13 @@ keywords: team
 
 </div>
 
+{{ define "main" }}
+{{ $image := resources.Get "images/orcid_qrcode_leolahti.png" }}
+<!--{{ $image := $image.Resize "x100" }}-->
+{{ $image := $image.Fit "200x200" }}
+<img src="{{ $image.Permalink }}" alt="">
+{{ end }}
+
 <p></p>
 
 ## Postdocs
@@ -63,16 +70,9 @@ Guilhem Sommeria-Klein
 Pande Putu Erawijantari
  
 
+
 ## PhD Students 
 
-<div id="imagesDIV">
-   <img src="../img/teampic/ville_laitinen.jpg" alt=""/>
-   <img src="../img/teampic/moein_khalighi.jpg" alt=""/>
-   <img src="../img/teampic/anna_aatsinki.jpg" alt=""/>   
-   .
-   .
-   .
-</div>
 
 
 Ville Laitinen

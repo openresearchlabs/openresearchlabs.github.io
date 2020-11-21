@@ -235,6 +235,12 @@
 <a href="https://tuhat.halvi.helsinki.fi/portal/en/persons/leo-mikael-lahti%285d23e9ba-1f39-42f0-b23b-77fe12413479%29.html">TUHAT</a></li>
 </ul>
 </div>
+<p>{{ define &ldquo;main&rdquo; }}
+{{ $image := resources.Get &ldquo;images/orcid_qrcode_leolahti.png&rdquo; }}</p>
+<!--{{ $image := $image.Resize "x100" }}-->
+<p>{{ $image := $image.Fit &ldquo;200x200&rdquo; }}
+<img src="{{ $image.Permalink }}" alt="">
+{{ end }}</p>
 <p></p>
 <h2 id="postdocs">Postdocs</h2>
 <p>Email: first.last - at - utu.fi</p>
@@ -243,14 +249,6 @@
 <p>Guilhem Sommeria-Klein</p>
 <p>Pande Putu Erawijantari</p>
 <h2 id="phd-students">PhD Students</h2>
-<div id="imagesDIV">
-   <img src="../img/teampic/ville_laitinen.jpg" alt=""/>
-   <img src="../img/teampic/moein_khalighi.jpg" alt=""/>
-   <img src="../img/teampic/anna_aatsinki.jpg" alt=""/>   
-   .
-   .
-   .
-</div>
 <p>Ville Laitinen
 <img src="../img/teampic/ville_laitinen.jpg" width="200"></p>
 <p><a href="https://scholar.google.com/citations?user=XrlaLlUAAAAJ&amp;hl=en">Moein Khalighi</a>
