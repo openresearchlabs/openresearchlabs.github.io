@@ -54,10 +54,13 @@ keywords: team
 
 Email: first.last - at - utu.fi
 
- * Matti Ruuskanen 
-     <img src="../img/teampic/matti_ruuskanen.jpg" width="200">
- * Guilhem Sommeria-Klein
- * Pande Putu Erawijantari
+Matti Ruuskanen  
+     <img src="../img/teampic/matti_ruuskanen.jpg" width="150">  
+
+
+Guilhem Sommeria-Klein  
+
+Pande Putu Erawijantari
  
 
 ## PhD Students 
@@ -66,43 +69,39 @@ Ville Laitinen
   <img src="../img/teampic/ville_laitinen.jpg" width="200">
 
 [Moein Khalighi](https://scholar.google.com/citations?user=XrlaLlUAAAAJ&hl=en)
-  [Moein Khalighi](../img/teampic/moein_khalighi.jpg)
+  <img src="../img/teampic/moein_khalighi.jpg" width="200">
 
 Anna Aatsinki
-  [Anna Aatsinki](../img/teampic/anna_aatsinki.jpg)
-  info: PhD student (with Prof Linnea Karlsson)
+  <img src="../img/teampic/anna_aatsinki.jpg" width="200">
+  PhD student (with Prof Linnea Karlsson)  
 
 Anna Sorjamaa
-  [Anna Sorjamaa](../img/teampic/anna_sorjamaa.jpg)
-  info: PhD student (Oulu; with Dr Justus Reunanen)
+  <img src="../img/teampic/anna_sorjamaa.jpg" width="200">
+  PhD student (Oulu; with Dr Justus Reunanen)
 
 Joonatan Palmu
-  [Joonatan Palmu](../img/teampic/joonatan_palmu.jpeg
-  info: PhD student (with Prof Teemu Niiranen)
+  <img src="../img/teampic/joonatan_palmu.jpeg" width="200">
+  PhD student (with Prof Teemu Niiranen)
 
 Ville Vaara
-  [Ville Vaara](../img/teampic/ville_vaara.jpg)
-  info: PhD student (Helsinki; with Prof Mikko Tolonen)
+  <img src="../img/teampic/ville_vaara.jpg" width="200">
+  PhD student (Helsinki; with Prof Mikko Tolonen)
 
 
 ## Research assistants and trainees
 
-Wisam Tariq Saleem
+Wisam Tariq Saleem  
+ 
+Pyry Kantanen  
 
-Pyry Kantanen
-  [Pyry Kantanen](../img/teampic/bio-photo.jpg)
+Binu Matthew  
 
-Binu Matthew
-  [Binu Matthew](../img/teampic/bio-photo.jpg)
+Iiro Tiihonen  
 
-Iiro Tiihonen
-  [Iiro Tiihonen](../img/teampic/bio-photo.jpg)
-
-Tuomas Borman
-  [Tuomas Borman](../img/teampic/bio-photo.jpg)
+Tuomas Borman  
 
 Renuka Potbhare
-  [Renuka Potbhare](../img/teampic/renuka.jpg)
+  <img src="../img/teampic/renuka.jpg" width="200">
   M. Phil. Student (with Dr. Richa Ashma, Pune University)
 
 

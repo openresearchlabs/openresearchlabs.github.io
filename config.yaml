@@ -90,7 +90,7 @@ params:
   formspree_action: https://formspree.io/sample/of/endpoint
   googleMapsApiKey: AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y
   latitude: '-12.043333'
-  logo: img/orcid_qrcode_leolahti.png
+  logo: img/orcid_qrcode_leolahti_small.png
   logo_small: img/logo-small.png
   longitude: '-77.028333'
   mainSections: blog
@@ -118,7 +118,7 @@ params:
     title: Testimonials
   topbar:
     enable: yes
-    text: "<p class=\"hidden-sm hidden-xs\">Contact us on +420 777 555 333 or hello@universal.com.</p>\n
+    text: "<p class=\"hidden-sm hidden-xs\">Contact us on first.last@utu.fi</p>\n
       \     <p class=\"hidden-md hidden-lg\"><a href=\"#\" data-animate-hover=\"pulse\"><i
       class=\"fas fa-phone\"></i></a>\n      <a href=\"#\" data-animate-hover=\"pulse\"><i
       class=\"fas fa-envelope\"></i></a>\n      </p>\n      "
