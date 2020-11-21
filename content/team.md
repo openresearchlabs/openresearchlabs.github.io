@@ -15,7 +15,7 @@ keywords: team
 
   <i><leo.lahti@iki.fi></i><br/>
   
-  <a href="http://orcid.org/0000-0001-5537-637X"><img src='img/orcid_qrcode_leolahti.png' title='Leo Lahti ORCID QR code 0000-0001-5537-637X' alt='ORCID: 0000-0001-5537-637X' width='33%'/></a> <a href="https://twitter.com/antagomir"><img src='img/twitter.jpeg' title='antagomir@twitter' alt='https://twitter.com/antagomir' width='25%'/></a>
+  <a href="http://orcid.org/0000-0001-5537-637X"><img src='../img/orcid_qrcode_leolahti.png' title='Leo Lahti ORCID QR code 0000-0001-5537-637X' alt='ORCID: 0000-0001-5537-637X' width='33%'/></a> <a href="https://twitter.com/antagomir"><img src='../img/twitter.jpeg' title='antagomir@twitter' alt='https://twitter.com/antagomir' width='25%'/></a>
   
   </div>
 
@@ -48,12 +48,14 @@ keywords: team
 
 </div>
 
+<!--
 {{ define "main" }}
 {{ $image := resources.Get "images/orcid_qrcode_leolahti.png" }}
 <!--{{ $image := $image.Resize "x100" }}-->
 {{ $image := $image.Fit "200x200" }}
 <img src="{{ $image.Permalink }}" alt="">
 {{ end }}
+-->
 
 <p></p>
 
@@ -62,8 +64,7 @@ keywords: team
 Email: first.last - at - utu.fi
 
 Matti Ruuskanen  
-     <img src="../img/teampic/matti_ruuskanen.jpg" width="150">  
-
+     <img src="../img/teampic/matti_ruuskanen.jpg" width="100">  
 
 Guilhem Sommeria-Klein  
 
@@ -73,28 +74,26 @@ Pande Putu Erawijantari
 
 ## PhD Students 
 
-
-
 Ville Laitinen
-  <img src="../img/teampic/ville_laitinen.jpg" width="200">
+  <img src="../img/teampic/ville_laitinen.jpg" width="100">
 
 [Moein Khalighi](https://scholar.google.com/citations?user=XrlaLlUAAAAJ&hl=en)
-  <img src="../img/teampic/moein_khalighi.jpg" width="200">
+  <img src="../img/teampic/moein_khalighi.jpg" width="100">
 
 Anna Aatsinki
-  <img src="../img/teampic/anna_aatsinki.jpg" width="200">
+  <img src="../img/teampic/anna_aatsinki.jpg" width="100">
   PhD student (with Prof Linnea Karlsson)  
 
 Anna Sorjamaa
-  <img src="../img/teampic/anna_sorjamaa.jpg" width="200">
+  <img src="../img/teampic/bio-photo.jpg" width="100">
   PhD student (Oulu; with Dr Justus Reunanen)
 
 Joonatan Palmu
-  <img src="../img/teampic/joonatan_palmu.jpeg" width="200">
+  <img src="../img/teampic/joonatan_palmu.jpeg" width="100">
   PhD student (with Prof Teemu Niiranen)
 
 Ville Vaara
-  <img src="../img/teampic/ville_vaara.jpg" width="200">
+  <img src="../img/teampic/ville_vaara.jpg" width="100">
   PhD student (Helsinki; with Prof Mikko Tolonen)
 
 
@@ -111,7 +110,7 @@ Iiro Tiihonen
 Tuomas Borman  
 
 Renuka Potbhare
-  <img src="../img/teampic/renuka.jpg" width="200">
+  <img src="../img/teampic/renuka.jpg" width="100">
   M. Phil. Student (with Dr. Richa Ashma, Pune University)
 
 
@@ -126,5 +125,4 @@ Renuka Potbhare
 
 <!--**Master Students** Anastasia Karavaeva, Binu Matthew, Leila Paquay (Leuven 2018); Hege Roivainen (Helsinki 2017); Marnix Denys (KU Leuven 2017); Tineka Blake (Wageningen 2015); Emilio Ugaldes Morales (Wageningen 2014)-->
 
-<!--**Bachelor Students** Maija Nevala (TKK 2008); Jyry Suvilehto (TKK 2007)-->
  
