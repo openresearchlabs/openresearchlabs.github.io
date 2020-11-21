@@ -69,10 +69,10 @@ params:
   author: DevCows
   carousel:
     enable: yes
-  clients:
-    enable: yes
-    subtitle: ''
-    title: Our Clients
+  #clients:
+  #  enable: yes
+  #  subtitle: ''
+  #  title: Our Clients
   contact_form_ajax: no
   copyright: Copyright (c) 2020, Leo Lahti; some rights reserved.
   date_format: November 20, 2020
@@ -95,26 +95,23 @@ params:
   mainSections: blog
   recent_posts:
     enable: yes
-    subtitle: Pellentesque habitant morbi tristique senectus et netus et malesuada
-      fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,
-      tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
-      ultricies mi vitae est. Mauris placerat eleifend leo.
+    subtitle: News items.
     title: From our blog
-  see_more:
-    enable: yes
-    icon: far fa-file-alt
-    link_text: Check other homepages
-    link_url: '#'
-    subtitle: We have prepared for you more than 40 different HTML pages, including
-      5 variations of homepage.
-    title: Do you want to see more?
-  style: default
-  testimonials:
-    enable: yes
-    subtitle: We have worked with many clients and we always like to hear they come
-      out from the cooperation happy and satisfied. Have a look what our clients said
-      about us.
-    title: Testimonials
+  #see_more:
+  #  enable: yes
+  #  icon: far fa-file-alt
+  #  link_text: Check other homepages
+  #  link_url: '#'
+  #  subtitle: We have prepared for you more than 40 different HTML pages, including
+  #    5 variations of homepage.
+  #  title: Do you want to see more?
+  #style: default
+  #testimonials:
+  #  enable: yes
+  #  subtitle: We have worked with many clients and we always like to hear they come
+  #    out from the cooperation happy and satisfied. Have a look what our clients said
+  #    about us.
+  #  title: Testimonials
   topbar:
     enable: yes
     text: "<p class=\"hidden-sm hidden-xs\">Contact us on first.last@utu.fi</p>\n
