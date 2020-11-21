@@ -64,9 +64,8 @@ menu:
       weight: 4
 params:
   about_us: <p>Turku Data Science Group.</p>
-  address: "<p class=\"text-uppercase\"><strong>Universal Ltd.</strong>\n        <br>13/25
-    New Avenue\n        <br>Newtown upon River\n        <br>45Y 73J\n        <br>England\n
-    \       <br>\n        <strong>Great Britain</strong>\n      </p>\n      "
+  address: "<p class=\"text-uppercase\"><strong>Turku Data Science Group</strong>\n        <br>University of Turku\n        <br>Department of Future Technologies\n        <br>Turku\n        <br>Finland\n
+    \       <br>\n        <strong></strong>\n      </p>\n      "
   author: DevCows
   carousel:
     enable: yes
