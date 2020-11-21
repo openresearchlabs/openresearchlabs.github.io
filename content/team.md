@@ -65,6 +65,16 @@ Pande Putu Erawijantari
 
 ## PhD Students 
 
+<div id="imagesDIV">
+   <img src="../img/teampic/ville_laitinen.jpg" alt=""/>
+   <img src="../img/teampic/moein_khalighi.jpg" alt=""/>
+   <img src="../img/teampic/anna_aatsinki.jpg" alt=""/>   
+   .
+   .
+   .
+</div>
+
+
 Ville Laitinen
   <img src="../img/teampic/ville_laitinen.jpg" width="200">
 

@@ -18,8 +18,8 @@ of the limitations and statistical uncertainties associated with
 individual data sets. Open source implementations turn the new models
 into accessible tools to guide modeling and experimentation.
 
-![kuva](../img/isme14.jpg =20x) 
-
+<img src="../img/isme14.jpg" width="200">
+     
 **Modern statistical data analysis** Our research blends elements from multiple theoretical and methodological fields, including statistical machine learning/AI, probabilistic programming, numerical ecology, and data science.
 
 **Human microbiomics and statistical ecology** Human gut microbiota constitutes one of the most densely populated ecosystem on our planet. The known pan-genome

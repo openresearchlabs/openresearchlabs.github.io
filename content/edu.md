@@ -7,6 +7,10 @@ title: Edu
 
 # Courses and seminars
 
+3-4/2021 University of Turku. [Machine Learning and Algorithmics Seminar (TKO_3121 5 op)](https://opas.peppi.utu.fi/fi/opintojakso/TKO_3121/3255).
+
+1/2021 Savitribai Phule Pune University. Microbiome bioinformatics.
+
 2020 [Research seminar on probabilistic data analysis](https://gitlab.com/openresearchlabs/probabilistic_data_analysis_2020) in University of Turku, Finland. 
 
 Apr 20-23, 2020. Hasselt University, Limburg, Belgium. [Microbiome Data Analysis Workshop](https://microbiome-workshop.meetinghand.com/)
