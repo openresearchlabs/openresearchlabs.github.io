@@ -6,7 +6,16 @@
     <description>Recent content on Universal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Oct 2015 21:49:20 +0200</lastBuildDate><atom:link href="http://datascience.utu.fi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://datascience.utu.fi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DHN2020 award</title>
+      <link>http://datascience.utu.fi/blog/2020/10/22/2020-10-22-dhn/</link>
+      <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/blog/2020/10/22/2020-10-22-dhn/</guid>
+      <description>Wrangling with non-standard data by Mäkelä et al. selected as best long paper in DHN2020!</description>
+    </item>
+    
     <item>
       <title>Linked post</title>
       <link>http://datascience.utu.fi/blog/2015/10/02/linked-post/</link>

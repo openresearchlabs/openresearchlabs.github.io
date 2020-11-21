@@ -4,12 +4,37 @@
   
   <url>
     <loc>http://datascience.utu.fi/blog/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <lastmod>2020-10-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://datascience.utu.fi/categories/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <lastmod>2020-10-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://datascience.utu.fi/tags/comphum/</loc>
+    <lastmod>2020-10-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://datascience.utu.fi/blog/2020/10/22/2020-10-22-dhn/</loc>
+    <lastmod>2020-10-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://datascience.utu.fi/categories/news/</loc>
+    <lastmod>2020-10-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://datascience.utu.fi/tags/</loc>
+    <lastmod>2020-10-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://datascience.utu.fi/</loc>
+    <lastmod>2020-10-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -48,17 +73,7 @@
   </url>
   
   <url>
-    <loc>http://datascience.utu.fi/tags/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://datascience.utu.fi/tags/theme/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://datascience.utu.fi/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
   </url>
   
