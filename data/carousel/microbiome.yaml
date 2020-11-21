@@ -1,0 +1,10 @@
+weight: 4
+title: "Microbiome research"
+description: >
+  <ul class="list-style-none">
+    <li>Multi-omic data integration</li>
+    <li>Eco-evolutionary dynamics</li>    
+    <li>Statistical machine learning</li>    
+    <li>Open research software</li>
+  </ul>
+image: "img/carousel/dialister.png"
