@@ -19,7 +19,7 @@ menu:
       weight: 1
     - identifier: blog
       name: News
-      url: /news/
+      url: /blog/
       weight: 2
     - identifier: edu
       name: Edu
