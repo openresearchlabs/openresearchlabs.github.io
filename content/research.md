@@ -20,7 +20,10 @@ into accessible tools to guide modeling and experimentation.
 
 <img src="../img/isme14.jpg" width="200">
      
-**Modern statistical data analysis** Our research blends elements from multiple theoretical and methodological fields, including statistical machine learning/AI, probabilistic programming, numerical ecology, and data science.
+**Modern statistical data analysis** Our research blends elements from
+  multiple theoretical and methodological fields, including
+  statistical machine learning/AI, probabilistic programming,
+  numerical ecology, and data science.
 
 **Human microbiomics and statistical ecology** Human gut microbiota constitutes one of the most densely populated ecosystem on our planet. The known pan-genome
 carries 2-3 orders of magnitude more unique genes than our own genome,
@@ -38,7 +41,9 @@ the [mechanisms](http://doi.org/10.1109/JPROC.2015.2428213) and
 [dynamics](http://doi.org/10.1016/j.mib.2015.04.004) of microbial
 community assembly.
 
-![Dialister](../img/dialister.png =300px)
+<img src="../img/dialister.png" width="200">
+
+
 
 **Functional genomics** Mapping of the three billion base-pair human
 genome sequence in 2001 was the first step towards uncovering the
@@ -70,9 +75,6 @@ following the emergence of print press in the 15th century (see a [poster in Dig
   of scientific journal subscription costs in Finland
   2010-2017](https://fi.okfn.org/2018/08/27/finland-remains-a-leading-country-in-the-transparency-of-academic-publishing-costs)
   following our FOI requests.
-
-
-
 
 
 <!--
