@@ -18,7 +18,7 @@ of the limitations and statistical uncertainties associated with
 individual data sets. Open source implementations turn the new models
 into accessible tools to guide modeling and experimentation.
 
-![kuva](img/isme14.jpg)] 
+![kuva](../img/isme14.jpg =20x) 
 
 **Modern statistical data analysis** Our research blends elements from multiple theoretical and methodological fields, including statistical machine learning/AI, probabilistic programming, numerical ecology, and data science.
 
@@ -38,15 +38,7 @@ the [mechanisms](http://doi.org/10.1109/JPROC.2015.2428213) and
 [dynamics](http://doi.org/10.1016/j.mib.2015.04.004) of microbial
 community assembly.
 
-<!--In [Department of
-Veterinary Bioscience, University of
-Helsinki](http://www.vetmed.helsinki.fi/english/vetbio/index.html) and
-[Laboratory of Microbiology, Wageningen
-University](http://www.mib.wur.nl/UK/), we work to understand the
-dynamics of the human gut ecosystem based on high-throughput microbial
-profiling data {[Poster at ISMB](http://posters.f1000.com/P1886)}.-->
-
-![]({{ site.url }}{{ site.baseurl }}/images/dialister.png){: style="width: 300px; float: left; border: 10px"}
+![Dialister](../img/dialister.png =300px)
 
 **Functional genomics** Mapping of the three billion base-pair human
 genome sequence in 2001 was the first step towards uncovering the

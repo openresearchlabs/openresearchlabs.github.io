@@ -54,7 +54,8 @@ keywords: team
 
 Email: first.last - at - utu.fi
 
- * Matti Ruuskanen [![Matti Ruuskanen](../img/teampic/matti_ruuskanen.jpg =250x)]
+ * Matti Ruuskanen 
+     <img src="../img/teampic/matti_ruuskanen.jpg" width="200">
  * Guilhem Sommeria-Klein
  * Pande Putu Erawijantari
  
@@ -62,7 +63,7 @@ Email: first.last - at - utu.fi
 ## PhD Students 
 
 Ville Laitinen
-  ![Ville Laitinen](../img/teampic/ville_laitinen.jpg =20x)
+  <img src="../img/teampic/ville_laitinen.jpg" width="200">
 
 [Moein Khalighi](https://scholar.google.com/citations?user=XrlaLlUAAAAJ&hl=en)
   [Moein Khalighi](../img/teampic/moein_khalighi.jpg)
