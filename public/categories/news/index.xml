@@ -6,7 +6,42 @@
     <description>Recent content in news on Universal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://datascience.utu.fi/categories/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://datascience.utu.fi/categories/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New papers</title>
+      <link>http://datascience.utu.fi/blog/2020/11/21/2020-10-22-pub/</link>
+      <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/blog/2020/11/21/2020-10-22-pub/</guid>
+      <description>Recent publications   Prebiotic Xylo-oligosaccharides Targeting Faecalibacterium prausnitzii Prevent High Fat Diet-induced Hepatic Steatosis in Rats with Lensu et al.
+  Eicosanoid Inflammatory Mediators Are Robustly Associated With Blood Pressure in the General Population by Palmu et al.
+  Association Between the Gut Microbiota and Blood Pressure in a Population Cohort of 6953 Individuals by Palmu et al.
+  Unsupervised hierarchical clustering identifies a metabolically challenged subgroup of hypertensive individuals by Vaura et al.</description>
+    </item>
+    
+    <item>
+      <title>Algorithmic openness in decision-making</title>
+      <link>http://datascience.utu.fi/blog/2020/11/20/2020-10-21/</link>
+      <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/blog/2020/11/20/2020-10-21/</guid>
+      <description>Recent writings related to the openness of epidemic models used to support decision-making by the Finnish government.
+  August 19, 2020 Avoimuus voi vahvistaa päätöksenteon tieteellistä pohjaa
+  June 26, 2020 Päätös epidemialaskelmien salaamisesta vastoin valtioneuvoston avoimuuslinjausta
+  June 22, 2020 Lähdekoodin sisältämien yksityiskohtien avoimuus on keskeistä päätöksenteon läpinäkyvyydelle
+  May 15, 2020 Tietopyyntö epidemialaskelmien lähdekoodeista
+  May 3, 2020 Laskentamallit eivät lähtökohtaisesti ole salassa pidettävää tietoa</description>
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>http://datascience.utu.fi/blog/2020/11/01/2020-11-01-posts/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/blog/2020/11/01/2020-11-01-posts/</guid>
+      <description>New people  Oct 1, 2020: Tuomas Borman started as a research assistant, welcome! Aug 18, 2020: Pyry Kantanen joined the rOpenGov developer team, welcome! July 20, 2020: Tim Garrels joins our team through the Baltic Science Network Mobility Programme for Research (BARI) Internship June 1, 2020 Guilhem Sommeria-Klein joins the team!  Funding   Sep 1, 2020 Academy of Finland consortium Eco-evolutionary mechanisms underlying critical transitions in microbial communities now launched!</description>
+    </item>
+    
     <item>
       <title>DHN2020 award</title>
       <link>http://datascience.utu.fi/blog/2020/10/22/2020-10-22-dhn/</link>
@@ -14,6 +49,47 @@
       
       <guid>http://datascience.utu.fi/blog/2020/10/22/2020-10-22-dhn/</guid>
       <description>Wrangling with non-standard data by Mäkelä et al. selected as best long paper in DHN2020!</description>
+    </item>
+    
+    <item>
+      <title>2019 news</title>
+      <link>http://datascience.utu.fi/blog/2019/12/31/2019-12-31/</link>
+      <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/blog/2019/12/31/2019-12-31/</guid>
+      <description>Dec 23, 2019 Leo Lahti joined as arXiv moderator (applied statistics)
+Dec 16-20, 2019 Statistical research in microbiome research workshop in Pune, India
+Dec 7, 2019 Research talk in Savitribai Pule Pune University by Leo Lahti on microbiome bioinformatics.
+Nov 29, 2019 Ville Laitinen received the best presentation award in Turku Computational Life Science annual seminar!
+Nov 29, 2019 Moein Khalighi received a PhD study position in Turku. Congratulations!
+Nov 26, 2019 Integrating open science in the humanities - the case of computational history</description>
+    </item>
+    
+    <item>
+      <title>2018 news</title>
+      <link>http://datascience.utu.fi/blog/2018/12/31/2018-12-31/</link>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/blog/2018/12/31/2018-12-31/</guid>
+      <description>12 December
+Published A Quantitative Approach to Book-Printing in Sweden and Finland, 1640–1828
+12 December
+Significantly improved CRAN release for the pxweb R package. Automated access to data from dozens of statistical authorities globally.
+11 December
+Leo Lahti nominated to Digital Humanities advisory board by National Library of Finland
+6 December
+Presentation on microbiome data science at European Bioconductor Meeting 2018 in Munich (Slides (PDF)).
+5 December
+Best oral poster for Anna Aatsinki in Turku Computational Life Science meeting.</description>
+    </item>
+    
+    <item>
+      <title>Open science award</title>
+      <link>http://datascience.utu.fi/blog/2017/12/31/2017-31.12/</link>
+      <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/blog/2017/12/31/2017-31.12/</guid>
+      <description>December 2017: Open Science and Research award of the Ministry of Education and Culture for Open Knowledge Finland Open Science work group!</description>
     </item>
     
   </channel>

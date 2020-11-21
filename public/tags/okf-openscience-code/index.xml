@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>okf, openscience, code on Universal</title>
+    <link>http://datascience.utu.fi/tags/okf-openscience-code/</link>
+    <description>Recent content in okf, openscience, code on Universal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://datascience.utu.fi/tags/okf-openscience-code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algorithmic openness in decision-making</title>
+      <link>http://datascience.utu.fi/blog/2020/11/20/2020-10-21/</link>
+      <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/blog/2020/11/20/2020-10-21/</guid>
+      <description>Recent writings related to the openness of epidemic models used to support decision-making by the Finnish government.
+  August 19, 2020 Avoimuus voi vahvistaa päätöksenteon tieteellistä pohjaa
+  June 26, 2020 Päätös epidemialaskelmien salaamisesta vastoin valtioneuvoston avoimuuslinjausta
+  June 22, 2020 Lähdekoodin sisältämien yksityiskohtien avoimuus on keskeistä päätöksenteon läpinäkyvyydelle
+  May 15, 2020 Tietopyyntö epidemialaskelmien lähdekoodeista
+  May 3, 2020 Laskentamallit eivät lähtökohtaisesti ole salassa pidettävää tietoa</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>publications on Universal</title>
+    <link>http://datascience.utu.fi/tags/publications/</link>
+    <description>Recent content in publications on Universal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://datascience.utu.fi/tags/publications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New papers</title>
+      <link>http://datascience.utu.fi/blog/2020/11/21/2020-10-22-pub/</link>
+      <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/blog/2020/11/21/2020-10-22-pub/</guid>
+      <description>Recent publications   Prebiotic Xylo-oligosaccharides Targeting Faecalibacterium prausnitzii Prevent High Fat Diet-induced Hepatic Steatosis in Rats with Lensu et al.
+  Eicosanoid Inflammatory Mediators Are Robustly Associated With Blood Pressure in the General Population by Palmu et al.
+  Association Between the Gut Microbiota and Blood Pressure in a Population Cohort of 6953 Individuals by Palmu et al.
+  Unsupervised hierarchical clustering identifies a metabolically challenged subgroup of hypertensive individuals by Vaura et al.</description>
+    </item>
+    
+  </channel>
+</rss>

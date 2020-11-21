@@ -6,13 +6,49 @@
     <description>Recent content in Tags on Universal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://datascience.utu.fi/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://datascience.utu.fi/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>publications</title>
+      <link>http://datascience.utu.fi/tags/publications/</link>
+      <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/tags/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>okf, openscience, code</title>
+      <link>http://datascience.utu.fi/tags/okf-openscience-code/</link>
+      <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/tags/okf-openscience-code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>news</title>
+      <link>http://datascience.utu.fi/tags/news/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/tags/news/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>comphum</title>
       <link>http://datascience.utu.fi/tags/comphum/</link>
       <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>http://datascience.utu.fi/tags/comphum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>openscience</title>
+      <link>http://datascience.utu.fi/tags/openscience/</link>
+      <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/tags/openscience/</guid>
       <description></description>
     </item>
     

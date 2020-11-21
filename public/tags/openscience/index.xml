@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>openscience on Universal</title>
+    <link>http://datascience.utu.fi/tags/openscience/</link>
+    <description>Recent content in openscience on Universal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 31 Dec 2017 00:00:00 +0000</lastBuildDate><atom:link href="http://datascience.utu.fi/tags/openscience/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open science award</title>
+      <link>http://datascience.utu.fi/blog/2017/12/31/2017-31.12/</link>
+      <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/blog/2017/12/31/2017-31.12/</guid>
+      <description>December 2017: Open Science and Research award of the Ministry of Education and Culture for Open Knowledge Finland Open Science work group!</description>
+    </item>
+    
+  </channel>
+</rss>

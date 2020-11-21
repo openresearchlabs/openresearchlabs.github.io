@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>news on Universal</title>
+    <link>http://datascience.utu.fi/tags/news/</link>
+    <description>Recent content in news on Universal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://datascience.utu.fi/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Posts</title>
+      <link>http://datascience.utu.fi/blog/2020/11/01/2020-11-01-posts/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/blog/2020/11/01/2020-11-01-posts/</guid>
+      <description>New people  Oct 1, 2020: Tuomas Borman started as a research assistant, welcome! Aug 18, 2020: Pyry Kantanen joined the rOpenGov developer team, welcome! July 20, 2020: Tim Garrels joins our team through the Baltic Science Network Mobility Programme for Research (BARI) Internship June 1, 2020 Guilhem Sommeria-Klein joins the team!  Funding   Sep 1, 2020 Academy of Finland consortium Eco-evolutionary mechanisms underlying critical transitions in microbial communities now launched!</description>
+    </item>
+    
+    <item>
+      <title>2019 news</title>
+      <link>http://datascience.utu.fi/blog/2019/12/31/2019-12-31/</link>
+      <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/blog/2019/12/31/2019-12-31/</guid>
+      <description>Dec 23, 2019 Leo Lahti joined as arXiv moderator (applied statistics)
+Dec 16-20, 2019 Statistical research in microbiome research workshop in Pune, India
+Dec 7, 2019 Research talk in Savitribai Pule Pune University by Leo Lahti on microbiome bioinformatics.
+Nov 29, 2019 Ville Laitinen received the best presentation award in Turku Computational Life Science annual seminar!
+Nov 29, 2019 Moein Khalighi received a PhD study position in Turku. Congratulations!
+Nov 26, 2019 Integrating open science in the humanities - the case of computational history</description>
+    </item>
+    
+    <item>
+      <title>2018 news</title>
+      <link>http://datascience.utu.fi/blog/2018/12/31/2018-12-31/</link>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/blog/2018/12/31/2018-12-31/</guid>
+      <description>12 December
+Published A Quantitative Approach to Book-Printing in Sweden and Finland, 1640–1828
+12 December
+Significantly improved CRAN release for the pxweb R package. Automated access to data from dozens of statistical authorities globally.
+11 December
+Leo Lahti nominated to Digital Humanities advisory board by National Library of Finland
+6 December
+Presentation on microbiome data science at European Bioconductor Meeting 2018 in Munich (Slides (PDF)).
+5 December
+Best oral poster for Anna Aatsinki in Turku Computational Life Science meeting.</description>
+    </item>
+    
+  </channel>
+</rss>
