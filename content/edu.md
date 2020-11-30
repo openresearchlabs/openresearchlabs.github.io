@@ -5,79 +5,66 @@ title: Edu
 ---
 
 
-# Courses and seminars
+### Forthcoming courses and seminars
 
-3-4/2021 University of Turku. [Machine Learning and Algorithmics Seminar (TKO_3121 5 op)](https://opas.peppi.utu.fi/fi/opintojakso/TKO_3121/3255).
+**Spring 2021**
 
-1/2021 Savitribai Phule Pune University. Microbiome bioinformatics.
+[Machine Learning and Algorithmics Seminar (TKO_3121 5 op)](https://opas.peppi.utu.fi/fi/opintojakso/TKO_3121/3255) University of Turku, Finland. 3-5/2021
 
-2020 [Research seminar on probabilistic data analysis](https://gitlab.com/openresearchlabs/probabilistic_data_analysis_2020) in University of Turku, Finland. 
+[Microbiome bioinformatics]() - Savitribai Phule Pune University, Pune, India 1/2021
 
-Apr 20-23, 2020. Hasselt University, Limburg, Belgium. [Microbiome Data Analysis Workshop](https://microbiome-workshop.meetinghand.com/)
+[Microbiome Data Analysis Workshop](https://microbiome-workshop.meetinghand.com/) - Hasselt University, Limburg, Belgium 4/2021
 
-3-4/2020 University of Turku. [Machine Learning and Algorithmics Seminar (TKO_3121 5 op)](https://opas.peppi.utu.fi/fi/opintojakso/TKO_3121/3255). 
 
-2018-2019 [Research seminar on probabilistic machine learning](../seminar/). University of Turku, Finland based on [Machine learning - a probabilistic perspective](https://www.cs.ubc.ca/~murphyk/MLbook/) (K. Muprhy). [PDF](https://doc.lagout.org/science/Artificial%20Intelligence/Machine%20learning/Machine%20Learning_%20A%20Probabilistic%20Perspective%20%5BMurphy%202012-08-24%5D.pdf).
+### Tutorials and Data
 
-Dec 16-20, 2019 [Pune, India](https://pbs.twimg.com/media/D-cRz8YUYAEuzNj.jpg)
-Modern statistics for microbiome bioinformatics.
+[Microbiome data science: R tutorial](https://microbiome.github.io/tutorials)  
 
-Oct 14-16, 2019 [Wageningen University and Research Center, The Netherlands](https://www.vlaggraduateschool.nl/nl/cursus/IMHA19.htm#tab0)
-Intestinal microbiome of humans and animals. VLAG Graduate School course.
+[Open government data analytics: various tutorials](https://ropengov.org/projects)
 
-Sep 2-4, 2019 [Singapore Centre for Environmental and Life Science Engineering](http://www.scelse.sg/)  
-Contemporary themes in microbiome data science.
+[Finnish geospatial data visualization in R](https://ropengov.github.io/geofi)
 
-Sep 12-13, 2019 Nijmegen  
-Advanced statistical techniques in microbiome bioinformatics
 
-Sep 16-18, 2019 KU Leuven  
-[International summer school on microbial community modeling](http://psbweb05.psb.ugent.be/conet/microbemodelschool/index.php)
+### Teaching software
 
-5/2018 Wageningen, The Netherlands  
-[International spring school on open and reproducible microbiome data analysis](https://mibwurrepo.github.io/OPEN-REPRODUCIBLE-MICROBIOME-DATA-ANALYSIS-2018/) 
+[A framework for creating and assessing exercises for R courses](https://ropengov.github.io/edu/) (presented in UseR2017!)
 
-2/2018 VIB/KU Leuven, Belgium  
-Introduction to probabilistic programming.
-Lecture slides [ODP](https://github.com/openresearchlabs/openresearchlabs.github.io/tree/master/publications/publications/slides/20180226-rstan-VIB.odp); [PDF](https://github.com/openresearchlabs/openresearchlabs.github.io/tree/master/publications/publications/slides/20180226-rstan-VIB.pdf)
 
-9/2017 KU Leuven  
-[International summer school on microbial network analysis](http://psbweb05.psb.ugent.be/conet/econetschool/index.php)
+### Past courses: links to material
 
-12/2016 University of Helsinki, Finland  
-[Conference on Philosophy and History of Open Science (#PHOS16)](https://www.helsinki.fi/en/researchgroups/helsinki-digital-humanities/phos16-conference)
+**Computational science and machine learning**
 
-<!--Further courses in the past on high-throughput bioinformatics,
-high-throughput sequencing, prior knowledge and background data in
-computational inference, data fusion in bioinformatics.-->
+ - [Probabilistic data analysis research seminar](https://gitlab.com/openresearchlabs/probabilistic_data_analysis_2020) - University of Turku - 2020 
+
+ - [Machine Learning and Algorithmics Seminar (TKO_3121 5 op)](https://opas.peppi.utu.fi/fi/opintojakso/TKO_3121/3255). University of Turku - 3-4/2020 
+
+ - Research seminar on probabilistic machine learning -  University of Turku, Finland based on [Machine learning - a probabilistic perspective](https://www.cs.ubc.ca/~murphyk/MLbook/) (K. Muprhy). [PDF](https://doc.lagout.org/science/Artificial%20Intelligence/Machine%20learning/Machine%20Learning_%20A%20Probabilistic%20Perspective%20%5BMurphy%202012-08-24%5D.pdf) - 2018-2019
+
+ - Introduction to probabilistic programming - Lecture slides [ODP](https://github.com/openresearchlabs/openresearchlabs.github.io/tree/master/publications/publications/slides/20180226-rstan-VIB.odp); [PDF](https://github.com/openresearchlabs/openresearchlabs.github.io/tree/master/publications/publications/slides/20180226-rstan-VIB.pdf) - 2018 VIB/KU Leuven, Belgium  
 
 
 
-# Teaching software
+**Bioinformatics**
 
+ - [Modern statistics for microbiome bioinformatics](https://pbs.twimg.com/media/D-cRz8YUYAEuzNj.jpg) - Pune, India, Dec 2019
 
-7/2017 UseR2017!  
-[An open framework for creating and assessing exercises for R courses](https://ropengov.github.io/edu/)
+ - [Intestinal microbiome of humans and animals. VLAG Graduate School course](https://www.vlaggraduateschool.nl/nl/cursus/IMHA19.htm#tab0) - Wageningen University and Research Center, The Netherlands, Oct 2019
 
+ - [Contemporary themes in microbiome data science.](http://www.scelse.sg/) - Singapore Centre for Environmental and Life Science Engineering Sep, 2019
 
-# Tutorials and Data
+ - Advanced statistical techniques in microbiome bioinformatics - Sep 2019 Nijmegen  
 
+ - [International summer school on microbial community modeling](http://psbweb05.psb.ugent.be/conet/microbemodelschool/index.php) - Sep 2019 KU Leuven, Belgium
 
-[Tutorial on microbiome data analysis](https://microbiome.github.io/microbiome)  
+ - [International spring school on open and reproducible microbiome data analysis](https://mibwurrepo.github.io/OPEN-REPRODUCIBLE-MICROBIOME-DATA-ANALYSIS-2018/) - 2018 Wageningen, The Netherlands  
 
-[Eurostat open data analysis](https://github.com/rOpenGov/eurostat/blob/master/vignettes/eurostat_tutorial.md)
-
-[Finnish open government data analysis](https://github.com/rOpenGov/sorvi/blob/master/vignettes/sorvi_tutorial.md)
-
-[Finnish geospatial data visualization in R](https://github.com/rOpenGov/gisfin/blob/master/vignettes/gisfin_tutorial.md)
-
-[Open data for exercises](../data/) 
+ - [International summer school on microbial network analysis](http://psbweb05.psb.ugent.be/conet/econetschool/index.php) - 2017 KU Leuven, Belgium
 
 
 
-# Presentation material
 
-See a separate page for [presentation slides and other material](../media/)
+
+
 
 
 

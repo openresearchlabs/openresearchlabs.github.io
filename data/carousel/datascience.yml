@@ -1,4 +1,9 @@
 weight: 1
 title: "Data Science"
-description: "<p>Applied statistics and machine learning</p>"
+description: >
+  <ul class="list-style-none">
+    <li>Probabilistic nachine learning</li>
+    <li>Scientific computing</li>  
+    <li>Open research software</li>
+  </ul>
 image: "img/carousel/houp.png"

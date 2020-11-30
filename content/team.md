@@ -15,7 +15,7 @@ keywords: team
 
   <i><leo.lahti@iki.fi></i><br/>
   
-  <a href="http://orcid.org/0000-0001-5537-637X"><img src='../img/orcid_qrcode_leolahti.png' title='Leo Lahti ORCID QR code 0000-0001-5537-637X' alt='ORCID: 0000-0001-5537-637X' width='33%'/></a> <a href="https://twitter.com/antagomir"><img src='../img/twitter.jpeg' title='antagomir@twitter' alt='https://twitter.com/antagomir' width='25%'/></a>
+<!--  <a href="http://orcid.org/0000-0001-5537-637X"><img src='../img/orcid_qrcode_leolahti.png' title='Leo Lahti ORCID QR code 0000-0001-5537-637X' alt='ORCID: 0000-0001-5537-637X' width='33%'/></a> <a href="https://twitter.com/antagomir"><img src='../img/twitter.jpeg' title='antagomir@twitter' alt='https://twitter.com/antagomir' width='25%'/></a> -->
   
   </div>
 
@@ -43,6 +43,10 @@ keywords: team
 <a href="http://www.citeulike.org/author/Lahti:L">CiteUlike</a>; 
 <a href="http://www.ncbi.nlm.nih.gov/sites/myncbi/collections/public/1VaRtFbzqhfLWsXzDa1c5CSQK">PubMed</a>; 
 <a href="https://tuhat.halvi.helsinki.fi/portal/en/persons/leo-mikael-lahti%285d23e9ba-1f39-42f0-b23b-77fe12413479%29.html">TUHAT</a></li>
+<li><a href="datascience.utu.fi/contact">Contact information</a></li>
+<li><a href="https://twitter.com/antagomir">Twitter / @antagomir</a></li>
+
+
 
 </ul>
 
@@ -56,66 +60,51 @@ keywords: team
 
 Email: first.last - at - utu.fi
 
-Matti Ruuskanen  
-     <img src="../img/teampic/matti_ruuskanen.jpg" width="100">  
 
-Guilhem Sommeria-Klein  
-
-Pande Putu Erawijantari
- 
+Matti Ruuskanen             |  Guilhem Sommeria-Klein | [Pande Putu Erawijantari](https://erawijantari.github.io)
+:-------------------------:|:-------------------------:|:-------------------------:|
+<img src="../img/teampic/matti_ruuskanen.jpg" width="200">  | <img src="../img/teampic/guilhem_s.jpeg" width="200">  | <img src="../img/teampic/pande_erawijantari.jpg" width="200">  |
 
 
-## PhD Students 
 
-Ville Laitinen
-  <img src="../img/teampic/ville_laitinen.jpg" width="100">
+    
+## PhD candidates
 
-[Moein Khalighi](https://scholar.google.com/citations?user=XrlaLlUAAAAJ&hl=en)
-  <img src="../img/teampic/moein_khalighi.jpg" width="100">
+The affiliation for the co-supervised PhD candidates indicated in parentheses.
 
-Anna Aatsinki
-  <img src="../img/teampic/anna_aatsinki.jpg" width="100">
-  PhD student (with Prof Linnea Karlsson)  
 
-Anna Sorjamaa
-  <img src="../img/teampic/bio-photo.jpg" width="100">
-  PhD student (Oulu; with Dr Justus Reunanen)
+| Ville Laitinen | [Moein Khalighi](https://scholar.google.com/citations?user=XrlaLlUAAAAJ&hl=en) | Anna Aatsinki (Finnbrain) |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+<img src="../img/teampic/ville_laitinen.jpg" width="200"> | <img src="../img/teampic/moein_khalighi.jpg" width="200">  | <img src="../img/teampic/anna_aatsinki.jpg" width="200"> |  
 
-Joonatan Palmu
-  <img src="../img/teampic/joonatan_palmu.jpeg" width="100">
-  PhD student (with Prof Teemu Niiranen)
+-------------------------
 
-Ville Vaara
-  <img src="../img/teampic/ville_vaara.jpg" width="100">
-  PhD student (Helsinki; with Prof Mikko Tolonen)
+Joonatan Palmu (THC)             | Ville Vaara (COMHIS) | Anna Sorjamaa (Oulu) |
+:-------------------------:|:-------------------------:|:-------------------------:|
+<img src="../img/teampic/joonatan_palmu.jpeg" width="200"> | <img src="../img/teampic/ville_vaara.jpg" width="200">  | <img src="../img/teampic/bio-photo.jpg" width="200">
+
+
 
 
 ## Research assistants and trainees
 
-Wisam Tariq Saleem  
- 
-Pyry Kantanen  
+ - Wisam Tariq Saleem  
+ - Pyry Kantanen  
+ - Iiro Tiihonen  
+ - Tuomas Borman  
+ - Renuka Potbhare (with Dr. Richa Ashma, Pune University)
+ - Binu Matthew  
 
-Binu Matthew  
 
-Iiro Tiihonen  
-
-Tuomas Borman  
-
-Renuka Potbhare
-  <img src="../img/teampic/renuka.jpg" width="100">
-  M. Phil. Student (with Dr. Richa Ashma, Pune University)
-
+<!--  <img src="../img/teampic/renuka.jpg" width="100">-->
 
 ## Alumni
 
 - Prashant Gaikwad
-- Renuka Pothbhare
 - Aaro Salosensaari
 - Anastasia Karavaeva
 - Tim Garrels
+- Hege Roivainen
 
 
-<!--**Master Students** Anastasia Karavaeva, Binu Matthew, Leila Paquay (Leuven 2018); Hege Roivainen (Helsinki 2017); Marnix Denys (KU Leuven 2017); Tineka Blake (Wageningen 2015); Emilio Ugaldes Morales (Wageningen 2014)-->
 
- 

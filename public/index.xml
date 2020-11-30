@@ -293,7 +293,9 @@ All pages are written in markdown for easy editing, and Jekyll uses Liquid for t
       
       <guid>http://datascience.utu.fi/code/</guid>
       <description>Open research data and software . Mature open source projects are listed below.
-Digital Humanities and Computational Social Science rOpenGov R package ecosystem for open data and computational social science (R/GitHub) includes 20+ R packages. Introduced and NIPS Machine Learning Open Source Software workshop in 2013. Tools for Eurostat open data, Sotkanet database of National Institute for Health and Welfare (Finland), PX-web API used by the Statistical authorities in many countries, Finnish geospatial data, Finnish open government data, and other tools.</description>
+Statistical ecology and machine learning Microbiome bioinformatics software and tutorials
+earlywarnings Methods for identification of critical transitions between ecosystem states from time series data (CRAN). Co-developer. CRAN/Github. WICI Data Challenge 2013 runner-up / Waterloo Institute for Complex Systems and Innovation.
+DMT Dependency Modeling Toolkit. Probabilistic tools for dependency analysis between multiple data sources (R/CRAN). Probabilistic PCA, factor analysis, CCA, regularized variants, dependency-based dimensionality reduction etc.</description>
     </item>
     
     <item>
@@ -305,7 +307,7 @@ Digital Humanities and Computational Social Science rOpenGov R package ecosystem
       <description>Contact Welcome to contact us to discuss research/study positions and collaboration.
 Twitter Follow us in Twitter
 Mail Department of Future Technologies. Faculty of Natural Sciences and Engineering, Yliopistonmäki, FI-20014, University of Turku, Finland
-Visiting address Agora, 4th floor, room 452E. Yliopistonmäki, Turku (Map)
+Visiting address Agora, 4th floor, room 452E. Yliopistonmäki, Turku
 Tel: +358 (0)50 436 4626</description>
     </item>
     
@@ -335,12 +337,14 @@ In recent years, the human microbiome has been characterised in great detail in 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://datascience.utu.fi/edu/</guid>
-      <description>Courses and seminars 3-4/2021 University of Turku. Machine Learning and Algorithmics Seminar (TKO_3121 5 op).
-1/2021 Savitribai Phule Pune University. Microbiome bioinformatics.
-2020 Research seminar on probabilistic data analysis in University of Turku, Finland.
-Apr 20-23, 2020. Hasselt University, Limburg, Belgium. Microbiome Data Analysis Workshop
-3-4/2020 University of Turku. Machine Learning and Algorithmics Seminar (TKO_3121 5 op).
-2018-2019 Research seminar on probabilistic machine learning. University of Turku, Finland based on Machine learning - a probabilistic perspective (K.</description>
+      <description>Forthcoming courses and seminars Spring 2021
+Machine Learning and Algorithmics Seminar (TKO_3121 5 op) University of Turku, Finland. 3-5/2021
+Microbiome bioinformatics - Savitribai Phule Pune University, Pune, India 1/2021
+Microbiome Data Analysis Workshop - Hasselt University, Limburg, Belgium 4/2021
+Tutorials and Data Microbiome data science: R tutorial
+Open government data analytics: various tutorials
+Finnish geospatial data visualization in R
+Teaching software A framework for creating and assessing exercises for R courses (presented in UseR2017!</description>
     </item>
     
     <item>
@@ -370,12 +374,12 @@ Recommended open licenses for academic publishing Software and source code The m
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://datascience.utu.fi/media/</guid>
-      <description>Video lectures and interviews Presentation slides, posters and other material available via Github.
--- -- 11/2019 Integrating open science in the humanities: the case of computational history Springer-Nature blog post and links to the streamed presentations.
-3/2018 Microcosm within us: gut microbiome Science Cafe talk in Turku, Finland
-2/2017 Academy of Finland video blog
-9/2015 Open Peer Review in Academic MindTrek, Tampere
-2/2014 Open science interview University of Helsinki, Finland.</description>
+      <description>Online resources Presentation slides
+Blog on open data analytics (rOpenGov)
+Versus online journal for science popularization.
+Conference on Philosophy and History of Open Science (#PHOS16) - digital collection - 2016 University of Helsinki, Finland
+Selected video lectures and interviews -- -- Integrating open science in the humanities: the case of computational history Springer-Nature blog post and links to the streamed presentations 11/2019
+Microcosm within us: gut microbiome Science Cafe, Turku, Finland 3/2018</description>
     </item>
     
     <item>
