@@ -63,7 +63,7 @@ Email: first.last - at - utu.fi
 
 Matti Ruuskanen             |  Guilhem Sommeria-Klein | [Pande Putu Erawijantari](https://erawijantari.github.io)
 :-------------------------:|:-------------------------:|:-------------------------:|
-<img src="../img/teampic/matti_ruuskanen.jpg" width="200">  | <img src="../img/teampic/guilhem_s.jpeg" width="200">  | <img src="../img/teampic/pande_erawijantari.jpg" width="200">  |
+<img src="../img/teampic/matti_ruuskanen.jpg" width="150">  | <img src="../img/teampic/guilhem_s.jpeg" width="150">  | <img src="../img/teampic/pande_erawijantari.jpg" width="150">  |
 
 
 
@@ -75,18 +75,18 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
 
 | Ville Laitinen | [Moein Khalighi](https://scholar.google.com/citations?user=XrlaLlUAAAAJ&hl=en) | Anna Aatsinki (Finnbrain) |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-<img src="../img/teampic/ville_laitinen.jpg" width="200"> | <img src="../img/teampic/moein_khalighi.jpg" width="200">  | <img src="../img/teampic/anna_aatsinki.jpg" width="200"> |  
+<img src="../img/teampic/ville_laitinen.jpg" width="150"> | <img src="../img/teampic/moein_khalighi.jpg" width="150">  | <img src="../img/teampic/anna_aatsinki.jpg" width="150"> |  
 
 -------------------------
 
 Joonatan Palmu (THC)             | Ville Vaara (COMHIS) | Anna Sorjamaa (Oulu) |
 :-------------------------:|:-------------------------:|:-------------------------:|
-<img src="../img/teampic/joonatan_palmu.jpeg" width="200"> | <img src="../img/teampic/ville_vaara.jpg" width="200">  | <img src="../img/teampic/bio-photo.jpg" width="200">
+<img src="../img/teampic/joonatan_palmu.jpeg" width="150"> | <img src="../img/teampic/ville_vaara.jpg" width="150">  | <img src="../img/teampic/bio-photo.jpg" width="150">
 
 
 
 
-## Research assistants and trainees
+## Research assistants
 
  - Wisam Tariq Saleem  
  - Pyry Kantanen  
