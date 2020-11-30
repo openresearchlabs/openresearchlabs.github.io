@@ -6,7 +6,7 @@ site: blogdown:::blogdown_site
 
 We carry out research on theory, methods and applications of modern algorithmic data analysis, blending elements from various fields including statistical machine learning/AI, probabilistic programming, data science, and information engineering.
 
-Our methodologically oriented research is motivated by data-rich applications that range from molecular life sciences to computational social sciences and humanities (SSH) research. [Turku Data Science Group](https://openresearchlabs.github.io/team/) is led by Associate Prof. Leo Lahti.
+Our research is motivated by data-rich applications that range from molecular life sciences to computational social sciences and humanities (SSH) research. [Turku Data Science Group](https://openresearchlabs.github.io/team/) is led by Associate Prof. Leo Lahti.
 
 There is a great demand for targeted algorithmic methods to extract information and insights from data with minimal human intervention to guide modeling and experimentation. By combining information across multiple sources it is possible to overcome some of the limitations and statistical uncertainties associated with individual data sets. Open research practices play an important role in our all work.
 

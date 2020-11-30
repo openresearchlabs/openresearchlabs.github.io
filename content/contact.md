@@ -9,7 +9,7 @@ excerpt: Contact
 
 # Contact
 
-Welcome to contact us to discuss research/study positions and collaboration opportunities.
+Welcome to contact us to discuss research/study positions and collaboration.
 
 **Twitter** Follow us in [Twitter](https://twitter.com/openreslabs)
 
