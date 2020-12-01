@@ -13,8 +13,6 @@ keywords: team
   <div class="col-sm-3 clearfix" width="25%"> 
   <img src="../img/teampic/leo_sci.jpg" class="img-responsive" width="100%" style="float: left" /><br/>
 
-  <i><leo.lahti@iki.fi></i><br/>
-  
 <!--  <a href="http://orcid.org/0000-0001-5537-637X"><img src='../img/orcid_qrcode_leolahti.png' title='Leo Lahti ORCID QR code 0000-0001-5537-637X' alt='ORCID: 0000-0001-5537-637X' width='33%'/></a> <a href="https://twitter.com/antagomir"><img src='../img/twitter.jpeg' title='antagomir@twitter' alt='https://twitter.com/antagomir' width='25%'/></a> -->
   
   </div>
@@ -24,10 +22,13 @@ keywords: team
   <ul style="overflow: hidden">
   <li>Associate Professor (Data Science)</li>
   <li>Academy of Finland Research Fellow 2016-2021</li>
-  <li>Director of Turku Center for Computational Humanities</li>  
-  <li>Founding member of <a href="http://www.helsinki.fi/computational-history">Helsinki Computational History Group</a></li>    
+  <li>Director, Turku Center for Computational Humanities</li>
+  <li><a href="https://tenk.fi/en/research-misconduct/research-integrity-advisers">National Board on Research Integrity (TENK)</a> research integrity adviser</li>
+  <li> <a href="https://avointiede.fi/fi/koordinaatio">National open science coordination</a> steering group</li> 
+  <li> <a href="http://www.tkts.fi/etusivu">Finnish Society for Computer Science</a> board</li> 
   <li><a href="https://turkucitydata.fi">Turku City Data Co.</a> Board member and scientific advisor.</li>  
   <li><a href="https://blueprintgenetics.com">Blueprint Genetics</a>. Scientific Advisor (AI & ML)</li>
+  <li><a href="http://www.helsinki.fi/computational-history">Helsinki Computational History Group</a> founding member</li>      
   <li><a href="http://fi.okfn.org/wg/openscience/">Open Science work group</a>, OKF Finland. Founding member.</li>
   <li><a href="pgp_lahti_pm.asc">PGP key</a>;
   <a href="http://orcid.org/0000-0001-5537-637X">ORCID: 0000-0001-5537-637X</a>;
@@ -43,8 +44,8 @@ keywords: team
 <a href="http://www.citeulike.org/author/Lahti:L">CiteUlike</a>; 
 <a href="http://www.ncbi.nlm.nih.gov/sites/myncbi/collections/public/1VaRtFbzqhfLWsXzDa1c5CSQK">PubMed</a>; 
 <a href="https://tuhat.halvi.helsinki.fi/portal/en/persons/leo-mikael-lahti%285d23e9ba-1f39-42f0-b23b-77fe12413479%29.html">TUHAT</a></li>
-<li><a href="datascience.utu.fi/contact">Contact information</a></li>
-<li><a href="https://twitter.com/antagomir">Twitter / @antagomir</a></li>
+<li><a href="../contact">Contact information</a> for the research team</li> 
+<li><a href="https://twitter.com/antagomir">Twitter / @antagomir</a> personal account</li>
 
 
 
@@ -57,9 +58,6 @@ keywords: team
 <p></p>
 
 ## Postdocs
-
-Email: first.last - at - utu.fi
-
 
 Matti Ruuskanen             |  Guilhem Sommeria-Klein | [Pande Putu Erawijantari](https://erawijantari.github.io)
 :-------------------------:|:-------------------------:|:-------------------------:|

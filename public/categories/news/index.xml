@@ -6,7 +6,20 @@
     <description>Recent content in news on Universal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://datascience.utu.fi/categories/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://datascience.utu.fi/categories/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New nominations</title>
+      <link>http://datascience.utu.fi/blog/2020/12/01/2020-12-01-nominations/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/blog/2020/12/01/2020-12-01-nominations/</guid>
+      <description>PI Leo Lahti has been nominated for the following:
+  Finnish National Board on Research Integrity (TENK) Research integrity advisor in University of Turku for the
+  National open science coordination steering group
+  Finnish Society for Computer Science board
+  </description>
+    </item>
+    
     <item>
       <title>New papers</title>
       <link>http://datascience.utu.fi/blog/2020/11/21/2020-10-22-pub/</link>

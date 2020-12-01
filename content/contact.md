@@ -11,7 +11,9 @@ excerpt: Contact
 
 Welcome to contact us to discuss research/study positions and collaboration.
 
-**Twitter** Follow us in [Twitter](https://twitter.com/openreslabs)
+**Twitter** Follow Turku Data Science Group in [Twitter](https://twitter.com/openreslabs)
+
+**Email** first.last - at - utu.fi (see the [Team](../team) page)
 
 **Mail** Department of Future Technologies. Faculty of Natural Sciences and Engineering, Yliopistonmäki, FI-20014, University of Turku, Finland
 
