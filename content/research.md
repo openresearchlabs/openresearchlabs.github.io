@@ -96,20 +96,18 @@ See [separate page](/work/teaching)
 -->
 
 
-**Funding and support**
+### Funding and support
 
- * Academy of Finland
- * Government of India
- * University of Turku graduate school on mathematics and statistics
- * Turku University Foundation
- * Sitra
+The research is supported by various foundations, Academy of Finland,
+European Union (H2020), and other sources.
+
  * European Union
- * Kordelin foundation
- * Helsinki Region Infoshare
- * Apps4Finland
- * Waterloo Institute for Complexity and Innovation
- * Dupuytren research foundation
- 
+
+<img src="../img/logopic/aka.png" width="150">  <img src="../img/logopic/turun_yliopisto_logo_rgb.png" width="150">  <img src="../img/logopic/sitra.png" width="150">   <img src="../img/logopic/cost.png" width="150">  <img src="../img/logopic/kordelin.png" width="150">   <img src="../img/logopic/hri.png" width="150">  <img src="../img/logopic/apps4-logo.jpg" width="150">  <img src="../img/logopic/wici.png" width="150">   <img src="../img/logopic/dupuytren.jpg" width="100"> <img src="../img/logopic/Blueprint1.png" width="100"> <img src="../img/logopic/KONE_green_en.jpeg" width="150"> <img src="../img/logopic/sparc.png" width="150">     
+
+
+
+
 
 <!--
 

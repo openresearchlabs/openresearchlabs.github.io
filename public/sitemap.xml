@@ -4,12 +4,47 @@
   
   <url>
     <loc>http://datascience.utu.fi/blog/</loc>
-    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://datascience.utu.fi/categories/</loc>
-    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://datascience.utu.fi/blog/2020/12/03/2020-12-03-kone/</loc>
+    <lastmod>2020-12-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://datascience.utu.fi/categories/news/</loc>
+    <lastmod>2020-12-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://datascience.utu.fi/tags/projects-eco-evo/</loc>
+    <lastmod>2020-12-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://datascience.utu.fi/tags/</loc>
+    <lastmod>2020-12-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://datascience.utu.fi/</loc>
+    <lastmod>2020-12-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://datascience.utu.fi/blog/2020/12/02/2020-12-02-ropengov/</loc>
+    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://datascience.utu.fi/tags/ropengov-r/</loc>
+    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -18,22 +53,7 @@
   </url>
   
   <url>
-    <loc>http://datascience.utu.fi/categories/news/</loc>
-    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://datascience.utu.fi/tags/nominations/</loc>
-    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://datascience.utu.fi/tags/</loc>
-    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://datascience.utu.fi/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url>
   

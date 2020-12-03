@@ -77,11 +77,15 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
 
 -------------------------
 
-Joonatan Palmu (THC)             | Ville Vaara (COMHIS) | Anna Sorjamaa (Oulu) |
-:-------------------------:|:-------------------------:|:-------------------------:|
+| Joonatan Palmu (THC)             | Ville Vaara (COMHIS) | Anna Sorjamaa (Oulu) |
+|:-------------------------:|:-------------------------:|:-------------------------:|
 <img src="../img/teampic/joonatan_palmu.jpeg" width="150"> | <img src="../img/teampic/ville_vaara.jpg" width="150">  | <img src="../img/teampic/bio-photo.jpg" width="150">
 
+-------------------------
 
+| Mrunalini Lotankar (VaMiPre) | 
+|:-------------------------:|
+<img src="../img/teampic/bio-photo.jpg" width="150">
 
 
 ## Research assistants
@@ -91,7 +95,8 @@ Joonatan Palmu (THC)             | Ville Vaara (COMHIS) | Anna Sorjamaa (Oulu) |
  - Iiro Tiihonen  
  - Tuomas Borman  
  - Renuka Potbhare (with Dr. Richa Ashma, Pune University)
- - Binu Matthew  
+ - Binu Matthew
+ 
 
 
 <!--  <img src="../img/teampic/renuka.jpg" width="100">-->

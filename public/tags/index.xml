@@ -6,7 +6,25 @@
     <description>Recent content in Tags on Universal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://datascience.utu.fi/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://datascience.utu.fi/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>projects, eco-evo</title>
+      <link>http://datascience.utu.fi/tags/projects-eco-evo/</link>
+      <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/tags/projects-eco-evo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ropengov, R</title>
+      <link>http://datascience.utu.fi/tags/ropengov-r/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/tags/ropengov-r/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>nominations</title>
       <link>http://datascience.utu.fi/tags/nominations/</link>

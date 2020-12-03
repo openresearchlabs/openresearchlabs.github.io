@@ -38,9 +38,9 @@ keywords: media
 
 [**Apps4Finland interview**](http://vimeo.com/49912227) Helsinki, 9/2012
 
-[**Open Tools for Open Data in Finland**](http://www.livestream.com/shareconference/video?clipId=pla_62b42b8c-eea4-4555-9447-c3432e356c81), SHARE Conference, Belgrade, Serbia 4/2012
+<!--[**Open Tools for Open Data in Finland**](http://www.livestream.com/shareconference/video?clipId=pla_62b42b8c-eea4-4555-9447-c3432e356c81), SHARE Conference, Belgrade, Serbia 4/2012-->
 
-[**Avoimen datan soRvi-kirjaston esittely**](http://www.hri.fi/visualisointiblogi/videot/leo-lahti-esittelee-sorvi-ympariston/) (in Finnish) ([video 1](http://www.hri.fi/visualisointiblogi/videot/leo-lahti-esittelee-sorvi-ympariston/) [video 2](http://www.hri.fi/visualisointiblogi/videot/sorvi-esimerkki-1-leo-lahti-esittelee-sorvi-ohjelmiston-kayttoa/) [video 3](http://www.hri.fi/visualisointiblogi/videot/sorvi-esimerkki-2-leo-lahti-esittelee-sorvi-ohjelmiston-kayttoa/)); 1/2012
+<!--[**Avoimen datan soRvi-kirjaston esittely**](http://www.hri.fi/visualisointiblogi/videot/leo-lahti-esittelee-sorvi-ympariston/) (in Finnish) ([video 1](http://www.hri.fi/visualisointiblogi/videot/leo-lahti-esittelee-sorvi-ympariston/) [video 2](http://www.hri.fi/visualisointiblogi/videot/sorvi-esimerkki-1-leo-lahti-esittelee-sorvi-ohjelmiston-kayttoa/) [video 3](http://www.hri.fi/visualisointiblogi/videot/sorvi-esimerkki-2-leo-lahti-esittelee-sorvi-ohjelmiston-kayttoa/)); 1/2012-->
 
 [**Dependency Modeling Toolkit**](http://videolectures.net/icml2010_lahti_dmt/), ICML/MLSS Workshop. Haifa, Israel 6/2010
 

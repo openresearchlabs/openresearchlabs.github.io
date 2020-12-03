@@ -6,7 +6,27 @@
     <description>Recent content on Universal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://datascience.utu.fi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://datascience.utu.fi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comparing evolutionary processes in nature and society</title>
+      <link>http://datascience.utu.fi/blog/2020/12/03/2020-12-03-kone/</link>
+      <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/blog/2020/12/03/2020-12-03-kone/</guid>
+      <description>New support from KONE foundation for &amp;ldquo;Comparing evolutionary processes in nature and society&amp;rdquo;, a joint project led by Ass. Prof. Indrė Žliobaitė.
+_The world is changing at unprecedented rates. Financial crises, epidemics, climate disasters and military conflicts rise suddenly and change common ways of living. We can no longer hope to learn how the world is, by the time we learn, the world has changed. We need to focus on process-level understanding of how the world is changing.</description>
+    </item>
+    
+    <item>
+      <title>rOpenGov website renewed and new hetu R package published!</title>
+      <link>http://datascience.utu.fi/blog/2020/12/02/2020-12-02-ropengov/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/blog/2020/12/02/2020-12-02-ropengov/</guid>
+      <description>The rOpenGov project homepage for open government data analytics has now moved to a new address, and substantially revised. Read more at https://ropengov.org/!
+In addition, the new hetu R package for Finnish identification numbers (persons, companies) has been released.</description>
+    </item>
+    
     <item>
       <title>New nominations</title>
       <link>http://datascience.utu.fi/blog/2020/12/01/2020-12-01-nominations/</link>
@@ -263,7 +283,8 @@ DMT Dependency Modeling Toolkit. Probabilistic tools for dependency analysis bet
       
       <guid>http://datascience.utu.fi/contact/</guid>
       <description>Contact Welcome to contact us to discuss research/study positions and collaboration.
-Twitter Follow us in Twitter
+Twitter Follow Turku Data Science Group in Twitter
+Email first.last - at - utu.fi (see the Team page)
 Mail Department of Future Technologies. Faculty of Natural Sciences and Engineering, Yliopistonmäki, FI-20014, University of Turku, Finland
 Visiting address Agora, 4th floor, room 452E. Yliopistonmäki, Turku
 Tel: +358 (0)50 436 4626</description>
@@ -446,8 +467,7 @@ Machine learning - a probabilistic perspective (K.</description>
       
       <guid>http://datascience.utu.fi/team/</guid>
       <description>Research team Welcome to contact us to discuss research/study positions and collaboration. See also open positions
- leo.lahti@iki.fi
-  --  Leo Lahti (Group leader) Associate Professor (Data Science) Academy of Finland Research Fellow 2016-2021 Director of Turku Center for Computational Humanities Founding member of Helsinki Computational History Group Turku City Data Co. Board member and scientific advisor. Blueprint Genetics. Scientific Advisor (AI &amp; ML) Open Science work group, OKF Finland.</description>
+   --  Leo Lahti (Group leader) Associate Professor (Data Science) Academy of Finland Research Fellow 2016-2021 Director, Turku Center for Computational Humanities National Board on Research Integrity (TENK) research integrity adviser  National open science coordination steering group  Finnish Society for Computer Science board Turku City Data Co. Board member and scientific advisor.</description>
     </item>
     
     <item>
