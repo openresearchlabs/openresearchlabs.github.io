@@ -98,35 +98,25 @@ See [separate page](/work/teaching)
 
 ### Funding and support
 
-The research is supported by various foundations, Academy of Finland,
-European Union (H2020), and other sources.
+We are greatful for the support from University of Turku, Academy of
+Finland, European Union (COST / H2020), foundations, and other
+sources.
 
- * European Union
-
-<img src="../img/logopic/aka.png" width="150">  <img src="../img/logopic/turun_yliopisto_logo_rgb.png" width="150">  <img src="../img/logopic/sitra.png" width="150">   <img src="../img/logopic/cost.png" width="150">  <img src="../img/logopic/kordelin.png" width="150">   <img src="../img/logopic/hri.png" width="150">  <img src="../img/logopic/apps4-logo.jpg" width="150">  <img src="../img/logopic/wici.png" width="150">   <img src="../img/logopic/dupuytren.jpg" width="100"> <img src="../img/logopic/Blueprint1.png" width="100"> <img src="../img/logopic/KONE_green_en.jpeg" width="150"> <img src="../img/logopic/sparc.png" width="150">     
-
-
-
-
-
-<!--
-
-**We are grateful for support from our collaborators and research funders.**
-
-<figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/aka.png" style="width: 100px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/turun_yliopisto_logo_rgb.png" style="width: 90px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/sitra.png" style="width: 110px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/cost.png" style="width: 110px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/kordelin.png" style="width: 70px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/hri.png" style="width: 90px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/apps4-logo.jpg" style="width: 100px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/wici.png" style="width: 110px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/dupuytren.jpg" style="width: 80px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Blueprint1.png" style="width: 70px">              
-</figure>
-
--->
+<img src="../img/logopic/aka.png" width="150">
+<img src="../img/logopic/EU-H2020-logo.png" width="200">     
+<img src="../img/logopic/turun_yliopisto_logo_rgb.png" width="150">
+<img src="../img/logopic/cost.png" width="150">
+<img src="../img/logopic/sitra.png" width="150">
+<img src="../img/logopic/kordelin.png" width="150">
+<img src="../img/logopic/hri.png" width="150">
+<img src="../img/logopic/apps4-logo.jpg" width="150">
+<img src="../img/logopic/wici.png" width="150">
+<img src="../img/logopic/dupuytren.jpg" width="100">
+<img src="../img/logopic/Blueprint1.png" width="100">
+<img src="../img/logopic/KONE_green_en.jpeg" width="150">
+<img src="../img/logopic/sparc.png" width="150">
+<img src="../img/logopic/cropped-Turun_Yliopistosaatio_200px.jpg" width="70">
 
 
- 
+
+
