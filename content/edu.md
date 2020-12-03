@@ -11,7 +11,7 @@ title: Edu
 
 [Machine Learning and Algorithmics Seminar (TKO_3121 5 op)](https://opas.peppi.utu.fi/fi/opintojakso/TKO_3121/3255) University of Turku, Finland. 3-5/2021
 
-[Microbiome bioinformatics]() - Savitribai Phule Pune University, Pune, India 1/2021
+[Microbiome bioinformatics](http://sppudocs.unipune.ac.in/sites/news_events/Lists/News%20and%20Announcements/Attachments/4783/workshop%20flyer_02.122020.pdf) - Savitribai Phule Pune University, Pune, India 1/2021
 
 [Microbiome Data Analysis Workshop](https://microbiome-workshop.meetinghand.com/) - Hasselt University, Limburg, Belgium 4/2021
 
