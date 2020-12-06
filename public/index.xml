@@ -6,15 +6,25 @@
     <description>Recent content on Universal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://datascience.utu.fi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://datascience.utu.fi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>European Bioconductor Meeting 2020</title>
+      <link>http://datascience.utu.fi/blog/2020/12/04/2020-12-04-eurobioc/</link>
+      <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/blog/2020/12/04/2020-12-04-eurobioc/</guid>
+      <description>Presentations at EuroBioc2020 At the European Bioconducutor Meeting EuroBioc2020, Dec 14-18, 2020, we will give a short talk, birds of a feather session, and a poster on the emerging R ecosystem for microbiome research.
+Dedicated class structures are fundamental for the R/Bioconductor ecosystem. In microbiome research, the phyloseq class has become a commonly accepted standard. However, recent developments in Bioconductor classes and growing sample sizes have opened up new opportunities and requirements to extend this popular format in order to address emerging research needs.</description>
+    </item>
+    
     <item>
       <title>Comparing evolutionary processes in nature and society</title>
       <link>http://datascience.utu.fi/blog/2020/12/03/2020-12-03-kone/</link>
       <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>http://datascience.utu.fi/blog/2020/12/03/2020-12-03-kone/</guid>
-      <description>New support from KONE foundation for &amp;ldquo;Comparing evolutionary processes in nature and society&amp;rdquo;, a joint project led by Ass. Prof. Indrė Žliobaitė.
-_The world is changing at unprecedented rates. Financial crises, epidemics, climate disasters and military conflicts rise suddenly and change common ways of living. We can no longer hope to learn how the world is, by the time we learn, the world has changed. We need to focus on process-level understanding of how the world is changing.</description>
+      <description>Comparing evolutionary processes in nature and society New support from KONE foundation for a joint project led by Ass. Prof. Indrė Žliobaitė.
+The world is changing at unprecedented rates. Financial crises, epidemics, climate disasters and military conflicts rise suddenly and change common ways of living. We can no longer hope to learn how the world is, by the time we learn, the world has changed. We need to focus on process-level understanding of how the world is changing.</description>
     </item>
     
     <item>
@@ -23,7 +33,7 @@ _The world is changing at unprecedented rates. Financial crises, epidemics, clim
       <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>http://datascience.utu.fi/blog/2020/12/02/2020-12-02-ropengov/</guid>
-      <description>The rOpenGov project homepage for open government data analytics has now moved to a new address, and substantially revised. Read more at https://ropengov.org/!
+      <description>New rOpenGov homepage and hetu R package The rOpenGov project homepage for open government data analytics has now moved to a new address, and substantially revised. Read more at https://ropengov.org/!
 In addition, the new hetu R package for Finnish identification numbers (persons, companies) has been released.</description>
     </item>
     
@@ -272,8 +282,8 @@ All pages are written in markdown for easy editing, and Jekyll uses Liquid for t
       <guid>http://datascience.utu.fi/code/</guid>
       <description>Open research data and software . Mature open source projects are listed below.
 Statistical ecology and machine learning Microbiome bioinformatics software and tutorials
-earlywarnings Methods for identification of critical transitions between ecosystem states from time series data (CRAN). Co-developer. CRAN/Github. WICI Data Challenge 2013 runner-up / Waterloo Institute for Complex Systems and Innovation.
-DMT Dependency Modeling Toolkit. Probabilistic tools for dependency analysis between multiple data sources (R/CRAN). Probabilistic PCA, factor analysis, CCA, regularized variants, dependency-based dimensionality reduction etc.</description>
+DMT Dependency Modeling Toolkit. Probabilistic tools for dependency analysis between multiple data sources (R/CRAN). Probabilistic PCA, factor analysis, CCA, regularized variants, dependency-based dimensionality reduction etc. ICML/MLOSS workshop, Israel 2010.
+Bioinformatics netresponse Modeling context-specific activation patterns in genome-wide interaction networks (R/Matlab). Originally applied to study transcriptional responses in genome-scale interaction networks across organism-wide collections of gene expression data.</description>
     </item>
     
     <item>
@@ -316,14 +326,12 @@ In recent years, the human microbiome has been characterised in great detail in 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://datascience.utu.fi/edu/</guid>
-      <description>Forthcoming courses and seminars Spring 2021
-Machine Learning and Algorithmics Seminar (TKO_3121 5 op) University of Turku, Finland. 3-5/2021
-Microbiome bioinformatics - Savitribai Phule Pune University, Pune, India 1/2021
-Microbiome Data Analysis Workshop - Hasselt University, Limburg, Belgium 4/2021
-Tutorials and Data Microbiome data science: R tutorial
-Open government data analytics: various tutorials
-Finnish geospatial data visualization in R
-Teaching software A framework for creating and assessing exercises for R courses (presented in UseR2017!</description>
+      <description>Education and academic events Forthcoming courses and events 2021
+  January Microbiome bioinformatics - Savitribai Phule Pune University, Pune, India
+  March-May Machine Learning and Algorithmics Seminar (TKO_3121 5 op) University of Turku, Finland. 3-5/2021
+  April Microbiome Data Analysis Workshop - Hasselt University, Limburg, Belgium
+  June 7-9 Nordic-Baltic Biometrics Conference Helsinki, Finland
+  November 2-4 Workshop on modeling microbial community time series. Leuven, Belgium</description>
     </item>
     
     <item>
@@ -356,9 +364,11 @@ Recommended open licenses for academic publishing Software and source code The m
       <description>Online resources Presentation slides
 Blog on open data analytics (rOpenGov)
 Versus online journal for science popularization.
-Conference on Philosophy and History of Open Science (#PHOS16) - digital collection - 2016 University of Helsinki, Finland
 Selected video lectures and interviews -- -- Integrating open science in the humanities: the case of computational history Springer-Nature blog post and links to the streamed presentations 11/2019
-Microcosm within us: gut microbiome Science Cafe, Turku, Finland 3/2018</description>
+Microcosm within us: gut microbiome Science Cafe, Turku, Finland 3/2018
+Open science interview University of Helsinki, Finland 2/2014
+Apps4Finland interview Helsinki, 9/2012
+Dependency Modeling Toolkit, ICML/MLSS Workshop.</description>
     </item>
     
     <item>

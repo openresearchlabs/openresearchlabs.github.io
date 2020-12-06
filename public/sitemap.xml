@@ -3,13 +3,53 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://datascience.utu.fi/tags/bioconductor/</loc>
+    <lastmod>2020-12-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://datascience.utu.fi/blog/</loc>
-    <lastmod>2020-12-03T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://datascience.utu.fi/categories/</loc>
-    <lastmod>2020-12-03T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://datascience.utu.fi/blog/2020/12/04/2020-12-04-eurobioc/</loc>
+    <lastmod>2020-12-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://datascience.utu.fi/tags/microbiome/</loc>
+    <lastmod>2020-12-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://datascience.utu.fi/categories/news/</loc>
+    <lastmod>2020-12-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://datascience.utu.fi/tags/presentations/</loc>
+    <lastmod>2020-12-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://datascience.utu.fi/tags/r/</loc>
+    <lastmod>2020-12-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://datascience.utu.fi/tags/</loc>
+    <lastmod>2020-12-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://datascience.utu.fi/</loc>
+    <lastmod>2020-12-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -18,32 +58,27 @@
   </url>
   
   <url>
-    <loc>http://datascience.utu.fi/categories/news/</loc>
+    <loc>http://datascience.utu.fi/tags/comphum/</loc>
     <lastmod>2020-12-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://datascience.utu.fi/tags/projects-eco-evo/</loc>
+    <loc>http://datascience.utu.fi/tags/eco-evo/</loc>
     <lastmod>2020-12-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://datascience.utu.fi/tags/</loc>
+    <loc>http://datascience.utu.fi/tags/projects/</loc>
     <lastmod>2020-12-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://datascience.utu.fi/</loc>
-    <lastmod>2020-12-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://datascience.utu.fi/blog/2020/12/02/2020-12-02-ropengov/</loc>
+    <loc>http://datascience.utu.fi/tags/ropengov/</loc>
     <lastmod>2020-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://datascience.utu.fi/tags/ropengov-r/</loc>
+    <loc>http://datascience.utu.fi/blog/2020/12/02/2020-12-02-ropengov/</loc>
     <lastmod>2020-12-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -85,11 +120,6 @@
   <url>
     <loc>http://datascience.utu.fi/blog/2020/11/01/2020-11-01-posts/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://datascience.utu.fi/tags/comphum/</loc>
-    <lastmod>2020-10-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>

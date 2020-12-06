@@ -6,22 +6,76 @@
     <description>Recent content in Tags on Universal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://datascience.utu.fi/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://datascience.utu.fi/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>projects, eco-evo</title>
-      <link>http://datascience.utu.fi/tags/projects-eco-evo/</link>
-      <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
+      <title>Bioconductor</title>
+      <link>http://datascience.utu.fi/tags/bioconductor/</link>
+      <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://datascience.utu.fi/tags/projects-eco-evo/</guid>
+      <guid>http://datascience.utu.fi/tags/bioconductor/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>ropengov, R</title>
-      <link>http://datascience.utu.fi/tags/ropengov-r/</link>
+      <title>microbiome</title>
+      <link>http://datascience.utu.fi/tags/microbiome/</link>
+      <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/tags/microbiome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>presentations</title>
+      <link>http://datascience.utu.fi/tags/presentations/</link>
+      <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/tags/presentations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>http://datascience.utu.fi/tags/r/</link>
+      <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>comphum</title>
+      <link>http://datascience.utu.fi/tags/comphum/</link>
+      <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/tags/comphum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>eco-evo</title>
+      <link>http://datascience.utu.fi/tags/eco-evo/</link>
+      <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/tags/eco-evo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>projects</title>
+      <link>http://datascience.utu.fi/tags/projects/</link>
+      <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/tags/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ropengov</title>
+      <link>http://datascience.utu.fi/tags/ropengov/</link>
       <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://datascience.utu.fi/tags/ropengov-r/</guid>
+      <guid>http://datascience.utu.fi/tags/ropengov/</guid>
       <description></description>
     </item>
     
@@ -58,15 +112,6 @@
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>http://datascience.utu.fi/tags/news/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>comphum</title>
-      <link>http://datascience.utu.fi/tags/comphum/</link>
-      <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://datascience.utu.fi/tags/comphum/</guid>
       <description></description>
     </item>
     

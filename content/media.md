@@ -16,7 +16,6 @@ keywords: media
 
 [Versus online journal](https://www.versuslehti.fi/english/) for science popularization.
 
-[Conference on Philosophy and History of Open Science (#PHOS16)](https://www.helsinki.fi/en/researchgroups/helsinki-digital-humanities/phos16-conference) - digital collection - 2016 University of Helsinki, Finland  
 
 
 <!--[Louhos](http://louhos.wordpress.com) Finnish blog on open government data analysis-->

@@ -33,10 +33,10 @@ menu:
       name: Code
       url: /code/
       weight: 5
-    - identifier: media
-      name: Media
-      url: /media/
-      weight: 6
+    #- identifier: media
+    #  name: Media
+    #  url: /media/
+    #  weight: 6
     - identifier: publications
       name: Publications
       url: /publications/
