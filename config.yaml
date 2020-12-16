@@ -75,7 +75,8 @@ params:
   #  title: Our Clients
   contact_form_ajax: no
   copyright: Copyright (c) 2020, Leo Lahti; some rights reserved.
-  date_format: November 20, 2020
+  #date_format: November 20, 2020
+  date_format: 2020-11-20  
   default_sharing_image: img/sharing-default.png
   defaultDescription: Site template made by devcows using hugo
   defaultKeywords:
