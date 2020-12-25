@@ -6,15 +6,16 @@
     <description>Recent content in news on Universal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://datascience.utu.fi/categories/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://datascience.utu.fi/categories/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>European Bioconductor Meeting 2020</title>
-      <link>http://datascience.utu.fi/blog/2020/12/04/2020-12-04-eurobioc/</link>
-      <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
+      <link>http://datascience.utu.fi/blog/2020/12/15/2020-12-04-eurobioc/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://datascience.utu.fi/blog/2020/12/04/2020-12-04-eurobioc/</guid>
+      <guid>http://datascience.utu.fi/blog/2020/12/15/2020-12-04-eurobioc/</guid>
       <description>Presentations at EuroBioc2020 At the European Bioconducutor Meeting EuroBioc2020, Dec 14-18, 2020, we will give a short talk, birds of a feather session, and a poster on the emerging R ecosystem for microbiome research.
-Dedicated class structures are fundamental for the R/Bioconductor ecosystem. In microbiome research, the phyloseq class has become a commonly accepted standard. However, recent developments in Bioconductor classes and growing sample sizes have opened up new opportunities and requirements to extend this popular format in order to address emerging research needs.</description>
+Links to the material:
+ Poster Short talk slides Birds-of-a-feather workshop TBA  Dedicated class structures are fundamental for the R/Bioconductor ecosystem. In microbiome research, the phyloseq class has become a commonly accepted standard. However, recent developments in Bioconductor classes and growing sample sizes have opened up new opportunities and requirements to extend this popular format in order to address emerging research needs.</description>
     </item>
     
     <item>
