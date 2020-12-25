@@ -36,6 +36,7 @@ title: Edu
 [A framework for creating and assessing exercises for R courses](https://ropengov.github.io/edu/) (presented in UseR2017!)
 
 
+
 ### Past courses: links to material
 
 **Open science**
@@ -74,6 +75,8 @@ title: Edu
 
 
 ### Other online resources
+
+**National policy and executive plan by the higher education and research community for 2021-2025** Policy component 1 – Open access to educational resources (2020) [DOI:10.23847/isbn.9789525995251](https://doi.org/10.23847/isbn.9789525995251)
 
 [Presentation slides](https://gitlab.utu.fi/opencomp/outreach) 
 
