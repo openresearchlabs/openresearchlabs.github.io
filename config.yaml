@@ -64,7 +64,7 @@ menu:
       weight: 4
 params:
   about_us: <p>Turku Data Science Group.</p>
-  address: "<p class=\"text-uppercase\"><strong>Turku Data Science Group</strong>\n        <br>University of Turku\n        <br>Department of Future Technologies\n        <br>Turku\n        <br>Finland\n
+  address: "<p class=\"text-uppercase\"><strong>Turku Data Science Group</strong>\n        <br>University of Turku\n        <br>Department of Computing\n        <br>Turku\n        <br>Finland\n
     \       <br>\n        <strong></strong>\n      </p>\n      "
   author: DevCows
   carousel:
@@ -74,7 +74,7 @@ params:
   #  subtitle: ''
   #  title: Our Clients
   contact_form_ajax: no
-  copyright: Copyright (c) 2020, Leo Lahti; some rights reserved.
+  copyright: Copyright (c) 2020-2021, Leo Lahti; some rights reserved.
   date_format:  2006-01-02
   #date_format: 2020-12-15
   default_sharing_image: img/sharing-default.png
