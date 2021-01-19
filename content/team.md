@@ -5,7 +5,7 @@ keywords: team
 
 # Research team
 
-**Welcome to contact us to discuss research/study positions and collaboration.** See also [open positions](../recruit/)  
+**Welcome to contact us to discuss research/study positions and collaboration.** See also [open positions](../recruit)  
 
 
 <div class="col-sm-12 clearfix">
@@ -77,15 +77,15 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
 
 -------------------------
 
-| Joonatan Palmu (THC)             |  Henrik Eckerman (Nijmegen) | Felix Vaura (THC) |
+| Joonatan Palmu (THC) | Felix Vaura (THC) | Henrik Eckerman (Nijmegen) | 
 |:-------------------------:|:-------------------------:|:-------------------------:|
-<img src="../img/teampic/joonatan_palmu.jpeg" width="150"> | <img src="../img/teampic/henrik_eckerman.webp" width="150"> | <img src="../img/felix_vaura.jpeg" width="150"> |
+<img src="../img/teampic/joonatan_palmu.jpeg" width="150"> | <img src="../img/teampic/felix_vaura.jpeg" width="150"> | <img src="../img/teampic/henrik_eckerman.webp" width="150"> | 
 
 -------------------------
 
 | Mrunalini Lotankar (VaMiPre) | Anna Sorjamaa (Oulu) | Ville Vaara (COMHIS) |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-<img src="../img/teampic/bio-photo.jpg" width="150"> | <img src="../img/teampic/bio-photo.jpg" width="150"> |  <img src="../img/teampic/ville_vaara.jpg" width="150"> | 
+<img src="../img/teampic/bio-photo.jpg" width="150"> | <img src="../img/teampic/bio-photo.jpg" width="150"> | <img src="../img/teampic/ville_vaara.jpg" width="150"> |
 
 
 ## Research assistants
