@@ -59,7 +59,7 @@ keywords: team
 
 ## Postdocs
 
-Matti Ruuskanen             |  Guilhem Sommeria-Klein | [Pande Putu Erawijantari](https://erawijantari.github.io)
+Matti Ruuskanen             |  Guilhem Sommeria-Klein | [Pande Putu Erawijantari](https://erawijantari.github.io) | 
 :-------------------------:|:-------------------------:|:-------------------------:|
 <img src="../img/teampic/matti_ruuskanen.jpg" width="150">  | <img src="../img/teampic/guilhem_s.jpeg" width="150">  | <img src="../img/teampic/pande_erawijantari.jpg" width="150">  |
 
@@ -71,43 +71,40 @@ Matti Ruuskanen             |  Guilhem Sommeria-Klein | [Pande Putu Erawijantari
 The affiliation for the co-supervised PhD candidates indicated in parentheses.
 
 
-| Ville Laitinen | [Moein Khalighi](https://scholar.google.com/citations?user=XrlaLlUAAAAJ&hl=en) | Anna Aatsinki (Finnbrain) |
+| Ville Laitinen | [Moein Khalighi](https://scholar.google.com/citations?user=XrlaLlUAAAAJ&hl=en) | Anna Aatsinki (Finnbrain) | 
 |:-------------------------:|:-------------------------:|:-------------------------:|
-<img src="../img/teampic/ville_laitinen.jpg" width="150"> | <img src="../img/teampic/moein_khalighi.jpg" width="150">  | <img src="../img/teampic/anna_aatsinki.jpg" width="150"> |  
+<img src="../img/teampic/ville_laitinen.jpg" width="150"> | <img src="../img/teampic/moein_khalighi.jpg" width="150">  | <img src="../img/teampic/anna_aatsinki.jpg" width="150"> | 
 
 -------------------------
 
-| Joonatan Palmu (THC)             | Ville Vaara (COMHIS) | Anna Sorjamaa (Oulu) |
+| Joonatan Palmu (THC)             |  Henrik Eckerman (Nijmegen) | Felix Vaura (THC) |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-<img src="../img/teampic/joonatan_palmu.jpeg" width="150"> | <img src="../img/teampic/ville_vaara.jpg" width="150">  | <img src="../img/teampic/bio-photo.jpg" width="150">
+<img src="../img/teampic/joonatan_palmu.jpeg" width="150"> | <img src="../img/teampic/henrik_eckerman.webp" width="150"> | <img src="../img/felix_vaura.jpeg" width="150"> |
 
 -------------------------
 
-| Mrunalini Lotankar (VaMiPre) | 
-|:-------------------------:|
-<img src="../img/teampic/bio-photo.jpg" width="150">
+| Mrunalini Lotankar (VaMiPre) | Anna Sorjamaa (Oulu) | Ville Vaara (COMHIS) |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+<img src="../img/teampic/bio-photo.jpg" width="150"> | <img src="../img/teampic/bio-photo.jpg" width="150"> |  <img src="../img/teampic/ville_vaara.jpg" width="150"> | 
 
 
 ## Research assistants
 
- - Wisam Tariq Saleem  
- - Pyry Kantanen  
+ - Pyry Kantanen
+ - Chandler Ross 
  - Iiro Tiihonen  
  - Tuomas Borman  
- - Renuka Potbhare (with Dr. Richa Ashma, Pune University)
- - Binu Matthew
+ - Julia Matveeva
+ - Renuka Potbhare (with Dr. Richa Ashma, Pune University) 
+ - Hanna Hopia (MSc candidate)
+ - Binu Matthew (MSc candidate)
  
-
 
 <!--  <img src="../img/teampic/renuka.jpg" width="100">-->
 
 ## Alumni
 
-- Prashant Gaikwad
-- Aaro Salosensaari
-- Anastasia Karavaeva
-- Tim Garrels
-- Hege Roivainen
+Wisam Saleem (2019-2020 | Prashant Gaikwad (2019) | Aaro Salosensaari (2019-2020) | Anastasia Karavaeva (2019) | Tim Garrels (2020) | Hege Roivainen (2016-2020)
 
 
 
