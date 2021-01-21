@@ -7,93 +7,31 @@ keywords: research
 
 # Research topics
 
-**We carry out research on the theory, methods and applications of
-modern statistical data analysis. Our focus is on data-rich
-application fields including microbial ecology, functional genomics,
-and computational history.** There is a great demand for targeted
-algorithmic methods for extracting information from vast data
-collections with minimal human intervention. By combining information
-across multiple, complementary sources it is possible to overcome some
-of the limitations and statistical uncertainties associated with
-individual data sets. Open source implementations turn the new models
-into accessible tools to guide modeling and experimentation.
-
-<img src="../img/isme14.jpg" width="200">
-     
-**Modern statistical data analysis** Our research blends elements from
-  multiple theoretical and methodological fields, including
-  statistical machine learning/AI, probabilistic programming,
-  numerical ecology, and data science.
-
-**Human microbiomics and statistical ecology** Human gut microbiota constitutes one of the most densely populated ecosystem on our planet. The known pan-genome
-carries 2-3 orders of magnitude more unique genes than our own genome,
-it is highly dynamic in space and time, and a key contributor to
-immune system, digestion of food, and various health
-complications. Characterizing the overall structure, variability, and
-health associations of this virtual metabolic organ forms a major
-challenge for contemporary human biology. We have contributed to
-research on some of the largest existing population studies of this
-microbial ecosystem, mapping large-scale associations with [diet,
-lifestyle, physiology, and
-well-being](http://doi.org/10.1038/ncomms7342), developed the [tipping
-elements](http://doi.org/10.1038/ncomms5344) concept, and investigated
-the [mechanisms](http://doi.org/10.1109/JPROC.2015.2428213) and
-[dynamics](http://doi.org/10.1016/j.mib.2015.04.004) of microbial
-community assembly.
-
-<img src="../img/dialister.png" width="200">
+**Our research focuses on computational analysis and understanding of
+complex natural and social systems.** There is a great demand for
+targeted computational techniques to extract information and insights
+from rich data collections based on clever combinations of human and
+machine intelligence. We blend elements from fields such as machine
+learning/AI, probabilistic programming, statistical ecology, and data
+science, and drive open developer communities that help to translate
+latest theoretical advances into accessible methods to inform
+modeling, experimentation, and decision-making. **Key applications**
+include microbiome research, population cohort studies, and
+computational social sciences and humanities (SSH) research. We also
+coordinate the [Open Knowledge Finland Open Science work
+group](https://fi.okfn.org/wg/openscience/), which received **Open
+Science and Research award of the Ministry of Education and Culture in
+2017**.
 
 
 
-**Functional genomics** Mapping of the three billion base-pair human
-genome sequence in 2001 was the first step towards uncovering the
-dynamic and contextual functional properties of the
-genome. Understanding functional organization of genetic information
-and its regulation through transcriptional, epigenetic, and other
-mechanisms remains a key challenge for human biology. We have done
-research in cancer studies, large gene expression databases, and
-multi-omics data integration.  <!--In the thesis work, I developed
-open source machine learning algorithms for data integration in
-functional genomics.  For more details, check the [list of
-publications](/work/pubs) and the [PhD
-thesis](http://lib.tkk.fi/Diss/2010/isbn9789526033686).-->
 
-**Computational humanities** We develop open algorithms and research
-tools for digital humanities as part of [Helsinki Computational
-History (COMHIS) Group](http://comhis.github.io) and as the founder of
-[rOpenGov](https://ropengov.github.io). Our current focus is in
-modeling the history of public discourse across several centuries
-following the emergence of print press in the 15th century (see a [poster in Digital Humanities 2019](https://www.helsinki.fi/en/researchgroups/computational-history/dh2019-poster)). We also publish algorithms open government data, such as [eurostat](http://ropengov.github.io/eurostat/) and manage the [rOpenGov](https://ropengov.github.io) developer network, which has over 20 R packages and tens of thousands of annual downloads.
+### Publications
 
-**Open science** We have actively supported [Open Knowledge Finland
-  Open Science work group](https://fi.okfn.org/wg/openscience/), which
-  received **Open Science and Research award of the Ministry of
-  Education and Culture in 2017**. Some highlights include a [Report on
-  the openness of academic
-  publishers](https://openscience.fi/-/openness-of-academic-publishers-evaluated-for-the-first-time),
-  commissioned by Finnish Ministry of Education and Culture; [opening of several agreements with academic publishers in 2017-2019](http://finelib.fi/finelib-agreements-published/) and [opening
-  of scientific journal subscription costs in Finland
-  2010-2017](https://fi.okfn.org/2018/08/27/finland-remains-a-leading-country-in-the-transparency-of-academic-publishing-costs)
-  following our FOI requests.
+See [Google scholar](https://scholar.google.co.uk/citations?user=mjjV-AoAAAAJ&hl=fi&oi=ao).
 
+Full list under construction.
 
-<!--
-**Teaching**  
-See [separate page](/work/teaching)
--->
-
-<!--**Past**  
-[A brief biography of my research career](/info/bio). 
--->
-
-<!--
-
-**Key collaborators**
-
-- [Jeroen Raes Lab](http://www.raeslab.org/) at VIB/KU Leuven on bioinformatics and ecosystems< biology.
-- [Prof Willem de Vos](https://tuhat.helsinki.fi/portal/fi/person/wdevos) Helsinki/Wageningen; human gut microbial ecology. 
-- Prof Mikko Tolonen. I am an active and founding member of [Helsinki Computational History Group](http://comhis.github.io/)
--->
 
 
 ### Funding and support
@@ -120,3 +58,69 @@ sources.
 
 
 
+
+<!-- <img src="../img/dialister.png" width="200"> -->
+
+<!--
+
+**Functional genomics** Mapping of the three billion base-pair human
+genome sequence in 2001 was the first step towards uncovering the
+dynamic and contextual functional properties of the
+genome. Understanding functional organization of genetic information
+and its regulation through transcriptional, epigenetic, and other
+mechanisms remains a key challenge for human biology. We have done
+research in cancer studies, large gene expression databases, and
+multi-omics data integration.  <!--In the thesis work, I developed
+open source machine learning algorithms for data integration in
+functional genomics.  For more details, check the [list of
+publications](/work/pubs) and the [PhD
+thesis](http://lib.tkk.fi/Diss/2010/isbn9789526033686).--> 
+
+<!--<img src="../img/isme14.jpg" width="200">
+
+such as human microbiome, experimental ecology and
+evolution, history of knowledge production in western societies, and
+open research software for social sciences and humanities (SSH)
+research.
+
+-->
+
+<!--
+
+### Highlights
+
+[rOpenGov](https://ropengov.org) developer network and
+
+We develop theory, methods and applications of modern statistical data analysis.
+
+We have
+advocated open science, and some highlights include a [report on the
+openness of academic
+publishers](https://openscience.fi/-/openness-of-academic-publishers-evaluated-for-the-first-time),
+commissioned by Finnish Ministry of Education and Culture; [opening of
+several agreements with academic publishers in
+2017-2019](http://finelib.fi/finelib-agreements-published/) and
+[opening of scientific journal subscription costs in Finland
+2010-2017](https://fi.okfn.org/2018/08/27/finland-remains-a-leading-country-in-the-transparency-of-academic-publishing-costs)
+following our FOI requests. 
+
+We collaborate actively with applied research teams, such as
+[Helsinki Computational History (COMHIS)
+Group](https://www.helsinki.fi/en/researchgroups/computational-history)
+to model and analysed the history of knowledge production following
+the emergence of print press in the fifteenth century.
+
+-->
+
+<!-- (see a [poster in Digital
+Humanities
+2019](https://www.helsinki.fi/en/researchgroups/computational-history/dh2019-poster)). -->
+
+<!--
+
+**Key collaborators**
+
+- [Jeroen Raes Lab](http://www.raeslab.org/) at VIB/KU Leuven on bioinformatics and ecosystems< biology.
+- [Prof Willem de Vos](https://tuhat.helsinki.fi/portal/fi/person/wdevos) Helsinki/Wageningen; human gut microbial ecology. 
+- Prof Mikko Tolonen. I am an active and founding member of [Helsinki Computational History Group](http://comhis.github.io/)
+-->

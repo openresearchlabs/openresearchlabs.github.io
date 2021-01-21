@@ -12,8 +12,6 @@ title: Edu
 
 **2021**
 
- - **January** [Microbiome Bioinformatics Research Seminar](http://sppudocs.unipune.ac.in/sites/news_events/Lists/News%20and%20Announcements/Attachments/4783/workshop%20flyer_02.122020.pdf) - Savitribai Phule Pune University, Pune, India 
-
  - **March-May** [Machine Learning and Algorithmics Seminar (TKO_3121 5 op)](https://opas.peppi.utu.fi/fi/opintojakso/TKO_3121/3255) University of Turku, Finland. 3-5/2021
 
  - **April** [Microbiome Data Analysis Workshop](https://microbiome-workshop.meetinghand.com/) - Hasselt University, Limburg, Belgium 
@@ -57,6 +55,8 @@ title: Edu
 
 
 **Bioinformatics**
+
+- [Tools and techniques for skin microbiome research](http://sppudocs.unipune.ac.in/sites/news_events/Lists/News%20and%20Announcements/Attachments/4783/workshop%20flyer_02.122020.pdf) - Savitribai Phule Pune University, Pune, India, Jan 2021
 
  - [Modern statistics for microbiome bioinformatics](https://pbs.twimg.com/media/D-cRz8YUYAEuzNj.jpg) - Pune, India, Dec 2019
 
