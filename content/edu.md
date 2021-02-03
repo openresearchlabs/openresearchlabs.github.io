@@ -20,7 +20,7 @@ title: Edu
 
  - **July 5-16** [Brain, Bacteria and Behaviour: Understanding the Gut-Brain Axis](https://www.ru.nl/radboudsummerschool/courses/2021/brain-bacteria-behaviour/) online summer school - apply by May 1, 2021!
 
- - **November 2-4** Workshop on modeling microbial community time series. Leuven, Belgium
+ - **November 2-4** [Workshop on modeling microbial community time series](http://psbweb05.psb.ugent.be/conet/microbialtimeseries/registration.php). Leuven, Belgium
  
 
 ### Tutorials and Data
