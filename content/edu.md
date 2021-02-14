@@ -14,7 +14,7 @@ title: Edu
 
  - **March-May** [Machine Learning and Algorithmics Seminar (TKO_3121 5 op)](https://opas.peppi.utu.fi/fi/opintojakso/TKO_3121/3255) University of Turku, Finland. 3-5/2021
 
- - **April** [Microbiome Data Analysis Workshop](https://microbiome-workshop.meetinghand.com/) - Hasselt University, Limburg, Belgium 
+ - **April 20-23** [Microbiome Data Analysis Workshop](https://mdawo.meetinghand.com/) - Hasselt University, Limburg, Belgium 
 
  - **June 7-9** [Nordic-Baltic Biometrics Conference](https://nbbc21.helsinki.fi/) Helsinki, Finland 
 
