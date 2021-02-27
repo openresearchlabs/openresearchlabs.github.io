@@ -61,7 +61,7 @@ keywords: team
 
 Matti Ruuskanen             |  Guilhem Sommeria-Klein | [Pande Putu Erawijantari](https://erawijantari.github.io) | Aura Raulo |
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
-<img src="../img/teampic/matti_ruuskanen.jpg" width="150">  | <img src="../img/teampic/guilhem_s.jpeg" width="150">  | <img src="../img/teampic/pande_erawijantari.jpg" width="150">  | <img src="../img/teampic/aura_raulo2.jpg" width="150"> |
+<img src="../img/teampic/matti_ruuskanen.jpg" width="150">  | <img src="../img/teampic/guilhem_s.jpeg" width="150">  | <img src="../img/teampic/pande_erawijantari.jpg" width="150">  | <img src="../img/teampic/aura_raulo2_crop.jpg" width="150"> |
 
 
 
