@@ -61,7 +61,7 @@ keywords: team
 
 Matti Ruuskanen             |  Guilhem Sommeria-Klein | [Pande Putu Erawijantari](https://erawijantari.github.io) | Aura Raulo |
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
-<img src="../img/teampic/matti_ruuskanen.jpg" width="150">  | <img src="../img/teampic/guilhem_s.jpeg" width="150">  | <img src="../img/teampic/pande_erawijantari.jpg" width="150">  | <img src="../img/teampic/aura_raulo2_crop.jpg" width="150">  |
+<img src="../img/teampic/matti_ruuskanen.jpg" width="150">  | <img src="../img/teampic/guilhem_s.jpeg" width="150">  | <img src="../img/teampic/pande_erawijantari.jpg" width="150">  | <img src="../img/teampic/aura_raulo2.jpg" width="150">  |
 
 
 
@@ -71,9 +71,9 @@ Matti Ruuskanen             |  Guilhem Sommeria-Klein | [Pande Putu Erawijantari
 The affiliation for the co-supervised PhD candidates indicated in parentheses.
 
 
-| Ville Laitinen | [Moein Khalighi](https://scholar.google.com/citations?user=XrlaLlUAAAAJ&hl=en) | Anna Aatsinki (Finnbrain) | 
-|:-------------------------:|:-------------------------:|:-------------------------:|
-<img src="../img/teampic/ville_laitinen.jpg" width="150"> | <img src="../img/teampic/moein_khalighi.jpg" width="150">  | <img src="../img/teampic/anna_aatsinki.jpg" width="150"> | 
+| Ville Laitinen | [Moein Khalighi](https://scholar.google.com/citations?user=XrlaLlUAAAAJ&hl=en) | Anna Aatsinki (Finnbrain) | Iiro Tiihonen (Hki) |
+|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
+<img src="../img/teampic/ville_laitinen.jpg" width="150"> | <img src="../img/teampic/moein_khalighi.jpg" width="150"> | <img src="../img/teampic/anna_aatsinki.jpg" width="150"> | <img src="../img/teampic/iiro_tiihonen.jpeg" width="150"> | 
 
 -------------------------
 
@@ -90,21 +90,17 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
 
 ## Research assistants
 
- - Pyry Kantanen
- - Chandler Ross 
- - Iiro Tiihonen  
- - Tuomas Borman  
- - Julia Matveeva
- - Renuka Potbhare (with Dr. Richa Ashma, Pune University) 
- - Hanna Hopia (MSc candidate)
- - Binu Matthew (MSc candidate)
- 
+| Pyry Kantanen | Chandler Ross | Tuomas Borman | Julia Matveeva | Renuka Potbhare (Pune) | 
+|:-------------------------:|:-------------------------:|:-------------------------:||:-------------------------:|
+<img src="../img/teampic/pyry_kantanen.jpeg" width="150"> | <img src="../img/teampic/chandler_ross.jpeg" width="150"> | <img src="../img/teampic/tuomas_borman.jpeg" width="150"> | <img src="../img/teampic/bio-photo.jpg" width="150"> | <img src="../img/teampic/renuka.jpg" width="150"> |
 
-<!--  <img src="../img/teampic/renuka.jpg" width="100">-->
+
+
 
 ## Alumni
 
-Wisam Saleem (2019-2020 | Prashant Gaikwad (2019) | Aaro Salosensaari (2019-2020) | Anastasia Karavaeva (2019) | Tim Garrels (2020) | Hege Roivainen (2016-2020)
+Wisam Saleem (2019-2020 | Prashant Gaikwad (2019) | Aaro Salosensaari (2019-2020) | Anastasia Karavaeva (2019) | Tim Garrels (2020) | Hege Roivainen (2016-2020) | Binu Matthew (MSc candidate; 2019-2020)
+ 
 
 
 
