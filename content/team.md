@@ -71,9 +71,9 @@ Matti Ruuskanen             |  Guilhem Sommeria-Klein | [Pande Putu Erawijantari
 The affiliation for the co-supervised PhD candidates indicated in parentheses.
 
 
-| Ville Laitinen | [Moein Khalighi](https://scholar.google.com/citations?user=XrlaLlUAAAAJ&hl=en) | Anna Aatsinki (Finnbrain) | Iiro Tiihonen (Hki) |
-|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
-<img src="../img/teampic/ville_laitinen.jpg" width="150"> | <img src="../img/teampic/moein_khalighi.jpg" width="150"> | <img src="../img/teampic/anna_aatsinki.jpg" width="150"> | <img src="../img/teampic/iiro_tiihonen.jpeg" width="150"> | 
+| Ville Laitinen | [Moein Khalighi](https://scholar.google.com/citations?user=XrlaLlUAAAAJ&hl=en) | Iiro Tiihonen (Hki) |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+<img src="../img/teampic/ville_laitinen.jpg" width="150"> | <img src="../img/teampic/moein_khalighi.jpg" width="150"> | <img src="../img/teampic/iiro_tiihonen.jpeg" width="150"> | 
 
 -------------------------
 
@@ -99,7 +99,7 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
 
 ## Alumni
 
-Wisam Saleem (2019-2020 | Prashant Gaikwad (2019) | Aaro Salosensaari (2019-2020) | Anastasia Karavaeva (2019) | Tim Garrels (2020) | Hege Roivainen (2016-2020) | Binu Matthew (MSc candidate; 2019-2020)
+Anna Aatsinki (2019-2021) | Wisam Saleem (2019-2020) | Prashant Gaikwad (2019) | Aaro Salosensaari (2019-2020) | Anastasia Karavaeva (2019) | Tim Garrels (2020) | Hege Roivainen (2016-2020) | Binu Matthew (2019-2020)
  
 
 

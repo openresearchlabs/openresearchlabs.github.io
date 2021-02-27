@@ -15,10 +15,11 @@ machine intelligence. We blend elements from fields such as machine
 learning/AI, probabilistic programming, statistical ecology, and data
 science, and drive open developer communities that help to translate
 latest theoretical advances into accessible methods to inform
-modeling, experimentation, and decision-making. **Key applications**
-include microbiome research, population cohort studies, and
-computational social sciences and humanities (SSH) research. We also
-coordinate the [Open Knowledge Finland Open Science work
+modeling, experimentation, and decision-making.
+
+**Key applications** include microbiome research, population cohort
+studies, and computational social sciences and humanities (SSH). We
+also coordinate the [Open Knowledge Finland Open Science work
 group](https://fi.okfn.org/wg/openscience/), which received **Open
 Science and Research award of the Ministry of Education and Culture in
 2017**.
