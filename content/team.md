@@ -91,7 +91,7 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
 ## Research assistants
 
 | Pyry Kantanen | Chandler Ross | Tuomas Borman | Julia Matveeva | Renuka Potbhare (Pune) | 
-|:-------------------------:|:-------------------------:|:-------------------------:||:-------------------------:|
+|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
 <img src="../img/teampic/pyry_kantanen.jpeg" width="150"> | <img src="../img/teampic/chandler_ross.jpeg" width="150"> | <img src="../img/teampic/tuomas_borman.jpeg" width="150"> | <img src="../img/teampic/bio-photo.jpg" width="150"> | <img src="../img/teampic/renuka.jpg" width="150"> |
 
 
