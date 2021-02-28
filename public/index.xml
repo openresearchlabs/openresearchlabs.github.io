@@ -6,7 +6,63 @@
     <description>Recent content on Universal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://datascience.utu.fi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://datascience.utu.fi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Doctoral dissertation of Anna Aatsinki</title>
+      <link>http://datascience.utu.fi/blog/2021/02/12/2021-02-12-aatsinki/</link>
+      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/blog/2021/02/12/2021-02-12-aatsinki/</guid>
+      <description>Doctoral dissertation of Anna Aatsinki Anna Aatsinki, Lic. Med. defends her doctoral dissertation on Feb 12, 2021: Maternal prenatal stress, infant microbiota, brain, and behavioral development.</description>
+    </item>
+    
+    <item>
+      <title>R package geofi for Finnish geospatial data</title>
+      <link>http://datascience.utu.fi/blog/2021/02/12/2021-02-21-geofi/</link>
+      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/blog/2021/02/12/2021-02-21-geofi/</guid>
+      <description>Finnish Geospatial data access and visualization in R The rOpenGov network released a new R package for Finnish geospatial data access &amp;amp; visualization: geofi R package now available in CRAN! More info will follow.</description>
+    </item>
+    
+    <item>
+      <title>Work group set to re-evaluate publicity law</title>
+      <link>http://datascience.utu.fi/blog/2021/02/09/2021-02-09-wg/</link>
+      <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/blog/2021/02/09/2021-02-09-wg/</guid>
+      <description>Work group set to re-evaluate publicity law Finnish government has set a working group to evaluate publicity law (2021-2023). Associate Prof. Leo Lahti has been nominated in this work group as the representative of Open Knowledge Finland ry.</description>
+    </item>
+    
+    <item>
+      <title>Finnish Cultural Foundation stipends</title>
+      <link>http://datascience.utu.fi/blog/2021/02/02/2021-02-02-skr/</link>
+      <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/blog/2021/02/02/2021-02-02-skr/</guid>
+      <description>Finnish Cultural Foundation decisions Finnish Cultural Foundation awarded a postdoctoral stipend for Matti Ruuskanen for work on modeling spatial patterns in human microbiome, and a PhD stipend for Iiro Tiihonen for modeling knowledge production in early modern era. Congratulations!</description>
+    </item>
+    
+    <item>
+      <title>Epidemic modeling with City of Turku</title>
+      <link>http://datascience.utu.fi/blog/2021/01/27/2021-01-27-reina/</link>
+      <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/blog/2021/01/27/2021-01-27-reina/</guid>
+      <description>City of Turku collaboration on epidemic models City of Turku is using epidemic modeling scenarios baed on agent-based modeling. The model has been developed, implemented, and further customized to the local need in City of Turku in close collaboration with Kausal Oy, University of Turku, and a team of researchers.</description>
+    </item>
+    
+    <item>
+      <title>Nordic-Baltic Biometrics Virtual Conference in June</title>
+      <link>http://datascience.utu.fi/blog/2021/01/11/2021-01-11-nbbc/</link>
+      <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/blog/2021/01/11/2021-01-11-nbbc/</guid>
+      <description>Nordic-Baltic Biometrics Virtual Conference Nordic-Baltic Biometrics Virtual Conference will be organized fully online this year, in June 7-10, 2021.
+The conference is aimed at novel developments and applications of statistical and mathematical methods in the field of bioscience and offers excellent opportunities for learning about recent advances in biostatistics/biometry, exchanging research experiences and getting to know colleagues from your neighbouring countries.
+REGISTRATION IS OPEN AND IS FREE FOR MEMBERS OF IBS!</description>
+    </item>
+    
     <item>
       <title>European Bioconductor Meeting 2020</title>
       <link>http://datascience.utu.fi/blog/2020/12/15/2020-12-04-eurobioc/</link>
@@ -16,6 +72,16 @@
       <description>Presentations at EuroBioc2020 At the European Bioconducutor Meeting EuroBioc2020, Dec 14-18, 2020, we will give a short talk, birds of a feather session, and a poster on the emerging R ecosystem for microbiome research.
 Links to the material:
  Poster Short talk slides Birds-of-a-feather workshop TBA  Dedicated class structures are fundamental for the R/Bioconductor ecosystem. In microbiome research, the phyloseq class has become a commonly accepted standard. However, recent developments in Bioconductor classes and growing sample sizes have opened up new opportunities and requirements to extend this popular format in order to address emerging research needs.</description>
+    </item>
+    
+    <item>
+      <title>National policy on open education published</title>
+      <link>http://datascience.utu.fi/blog/2020/12/07/2020-12-07/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/blog/2020/12/07/2020-12-07/</guid>
+      <description>National policy on open education The expert panel in Open Education has the task of promoting and discussing issues concerning Open Education in Finnish higher education by, for example, writing recommendations and policies and updating terminology and holding events on Open Education.
+The guidelines are now summarized in: Open education and educational resources. National policy and executive plan by the higher education and research community for 2021-2025. Policy component 1 – Open access to educational resources (2020) DOI:10.</description>
     </item>
     
     <item>
@@ -147,16 +213,6 @@ menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipisc
     </item>
     
     <item>
-      <title>Linked post</title>
-      <link>http://datascience.utu.fi/old/blog/linked-post/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
-      
-      <guid>http://datascience.utu.fi/old/blog/linked-post/</guid>
-      <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
-menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.</description>
-    </item>
-    
-    <item>
       <title>Go is for lovers</title>
       <link>http://datascience.utu.fi/blog/2015/09/17/go-is-for-lovers/</link>
       <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
@@ -167,35 +223,11 @@ This document is a brief primer on using go templates.</description>
     </item>
     
     <item>
-      <title>Go is for lovers</title>
-      <link>http://datascience.utu.fi/old/blog/go-is-for-lovers/</link>
-      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
-      
-      <guid>http://datascience.utu.fi/old/blog/go-is-for-lovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
-    </item>
-    
-    <item>
       <title>Hugo is for lovers</title>
       <link>http://datascience.utu.fi/blog/2015/08/03/hugo-is-for-lovers/</link>
       <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
       
       <guid>http://datascience.utu.fi/blog/2015/08/03/hugo-is-for-lovers/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
-    </item>
-    
-    <item>
-      <title>Hugo is for lovers</title>
-      <link>http://datascience.utu.fi/old/blog/hugo-is-for-lovers/</link>
-      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
-      
-      <guid>http://datascience.utu.fi/old/blog/hugo-is-for-lovers/</guid>
       <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at installing hugo
@@ -216,32 +248,11 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
     </item>
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>http://datascience.utu.fi/old/blog/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>http://datascience.utu.fi/old/blog/2015-07-23-r-rmarkdown/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.</description>
-    </item>
-    
-    <item>
       <title>Creating a new theme</title>
       <link>http://datascience.utu.fi/blog/2015/06/24/creating-a-new-theme/</link>
       <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
       
       <guid>http://datascience.utu.fi/blog/2015/06/24/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
-    </item>
-    
-    <item>
-      <title>Creating a new theme</title>
-      <link>http://datascience.utu.fi/old/blog/creating-a-new-theme/</link>
-      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
-      
-      <guid>http://datascience.utu.fi/old/blog/creating-a-new-theme/</guid>
       <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
 We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
     </item>
@@ -351,7 +362,7 @@ Bioinformatics netresponse Modeling context-specific activation patterns in geno
       <description>Contact Welcome to contact us to discuss research/study positions and collaboration.
 Twitter Follow Turku Data Science Group in Twitter
 Email first.last - at - utu.fi (see the Team page)
-Mail Department of Future Technologies. Faculty of Natural Sciences and Engineering, Yliopistonmäki, FI-20014, University of Turku, Finland
+Mail Department of Computing. Faculty of Technology, Yliopistonmäki, FI-20014, University of Turku, Finland
 Visiting address Agora, 4th floor, room 452E. Yliopistonmäki, Turku
 Tel: +358 (0)50 436 4626</description>
     </item>
@@ -383,10 +394,10 @@ In recent years, the human microbiome has been characterised in great detail in 
       
       <guid>http://datascience.utu.fi/edu/</guid>
       <description>Education and academic events Forthcoming courses and events 2021
-  January Microbiome Bioinformatics Research Seminar - Savitribai Phule Pune University, Pune, India
   March-May Machine Learning and Algorithmics Seminar (TKO_3121 5 op) University of Turku, Finland. 3-5/2021
-  April Microbiome Data Analysis Workshop - Hasselt University, Limburg, Belgium
+  April 20-23 Microbiome Data Analysis Workshop - Hasselt University, Limburg, Belgium
   June 7-9 Nordic-Baltic Biometrics Conference Helsinki, Finland
+  July 5-16 Brain, Bacteria and Behaviour: Understanding the Gut-Brain Axis online summer school - apply by May 1, 2021!
   November 2-4 Workshop on modeling microbial community time series.</description>
     </item>
     
@@ -448,17 +459,6 @@ Dependency Modeling Toolkit, ICML/MLSS Workshop.</description>
     </item>
     
     <item>
-      <title>Migrate from Jekyll</title>
-      <link>http://datascience.utu.fi/old/blog/migrate-from-jekyll/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://datascience.utu.fi/old/blog/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
-    </item>
-    
-    <item>
       <title>News</title>
       <link>http://datascience.utu.fi/old/allnews/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -475,7 +475,8 @@ Dependency Modeling Toolkit, ICML/MLSS Workshop.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://datascience.utu.fi/recruit/</guid>
-      <description>Open positions Applications for trainee/MSc/PhD/Postdoc positions from outstanding students are welcome. Please contact the PI to discuss the opportunities in more details. The topics are in data science methodology and applications in biosciences, social sciences and humanities.</description>
+      <description>Open positions Applications for assistant/MSc/PhD/Postdoc positions from outstanding students are welcome.
+Contact us to discuss the opportunities in more details.</description>
     </item>
     
     <item>
@@ -523,7 +524,7 @@ Full list under construction.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://datascience.utu.fi/research/</guid>
-      <description>Research topics We carry out research on the theory, methods and applications of modern statistical data analysis. Our focus is on data-rich application fields including microbial ecology, functional genomics, and computational history. There is a great demand for targeted algorithmic methods for extracting information from vast data collections with minimal human intervention. By combining information across multiple, complementary sources it is possible to overcome some of the limitations and statistical uncertainties associated with individual data sets.</description>
+      <description>Research topics Our research focuses on computational analysis and understanding of complex natural and social systems. There is a great demand for targeted computational techniques to extract information and insights from rich data collections based on clever combinations of human and machine intelligence. We blend elements from fields such as machine learning/AI, probabilistic programming, statistical ecology, and data science, and drive open developer communities that help to translate latest theoretical advances into accessible methods to inform modeling, experimentation, and decision-making.</description>
     </item>
     
     <item>

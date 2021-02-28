@@ -6,7 +6,25 @@
     <description>Recent content in news on Universal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://datascience.utu.fi/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://datascience.utu.fi/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Work group set to re-evaluate publicity law</title>
+      <link>http://datascience.utu.fi/blog/2021/02/09/2021-02-09-wg/</link>
+      <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/blog/2021/02/09/2021-02-09-wg/</guid>
+      <description>Work group set to re-evaluate publicity law Finnish government has set a working group to evaluate publicity law (2021-2023). Associate Prof. Leo Lahti has been nominated in this work group as the representative of Open Knowledge Finland ry.</description>
+    </item>
+    
+    <item>
+      <title>Finnish Cultural Foundation stipends</title>
+      <link>http://datascience.utu.fi/blog/2021/02/02/2021-02-02-skr/</link>
+      <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/blog/2021/02/02/2021-02-02-skr/</guid>
+      <description>Finnish Cultural Foundation decisions Finnish Cultural Foundation awarded a postdoctoral stipend for Matti Ruuskanen for work on modeling spatial patterns in human microbiome, and a PhD stipend for Iiro Tiihonen for modeling knowledge production in early modern era. Congratulations!</description>
+    </item>
+    
     <item>
       <title>Posts</title>
       <link>http://datascience.utu.fi/blog/2020/11/01/2020-11-01-posts/</link>

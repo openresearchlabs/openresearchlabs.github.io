@@ -6,7 +6,61 @@
     <description>Recent content in Tags on Universal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://datascience.utu.fi/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://datascience.utu.fi/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dissertation</title>
+      <link>http://datascience.utu.fi/tags/dissertation/</link>
+      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/tags/dissertation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>http://datascience.utu.fi/tags/r/</link>
+      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ropengov</title>
+      <link>http://datascience.utu.fi/tags/ropengov/</link>
+      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/tags/ropengov/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>news</title>
+      <link>http://datascience.utu.fi/tags/news/</link>
+      <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/tags/news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>epidemic</title>
+      <link>http://datascience.utu.fi/tags/epidemic/</link>
+      <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/tags/epidemic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>events</title>
+      <link>http://datascience.utu.fi/tags/events/</link>
+      <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/tags/events/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Bioconductor</title>
       <link>http://datascience.utu.fi/tags/bioconductor/</link>
@@ -35,11 +89,20 @@
     </item>
     
     <item>
-      <title>R</title>
-      <link>http://datascience.utu.fi/tags/r/</link>
-      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      <title>education</title>
+      <link>http://datascience.utu.fi/tags/education/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://datascience.utu.fi/tags/r/</guid>
+      <guid>http://datascience.utu.fi/tags/education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>policy</title>
+      <link>http://datascience.utu.fi/tags/policy/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/tags/policy/</guid>
       <description></description>
     </item>
     
@@ -71,15 +134,6 @@
     </item>
     
     <item>
-      <title>ropengov</title>
-      <link>http://datascience.utu.fi/tags/ropengov/</link>
-      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://datascience.utu.fi/tags/ropengov/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>nominations</title>
       <link>http://datascience.utu.fi/tags/nominations/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
@@ -103,15 +157,6 @@
       <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>http://datascience.utu.fi/tags/okf-openscience-code/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>news</title>
-      <link>http://datascience.utu.fi/tags/news/</link>
-      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://datascience.utu.fi/tags/news/</guid>
       <description></description>
     </item>
     
