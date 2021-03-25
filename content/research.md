@@ -92,11 +92,13 @@ Proceedings of the IEEE 2017.
 Harris K, Parsons TL, Ijaz UZ, Lahti L, Holmes I, Quince C.
 
 
-    
-
-
        
 ### Computational humanities
+
+[**Examining the Early Modern Canon: _The English Short Title Catalogue_ and Large-Scale Patterns of Cultural Production**](https://doi.org/10.1007/978-3-030-54913-8_3)  
+In: Baird I. (eds) Data Visualization in Enlightenment Literature and Culture. Palgrave Macmillan, Cham. pp. 63-119, 2021. 
+Tolonen M, Hill MJ, Ijaz AZ, Vaara V, Lahti L.
+
 
 [**Quantifying bias and uncertainty in historical data collections with probabilistic programming**](http://ceur-ws.org/Vol-2723/short46.pdf)  
 CEUR Workshop Proc. on Computational Humanities Research, 2020.  
