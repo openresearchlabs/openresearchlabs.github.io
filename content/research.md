@@ -63,7 +63,7 @@ Lahti L.
 
 ### Microbiome data science
 
-[Modeling spatial patterns in host-associated microbial communities](https://doi.org/10.1111/1462-2920.15462)  
+[**Modeling spatial patterns in host-associated microbial communities**](https://doi.org/10.1111/1462-2920.15462)  
 Ruuskanen M*, Sommeria-Klein G*, Havulinna A, Niiranen T, Lahti L.  
 Environmental Microbiology 2021. 
 
