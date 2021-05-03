@@ -12,16 +12,13 @@ title: Edu
 
 **2021**
 
- - **March-May** [Machine Learning and Algorithmics Seminar (TKO_3121 5 op)](https://opas.peppi.utu.fi/fi/opintojakso/TKO_3121/3255) University of Turku, Finland. 3-5/2021
-
- - **April 20-23** [Microbiome Data Analysis Workshop](https://mdawo.meetinghand.com/) - Hasselt University, Limburg, Belgium 
-
  - **June 7-9** [Nordic-Baltic Biometrics Conference](https://nbbc21.helsinki.fi/) Helsinki, Finland 
 
  - **July 5-16** [Brain, Bacteria and Behaviour: Understanding the Gut-Brain Axis](https://www.ru.nl/radboudsummerschool/courses/2021/brain-bacteria-behaviour/) online summer school - apply by May 1, 2021!
 
  - **November 2-4** [Workshop on modeling microbial community time series](http://psbweb05.psb.ugent.be/conet/microbialtimeseries/registration.php). Leuven, Belgium
- 
+
+
 
 ### Tutorials and Data
 
@@ -47,6 +44,8 @@ title: Edu
 
 **Computational science and machine learning**
 
+ - [Machine Learning and Algorithmics Seminar (TKO_3121 5 op)](https://opas.peppi.utu.fi/fi/opintojakso/TKO_3121/3255) University of Turku, Finland. 3-5/2021
+
  - [Probabilistic data analysis research seminar](https://gitlab.com/openresearchlabs/probabilistic_data_analysis_2020) - University of Turku - 2020 
 
  - [Machine Learning and Algorithmics Seminar (TKO_3121 5 op)](https://opas.peppi.utu.fi/fi/opintojakso/TKO_3121/3255). University of Turku - 3-4/2020 
@@ -58,6 +57,8 @@ title: Edu
 
 
 **Bioinformatics**
+
+- [Microbiome Data Analysis Workshop](https://mdawo.meetinghand.com/) - Hasselt University, Limburg, Belgium (online)
 
 - [Tools and techniques for skin microbiome research](http://sppudocs.unipune.ac.in/sites/news_events/Lists/News%20and%20Announcements/Attachments/4783/workshop%20flyer_02.122020.pdf) - Savitribai Phule Pune University, Pune, India, Jan 2021
 

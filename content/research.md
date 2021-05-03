@@ -63,6 +63,14 @@ Lahti L.
 
 ### Microbiome data science
 
+[Modeling spatial patterns in host-associated microbial communities](https://doi.org/10.1111/1462-2920.15462)  
+Ruuskanen M*, Sommeria-Klein G*, Havulinna A, Niiranen T, Lahti L.  
+Environmental Microbiology 2021. 
+
+[**Xylo-oligosaccharides in prevention of hepatic steatosis and adipose tissue inflammation: associating taxonomic and metabolomic patterns in fecal microbiomes with biclustering**](https://doi.org/10.3390/ijerph18084049)  
+Hintikka J, Lensu S, Mäkinen E, Karvinen S, Honkanen M, Linden J, Garrels T, Pekkala S, Lahti L.  
+International Journal of Environmental Research and Public Health 18(8):4049, April 2021. 
+
 [**Taxonomic Signatures of Long-Term Mortality Risk in Human Gut Microbiota**](https://doi.org/10.1101/2019.12.30.1901584)  
 Preprint at medRxiv 2019.12.30.19015842.  
 Salosensaari A*, Laitinen V*, Havulinna A, Meric G, Cheng S, Perola M, Valsta L, Alfthan G, Inouye M, Watrous JD, Long T, Salido R, Sanders K, Brennan C, Humphrey GC, Sanders JG, Jain M, Jousilahti P, Salomaa V, Knight R, Lahti L, Niiranen T.  
@@ -71,8 +79,8 @@ Salosensaari A*, Laitinen V*, Havulinna A, Meric G, Cheng S, Perola M, Valsta L,
 Frontiers in Microbiology 2021. 
 Moreno-Indias I, Lahti L, Nedyalkova M, Elbere I, Roshchupkin GV, Adilovic M, Aydemir O, Bakir-Gungor B, Carrillo-de Santa Pau E, D'Elia D, Desai MS, Falquet L, Gundogdu A, Hron K, Klammsteiner T, Lopes MB, Marcos Zambrano LJ, Marques C, Mason M, May P, Pašić L, Pio G, Pongor S, Promponas VJ, Przymus P, Sáez-Rodríguez J, Sampri A, Shigdel R, Stres B, Suharoschi R, Truu J, Truică C-O, Vilne B, Vlachakis DP, Yılmaz E, Zeller G, Zomer A, Gómez-Cabrero D, Claesson M.
 
-[**Links between gut microbiome composition and fatty liver disease in a large population sample**]()  
-Gut Microbes 2021. In press.
+[**Links between gut microbiome composition and fatty liver disease in a large population sample**](https://doi.org/10.1080/19490976.2021.1888673)  
+Gut Microbes 2021.  
 Ruuskanen MO, Åberg F, Männistö V, Havulinna AS, Méric G, Liu Y, Loomba R, Vázquez-Baeza Y, Tripathi A, Valsta LM, Inouye M, Jousilahti P, Salomaa V, Jain M, Knight R, Lahti L, Niiranen TJ. 
 
 [**Microbial communities as dynamical systems**](https://doi.org/10.1016/j.mib.2018.07.004)  
@@ -95,10 +103,14 @@ Harris K, Parsons TL, Ijaz UZ, Lahti L, Holmes I, Quince C.
        
 ### Computational humanities
 
+
+[**Corpus Linguistics and Eighteenth Century Collections Online (ECCO)**](https://doi.org/10.32714/ricl.09.01.03)  
+Tolonen M, Mäkelä E, Ijaz A, Lahti L.  
+Research in Corpus Linguistics 9/1:19-34, 2021.  
+
 [**Examining the Early Modern Canon: _The English Short Title Catalogue_ and Large-Scale Patterns of Cultural Production**](https://doi.org/10.1007/978-3-030-54913-8_3)  
 In: Baird I. (eds) Data Visualization in Enlightenment Literature and Culture. Palgrave Macmillan, Cham. pp. 63-119, 2021. 
 Tolonen M, Hill MJ, Ijaz AZ, Vaara V, Lahti L.
-
 
 [**Quantifying bias and uncertainty in historical data collections with probabilistic programming**](http://ceur-ws.org/Vol-2723/short46.pdf)  
 CEUR Workshop Proc. on Computational Humanities Research, 2020.  
