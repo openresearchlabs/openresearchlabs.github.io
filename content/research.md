@@ -63,17 +63,17 @@ Lahti L.
 
 ### Microbiome data science
 
+[** Taxonomic signatures of cause-specific mortality risk in human gut microbiome**](https://doi.org/10.1038/s41467-021-22962-y)  
+Salosensaari A*, Laitinen V*, Havulinna A, Meric G, Cheng S, Perola M, Valsta L, Alfthan G, Inouye M, Watrous JD, Long T, Salido R, Sanders K, Brennan C, Humphrey GC, Sanders JG, Jain M, Jousilahti P, Salomaa V, Knight R, Lahti L*, Niiranen T*.  
+Nature Communications 12:2671, May 2021.
+
 [**Modeling spatial patterns in host-associated microbial communities**](https://doi.org/10.1111/1462-2920.15462)  
 Ruuskanen M*, Sommeria-Klein G*, Havulinna A, Niiranen T, Lahti L.  
-Environmental Microbiology 2021. 
+Environmental Microbiology 23(5), 2021. 
 
 [**Xylo-oligosaccharides in prevention of hepatic steatosis and adipose tissue inflammation: associating taxonomic and metabolomic patterns in fecal microbiomes with biclustering**](https://doi.org/10.3390/ijerph18084049)  
 Hintikka J, Lensu S, Mäkinen E, Karvinen S, Honkanen M, Linden J, Garrels T, Pekkala S, Lahti L.  
 International Journal of Environmental Research and Public Health 18(8):4049, April 2021. 
-
-[**Taxonomic Signatures of Long-Term Mortality Risk in Human Gut Microbiota**](https://doi.org/10.1101/2019.12.30.1901584)  
-Preprint at medRxiv 2019.12.30.19015842.  
-Salosensaari A*, Laitinen V*, Havulinna A, Meric G, Cheng S, Perola M, Valsta L, Alfthan G, Inouye M, Watrous JD, Long T, Salido R, Sanders K, Brennan C, Humphrey GC, Sanders JG, Jain M, Jousilahti P, Salomaa V, Knight R, Lahti L, Niiranen T.  
 
 [**Statistical and machine learning techniques in human microbiome studies: contemporary challenges and solutions**](https://doi.org/10.3389/fmicb.2021.635781)  
 Frontiers in Microbiology 2021. 
