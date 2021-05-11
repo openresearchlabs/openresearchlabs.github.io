@@ -63,7 +63,7 @@ Lahti L.
 
 ### Microbiome data science
 
-[** Taxonomic signatures of cause-specific mortality risk in human gut microbiome**](https://doi.org/10.1038/s41467-021-22962-y)  
+[**Taxonomic signatures of cause-specific mortality risk in human gut microbiome**](https://doi.org/10.1038/s41467-021-22962-y)  
 Salosensaari A*, Laitinen V*, Havulinna A, Meric G, Cheng S, Perola M, Valsta L, Alfthan G, Inouye M, Watrous JD, Long T, Salido R, Sanders K, Brennan C, Humphrey GC, Sanders JG, Jain M, Jousilahti P, Salomaa V, Knight R, Lahti L*, Niiranen T*.  
 Nature Communications 12:2671, May 2021.
 
