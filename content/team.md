@@ -69,9 +69,9 @@ Matti Ruuskanen             |  Guilhem Sommeria-Klein | [Pande Erawijantari](htt
 The affiliation for the co-supervised PhD candidates indicated in parentheses.
 
 
-| Ville Laitinen | [Moein Khalighi](https://scholar.google.com/citations?user=XrlaLlUAAAAJ&hl=en) | Iiro Tiihonen (COMHIS) | Ville Vaara (COMHIS) |
-|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
-<img src="../img/teampic/ville_laitinen.jpg" height="150"> | <img src="../img/teampic/moein_khalighi.jpg" height="150"> | <img src="../img/teampic/iiro_tiihonen.jpeg" height="150"> | <img src="../img/teampic/ville_vaara.jpg" height="150"> |
+| Ville Laitinen | [Moein Khalighi](https://scholar.google.com/citations?user=XrlaLlUAAAAJ&hl=en) | Chandler Ross | Iiro Tiihonen (COMHIS) | Ville Vaara (COMHIS) |
+|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
+<img src="../img/teampic/ville_laitinen.jpg" height="150"> | <img src="../img/teampic/moein_khalighi.jpg" height="150"> | <img src="../img/teampic/chandler_ross.jpeg" height="150"> | <img src="../img/teampic/iiro_tiihonen.jpeg" height="150"> | <img src="../img/teampic/ville_vaara.jpg" height="150"> |
 
 -------------------------
 
@@ -83,9 +83,9 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
 
 ## Research assistants
 
-| Pyry Kantanen | Chandler Ross | Tuomas Borman | Julia Matveeva | Renuka Potbhare (Pune) | 
+| Pyry Kantanen | Tuomas Borman | Julia Matveeva | Renuka Potbhare (Pune) | 
 |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
-<img src="../img/teampic/pyry_kantanen.jpeg" height="150"> | <img src="../img/teampic/chandler_ross.jpeg" height="150"> | <img src="../img/teampic/tuomas_borman.jpeg" height="150"> | <img src="../img/teampic/julia_matveeva.jpg" height="150"> | <img src="../img/teampic/renuka.jpg" height="150"> |
+<img src="../img/teampic/pyry_kantanen.jpeg" height="150"> | <img src="../img/teampic/tuomas_borman.jpeg" height="150"> | <img src="../img/teampic/julia_matveeva.jpg" height="150"> | <img src="../img/teampic/renuka.jpg" height="150"> |
 
 
 
