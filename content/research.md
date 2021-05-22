@@ -179,9 +179,14 @@ Lahti L, Wallgren T, Kulmala M.
 
 ### Funding and support
 
-The work has been supported by University of Turku, Academy of
-Finland, European Union (COST / H2020), foundations, and other
-sources.
+The work has been supported by
+- [University of Turku](https://www.utu.fi/en)
+- Academy of Finland
+- EU / [COST action on Statistical and Machine Learning Techniques in Human Microbiome Studies](https://www.ml4microbiome.eu/)
+- EU / [H2020 FindingPheno](http://www.findingpheno.eu/)
+- KONE
+- Turku University Foundation
+- and other sources
 
 <img src="../img/logopic/aka.png" width="150">
 <img src="../img/logopic/EU-H2020-logo.png" width="200">     
