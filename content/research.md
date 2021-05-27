@@ -4,22 +4,6 @@ description: Research
 keywords: research
 ---
 
-# Bibliography
-
-```{r bib, echo = FALSE, results = "asis"} 
-get_doi <- function(paper) {
-  if (is.null(paper$doi)) {
-    ""
-  } else{
-    paste0(" , https://doi.org/", paper$doi)
-  }
-}
-apa_style <- tools::bibstyle("apa", sortKeys = function(refs) seq_along(refs),
-    fmtPrefix = function(paper) paste0("[^", attr(paper,"key"), "]:"),
-    extraInfo = function(paper) paste0(paper$url, get_doi(paper)),
-    .init = TRUE)
-RefManageR::PrintBibliography(mybib, .opts = list(bib.style = "apa", sorting = ""))
-```
 # Research topics
 
 **Our research focuses on computational analysis and understanding of
