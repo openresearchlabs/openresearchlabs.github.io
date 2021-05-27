@@ -1,0 +1,1 @@
+"0","mybib <- RefManageR::ReadBib(""lahti.bib"", check = FALSE) "

@@ -1,0 +1,14 @@
+---
+title: "Bibliogrpahy"
+author: "Tom Gobardhan"
+date: "26/05/2021"
+bibliography : lahti.bib
+output: md_document
+---
+
+# Bibliography
+
+```{r bibtex, echo = FALSE, results = "asis", message=FALSE}
+mybib <- RefManageR::ReadBib("lahti.bib", check = FALSE)
+mybib
+```

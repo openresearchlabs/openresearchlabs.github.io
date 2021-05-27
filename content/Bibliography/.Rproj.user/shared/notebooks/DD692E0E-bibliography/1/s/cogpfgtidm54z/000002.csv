@@ -1,0 +1,6 @@
+"0","### function for each citation, converted in exponent by Hugo, linked to the list"
+"0","cite <- function(key, bib = mybib) {"
+"0","  RefManageR::NoCite(bib, key)"
+"0","  paste0(""[^"", key, ""]"")"
+"0","}"
+"0",""
