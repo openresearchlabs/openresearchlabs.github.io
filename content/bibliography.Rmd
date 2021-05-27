@@ -1,0 +1,40 @@
+---
+title: "Bibliogrpahy"
+author: "Tom Gobardhan"
+date: "26/05/2021"
+output: html_document
+---
+
+# Bibliography
+
+```{r bib, echo = FALSE, results = "asis"}
+mybib <- RefManageR::ReadBib("lahti.bib", check = FALSE) 
+```
+
+
+```{r bibtex, echo = FALSE, results = "asis"}
+### function for each citation, converted in exponent by Hugo, linked to the list
+cite <- function(key, bib = mybib) {
+  RefManageR::NoCite(bib, key)
+  paste0("[^", key, "]")
+}
+
+```
+
+Testing quote`r cite("Zhu2021")`  and another one`r cite("Liu2021liver")`.
+
+```{r}
+### At the end of the page, to list all the quotations referented inside it
+get_doi <- function(paper) {
+  if (is.null(paper$doi)) {
+    ""
+  } else{
+    paste0(" , https://doi.org/", paper$doi)
+  }
+}
+apa_style <- tools::bibstyle("apa", sortKeys = function(refs) seq_along(refs),
+    fmtPrefix = function(paper) paste0("[^", attr(paper,"key"), "]:"),
+    extraInfo = function(paper) paste0(paper$url, get_doi(paper)),
+    .init = TRUE)
+RefManageR::PrintBibliography(mybib, .opts = list(bib.style = "apa", sorting = ""))
+```
