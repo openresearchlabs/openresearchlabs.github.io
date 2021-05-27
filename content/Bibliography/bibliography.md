@@ -14,8 +14,9 @@ output: md_document
 
 what a nice package[^Zhu2021] built
 
-[^Zhu2021]: Zhu Q, Huang S, Gonzalez A, McGrath I, McDonald D, Haiminen
-N, Armstrong G, Vázquez-Baeza Y, Yu J, Kuczynski J, Sepich-Poore GD,
+
+Zhu Q, Huang S, Gonzalez A, McGrath I, McDonald D, Haiminen N,
+Armstrong G, Vázquez-Baeza Y, Yu J, Kuczynski J, Sepich-Poore GD,
 Swafford AD, Das P, Shaffer JP, Lejzerowicz F, Belda-Ferre P, Havulinna
 AS, Méric G, Niiranen T, Lahti L, Salomaa V, Kim H, Jain M, Inouye M,
 Gilbert J, Knight R (2021). "OGUs enable effective, phylogeny-aware

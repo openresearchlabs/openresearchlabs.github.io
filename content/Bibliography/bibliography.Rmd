@@ -29,15 +29,17 @@ get_doi <- function(paper) {
 ```
 
 
-what a nice package`r cite("Zhu2021")` built
+This is our first citation`r cite("Zhu2021")`.
 
 ```{r bibtex2, echo = FALSE, results = "asis", message=FALSE}
 #RefManageR::PrintBibliography(mybib)
 
 # See https://ropensci.org/blog/2020/05/07/rmd-citations/
 apa_style <- tools::bibstyle("apa", sortKeys = function(refs) seq_along(refs),
-    fmtPrefix = function(paper) paste0("[^", attr(paper,"key"), "]:"),
-    extraInfo = function(paper) paste0(paper$url, get_doi(paper)),
+    #fmtPrefix = function(paper) paste0("[^", attr(paper,"key"), "]:"),
+    fmtPrefix = function(paper) paste0(""),    
+    #fmtPrefix = "",    
+    extraInfo = function(paper) paste0(paper$url, get_doi(paper)),    
     .init = TRUE)
 RefManageR::PrintBibliography(mybib, .opts = list(bib.style = "apa", sorting = ""))
 ```
