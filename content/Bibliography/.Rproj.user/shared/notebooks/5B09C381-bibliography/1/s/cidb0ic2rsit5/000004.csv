@@ -1,4 +1,0 @@
-"0","mybib <- RefManageR::ReadBib(""lahti.bib"", check = FALSE) "
-"2","Erreur dans bibtex::do_read_bib(file, encoding = .Encoding, srcfile) : 
-  unable to open file to read
-"

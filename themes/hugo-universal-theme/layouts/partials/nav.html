@@ -30,7 +30,22 @@
                       {{ end }}
                     </ul>
                     {{ else }}
-                    <a href="{{ .URL }}">{{ .Name }}</a>
+                        {{ if eq .Name "Research" }}
+                            <script type="text/javascript">console.log('J\'AI RÉUSSI');</script>
+                            <li class = "dropdown-list">
+                                <a class ="dropbtn" href="{{ .URL }}">{{ .Name }}</a>
+                                <div class ="dropdown-list-content">
+                                    <a href="{{ .URL }}" class="dropdown-list-link">Computational and data science</a>
+                                    <a href="{{ .URL }}" class="dropdown-list-link">Microbiome data science</a>
+                                    <a href="{{ .URL }}" class="dropdown-list-link">Computational humanities</a>
+                                    <a href="{{ .URL }}" class="dropdown-list-link">Open science</a>
+                                    <a href="{{ .URL }}" class="dropdown-list-link">Opinion pieces (in Finnish)</a>
+                                    <a href="{{ .URL }}" class="dropdown-list-link">Funding and support</a>
+                                </div>
+                            </li>
+                        {{ else }}
+                            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                        {{ end }}
                     {{ end  }}
                   </li>
                   {{ end }}
