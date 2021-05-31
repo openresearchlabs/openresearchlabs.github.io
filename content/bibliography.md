@@ -1,10 +1,8 @@
 # Bibliography
 
 <script type="text/javascript">
-	console.log("test");
 	var mybib = "C:/Users/tomgo/OneDrive/Documents/Internship 2021/openresearchlabs.github.io/content/Bibliography";
 	console.log(mybib);
-	console.log("hello");
 </script>
 
 This is our first citation\[^Zhu2021\].
