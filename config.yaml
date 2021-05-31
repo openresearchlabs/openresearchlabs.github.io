@@ -94,10 +94,6 @@ params:
   logo_small: img/logo-small.png
   longitude: '-77.028333'
   mainSections: blog
-  recent_posts:
-    enable: yes
-    subtitle: News items.
-    title: From our blog
   #see_more:
   #  enable: yes
   #  icon: far fa-file-alt
