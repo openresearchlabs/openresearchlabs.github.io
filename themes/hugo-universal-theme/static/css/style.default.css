@@ -306,6 +306,22 @@ ul.list-style-none {
 .navbar {
   border: none;
 }
+.dropdown-list-content{
+  display: none;
+  position: absolute;
+  background-color: #555555;
+  width: 100%;
+  color: purple;
+  text-decoration: none;
+  padding: 10px;
+}
+.dropdown-list-link{
+  width:100%; 
+  padding-bottom: 15px;
+}
+.dropdown-list:hover .dropdown-list-content{
+  display: block;
+}
 .navbar ul.nav > li > a {
   text-transform: uppercase;
   text-decoration: underline;
@@ -3562,3 +3578,123 @@ a.list-group-item.active > .badge,
   left: 15px;
   right: 15px;
 }
+
+.lahti{
+  clip-path:ellipse(50% 50%);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 4fr 0.5fr;
+  gap: 0px 50px;
+  grid-template-areas:
+    "matti guilhem pande aura"
+    "name-matti name-guilhem name-pande name-aura";
+  font-weight: bold;
+}
+
+.matti { grid-area: matti; text-align: center; clip-path:ellipse(50% 50%);}
+
+.guilhem { grid-area: guilhem; text-align: center; clip-path:ellipse(50% 50%);}
+
+.pande { grid-area: pande; text-align: center; clip-path:ellipse(50% 50%);}
+
+.aura { grid-area: aura; text-align: center; clip-path:ellipse(50% 50%);}
+
+.name-matti { grid-area: name-matti; text-align: center; padding-top: 10px;}
+
+.name-guilhem { grid-area: name-guilhem;  text-align: center; padding-top: 10px;}
+
+.name-pande { grid-area: name-pande;  text-align: center; padding-top: 10px;}
+
+.name-aura { grid-area: name-aura;  text-align: center; padding-top: 10px;}
+
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 4fr 0.5fr;
+  gap: 0px 40px;
+  grid-template-areas:
+    "ville moein chandler iiro vaara"
+    "name-ville name-moein name-chandler name-iiro name-vaara";
+  font-weight: bold;
+}
+
+.ville { grid-area: ville; text-align: center;  clip-path:ellipse(50% 50%);}
+
+.moein { grid-area: moein; text-align: center;  clip-path:ellipse(50% 50%);}
+
+.chandler { grid-area: chandler; text-align: center;  clip-path:ellipse(50% 50%);}
+
+.iiro { grid-area: iiro; text-align: center;  clip-path:ellipse(50% 50%);}
+
+.vaara { grid-area: vaara; text-align: center;  clip-path:ellipse(50% 50%);}
+
+.name-ville { grid-area: name-ville; text-align: center; padding-top: 10px;}
+
+.name-moein { grid-area: name-moein;  text-align: center; padding-top: 10px;}
+
+.name-chandler { grid-area: name-chandler;  text-align: center; padding-top: 10px;}
+
+.name-iiro { grid-area: name-iiro;  text-align: center; padding-top: 10px;}
+
+.name-vaara { grid-area: name-vaara;  text-align: center; padding-top: 10px;}
+
+.grid-container-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 4fr 0.5fr;
+  gap: 0px 40px;
+  grid-template-areas:
+    "joonatan felix henrik mrunalini anna"
+    "name-joonatan name-felix name-henrik name-mrunalini name-anna";
+  font-weight: bold;
+}
+
+.joonatan { grid-area: joonatan; text-align: center; clip-path:ellipse(50% 50%);}
+
+.felix { grid-area: felix; text-align: center; clip-path:ellipse(50% 50%);}
+
+.henrik { grid-area: henrik; text-align: center; clip-path:ellipse(50% 50%);}
+
+.mrunalini { grid-area: mrunalini; text-align: center; clip-path:ellipse(50% 50%);}
+
+.anna { grid-area: anna; text-align: center; clip-path:ellipse(50% 50%);}
+
+.name-joonatan { grid-area: name-joonatan; text-align: center; padding-top: 10px;}
+
+.name-felix { grid-area: name-felix;  text-align: center; padding-top: 10px;}
+
+.name-henrik { grid-area: name-henrik;  text-align: center; padding-top: 10px;}
+
+.name-mrunalini { grid-area: name-mrunalini;  text-align: center; padding-top: 10px;}
+
+.name-anna { grid-area: name-anna;  text-align: center; padding-top: 10px;}
+
+.grid-container-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 4fr 0.5fr;
+  gap: 0px 175px;
+  grid-template-areas:
+    "pyry tuomas julia renuka"
+    "name-pyry name-tuomas name-julia name-renuka";
+  font-weight: bold;
+}
+
+.pyry { grid-area: pyry; text-align: center; clip-path:ellipse(50% 50%);}
+
+.tuomas { grid-area: tuomas; text-align: center; clip-path:ellipse(50% 50%);}
+
+.julia { grid-area: julia; text-align: center; clip-path:ellipse(50% 50%);}
+
+.renuka { grid-area: renuka; text-align: center; clip-path:ellipse(50% 50%);}
+
+.name-pyry { grid-area: name-pyry; text-align: center; padding-top: 10px;}
+
+.name-tuomas { grid-area: name-tuomas;  text-align: center; padding-top: 10px;}
+
+.name-julia { grid-area: name-julia;  text-align: center; padding-top: 10px;}
+
+.name-renuka { grid-area: name-renuka;  text-align: center; padding-top: 10px;}

@@ -1,0 +1,29 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 4fr 1fr;
+  gap: 0px 30px;
+  grid-template-areas:
+    "matti guilhem pande aura"
+    "name name name name";
+}
+
+
+.matti { grid-area: matti; }
+
+.guilhem { grid-area: guilhem; }
+
+.pande { grid-area: pande; }
+
+.aura { grid-area: aura; }
+
+.name { 
+  grid-area: name;
+  color:  red;
+ }
+
+.name { grid-area: name; }
+
+.name { grid-area: name; }
+
+.name { grid-area: name; }
