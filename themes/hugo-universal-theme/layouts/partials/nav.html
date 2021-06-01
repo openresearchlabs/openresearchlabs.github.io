@@ -30,10 +30,11 @@
                       {{ end }}
                     </ul>
                     {{ else }}
+                    <!--
                         {{ if eq .Name "Research" }}
-                            <li class = "dropdown-list">
+                            <li class = "dropdown-list"> -->
                                 <a class ="dropbtn" href="{{ .URL }}">{{ .Name }}</a>
-                                <div class ="dropdown-list-content">
+                                <!-- <div class ="dropdown-list-content">
                                     <a href="{{ .URL }}" class="dropdown-list-link">Computational and data science</a>
                                     <a href="{{ .URL }}" class="dropdown-list-link">Microbiome data science</a>
                                     <a href="{{ .URL }}" class="dropdown-list-link">Computational humanities</a>
@@ -42,9 +43,9 @@
                                     <a href="{{ .URL }}" class="dropdown-list-link">Funding and support</a>
                                 </div>
                             </li>
-                        {{ else }}
+                        {{ else }} -->
                             <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-                        {{ end }}
+                        <!-- {{ end }} -->
                     {{ end  }}
                   </li>
                   {{ end }}

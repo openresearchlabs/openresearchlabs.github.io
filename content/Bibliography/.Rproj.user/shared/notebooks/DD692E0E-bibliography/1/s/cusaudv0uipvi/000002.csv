@@ -1,5 +1,0 @@
-"0","mybib <- RefManageR::ReadBib(""lahti.bib"", check = FALSE)"
-"0","replace(mybib, ""<URL "", "" "")"
-"2","Erreur dans (function (x, i, j, ..., drop = FALSE)  : 
-  objet '*tmp*' introuvable
-"
