@@ -1,10 +1,8 @@
-+++
-tags = []
-categories = []
-+++
-
-## BLOGS
-
+---
+description: Twitter feed
+keywords: new
+title: Blog
+---
 
 Visit our [Twitter](https://twitter.com/openreslabs) : 
 

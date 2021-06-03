@@ -310,16 +310,27 @@ ul.list-style-none {
   display: none;
   position: absolute;
   background-color: #555555;
-  width: 100%;
-  color: purple;
+  width: 240px;
+  color: #999999 !important;
   text-decoration: none;
   padding: 10px;
 }
 .dropdown-list-link{
-  width:100%; 
-  padding-bottom: 15px;
+  padding: 5px;
+}
+.first{
+  padding-top: 0px;
+}
+.last{
+  padding-bottom: 0px;
+}
+.dropdown-list-link a{
+  color: #EEEEEE !important;
 }
 .dropdown-list:hover .dropdown-list-content{
+  display: block;
+}
+.dropdown-list:active .dropdown-list-content{
   display: block;
 }
 .navbar ul.nav > li > a {
