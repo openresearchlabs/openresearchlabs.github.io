@@ -42,6 +42,7 @@
                                     <div class="dropdown-list-link last"><a href="{{ path.Join .URL "/funding-and-support" }}">Funding and support</a></div>
                                 </div>
                             </li>
+                        {{ else if eq .Name "News"}}
                         {{ else }}
                             <li><a href="{{ .URL }}">{{ .Name }}</a></li>
                         {{ end }}
