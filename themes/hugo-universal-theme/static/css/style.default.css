@@ -3709,3 +3709,15 @@ a.list-group-item.active > .badge,
 .name-julia { grid-area: name-julia;  text-align: center; padding-top: 10px;}
 
 .name-renuka { grid-area: name-renuka;  text-align: center; padding-top: 10px;}
+
+#twitter-feed {
+  vertical-align: top;
+  display: inline-block;
+
+}
+
+#recent-posts {
+  max-width: 1200px;
+  display: inline-block;
+  padding-left: 20px;
+}
