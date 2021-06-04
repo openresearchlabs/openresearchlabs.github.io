@@ -30,22 +30,21 @@
                       {{ end }}
                     </ul>
                     {{ else }}
-                    <!--
                         {{ if eq .Name "Research" }}
-                            <li class = "dropdown-list"> -->
-                                <a class ="dropbtn" href="{{ .URL }}">{{ .Name }}</a>
-                                <!-- <div class ="dropdown-list-content">
-                                    <a href="{{ .URL }}" class="dropdown-list-link">Computational and data science</a>
-                                    <a href="{{ .URL }}" class="dropdown-list-link">Microbiome data science</a>
-                                    <a href="{{ .URL }}" class="dropdown-list-link">Computational humanities</a>
-                                    <a href="{{ .URL }}" class="dropdown-list-link">Open science</a>
-                                    <a href="{{ .URL }}" class="dropdown-list-link">Opinion pieces (in Finnish)</a>
-                                    <a href="{{ .URL }}" class="dropdown-list-link">Funding and support</a>
+                            <li class = "dropdown-list"> 
+                                <a class ="dropbtn">{{ .Name }}</a>
+                                <div class ="dropdown-list-content">
+                                    <div class="dropdown-list-link first"><a href="{{ path.Join .URL "/computational-and-data-science" }}">Computational and data science</a></div>
+                                    <div class="dropdown-list-link"><a href="{{ path.Join .URL "/microbiome-data-science" }}">Microbiome data science</a></div>
+                                    <div class="dropdown-list-link"><a href="{{ path.Join .URL "/computational-humanities" }}">Computational humanities</a></div>
+                                    <div class="dropdown-list-link"><a href="{{ path.Join .URL "/open-science" }}">Open science</a></div>
+                                    <div class="dropdown-list-link"><a href="{{ path.Join .URL "/opinion-pieces" }}">Opinion pieces (in Finnish)</a></div>
+                                    <div class="dropdown-list-link last"><a href="{{ path.Join .URL "/funding-and-support" }}">Funding and support</a></div>
                                 </div>
                             </li>
-                        {{ else }} -->
+                        {{ else }}
                             <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-                        <!-- {{ end }} -->
+                        {{ end }}
                     {{ end  }}
                   </li>
                   {{ end }}
