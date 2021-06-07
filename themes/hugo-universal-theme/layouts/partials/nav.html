@@ -43,6 +43,18 @@
                                 </div>
                             </li>
                         {{ else if eq .Name "News"}}
+                        {{ else if eq .Name "Edu" }}
+                            <li class = "dropdown-list"> 
+                                <a class ="dropbtn">{{ .Name }}</a>
+                                <div class ="dropdown-list-content">
+                                    <div class="dropdown-list-link first"><a href="{{ path.Join .URL "/forthcoming-courses-events" }}">Forthcoming courses and events</a></div>
+                                    <div class="dropdown-list-link"><a href="{{ path.Join .URL "/tutorials-data" }}">Tutorials and Data</a></div>
+                                    <div class="dropdown-list-link"><a href="{{ path.Join .URL "/teaching-software" }}">Teaching software</a></div>
+                                    <div class="dropdown-list-link"><a href="{{ path.Join .URL "/past-courses" }}">Past courses: links to material</a></div>
+                                    <div class="dropdown-list-link"><a href="{{ path.Join .URL "/other-online-resources" }}">Other online resources</a></div>
+                                    <div class="dropdown-list-link last"><a href="{{ path.Join .URL "/video-lectures-interviews" }}">Video lectures and interviews</a></div>
+                                </div>
+                            </li>
                         {{ else }}
                             <li><a href="{{ .URL }}">{{ .Name }}</a></li>
                         {{ end }}
