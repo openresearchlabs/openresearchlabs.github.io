@@ -12,6 +12,13 @@
 .navbar-header:after {
   clear: both;
 }
+.title{
+  display: inline-block; 
+  color: #C0C0C0;
+  font-size: 25px;
+  padding-top: 17px;
+  padding-left: 80px;
+}
 .center-block {
   display: block;
   margin-left: auto;
@@ -3088,7 +3095,7 @@ fieldset[disabled] .btn-template-primary.active {
   }
 }
 .navbar-default {
-  background-color: #ffffff;
+  background-color: #555555;
   border-color: #cccccc;
   border-bottom: none;
 }
@@ -3104,7 +3111,7 @@ fieldset[disabled] .btn-template-primary.active {
   color: #777777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #555555;
+  color: #C0C0C0;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -3719,5 +3726,5 @@ a.list-group-item.active > .badge,
 #recent-posts {
   max-width: 1200px;
   display: inline-block;
-  padding-left: 20px;
+  padding-left: 40px;
 }
