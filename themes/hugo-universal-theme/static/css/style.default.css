@@ -15,8 +15,9 @@
 .title{
   display: inline-block; 
   color: #C0C0C0;
+  vertical-align: middle;
   font-size: 25px;
-  padding-top: 17px;
+  padding-top: 18px;
   padding-left: 80px;
 }
 .center-block {

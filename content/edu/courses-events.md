@@ -1,8 +1,32 @@
 ---
 title: EDU
-description: Past courses
-keywords: Past courses
+description: Courses and events
+keywords: Forthcoming courses events tutorial data teaching software past
 ---
+
+## Courses and events
+
+### Forthcoming 
+
+**2021**
+
+ - **June 7-9** [Nordic-Baltic Biometrics Conference](https://nbbc21.helsinki.fi/) Helsinki, Finland 
+
+ - **July 5-16** [Brain, Bacteria and Behaviour: Understanding the Gut-Brain Axis](https://www.ru.nl/radboudsummerschool/courses/2021/brain-bacteria-behaviour/) online summer school - apply by May 1, 2021!
+
+ - **November 2-4** [Workshop on modeling microbial community time series](http://psbweb05.psb.ugent.be/conet/microbialtimeseries/registration.php). Leuven, Belgium
+
+### Tutorials and Data
+
+[Microbiome data science: R tutorial](https://microbiome.github.io/tutorials)  
+
+[Open government data analytics: various tutorials](https://ropengov.org/projects)
+
+[Finnish geospatial data visualization in R](https://ropengov.github.io/geofi)
+
+### Teaching software
+
+[A framework for creating and assessing exercises for R courses](https://ropengov.github.io/edu/) (presented in UseR2017!)
 
 ### Past courses: links to material
 
@@ -44,5 +68,3 @@ keywords: Past courses
  - [International spring school on open and reproducible microbiome data analysis](https://mibwurrepo.github.io/OPEN-REPRODUCIBLE-MICROBIOME-DATA-ANALYSIS-2018/) - 2018 Wageningen, The Netherlands  
 
  - [International summer school on microbial network analysis](http://psbweb05.psb.ugent.be/conet/econetschool/index.php) - 2017 KU Leuven, Belgium
-
-
