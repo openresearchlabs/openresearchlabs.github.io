@@ -3297,20 +3297,20 @@ label {
 /*boxes*/
 
 .boxes-container {
-  padding: 100px;
+  padding-top: 6vh;
+  padding-left: 7vw;
+  padding-bottom: 5vh;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  gap: 0px 40px;
+  grid-template-columns: 17vw 17vw 17vw 17vw;
+  grid-template-rows: 37vh;
+  gap: 0px 6vw;
   grid-template-areas:
     "box-research box-EDU box-code box-team";
   border-bottom: solid 1px rgb(204, 204, 204);
 }
 
-.box-element { 
-  width: 350px;
-  height: 350px;
-  padding: 50px;
+.box-element {
+  padding: 2vw;
   background-color: #F7F7F7;
   border-bottom: solid 2px #38A7BB;
 }
@@ -3327,26 +3327,26 @@ label {
   margin-right: auto;
   margin-left: auto;
   background-color: #38A7BB;
-  width: 100px;
-  height: 100px;
+  width: 10vmin;
+  height: 10vmin;
   text-align: center;  
   display: block;
   clip-path:ellipse(50% 50%);
-  padding-top: 22px;
+  padding-top: 2.2vh;
 }
 
 .box-logo1 {
   margin-left: auto;
   margin-right: auto;
-  width: 50px;
-  height: 50px;
+  width: 5vmin;
+  height: 5vmin;
 }
 
 .box-logo2 {
   display: none;
   margin: auto;
-  width: 50px;
-  height: 50px;
+  width: 5vmin;
+  height: 5vmin;
 }
 
 .box-logo:hover .box-logo1 {
@@ -3814,6 +3814,7 @@ a.list-group-item.active > .badge,
   gap: 0px 5vw;
   grid-template-areas:
     "recent-posts twitter-feed";
+  padding-bottom: 10vh;
 }
 
 .recent-posts { 
