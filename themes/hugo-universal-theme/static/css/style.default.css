@@ -14,7 +14,7 @@
 }
 .title{
   display: inline-block; 
-  color: #C0C0C0;
+  color: #333333;
   vertical-align: middle;
   font-size: 25px;
   padding-top: 18px;
@@ -3096,9 +3096,8 @@ fieldset[disabled] .btn-template-primary.active {
   }
 }
 .navbar-default {
-  background-color: #555555;
+  background-color: white;
   border-color: #cccccc;
-  border-bottom: none;
 }
 .navbar-default .navbar-brand {
   color: #555555;
@@ -3112,7 +3111,7 @@ fieldset[disabled] .btn-template-primary.active {
   color: #777777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #C0C0C0;
+  color: #333333;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -3294,6 +3293,94 @@ label {
 .form-group {
   margin-bottom: 20px;
 }
+
+/*boxes*/
+
+.boxes-container {
+  padding: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 40px;
+  grid-template-areas:
+    "box-research box-EDU box-code box-team";
+  border-bottom: solid 1px rgb(204, 204, 204);
+}
+
+.box-element { 
+  width: 350px;
+  height: 350px;
+  padding: 50px;
+  background-color: #F7F7F7;
+  border-bottom: solid 2px #38A7BB;
+}
+
+.box-research { grid-area: box-research; }
+
+.box-EDU { grid-area: box-EDU; }
+
+.box-code { grid-area: box-code; }
+
+.box-team { grid-area: box-team; }
+
+.box-logo {
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #38A7BB;
+  width: 100px;
+  height: 100px;
+  text-align: center;  
+  display: block;
+  clip-path:ellipse(50% 50%);
+  padding-top: 22px;
+}
+
+.box-logo1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  height: 50px;
+}
+
+.box-logo2 {
+  display: none;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+}
+
+.box-logo:hover .box-logo1 {
+  display: none;
+}
+
+.box-logo:hover .box-logo2 {
+  display: block;
+}
+
+.box-title {
+  text-align: center;
+}
+
+.box-content {
+  padding-top: 0px;
+  text-align: center;
+}
+
+.box-content>p {
+  margin-bottom: 2px;
+}
+
+.box-content>ul {
+  list-style: none;
+}
+
+.box-content>ul>li::before {
+  content: "•"; 
+  color: #38A7BB;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -4em}
+
 /* pager*/
 .pager {
   margin: 20px 0;
@@ -3719,12 +3806,14 @@ a.list-group-item.active > .badge,
 .name-renuka { grid-area: name-renuka;  text-align: center; padding-top: 10px;}
 
 #twitter-feed {
+  margin-top: 40px;
   vertical-align: top;
   display: inline-block;
 
 }
 
 #recent-posts {
+  margin-top: 35px;
   max-width: 1200px;
   display: inline-block;
   padding-left: 40px;
