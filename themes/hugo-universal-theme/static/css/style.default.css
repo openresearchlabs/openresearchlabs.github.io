@@ -3805,16 +3805,25 @@ a.list-group-item.active > .badge,
 
 .name-renuka { grid-area: name-renuka;  text-align: center; padding-top: 10px;}
 
-#twitter-feed {
-  margin-top: 40px;
-  vertical-align: top;
-  display: inline-block;
-
+.post-tweets-container {
+  display: grid;
+  margin-top: 5vh;
+  padding-left: 5vw;
+  grid-template-columns: 55vw 30vw;
+  grid-template-rows: 1fr;
+  gap: 0px 5vw;
+  grid-template-areas:
+    "recent-posts twitter-feed";
 }
 
-#recent-posts {
-  margin-top: 35px;
-  max-width: 1200px;
+.recent-posts { 
+  grid-area: recent-posts;
   display: inline-block;
-  padding-left: 40px;
+}
+
+.twitter-feed { 
+  grid-area: twitter-feed;
+  vertical-align: top;
+  justify-self: right;
+  display: inline-block;
 }

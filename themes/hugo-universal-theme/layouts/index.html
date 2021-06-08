@@ -17,10 +17,17 @@
  
         {{ partial "boxes.html" . }}
 
-        {{ partial "recent_posts.html" . }}
+        <div class="post-tweets-container">
+          
+          <div class="recent-posts"></div>
 
-        {{ partial "twitter.html" . }}
+          {{ partial "recent_posts.html" . }}
 
+          <div class="twitter-feed"></div>
+
+          {{ partial "twitter.html" . }}
+
+        </div>
         {{ partial "testimonials.html" . }}
 
         {{ partial "see_more.html" . }}
