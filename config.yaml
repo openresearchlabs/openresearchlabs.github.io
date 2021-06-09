@@ -52,11 +52,11 @@ menu:
   topbar:
     - name: GitHub
       pre: <i class='fab fa-2x fa-github'></i>
-      url: https://github.com/devcows/hugo-universal-theme
+      url: https://github.com/openresearchlabs/
       weight: 1
     - name: Twitter
       pre: <i class='fab fa-2x fa-twitter'></i>
-      url: http://twitter.com/antagomir
+      url: https://twitter.com/openreslabs
       weight: 3
     - name: Email
       pre: <i class='fas fa-2x fa-envelope'></i>

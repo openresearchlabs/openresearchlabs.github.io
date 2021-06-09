@@ -79,6 +79,7 @@ button i[class^="fa"] {
 .text-uppercase {
   text-transform: uppercase;
   letter-spacing: 0.08em;
+  margin-top: 1vmin;
 }
 @media (max-width: 991px) {
   .text-center-sm {
@@ -2635,9 +2636,9 @@ fieldset[disabled] .btn-template-primary.active {
   margin-bottom: 0;
 }
 #footer .social a {
-  color: #555555;
-  font-size: 25px;
-  margin: 0 10px 0 0;
+  color: #999999;
+  font-size: 2vmin;
+  margin: 0 1vmin 1vmin 0;
 }
 #footer .social a:hover {
   color: #38a7bb;
