@@ -6,6 +6,11 @@ keywords: Computational data science
 
 ### Computational and data science
 
+[**Exit time as a measure of ecological resilience**](https://doi.org/10.1126/science.aay4895)  
+Science, 372(6547):eaay4895, 2021.  
+Arani BMS, Carpenter SR, Lahti L, van Nes E, Scheffer, M.
+
+
 [**Wrangling with Non-Standard Data**](http://ceur-ws.org/Vol-2612/paper6.pdf)  
 Proc. Digital Humanities in the Nordic Countries 2020.  
 Mäkelä E, Lagus K, Lahti L, Säily T, Tolonen M, Hämäläinen M, Kaislaniemi S, Nevalainen T.  
