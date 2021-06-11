@@ -17,8 +17,8 @@
   color: #333333;
   vertical-align: middle;
   font-size: 25px;
-  padding-top: 18px;
-  padding-left: 80px;
+  padding-top: 1.8vh;
+  padding-left: 5vw;
 }
 .center-block {
   display: block;
@@ -336,12 +336,41 @@ ul.list-style-none {
 .dropdown-list-link a{
   color: #EEEEEE !important;
 }
-.dropdown-list:hover .dropdown-list-content{
-  display: block;
+
+@media screen and (min-width: 768px){
+  .dropdown-list:hover .dropdown-list-content{
+    display: block;
+  }
+  .dropdown-list:active .dropdown-list-content{
+    display: block;
+  }
+  .dropbtn2{
+    display: none !important;
+  }
 }
-.dropdown-list:active .dropdown-list-content{
-  display: block;
+
+@media screen and (max-width: 767px){
+  .dropbtn2{
+    display: block !important;
+    color: #999999 !important;
+    padding-left: 8vw !important;
+  }
+  .dropdown-list:hover .dropbtn2{
+    display: block !important;
+  }
+
+  .dropdown-list:active .dropbtn2{
+    display: block !important;
+  }
+  .dropdown-list:hover .d2{
+    display: block !important;
+  }
+
+  .dropdown-list:active .d2{
+    display: block !important;
+  }
 }
+
 .navbar ul.nav > li > a {
   text-transform: uppercase;
   text-decoration: underline;
@@ -3333,7 +3362,7 @@ label {
   text-align: center;  
   display: block;
   clip-path:ellipse(50% 50%);
-  padding-top: 2.2vh;
+  padding-top: 2.2vmin;
 }
 
 .box-logo1 {
@@ -3505,6 +3534,7 @@ h3,
 .h3 {
   margin-top: 20px;
   margin-bottom: 20px;
+  font-size: ;
 }
 p {
   margin: 0 0 10px;
@@ -3829,3 +3859,39 @@ a.list-group-item.active > .badge,
   justify-self: right;
   display: inline-block;
 }
+
+@media screen and (max-width: 1300px){
+  .boxes-container {
+    padding-left: 5vw;
+    grid-template-columns: 90vw;
+    grid-template-rows: 37vh 37vh 37vh;
+    gap: 1vh 0vw;
+    grid-template-areas:
+      "box-research" 
+      "box-EDU"
+      "box-code"
+      " box-team";
+  }
+
+  .post-tweets-container {
+    padding-left: 5vw;
+    grid-template-columns: 90vw;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 5vw;
+    grid-template-areas:
+      "recent-posts"
+      "twitter-feed";
+    padding-bottom: 10vh;
+  }
+}
+
+@media screen and (max-width: 410px){
+  .title{
+    font-size: 6vw;
+    padding-top: 3vh;
+    padding-left: 1vw ;
+  }
+}
+
+@media screen and (max-width: 767px){
+  }
