@@ -3836,6 +3836,21 @@ a.list-group-item.active > .badge,
 
 .name-renuka { grid-area: name-renuka;  text-align: center; padding-top: 10px;}
 
+@media screen and (max-width: 1200px){
+  .grid-container{
+    overflow: scroll;
+  }
+  .grid-container-2{
+    overflow: scroll;
+  }  
+  .grid-container-3{
+    overflow: scroll;
+  }  
+  .grid-container-4{
+    overflow: scroll;
+  }  
+} 
+
 .post-tweets-container {
   display: grid;
   margin-top: 5vh;
@@ -3892,6 +3907,3 @@ a.list-group-item.active > .badge,
     padding-left: 1vw ;
   }
 }
-
-@media screen and (max-width: 767px){
-  }
