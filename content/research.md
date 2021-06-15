@@ -26,41 +26,18 @@ Science and Research award of the Ministry of Education and Culture in
 
 
 
-## Recent publications
-
-<!--See [Google scholar](https://scholar.google.co.uk/citations?user=mjjV-AoAAAAJ&hl=fi&oi=ao).-->
+## Selected publications
 
 Below some examples from recent publications.
 See [ORCID](http://orcid.org/0000-0001-5537-637X) for a full list. 
 Full publication list is also available as [bibtex](https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/bibtex/lahti.bib).
 Copies of most papers are available [here](https://github.com/openresearchlabs/openresearchlabs.github.io/tree/master/content/publication_resources).
+<!--See [Google scholar](https://scholar.google.co.uk/citations?user=mjjV-AoAAAAJ&hl=fi&oi=ao).-->
 
 
-### Computational and data science
-
-[**Wrangling with Non-Standard Data**](http://ceur-ws.org/Vol-2612/paper6.pdf)  
-Proc. Digital Humanities in the Nordic Countries 2020.  
-Mäkelä E, Lagus K, Lahti L, Säily T, Tolonen M, Hämäläinen M, Kaislaniemi S, Nevalainen T.  
-Best long paper in DHN2020.
-
-[**Three-species Lotka-Volterra model with respect to Caputo and Caputo-Fabrizio fractional operators**](https://doi.org/10.3390/sym13030368)  
-Symmetry 2021.  
-Khalighi M, Eftekhari L, Hosseinpour S, Lahti L.
-
-[**A hierarchical Ornstein-Uhlenbeck model for stochastic time series analysis**](https://link.springer.com/chapter/10.1007/978-3-030-01768-2_16)  
-Advances in Intelligent Data Analysis XVII. Lecture Notes in Computer Science 11191. Springer, 2018.  
-Laitinen V, Lahti L
-
-[**Retrieval and analysis of Eurostat open data with the eurostat R package**](https://journal.r-project.org/archive/2017/RJ-2017-019/index.html)  
-R Journal, 2017.  
-Lahti L, Huovari J, Kainu M, Biecek P.
-
-[**Open Data Science**](https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2018-Lahti-IDA.pdf)  
-Advances in Intelligent Data Analysis XVII. Lecture Notes in Computer Science 11191:31-39. Springer, India, 2018.  
-Lahti L.
-
-
-### Microbiome data science
+[**Exit time as a measure of ecological resilience**](https://doi.org/10.1126/science.aay4895)  
+Science 2021.  
+Arani BMS, Carpenter SR, Lahti L, van Nes E, Scheffer, M.
 
 [**Taxonomic signatures of cause-specific mortality risk in human gut microbiome**](https://doi.org/10.1038/s41467-021-22962-y)  
 Salosensaari A*, Laitinen V*, Havulinna A, Meric G, Cheng S, Perola M, Valsta L, Alfthan G, Inouye M, Watrous JD, Long T, Salido R, Sanders K, Brennan C, Humphrey GC, Sanders JG, Jain M, Jousilahti P, Salomaa V, Knight R, Lahti L*, Niiranen T*.  
@@ -70,42 +47,27 @@ Nature Communications 12:2671, May 2021.
 Ruuskanen M*, Sommeria-Klein G*, Havulinna A, Niiranen T, Lahti L.  
 Environmental Microbiology 23(5), 2021. 
 
-[**Xylo-oligosaccharides in prevention of hepatic steatosis and adipose tissue inflammation: associating taxonomic and metabolomic patterns in fecal microbiomes with biclustering**](https://doi.org/10.3390/ijerph18084049)  
-Hintikka J, Lensu S, Mäkinen E, Karvinen S, Honkanen M, Linden J, Garrels T, Pekkala S, Lahti L.  
-International Journal of Environmental Research and Public Health 18(8):4049, April 2021. 
+[**Wrangling with Non-Standard Data**](http://ceur-ws.org/Vol-2612/paper6.pdf)  
+Proc. Digital Humanities in the Nordic Countries 2020.  
+Mäkelä E, Lagus K, Lahti L, Säily T, Tolonen M, Hämäläinen M, Kaislaniemi S, Nevalainen T.  
+Best long paper in DHN2020.
+
+[**Retrieval and analysis of Eurostat open data with the eurostat R package**](https://journal.r-project.org/archive/2017/RJ-2017-019/index.html)  
+R Journal, 2017.  
+Lahti L, Huovari J, Kainu M, Biecek P.
+
 
 [**Statistical and machine learning techniques in human microbiome studies: contemporary challenges and solutions**](https://doi.org/10.3389/fmicb.2021.635781)  
 Frontiers in Microbiology 2021. 
 Moreno-Indias I, Lahti L, Nedyalkova M, Elbere I, Roshchupkin GV, Adilovic M, Aydemir O, Bakir-Gungor B, Carrillo-de Santa Pau E, D'Elia D, Desai MS, Falquet L, Gundogdu A, Hron K, Klammsteiner T, Lopes MB, Marcos Zambrano LJ, Marques C, Mason M, May P, Pašić L, Pio G, Pongor S, Promponas VJ, Przymus P, Sáez-Rodríguez J, Sampri A, Shigdel R, Stres B, Suharoschi R, Truu J, Truică C-O, Vilne B, Vlachakis DP, Yılmaz E, Zeller G, Zomer A, Gómez-Cabrero D, Claesson M.
 
-[**Links between gut microbiome composition and fatty liver disease in a large population sample**](https://doi.org/10.1080/19490976.2021.1888673)  
-Gut Microbes 2021.  
-Ruuskanen MO, Åberg F, Männistö V, Havulinna AS, Méric G, Liu Y, Loomba R, Vázquez-Baeza Y, Tripathi A, Valsta LM, Inouye M, Jousilahti P, Salomaa V, Jain M, Knight R, Lahti L, Niiranen TJ. 
-
 [**Microbial communities as dynamical systems**](https://doi.org/10.1016/j.mib.2018.07.004)  
 Current Opinion in Microbiology 2018.  
 Gonze D, Coyte KZ, Lahti L, Faust K.
 
-[**Signatures of ecological processes in microbial community time series**](https://doi.org/10.1186/s40168-018-0496-2)  
-Microbiome, 2018.    
-Faust K, Bauchinger F, Laroche B, de Buyl S, Lahti L, Washburne AD, Gonze D, Widder S.
-
-[**Multi-stability and the origin of microbial community types**](https://doi.org/10.1038/ismej.2017.60)  
-ISME Journal 2017.  
-Faust K, Gonze D, Lahti L, Raes J.
-
 [**Linking statistical and ecological theory: Hubbell's unified neutral theory of biodiversity as a hierarchical Dirichlet process**](https://doi.org/10.1109/JPROC.2015.2428213)  
 Proceedings of the IEEE 2017.  
 Harris K, Parsons TL, Ijaz UZ, Lahti L, Holmes I, Quince C.
-
-
-       
-### Computational humanities
-
-
-[**Corpus Linguistics and Eighteenth Century Collections Online (ECCO)**](https://doi.org/10.32714/ricl.09.01.03)  
-Tolonen M, Mäkelä E, Ijaz A, Lahti L.  
-Research in Corpus Linguistics 9/1:19-34, 2021.  
 
 [**Examining the Early Modern Canon: _The English Short Title Catalogue_ and Large-Scale Patterns of Cultural Production**](https://doi.org/10.1007/978-3-030-54913-8_3)  
 In: Baird I. (eds) Data Visualization in Enlightenment Literature and Culture. Palgrave Macmillan, Cham. pp. 63-119, 2021. 
