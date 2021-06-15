@@ -3366,8 +3366,8 @@ label {
 }
 
 .box-logo1 {
-  margin-left: auto;
-  margin-right: auto;
+  display: block;
+  margin: auto;
   width: 5vmin;
   height: 5vmin;
 }
@@ -3875,17 +3875,34 @@ a.list-group-item.active > .badge,
   display: inline-block;
 }
 
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 1700px){
+  .boxes-container {
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+    grid-template-rows: 45vh;
+    gap: 0px 2vw;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .boxes-container {
+    padding-left: 3vw;
+    grid-template-columns: 22vw 22vw 22vw 22vw;
+    grid-template-rows: 60vh;
+    gap: 0px 2vw;
+  }
+}
+
+@media screen and (max-width: 800px){
   .boxes-container {
     padding-left: 5vw;
     grid-template-columns: 90vw;
-    grid-template-rows: 37vh 37vh 37vh;
+    grid-template-rows: 37vmax 37vmax 37vmax;
     gap: 1vh 0vw;
     grid-template-areas:
       "box-research" 
       "box-EDU"
       "box-code"
-      " box-team";
+      "box-team";
   }
 
   .post-tweets-container {
