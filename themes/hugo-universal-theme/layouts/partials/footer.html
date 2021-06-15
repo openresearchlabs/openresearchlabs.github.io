@@ -47,6 +47,12 @@
         <div class="col-md-4 col-sm-6">
 
           <h4>{{ i18n "contactTitle" }}</h4>
+           <div class="social">
+            {{ range .Site.Menus.topbar.ByWeight }}
+            <script type="text/javascript">console.log("{{ .URL }}");</script>
+            <a href="{{ .URL }}" target="_blank" style="opacity: 1;">{{ .Pre }}</a>
+            {{ end }}
+          </div>
 
             {{ .Site.Params.address | safeHTML }}
 

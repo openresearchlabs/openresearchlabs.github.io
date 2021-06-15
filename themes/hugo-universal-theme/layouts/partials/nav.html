@@ -1,10 +1,10 @@
 <header class="navbar-affixed-top" data-spy="affix" data-offset-top="62">
-    <div class="navbar navbar-default yamm" role="navigation" id="navbar">    
+    <div class="navbar navbar-default yamm" role="navigation" style="padding-left: 0px;" id="navbar">    
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand home" href="{{ "/" | relURL }}">
                     <img src="{{ .Site.Params.logo | relURL }}" alt="{{ .Title }} logo" class="hidden-xs hidden-sm">
-                    <img src="{{ .Site.Params.logo_small | relURL }}" alt="{{ .Title }} logo" class="visible-xs visible-sm">
+                    <!-- <img src="{{ .Site.Params.logo_small | relURL }}" alt="{{ .Title }} logo" class="visible-xs visible-sm"> -->
                     <span class="sr-only">{{ .Title }} - {{ i18n "navHome" }}</span>
                 </a>
                 <div class="navbar-buttons">
@@ -12,9 +12,11 @@
                       <span class="sr-only">{{ i18n "navToggle" }}</span>
                         <i class="fas fa-align-justify"></i>
                     </button>
-                </div>
+                </div>            
+                <a href="{{ "/" | relURL }}"><div class="title">Turku Data Science Group</div></a>
             </div>
             <!--/.navbar-header -->
+
 
             <div class="navbar-collapse collapse" id="navigation">
                 <ul class="nav navbar-nav navbar-right">
@@ -34,7 +36,7 @@
                             <li class = "dropdown-list"> 
                                 <a class ="dropbtn">{{ .Name }}</a>
                                 <div class ="dropdown-list-content">
-                                    <div class="dropdown-list-link first"><a href="{{ path.Join .URL "/computational-and-data-science" }}">Computational and data science</a></div>
+                                    <div class="dropdown-list-link first dropdown active"><a href="{{ path.Join .URL "/computational-and-data-science" }}">Computational and data science</a></div>
                                     <div class="dropdown-list-link"><a href="{{ path.Join .URL "/microbiome-data-science" }}">Microbiome data science</a></div>
                                     <div class="dropdown-list-link"><a href="{{ path.Join .URL "/computational-humanities" }}">Computational humanities</a></div>
                                     <div class="dropdown-list-link"><a href="{{ path.Join .URL "/open-science" }}">Open science</a></div>
@@ -42,6 +44,24 @@
                                     <div class="dropdown-list-link last"><a href="{{ path.Join .URL "/funding-and-support" }}">Funding and support</a></div>
                                 </div>
                             </li>
+                            <li class="d2"><a class ="dropbtn2" href="{{ path.Join .URL "/computational-and-data-science" }}">Computational and data science</a></li>
+                            <li class="d2"><a class ="dropbtn2" href="{{ path.Join .URL "/microbiome-data-science" }}">Microbiome data science</a></li>
+                            <li class="d2"><a class ="dropbtn2" href="{{ path.Join .URL "/computational-humanities" }}">Computational humanities</a></li>
+                            <li class="d2"><a class ="dropbtn2" href="{{ path.Join .URL "/open-science" }}">Open science</a></li>
+                            <li class="d2"><a class ="dropbtn2" href="{{ path.Join .URL "/opinion-pieces" }}">Opinion pieces (in Finnish)</a></li>
+                            <li class="d2"><a class ="dropbtn2" href="{{ path.Join .URL "/funding-and-support" }}">Funding and support</a></li>
+                        
+                        {{ else if eq .Name "News"}}
+                        {{ else if eq .Name "Edu" }}
+                            <li class = "dropdown-list"> 
+                                <a class ="dropbtn">{{ .Name }}</a>
+                                <div class ="dropdown-list-content">
+                                    <div class="dropdown-list-link first"><a href="{{ path.Join .URL "/courses-events" }}">Courses and events</a></div>
+                                    <div class="dropdown-list-link"><a href="{{ path.Join .URL "/resources" }}">Resources</a></div>
+                                </div>
+                            </li>
+                            <li class="d2"><a class ="dropbtn2" href="{{ path.Join .URL "/courses-events" }}">Courses and events</a></li>
+                            <li class="d2"><a class ="dropbtn2" href="{{ path.Join .URL "/resources" }}">Resources</a></li>
                         {{ else }}
                             <li><a href="{{ .URL }}">{{ .Name }}</a></li>
                         {{ end }}
