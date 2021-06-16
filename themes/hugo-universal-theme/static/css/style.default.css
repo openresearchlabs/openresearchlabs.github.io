@@ -3720,14 +3720,37 @@ a.list-group-item.active > .badge,
   clip-path:ellipse(50% 50%);
 }
 
+.twitter-logo{
+  height: 4vmin;
+  width: auto;
+  padding-right: 1vmin;
+}
+
+.twitter-logo:hover{
+  filter: opacity(0.6);
+  -webkit-filter: opacity(0.6);
+}
+
+.internet-logo{
+  height: 3vmin;
+  width: auto;
+}
+
+.internet-logo:hover{
+  filter: opacity(0.6);
+  -webkit-filter: opacity(0.6);
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 4fr 0.5fr;
+  grid-template-rows: 250px 0.5fr 1fr 0.5fr;
   gap: 0px 50px;
   grid-template-areas:
     "matti guilhem pande aura"
-    "name-matti name-guilhem name-pande name-aura";
+    "name-matti name-guilhem name-pande name-aura"
+    "keywords-matti keywords-guilhem keywords-pande keywords-aura"
+    "links-matti links-guilhem links-pande links-aura";
   font-weight: bold;
 }
 
@@ -3739,22 +3762,40 @@ a.list-group-item.active > .badge,
 
 .aura { grid-area: aura; text-align: center; clip-path:ellipse(50% 50%);}
 
-.name-matti { grid-area: name-matti; text-align: center; padding-top: 10px;}
+.name-matti { grid-area: name-matti; text-align: center; padding-top: 1vh;}
 
-.name-guilhem { grid-area: name-guilhem;  text-align: center; padding-top: 10px;}
+.name-guilhem { grid-area: name-guilhem;  text-align: center; padding-top: 1vh;}
 
-.name-pande { grid-area: name-pande;  text-align: center; padding-top: 10px;}
+.name-pande { grid-area: name-pande;  text-align: center; padding-top: 1vh;}
 
-.name-aura { grid-area: name-aura;  text-align: center; padding-top: 10px;}
+.name-aura { grid-area: name-aura;  text-align: center; padding-top: 1vh;}
+
+.keywords-matti { grid-area: keywords-matti; text-align: center; font-weight: normal;}
+
+.keywords-guilhem { grid-area: keywords-guilhem; text-align: center; font-weight: normal;}
+
+.keywords-pande { grid-area: keywords-pande; text-align: center; font-weight: normal;}
+
+.keywords-aura { grid-area: keywords-aura; text-align: center; font-weight: normal;}
+
+.links-matti { grid-area: links-matti; text-align: center; padding-top: 0.5vh; }
+
+.links-guilhem { grid-area: links-guilhem; text-align: center; padding-top: 0.5vh; }
+
+.links-pande { grid-area: links-pande; text-align: center; padding-top: 0.5vh; }
+
+.links-aura { grid-area: links-aura; text-align: center; padding-top: 0.5vh; }
 
 .grid-container-2 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 200px 1fr 1fr 1fr;
   grid-template-rows: 4fr 0.5fr;
   gap: 0px 40px;
   grid-template-areas:
     "ville moein chandler iiro vaara"
-    "name-ville name-moein name-chandler name-iiro name-vaara";
+    "name-ville name-moein name-chandler name-iiro name-vaara"
+    "keywords-ville keywords-moein keywords-chandler keywords-iiro keywords-vaara"
+    "links-ville links-moein links-chandler links-iiro links-vaara";
   font-weight: bold;
 }
 
@@ -3778,6 +3819,26 @@ a.list-group-item.active > .badge,
 
 .name-vaara { grid-area: name-vaara;  text-align: center; padding-top: 10px;}
 
+.keywords-ville { grid-area: keywords-ville; text-align: center; font-weight: normal; padding-top: 0.5vh;}
+
+.keywords-moein { grid-area: keywords-moein; text-align: center; font-weight: normal; padding-top: 0.5vh;}
+
+.keywords-chandler { grid-area: keywords-chandler; text-align: center; font-weight: normal; padding-top: 0.5vh;}
+
+.keywords-iiro { grid-area: keywords-iiro; text-align: center; font-weight: normal; padding-top: 0.5vh;}
+
+.keywords-vaara { grid-area: keywords-vaara; text-align: center; font-weight: normal; padding-top: 0.5vh;}
+
+.links-ville { grid-area: links-ville; text-align: center; padding-top: 0.5vh; }
+
+.links-moein { grid-area: links-moein; text-align: center; padding-top: 0.5vh; }
+
+.links-chandler { grid-area: links-chandler; text-align: center; padding-top: 0.5vh; }
+
+.links-iiro { grid-area: links-iiro; text-align: center; padding-top: 0.5vh; }
+
+.links-vaara { grid-area: links-vaara; text-align: center; padding-top: 0.5vh; }
+
 .grid-container-3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -3785,7 +3846,10 @@ a.list-group-item.active > .badge,
   gap: 0px 40px;
   grid-template-areas:
     "joonatan felix henrik mrunalini anna"
-    "name-joonatan name-felix name-henrik name-mrunalini name-anna";
+    "name-joonatan name-felix name-henrik name-mrunalini name-anna"
+    "keywords-joonatan keywords-felix keywords-henrik keywords-mrunalini keywords-anna"
+    "links-joonatan links-felix links-henrik links-mrunalini links-anna";
+
   font-weight: bold;
 }
 
@@ -3809,6 +3873,25 @@ a.list-group-item.active > .badge,
 
 .name-anna { grid-area: name-anna;  text-align: center; padding-top: 10px;}
 
+.keywords-joonatan { grid-area: keywords-joonatan; text-align: center; font-weight: normal; padding-top: 0.5vh;}
+
+.keywords-felix { grid-area: keywords-felix; text-align: center; font-weight: normal; padding-top: 0.5vh;}
+
+.keywords-henrik { grid-area: keywords-henrik; text-align: center; font-weight: normal; padding-top: 0.5vh;}
+
+.keywords-mrunalini { grid-area: keywords-mrunalini; text-align: center; font-weight: normal; padding-top: 0.5vh;}
+
+.keywords-anna { grid-area: keywords-anna; text-align: center; font-weight: normal; padding-top: 0.5vh;}
+
+.links-joonatan { grid-area: links-joonatan; text-align: center; padding-top: 0.5vh; }
+
+.links-felix { grid-area: links-felix; text-align: center; padding-top: 0.5vh; }
+
+.links-henrik { grid-area: links-henrik; text-align: center; padding-top: 0.5vh; }
+
+.links-mrunalini { grid-area: links-mrunalini; text-align: center; padding-top: 0.5vh; }
+
+.links-anna { grid-area: links-anna; text-align: center; padding-top: 0.5vh; }
 .grid-container-4 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -3849,6 +3932,15 @@ a.list-group-item.active > .badge,
   .grid-container-4{
     overflow: scroll;
   }  
+  .twitter-logo{
+    width: 10vh;
+    height: auto;
+    padding-right: 5vw;
+  }
+  .internet-logo{
+    width: 5vh;
+    height: auto;
+  }
 } 
 
 .post-tweets-container {

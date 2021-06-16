@@ -59,10 +59,22 @@ keywords: team
   <div class="guilhem"><img src="../img/teampic/guilhem_s.jpeg" height="250"></div>
   <div class="pande"><img src="../img/teampic/pande_erawijantari.jpg" height="250"></div>
   <div class="aura"><img src="../img/teampic/aura_raulo2_crop.jpg" height="250"></div>
+  
   <div class="name-matti"> Matti Ruuskanen </div>
   <div class="name-guilhem"> Guilhem Sommeria-Klein </div>
-  <div class="name-pande"><a href="https://erawijantari.github.io">Pande Erawijantari</a> </div>
+  <div class="name-pande">Pande Erawijantari </div>
   <div class="name-aura"> Aura Raulo </div>
+
+  <div class="keywords-matti"> Postdoctoral researcher at the University of Turku
+ | Microbial ecology, bioinformatics, human microbiomes, environmental change. </div>
+  <div class="keywords-guilhem">This is a brief description of our team member. Diplomated in ... and working on ... </div>
+  <div class="keywords-pande"> This is a brief description of our team member. Diplomated in ... and working on ... </div>
+  <div class="keywords-aura"> This is a brief description of our team member. Diplomated in ... and working on ... </div>
+
+  <div class="links-matti"><a href="https://twitter.com/mattiruuskanen"><img class="twitter-logo" src="../img/twitter-logo.png"/></a><a href="https://twitter.com/mattiruuskanen"><img class="internet-logo" src="../img/internet-logo.png"/></a></div>
+  <div class="links-guilhem"><a href="https://twitter.com/mattiruuskanen"><img class="twitter-logo" src="../img/twitter-logo.png"/></a><a href="https://twitter.com/mattiruuskanen"><img class="internet-logo" src="../img/internet-logo.png"/></a></div>
+  <div class="links-pande"><a href="https://twitter.com/mattiruuskanen"><img class="twitter-logo" src="../img/twitter-logo.png"/></a><a href="https://erawijantari.github.io/"><img class="internet-logo" src="../img/internet-logo.png"/></a></div>
+  <div class="links-aura"><a href="https://twitter.com/mattiruuskanen"><img class="twitter-logo" src="../img/twitter-logo.png"/></a><a href="https://twitter.com/mattiruuskanen"><img class="internet-logo" src="../img/internet-logo.png"/></a></div>
 </div>
 
 
@@ -81,11 +93,24 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
   <div class="chandler"><img src="../img/teampic/chandler_ross_crop.jpeg" height="200"></div>
   <div class="iiro"><img src="../img/teampic/iiro_tiihonen_crop.jpeg" height="200"></div>
   <div class="vaara"><img src="../img/teampic/ville_vaara.jpg" height="200"></div>
+  
   <div class="name-ville"> Ville Laitinen </div>
-  <div class="name-moein"><a href="https://scholar.google.com/citations?user=XrlaLlUAAAAJ&hl=en"> Moein Khalighi </a></div>
+  <div class="name-moein"> Moein Khalighi </div>
   <div class="name-chandler"> Chandler Ross </div>
   <div class="name-iiro"> Iiro Tiihonen (COMHIS) </div>
   <div class="name-vaara"> Ville Vaara (COMHIS) </div>
+
+  <div class="keywords-ville"> This is a brief description of our team member. Diplomated in ... and working on ... </div>
+  <div class="keywords-moein">This is a brief description of our team member. Diplomated in ... and working on ... </div>
+  <div class="keywords-chandler"> This is a brief description of our team member. Diplomated in ... and working on .. </div>
+  <div class="keywords-iiro"> This is a brief description of our team member. Diplomated in ... and working on ... </div>
+  <div class="keywords-vaara"> This is a brief description of our team member. Diplomated in ... and working on ... </div>
+
+  <div class="links-ville"><a href="https://twitter.com/mattiruuskanen"><img class="twitter-logo" src="../img/twitter-logo.png"/></a><a href="https://twitter.com/mattiruuskanen"><img class="internet-logo" src="../img/internet-logo.png"/></a></div>
+  <div class="links-moein"><a href="https://twitter.com/mattiruuskanen"><img class="twitter-logo" src="../img/twitter-logo.png"/></a><a href="https://scholar.google.com/citations?user=XrlaLlUAAAAJ&hl=en"><img class="internet-logo" src="../img/internet-logo.png"/></a></div>
+  <div class="links-chandler"><a href="https://twitter.com/mattiruuskanen"><img class="twitter-logo" src="../img/twitter-logo.png"/></a><a href="https://twitter.com/mattiruuskanen"><img class="internet-logo" src="../img/internet-logo.png"/></a></div>
+  <div class="links-iiro"><a href="https://twitter.com/mattiruuskanen"><img class="twitter-logo" src="../img/twitter-logo.png"/></a><a href="https://twitter.com/mattiruuskanen"><img class="internet-logo" src="../img/internet-logo.png"/></a></div>
+  <div class="links-vaara"><a href="https://twitter.com/mattiruuskanen"><img class="twitter-logo" src="../img/twitter-logo.png"/></a><a href="https://twitter.com/mattiruuskanen"><img class="internet-logo" src="../img/internet-logo.png"/></a></div>
 </div>
 
 -------------------------
@@ -96,11 +121,24 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
   <div class="henrik"><img src="../img/teampic/henrik_eckerman_crop.jpg" height="200"></div>
   <div class="mrunalini"><img src="../img/teampic/bio-photo.jpg" height="200"></div>
   <div class="anna"><img src="../img/teampic/bio-photo.jpg" height="200"></div>
+  
   <div class="name-joonatan"> Joonatan Palmu (THC) </div>
   <div class="name-felix"> Felix Vaura (THC) </div>
   <div class="name-henrik"> Henrik Eckerman (Nijmegen) </div>
   <div class="name-mrunalini"> Mrunalini Lotankar (VaMiPre) </div>
   <div class="name-anna"> Anna Sorjamaa (Oulu) </div>
+
+  <div class="keywords-joonatan"> This is a brief description of our team member. Diplomated in ... and working on ... </div>
+  <div class="keywords-felix">This is a brief description of our team member. Diplomated in ... and working on ... </div>
+  <div class="keywords-henrik"> This is a brief description of our team member. Diplomated in ... and working on .. </div>
+  <div class="keywords-mrunalini"> This is a brief description of our team member. Diplomated in ... and working on ... </div>
+  <div class="keywords-anna"> This is a brief description of our team member. Diplomated in ... and working on ... </div>
+
+  <div class="links-joonatan"><a href="https://twitter.com/mattiruuskanen"><img class="twitter-logo" src="../img/twitter-logo.png"/></a><a href="https://twitter.com/mattiruuskanen"><img class="internet-logo" src="../img/internet-logo.png"/></a></div>
+  <div class="links-felix"><a href="https://twitter.com/mattiruuskanen"><img class="twitter-logo" src="../img/twitter-logo.png"/></a><a href="https://twitter.com/mattiruuskanen"><img class="internet-logo" src="../img/internet-logo.png"/></a></div>
+  <div class="links-henrik"><a href="https://twitter.com/mattiruuskanen"><img class="twitter-logo" src="../img/twitter-logo.png"/></a><a href="https://twitter.com/mattiruuskanen"><img class="internet-logo" src="../img/internet-logo.png"/></a></div>
+  <div class="links-mrunalini"><a href="https://twitter.com/mattiruuskanen"><img class="twitter-logo" src="../img/twitter-logo.png"/></a><a href="https://twitter.com/mattiruuskanen"><img class="internet-logo" src="../img/internet-logo.png"/></a></div>
+  <div class="links-anna"><a href="https://twitter.com/mattiruuskanen"><img class="twitter-logo" src="../img/twitter-logo.png"/></a><a href="https://twitter.com/mattiruuskanen"><img class="internet-logo" src="../img/internet-logo.png"/></a></div>
 </div>
 
 
