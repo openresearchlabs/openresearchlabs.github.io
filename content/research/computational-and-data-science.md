@@ -6,7 +6,7 @@ keywords: Computational data science
 
 ### Computational and data science
 
-[**Exit time as a measure of ecological resilience**](https://doi.org/10.1126/science.aay4895)  
+[**Exit time as a measure of ecological resilience**](https://doi.org/10.1126/science.aay4895) ([free reprint](https://eur03.safelinks.protection.outlook.com/?url=http%3A%2F%2Fscience.sciencemag.org%2Fcgi%2Frapidpdf%2F372%2F6547%2Feaay4895%3Fijkey%3DnoPPVGqZpliKo%26keytype%3Dref%26siteid%3Dsci&data=04%7C01%7Cegbert.vannes%40wur.nl%7Ceaa49ee4e3ad489436ba08d930162e46%7C27d137e5761f4dc1af88d26430abb18f%7C0%7C0%7C637593694090583707%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=RPI6xZCXCyTIt5NOd5dsU8VYK4PpwqsALWSUDWpkods%3D&reserved=0))
 Science, 372(6547):eaay4895, 2021.  
 Arani BMS, Carpenter SR, Lahti L, van Nes E, Scheffer, M.
 
