@@ -33,18 +33,16 @@ keywords: team
       <a href="http://orcid.org/0000-0001-5537-637X">ORCID: 0000-0001-5537-637X</a>;
       <a href="http://www.researcherid.com/rid/G-3170-2010">ResearcherID: G-3170-2010</a>;
       <a href="https://tinyurl.com/ng6g6tk">Google Scholar</a>;
-      <a href="https://www.scopus.com/authid/detail.uri?authorId=8679063700">Scopus</a>;
-      <a href="http://www.researchgate.net/profile/Leo_Lahti/">ResearchGate</a>;
-      <a href="https://publons.com/author/246930/leo-lahti#stats">Publon</a>;
+      <!--<a href="https://www.scopus.com/authid/detail.uri?authorId=8679063700">Scopus</a>;-->
+      <!--<a href="http://www.researchgate.net/profile/Leo_Lahti/">ResearchGate</a>;-->
+      <a href="https://publons.com/author/246930/leo-lahti#stats">Publons</a>;
       <a href="https://impactstory.org/u/0000-0001-5537-637X">ImpactStory</a>;
-      <a href="http://depsy.org/person/333684">Depsy software impact</a>; 
-      <a href="http://loop.frontiersin.org/people/295152/overview">Loop</a>; 
-      <a href="https://www.scienceopen.com/user/statistics/leo_lahti">ScienceOpen</a>;
+      <!--<a href="https://www.scienceopen.com/user/statistics/leo_lahti">ScienceOpen</a>;-->
       <a href="http://www.ncbi.nlm.nih.gov/sites/myncbi/collections/public/1VaRtFbzqhfLWsXzDa1c5CSQK">PubMed</a>; 
     </li>
-    <li><a href="../contact">Contact information</a> for the research team</li> 
+    <!--<li><a href="../contact">Contact information</a> for the research team</li>-->
     <li><a href="https://twitter.com/antagomir">Twitter / @antagomir</a> personal account</li>
-    <li><a href="pgp_lahti_pm.asc">PGP key</a>
+    <!--<li><a href="pgp_lahti_pm.asc">PGP key</a>-->
   </ul>
 <br>
 </div>
