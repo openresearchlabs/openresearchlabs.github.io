@@ -25,7 +25,7 @@ Lahti L, Marjanen J, Roivainen H, Tolonen M.
 
 [**A Quantitative Approach to Book-Printing in Sweden and Finland, 1640–1828**](https://doi.org/10.1080/01615440.2018.1526657)  
 Historical Methods: A Journal of Quantitative and Interdisciplinary History, 2019.  
-Tolonen M*, Lahti L*, Roivainen H, Marjanen J.
+Tolonen M, Lahti L, Roivainen H, Marjanen J.
 
 [**A National Public Sphere? Analyzing the Language, Location, and Form of Newspapers in Finland, 1771–1917**](https://doi.org/10.21825/jeps.v4i1.10483 )  
 Journal of European Periodical Studies, 2019.  
