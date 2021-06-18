@@ -12,9 +12,9 @@ title: Edu
 
 **2021**
 
- - **June 7-9** [Nordic-Baltic Biometrics Conference](https://nbbc21.helsinki.fi/) Helsinki, Finland 
-
  - **July 5-16** [Brain, Bacteria and Behaviour: Understanding the Gut-Brain Axis](https://www.ru.nl/radboudsummerschool/courses/2021/brain-bacteria-behaviour/) online summer school - apply by May 1, 2021!
+
+ - **August 16-20** [NORBIS Summer School 2021](https://norbis.w.uib.no/norbis-summer-school-2021-program/); National research school in bioinformatics, biostatistics and systems biology, Norway
 
  - **August 23-26** [Baltic Summer School on Digital Methods](https://t.co/MJANYOeYmJ?amp=1) in humanities and social sciences. August 23-26 (online). 
 

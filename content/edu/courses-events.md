@@ -10,25 +10,18 @@ keywords: Forthcoming courses events tutorial data teaching software past
 
 **2021**
 
- - **June 7-9** [Nordic-Baltic Biometrics Conference](https://nbbc21.helsinki.fi/) Helsinki, Finland 
+**July 5-16** [Brain, Bacteria and Behaviour: Understanding the Gut-Brain Axis](https://www.ru.nl/radboudsummerschool/courses/2021/brain-bacteria-behaviour/) online summer school, The Netherlands (virtual)
 
- - **July 5-16** [Brain, Bacteria and Behaviour: Understanding the Gut-Brain Axis](https://www.ru.nl/radboudsummerschool/courses/2021/brain-bacteria-behaviour/) online summer school - apply by May 1, 2021!
+**August 16-20** [NORBIS Summer School 2021](https://norbis.w.uib.no/norbis-summer-school-2021-program/); National research school in bioinformatics, biostatistics and systems biology, Norway (virtual)
 
- - **November 2-4** [Workshop on modeling microbial community time series](http://psbweb05.psb.ugent.be/conet/microbialtimeseries/registration.php). Leuven, Belgium
+**August 23-26** [Baltic Summer School on Digital Methods](https://t.co/MJANYOeYmJ?amp=1) in humanities and social sciences. August 23-26 (virtual). 
 
-### Tutorials and Data
+**November 2-4** [Workshop on modeling microbial community time series](http://psbweb05.psb.ugent.be/conet/microbialtimeseries/registration.php). Leuven, Belgium 
 
-[Microbiome data science: R tutorial](https://microbiome.github.io/tutorials)  
 
-[Open government data analytics: various tutorials](https://ropengov.org/projects)
 
-[Finnish geospatial data visualization in R](https://ropengov.github.io/geofi)
 
-### Teaching software
-
-[A framework for creating and assessing exercises for R courses](https://ropengov.github.io/edu/) (presented in UseR2017!)
-
-### Past courses: links to material
+### Past courses and events: links to material
 
 **Open science**
 
@@ -37,7 +30,7 @@ keywords: Forthcoming courses events tutorial data teaching software past
 
 **Computational science and machine learning**
 
- - [Machine Learning and Algorithmics Seminar (TKO_3121 5 op)](https://opas.peppi.utu.fi/fi/opintojakso/TKO_3121/3255) University of Turku, Finland. 3-5/2021
+ - [Machine Learning and Algorithmics Seminar (TKO_3121 5 op)](https://opas.peppi.utu.fi/fi/opintojakso/TKO_3121/3255) University of Turku, Finland. With Dr. Matti Ruuskanen 3-5/2021
 
  - [Probabilistic data analysis research seminar](https://gitlab.com/openresearchlabs/probabilistic_data_analysis_2020) - University of Turku - 2020 
 
@@ -46,7 +39,6 @@ keywords: Forthcoming courses events tutorial data teaching software past
  - Research seminar on probabilistic machine learning -  University of Turku, Finland based on [Machine learning - a probabilistic perspective](https://www.cs.ubc.ca/~murphyk/MLbook/) (K. Muprhy). [PDF](https://doc.lagout.org/science/Artificial%20Intelligence/Machine%20learning/Machine%20Learning_%20A%20Probabilistic%20Perspective%20%5BMurphy%202012-08-24%5D.pdf) - 2018-2019
 
  - Introduction to probabilistic programming - Lecture slides [ODP](https://github.com/openresearchlabs/openresearchlabs.github.io/tree/master/publications/publications/slides/20180226-rstan-VIB.odp); [PDF](https://github.com/openresearchlabs/openresearchlabs.github.io/tree/master/publications/publications/slides/20180226-rstan-VIB.pdf) - 2018 VIB/KU Leuven, Belgium  
-
 
 
 **Bioinformatics**

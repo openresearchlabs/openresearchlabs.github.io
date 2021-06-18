@@ -6,11 +6,24 @@ keywords: online resources video lectures interview
 
 ## Resources
 
+### Tutorials and Data
+
+[Microbiome data science: R tutorial](https://microbiome.github.io/tutorials)  
+
+[Open government data analytics: various tutorials](http://ropengov.org/projects)
+
+[Finnish geospatial data visualization in R](https://ropengov.github.io/geofi)
+
+### Teaching software
+
+[A framework for creating and assessing exercises for R courses](https://ropengov.github.io/edu/) (presented in UseR2017!)
+
+
 ### Online resources
 
 **National policy and executive plan by the higher education and research community for 2021-2025** Policy component 1 – Open access to educational resources (2020) [DOI:10.23847/isbn.9789525995251](https://doi.org/10.23847/isbn.9789525995251)
 
-[Presentation slides](https://gitlab.utu.fi/opencomp/outreach) 
+<!--[Presentation slides](https://gitlab.utu.fi/opencomp/outreach)-->
 
 <!--Presentation slides, posters and other material available via [Github](https://github.com/openresearchlabs/openresearchlabs.github.io/tree/master/publications).-->
 
@@ -31,6 +44,9 @@ keywords: online resources video lectures interview
 
 [**Open science interview**](http://blogs.helsinki.fi/tiedeviestinta/2014/02/26/leo-lahti/) University of Helsinki, Finland 2/2014
 
+
+<!--
+
 [**Apps4Finland interview**](http://vimeo.com/49912227) Helsinki, 9/2012
 
 <!--[**Open Tools for Open Data in Finland**](http://www.livestream.com/shareconference/video?clipId=pla_62b42b8c-eea4-4555-9447-c3432e356c81), SHARE Conference, Belgrade, Serbia 4/2012-->
@@ -38,6 +54,8 @@ keywords: online resources video lectures interview
 <!--[**Avoimen datan soRvi-kirjaston esittely**](http://www.hri.fi/visualisointiblogi/videot/leo-lahti-esittelee-sorvi-ympariston/) (in Finnish) ([video 1](http://www.hri.fi/visualisointiblogi/videot/leo-lahti-esittelee-sorvi-ympariston/) [video 2](http://www.hri.fi/visualisointiblogi/videot/sorvi-esimerkki-1-leo-lahti-esittelee-sorvi-ohjelmiston-kayttoa/) [video 3](http://www.hri.fi/visualisointiblogi/videot/sorvi-esimerkki-2-leo-lahti-esittelee-sorvi-ohjelmiston-kayttoa/)); 1/2012-->
 
 [**Dependency Modeling Toolkit**](http://videolectures.net/icml2010_lahti_dmt/), ICML/MLSS Workshop. Haifa, Israel 6/2010
+
+-->
 
 
 <!--
@@ -65,6 +83,7 @@ _Digital Humanities conference. Utrecht, 2019_.
 _Biocity symposium, Turku, Finland 2016_.
 
 -->
+
 
 <!--
 
