@@ -3788,8 +3788,8 @@ a.list-group-item.active > .badge,
 
 .grid-container-2 {
   display: grid;
-  grid-template-columns: 200px 1fr 1fr 1fr;
-  grid-template-rows: 4fr 0.5fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 200px 0.5fr 1fr 0,5fr;
   gap: 0px 40px;
   grid-template-areas:
     "ville moein chandler iiro vaara"
@@ -3842,14 +3842,13 @@ a.list-group-item.active > .badge,
 .grid-container-3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 4fr 0.5fr;
+  grid-template-rows: 200px 0.5fr 1fr 0.5fr;
   gap: 0px 40px;
   grid-template-areas:
     "joonatan felix henrik mrunalini anna"
     "name-joonatan name-felix name-henrik name-mrunalini name-anna"
     "keywords-joonatan keywords-felix keywords-henrik keywords-mrunalini keywords-anna"
     "links-joonatan links-felix links-henrik links-mrunalini links-anna";
-
   font-weight: bold;
 }
 
@@ -3892,14 +3891,17 @@ a.list-group-item.active > .badge,
 .links-mrunalini { grid-area: links-mrunalini; text-align: center; padding-top: 0.5vh; }
 
 .links-anna { grid-area: links-anna; text-align: center; padding-top: 0.5vh; }
+
 .grid-container-4 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 4fr 0.5fr;
+  grid-template-rows: 154px 0.5fr 1fr 0.5fr;
   gap: 0px 175px;
   grid-template-areas:
     "pyry tuomas julia renuka"
-    "name-pyry name-tuomas name-julia name-renuka";
+    "name-pyry name-tuomas name-julia name-renuka"
+    "keywords-pyry keywords-tuomas keywords-julia keywords-renuka"
+    "links-pyry links-tuomas links-julia links-renuka";
   font-weight: bold;
 }
 
@@ -3918,6 +3920,22 @@ a.list-group-item.active > .badge,
 .name-julia { grid-area: name-julia;  text-align: center; padding-top: 10px;}
 
 .name-renuka { grid-area: name-renuka;  text-align: center; padding-top: 10px;}
+
+.keywords-pyry { grid-area: keywords-pyry; text-align: center; font-weight: normal; padding-top: 0.5vh;}
+
+.keywords-tuomas { grid-area: keywords-tuomas; text-align: center; font-weight: normal; padding-top: 0.5vh;}
+
+.keywords-julia { grid-area: keywords-julia; text-align: center; font-weight: normal; padding-top: 0.5vh;}
+
+.keywords-renuka { grid-area: keywords-renuka; text-align: center; font-weight: normal; padding-top: 0.5vh;}
+
+.links-pyry { grid-area: links-pyry; text-align: center; padding-top: 0.5vh; }
+
+.links-tuomas { grid-area: links-tuomas; text-align: center; padding-top: 0.5vh; }
+
+.links-julia { grid-area: links-julia; text-align: center; padding-top: 0.5vh; }
+
+.links-renuka { grid-area: links-renuka; text-align: center; padding-top: 0.5vh; }
 
 @media screen and (max-width: 1200px){
   .grid-container{
