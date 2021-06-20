@@ -8,28 +8,33 @@ keywords: online resources video lectures interview
 
 ### Tutorials and Data
 
-[Microbiome data science: R tutorial](https://microbiome.github.io/tutorials)  
+**Microbiome data science**
 
-[Open government data analytics: various tutorials](http://ropengov.org/projects)
-
-[Finnish geospatial data visualization in R](https://ropengov.github.io/geofi)
-
-### Teaching software
-
-[A framework for creating and assessing exercises for R courses](https://ropengov.github.io/edu/) (presented in UseR2017!)
+- [R tutorial for miaverse](https://microbiome.github.io) (beta version)
+- [R tutorial for phyloseq](https://microbiome.github.io/tutorials)
 
 
-### Online resources
+**Open government data analytics**
 
-**National policy and executive plan by the higher education and research community for 2021-2025** Policy component 1 – Open access to educational resources (2020) [DOI:10.23847/isbn.9789525995251](https://doi.org/10.23847/isbn.9789525995251)
+- [Various R tutorials](http://ropengov.org/projects)
+
+**Data visualization**
+
+- [Finnish geospatial data visualization in R](https://ropengov.github.io/geofi)
+
+
+### Teaching software & online resources
+
+[A framework for creating and assessing exercises for R courses](https://ropengov.github.io/edu/) (presented in UseR2017!; Markus Kainu)
+
+**Open access to educational resources** National policy and executive plan by the higher education and research community for 2021-2025 (2020) [DOI:10.23847/isbn.9789525995251](https://doi.org/10.23847/isbn.9789525995251)
 
 <!--[Presentation slides](https://gitlab.utu.fi/opencomp/outreach)-->
 
 <!--Presentation slides, posters and other material available via [Github](https://github.com/openresearchlabs/openresearchlabs.github.io/tree/master/publications).-->
 
-[Blog on open data analytics](https://ropengov.org) (rOpenGov)
-
 [Versus online journal](https://www.versuslehti.fi/english/) for science popularization.
+
 
 ### Video lectures and interviews 
 
@@ -42,16 +47,15 @@ keywords: online resources video lectures interview
 
 [**Microcosm within us: gut microbiome**](https://www.youtube.com/watch?v=68a-tMganyQ) Science Cafe, Turku, Finland 3/2018
 
-[**Open science interview**](http://blogs.helsinki.fi/tiedeviestinta/2014/02/26/leo-lahti/) University of Helsinki, Finland 2/2014
 
 
 <!--
 
 [**Apps4Finland interview**](http://vimeo.com/49912227) Helsinki, 9/2012
 
-<!--[**Open Tools for Open Data in Finland**](http://www.livestream.com/shareconference/video?clipId=pla_62b42b8c-eea4-4555-9447-c3432e356c81), SHARE Conference, Belgrade, Serbia 4/2012-->
+[**Open Tools for Open Data in Finland**](http://www.livestream.com/shareconference/video?clipId=pla_62b42b8c-eea4-4555-9447-c3432e356c81), SHARE Conference, Belgrade, Serbia 4/2012
 
-<!--[**Avoimen datan soRvi-kirjaston esittely**](http://www.hri.fi/visualisointiblogi/videot/leo-lahti-esittelee-sorvi-ympariston/) (in Finnish) ([video 1](http://www.hri.fi/visualisointiblogi/videot/leo-lahti-esittelee-sorvi-ympariston/) [video 2](http://www.hri.fi/visualisointiblogi/videot/sorvi-esimerkki-1-leo-lahti-esittelee-sorvi-ohjelmiston-kayttoa/) [video 3](http://www.hri.fi/visualisointiblogi/videot/sorvi-esimerkki-2-leo-lahti-esittelee-sorvi-ohjelmiston-kayttoa/)); 1/2012-->
+[**Avoimen datan soRvi-kirjaston esittely**](http://www.hri.fi/visualisointiblogi/videot/leo-lahti-esittelee-sorvi-ympariston/) (in Finnish) ([video 1](http://www.hri.fi/visualisointiblogi/videot/leo-lahti-esittelee-sorvi-ympariston/) [video 2](http://www.hri.fi/visualisointiblogi/videot/sorvi-esimerkki-1-leo-lahti-esittelee-sorvi-ohjelmiston-kayttoa/) [video 3](http://www.hri.fi/visualisointiblogi/videot/sorvi-esimerkki-2-leo-lahti-esittelee-sorvi-ohjelmiston-kayttoa/)); 1/2012
 
 [**Dependency Modeling Toolkit**](http://videolectures.net/icml2010_lahti_dmt/), ICML/MLSS Workshop. Haifa, Israel 6/2010
 
@@ -85,29 +89,3 @@ _Biocity symposium, Turku, Finland 2016_.
 -->
 
 
-<!--
-
-[Human intestinal microbiota dynamics and stability in large population cohorts](../publications/publications/posters/20150331-IHMC/poster.pdf)  
-_International Human Microbiome Conference 2015_.
-
-[Diversity and Stability analysis of the Human Gut Microbiota from Birth to Retirement](http://www.slideshare.net/antagomir/poster-14221161)
-
-[Fully scalable online­preprocessing approach for large­scale gene expression atlases](../publications/publications/posters/20120908-ECCB-RPA/poster.pdf)
-_European Conference on Computational Biology, Basel 2012_.
-
-[Meta-analysis of human gut microbiota: Community composition and health associations](http://posters.f1000.com/P1886) _ISMB, Vienna 2011_.
-
-[Combining multiple data sources in functional genomics for improving genome-wide inferences](../publications/publications/posters/sysbioposteri07.pdf) _SYSBIO symposium, Helsinki, Finland 2007_.
-
-[Probabilistic analysis of probe performance on short nucleotide arrays](../publications/publications/posters/ismb07_a4.pdf) _ISMB, Vienna, 2007_. 
--->
-
-
-<!--
-
-Societies
------------
-
-[Open Knowledge Foundation Finland - Open Science Work Group](http://fi.okfn.org/wg/openscience/). Supporting member of [Public Library of Science](http://www.plos.org) (PLoS); [International Society for Microbial Ecology](http://www.isme-microbes.org/) (ISME); [Society for Bioinformatics in Northern Europe](http://www.socbin.org) (SocBIN); [Electronic Frontier Finland](http://www.effi.org) (EFFI); [Amnesty International](http://www.amnesty.fi) (founding member and president 2001-2004 for student group at Helsinki University of Technology); [Friends of the Earth](http://www.maanystavat.fi); [Service Civil International](http://www.kvtfinland.org) (SCI); [Association for Online Democrary in Finland](http://www.verkkodemokratia.fi/); [Kansan Muisti](http://kansanmuisti.fi); [The Association for Investigative Journalism in Finland](http://www.tutkiva.fi/content/association-investigative-journalism-finland); [Open Knowledge Foundation Finland](http://fi.okfn.org/).
-
--->

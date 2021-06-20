@@ -22,6 +22,7 @@ keywords: team
     <li>Associate Professor (Data Science)</li>
     <li>Academy of Finland Research Fellow 2016-2021</li>
     <li>Director, Turku Center for Computational Humanities</li>
+    <li>Editorial board (comp/stat/ml section): <a href="http://www.nature.com/ismej">ISME</a>; <a href="https://microbiomejournal.biomedcentral.com">Microbiome</a>; <a href="https://www.versuslehti.fi/english/">Versus</a> 
     <li><a href="https://tenk.fi/en/research-misconduct/research-integrity-advisers">National Board on Research Integrity (TENK)</a> research integrity adviser</li>
     <li> <a href="https://avointiede.fi/fi/koordinaatio">National open science coordination</a> steering group</li> 
     <li> <a href="http://www.tkts.fi/etusivu">Finnish Society for Computer Science</a> board</li> 
@@ -120,10 +121,24 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
 
 
 <br><br>
+
 ## Alumni
 
-Anna Aatsinki (2019-2021) | Wisam Saleem (2019-2020) | Prashant Gaikwad (2019) | Aaro Salosensaari (2019-2020) | Anastasia Karavaeva (2019) | Tim Garrels (2020) | Hege Roivainen (2016-2020) | Binu Matthew (2019-2020)
- 
+Co-supervised PhDs:
+- Anna Aatsinki (University of Turku, 2021; with Finnbrain)
+- Sudarshan Shetty (Wageningen University, 2019; with Willem M de Vos)
 
+Research assistants:
+- Tim Garrels (2020; BARI internship)
+- Hege Roivainen (2016-2020; at Helsinki Computational History Group)
+- Aaro Salosensaari (2019-2020)
+- Binu Matthew (2019-2020)
+- Prashant Gaikwad (2019; SPARC / supported by Government of India)
 
+MSc students:
+- Emma Gheysen (KU Leuven, BE 2021; with Prof. Karoline Faust)
+- Anastasia Karavaeva (2020)
+- Wisam Saleem (2019-2020)
+- Leila Paquay (KU Leuven, Belgium, 2018)
+- Marnix Denys (KU Leuven, Belgium, 2015)
 

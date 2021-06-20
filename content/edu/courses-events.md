@@ -10,15 +10,21 @@ keywords: Forthcoming courses events tutorial data teaching software past
 
 **2021**
 
-**July 5-16** [Brain, Bacteria and Behaviour: Understanding the Gut-Brain Axis](https://www.ru.nl/radboudsummerschool/courses/2021/brain-bacteria-behaviour/) online summer school, The Netherlands (virtual)
+**Jul 5-16** [Brain, Bacteria and Behaviour: Understanding the Gut-Brain Axis](https://www.ru.nl/radboudsummerschool/courses/2021/brain-bacteria-behaviour/) online summer school, The Netherlands (virtual)
 
-**August 16-20** [NORBIS Summer School 2021](https://norbis.w.uib.no/norbis-summer-school-2021-program/); National research school in bioinformatics, biostatistics and systems biology, Norway (virtual)
+**Aug 16-20** [NORBIS Summer School 2021](https://norbis.w.uib.no/norbis-summer-school-2021-program/); National research school in bioinformatics, biostatistics and systems biology, Norway (virtual)
 
-**August 23-26** [Baltic Summer School on Digital Methods](https://t.co/MJANYOeYmJ?amp=1) in humanities and social sciences. August 23-26 (virtual). 
+**Aug 23-26** [Baltic Summer School on Digital Methods](https://t.co/MJANYOeYmJ?amp=1) in humanities and social sciences. 
 
-**November 2-4** [Workshop on modeling microbial community time series](http://psbweb05.psb.ugent.be/conet/microbialtimeseries/registration.php). Leuven, Belgium 
+**Nov 2-4** [Workshop on modeling microbial community time series](http://psbweb05.psb.ugent.be/conet/microbialtimeseries/registration.php). Leuven, Belgium 
 
+### Topics for MSc/PhD theses
 
+Welcome to [contact us](../contact/) to discuss research/study positions.
+
+We supervise study assignments (BSc/MSc/PhD) on computational science / machine learning / AI theory, methods, and applications.
+
+Application topics are available in e.g. statistical ecology and (eco)systems biology, computational history, and open government data analytics.
 
 
 ### Past courses and events: links to material
@@ -43,7 +49,7 @@ keywords: Forthcoming courses events tutorial data teaching software past
 
 **Bioinformatics**
 
-- [Microbiome Data Analysis Workshop](https://mdawo.meetinghand.com/) - Hasselt University, Limburg, Belgium (online)
+- [Microbiome Data Analysis Workshop](https://mdawo.meetinghand.com/) - Hasselt University, Limburg, Belgium, Apr 2021 (online)
 
 - [Tools and techniques for skin microbiome research](http://sppudocs.unipune.ac.in/sites/news_events/Lists/News%20and%20Announcements/Attachments/4783/workshop%20flyer_02.122020.pdf) - Savitribai Phule Pune University, Pune, India, Jan 2021
 
