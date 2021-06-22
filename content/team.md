@@ -156,7 +156,7 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
   <div class="name-renuka"> Renuka Potbhare (Pune) </div>
 
   <div class="keywords-pyry"> R programming, Open data, Social research </div>
-  <div class="keywords-tuomas"> </div>
+  <div class="keywords-tuomas"> Bioinformatics, Human microbiome, R package development </div>
   <div class="keywords-julia"> </div>
   <div class="keywords-renuka"> </div>
 
