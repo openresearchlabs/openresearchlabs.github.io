@@ -4034,3 +4034,58 @@ a.list-group-item.active > .badge,
     padding-left: 1vw ;
   }
 }
+
+.code-boxes-container {
+  display: grid;
+  grid-template-columns: 16vmax 16vmax 16vmax;
+  grid-template-rows: 15vmin 15vmin;
+  gap: 4vh 5vw;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "miaverse ropengov bioconductor"
+    "COMHIS other data";
+  padding-bottom: 2vh;
+}
+
+.miaverse { grid-area: miaverse; background-color: #F7F7F7; border-radius: 3vmin 0 3vmin 0; text-align: center;}
+
+.ropengov { grid-area: ropengov; background-color: #F7F7F7; border-radius: 3vmin 0 3vmin 0; text-align: center; }
+
+.bioconductor { grid-area: bioconductor; background-color: #F7F7F7; border-radius: 3vmin 0 3vmin 0; text-align: center; }
+
+.COMHIS { grid-area: COMHIS; background-color: #F7F7F7; border-radius: 3vmin 0 3vmin 0; text-align: center; }
+
+.other { grid-area: other; background-color: #F7F7F7; border-radius: 3vmin 0 3vmin 0; text-align: center; }
+
+.data { grid-area: data; background-color: #F7F7F7; border-radius: 3vmin 0 3vmin 0; text-align: center; }
+
+.pic-code {
+  margin-top: 7.5vh;
+  transform: translateY(-50%);
+  max-width: 15vw;
+  max-height: 13vh;
+}
+
+.pic-other {
+  width: 8vw;
+}
+
+@media screen and (max-width: 768px){
+  .code-boxes-container{
+    margin-left: auto;
+    grid-template-columns: 90vw;
+    grid-template-rows: 15vh 15vh 15vh 15vh 15vh 15vh;
+    gap: 4vh;
+    grid-template-areas:
+      "miaverse"
+      "ropengov" 
+      "bioconductor"
+      "COMHIS" 
+      "other" 
+      "data";
+  }
+
+  .pic-code{
+    max-width: 75vw;
+  }
+}
