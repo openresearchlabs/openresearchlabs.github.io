@@ -173,7 +173,3 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
 ## Alumni
 
 Anna Aatsinki (2019-2021) | Wisam Saleem (2019-2020) | Prashant Gaikwad (2019) | Aaro Salosensaari (2019-2020) | Anastasia Karavaeva (2019) | Tim Garrels (2020) | Hege Roivainen (2016-2020) | Binu Matthew (2019-2020)
- 
-
-
-

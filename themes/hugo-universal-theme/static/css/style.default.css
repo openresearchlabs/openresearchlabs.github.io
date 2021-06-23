@@ -2577,6 +2577,7 @@ fieldset[disabled] .btn-template-primary.active {
   margin: 0 0 20px;
 }
 #footer {
+  margin-top: 8vmin;
   background: #555555;
   padding: 50px 0;
   color: #999999;
