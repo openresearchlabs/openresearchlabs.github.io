@@ -170,6 +170,26 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
 
 
 <br><br>
+
 ## Alumni
 
-Anna Aatsinki (2019-2021) | Wisam Saleem (2019-2020) | Prashant Gaikwad (2019) | Aaro Salosensaari (2019-2020) | Anastasia Karavaeva (2019) | Tim Garrels (2020) | Hege Roivainen (2016-2020) | Binu Matthew (2019-2020)
+Co-supervised PhDs:
+
+- Anna Aatsinki (University of Turku, 2021; with Finnbrain)
+- Sudarshan Shetty (Wageningen University, 2019; with Willem M de Vos)
+
+Research assistants:
+
+- Tim Garrels (2020; BARI internship)
+- Hege Roivainen (2016-2020; at Helsinki Computational History Group)
+- Aaro Salosensaari (2019-2020)
+- Binu Matthew (2019-2020)
+- Prashant Gaikwad (2019; SPARC / supported by Government of India)
+
+MSc students:
+
+- Emma Gheysen (KU Leuven, BE 2021; with Prof. Karoline Faust)
+- Anastasia Karavaeva (2020)
+- Wisam Saleem (2019-2020)
+- Leila Paquay (KU Leuven, Belgium, 2018)
+
