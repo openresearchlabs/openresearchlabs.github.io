@@ -22,7 +22,6 @@ keywords: team
     <li>Associate Professor (Data Science)</li>
     <li>Academy of Finland Research Fellow 2016-2021</li>
     <li>Director, Turku Center for Computational Humanities</li>
-    <li>Editorial board (comp/stat/ml section): <a href="http://www.nature.com/ismej">ISME</a>; <a href="https://microbiomejournal.biomedcentral.com">Microbiome</a>; <a href="https://www.versuslehti.fi/english/">Versus</a> 
     <li><a href="https://tenk.fi/en/research-misconduct/research-integrity-advisers">National Board on Research Integrity (TENK)</a> research integrity adviser</li>
     <li> <a href="https://avointiede.fi/fi/koordinaatio">National open science coordination</a> steering group</li> 
     <li> <a href="http://www.tkts.fi/etusivu">Finnish Society for Computer Science</a> board</li> 
@@ -34,16 +33,18 @@ keywords: team
       <a href="http://orcid.org/0000-0001-5537-637X">ORCID: 0000-0001-5537-637X</a>;
       <a href="http://www.researcherid.com/rid/G-3170-2010">ResearcherID: G-3170-2010</a>;
       <a href="https://tinyurl.com/ng6g6tk">Google Scholar</a>;
-      <!--<a href="https://www.scopus.com/authid/detail.uri?authorId=8679063700">Scopus</a>;-->
-      <!--<a href="http://www.researchgate.net/profile/Leo_Lahti/">ResearchGate</a>;-->
-      <a href="https://publons.com/author/246930/leo-lahti#stats">Publons</a>;
+      <a href="https://www.scopus.com/authid/detail.uri?authorId=8679063700">Scopus</a>;
+      <a href="http://www.researchgate.net/profile/Leo_Lahti/">ResearchGate</a>;
+      <a href="https://publons.com/author/246930/leo-lahti#stats">Publon</a>;
       <a href="https://impactstory.org/u/0000-0001-5537-637X">ImpactStory</a>;
-      <!--<a href="https://www.scienceopen.com/user/statistics/leo_lahti">ScienceOpen</a>;-->
+      <a href="http://depsy.org/person/333684">Depsy software impact</a>; 
+      <a href="http://loop.frontiersin.org/people/295152/overview">Loop</a>; 
+      <a href="https://www.scienceopen.com/user/statistics/leo_lahti">ScienceOpen</a>;
       <a href="http://www.ncbi.nlm.nih.gov/sites/myncbi/collections/public/1VaRtFbzqhfLWsXzDa1c5CSQK">PubMed</a>; 
     </li>
-    <!--<li><a href="../contact">Contact information</a> for the research team</li>-->
+    <li><a href="../contact">Contact information</a> for the research team</li> 
     <li><a href="https://twitter.com/antagomir">Twitter / @antagomir</a> personal account</li>
-    <!--<li><a href="pgp_lahti_pm.asc">PGP key</a>-->
+    <li><a href="pgp_lahti_pm.asc">PGP key</a>
   </ul>
 <br>
 </div>
@@ -169,30 +170,6 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
 
 
 <br><br>
-<<<<<<< HEAD
 ## Alumni
 
 Anna Aatsinki (2019-2021) | Wisam Saleem (2019-2020) | Prashant Gaikwad (2019) | Aaro Salosensaari (2019-2020) | Anastasia Karavaeva (2019) | Tim Garrels (2020) | Hege Roivainen (2016-2020) | Binu Matthew (2019-2020)
-=======
-
-## Alumni
-
-Co-supervised PhDs:
-- Anna Aatsinki (University of Turku, 2021; with Finnbrain)
-- Sudarshan Shetty (Wageningen University, 2019; with Willem M de Vos)
-
-Research assistants:
-- Tim Garrels (2020; BARI internship)
-- Hege Roivainen (2016-2020; at Helsinki Computational History Group)
-- Aaro Salosensaari (2019-2020)
-- Binu Matthew (2019-2020)
-- Prashant Gaikwad (2019; SPARC / supported by Government of India)
-
-MSc students:
-- Emma Gheysen (KU Leuven, BE 2021; with Prof. Karoline Faust)
-- Anastasia Karavaeva (2020)
-- Wisam Saleem (2019-2020)
-- Leila Paquay (KU Leuven, Belgium, 2018)
-- Marnix Denys (KU Leuven, Belgium, 2015)
-
->>>>>>> c0b40b06584fff7b9a24a88e759ad6d826a3fc8b
