@@ -1,3 +1,6 @@
+The material in this folder is only permitted for use in this
+University of Turku website.
+
 Agora-syksy-2015-14_hires.jpg
 Author: Hanna Oksanen
 
