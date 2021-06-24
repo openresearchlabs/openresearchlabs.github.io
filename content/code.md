@@ -4,6 +4,27 @@ keywords: code
 title: Code
 ---
 
+<div id = "ref" class="code-boxes-container">
+  <div class="miaverse"><a href="https://microbiome.github.io/" target="_blank"><div>
+    <img class="pic-code" src="../img/boxes-code/miaverse_logo.png"/>
+  </div></a></div>
+  <div class="ropengov"><a href="http://ropengov.org/" target="_blank"><div>
+    <img class="pic-code" src="../img/boxes-code/ropengov.PNG"/>
+  </div></a></div>
+  <div class="bioconductor"><a href="https://www.bioconductor.org/help/search/index.html?q=Leo+Lahti/" target="_blank"><div>
+    <img class="pic-code" src="../img/boxes-code/bioconductorlogo.jpg"/>
+  </div></a></div>
+  <div class="COMHIS"><a href="https://www2.helsinki.fi/en/researchgroups/computational-history" target="_blank"><div>
+    <img class="pic-code" src="../img/boxes-code/comhis.png"/>
+  </div></a></div>
+  <div class="other"><a href="/code#ref"><div>
+    <img class="pic-code pic-other" src="../img/boxes-code/other.png"/>
+  </div></a></div>
+  <div class="data"><a href="https://datadryad.org/search?utf8=%E2%9C%93&q=Leo+Lahti" target="_blank"><div>
+    <img class="pic-code" src="../img/boxes-code/data-logo.png"/>
+  </div></a></div>
+</div>
+
 
 # Open research data and software
 

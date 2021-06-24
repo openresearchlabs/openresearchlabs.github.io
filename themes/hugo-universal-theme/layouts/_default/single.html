@@ -19,7 +19,9 @@
                     <!-- *** LEFT COLUMN *** -->
 
                     <div class="col-md-9" id="blog-post">
-
+                        {{ if eq .Title "Research" }}
+                            {{ partial "research.html" }}
+                        {{ end }}
                         {{ if or .Params.author .Params.date }}
                           <p class="text-muted text-uppercase mb-small text-right">
                             {{ if .Params.author }}{{ i18n "authorBy" }} <a href="#">{{ .Params.author }}</a>{{ end }}
@@ -32,11 +34,11 @@
                           {{ .Content }}
                         </div>
                         <!-- /#post-content -->
-                        {{ if .Site.DisqusShortname }}
+                        <!-- {{ if .Site.DisqusShortname }}
                         <div id="comments">
                             {{ template "_internal/disqus.html" . }}
-                        </div>
-                        {{ end }}
+                        </div> 
+                        {{ end }}-->
 
                     </div>
                     <!-- /#blog-post -->
@@ -49,7 +51,7 @@
 
                         <!-- *** MENUS AND WIDGETS *** -->
 
-                        {{ partial "sidebar.html" . }}
+                        <!-- {{ partial "sidebar.html" . }} -->
 
                         <!-- *** MENUS AND FILTERS END *** -->
 

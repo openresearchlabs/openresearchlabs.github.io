@@ -7,19 +7,24 @@
 
     <div id="all">
 
-        {{ partial "top.html" . }}
-
         {{ partial "nav.html" . }}
+ 
+        {{ partial "boxes.html" . }}
 
-        {{ partial "carousel.html" . }}
+        <div class="post-tweets-container">
+          
+          <div class="recent-posts"></div>
 
-        <!--{{ partial "features.html" . }}-->
+          {{ partial "recent_posts.html" . }}
 
+          <div class="twitter-feed"></div>
+
+          {{ partial "twitter.html" . }}
+
+        </div>
         {{ partial "testimonials.html" . }}
 
         {{ partial "see_more.html" . }}
-
-        {{ partial "recent_posts.html" . }}
 
         {{ partial "clients.html" . }}
 

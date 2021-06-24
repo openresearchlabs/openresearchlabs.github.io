@@ -1,68 +1,69 @@
-{{ if isset .Site.Params "recent_posts" }}
-{{ if .Site.Params.recent_posts.enable }}
-<section class="bar background-white no-mb">
-    <div class="container">
+<div id="recent-posts">
+    <h2>Recent publications</h2>
 
-        <div class="col-md-12">
-            <div class="heading text-center">
-                <h2>{{ .Site.Params.recent_posts.title | markdownify }}</h2>
-            </div>
+        <!--See [Google scholar](https://scholar.google.co.uk/citations?user=mjjV-AoAAAAJ&hl=fi&oi=ao).-->
 
-            <p class="lead">
-              {{ .Site.Params.recent_posts.subtitle | markdownify }}
-            </p>
+        Below some examples from recent publications.
+        See <a href="http://orcid.org/0000-0001-5537-637X">ORCID</a> for a full list. 
+        Full publication list is also available as <a href="https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/bibtex/lahti.bib">bibtex</a>
+        Copies of most papers are available <a href="https://github.com/openresearchlabs/openresearchlabs.github.io/tree/master/content/publication_resources">here</a>, and we can share free copies upon request.
 
-            <!-- *** BLOG HOMEPAGE *** -->
+    <h3 id="computational-and-data-science">Computational and data science</h3>
 
-            <div class="row">
-                {{ $posts := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
-                {{ range first 4 $posts.Pages }}
-                <div class="col-md-3 col-sm-6">
-                    <div class="box-image-text blog">
-                        <div class="top">
-                            <div class="image" style="overflow:hidden">
-                                {{ if isset .Params "banner" }}
-                                <img src="{{ .Params.banner | relURL }}" class="img-responsive" alt="" >
-                                {{ else }}
-                                <img src="{{ "img/placeholder.png" | relURL }}" class="img-responsive" alt="">
-                                {{ end }}
-                            </div>
-                            <div class="bg"></div>
-                            <div class="text">
-                                <p class="buttons">
-                                    <a href="{{ .Permalink }}" class="btn btn-template-transparent-primary"><i class="fas fa-link"></i> {{ i18n "readMore" }}</a>
-                                </p>
-                            </div>
-                        </div>
+    <p>
+      
+      <a href="https://doi.org/10.1126/science.aay4895"><strong>Exit time as a measure of ecological resilience</strong></a><br>Science 2021. (<a href="https://eur03.safelinks.protection.outlook.com/?url=http%3A%2F%2Fscience.sciencemag.org%2Fcgi%2Frapidpdf%2F372%2F6547%2Feaay4895%3Fijkey%3DnoPPVGqZpliKo%26keytype%3Dref%26siteid%3Dsci&data=04%7C01%7Cegbert.vannes%40wur.nl%7Ceaa49ee4e3ad489436ba08d930162e46%7C27d137e5761f4dc1af88d26430abb18f%7C0%7C0%7C637593694090583707%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=RPI6xZCXCyTIt5NOd5dsU8VYK4PpwqsALWSUDWpkods%3D&reserved=0">Free reprint</a>)<br>Arani BMS, Carpenter S, Lahti L, van Nes E, Scheffer M.<br>
+    </p>
+    
+    <p>
+        <a href="http://ceur-ws.org/Vol-2612/paper6.pdf"><strong>Wrangling with Non-Standard Data</strong></a><br>Proc. Digital Humanities in the Nordic Countries 2020.<br>Mäkelä E, Lagus K, Lahti L, Säily T, Tolonen M, Hämäläinen M, Kaislaniemi S, Nevalainen T.<br>Best long paper in DHN2020.
+    </p>
+    <p>
+        <a href="https://doi.org/10.3390/sym13030368"><strong>Three-species Lotka-Volterra model with respect to Caputo and Caputo-Fabrizio fractional operators</strong></a><br>Symmetry 2021.<br>Khalighi M, Eftekhari L, Hosseinpour S, Lahti L.
+    </p>
 
-                        <div class="content">
-                            <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-                            <p class="author-category">
-                            {{ with .Params.author }}
-                            {{ i18n "authorBy" }} <a href="#">{{ . }}</a>
-                            {{ end }}
-                            {{ i18n "publishedOn" }} {{ .Date.Format .Site.Params.date_format }}
-                            </p>
-                            <p class="intro">{{ .Summary }}</p>
-                            <p class="read-more">
-                              <a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a>
-                            </p>
-                        </div>
-                    </div>
-                    <!-- /.box-image-text -->
+    <h3 id="microbiome-data-science">Microbiome data science</h3>
+    <p>
+        <a href="https://doi.org/10.1038/s41467-021-22962-y"><strong>Taxonomic signatures of cause-specific mortality risk in human gut microbiome</strong></a><br>Salosensaari A<em>, Laitinen V</em>, Havulinna A, Meric G, Cheng S, Perola M, Valsta L, Alfthan G, Inouye M, Watrous JD, Long T, Salido R, Sanders K, Brennan C, Humphrey GC, Sanders JG, Jain M, Jousilahti P, Salomaa V, Knight R, Lahti L<em>, Niiranen T</em>.<br>Nature Communications 12:2671, May 2021.
+    </p>
+    <p>
+        <a href="https://doi.org/10.1111/1462-2920.15462"><strong>Modeling spatial patterns in host-associated microbial communities</strong></a><br>Ruuskanen M<em>, Sommeria-Klein G</em>, Havulinna A, Niiranen T, Lahti L.<br>Environmental Microbiology 23(5), 2021. 
+    </p>
 
-                </div>
-                {{ end }}
+    <h3 id="computational-humanities">Computational humanities</h3>
+    <p>
+        <a href="https://doi.org/10.1007/978-3-030-54913-8_3"><strong>Examining the Early Modern Canon: <em>The English Short Title Catalogue</em> and Large-Scale Patterns of Cultural Production</strong></a><br>In: Baird I. (eds) Data Visualization in Enlightenment Literature and Culture. Palgrave Macmillan, Cham. pp. 63-119, 2021. Tolonen M, Hill MJ, Ijaz AZ, Vaara V, Lahti L.
+    </p>
 
-            </div>
-            <!-- /.row -->
 
-            <!-- *** BLOG HOMEPAGE END *** -->
+    <p>
+        <a href="http://ceur-ws.org/Vol-2723/short46.pdf"><strong>Quantifying bias and uncertainty in historical data collections with probabilistic programming</strong></a><br> In: CEUR Workshop Proc. on Computational Humanities Research, 2020. Lahti L, Mäkelä E, Tolonen M.
+    </p>
 
-        </div>
-    </div>
-    <!-- /.container -->
-</section>
-<!-- /.bar -->
-{{ end }}
-{{ end }}
+    <p>
+        <a href="https://doi.org/10.1080/01639374.2018.1543747"><strong>Bibliographic Data Science and the History of the Book (c. 1500-1800)</strong></a><br> Cataloging and classification quarterly, 2019. Lahti L, Marjanen J, Roivainen H, Tolonen M.      
+    </p> 
+
+    
+<h3 id="open-science">Open science</h3>
+    <p>
+        <a href="https://doi.org/10.3897/rio.3.e13593"><strong>Alchemy &amp; algorithms: perspectives on the philosophy and history of open science</strong></a><br>RIO Journal 2017.<br>Lahti L, da Silva F, Laine MP, Lähteenoja V, Tolonen M.
+    </p>
+    
+    <p>
+        <a href="https://doi.org/10.23847/isbn.9789525995251"><strong>Open education and educational resources. National policy and executive plan by the higher education and research community for 2021-2025 - Policy component 1: Open access to educational resources</strong></a><br>Responsible Research Series 16:2020. Helsinki, Finland. Published by the Committee for Public Information (TJNK)   and Federation of Finnish Learned Societies (TSV).
+    </p>
+
+    <p>
+        <a href="http://urn.fi/URN:NBN:fi-fe201802123334  "><strong>Opening academic publishing: development and application of systematic evaluation criteria. Report on the openness of major scientific publishers</strong></a><br> Finnish IT Center for Science (CSC) and Ministry of Education and Culture, Open Science and Research Initiative (ATT). 2018. Björk A, Paavolainen J-M, Ropponen T, Laakso M, Lahti L.
+    </p>    
+
+    
+<h3 id="opinion-pieces-in-finnish-">Opinion pieces (in Finnish)</h3>
+    <p>
+        <a href="https://blogs.helsinki.fi/thinkopen/lahdekoodin-avoimuus-paatoksenteossa/"><strong>Avoimuus voi vahvistaa päätöksenteon tieteellistä pohjaa</strong></a><br>Invited opinion piece: University of Helsinki, ThinkOpen blog. August 2020.<br>Lahti L.
+    </p>    
+    <p>
+        <a href="https://www.ennenjanyt.net/2015/08/aatehistoria-ja-digitaalisten-aineistojen-mahdollisuudet/"><strong>Aatehistoria ja digitaalisten aineistojen mahdollisuudet</strong></a><br>Ennen &amp; Nyt (Finland) 2015.<br>Tolonen M, Lahti L.
+    </p>
+</div>
