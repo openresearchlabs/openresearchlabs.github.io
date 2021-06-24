@@ -28,8 +28,6 @@ title: Code
 
 # Open research data and software
 
-[![Research software impact](http://depsy.org/api/person/333684/badge.svg)](http://depsy.org/person/333684). Mature open source projects are listed below. 
-
 
 ### Statistical ecology and machine learning
 

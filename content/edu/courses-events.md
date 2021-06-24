@@ -10,25 +10,24 @@ keywords: Forthcoming courses events tutorial data teaching software past
 
 **2021**
 
- - **June 7-9** [Nordic-Baltic Biometrics Conference](https://nbbc21.helsinki.fi/) Helsinki, Finland 
+**Jul 5-16** [Brain, Bacteria and Behaviour: Understanding the Gut-Brain Axis](https://www.ru.nl/radboudsummerschool/courses/2021/brain-bacteria-behaviour/) online summer school, The Netherlands (virtual)
 
- - **July 5-16** [Brain, Bacteria and Behaviour: Understanding the Gut-Brain Axis](https://www.ru.nl/radboudsummerschool/courses/2021/brain-bacteria-behaviour/) online summer school - apply by May 1, 2021!
+**Aug 16-20** [NORBIS Summer School 2021](https://norbis.w.uib.no/norbis-summer-school-2021-program/); National research school in bioinformatics, biostatistics and systems biology, Norway (virtual)
 
- - **November 2-4** [Workshop on modeling microbial community time series](http://psbweb05.psb.ugent.be/conet/microbialtimeseries/registration.php). Leuven, Belgium
+**Aug 23-26** [Baltic Summer School on Digital Methods](https://t.co/MJANYOeYmJ?amp=1) in humanities and social sciences. 
 
-### Tutorials and Data
+**Nov 2-4** [Workshop on modeling microbial community time series](http://psbweb05.psb.ugent.be/conet/microbialtimeseries/registration.php). Leuven, Belgium 
 
-[Microbiome data science: R tutorial](https://microbiome.github.io/tutorials)  
+### Topics for MSc/PhD theses
 
-[Open government data analytics: various tutorials](https://ropengov.org/projects)
+Welcome to [contact us](../contact/) to discuss research/study positions.
 
-[Finnish geospatial data visualization in R](https://ropengov.github.io/geofi)
+We supervise study assignments (BSc/MSc/PhD) on computational science / machine learning / AI theory, methods, and applications.
 
-### Teaching software
+Application topics are available in e.g. statistical ecology and (eco)systems biology, computational history, and open government data analytics.
 
-[A framework for creating and assessing exercises for R courses](https://ropengov.github.io/edu/) (presented in UseR2017!)
 
-### Past courses: links to material
+### Past courses and events: links to material
 
 **Open science**
 
@@ -37,7 +36,7 @@ keywords: Forthcoming courses events tutorial data teaching software past
 
 **Computational science and machine learning**
 
- - [Machine Learning and Algorithmics Seminar (TKO_3121 5 op)](https://opas.peppi.utu.fi/fi/opintojakso/TKO_3121/3255) University of Turku, Finland. 3-5/2021
+ - [Machine Learning and Algorithmics Seminar (TKO_3121 5 op)](https://opas.peppi.utu.fi/fi/opintojakso/TKO_3121/3255) University of Turku, Finland. With Dr. Matti Ruuskanen 3-5/2021
 
  - [Probabilistic data analysis research seminar](https://gitlab.com/openresearchlabs/probabilistic_data_analysis_2020) - University of Turku - 2020 
 
@@ -48,10 +47,9 @@ keywords: Forthcoming courses events tutorial data teaching software past
  - Introduction to probabilistic programming - Lecture slides [ODP](https://github.com/openresearchlabs/openresearchlabs.github.io/tree/master/publications/publications/slides/20180226-rstan-VIB.odp); [PDF](https://github.com/openresearchlabs/openresearchlabs.github.io/tree/master/publications/publications/slides/20180226-rstan-VIB.pdf) - 2018 VIB/KU Leuven, Belgium  
 
 
-
 **Bioinformatics**
 
-- [Microbiome Data Analysis Workshop](https://mdawo.meetinghand.com/) - Hasselt University, Limburg, Belgium (online)
+- [Microbiome Data Analysis Workshop](https://mdawo.meetinghand.com/) - Hasselt University, Limburg, Belgium, Apr 2021 (online)
 
 - [Tools and techniques for skin microbiome research](http://sppudocs.unipune.ac.in/sites/news_events/Lists/News%20and%20Announcements/Attachments/4783/workshop%20flyer_02.122020.pdf) - Savitribai Phule Pune University, Pune, India, Jan 2021
 
