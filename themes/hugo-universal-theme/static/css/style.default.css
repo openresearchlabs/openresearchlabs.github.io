@@ -2728,6 +2728,10 @@ fieldset[disabled] .btn-template-primary.active {
   background-color: none;
   letter-spacing: 0.08em;
 }
+.university-logo {
+  width: 160px;
+  margin-top: -7px;
+}
 /* nav */
 .nav > li > a {
   padding: 10px 15px;
