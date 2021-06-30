@@ -4132,3 +4132,44 @@ a.list-group-item.active > .badge,
     border-radius: 10px;
   }
 }
+
+/* Recherche */
+
+.research-container {
+  display: grid;
+  grid-template-columns: 45vw 30vw;
+  grid-template-rows: 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 2vw;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "research-text research-picture";
+}
+
+.research-text { grid-area: research-text; text-align: justify;}
+
+.reasearch-picture { grid-area: research-picture; }
+
+.figure-research {
+  margin-top: 3vh;
+  width: 576px;
+  border-radius: 10px;
+}
+
+.caption {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px){
+  .research-container {
+    grid-template-columns: 90vw;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "research-text" 
+      "research-picture";
+  }
+  .figure-research {
+    width: 90vw;
+    border-radius: 10px;
+  }
+}

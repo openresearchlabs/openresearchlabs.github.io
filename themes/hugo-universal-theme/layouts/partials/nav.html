@@ -34,7 +34,7 @@
                     {{ else }}
                         {{ if eq .Name "Research" }}
                             <li class = "dropdown-list"> 
-                                <a class ="dropbtn">{{ .Name }}</a>
+                                <a class ="dropbtn"  href="/research-topics">{{ .Name }}</a>
                                 <div class ="dropdown-list-content">
                                     <div class="dropdown-list-link first dropdown active"><a href="{{ path.Join .URL "/computational-and-data-science" }}">Computational and data science</a></div>
                                     <div class="dropdown-list-link"><a href="{{ path.Join .URL "/microbiome-data-science" }}">Microbiome data science</a></div>
