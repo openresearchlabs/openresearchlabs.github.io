@@ -12,6 +12,9 @@ keywords: team
 
   <div class="col-sm-3 clearfix" width="25%"> 
     <img src="../img/teampic/leo_sci_crop.jpg" class="img-responsive lahti" width="100%" style="float: left"/><br/>
+    <div class="links-leo">
+      <a href="https://twitter.com/antagomir"><img class="twitter-logo" src="../img/twitter-logo.png"/></a><a href="https://github.com/openresearchlabs/"><img class="github-logo" src="../img/logo-github.png"/></a>
+    </div>
   </div>
 
 <!--  <a href="http://orcid.org/0000-0001-5537-637X"><img src='../img/orcid_qrcode_leolahti.png' title='Leo Lahti ORCID QR code 0000-0001-5537-637X' alt='ORCID: 0000-0001-5537-637X' width='33%'/></a> <a href="https://twitter.com/antagomir"><img src='../img/twitter.jpeg' title='antagomir@twitter' alt='https://twitter.com/antagomir' width='25%'/></a> -->
@@ -43,7 +46,6 @@ keywords: team
       <a href="http://www.ncbi.nlm.nih.gov/sites/myncbi/collections/public/1VaRtFbzqhfLWsXzDa1c5CSQK">PubMed</a>; 
     </li>
     <li><a href="../contact">Contact information</a> for the research team</li> 
-    <li><a href="https://twitter.com/antagomir">Twitter / @antagomir</a> personal account</li>
     <li><a href="pgp_lahti_pm.asc">PGP key</a>
   </ul>
 <br>
@@ -102,13 +104,13 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
   <div class="keywords-ville"> Probabilistic modeling, time series, early warning signals. </div>
   <div class="keywords-moein"> Ecological Memory, Fractional Calculus, Differential Equations, Dynamic Modelling, Data Analysis. </div>
   <div class="keywords-chandler"> Eco-Evolutionary Dynamics, Statistical Modelling, Time Series. </div>
-  <div class="keywords-iiro"> </div>
+  <div class="keywords-iiro"> Computational history, Probabilistic modeling </div>
   <div class="keywords-vaara"> </div>
 
-  <div class="links-ville"></div>
+  <div class="links-ville"><a href="https://orcid.org/0000-0003-0703-4556"><img class="internet-logo" src="../img/internet-logo.png"/></a></div>
   <div class="links-moein"><a href="https://twitter.com/KhalighiMoein"><img class="twitter-logo" src="../img/twitter-logo.png"/></a><a href="https://scholar.google.com/citations?hl=en&user=XrlaLlUAAAAJ"><img class="internet-logo" src="../img/internet-logo.png"/></a></div>
   <div class="links-chandler"></div>
-  <div class="links-iiro"></div>
+  <div class="links-iiro"><a href="https://twitter.com/IiroTiihonen"><img class="twitter-logo" src="../img/twitter-logo.png"/></a><a href="https://orcid.org/0000-0003-0703-4556"><img class="internet-logo" src="../img/internet-logo.png"/></a></div>
   <div class="links-vaara"></div>
 </div>
 
@@ -129,13 +131,13 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
 
   <div class="keywords-joonatan"> </div>
   <div class="keywords-felix"></div>
-  <div class="keywords-henrik"> </div>
+  <div class="keywords-henrik"> Human microbiome and health, Bioinformatics </div>
   <div class="keywords-mrunalini"> </div>
   <div class="keywords-anna"> </div>
 
   <div class="links-joonatan"></div>
   <div class="links-felix"></div>
-  <div class="links-henrik"></div>
+  <div class="links-henrik"><a href="https://twitter.com/HenrikEckermann"><img class="twitter-logo" src="../img/twitter-logo.png"/></a></div>
   <div class="links-mrunalini"></div>
   <div class="links-anna"></div>
 </div>
@@ -158,7 +160,7 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
   <div class="keywords-pyry"> R programming, Open data, Social research </div>
   <div class="keywords-tuomas"> Bioinformatics, Human microbiome, R package development </div>
   <div class="keywords-julia"> </div>
-  <div class="keywords-renuka"> </div>
+  <div class="keywords-renuka"> Human skin microbiome, metagenomics, bioinformatics </div>
 
   <div class="links-pyry"><a href="https://twitter.com/KhalighiMoein"><img class="twitter-logo" src="../img/twitter-logo.png"/></a></div>
   <div class="links-tuomas"></div>
@@ -167,7 +169,11 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
 </div>
 
 
-
+<br><br>
+## Web intern
+<div class="tom"><img src="../img/teampic/tom_gobardhan.jpg" width="154" height="154"></div>
+<div class="name-tom"> Tom Gobardhan </div>
+<div class="keywords-tom"> French student, intern remotely during Summer 2021 </div>
 
 <br><br>
 

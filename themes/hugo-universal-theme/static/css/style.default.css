@@ -3736,6 +3736,18 @@ a.list-group-item.active > .badge,
   -webkit-filter: opacity(0.6);
 }
 
+.github-logo{
+  height: 3vmin;
+  width: auto;
+  padding-right: 1vmin;
+  filter: invert(40%);
+}
+
+.github-logo:hover{
+  filter: opacity(0.6);
+  -webkit-filter: opacity(0.6);
+}
+
 .internet-logo{
   height: 3vmin;
   width: auto;
@@ -3744,6 +3756,11 @@ a.list-group-item.active > .badge,
 .internet-logo:hover{
   filter: opacity(0.6);
   -webkit-filter: opacity(0.6);
+}
+
+.links-leo {
+  text-align: center; 
+  margin-top: 250px; 
 }
 
 .grid-container {
@@ -3965,6 +3982,25 @@ a.list-group-item.active > .badge,
     height: auto;
   }
 } 
+
+.tom {
+  clip-path: ellipse(50% 50%);
+  height: 154px;
+  width: 154px;
+}
+
+.name-tom {
+  padding-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  width: 154px;
+}
+
+.keywords-tom {
+  padding-top: 0.5vh;
+  text-align: center;
+  width: 154px;
+}
 
 .post-tweets-container {
   display: grid;
