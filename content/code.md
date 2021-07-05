@@ -69,15 +69,28 @@ title: Code
   </div>
 -->
 
-<!--
+
   <div class="data-logo">
     <img class="pic-code" src="../img/boxes-code/data-logo.png"/>
   </div>
   <div class="data-text">
-    <p class="text-boxes"> Ongoing project </p>
+    <p class="text-boxes">
+
+    <h3>Data</h3>
+    <h4>Microbiome research</h4>
+
+    Various data sets related to publications available in the following
+    open repositories:
+
+    <a href="https://datadryad.org/search?utf8=%E2%9C%93&q=Leo+Lahti">Data Dryad</a>
+    <a href="https://figshare.com/search?q=Leo+Lahti">Figshare</a>
+    <a href="https://microbiome.github.io">Github</a>    
+
+    </p>
   </div>
 </div>
--->
+
+
 
 # Open research data and software
 
@@ -110,8 +123,17 @@ title: Code
 **[COMHIS](http://helsinki.fi/computational-history)** Helsinki Computational History Group data analytics infrastructure.
 
 
-## Data
 
+### Academic publishing
+
+[Full agreement texts for academic publisher agreements](http://finelib.fi/negotiations/negotiations/). The agreements were released by the FinELib consortium of research libraries following our FOI request in April 2018.
+
+[Scientific journal subscription costs in Finland 2010-2017; MoE/ATT](http://ropengov.github.io/r/2018/12/05/FOI/). The data set was released by Finnish Ministry of Education (Open Science and Research Initiative) following my Freedom of Information Request ([summary](http://ropengov.github.io/r/2016/06/10/FOI/)). Finland became the first country to systematically collect and release this information.
+
+
+<!--
+
+## Data
 
 ### Microbiome research
 
@@ -124,11 +146,4 @@ open repositories:
 
 [Github](https://microbiome.github.io/)
 
-
-### Academic publishing
-
-[Full agreement texts for academic publisher agreements](http://finelib.fi/negotiations/negotiations/). The agreements were released by the FinELib consortium of research libraries following our FOI request in April 2018.
-
-[Scientific journal subscription costs in Finland 2010-2017; MoE/ATT](http://ropengov.github.io/r/2018/12/05/FOI/). The data set was released by Finnish Ministry of Education (Open Science and Research Initiative) following my Freedom of Information Request ([summary](http://ropengov.github.io/r/2016/06/10/FOI/)). Finland became the first country to systematically collect and release this information.
-
-
+-->
