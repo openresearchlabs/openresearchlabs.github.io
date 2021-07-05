@@ -2,6 +2,9 @@
 title: Research Topics
 description: List of all topics of research
 ---
+
+<link href="/css/style.research.css" rel="stylesheet">
+
 <div class="research-container">
   <div class="research-text">
 

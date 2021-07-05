@@ -17,10 +17,6 @@ menu:
       name: Home
       url: /
       weight: 1
-    - identifier: blog
-      name: News
-      url: /blog/
-      weight: 2
     - identifier: edu
       name: Edu
       url: /edu/

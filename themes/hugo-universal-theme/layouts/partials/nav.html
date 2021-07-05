@@ -35,23 +35,22 @@
                         {{ if eq .Name "Research" }}
                             <li class = "dropdown-list"> 
                                 <a class ="dropbtn"  href="/research-topics">{{ .Name }}</a>
-                                <div class ="dropdown-list-content">
+                                <!-- <div class ="dropdown-list-content">
                                     <div class="dropdown-list-link first dropdown active"><a href="{{ path.Join .URL "/computational-and-data-science" }}">Computational and data science</a></div>
                                     <div class="dropdown-list-link"><a href="{{ path.Join .URL "/microbiome-data-science" }}">Microbiome data science</a></div>
                                     <div class="dropdown-list-link"><a href="{{ path.Join .URL "/computational-humanities" }}">Computational humanities</a></div>
                                     <div class="dropdown-list-link"><a href="{{ path.Join .URL "/open-science" }}">Open science</a></div>
                                     <div class="dropdown-list-link"><a href="{{ path.Join .URL "/opinion-pieces" }}">Opinion pieces (in Finnish)</a></div>
                                     <div class="dropdown-list-link last"><a href="{{ path.Join .URL "/funding-and-support" }}">Funding and support</a></div>
-                                </div>
+                                </div> -->
                             </li>
-                            <li class="d2"><a class ="dropbtn2" href="{{ path.Join .URL "/computational-and-data-science" }}">Computational and data science</a></li>
+                            <!-- <li class="d2"><a class ="dropbtn2" href="{{ path.Join .URL "/computational-and-data-science" }}">Computational and data science</a></li>
                             <li class="d2"><a class ="dropbtn2" href="{{ path.Join .URL "/microbiome-data-science" }}">Microbiome data science</a></li>
                             <li class="d2"><a class ="dropbtn2" href="{{ path.Join .URL "/computational-humanities" }}">Computational humanities</a></li>
                             <li class="d2"><a class ="dropbtn2" href="{{ path.Join .URL "/open-science" }}">Open science</a></li>
                             <li class="d2"><a class ="dropbtn2" href="{{ path.Join .URL "/opinion-pieces" }}">Opinion pieces (in Finnish)</a></li>
-                            <li class="d2"><a class ="dropbtn2" href="{{ path.Join .URL "/funding-and-support" }}">Funding and support</a></li>
+                            <li class="d2"><a class ="dropbtn2" href="{{ path.Join .URL "/funding-and-support" }}">Funding and support</a></li> -->
                         
-                        {{ else if eq .Name "News"}}
                         {{ else if eq .Name "Edu" }}
                             <li class = "dropdown-list"> 
                                 <a class ="dropbtn">{{ .Name }}</a>

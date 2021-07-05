@@ -3,6 +3,7 @@ description: Contact info
 title: Contact
 excerpt: Contact
 ---
+<link href="/css/style.contact.css" rel="stylesheet">
 
 <div class="contact-container">
   <div class="text">
@@ -29,12 +30,3 @@ Welcome to contact us to discuss research/study positions and collaboration.
   	<img alt="campus of turku" src="../img/utu/yliopistonmaki-kesa-opiskelijat.jpg" class="turku-campus"/>
   </div>
 </div>
-
-
-
-
-
-
-
-
-
