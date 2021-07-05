@@ -131,19 +131,5 @@ title: Code
 [Scientific journal subscription costs in Finland 2010-2017; MoE/ATT](http://ropengov.github.io/r/2018/12/05/FOI/). The data set was released by Finnish Ministry of Education (Open Science and Research Initiative) following my Freedom of Information Request ([summary](http://ropengov.github.io/r/2016/06/10/FOI/)). Finland became the first country to systematically collect and release this information.
 
 
-<!--
 
-## Data
 
-### Microbiome research
-
-Various data sets related to publications available in the following
-open repositories:
-
-[Data Dryad](https://datadryad.org/search?utf8=%E2%9C%93&q=Leo+Lahti)
-
-[Figshare](https://figshare.com/search?q=Leo+Lahti)
-
-[Github](https://microbiome.github.io/)
-
--->
