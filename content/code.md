@@ -30,37 +30,46 @@ title: Code
     <img class="pic-code" src="../img/boxes-code/miaverse_logo.png"/>
   </div>
   <div class="miaverse-text">
-    <p class="text-boxes"> Ongoing project </p>
+    <p class="text-boxes"> Statistical and Machine Learning Techniques for Human Microbiome Studies COST action</p>
   </div>
 
   <div class="ropengov-logo">
     <img class="pic-code" src="../img/boxes-code/ropengov.PNG"/>
   </div>
   <div class="ropengov-text">
-    <p class="text-boxes"> Ongoing project </p>
+    <p class="text-boxes"> Open government data analytics with R. </p>
   </div>
 
   <div class="bioconductor-logo">
     <img class="pic-code" src="../img/boxes-code/bioconductorlogo.jpg"/>
   </div>
   <div class="bioconductor-text">
-    <p class="text-boxes"> Ongoing project </p>
+    <p class="text-boxes"> R/Bioconductor projects
+      <ul>
+        <li>miaverse for microbiome data science</li>
+        <li>RPA for short oligonucleotide microarrays</li>
+        <li>netresponse for functional network analysis</li>		
+      </ul>
+    </p>
   </div>
 
   <div class="COMHIS-logo">
     <img class="pic-code" src="../img/boxes-code/comhis.png"/>
   </div>
   <div class="COMHIS-text">
-    <p class="text-boxes"> Ongoing project </p>
+    <p class="text-boxes"> Computational history, with a focus on Europen knowledge production in early modern era</p>
   </div>
 
+<!--
   <div class="other-logo">
     <img class="pic-code pic-other" src="../img/boxes-code/other.png"/>
   </div>
   <div class="other-text">
     <p class="text-boxes"> Ongoing project </p>
   </div>
+-->
 
+<!--
   <div class="data-logo">
     <img class="pic-code" src="../img/boxes-code/data-logo.png"/>
   </div>
@@ -68,7 +77,7 @@ title: Code
     <p class="text-boxes"> Ongoing project </p>
   </div>
 </div>
-
+-->
 
 # Open research data and software
 
