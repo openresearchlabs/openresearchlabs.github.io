@@ -3337,7 +3337,7 @@ label {
   padding-bottom: 5vh;
   display: grid;
   grid-template-columns: 17vw 17vw 17vw 17vw;
-  grid-template-rows: 37vh;
+  grid-template-rows: 27vh;
   gap: 0px 6vw;
   grid-template-areas:
     "box-research box-EDU box-code box-team";
@@ -4047,8 +4047,8 @@ a.list-group-item.active > .badge,
   .boxes-container {
     padding-left: 5vw;
     grid-template-columns: 90vw;
-    grid-template-rows: 37vmax 37vmax 37vmax;
-    gap: 1vh 0vw;
+    grid-template-rows: 20vmax 20vmax 20vmax 20vmax;
+    gap: 3vh 0vw;
     grid-template-areas:
       "box-research" 
       "box-EDU"
@@ -4078,6 +4078,50 @@ a.list-group-item.active > .badge,
 
 .code-boxes-container {
   display: grid;
+  grid-template-columns: 300px 600px;
+  grid-template-rows: 200px 200px 200px 200px 200px 200px;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "miaverse-logo miaverse-text"
+    "ropengov-logo ropengov-text"
+    "bioconductor-logo bioconductor-text"
+    "COMHIS-logo COMHIS-text"
+    "other-logo other-text"
+    "data-logo data-text";
+    margin-bottom: 100px;
+}
+
+
+.miaverse-logo { grid-area: miaverse-logo; padding-left: 15px; border-bottom: solid #38A7BB 2px; }
+
+.miaverse-text { grid-area: miaverse-text; border-bottom: solid #38A7BB 2px; }
+
+.ropengov-logo { grid-area: ropengov-logo; padding-left: 15px; border-bottom: solid #38A7BB 2px; }
+
+.ropengov-text { grid-area: ropengov-text; border-bottom: solid #38A7BB 2px; }
+
+.bioconductor-logo { grid-area: bioconductor-logo; padding-left: 15px; border-bottom: solid #38A7BB 2px; }
+
+.bioconductor-text { grid-area: bioconductor-text; border-bottom: solid #38A7BB 2px; }
+
+.COMHIS-logo { grid-area: COMHIS-logo; padding-left: 15px; border-bottom: solid #38A7BB 2px; }
+
+.COMHIS-text { grid-area: COMHIS-text; border-bottom: solid #38A7BB 2px; }
+
+.other-logo { grid-area: other-logo; padding-left: 15px; border-bottom: solid #38A7BB 2px; }
+
+.other-text { grid-area: other-text; border-bottom: solid #38A7BB 2px; }
+
+.data-logo { grid-area: data-logo; padding-left: 15px; border-bottom: solid #38A7BB 2px; }
+
+.data-text { grid-area: data-text; border-bottom: solid #38A7BB 2px; }
+
+.text-boxes { margin-top: 100px; transform: translateY(-50%); font-size: 20px; }
+
+/*.code-boxes-container {
+  display: grid;
   grid-template-columns: 16vmax 16vmax 16vmax;
   grid-template-rows: 15vmin 15vmin;
   gap: 4vh 5vw;
@@ -4099,16 +4143,16 @@ a.list-group-item.active > .badge,
 .other { grid-area: other; background-color: #F7F7F7; border-radius: 3vmin 0 3vmin 0; text-align: center; }
 
 .data { grid-area: data; background-color: #F7F7F7; border-radius: 3vmin 0 3vmin 0; text-align: center; }
-
+}*/
 .pic-code {
-  margin-top: 7.5vh;
+  margin-top: 100px;
   transform: translateY(-50%);
-  max-width: 15vw;
-  max-height: 13vh;
+  max-width: 150px;
+  max-height: 90px;
 }
 
 .pic-other {
-  width: 8vw;
+  width: 100px;
 }
 
 @media screen and (max-width: 768px){
@@ -4129,7 +4173,7 @@ a.list-group-item.active > .badge,
   .pic-code{
     max-width: 75vw;
   }
-}
+
 
 /* Contact */
 

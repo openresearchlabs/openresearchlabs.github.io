@@ -4,7 +4,7 @@ keywords: code
 title: Code
 ---
 
-<div id = "ref" class="code-boxes-container">
+<!-- <div id = "ref" class="code-boxes-container">
   <div class="miaverse"><a href="https://microbiome.github.io/" target="_blank"><div>
     <img class="pic-code" src="../img/boxes-code/miaverse_logo.png"/>
   </div></a></div>
@@ -23,6 +23,50 @@ title: Code
   <div class="data"><a href="https://datadryad.org/search?utf8=%E2%9C%93&q=Leo+Lahti" target="_blank"><div>
     <img class="pic-code" src="../img/boxes-code/data-logo.png"/>
   </div></a></div>
+</div> -->
+
+<div class="code-boxes-container">
+  <div class="miaverse-logo">
+    <img class="pic-code" src="../img/boxes-code/miaverse_logo.png"/>
+  </div>
+  <div class="miaverse-text">
+    <p class="text-boxes"> Ongoing project </p>
+  </div>
+
+  <div class="ropengov-logo">
+    <img class="pic-code" src="../img/boxes-code/ropengov.PNG"/>
+  </div>
+  <div class="ropengov-text">
+    <p class="text-boxes"> Ongoing project </p>
+  </div>
+
+  <div class="bioconductor-logo">
+    <img class="pic-code" src="../img/boxes-code/bioconductorlogo.jpg"/>
+  </div>
+  <div class="bioconductor-text">
+    <p class="text-boxes"> Ongoing project </p>
+  </div>
+
+  <div class="COMHIS-logo">
+    <img class="pic-code" src="../img/boxes-code/comhis.png"/>
+  </div>
+  <div class="COMHIS-text">
+    <p class="text-boxes"> Ongoing project </p>
+  </div>
+
+  <div class="other-logo">
+    <img class="pic-code pic-other" src="../img/boxes-code/other.png"/>
+  </div>
+  <div class="other-text">
+    <p class="text-boxes"> Ongoing project </p>
+  </div>
+
+  <div class="data-logo">
+    <img class="pic-code" src="../img/boxes-code/data-logo.png"/>
+  </div>
+  <div class="data-text">
+    <p class="text-boxes"> Ongoing project </p>
+  </div>
 </div>
 
 
