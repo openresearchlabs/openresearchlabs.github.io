@@ -2728,6 +2728,10 @@ fieldset[disabled] .btn-template-primary.active {
   background-color: none;
   letter-spacing: 0.08em;
 }
+.university-logo {
+  width: 160px;
+  margin-top: -7px;
+}
 /* nav */
 .nav > li > a {
   padding: 10px 15px;
@@ -3333,7 +3337,7 @@ label {
   padding-bottom: 5vh;
   display: grid;
   grid-template-columns: 17vw 17vw 17vw 17vw;
-  grid-template-rows: 37vh;
+  grid-template-rows: 27vh;
   gap: 0px 6vw;
   grid-template-areas:
     "box-research box-EDU box-code box-team";
@@ -3732,6 +3736,18 @@ a.list-group-item.active > .badge,
   -webkit-filter: opacity(0.6);
 }
 
+.github-logo{
+  height: 3vmin;
+  width: auto;
+  padding-right: 1vmin;
+  filter: invert(40%);
+}
+
+.github-logo:hover{
+  filter: opacity(0.6);
+  -webkit-filter: opacity(0.6);
+}
+
 .internet-logo{
   height: 3vmin;
   width: auto;
@@ -3740,6 +3756,11 @@ a.list-group-item.active > .badge,
 .internet-logo:hover{
   filter: opacity(0.6);
   -webkit-filter: opacity(0.6);
+}
+
+.links-leo {
+  text-align: center; 
+  margin-top: 250px; 
 }
 
 .grid-container {
@@ -3962,6 +3983,25 @@ a.list-group-item.active > .badge,
   }
 } 
 
+.tom {
+  clip-path: ellipse(50% 50%);
+  height: 154px;
+  width: 154px;
+}
+
+.name-tom {
+  padding-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  width: 154px;
+}
+
+.keywords-tom {
+  padding-top: 0.5vh;
+  text-align: center;
+  width: 154px;
+}
+
 .post-tweets-container {
   display: grid;
   margin-top: 5vh;
@@ -4007,8 +4047,8 @@ a.list-group-item.active > .badge,
   .boxes-container {
     padding-left: 5vw;
     grid-template-columns: 90vw;
-    grid-template-rows: 37vmax 37vmax 37vmax;
-    gap: 1vh 0vw;
+    grid-template-rows: 20vmax 20vmax 20vmax 20vmax;
+    gap: 3vh 0vw;
     grid-template-areas:
       "box-research" 
       "box-EDU"
@@ -4038,6 +4078,50 @@ a.list-group-item.active > .badge,
 
 .code-boxes-container {
   display: grid;
+  grid-template-columns: 300px 600px;
+  grid-template-rows: 200px 200px 200px 200px 200px 200px;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "miaverse-logo miaverse-text"
+    "ropengov-logo ropengov-text"
+    "bioconductor-logo bioconductor-text"
+    "COMHIS-logo COMHIS-text"
+    "other-logo other-text"
+    "data-logo data-text";
+    margin-bottom: 100px;
+}
+
+
+.miaverse-logo { grid-area: miaverse-logo; padding-left: 15px; border-bottom: solid #38A7BB 2px; }
+
+.miaverse-text { grid-area: miaverse-text; border-bottom: solid #38A7BB 2px; }
+
+.ropengov-logo { grid-area: ropengov-logo; padding-left: 15px; border-bottom: solid #38A7BB 2px; }
+
+.ropengov-text { grid-area: ropengov-text; border-bottom: solid #38A7BB 2px; }
+
+.bioconductor-logo { grid-area: bioconductor-logo; padding-left: 15px; border-bottom: solid #38A7BB 2px; }
+
+.bioconductor-text { grid-area: bioconductor-text; border-bottom: solid #38A7BB 2px; }
+
+.COMHIS-logo { grid-area: COMHIS-logo; padding-left: 15px; border-bottom: solid #38A7BB 2px; }
+
+.COMHIS-text { grid-area: COMHIS-text; border-bottom: solid #38A7BB 2px; }
+
+.other-logo { grid-area: other-logo; padding-left: 15px; border-bottom: solid #38A7BB 2px; }
+
+.other-text { grid-area: other-text; border-bottom: solid #38A7BB 2px; }
+
+.data-logo { grid-area: data-logo; padding-left: 15px; border-bottom: solid #38A7BB 2px; }
+
+.data-text { grid-area: data-text; border-bottom: solid #38A7BB 2px; }
+
+.text-boxes { margin-top: 100px; transform: translateY(-50%); font-size: 20px; }
+
+/*.code-boxes-container {
+  display: grid;
   grid-template-columns: 16vmax 16vmax 16vmax;
   grid-template-rows: 15vmin 15vmin;
   gap: 4vh 5vw;
@@ -4059,16 +4143,16 @@ a.list-group-item.active > .badge,
 .other { grid-area: other; background-color: #F7F7F7; border-radius: 3vmin 0 3vmin 0; text-align: center; }
 
 .data { grid-area: data; background-color: #F7F7F7; border-radius: 3vmin 0 3vmin 0; text-align: center; }
-
+}*/
 .pic-code {
-  margin-top: 7.5vh;
+  margin-top: 100px;
   transform: translateY(-50%);
-  max-width: 15vw;
-  max-height: 13vh;
+  max-width: 150px;
+  max-height: 90px;
 }
 
 .pic-other {
-  width: 8vw;
+  width: 100px;
 }
 
 @media screen and (max-width: 768px){
@@ -4088,5 +4172,84 @@ a.list-group-item.active > .badge,
 
   .pic-code{
     max-width: 75vw;
+  }
+
+
+/* Contact */
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 40vw 30vw;
+  grid-template-rows: 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 2vw;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "text picture";
+}
+
+.text { grid-area: text; }
+
+.picture { grid-area: picture; }
+
+.turku-campus{
+  margin-top: 3vh;
+  width: 480px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px){
+  .contact-container {
+    grid-template-columns: 85vw;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "text"
+      "picture";
+  }
+  .turku-campus{
+    margin-top: 3vh;
+    width: 90vw;
+    border-radius: 10px;
+  }
+}
+
+/* Recherche */
+
+.research-container {
+  display: grid;
+  grid-template-columns: 45vw 30vw;
+  grid-template-rows: 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 2vw;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "research-text research-picture";
+}
+
+.research-text { grid-area: research-text; text-align: justify;}
+
+.reasearch-picture { grid-area: research-picture; }
+
+.figure-research {
+  margin-top: 3vh;
+  width: 576px;
+  border-radius: 10px;
+}
+
+.caption {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px){
+  .research-container {
+    grid-template-columns: 90vw;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "research-text" 
+      "research-picture";
+  }
+  .figure-research {
+    width: 90vw;
+    border-radius: 10px;
   }
 }

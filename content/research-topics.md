@@ -2,6 +2,8 @@
 title: Research Topics
 description: List of all topics of research
 ---
+<div class="research-container">
+  <div class="research-text">
 
 Research topics
 ===============
@@ -27,5 +29,10 @@ For more information about our different research topics :
 
 - [**Funding and support**](/research/funding-and-support)  
 
+</div>
 
- 
+  <div class="research-picture">
+    <img alt="campus of turku" src="../img/carousel/houp.png" class="figure-research"/>
+    <figcaption class="caption"> Figure by: Ville Laitinen & Leo Lahti </figcaption>
+  </div>
+</div>

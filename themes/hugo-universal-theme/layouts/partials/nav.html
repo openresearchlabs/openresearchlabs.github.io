@@ -3,7 +3,7 @@
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand home" href="{{ "/" | relURL }}">
-                    <img src="{{ .Site.Params.logo | relURL }}" alt="{{ .Title }} logo" class="hidden-xs hidden-sm">
+                    <img src="{{ .Site.Params.logo | relURL }}" alt="{{ .Title }} logo" class="hidden-xs hidden-sm university-logo">
                     <!-- <img src="{{ .Site.Params.logo_small | relURL }}" alt="{{ .Title }} logo" class="visible-xs visible-sm"> -->
                     <span class="sr-only">{{ .Title }} - {{ i18n "navHome" }}</span>
                 </a>
@@ -34,7 +34,7 @@
                     {{ else }}
                         {{ if eq .Name "Research" }}
                             <li class = "dropdown-list"> 
-                                <a class ="dropbtn">{{ .Name }}</a>
+                                <a class ="dropbtn"  href="/research-topics">{{ .Name }}</a>
                                 <div class ="dropdown-list-content">
                                     <div class="dropdown-list-link first dropdown active"><a href="{{ path.Join .URL "/computational-and-data-science" }}">Computational and data science</a></div>
                                     <div class="dropdown-list-link"><a href="{{ path.Join .URL "/microbiome-data-science" }}">Microbiome data science</a></div>
