@@ -4,89 +4,54 @@ keywords: code
 title: Code
 ---
 
-<!-- <div id = "ref" class="code-boxes-container">
-  <div class="miaverse"><a href="https://microbiome.github.io/" target="_blank"><div>
-    <img class="pic-code" src="../img/boxes-code/miaverse_logo.png"/>
-  </div></a></div>
-  <div class="ropengov"><a href="http://ropengov.org/" target="_blank"><div>
-    <img class="pic-code" src="../img/boxes-code/ropengov.PNG"/>
-  </div></a></div>
-  <div class="bioconductor"><a href="https://www.bioconductor.org/help/search/index.html?q=Leo+Lahti/" target="_blank"><div>
-    <img class="pic-code" src="../img/boxes-code/bioconductorlogo.jpg"/>
-  </div></a></div>
-  <div class="COMHIS"><a href="https://www2.helsinki.fi/en/researchgroups/computational-history" target="_blank"><div>
-    <img class="pic-code" src="../img/boxes-code/comhis.png"/>
-  </div></a></div>
-  <div class="other"><a href="/code#ref"><div>
-    <img class="pic-code pic-other" src="../img/boxes-code/other.png"/>
-  </div></a></div>
-  <div class="data"><a href="https://datadryad.org/search?utf8=%E2%9C%93&q=Leo+Lahti" target="_blank"><div>
-    <img class="pic-code" src="../img/boxes-code/data-logo.png"/>
-  </div></a></div>
-</div> -->
-
 <div class="code-boxes-container">
   <div class="miaverse-logo">
-    <img class="pic-code" src="../img/boxes-code/miaverse_logo.png"/>
+    <a href="https://microbiome.github.io/" target="_blank"><img class="pic-code" src="../img/boxes-code/miaverse_logo.png"/></a>
   </div>
   <div class="miaverse-text">
-    <p class="text-boxes"> Statistical and Machine Learning Techniques for Human Microbiome Studies COST action</p>
+    <div class="text-boxes"><p> Statistical and Machine Learning Techniques for Human Microbiome Studies COST action</p></div>
   </div>
 
   <div class="ropengov-logo">
-    <img class="pic-code" src="../img/boxes-code/ropengov.PNG"/>
+    <a href="http://ropengov.org/" target="_blank"><img class="pic-code" src="../img/boxes-code/ropengov.PNG"/></a>
   </div>
   <div class="ropengov-text">
-    <p class="text-boxes"> Open government data analytics with R. </p>
+    <div class="text-boxes"><p> Open government data analytics with R. </p></div>
   </div>
 
   <div class="bioconductor-logo">
-    <img class="pic-code" src="../img/boxes-code/bioconductorlogo.jpg"/>
+    <a href="https://www.bioconductor.org/help/search/index.html?q=Leo+Lahti/" target="_blank"><img class="pic-code" src="../img/boxes-code/bioconductorlogo.jpg"/></a>
   </div>
   <div class="bioconductor-text">
-    <p class="text-boxes"> R/Bioconductor projects
+    <div class="text-boxes"><p> R/Bioconductor projects</p>
       <ul>
         <li>miaverse for microbiome data science</li>
         <li>RPA for short oligonucleotide microarrays</li>
         <li>netresponse for functional network analysis</li>		
       </ul>
-    </p>
+    </div>
   </div>
 
   <div class="COMHIS-logo">
-    <img class="pic-code" src="../img/boxes-code/comhis.png"/>
+    <a href="https://www2.helsinki.fi/en/researchgroups/computational-history" target="_blank"><img class="pic-code" src="../img/boxes-code/comhis.png"/></a>
   </div>
   <div class="COMHIS-text">
-    <p class="text-boxes"> Computational history, with a focus on Europen knowledge production in early modern era</p>
+    <div class="text-boxes"> <p>Computational history, with a focus on Europen knowledge production in early modern era</p> </div>
   </div>
-
-<!--
-  <div class="other-logo">
-    <img class="pic-code pic-other" src="../img/boxes-code/other.png"/>
-  </div>
-  <div class="other-text">
-    <p class="text-boxes"> Ongoing project </p>
-  </div>
--->
-
 
   <div class="data-logo">
-    <img class="pic-code" src="../img/boxes-code/data-logo.png"/>
+    <a href="https://datadryad.org/search?utf8=%E2%9C%93&q=Leo+Lahti" target="_blank"><img class="pic-code" src="../img/boxes-code/data-logo.png"/></a>
   </div>
   <div class="data-text">
-    <p class="text-boxes">
-
-    <h3>Data</h3>
-    <h4>Microbiome research</h4>
-
-    Various data sets related to publications available in the following
-    open repositories:
-
+    <div class="text-boxes">
+      <h3>Data</h3>
+      <h4>Microbiome research</h4>
+      Various data sets related to publications available in the following
+      open repositories:
     <a href="https://datadryad.org/search?utf8=%E2%9C%93&q=Leo+Lahti">Data Dryad</a>
     <a href="https://figshare.com/search?q=Leo+Lahti">Figshare</a>
     <a href="https://microbiome.github.io">Github</a>    
-
-    </p>
+    </div>
   </div>
 </div>
 
@@ -129,7 +94,3 @@ title: Code
 [Full agreement texts for academic publisher agreements](http://finelib.fi/negotiations/negotiations/). The agreements were released by the FinELib consortium of research libraries following our FOI request in April 2018.
 
 [Scientific journal subscription costs in Finland 2010-2017; MoE/ATT](http://ropengov.github.io/r/2018/12/05/FOI/). The data set was released by Finnish Ministry of Education (Open Science and Research Initiative) following my Freedom of Information Request ([summary](http://ropengov.github.io/r/2016/06/10/FOI/)). Finland became the first country to systematically collect and release this information.
-
-
-
-
