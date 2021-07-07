@@ -3728,7 +3728,6 @@ a.list-group-item.active > .badge,
 .twitter-logo{
   height: 4vmin;
   width: auto;
-  padding-right: 1vmin;
 }
 
 .twitter-logo:hover{
@@ -3744,16 +3743,28 @@ a.list-group-item.active > .badge,
 }
 
 .github-logo:hover{
-  filter: opacity(0.6);
-  -webkit-filter: opacity(0.6);
+  filter: opacity(0.9);
+  -webkit-filter: opacity(0.9);
 }
 
 .internet-logo{
   height: 3vmin;
   width: auto;
+  margin-left: 0.5vw;
 }
 
 .internet-logo:hover{
+  filter: opacity(0.6);
+  -webkit-filter: opacity(0.6);
+}
+
+.orcid-logo{
+  margin-left: 0.5vw;
+  height: 4vmin;
+  width: auto;
+}
+
+.orcid-logo:hover{
   filter: opacity(0.6);
   -webkit-filter: opacity(0.6);
 }
@@ -3973,13 +3984,27 @@ a.list-group-item.active > .badge,
     overflow: scroll;
   }  
   .twitter-logo{
-    width: 10vh;
+    width: 60px;
     height: auto;
-    padding-right: 5vw;
   }
   .internet-logo{
-    width: 5vh;
+    width: 40px;
     height: auto;
+    margin-left: 10px;
+  }
+  .orcid-logo{
+    width: 50px;
+    height: auto;
+    margin-left: 10px;
+  }
+  .links-leo{
+    margin-top: 280px;
+    margin-bottom: 20px;
+  }
+  .github-logo{
+    width: 48px;
+    height: auto;
+    margin-left: 20px;
   }
 } 
 

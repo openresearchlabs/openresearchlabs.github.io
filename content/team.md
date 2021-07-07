@@ -13,7 +13,8 @@ keywords: team
   <div class="col-sm-3 clearfix" width="25%"> 
     <img src="../img/teampic/leo_sci_crop.jpg" class="img-responsive lahti" width="100%" style="float: left"/><br/>
     <div class="links-leo">
-      <a href="https://twitter.com/antagomir"><img class="twitter-logo" src="../img/twitter-logo.png"/></a><a href="https://github.com/openresearchlabs/"><img class="github-logo" src="../img/logo-github.png"/></a>
+      <a href="https://twitter.com/antagomir"><img class="twitter-logo" src="../img/twitter-logo.png"/></a>
+      <a href="https://github.com/openresearchlabs/"><img class="github-logo" src="../img/logo-github.png"/></a>
     </div>
   </div>
 
@@ -72,9 +73,15 @@ keywords: team
   <div class="keywords-pande"> Human microbiome, metagenomic, metabolomic,  microbial ecology, bioinformatics. </div>
   <div class="keywords-aura"> </div>
 
-  <div class="links-matti"><a href="https://twitter.com/mattiruuskanen"><img class="twitter-logo" src="../img/twitter-logo.png"/></a><a href="https://www.researchgate.net/profile/Matti-Ruuskanen"><img class="internet-logo" src="../img/internet-logo.png"/></a></div>
+  <div class="links-matti">
+    <a href="https://twitter.com/mattiruuskanen"><img class="twitter-logo" src="../img/twitter-logo.png"/></a>
+    <a href="https://www.researchgate.net/profile/Matti-Ruuskanen"><img class="internet-logo" src="../img/internet-logo.png"/></a>
+  </div>
   <div class="links-guilhem"></div>
-  <div class="links-pande"><a href="https://twitter.com/erawijantaript"><img class="twitter-logo" src="../img/twitter-logo.png"/></a><a href="https://erawijantari.github.io/"><img class="internet-logo" src="../img/internet-logo.png"/></a></div>
+  <div class="links-pande">
+    <a href="https://twitter.com/erawijantaript"><img class="twitter-logo" src="../img/twitter-logo.png"/></a>
+    <a href="https://erawijantari.github.io/"><img class="internet-logo" src="../img/internet-logo.png"/></a>
+  </div>
   <div class="links-aura"></div>
 </div>
 
@@ -98,8 +105,8 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
   <div class="name-ville"> Ville Laitinen </div>
   <div class="name-moein"> Moein Khalighi </div>
   <div class="name-chandler"> Chandler Ross </div>
-  <div class="name-iiro"> Iiro Tiihonen (COMHIS) </div>
-  <div class="name-vaara"> Ville Vaara (COMHIS) </div>
+  <div class="name-iiro"> Iiro Tiihonen (<a href="https://www2.helsinki.fi/en/researchgroups/computational-history" target="_blank">COMHIS</a>) </div>
+  <div class="name-vaara"> Ville Vaara (<a href="https://www2.helsinki.fi/en/researchgroups/computational-history" target="_blank">COMHIS</a>) </div>
 
   <div class="keywords-ville"> Probabilistic modeling, time series, early warning signals. </div>
   <div class="keywords-moein"> Ecological Memory, Fractional Calculus, Differential Equations, Dynamic Modelling, Data Analysis. </div>
@@ -107,10 +114,19 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
   <div class="keywords-iiro"> Computational history, Probabilistic modeling </div>
   <div class="keywords-vaara"> </div>
 
-  <div class="links-ville"><a href="https://orcid.org/0000-0003-0703-4556"><img class="internet-logo" src="../img/internet-logo.png"/></a></div>
-  <div class="links-moein"><a href="https://twitter.com/KhalighiMoein"><img class="twitter-logo" src="../img/twitter-logo.png"/></a><a href="https://scholar.google.com/citations?hl=en&user=XrlaLlUAAAAJ"><img class="internet-logo" src="../img/internet-logo.png"/></a></div>
+  <div class="links-ville">
+    <a href="https://orcid.org/0000-0003-0703-4556"><img class="orcid-logo" src="../img/orcid-logo.png"/></a>
+  </div>
+  <div class="links-moein">
+    <a href="https://twitter.com/KhalighiMoein"><img class="twitter-logo" src="../img/twitter-logo.png"/></a>
+    <a href="https://scholar.google.com/citations?hl=en&user=XrlaLlUAAAAJ"><img class="internet-logo" src="../img/internet-logo.png"/></a>
+    <a href="https://orcid.org/0000-0001-8176-0367"><img class="orcid-logo" src="../img/orcid-logo.png"/></a>
+  </div>
   <div class="links-chandler"></div>
-  <div class="links-iiro"><a href="https://twitter.com/IiroTiihonen"><img class="twitter-logo" src="../img/twitter-logo.png"/></a><a href="https://orcid.org/0000-0003-0703-4556"><img class="internet-logo" src="../img/internet-logo.png"/></a></div>
+  <div class="links-iiro">
+    <a href="https://twitter.com/IiroTiihonen"><img class="twitter-logo" src="../img/twitter-logo.png"/></a>
+    <a href="https://orcid.org/0000-0003-0703-4556"><img class="orcid-logo" src="../img/orcid-logo.png"/></a>
+  </div>
   <div class="links-vaara"></div>
 </div>
 
@@ -123,9 +139,9 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
   <div class="mrunalini"><img src="../img/teampic/bio-photo.jpg" height="200"></div>
   <div class="anna"><img src="../img/teampic/bio-photo.jpg" height="200"></div>
   
-  <div class="name-joonatan"> Joonatan Palmu (THC) </div>
-  <div class="name-felix"> Felix Vaura (THC) </div>
-  <div class="name-henrik"> Henrik Eckerman (Nijmegen) </div>
+  <div class="name-joonatan"> Joonatan Palmu (<a href="https://www.hypertensioncenter.org/" target="_blank">THC</a>) </div>
+  <div class="name-felix"> Felix Vaura (<a href="https://www.hypertensioncenter.org/" target="_blank">THC</a>) </div>
+  <div class="name-henrik"> Henrik Eckerman (<a href="https://dpblab.org/" target="_blank">Nijmegen</a>) </div>
   <div class="name-mrunalini"> Mrunalini Lotankar (VaMiPre) </div>
   <div class="name-anna"> Anna Sorjamaa (Oulu) </div>
 
@@ -137,7 +153,10 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
 
   <div class="links-joonatan"></div>
   <div class="links-felix"></div>
-  <div class="links-henrik"><a href="https://twitter.com/HenrikEckermann"><img class="twitter-logo" src="../img/twitter-logo.png"/></a></div>
+  <div class="links-henrik">
+    <a href="https://twitter.com/HenrikEckermann"><img class="twitter-logo" src="../img/twitter-logo.png"/></a>
+    <a href="https://orcid.org/0000-0001-8725-7770"><img class="orcid-logo" src="../img/orcid-logo.png"/></a>
+  </div>
   <div class="links-mrunalini"></div>
   <div class="links-anna"></div>
 </div>
@@ -162,8 +181,10 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
   <div class="keywords-julia"> </div>
   <div class="keywords-renuka"> Human skin microbiome, metagenomics, bioinformatics </div>
 
-  <div class="links-pyry"><a href="https://twitter.com/KhalighiMoein"><img class="twitter-logo" src="../img/twitter-logo.png"/></a></div>
-  <div class="links-tuomas"></div>
+  <div class="links-pyry">
+    <a href="https://twitter.com/KhalighiMoein"><img class="twitter-logo" src="../img/twitter-logo.png"/></a>
+  </div>
+  <div class="links-tuomas"><a href="https://orcid.org/0000-0002-8563-8884"><img class="orcid-logo" src="../img/orcid-logo.png"/></a></div>
   <div class="links-julia"></div>
   <div class="links-renuka"></div>
 </div>
@@ -181,7 +202,7 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
 
 Co-supervised PhDs:
 
-- Anna Aatsinki (University of Turku, 2021; with Finnbrain)
+- Anna Aatsinki (University of Turku, 2021; with <a href="https://sites.utu.fi/finnbrain/en/" target="_blank">Finnbrain</a>)
 - Sudarshan Shetty (Wageningen University, 2019; with Willem M de Vos)
 
 Research assistants:
