@@ -166,27 +166,35 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
 ## Research assistants
 
 <div class="grid-container-4">
-  <div class="pyry"><img src="../img/teampic/pyry_kantanen.jpeg" height="154"></div>
-  <div class="tuomas"><img src="../img/teampic/tuomas_borman.jpeg" height="154"></div>
-  <div class="julia"><img src="../img/teampic/julia_matveeva_crop.jpg" height="154"></div>
-  <div class="renuka"><img src="../img/teampic/renuka_crop.jpg" height="154" ></div>
-  
+  <div class="pyry"><img src="../img/teampic/pyry_kantanen.jpeg" height="200"></div>
+  <div class="tuomas"><img src="../img/teampic/tuomas_borman.jpeg" height="200"></div>
+  <div class="julia"><img src="../img/teampic/julia_matveeva_crop.jpg" height="200"></div>
+  <div class="renuka"><img src="../img/teampic/renuka_crop.jpg" height="200" ></div>
+  <div class="chouaib"><img src="../img/teampic/chouaib_benchraka.jpeg" height="200" ></div>
+
   <div class="name-pyry"> Pyry Kantanen </div>
   <div class="name-tuomas"> Tuomas Borman </div>
   <div class="name-julia"> Julia Matveeva </div>
   <div class="name-renuka"> Renuka Potbhare (Pune) </div>
+  <div class="name-chouaib"> Chouaib Benchraka </div>
 
   <div class="keywords-pyry"> R programming, Open data, Social research </div>
   <div class="keywords-tuomas"> Bioinformatics, Human microbiome, R package development </div>
   <div class="keywords-julia"> </div>
   <div class="keywords-renuka"> Human skin microbiome, metagenomics, bioinformatics </div>
+  <div class="keywords-chouaib"> Machine Learning, Data Science </div>
 
   <div class="links-pyry">
     <a href="https://twitter.com/KhalighiMoein"><img class="twitter-logo" src="../img/twitter-logo.png"/></a>
   </div>
-  <div class="links-tuomas"><a href="https://orcid.org/0000-0002-8563-8884"><img class="orcid-logo" src="../img/orcid-logo.png"/></a></div>
+  <div class="links-tuomas">
+    <a href="https://orcid.org/0000-0002-8563-8884"><img class="orcid-logo" src="../img/orcid-logo.png"/></a>
+  </div>
   <div class="links-julia"></div>
   <div class="links-renuka"></div>
+  <div class="links-chouaib">
+    <a href="https://orcid.org/0000-0002-1167-7848" target="_blank"><img class="orcid-logo" src="../img/orcid-logo.png"/></a>
+  </div>
 </div>
 
 
