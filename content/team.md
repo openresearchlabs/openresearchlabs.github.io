@@ -111,7 +111,7 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
   <div class="keywords-ville"> Probabilistic modeling, time series, early warning signals. </div>
   <div class="keywords-moein"> Ecological Memory, Fractional Calculus, Differential Equations, Dynamic Modelling, Data Analysis. </div>
   <div class="keywords-chandler"> Eco-Evolutionary Dynamics, Statistical Modelling, Time Series. </div>
-  <div class="keywords-iiro"> Computational history, Probabilistic modeling </div>
+  <div class="keywords-iiro"> Computational history, Probabilistic modeling. </div>
   <div class="keywords-vaara"> </div>
 
   <div class="links-ville">
@@ -136,19 +136,19 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
   <div class="joonatan"><img src="../img/teampic/joonatan_palmu.jpeg" height="200"></div>
   <div class="felix"><img src="../img/teampic/felix_vaura.jpeg" height="200"></div>
   <div class="henrik"><img src="../img/teampic/henrik_eckerman_crop.jpg" height="200"></div>
-  <div class="mrunalini"><img src="../img/teampic/bio-photo.jpg" height="200"></div>
+  <div class="mrunalini"><img src="../img/teampic/mrunalini_lotankar.jpg" height="200"></div>
   <div class="anna"><img src="../img/teampic/bio-photo.jpg" height="200"></div>
   
   <div class="name-joonatan"> Joonatan Palmu (<a href="https://www.hypertensioncenter.org/" target="_blank">THC</a>) </div>
   <div class="name-felix"> Felix Vaura (<a href="https://www.hypertensioncenter.org/" target="_blank">THC</a>) </div>
   <div class="name-henrik"> Henrik Eckerman (<a href="https://dpblab.org/" target="_blank">Nijmegen</a>) </div>
-  <div class="name-mrunalini"> Mrunalini Lotankar (VaMiPre) </div>
+  <div class="name-mrunalini"> Mrunalini Lotankar (FOPP) </div>
   <div class="name-anna"> Anna Sorjamaa (Oulu) </div>
 
   <div class="keywords-joonatan"> </div>
   <div class="keywords-felix"></div>
-  <div class="keywords-henrik"> Human microbiome and health, Bioinformatics </div>
-  <div class="keywords-mrunalini"> </div>
+  <div class="keywords-henrik"> Human microbiome and health, Bioinformatics. </div>
+  <div class="keywords-mrunalini"> Bioinformatics, human microbiome, metagenomic, metabolomic. </div>
   <div class="keywords-anna"> </div>
 
   <div class="links-joonatan"></div>
@@ -157,7 +157,9 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
     <a href="https://twitter.com/HenrikEckermann"><img class="twitter-logo" src="../img/twitter-logo.png"/></a>
     <a href="https://orcid.org/0000-0001-8725-7770"><img class="orcid-logo" src="../img/orcid-logo.png"/></a>
   </div>
-  <div class="links-mrunalini"></div>
+  <div class="links-mrunalini">
+    <a href="https://orcid.org/0000-0001-8748-931X"><img class="orcid-logo" src="../img/orcid-logo.png"/></a>
+  </div>
   <div class="links-anna"></div>
 </div>
 
@@ -178,11 +180,11 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
   <div class="name-renuka"> Renuka Potbhare (Pune) </div>
   <div class="name-chouaib"> Chouaib Benchraka </div>
 
-  <div class="keywords-pyry"> R programming, Open data, Social research </div>
-  <div class="keywords-tuomas"> Bioinformatics, Human microbiome, R package development </div>
+  <div class="keywords-pyry"> R programming, Open data, Social research. </div>
+  <div class="keywords-tuomas"> Bioinformatics, Human microbiome, R package development. </div>
   <div class="keywords-julia"> </div>
-  <div class="keywords-renuka"> Human skin microbiome, metagenomics, bioinformatics </div>
-  <div class="keywords-chouaib"> Machine Learning, Data Science </div>
+  <div class="keywords-renuka"> Human skin microbiome, metagenomics, bioinformatics. </div>
+  <div class="keywords-chouaib"> Machine Learning, Data Science. </div>
 
   <div class="links-pyry">
     <a href="https://twitter.com/KhalighiMoein"><img class="twitter-logo" src="../img/twitter-logo.png"/></a>
