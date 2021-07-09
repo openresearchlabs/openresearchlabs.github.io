@@ -17,8 +17,8 @@
   color: #333333;
   vertical-align: middle;
   font-size: 25px;
-  padding-top: 1.8vh;
-  padding-left: 5vw;
+  padding-top: 17px;
+  padding-left: 95px;
 }
 .center-block {
   display: block;
@@ -1247,11 +1247,6 @@ fieldset[disabled] .btn-template-primary.active {
 @media (max-width: 767px) {
   .home-carousel {
     text-align: center !important;
-  }
-}
-@media (min-width: 992px) {
-  .home-carousel .right {
-    text-align: right;
   }
 }
 .home-carousel h1,
@@ -4062,7 +4057,7 @@ a.list-group-item.active > .badge,
 @media screen and (max-width: 1700px){
   .boxes-container {
     grid-template-columns: 20vw 20vw 20vw 20vw;
-    grid-template-rows: 45vh;
+    grid-template-rows: 27vh;
     gap: 0px 2vw;
   }
 }
@@ -4071,8 +4066,36 @@ a.list-group-item.active > .badge,
   .boxes-container {
     padding-left: 3vw;
     grid-template-columns: 22vw 22vw 22vw 22vw;
-    grid-template-rows: 60vh;
+    grid-template-rows: 27vh;
     gap: 0px 2vw;
+  }
+  .title {
+    padding-left: 30px;
+  }
+  .university-logo { 
+    margin-left: -60px;
+  }
+}
+
+@media screen and (max-width: 1090px){
+  .university-logo {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .title {
+    padding-left: 0;
+    padding-top: 21px;
+    margin-left: -20px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .title {
+    padding-left: 0;
+    padding-top: 17px;
   }
 }
 
@@ -4080,7 +4103,7 @@ a.list-group-item.active > .badge,
   .boxes-container {
     padding-left: 5vw;
     grid-template-columns: 90vw;
-    grid-template-rows: 20vmax 20vmax 20vmax 20vmax;
+    grid-template-rows: 25vmax 25vmax 25vmax 25vmax;
     gap: 3vh 0vw;
     grid-template-areas:
       "box-research" 
@@ -4104,7 +4127,6 @@ a.list-group-item.active > .badge,
 @media screen and (max-width: 410px){
   .title{
     font-size: 6vw;
-    padding-top: 3vh;
     padding-left: 1vw ;
   }
 }
