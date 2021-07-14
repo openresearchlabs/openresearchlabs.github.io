@@ -10,12 +10,16 @@ keywords: team
 
 <div class="col-sm-12 clearfix">
 
-  <div class="col-sm-3 clearfix" width="25%"> 
-    <img src="../img/teampic/leo_sci_crop.jpg" class="img-responsive lahti" width="100%" style="float: left"/><br/>
+  <div class="col-sm-3 clearfix" width="400px"> 
+    <img src="../img/teampic/leo_sci_crop.jpg" class="img-responsive lahti" style="float: left"/><br/>
     <div class="links-leo">
       <a href="https://twitter.com/antagomir"><img class="twitter-logo" src="../img/twitter-logo.png"/></a>
       <a href="https://github.com/openresearchlabs/"><img class="github-logo" src="../img/logo-github.png"/></a>
-      <a href="http://www.researcherid.com/rid/G-3170-2010"><img class="orcid-logo" src="../img/orcid-logo.png"/></a>      
+      <a href="https://orcid.org/0000-0001-5537-637X"><img class="orcid-logo" src="../img/orcid-logo.png"/></a>      
+      <a href="https://scholar.google.com/citations?hl=en&user=mjjV-AoAAAAJ"><img class="google-scholar-logo" src="../img/google-scholar-logo.png"/></a>     
+      <a href="https://publons.com/researcher/246930/leo-lahti"><img class="publon-logo" src="../img/publon-logo.png"/></a>
+      <a href="https://www.ncbi.nlm.nih.gov/myncbi/1LcO5Ior1p-5d/bibliography/public/"><img class="nih-logo" src="../img/nih-logo.png"/></a>
+      <a href="https://profiles.impactstory.org/u/0000-0001-5537-637X"><img class="impactstory-logo" src="../img/impactstory.png"/></a>
     </div>
   </div>
 
@@ -34,24 +38,8 @@ keywords: team
     <li><a href="https://blueprintgenetics.com">Blueprint Genetics</a>. Scientific Advisor (AI & ML)</li>
     <li><a href="http://www.helsinki.fi/computational-history">Helsinki Computational History Group</a> founding member</li>      
     <li><a href="http://fi.okfn.org/wg/openscience/">Open Science work group</a>, OKF Finland. Founding member.</li>
-    <li>
-      <a href="http://orcid.org/0000-0001-5537-637X">ORCID: 0000-0001-5537-637X</a>;
-      <a href="http://www.researcherid.com/rid/G-3170-2010">ResearcherID: G-3170-2010</a>;
-      <a href="https://tinyurl.com/ng6g6tk">Google Scholar</a>;
-      <!--<a href="https://www.scopus.com/authid/detail.uri?authorId=8679063700">Scopus</a>;-->
-      <!--<a href="http://www.researchgate.net/profile/Leo_Lahti/">ResearchGate</a>;-->
-      <a href="https://publons.com/author/246930/leo-lahti#stats">Publon</a>;
-      <a href="https://impactstory.org/u/0000-0001-5537-637X">ImpactStory</a>;
-      <!--<a href="http://loop.frontiersin.org/people/295152/overview">Loop</a>;-->
-      <a href="https://www.scienceopen.com/user/statistics/leo_lahti">ScienceOpen</a>;
-      <a href="http://www.ncbi.nlm.nih.gov/sites/myncbi/collections/public/1VaRtFbzqhfLWsXzDa1c5CSQK">PubMed</a>; 
-    </li>
-    <!--<li><a href="../contact">Contact information</a> for the research team</li>-->
-    <li><a href="pgp_lahti_pm.asc">PGP key</a>
   </ul>
-<br>
 </div>
-
 
 ## Postdocs
 
