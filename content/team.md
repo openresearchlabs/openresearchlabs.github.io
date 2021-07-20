@@ -189,12 +189,6 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
 
 
 <br><br>
-## Web intern
-<div class="tom"><img src="../img/teampic/tom_gobardhan.jpg" width="154" height="154"></div>
-<div class="name-tom"> Tom Gobardhan </div>
-<div class="keywords-tom"> French student, intern remotely during Summer 2021 </div>
-
-<br><br>
 
 ## Alumni
 
@@ -205,10 +199,11 @@ Co-supervised PhDs:
 
 Research assistants:
 
+- Tom Gobardhan (2021; summer intern)
 - Tim Garrels (2020; BARI internship)
 - Hege Roivainen (2016-2020; at Helsinki Computational History Group)
 - Aaro Salosensaari (2019-2020)
-- Binu Matthew (2019-2020)
+- Binu Mathew (2019-2020)
 - Prashant Gaikwad (2019; SPARC / supported by Government of India)
 
 MSc students:
