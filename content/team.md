@@ -38,7 +38,7 @@ keywords: team
     <li><a href="https://blueprintgenetics.com">Blueprint Genetics</a>. Scientific Advisor (AI & ML)</li>
     <li><a href="http://www.helsinki.fi/computational-history">Helsinki Computational History Group</a> founding member</li>      
     <li><a href="http://fi.okfn.org/wg/openscience/">Open Science work group</a>, OKF Finland. Founding member.</li>
-    <li><a href="bio.html">Biography</a></li>    
+    <li><a href="../bio_lahti">Biography</a></li>    
   </ul>
 </div>
 
