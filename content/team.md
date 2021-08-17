@@ -28,7 +28,7 @@ keywords: team
   <h4>Leo Lahti (Group leader)</h4>
 
   <ul style="overflow: hidden">
-    <li>Associate Professor (Data Science)</li>
+    <li><a href="https://www.utu.fi/en/people/leo-lahti">Associate Professor (Data Science)</a></li>
     <li>Academy of Finland Research Fellow 2016-2021</li>
     <li>Director, Turku Center for Computational Humanities</li>
     <li><a href="https://tenk.fi/en/research-misconduct/research-integrity-advisers">National Board on Research Integrity (TENK)</a> research integrity adviser</li>
