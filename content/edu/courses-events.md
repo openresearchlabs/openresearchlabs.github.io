@@ -10,13 +10,8 @@ keywords: Forthcoming courses events tutorial data teaching software past
 
 **2021**
 
-**Jul 5-16** [Brain, Bacteria and Behaviour: Understanding the Gut-Brain Axis](https://www.ru.nl/radboudsummerschool/courses/2021/brain-bacteria-behaviour/) online summer school, The Netherlands (virtual)
-
-**Aug 16-20** [NORBIS Summer School 2021](https://norbis.w.uib.no/norbis-summer-school-2021-program/); National research school in bioinformatics, biostatistics and systems biology, Norway (virtual)
-
-**Aug 23-26** [Baltic Summer School on Digital Methods](https://t.co/MJANYOeYmJ?amp=1) in humanities and social sciences. 
-
 **Nov 2-4** [Workshop on modeling microbial community time series](http://psbweb05.psb.ugent.be/conet/microbialtimeseries/registration.php). Leuven, Belgium 
+
 
 ### Topics for MSc/PhD theses
 
@@ -49,6 +44,10 @@ Application topics are available in e.g. statistical ecology and (eco)systems bi
 
 **Bioinformatics**
 
+- [Brain, Bacteria and Behaviour: Understanding the Gut-Brain Axis](https://www.ru.nl/radboudsummerschool/courses/2021/brain-bacteria-behaviour/) online summer school, The Netherlands, July 2021 (online) 
+
+- [NORBIS Summer School 2021](https://norbis.w.uib.no/norbis-summer-school-2021-program/); National research school in bioinformatics, biostatistics and systems biology, Norway, Aug 2021 (online)
+
 - [Microbiome Data Analysis Workshop](https://mdawo.meetinghand.com/) - Hasselt University, Limburg, Belgium, Apr 2021 (online)
 
 - [Tools and techniques for skin microbiome research](http://sppudocs.unipune.ac.in/sites/news_events/Lists/News%20and%20Announcements/Attachments/4783/workshop%20flyer_02.122020.pdf) - Savitribai Phule Pune University, Pune, India, Jan 2021
@@ -66,3 +65,9 @@ Application topics are available in e.g. statistical ecology and (eco)systems bi
  - [International spring school on open and reproducible microbiome data analysis](https://mibwurrepo.github.io/OPEN-REPRODUCIBLE-MICROBIOME-DATA-ANALYSIS-2018/) - 2018 Wageningen, The Netherlands  
 
  - [International summer school on microbial network analysis](http://psbweb05.psb.ugent.be/conet/econetschool/index.php) - 2017 KU Leuven, Belgium
+
+
+**Computational humanities**
+
+- [Baltic Summer School on Digital Methods](https://t.co/MJANYOeYmJ?amp=1) in humanities and social sciences. Aug, 2021 (online)
+
