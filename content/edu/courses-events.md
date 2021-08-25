@@ -10,7 +10,7 @@ keywords: Forthcoming courses events tutorial data teaching software past
 
 **2021**
 
-**Nov 2-4** [Workshop on modeling microbial community time series](http://psbweb05.psb.ugent.be/conet/microbialtimeseries/registration.php). Leuven, Belgium 
+**Nov 2-4** [Workshop on modeling microbial community time series](http://msysbiology.com/microbialtimeseries/). Leuven, Belgium 
 
 
 ### Topics for MSc/PhD theses
