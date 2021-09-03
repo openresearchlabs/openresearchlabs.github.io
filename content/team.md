@@ -46,7 +46,7 @@ keywords: team
 
 <br>
 
-<div class="grid-container">
+<div class="grid-container-2">
   <div class="matti"><img src="../img/teampic/matti_ruuskanen.jpg" height="250"></div>
   <div class="guilhem"><img src="../img/teampic/guilhem_s.jpeg" height="250"></div>
   <div class="pande"><img src="../img/teampic/pande_erawijantari.jpg" height="250"></div>
@@ -55,7 +55,7 @@ keywords: team
   
   <div class="name-matti"> Matti Ruuskanen </div>
   <div class="name-guilhem"> Guilhem Sommeria-Klein </div>
-  <div class="name-pande">Pande Erawijantari </div>
+  <div class="name-pande"> Pande Erawijantari </div>
   <div class="name-aura"> Aura Raulo </div>
   <div class="name-kata"> Katariina Pärnänen </div>
 
