@@ -3827,16 +3827,17 @@ a.list-group-item.active > .badge,
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 250px 0.5fr 1fr 0.5fr;
-  gap: 0px 50px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 200px 0.5fr 1fr 0,5fr;
+  gap: 0px 40px;
   grid-template-areas:
-    "matti guilhem pande aura"
-    "name-matti name-guilhem name-pande name-aura"
-    "keywords-matti keywords-guilhem keywords-pande keywords-aura"
-    "links-matti links-guilhem links-pande links-aura";
+    "matti guilhem pande aura kata"
+    "name-matti name-guilhem name-pande name-aura name-kata"
+    "keywords-matti keywords-guilhem keywords-pande keywords-aura keywords-kata"
+    "links-matti links-guilhem links-pande links-aura links-kata";
   font-weight: bold;
 }
+
 
 .matti { grid-area: matti; text-align: center; clip-path:ellipse(50% 50%);}
 
@@ -3846,21 +3847,30 @@ a.list-group-item.active > .badge,
 
 .aura { grid-area: aura; text-align: center; clip-path:ellipse(50% 50%);}
 
-.name-matti { grid-area: name-matti; text-align: center; padding-top: 1vh;}
+.kata { grid-area: kata; text-align: center; clip-path:ellipse(50% 50%);}
 
-.name-guilhem { grid-area: name-guilhem;  text-align: center; padding-top: 1vh;}
 
-.name-pande { grid-area: name-pande;  text-align: center; padding-top: 1vh;}
+.name-matti { grid-area: name-matti; text-align: center; padding-top: 10px;}
 
-.name-aura { grid-area: name-aura;  text-align: center; padding-top: 1vh;}
+.name-guilhem { grid-area: name-guilhem;  text-align: center; padding-top: 10px;}
 
-.keywords-matti { grid-area: keywords-matti; text-align: center; font-weight: normal;}
+.name-pande { grid-area: name-pande;  text-align: center; padding-top: 10px;}
 
-.keywords-guilhem { grid-area: keywords-guilhem; text-align: center; font-weight: normal;}
+.name-aura { grid-area: name-aura;  text-align: center; padding-top: 10px;}
 
-.keywords-pande { grid-area: keywords-pande; text-align: center; font-weight: normal;}
+.name-kata { grid-area: name-kata;  text-align: center; padding-top: 10px;}
 
-.keywords-aura { grid-area: keywords-aura; text-align: center; font-weight: normal;}
+
+.keywords-matti { grid-area: keywords-matti; text-align: center; font-weight: normal; padding-top: 0.5vh;}
+
+.keywords-guilhem { grid-area: keywords-guilhem; text-align: center; font-weight: normal; padding-top: 0.5vh;}
+
+.keywords-pande { grid-area: keywords-pande; text-align: center; font-weight: normal; padding-top: 0.5vh;}
+
+.keywords-aura { grid-area: keywords-aura; text-align: center; font-weight: normal; padding-top: 0.5vh;}
+
+.keywords-kata { grid-area: keywords-kata; text-align: center; font-weight: normal; padding-top: 0.5vh;}
+
 
 .links-matti { grid-area: links-matti; text-align: center; padding-top: 0.5vh; }
 
@@ -3869,6 +3879,9 @@ a.list-group-item.active > .badge,
 .links-pande { grid-area: links-pande; text-align: center; padding-top: 0.5vh; }
 
 .links-aura { grid-area: links-aura; text-align: center; padding-top: 0.5vh; }
+
+.links-kata { grid-area: links-kata; text-align: center; padding-top: 0.5vh; }
+
 
 .grid-container-2 {
   display: grid;
