@@ -46,6 +46,7 @@ keywords: team
 
 <br>
 
+<<<<<<< HEAD
 <div class="grid-container">
 
   <div class="matti"><img src="../img/teampic/matti_ruuskanen.jpg" height="200"></div>
@@ -53,6 +54,14 @@ keywords: team
   <div class="pande"><img src="../img/teampic/pande_erawijantari.jpg" height="200"></div>
   <div class="aura"><img src="../img/teampic/aura_raulo2_crop.jpg" height="200"></div>
   <div class="kata"><img src="../img/teampic/katariina_parnanen_crop.jpg" height="200"></div>
+=======
+<div class="grid-container-2">
+  <div class="matti"><img src="../img/teampic/matti_ruuskanen.jpg" height="250"></div>
+  <div class="guilhem"><img src="../img/teampic/guilhem_s.jpeg" height="250"></div>
+  <div class="pande"><img src="../img/teampic/pande_erawijantari.jpg" height="250"></div>
+  <div class="aura"><img src="../img/teampic/aura_raulo2_crop.jpg" height="250"></div>
+  <div class="kata"><img src="../img/teampic/katariina_parnanen_crop.jpg" height="250"></div>
+>>>>>>> parent of 870623d (ok)
   
   <div class="name-matti"> Matti Ruuskanen </div>
   <div class="name-guilhem"> Guilhem Sommeria-Klein </div>
@@ -64,7 +73,11 @@ keywords: team
   <div class="keywords-guilhem"></div>
   <div class="keywords-pande"> Human microbiome, metagenomics, metabolomic, microbial ecology, bioinformatics. </div>
   <div class="keywords-aura"> </div>
+<<<<<<< HEAD
   <div class="keywords-kata"> Metagenomics, AMR </div>
+=======
+  <div class="keywords-kata"> Metagenomics, AMR</div>
+>>>>>>> parent of 870623d (ok)
 
   <div class="links-matti">
     <a href="https://twitter.com/mattiruuskanen"><img class="twitter-logo" src="../img/twitter-logo.png"/></a>
@@ -76,9 +89,9 @@ keywords: team
     <a href="https://erawijantari.github.io/"><img class="internet-logo" src="../img/internet-logo.png"/></a>
   </div>
   <div class="links-aura"></div>
-  <!--<div class="links-kata">
+  <div class="links-kata">
     <a href="https://twitter.com/Kata_MMP"><img class="twitter-logo" src="../img/twitter-logo.png"/></a>
-  </div>-->
+  </div>
 
 </div>
 
