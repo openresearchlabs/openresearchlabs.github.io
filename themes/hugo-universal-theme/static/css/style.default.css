@@ -3825,6 +3825,7 @@ a.list-group-item.active > .badge,
   margin-bottom: 50px;
 }
 
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -3895,6 +3896,7 @@ a.list-group-item.active > .badge,
     "links-ville links-moein links-chandler links-iiro links-vaara";
   font-weight: bold;
 }
+
 
 .ville { grid-area: ville; text-align: center;  clip-path:ellipse(50% 50%);}
 
@@ -3989,6 +3991,7 @@ a.list-group-item.active > .badge,
 
 .links-anna { grid-area: links-anna; text-align: center; padding-top: 0.5vh; }
 
+
 .grid-container-4 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -4012,6 +4015,7 @@ a.list-group-item.active > .badge,
 
 .chouaib { grid-area: chouaib; text-align: center; clip-path:ellipse(50% 50%);}
 
+
 .name-pyry { grid-area: name-pyry; text-align: center; padding-top: 10px;}
 
 .name-tuomas { grid-area: name-tuomas;  text-align: center; padding-top: 10px;}
@@ -4021,6 +4025,7 @@ a.list-group-item.active > .badge,
 .name-renuka { grid-area: name-renuka;  text-align: center; padding-top: 10px;}
 
 .name-chouaib { grid-area: name-chouaib;  text-align: center; padding-top: 10px;}
+
 
 .keywords-pyry { grid-area: keywords-pyry; text-align: center; font-weight: normal; padding-top: 0.5vh;}
 
@@ -4032,6 +4037,7 @@ a.list-group-item.active > .badge,
 
 .keywords-chouaib { grid-area: keywords-chouaib;  text-align: center; font-weight: normal; padding-top: 0.5vh;}
 
+
 .links-pyry { grid-area: links-pyry; text-align: center; padding-top: 0.5vh; }
 
 .links-tuomas { grid-area: links-tuomas; text-align: center; padding-top: 0.5vh; }
@@ -4041,6 +4047,11 @@ a.list-group-item.active > .badge,
 .links-renuka { grid-area: links-renuka; text-align: center; padding-top: 0.5vh; }
 
 .links-chouaib { grid-area: links-chouaib;  text-align: center; padding-top: 10px;}
+
+
+
+
+
 
 @media screen and (max-width: 1200px){
   .col-sm-3{
@@ -4058,7 +4069,10 @@ a.list-group-item.active > .badge,
   }  
   .grid-container-4{
     overflow: scroll;
-  }  
+  }
+  .grid-container-5{
+    overflow: scroll;
+  }    
   .twitter-logo{
     width: 60px;
     height: auto;

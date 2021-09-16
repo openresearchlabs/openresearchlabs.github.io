@@ -29,7 +29,7 @@ keywords: team
 
   <ul style="overflow: hidden">
     <li><a href="https://www.utu.fi/en/people/leo-lahti">Associate Professor (Data Science)</a></li>
-    <li>Academy of Finland Research Fellow 2016-2021</li>
+    <!--<li>Academy of Finland Research Fellow 2016-2021</li>-->
     <li>Director, Turku Center for Computational Humanities</li>
     <li><a href="https://tenk.fi/en/research-misconduct/research-integrity-advisers">National Board on Research Integrity (TENK)</a> research integrity adviser</li>
     <li> <a href="https://avointiede.fi/fi/koordinaatio">National open science coordination</a> steering group</li> 
@@ -46,21 +46,26 @@ keywords: team
 
 <br>
 
+
+
 <div class="grid-container">
-  <div class="matti"><img src="../img/teampic/matti_ruuskanen.jpg" height="250"></div>
-  <div class="guilhem"><img src="../img/teampic/guilhem_s.jpeg" height="250"></div>
-  <div class="pande"><img src="../img/teampic/pande_erawijantari.jpg" height="250"></div>
-  <div class="aura"><img src="../img/teampic/aura_raulo2_crop.jpg" height="250"></div>
-  
+  <div class="matti"><img src="../img/teampic/matti_ruuskanen.jpg" height="200"></div>
+  <div class="guilhem"><img src="../img/teampic/guilhem_s.jpeg" height="200"></div>
+  <div class="pande"><img src="../img/teampic/pande_erawijantari.jpg" height="200"></div>
+  <div class="aura"><img src="../img/teampic/aura_raulo2_crop.jpg" height="200"></div>
+  <div class="kata"><img src="../img/teampic/katariina_parnanen.jpg" height="200"></div>  
+    
   <div class="name-matti"> Matti Ruuskanen </div>
   <div class="name-guilhem"> Guilhem Sommeria-Klein </div>
   <div class="name-pande">Pande Erawijantari </div>
   <div class="name-aura"> Aura Raulo </div>
+  <div class="name-kata"> Katariina Pärnänen </div>  
 
   <div class="keywords-matti"> Microbial ecology, bioinformatics, human microbiomes, environmental change. </div>
-  <div class="keywords-guilhem"></div>
-  <div class="keywords-pande"> Human microbiome, metagenomic, metabolomic,  microbial ecology, bioinformatics. </div>
-  <div class="keywords-aura"> </div>
+  <div class="keywords-guilhem"> Statistical ecology, probabilistic models, microbiomes. </div>
+  <div class="keywords-pande"> Human microbiome, metagenomic, metabolomic, microbial ecology, bioinformatics. </div>
+  <div class="keywords-aura"> Microbiomes, ecology. </div>
+  <div class="keywords-kata"> Metagenomics, bioinformatics, AMR. </div>  
 
   <div class="links-matti">
     <a href="https://twitter.com/mattiruuskanen"><img class="twitter-logo" src="../img/twitter-logo.png"/></a>
@@ -72,6 +77,9 @@ keywords: team
     <a href="https://erawijantari.github.io/"><img class="internet-logo" src="../img/internet-logo.png"/></a>
   </div>
   <div class="links-aura"></div>
+  <div class="links-kata">
+    <a href="https://twitter.com/Kata_MMP"><img class="twitter-logo" src="../img/twitter-logo.png"/></a>
+  </div>
 </div>
 
 
@@ -101,7 +109,7 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
   <div class="keywords-moein"> Ecological Memory, Fractional Calculus, Differential Equations, Dynamic Modelling, Data Analysis. </div>
   <div class="keywords-chandler"> Eco-Evolutionary Dynamics, Statistical Modelling, Time Series. </div>
   <div class="keywords-iiro"> Computational history, Probabilistic modeling. </div>
-  <div class="keywords-vaara"> </div>
+  <div class="keywords-vaara"> Computational history, digital humanities. </div>
 
   <div class="links-ville">
     <a href="https://orcid.org/0000-0003-0703-4556"><img class="orcid-logo" src="../img/orcid-logo.png"/></a>
@@ -134,11 +142,11 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
   <div class="name-mrunalini"> Mrunalini Lotankar (FOPP) </div>
   <div class="name-anna"> Anna Sorjamaa (Oulu) </div>
 
-  <div class="keywords-joonatan"> </div>
-  <div class="keywords-felix"></div>
+  <div class="keywords-joonatan"> Data science, bioinformatics. </div>
+  <div class="keywords-felix"> Data science, bioinformatics. </div>
   <div class="keywords-henrik"> Human microbiome and health, Bioinformatics. </div>
   <div class="keywords-mrunalini"> Bioinformatics, human microbiome, metagenomic, metabolomic. </div>
-  <div class="keywords-anna"> </div>
+  <div class="keywords-anna"> Microbiomes, bioinformatics. </div>
 
   <div class="links-joonatan"></div>
   <div class="links-felix"></div>
@@ -162,7 +170,7 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
   <div class="julia"><img src="../img/teampic/julia_matveeva_crop.jpg" height="200"></div>
   <div class="renuka"><img src="../img/teampic/renuka_crop.jpg" height="200" ></div>
   <div class="chouaib"><img src="../img/teampic/chouaib_benchraka.jpeg" height="200" ></div>
-
+  
   <div class="name-pyry"> Pyry Kantanen </div>
   <div class="name-tuomas"> Tuomas Borman </div>
   <div class="name-julia"> Julia Matveeva </div>
@@ -188,8 +196,14 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
   </div>
 </div>
 
-
 <br><br>
+
+## Visitors
+
+- Yagmur Simsekk (2021)
+- Giulio Benedetti (2021)
+
+<br>
 
 ## Alumni
 
