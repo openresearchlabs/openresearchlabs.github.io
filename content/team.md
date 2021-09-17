@@ -109,10 +109,17 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
     <p class="flex-item-links"></p>
   </li>
   
+</ul>
+
+<br><br>
+## PhD candidates, co-supervised
+
+<ul class="flex-container">
+
   <li class="flex-item">
     <p class="flex-item-picture"><img src="../img/teampic/iiro_tiihonen_crop.jpeg" height="200"></p>
     <p class="flex-item-name">Iiro Tiihonen (<a href="https://www2.helsinki.fi/en/researchgroups/computational-history" target="_blank">COMHIS</a>)</p>
-    <p class="flex-item-keywords">Computational history, Probabilistic modeling.</p>
+    <p class="flex-item-keywords">Computational history, probabilistic modeling.</p>
     <p class="flex-item-links"><a href="https://twitter.com/IiroTiihonen"><img class="twitter-logo" src="../img/twitter-logo.png"/></a>
     <a href="https://orcid.org/0000-0003-0703-4556"><img class="orcid-logo" src="../img/orcid-logo.png"/></a></p>
   </li>
@@ -137,11 +144,14 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
     <p class="flex-item-keywords">Data science, bioinformatics.</p>
     <p class="flex-item-links"></p>
   </li>
-  
+</ul>
+
+<ul class="flex-container">
+
   <li class="flex-item">
     <p class="flex-item-picture"><img src="../img/teampic/henrik_eckerman_crop.jpg" height="200"></p>
     <p class="flex-item-name">Henrik Eckerman (<a href="https://dpblab.org/" target="_blank">Nijmegen</a>)</p>
-    <p class="flex-item-keywords">Human microbiome and health, Bioinformatics.</p>
+    <p class="flex-item-keywords">Human microbiome and health, bioinformatics.</p>
     <p class="flex-item-links"><a href="https://twitter.com/HenrikEckermann"><img class="twitter-logo" src="../img/twitter-logo.png"/></a>
     <a href="https://orcid.org/0000-0001-8725-7770"><img class="orcid-logo" src="../img/orcid-logo.png"/></a></p>
   </li>
@@ -181,13 +191,6 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
   </li>
   
   <li class="flex-item">
-    <p class="flex-item-picture"><img src="../img/teampic/julia_matveeva_crop.jpg" height="200"></p>
-    <p class="flex-item-name">Julia Matveeva</p>
-    <p class="flex-item-keywords"> </p>
-    <p class="flex-item-links"></p>
-  </li>
-  
-  <li class="flex-item">
     <p class="flex-item-picture"><img src="../img/teampic/renuka_crop.jpg" height="200" ></p>
     <p class="flex-item-name">Renuka Potbhare (Pune)</p>
     <p class="flex-item-keywords">Human skin microbiome, metagenomics, bioinformatics.</p>
@@ -197,19 +200,38 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
   <li class="flex-item">
     <p class="flex-item-picture"><img src="../img/teampic/chouaib_benchraka.jpeg" height="200"></p>
     <p class="flex-item-name">Chouaib Benchraka</p>
-    <p class="flex-item-keywords">Machine Learning, Data Science.</p>
+    <p class="flex-item-keywords">Machine Learning, data Science.</p>
     <p class="flex-item-links"><a href="https://orcid.org/0000-0002-1167-7848" target="_blank"><img class="orcid-logo" src="../img/orcid-logo.png"/></a></p>
   </li>
+
+</ul>
+
+<ul class="flex-container">
+  <li class="flex-item">
+    <p class="flex-item-picture"><img src="../img/teampic/julia_matveeva_crop.jpg" height="200"></p>
+    <p class="flex-item-name">Julia Matveeva</p>
+    <p class="flex-item-keywords"> Digital humanities. </p>
+    <p class="flex-item-links"></p>
+  </li>
+  
+  <li class="flex-item">
+    <p class="flex-item-picture"><img src="../img/teampic/bio-photo.jpg" height="200"></p>
+    <p class="flex-item-name"> Yagmur Simsekk </p>
+    <p class="flex-item-keywords">Data Science.</p>
+    <p class="flex-item-links"></p>    
+  </li>
+
+  <li class="flex-item">
+    <p class="flex-item-picture"><img src="../img/teampic/bio-photo.jpg" height="200"></p>
+    <p class="flex-item-name"> Giulio Benedetti </p>
+    <p class="flex-item-keywords">Data Science.</p>
+    <p class="flex-item-links"></p>    
+  </li>
+
 </ul>
 
 <br><br>
 
-## Visitors
-
-- Yagmur Simsekk (2021)
-- Giulio Benedetti (2021)
-
-<br>
 
 ## Alumni
 
