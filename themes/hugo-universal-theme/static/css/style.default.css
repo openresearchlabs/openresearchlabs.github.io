@@ -4048,7 +4048,53 @@ a.list-group-item.active > .badge,
 
 .links-chouaib { grid-area: links-chouaib;  text-align: center; padding-top: 10px;}
 
+.flex-container {
+  /* We first create a flex layout context */
+  display: flex;
+  
+  /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+  
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+  
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
 
+.flex-item {
+  padding: 5px;
+  width: 200px;
+  height: 400px;
+}
+
+.flex-item-picture {
+  padding-top: 0.0vh;
+  clip-path:ellipse(50% 50%);
+}
+
+.flex-item-name {
+  padding-top: 1.0vh;
+  font-weight: bold;
+  text-align: center;
+}
+
+.flex-item-keywords {
+  padding-top: 0.0vh;
+  font-weight: normal;
+  text-align: center;
+}
+
+.flex-item-links {
+  padding-top: 0.2vh;
+  text-align: center;
+}
 
 
 
