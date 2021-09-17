@@ -7,7 +7,6 @@ keywords: team
 
 **Welcome to [contact us](../contact/) to discuss research/study positions and collaboration.** 
 
-
 <div class="col-sm-12 clearfix">
 
   <div class="col-sm-3 clearfix" width="400px"> 
@@ -42,48 +41,43 @@ keywords: team
   </ul>
 </div>
 
+<p>
+
 ## Postdocs
 
 <br>
 
-
-
-<div class="grid-container">
-  <div class="matti"><img src="../img/teampic/matti_ruuskanen.jpg" height="200"></div>
-  <div class="guilhem"><img src="../img/teampic/guilhem_s.jpeg" height="200"></div>
-  <div class="pande"><img src="../img/teampic/pande_erawijantari.jpg" height="200"></div>
-  <div class="aura"><img src="../img/teampic/aura_raulo2_crop.jpg" height="200"></div>
-  <div class="kata"><img src="../img/teampic/katariina_parnanen.jpg" height="200"></div>  
-    
-  <div class="name-matti"> Matti Ruuskanen </div>
-  <div class="name-guilhem"> Guilhem Sommeria-Klein </div>
-  <div class="name-pande">Pande Erawijantari </div>
-  <div class="name-aura"> Aura Raulo </div>
-  <div class="name-kata"> Katariina Pärnänen </div>  
-
-  <div class="keywords-matti"> Microbial ecology, bioinformatics, human microbiomes, environmental change. </div>
-  <div class="keywords-guilhem"> Statistical ecology, probabilistic models, microbiomes. </div>
-  <div class="keywords-pande"> Human microbiome, metagenomic, metabolomic, microbial ecology, bioinformatics. </div>
-  <div class="keywords-aura"> Microbiomes, ecology. </div>
-  <div class="keywords-kata"> Metagenomics, bioinformatics, AMR. </div>  
-
-  <div class="links-matti">
-    <a href="https://twitter.com/mattiruuskanen"><img class="twitter-logo" src="../img/twitter-logo.png"/></a>
-    <a href="https://www.researchgate.net/profile/Matti-Ruuskanen"><img class="internet-logo" src="../img/internet-logo.png"/></a>
-  </div>
-  <div class="links-guilhem"></div>
-  <div class="links-pande">
-    <a href="https://twitter.com/erawijantaript"><img class="twitter-logo" src="../img/twitter-logo.png"/></a>
-    <a href="https://erawijantari.github.io/"><img class="internet-logo" src="../img/internet-logo.png"/></a>
-  </div>
-  <div class="links-aura"></div>
-  <div class="links-kata">
-    <a href="https://twitter.com/Kata_MMP"><img class="twitter-logo" src="../img/twitter-logo.png"/></a>
-  </div>
-</div>
-
-
-<br><br>
+<ul class="flex-container">
+  <li class="flex-item">
+    <p class="flex-item-picture"><img src="../img/teampic/matti_ruuskanen.jpg" height="200"></p>
+    <p class="flex-item-name">Matti Ruuskanen</p>
+    <p class="flex-item-keywords">Microbial ecology, bioinformatics, human microbiomes, environmental change.</p>
+  </li>
+  <li class="flex-item">
+    <p class="flex-item-picture"><img src="../img/teampic/guilhem_s.jpeg" height="200"></p>
+    <p class="flex-item-name">Guilhem Sommeria-Klein</p>
+    <p class="flex-item-keywords">Statistical ecology, probabilistic models, microbiomes.</p>
+    <p class="flex-item-links"></p>
+  </li>
+  <li class="flex-item">
+    <p class="flex-item-picture"><img src="../img/teampic/pande_erawijantari.jpg" height="200"></p>
+    <p class="flex-item-name">Pande Erawijantari</p>
+    <p class="flex-item-keywords">Human microbiome, metagenomic, metabolomic, microbial ecology, bioinformatics.</p>
+    <p class="flex-item-links"></p>
+  </li>
+  <li class="flex-item">
+    <p class="flex-item-picture"><img src="../img/teampic/aura_raulo2_crop.jpg" height="200"></p>
+    <p class="flex-item-name">Aura Raulo</p>
+    <p class="flex-item-keywords">Microbiomes, ecology.</p>
+    <p class="flex-item-links"></p>
+  </li>
+  <li class="flex-item">
+    <p class="flex-item-picture"><img src="../img/teampic/katariina_parnanen.jpg" height="200"></p>
+    <p class="flex-item-name">Pande Erawijantari</p>
+    <p class="flex-item-keywords">Metagenomics, bioinformatics, AMR.</p>
+    <p class="flex-item-links"></p>
+  </li>
+</ul>
 
 ## PhD candidates
 
@@ -91,110 +85,122 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
 
 <br>
 
-
-<div class="grid-container-2">
-  <div class="ville"><img src="../img/teampic/ville_laitinen_crop.jpg" height="200"></div>
-  <div class="moein"><img src="../img/teampic/moein_khalighi.jpg" height="200"></div>
-  <div class="chandler"><img src="../img/teampic/chandler_ross_crop.jpeg" height="200"></div>
-  <div class="iiro"><img src="../img/teampic/iiro_tiihonen_crop.jpeg" height="200"></div>
-  <div class="vaara"><img src="../img/teampic/ville_vaara.jpg" height="200"></div>
+<ul class="flex-container">
+  <li class="flex-item">
+    <p class="flex-item-picture"><img src="../img/teampic/ville_laitinen_crop.jpg" height="200"></p>
+    <p class="flex-item-name">Ville Laitinen</p>
+    <p class="flex-item-keywords">Probabilistic modeling, time series, early warning signals.</p>
+    <p class="flex-item-links"><a href="https://orcid.org/0000-0003-0703-4556"><img class="orcid-logo" src="../img/orcid-logo.png"/></a></p>
+  </li>
   
-  <div class="name-ville"> Ville Laitinen </div>
-  <div class="name-moein"> Moein Khalighi </div>
-  <div class="name-chandler"> Chandler Ross </div>
-  <div class="name-iiro"> Iiro Tiihonen (<a href="https://www2.helsinki.fi/en/researchgroups/computational-history" target="_blank">COMHIS</a>) </div>
-  <div class="name-vaara"> Ville Vaara (<a href="https://www2.helsinki.fi/en/researchgroups/computational-history" target="_blank">COMHIS</a>) </div>
-
-  <div class="keywords-ville"> Probabilistic modeling, time series, early warning signals. </div>
-  <div class="keywords-moein"> Ecological Memory, Fractional Calculus, Differential Equations, Dynamic Modelling, Data Analysis. </div>
-  <div class="keywords-chandler"> Eco-Evolutionary Dynamics, Statistical Modelling, Time Series. </div>
-  <div class="keywords-iiro"> Computational history, Probabilistic modeling. </div>
-  <div class="keywords-vaara"> Computational history, digital humanities. </div>
-
-  <div class="links-ville">
-    <a href="https://orcid.org/0000-0003-0703-4556"><img class="orcid-logo" src="../img/orcid-logo.png"/></a>
-  </div>
-  <div class="links-moein">
-    <a href="https://twitter.com/KhalighiMoein"><img class="twitter-logo" src="../img/twitter-logo.png"/></a>
+  <li class="flex-item">
+    <p class="flex-item-picture"><img src="../img/teampic/moein_khalighi.jpg" height="200"></p>
+    <p class="flex-item-name">Moein Khalighi</p>
+    <p class="flex-item-keywords">Ecological Memory, Fractional Calculus, Differential Equations, Dynamic Modelling, Data Analysis.</p>
+    <p class="flex-item-links"><a href="https://twitter.com/KhalighiMoein"><img class="twitter-logo" src="../img/twitter-logo.png"/></a>
     <a href="https://scholar.google.com/citations?hl=en&user=XrlaLlUAAAAJ"><img class="internet-logo" src="../img/internet-logo.png"/></a>
-    <a href="https://orcid.org/0000-0001-8176-0367"><img class="orcid-logo" src="../img/orcid-logo.png"/></a>
-  </div>
-  <div class="links-chandler"></div>
-  <div class="links-iiro">
-    <a href="https://twitter.com/IiroTiihonen"><img class="twitter-logo" src="../img/twitter-logo.png"/></a>
-    <a href="https://orcid.org/0000-0003-0703-4556"><img class="orcid-logo" src="../img/orcid-logo.png"/></a>
-  </div>
-  <div class="links-vaara"></div>
-</div>
-
--------------------------
-
-<div class="grid-container-3">
-  <div class="joonatan"><img src="../img/teampic/joonatan_palmu.jpeg" height="200"></div>
-  <div class="felix"><img src="../img/teampic/felix_vaura.jpeg" height="200"></div>
-  <div class="henrik"><img src="../img/teampic/henrik_eckerman_crop.jpg" height="200"></div>
-  <div class="mrunalini"><img src="../img/teampic/mrunalini_lotankar.jpg" height="200"></div>
-  <div class="anna"><img src="../img/teampic/bio-photo.jpg" height="200"></div>
+    <a href="https://orcid.org/0000-0001-8176-0367"><img class="orcid-logo" src="../img/orcid-logo.png"/></a></p>
+  </li>
   
-  <div class="name-joonatan"> Joonatan Palmu (<a href="https://www.hypertensioncenter.org/" target="_blank">THC</a>) </div>
-  <div class="name-felix"> Felix Vaura (<a href="https://www.hypertensioncenter.org/" target="_blank">THC</a>) </div>
-  <div class="name-henrik"> Henrik Eckerman (<a href="https://dpblab.org/" target="_blank">Nijmegen</a>) </div>
-  <div class="name-mrunalini"> Mrunalini Lotankar (FOPP) </div>
-  <div class="name-anna"> Anna Sorjamaa (Oulu) </div>
-
-  <div class="keywords-joonatan"> Data science, bioinformatics. </div>
-  <div class="keywords-felix"> Data science, bioinformatics. </div>
-  <div class="keywords-henrik"> Human microbiome and health, Bioinformatics. </div>
-  <div class="keywords-mrunalini"> Bioinformatics, human microbiome, metagenomic, metabolomic. </div>
-  <div class="keywords-anna"> Microbiomes, bioinformatics. </div>
-
-  <div class="links-joonatan"></div>
-  <div class="links-felix"></div>
-  <div class="links-henrik">
-    <a href="https://twitter.com/HenrikEckermann"><img class="twitter-logo" src="../img/twitter-logo.png"/></a>
-    <a href="https://orcid.org/0000-0001-8725-7770"><img class="orcid-logo" src="../img/orcid-logo.png"/></a>
-  </div>
-  <div class="links-mrunalini">
-    <a href="https://orcid.org/0000-0001-8748-931X"><img class="orcid-logo" src="../img/orcid-logo.png"/></a>
-  </div>
-  <div class="links-anna"></div>
-</div>
-
+  <li class="flex-item">
+    <p class="flex-item-picture"><img src="../img/teampic/chandler_ross_crop.jpeg" height="200"></p>
+    <p class="flex-item-name">Chandler Ross</p>
+    <p class="flex-item-keywords">Eco-Evolutionary Dynamics, Statistical Modelling, Time Series.</p>
+    <p class="flex-item-links"></p>
+  </li>
+  
+  <li class="flex-item">
+    <p class="flex-item-picture"><img src="../img/teampic/iiro_tiihonen_crop.jpeg" height="200"></p>
+    <p class="flex-item-name">Iiro Tiihonen (<a href="https://www2.helsinki.fi/en/researchgroups/computational-history" target="_blank">COMHIS</a>)</p>
+    <p class="flex-item-keywords">Computational history, Probabilistic modeling.</p>
+    <p class="flex-item-links"><a href="https://twitter.com/IiroTiihonen"><img class="twitter-logo" src="../img/twitter-logo.png"/></a>
+    <a href="https://orcid.org/0000-0003-0703-4556"><img class="orcid-logo" src="../img/orcid-logo.png"/></a></p>
+  </li>
+  
+  <li class="flex-item">
+    <p class="flex-item-picture"><img src="../img/teampic/ville_vaara.jpg" height="200"></p>
+    <p class="flex-item-name">Ville Vaara (<a href="https://www2.helsinki.fi/en/researchgroups/computational-history" target="_blank">COMHIS</a>)</p>
+    <p class="flex-item-keywords">Computational history, digital humanities.</p>
+    <p class="flex-item-links"></p>
+  </li>
+  
+  <li class="flex-item">
+    <p class="flex-item-picture"><img src="../img/teampic/joonatan_palmu.jpeg" height="200"></p>
+    <p class="flex-item-name">Joonatan Palmu (<a href="https://www.hypertensioncenter.org/" target="_blank">THC</a>)</p>
+    <p class="flex-item-keywords">Data science, bioinformatics.</p>
+    <p class="flex-item-links"></p>
+  </li>
+  
+  <li class="flex-item">
+    <p class="flex-item-picture"><img src="../img/teampic/felix_vaura.jpeg" height="200"></p>
+    <p class="flex-item-name">Felix Vaura (<a href="https://www.hypertensioncenter.org/" target="_blank">THC</a>)</p>
+    <p class="flex-item-keywords">Data science, bioinformatics.</p>
+    <p class="flex-item-links"></p>
+  </li>
+  
+  <li class="flex-item">
+    <p class="flex-item-picture"><img src="../img/teampic/henrik_eckerman_crop.jpg" height="200"></p>
+    <p class="flex-item-name">Henrik Eckerman (<a href="https://dpblab.org/" target="_blank">Nijmegen</a>)</p>
+    <p class="flex-item-keywords">Human microbiome and health, Bioinformatics.</p>
+    <p class="flex-item-links"><a href="https://twitter.com/HenrikEckermann"><img class="twitter-logo" src="../img/twitter-logo.png"/></a>
+    <a href="https://orcid.org/0000-0001-8725-7770"><img class="orcid-logo" src="../img/orcid-logo.png"/></a></p>
+  </li>
+  
+  <li class="flex-item">
+    <p class="flex-item-picture"><img src="../img/teampic/mrunalini_lotankar.jpg" height="200"></p>
+    <p class="flex-item-name">Mrunalini Lotankar (FOPP)</p>
+    <p class="flex-item-keywords">Bioinformatics, human microbiome, metagenomic, metabolomic.</p>
+    <p class="flex-item-links"><a href="https://orcid.org/0000-0001-8748-931X"><img class="orcid-logo" src="../img/orcid-logo.png"/></a></p>    
+  </li>
+  
+  <li class="flex-item">
+    <p class="flex-item-picture"><img src="../img/teampic/bio-photo.jpg" height="200"></p>
+    <p class="flex-item-name">Anna Sorjamaa (Oulu)</p>
+    <p class="flex-item-keywords">Microbiomes, bioinformatics.</p>
+    <p class="flex-item-links"></p>
+  </li>
+  
+</ul>
 
 <br><br>
 ## Research assistants
 
-<div class="grid-container-4">
-  <div class="pyry"><img src="../img/teampic/pyry_kantanen.jpeg" height="200"></div>
-  <div class="tuomas"><img src="../img/teampic/tuomas_borman.jpeg" height="200"></div>
-  <div class="julia"><img src="../img/teampic/julia_matveeva_crop.jpg" height="200"></div>
-  <div class="renuka"><img src="../img/teampic/renuka_crop.jpg" height="200" ></div>
-  <div class="chouaib"><img src="../img/teampic/chouaib_benchraka.jpeg" height="200" ></div>
+<ul class="flex-container">
+  <li class="flex-item">
+    <p class="flex-item-picture"><img src="../img/teampic/pyry_kantanen.jpeg" height="200"></p>
+    <p class="flex-item-name">Pyry Kantanen</p>
+    <p class="flex-item-keywords">R programming, Open data, Social research.</p>
+    <p class="flex-item-links"><a href="https://twitter.com/PyryKantanen"><img class="twitter-logo" src="../img/twitter-logo.png"/></a></p>
+  </li>
   
-  <div class="name-pyry"> Pyry Kantanen </div>
-  <div class="name-tuomas"> Tuomas Borman </div>
-  <div class="name-julia"> Julia Matveeva </div>
-  <div class="name-renuka"> Renuka Potbhare (Pune) </div>
-  <div class="name-chouaib"> Chouaib Benchraka </div>
-
-  <div class="keywords-pyry"> R programming, Open data, Social research. </div>
-  <div class="keywords-tuomas"> Bioinformatics, Human microbiome, R package development. </div>
-  <div class="keywords-julia"> </div>
-  <div class="keywords-renuka"> Human skin microbiome, metagenomics, bioinformatics. </div>
-  <div class="keywords-chouaib"> Machine Learning, Data Science. </div>
-
-  <div class="links-pyry">
-    <a href="https://twitter.com/KhalighiMoein"><img class="twitter-logo" src="../img/twitter-logo.png"/></a>
-  </div>
-  <div class="links-tuomas">
-    <a href="https://orcid.org/0000-0002-8563-8884"><img class="orcid-logo" src="../img/orcid-logo.png"/></a>
-  </div>
-  <div class="links-julia"></div>
-  <div class="links-renuka"></div>
-  <div class="links-chouaib">
-    <a href="https://orcid.org/0000-0002-1167-7848" target="_blank"><img class="orcid-logo" src="../img/orcid-logo.png"/></a>
-  </div>
-</div>
+  <li class="flex-item">
+    <p class="flex-item-picture"><img src="../img/teampic/tuomas_borman.jpeg" height="200"></p>
+    <p class="flex-item-name">Tuomas Borman</p>
+    <p class="flex-item-keywords">Bioinformatics, Human microbiome, R package development.</p>
+    <p class="flex-item-links"><a href="https://orcid.org/0000-0002-8563-8884"><img class="orcid-logo" src="../img/orcid-logo.png"/></a></p>
+  </li>
+  
+  <li class="flex-item">
+    <p class="flex-item-picture"><img src="../img/teampic/julia_matveeva_crop.jpg" height="200"></p>
+    <p class="flex-item-name">Julia Matveeva</p>
+    <p class="flex-item-keywords"> </p>
+    <p class="flex-item-links"></p>
+  </li>
+  
+  <li class="flex-item">
+    <p class="flex-item-picture"><img src="../img/teampic/renuka_crop.jpg" height="200" ></p>
+    <p class="flex-item-name">Renuka Potbhare (Pune)</p>
+    <p class="flex-item-keywords">Human skin microbiome, metagenomics, bioinformatics.</p>
+    <p class="flex-item-links"></p>
+  </li>
+  
+  <li class="flex-item">
+    <p class="flex-item-picture"><img src="../img/teampic/chouaib_benchraka.jpeg" height="200"></p>
+    <p class="flex-item-name">Chouaib Benchraka</p>
+    <p class="flex-item-keywords">Machine Learning, Data Science.</p>
+    <p class="flex-item-links"><a href="https://orcid.org/0000-0002-1167-7848" target="_blank"><img class="orcid-logo" src="../img/orcid-logo.png"/></a></p>
+  </li>
+</ul>
 
 <br><br>
 
