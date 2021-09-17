@@ -73,7 +73,7 @@ keywords: team
   </li>
   <li class="flex-item">
     <p class="flex-item-picture"><img src="../img/teampic/katariina_parnanen.jpg" height="200"></p>
-    <p class="flex-item-name">Pande Erawijantari</p>
+    <p class="flex-item-name">Katariina Pärnänen</p>
     <p class="flex-item-keywords">Metagenomics, bioinformatics, AMR.</p>
     <p class="flex-item-links"></p>
   </li>
