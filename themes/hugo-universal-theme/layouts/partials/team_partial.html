@@ -12,8 +12,7 @@
   {{ .name | markdownify }}
   {{ if .affiliation }}
   {{ if .affiliation_url }}
-  (<a href={{ .affiliation_url }} target="_blank">
-    {{ .affiliation | markdownify }}</a>)
+  (<a href={{ .affiliation_url }} target="_blank">{{ .affiliation | markdownify }}</a>)
   {{ else }}
   ({{ .affiliation | markdownify }})
   {{ end }}
