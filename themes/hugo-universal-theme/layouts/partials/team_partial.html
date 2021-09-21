@@ -1,0 +1,41 @@
+<!-- picture in round frame -->
+<p class="flex-item-picture">
+  {{ if .avatar }}
+  <img src="{{ .avatar | relURL }}" height="200">
+  {{ else }}
+  <img src="../img/teampic/bio-photo.jpg" height="200">
+  {{ end }}
+</p>
+
+<!-- name in bold, affiliation (if any) in parentheses -->
+<p class="flex-item-name">
+  {{ .name | markdownify }}
+  {{ if .affiliation }}
+  {{ if .affiliation_url }}
+  (<a href={{ .affiliation_url }} target="_blank">
+    {{ .affiliation | markdownify }}</a>)
+  {{ else }}
+  ({{ .affiliation | markdownify }})
+  {{ end }}
+  {{ end }}
+</p>
+
+<!-- self-submitted list of keywords, short description etc. -->
+<p class="flex-item-keywords">
+  {{ .keywords | markdownify }}
+</p>
+
+<!-- Links to ORCID, social media etc. -->
+<p class="flex-item-links">
+  {{ if .links_twitter }}
+  <a href="{{ .links_twitter }}"><img class="twitter-logo" src="../img/twitter-logo.png"/></a>
+  {{ end }}
+  
+  {{ if .links_orcid }}
+  <a href="{{ .links_orcid }}"><img class="orcid-logo" src="../img/orcid-logo.png"/></a>
+  {{ end }}
+  
+  {{ if .links_homepage }}
+  <a href="{{ .links_homepage }}"><img class="internet-logo" src="../img/internet-logo.png"/></a>
+  {{ end }}
+</p>
