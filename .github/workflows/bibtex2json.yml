@@ -8,7 +8,8 @@ jobs:
     steps:
       - name: Read .bib and write .json
         uses: docker://pandoc/core:2.14.1
-        with: >-
-          ./content/publication_resources/bibtex/lahti_edit.bib 
-          -t csljson
-          --output=./content/publication_resources/bibtex/lahti.json
+        with: 
+          args: >-
+            ./content/publication_resources/bibtex/lahti_edit.bib 
+            -t csljson
+            --output=./content/publication_resources/bibtex/lahti.json
