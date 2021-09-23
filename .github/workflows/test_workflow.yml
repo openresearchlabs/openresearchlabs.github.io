@@ -5,6 +5,8 @@ on: push
 jobs:
   convert_via_pandoc:
     runs-on: ubuntu-18.04
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v2
 
@@ -21,7 +23,9 @@ jobs:
         with:
           args: --output=output/result.pdf ${{ steps.files_list.outputs.files }}
           
-      - uses: actions/upload-artifact@master
-        with:
-          name: output
-          path: output
+      - name: Commit results
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git commit output/result.pdf -m 'result.pdf commit' || echo "No changes to commit"
+          git push origin || echo "No changes to commit"
