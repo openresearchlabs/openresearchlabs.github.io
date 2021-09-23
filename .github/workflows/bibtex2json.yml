@@ -13,8 +13,8 @@ jobs:
           args: >-
             ./content/publication_resources/bibtex/lahti_edit.bib 
             -t csljson
-            ./content/publication_resources/bibtex/lahti.json
+            --output=./content/publication_resources/bibtex/lahti.json
       - uses: actions/upload-artifact@v2
         with:
-          name: json-file
-          path: ./content/publication_resources/bibtex/lahti.json
+          name: output
+          path: output
