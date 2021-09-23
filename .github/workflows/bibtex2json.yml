@@ -19,6 +19,5 @@ jobs:
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git add ./output
-          git commit output/lahti_edit.bib -m 'bibtex2json commit' || echo "No changes to commit"
+          git commit content/publication_resources/bibtex/lahti.json -m 'bibtex2json commit' || echo "No changes to commit"
           git push origin || echo "No changes to commit"
