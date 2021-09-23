@@ -1,0 +1,24 @@
+name: Convert .bib to .json
+
+on: push
+
+jobs:
+  convert_via_pandoc:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: Pandoc: Read .bib and write .json
+        id: files_list
+        run: |
+          pandoc ./content/publication_resources/bibtex/lahti_edit.bib -t csljson ./content/publication_resources/bibtex/lahti.json
+          # echo "dolor sit amet" > lorem_2.md
+          # mkdir output  # create output dir
+          # this will also include README.md
+          # echo "::set-output name=files::$(printf '"%s" ' *.md)"
+      - uses: docker://pandoc/core:2.14.1
+        with:
+          args: --output=output/result.pdf ${{ steps.files_list.outputs.files }}
+      - uses: actions/upload-artifact@master
+        with:
+          name: output
+          path: output
