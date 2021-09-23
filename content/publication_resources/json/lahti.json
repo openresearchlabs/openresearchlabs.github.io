@@ -5700,5 +5700,17 @@
     "publisher-place": "Piscataway, NJ",
     "title": "Dependency detection with similarity constraints",
     "type": "paper-conference"
+  },
+  {
+    "URL": "http://ropengov.org",
+    "author": [
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "id": "Lahti10blog2",
+    "title": "Ropengov blog",
+    "type": ""
   }
 ]
