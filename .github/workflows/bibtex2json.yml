@@ -8,10 +8,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Read .bib and write .json
-        working-directory: ./content/publication_resources/bibtex
         uses: docker://pandoc/core:2.14.1
         with: 
           args: >-
             lahti_edit.bib 
             -t csljson
             lahti.json
+        working-directory: ./content/publication_resources/bibtex
