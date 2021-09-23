@@ -6,10 +6,9 @@ jobs:
   convert_via_pandoc:
     runs-on: ubuntu-18.04
     steps:
-      - working-directory: ./content/publication_resources/bibtex
       - name: Read .bib and write .json
         uses: docker://pandoc/core:2.14.1
         with: >-
-          lahti_edit.bib 
+          ./content/publication_resources/bibtex/lahti_edit.bib 
           -t csljson
-          --output=lahti.json
+          --output=./content/publication_resources/bibtex/lahti.json
