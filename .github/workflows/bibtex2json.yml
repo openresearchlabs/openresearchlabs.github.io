@@ -5,14 +5,15 @@ on: push
 jobs:
   convert_via_pandoc:
     runs-on: ubuntu-18.04
-    container:
-      image: docker://pandoc/core:2.14.1
     steps:
       - uses: actions/checkout@v2
       - name: Read .bib and write .json
-        run: |
-          'pandoc lahti_edit.bib -t csljson --output=lahti.json'
-        working-directory: ./content/publication_resources/bibtex
+        uses: docker://pandoc/core:2.14.1
+        with:
+          args: >-
+            -t csljson
+            --output=lahti.json
+            lahti_edit.bib
       - uses: actions/upload-artifact@v2
         with:
           name: output
