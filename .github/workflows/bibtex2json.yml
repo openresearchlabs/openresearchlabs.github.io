@@ -13,12 +13,12 @@ jobs:
           args: >-
             --from=bibtex
             --to=csljson
-            --output=content/publication_resources/bibtex/lahti.json
+            --output=content/publication_resources/json/lahti.json
             content/publication_resources/bibtex/lahti_edit.bib
       - name: Commit results
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git add ./content/publication_resources/bibtex/
-          git commit content/publication_resources/bibtex/lahti.json -m 'bibtex2json commit' || echo "No changes to commit"
+          git add ./content/publication_resources/json/
+          git commit content/publication_resources/json/lahti.json -m 'bibtex2json update' || echo "No changes to commit"
           git push origin || echo "No changes to commit"
