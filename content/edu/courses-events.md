@@ -10,6 +10,8 @@ keywords: Forthcoming courses events tutorial data teaching software past
 
 **2021**
 
+**Sep 27-Oct 8** [ML4Microbiome Training School](https://www.ml4microbiome.eu/uppsala-2021)
+
 **Nov 2-4** [Workshop on modeling microbial community time series](http://msysbiology.com/microbialtimeseries/). Leuven, Belgium 
 
 
