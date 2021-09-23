@@ -9,11 +9,8 @@ jobs:
       - uses: actions/checkout@v2
       - name: Read .bib and write .json
         uses: docker://pandoc/core:2.14.1
-        with: 
-          args: >-
-            ./content/publication_resources/bibtex/lahti_edit.bib 
-            -t csljson
-            --output=./content/publication_resources/bibtex/lahti.json
+        run: | 
+          pandoc ./content/publication_resources/bibtex/lahti_edit.bib -t csljson --output=./content/publication_resources/bibtex/lahti.json
       - uses: actions/upload-artifact@v2
         with:
           name: output
