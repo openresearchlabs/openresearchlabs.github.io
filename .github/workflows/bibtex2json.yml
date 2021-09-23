@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-      - name: Pandoc: Read .bib and write .json
+      - name: Read .bib and write .json
         id: files_list
         run: |
           pandoc ./content/publication_resources/bibtex/lahti_edit.bib -t csljson ./content/publication_resources/bibtex/lahti.json
