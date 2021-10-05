@@ -27,6 +27,9 @@ For more information about our different research topics :
 - [**Open science**](/research/open-science)  
  ---------------
 
+- [**Preprints**](/research/preprints)  
+ ---------------
+
 - [**Opinion pieces (in Finnish)**](/research/opinion-pieces)  
  ---------------
 
