@@ -1,0 +1,31 @@
+<!-- Title in bold, URL if it exists -->
+<p>
+  {{ if .DOI }}
+  <b><a href="https://doi.org/"{{ .DOI }}>{{ .title | markdownify }}</a></b>
+  {{ else }}
+  <b>{{ .title | markdownify }}</b>
+  {{ end }}
+<br>
+<!-- make all but last author have "," as delimiter -->
+  {{ $len := len .author }}
+  {{ $len := sub $len 1 }}
+  
+  {{ range first $len .author }}
+    {{ .family }}
+    {{ if .given }} {{ substr .given 0 1 }}{{ end }},
+  {{ end }}
+<!-- make last author end with "." -->
+  {{ range last 1 .author }}
+    {{ .family }}
+    {{ if .given }} {{ substr .given 0 1 }}{{ end }}.
+  {{ end }}
+<br>
+
+<!-- title of the journal, publication etc. -->
+{{ index . "container-title" | markdownify }}
+{{ if .volume }}{{ .volume }}{{ end }}{{ if .issue }}({{ .issue }}){{ end }}.
+{{ if .publisher }}{{ .publisher }}{{ end }},
+<!-- need to fix this to show date properly... -->
+{{ if .issued }}{{ .issued }}{{ end }}
+<br>
+</p>
