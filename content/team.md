@@ -83,7 +83,7 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
 {{< team data="researchassistants" >}}
 
 <br><br>
- 
+
 ## Alumni
 
 Co-supervised PhDs:

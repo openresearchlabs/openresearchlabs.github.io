@@ -19,6 +19,12 @@ For more information about our different research topics :
 -------
 <br/>
 
+{{< articles id = "Arani2021" >}}
+
+{{< articles id = "Makela2020" >}}
+
+{{< articles id = "Khalighi2021" >}}
+
 - [**Computational and data science**](/research/computational-humanities)  
  ---------------
 - [**Microbiome data science**](/research/microbiome-data-science)  
