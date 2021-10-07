@@ -3,9 +3,16 @@
     "DOI": "10.7490/f1000research.1118712.1",
     "author": [
       {
-        "family": "Leo Lahti",
-        "given": "Sudarshan A. Shetty",
-        "suffix": "Felix G. M. Ernst"
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Ernst",
+        "given": "Felix G. M."
+      },
+      {
+        "family": "Shetty",
+        "given": "Sudarshan A."
       },
       {
         "literal": "others"
@@ -351,7 +358,7 @@
     "volume": "23"
   },
   {
-    "DOI": "10.3390/ijerph18084049 ",
+    "DOI": "10.3390/ijerph18084049",
     "author": [
       {
         "family": "Hintikka",
@@ -784,184 +791,121 @@
     "URL": "https://www.frontiersin.org/article/10.3389/fmicb.2021.634511",
     "author": [
       {
-        "family": "Marcos-Zambrano"
+        "family": "Marcos-Zambrano",
+        "given": "Laura Judith"
       },
       {
-        "family": "Judith",
-        "given": "Laura"
+        "family": "Karaduzovic-Hadziabdic",
+        "given": "Kanita"
       },
       {
-        "family": "Karaduzovic-Hadziabdic"
+        "family": "Loncar Turukalo",
+        "given": "Tatjana"
       },
       {
-        "family": "Kanita"
+        "family": "Przymus",
+        "given": "Piotr"
       },
       {
-        "family": "Turukalo",
-        "given": "Loncar"
+        "family": "Trajkovik",
+        "given": "Vladimir"
       },
       {
-        "family": "Tatjana"
+        "family": "Aasmets",
+        "given": "Oliver"
       },
       {
-        "family": "Przymus"
+        "family": "Berland",
+        "given": "Magali"
       },
       {
-        "family": "Piotr"
+        "family": "Gruca",
+        "given": "Aleksandra"
       },
       {
-        "family": "Trajkovik"
+        "family": "Hasic",
+        "given": "Jasminka"
       },
       {
-        "family": "Vladimir"
+        "family": "Hron",
+        "given": "Karel"
       },
       {
-        "family": "Aasmets"
+        "family": "Klammsteiner",
+        "given": "Thomas"
       },
       {
-        "family": "Oliver"
+        "family": "Kolev",
+        "given": "Mikhail"
       },
       {
-        "family": "Berland"
+        "family": "Lahti",
+        "given": "Leo"
       },
       {
-        "family": "Magali"
+        "family": "Lopes",
+        "given": "Marta B"
       },
       {
-        "family": "Gruca"
+        "family": "Moreno",
+        "given": "Victor"
       },
       {
-        "family": "Aleksandra"
+        "family": "Naskinova",
+        "given": "Irina"
       },
       {
-        "family": "Hasic"
+        "family": "Org",
+        "given": "Elin"
       },
       {
-        "family": "Jasminka"
+        "family": "Paciência",
+        "given": "Inês"
       },
       {
-        "family": "Hron"
+        "family": "Papoutsoglou",
+        "given": "Georgios"
       },
       {
-        "family": "Karel"
+        "family": "Shigdel",
+        "given": "Rajesh"
       },
       {
-        "family": "Klammsteiner"
+        "family": "Stres",
+        "given": "Blaz"
       },
       {
-        "family": "Thomas"
+        "family": "Vilne",
+        "given": "Baiba"
       },
       {
-        "family": "Kolev"
+        "family": "Yousef",
+        "given": "Malik"
       },
       {
-        "family": "Mikhail"
+        "family": "Zdravevski",
+        "given": "Eftim"
       },
       {
-        "family": "Lahti"
+        "family": "Tsamarindos",
+        "given": "Ioannis"
       },
       {
-        "family": "Leo"
-      },
-      {
-        "family": "Lopes"
-      },
-      {
-        "family": "B",
-        "given": "Marta"
-      },
-      {
-        "family": "Moreno"
-      },
-      {
-        "family": "Victor"
-      },
-      {
-        "family": "Naskinova"
-      },
-      {
-        "family": "Irina"
-      },
-      {
-        "family": "Org"
-      },
-      {
-        "family": "Elin"
-      },
-      {
-        "family": "Paciência"
-      },
-      {
-        "family": "Inês"
-      },
-      {
-        "family": "Papoutsoglou"
-      },
-      {
-        "family": "Georgios"
-      },
-      {
-        "family": "Shigdel"
-      },
-      {
-        "family": "Rajesh"
-      },
-      {
-        "family": "Stres"
-      },
-      {
-        "family": "Blaz"
-      },
-      {
-        "family": "Vilne"
-      },
-      {
-        "family": "Baiba"
-      },
-      {
-        "family": "Yousef"
-      },
-      {
-        "family": "Malik"
-      },
-      {
-        "family": "Zdravevski"
-      },
-      {
-        "family": "Eftim"
-      },
-      {
-        "family": "Tsamarindos"
-      },
-      {
-        "family": "Ioannis"
-      },
-      {
-        "dropping-particle": "de",
+        "dropping-particle": "Carrillo de",
         "family": "Santa Pau",
-        "given": "Carrillo"
+        "given": "Enrique"
       },
       {
-        "family": "Enrique"
+        "family": "Claesson",
+        "given": "Marcus J."
       },
       {
-        "family": "Claesson"
+        "family": "Moreno-Indias",
+        "given": "Isabel"
       },
       {
-        "family": "J.",
-        "given": "Marcus"
-      },
-      {
-        "family": "Moreno-Indias"
-      },
-      {
-        "family": "Isabel"
-      },
-      {
-        "family": "Truu"
-      },
-      {
-        "family": "Jaak"
+        "family": "Truu",
+        "given": "Jaak"
       }
     ],
     "container-title": "Frontiers in Microbiology",
