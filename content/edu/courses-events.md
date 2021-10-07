@@ -10,11 +10,7 @@ keywords: Forthcoming courses events tutorial data teaching software past
 
 **2021**
 
-**Aug 16-20** [NORBIS Summer School 2021](https://norbis.w.uib.no/norbis-summer-school-2021-program/); National research school in bioinformatics, biostatistics and systems biology, Norway (virtual)
-
-**Jul 5-16** [Brain, Bacteria and Behaviour: Understanding the Gut-Brain Axis](https://www.ru.nl/radboudsummerschool/courses/2021/brain-bacteria-behaviour/) online summer school, The Netherlands (virtual)
-
-**Sep 27-Oct 8** [ML4Microbiome Training School](https://www.ml4microbiome.eu/uppsala-2021)
+**Oct 14** [ML4Microbiome Symposium on Grand Challenges of Data-Intensive Science in microbiome & metagenome data analysis and training](https://www.ml4microbiome.eu/the-programme-of-the-goblet-embnet-agm-2021-including-ml4microbiome-events-is-ready-and-available-here/)
 
 **Nov 2-4** [Workshop on modeling microbial community time series](http://msysbiology.com/microbialtimeseries/). Leuven, Belgium 
 
@@ -52,9 +48,9 @@ Application topics are available in e.g. statistical ecology and (eco)systems bi
 
 **Microbiome data science**
 
-- [Brain, Bacteria and Behaviour: Understanding the Gut-Brain Axis](https://www.ru.nl/radboudsummerschool/courses/2021/brain-bacteria-behaviour/) online summer school, The Netherlands, July 2021 (virtual)
+- [ML4Microbiome Training School](https://www.ml4microbiome.eu/uppsala-2021), September 2021 (virtual)
 
-- [Brain, Bacteria and Behaviour: Understanding the Gut-Brain Axis](https://www.ru.nl/radboudsummerschool/courses/2021/brain-bacteria-behaviour/) online summer school, The Netherlands, July 2021 (online) 
+- [Brain, Bacteria and Behaviour: Understanding the Gut-Brain Axis](https://www.ru.nl/radboudsummerschool/courses/2021/brain-bacteria-behaviour/) online summer school, The Netherlands, July 2021 (virtual)
 
 - [NORBIS Summer School 2021](https://norbis.w.uib.no/norbis-summer-school-2021-program/); National research school in bioinformatics, biostatistics and systems biology, Norway, Aug 2021 (online)
 
