@@ -22,15 +22,21 @@ For more information about our different research topics :
 <!--
 INFO: How to use bibliography shortcodes
 
-You can output the whole bibliography by inserting
-{{< articles id >}}
-to your .md page.
+You can... 
 
-Alternatively, you can output individual items by inserting
+output the whole bibliography with
+{{< articles id >}}
+
+individual items by id with
 {{< articles id = "Arani2021" >}}
-to your .md page.
+
+items by keywords with
+{{< articles keyword = "dh" >}}
+
+...to your .md page. (DOES NOT WORK ON .HTML TEMPLATES)
 -->
 
+{{< articles keyword = "dh" >}}
 
 {{< articles id = "Arani2021" >}}
 
