@@ -34,7 +34,8 @@
 {{ end }}
 {{ range last 1 .author }}
   {{ .family }}
-  {{ if .given }} {{ substr .given 0 1 }}{{ end }}.
+  {{ if .given }} {{ substr .given 0 1 }}{{ end }}
+  {{- if .literal -}} {{ .literal }} {{- end -}}.
 {{ end }}
 
 {{ else if gt $len 2 }}
@@ -52,7 +53,8 @@
       {{ if .given }} {{ substr .given 0 1 }}{{ end }}&#32;&amp;&#32;
     {{ else }}{{/* for index n in 0...n */ -}}
       {{ .family }}
-      {{ if .given }} {{ substr .given 0 1 }}{{ end }}.
+      {{ if .given }} {{ substr .given 0 1 }}{{ end }}
+      {{- if .literal -}} {{ .literal }} {{- end -}}.
   {{ end }}
   
   {{ end }}
