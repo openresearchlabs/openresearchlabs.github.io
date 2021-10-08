@@ -63,8 +63,10 @@
 
 <!-- title of the journal, publication etc. -->
 {{- index . "container-title" | markdownify -}}
-{{ if .volume }} {{ .volume }}{{ end }}{{ if .issue }}({{ .issue }}){{ end }}
-{{- if .publisher -}}{{ .publisher }}{{- end -}},
+{{ if .volume }} {{ .volume }}{{ end }}
+{{- if .issue -}}({{ .issue }}){{- end -}}
+{{ if .publisher }} {{ .publisher }}{{ end }}
+{{- if or .volume .issue .publisher -}},{{- end -}}
 <!-- publication date: year -->
 <!-- courtesy of loup-brun's hugo-cite project: https://github.com/loup-brun/hugo-cite -->
 {{- if and (isset $reference "issued") (isset $reference.issued "date-parts") -}}
