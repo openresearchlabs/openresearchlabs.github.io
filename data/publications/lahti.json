@@ -37,9 +37,25 @@
     "DOI": "10.1126/science.aay4895",
     "author": [
       {
-        "family": "Babak M. S. Arani",
-        "given": "Leo Lahti",
-        "suffix": "Egbert van Nes"
+        "family": "Arani",
+        "given": "Babak M. S."
+      },
+      {
+        "dropping-particle": "van",
+        "family": "Nes",
+        "given": "Egbert"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Carpenter",
+        "given": "Stephen R."
+      },
+      {
+        "family": "Scheffer",
+        "given": "Marten"
       }
     ],
     "container-title": "Science",
@@ -1847,8 +1863,8 @@
         "given": "S"
       },
       {
-        "family": "T",
-        "given": "Nevalainen"
+        "family": "Nevalainen",
+        "given": "T"
       }
     ],
     "collection-title": "CEUR workshop proceedings",
