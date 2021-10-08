@@ -19,6 +19,19 @@ For more information about our different research topics :
 -------
 <br/>
 
+<!--
+INFO: How to use bibliography shortcodes
+
+You can output the whole bibliography by inserting
+{{< articles id >}}
+to your .md page.
+
+Alternatively, you can output individual items by inserting
+{{< articles id = "Arani2021" >}}
+to your .md page.
+-->
+
+
 {{< articles id = "Arani2021" >}}
 
 {{< articles id = "Makela2020" >}}
