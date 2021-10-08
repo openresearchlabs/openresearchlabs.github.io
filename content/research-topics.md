@@ -19,6 +19,32 @@ For more information about our different research topics :
 -------
 <br/>
 
+<!--
+INFO: How to use bibliography shortcodes
+
+You can output the whole bibliography by inserting
+{{< articles id >}}
+to your .md page.
+
+Alternatively, you can output individual items by inserting
+{{< articles id = "Arani2021" >}}
+to your .md page.
+-->
+
+
+{{< articles id = "Arani2021" >}}
+
+{{< articles id = "Makela2020" >}}
+
+{{< articles id = "Khalighi2021" >}}
+
+{{< articles id = "Lahti2021bioc" >}}
+
+{{< articles id = "Palmu2020JAHA" >}}
+
+{{< articles id = "Lahti2020hs1" >}}
+
+
 - [**Computational and data science**](/research/computational-humanities)  
  ---------------
 - [**Microbiome data science**](/research/microbiome-data-science)  

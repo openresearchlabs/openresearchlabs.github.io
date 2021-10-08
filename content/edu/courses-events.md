@@ -10,7 +10,11 @@ keywords: Forthcoming courses events tutorial data teaching software past
 
 **2021**
 
+**Oct 14** [ML4Microbiome Symposium on Grand Challenges of Data-Intensive Science in microbiome & metagenome data analysis and training](https://www.ml4microbiome.eu/the-programme-of-the-goblet-embnet-agm-2021-including-ml4microbiome-events-is-ready-and-available-here/)
+
 **Nov 2-4** [Workshop on modeling microbial community time series](http://msysbiology.com/microbialtimeseries/). Leuven, Belgium 
+
+**Aug 23-26** [Baltic Summer School on Digital Methods](https://t.co/MJANYOeYmJ?amp=1) in humanities and social sciences. 
 
 
 ### Topics for MSc/PhD theses
@@ -42,9 +46,11 @@ Application topics are available in e.g. statistical ecology and (eco)systems bi
  - Introduction to probabilistic programming - Lecture slides [ODP](https://github.com/openresearchlabs/openresearchlabs.github.io/tree/master/publications/publications/slides/20180226-rstan-VIB.odp); [PDF](https://github.com/openresearchlabs/openresearchlabs.github.io/tree/master/publications/publications/slides/20180226-rstan-VIB.pdf) - 2018 VIB/KU Leuven, Belgium  
 
 
-**Bioinformatics**
+**Microbiome data science**
 
-- [Brain, Bacteria and Behaviour: Understanding the Gut-Brain Axis](https://www.ru.nl/radboudsummerschool/courses/2021/brain-bacteria-behaviour/) online summer school, The Netherlands, July 2021 (online) 
+- [ML4Microbiome Training School](https://www.ml4microbiome.eu/uppsala-2021), September 2021 (virtual)
+
+- [Brain, Bacteria and Behaviour: Understanding the Gut-Brain Axis](https://www.ru.nl/radboudsummerschool/courses/2021/brain-bacteria-behaviour/) online summer school, The Netherlands, July 2021 (virtual)
 
 - [NORBIS Summer School 2021](https://norbis.w.uib.no/norbis-summer-school-2021-program/); National research school in bioinformatics, biostatistics and systems biology, Norway, Aug 2021 (online)
 
