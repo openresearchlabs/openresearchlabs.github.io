@@ -1,31 +1,76 @@
-<!-- Title in bold, URL if it exists -->
+<!-- parameter -->
+{{ $reference := . }}
+
+<!-- Title in bold, DOI or URL as a link if it exists -->
 <p>
   {{ if .DOI }}
-  <b><a href="https://doi.org/"{{ .DOI }}>{{ .title | markdownify }}</a></b>
+  <b><a href="https://doi.org/{{ .DOI }}">{{ .title | markdownify }}</a></b>
+  {{ else if .URL }}
+  <b><a href="{{ .URL }}">{{ .title | markdownify }}</a></b>
   {{ else }}
   <b>{{ .title | markdownify }}</b>
   {{ end }}
 <br>
-<!-- make all but last author have "," as delimiter -->
-  {{ $len := len .author }}
-  {{ $len := sub $len 1 }}
+
+<!-- number of authors in paper -->
+{{ $len := len .author }}
+
+<!-- when there is only 1 author: no need for delimiter -->
+
+{{ if eq $len 1 }}
+
+{{ range .author }}
+  {{ .family }}
+  {{ if .given }} {{ substr .given 0 1 }}{{ end }}
+{{ end }}
+
+
+<!-- when there are 2 authors: only delimiter is ampersand -->
+{{ else if eq $len 2 }}
+
+{{ range first 1 .author }}
+  {{ .family }}
+  {{ if .given }} {{ substr .given 0 1 }}{{ end }}&#32;&amp;&#32;
+{{ end }}
+{{ range last 1 .author }}
+  {{ .family }}
+  {{ if .given }} {{ substr .given 0 1 }}{{ end }}.
+{{ end }}
+
+{{ else if gt $len 2 }}
+
+<!-- when there are 3 or more authors -->
+<!-- make all but last and 2nd last author have "," as delimiter -->
+  {{ $len := sub $len 2 }}
   
-  {{ range first $len .author }}
-    {{ .family }}
-    {{ if .given }} {{ substr .given 0 1 }}{{ end }},
+  {{ range $index, $element := .author }}
+    {{ if (lt $index $len) }}{{/* for indexes 0...n-2 in 0...n */ -}}
+      {{ .family }}
+      {{ if .given }} {{ substr .given 0 1 }}{{ end }},
+    {{ else if (eq $index $len) }}{{/* for index n-1 in 0...n */ -}}
+      {{ .family }}
+      {{ if .given }} {{ substr .given 0 1 }}{{ end }}&#32;&amp;&#32;
+    {{ else }}{{/* for index n in 0...n */ -}}
+      {{ .family }}
+      {{ if .given }} {{ substr .given 0 1 }}{{ end }}.
   {{ end }}
-<!-- make last author end with "." -->
-  {{ range last 1 .author }}
-    {{ .family }}
-    {{ if .given }} {{ substr .given 0 1 }}{{ end }}.
+  
   {{ end }}
+{{ end }}
 <br>
 
 <!-- title of the journal, publication etc. -->
-{{ index . "container-title" | markdownify }}
-{{ if .volume }}{{ .volume }}{{ end }}{{ if .issue }}({{ .issue }}){{ end }}.
-{{ if .publisher }}{{ .publisher }}{{ end }},
-<!-- need to fix this to show date properly... -->
-{{ if .issued }}{{ .issued }}{{ end }}
+{{- index . "container-title" | markdownify -}}
+{{ if .volume }} {{ .volume }}{{ end }}{{ if .issue }}({{ .issue }}){{ end }}
+{{- if .publisher -}}{{ .publisher }}{{- end -}},
+<!-- publication date: year -->
+<!-- courtesy of loup-brun's hugo-cite project: https://github.com/loup-brun/hugo-cite -->
+{{- if and (isset $reference "issued") (isset $reference.issued "date-parts") -}}
+{{- range $index, $dateParts := (index .issued "date-parts") -}}{{/* range of dates */}}
+{{- range first 1 $dateParts -}}{{/* First element in date-part is the year */ -}}
+{{- . -}}
+{{- end -}}
+{{- end -}}
+{{- end -}}
 <br>
 </p>
