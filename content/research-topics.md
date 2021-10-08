@@ -25,6 +25,13 @@ For more information about our different research topics :
 
 {{< articles id = "Khalighi2021" >}}
 
+{{< articles id = "Lahti2021bioc" >}}
+
+{{< articles id = "Palmu2020JAHA" >}}
+
+{{< articles id = "Lahti2020hs1" >}}
+
+
 - [**Computational and data science**](/research/computational-humanities)  
  ---------------
 - [**Microbiome data science**](/research/microbiome-data-science)  
