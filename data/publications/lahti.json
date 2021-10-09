@@ -1,5 +1,41 @@
 [
   {
+    "DOI": "10.32714/ricl.09.01.03",
+    "author": [
+      {
+        "family": "Tolonen",
+        "given": "M"
+      },
+      {
+        "family": "Mäkelä",
+        "given": "E"
+      },
+      {
+        "family": "Ijaz",
+        "given": "A"
+      },
+      {
+        "family": "Lahti",
+        "given": "L"
+      }
+    ],
+    "container-title": "Research in Corpus Linguistics",
+    "id": "Tolonen2021rcl",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "keyword": "dh",
+    "page": "19-34",
+    "title": "Corpus linguistics and eighteenth century collections online (ECCO)",
+    "type": "article-journal",
+    "volume": "9"
+  },
+  {
     "DOI": "10.7490/f1000research.1118712.1",
     "author": [
       {
@@ -68,6 +104,7 @@
         ]
       ]
     },
+    "keyword": "datascience",
     "page": "eaay4895",
     "title": "Exit time as a measure of ecological resilience",
     "type": "article-journal",
@@ -191,6 +228,7 @@
         ]
       ]
     },
+    "keyword": "preprint",
     "title": "OGUs enable effective, phylogeny-aware analysis of even shallow metagenome community structures",
     "type": "article-journal"
   },
@@ -311,7 +349,7 @@
         "given": "Leo"
       }
     ],
-    "chapter-number": "Examining the Early Modern Canon: The English Short Title Catalogue and Large-Scale Patterns of Cultural Production",
+    "chapter-number": "Examining the Early Modern Canon: The English Short Title Catalogue and Large-Scale Patterns of Cultural Production.",
     "container-title": "Data visualization in enlightenment literature and culture",
     "editor": [
       {
@@ -327,11 +365,9 @@
         ]
       ]
     },
-    "note": "",
+    "note": "Book chapter in: Data Visualization in Enlightenment Literature and Culture",
     "publisher": "Palgrave Macmillan, Cham.",
-    "title": "Data visualization in enlightenment literature and culture",
-    "type": "chapter",
-    "volume-title": "Data visualization in enlightenment literature and culture"
+    "type": "chapter"
   },
   {
     "DOI": "10.1111/1462-2920.15462",
@@ -2602,7 +2638,7 @@
       }
     ],
     "container-title": "Current Opinion in Microbiology",
-    "id": "gonze2018",
+    "id": "Gonze2018",
     "issued": {
       "date-parts": [
         [
