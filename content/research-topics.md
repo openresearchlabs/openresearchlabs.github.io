@@ -19,10 +19,35 @@ For more information about our different research topics :
 -------
 <br/>
 
-- [**Computational and data science**](/research/computational-humanities)  
+<!--
+INFO: How to use bibliography shortcodes
+
+You can... 
+
+output the whole bibliography with
+{{< articles id >}}
+
+individual items by id with
+{{< articles id = "Arani2021" >}}
+
+items by keywords with
+{{< articles keyword = "dh" >}}
+
+...to your .md page. (DOES NOT WORK ON .HTML TEMPLATES)
+-->
+
+
+- [**All publications**](/research/all)  
  ---------------
+
 - [**Microbiome data science**](/research/microbiome-data-science)  
  ---------------
+
+- [**Computational humanities**](/research/computational-humanities)  
+---------------
+
+- [**Computational and data science**](/research/computational-and-data-science)  
+---------------
 
 - [**Open science**](/research/open-science)  
  ---------------
@@ -33,7 +58,11 @@ For more information about our different research topics :
 - [**Opinion pieces (in Finnish)**](/research/opinion-pieces)  
  ---------------
 
+
+
 - [**Funding and support**](/research/funding-and-support)  
+
+
 
 </div>
 
