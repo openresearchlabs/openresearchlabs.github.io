@@ -5,9 +5,7 @@ keywords: Computational humanities
 ---
 
 
-
-
-
+<!-- Header texts come from themes/hugo-universal-theme/layouts/partials -->
 
 
 ### Selected examples

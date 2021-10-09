@@ -1,13 +1,13 @@
 ---
-title: Research
-description: Research
-keywords: research
+title: Research / Old
+description: Research / Old
+keywords: tbd
 ---
 
 
 # Research topics
 
-**Our research focuses on computational analysis and understanding of
+**Our research focuses on computational analysis of
 complex natural and social systems.** There is a great demand for
 targeted computational techniques to extract information and insights
 from rich data collections based on clever combinations of human and
@@ -29,7 +29,7 @@ Science and Research award of the Ministry of Education and Culture in
 
 ## Selected publications
 
-Below some examples from recent publications.
+Below are some examples from recent publications.
 See [ORCID](http://orcid.org/0000-0001-5537-637X) for a full list. 
 Full publication list is also available as [bibtex](https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/bibtex/lahti.bib).
 Copies of most papers are available [here](https://github.com/openresearchlabs/openresearchlabs.github.io/tree/master/content/publication_resources).

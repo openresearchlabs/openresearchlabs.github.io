@@ -6,6 +6,8 @@ keywords: Open science
 
 ### Open science
 
+
+
 [**Alchemy & algorithms: perspectives on the philosophy and history of open science**](https://doi.org/10.3897/rio.3.e13593)  
 RIO Journal 2017.  
 Lahti L, da Silva F, Laine MP, Lähteenoja V, Tolonen M.
@@ -26,5 +28,7 @@ Advances in Intelligent Data Analysis XVII. Lecture Notes in Computer Science 11
 Lahti L.
 
 ### All publications
+
+<!--{{< articles keyword = "openscience" >}}-->
 
 [**All publications**](/research/all)  

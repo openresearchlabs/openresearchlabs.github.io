@@ -1,9 +1,11 @@
 ---
 title: Research
 description: Microbiome data science
-keywords: Microbiome data science
+keywords: microbiome
 ---
 
+
+<!-- Header texts come from themes/hugo-universal-theme/layouts/partials -->
 
 ### Microbiome data science: selected examples
 
@@ -26,7 +28,12 @@ keywords: Microbiome data science
 {{< articles id = "MorenoIndias2021" >}}
 
 
-### All publications
+
+### More publications in microbiome data science
 
 [**All publications**](/research/all)  
+
+<!--{{< articles keyword = "bioscience" >}}-->
+
+
 
