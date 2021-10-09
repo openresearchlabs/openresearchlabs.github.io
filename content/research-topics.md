@@ -36,25 +36,18 @@ items by keywords with
 ...to your .md page. (DOES NOT WORK ON .HTML TEMPLATES)
 -->
 
-{{< articles keyword = "dh" >}}
 
-{{< articles id = "Arani2021" >}}
-
-{{< articles id = "Makela2020" >}}
-
-{{< articles id = "Khalighi2021" >}}
-
-{{< articles id = "Lahti2021bioc" >}}
-
-{{< articles id = "Palmu2020JAHA" >}}
-
-{{< articles id = "Lahti2020hs1" >}}
-
-
-- [**Computational and data science**](/research/computational-humanities)  
+- [**All publications**](/research/all)  
  ---------------
+
 - [**Microbiome data science**](/research/microbiome-data-science)  
  ---------------
+
+- [**Computational humanities**](/research/computational-humanities)  
+---------------
+
+- [**Computational and data science**](/research/computational-and-data-science)  
+---------------
 
 - [**Open science**](/research/open-science)  
  ---------------
@@ -65,7 +58,11 @@ items by keywords with
 - [**Opinion pieces (in Finnish)**](/research/opinion-pieces)  
  ---------------
 
+
+
 - [**Funding and support**](/research/funding-and-support)  
+
+
 
 </div>
 

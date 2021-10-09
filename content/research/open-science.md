@@ -21,3 +21,10 @@ University of Turku, OpenUTU work group, 2018.
 Finnish IT Center for Science (CSC)   and Ministry of Education and Culture, Open Science and Research Initiative (ATT). 2018.   
 Björk A, Paavolainen J-M, Ropponen T, Laakso M, Lahti L.
 
+[**Open Data Science**](https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2018-Lahti-IDA.pdf)  
+Advances in Intelligent Data Analysis XVII. Lecture Notes in Computer Science 11191:31-39. Springer, India, 2018.  
+Lahti L.
+
+### All publications
+
+[**All publications**](/research/all)  
