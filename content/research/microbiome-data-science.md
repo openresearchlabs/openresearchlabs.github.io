@@ -31,9 +31,11 @@ keywords: microbiome
 
 ### More publications in microbiome data science
 
-[**All publications**](/research/all)  
+[**All publications**](/research/all)
 
-<!--{{< articles keyword = "bioscience" >}}-->
+---
+
+{{< articles keyword = "bioscience" >}}
 
 
 
