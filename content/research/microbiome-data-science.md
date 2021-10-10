@@ -9,13 +9,13 @@ keywords: microbiome
 
 ### Microbiome data science: selected examples
 
-{{< articles id = "Lahti2021bioc" >}}
-
 {{< articles id = "Salosensaari2021" >}}
 
-{{< articles id = "Ruuskanen2021" >}}
+{{< articles id = "MorenoIndias2021" >}}
 
-{{< articles id = "Hintikka2021" >}}
+{{< articles id = "Lahti2021bioc" >}}
+
+{{< articles id = "Ruuskanen2021" >}}
 
 {{< articles id = "Gonze2018" >}}
 
@@ -25,15 +25,9 @@ keywords: microbiome
 
 {{< articles id = "Harris17" >}}
 
-{{< articles id = "MorenoIndias2021" >}}
 
 
-
-### More publications in microbiome data science
-
-[**All publications**](/research/all)
-
----
+### More microbiome data science and life science applications
 
 {{< articles keyword = "bioscience" >}}
 
