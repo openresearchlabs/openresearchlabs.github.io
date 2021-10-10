@@ -36,40 +36,6 @@
     "volume": "9"
   },
   {
-    "DOI": "10.7490/f1000research.1118712.1",
-    "author": [
-      {
-        "family": "Lahti",
-        "given": "Leo"
-      },
-      {
-        "family": "Ernst",
-        "given": "Felix G. M."
-      },
-      {
-        "family": "Shetty",
-        "given": "Sudarshan A."
-      },
-      {
-        "literal": "others"
-      }
-    ],
-    "container-title": "F1000Research",
-    "id": "Lahti2021bioc",
-    "issue": "748",
-    "issued": {
-      "date-parts": [
-        [
-          2021
-        ]
-      ]
-    },
-    "note": "(slides); version 1; not peer reviewed",
-    "title": "Microbiome data science in the <i>SummarizedExperiment</i> universe",
-    "type": "article-journal",
-    "volume": "10"
-  },
-  {
     "DOI": "10.1126/science.aay4895",
     "author": [
       {
@@ -109,6 +75,97 @@
     "title": "Exit time as a measure of ecological resilience",
     "type": "article-journal",
     "volume": "372"
+  },
+  {
+    "DOI": "10.3390/ijerph18084049",
+    "author": [
+      {
+        "family": "Hintikka",
+        "given": "J"
+      },
+      {
+        "family": "Lensu",
+        "given": "S"
+      },
+      {
+        "family": "Mäkinen",
+        "given": "E"
+      },
+      {
+        "family": "Karvinen",
+        "given": "S"
+      },
+      {
+        "family": "Honkanen",
+        "given": "M"
+      },
+      {
+        "family": "Linden",
+        "given": "J"
+      },
+      {
+        "family": "Garrels",
+        "given": "T"
+      },
+      {
+        "family": "Pekkala",
+        "given": "S"
+      },
+      {
+        "family": "Lahti",
+        "given": "L"
+      }
+    ],
+    "container-title": "International Journal of Environmental Research and Public Health",
+    "id": "Hintikka2021",
+    "issue": "8",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "4049",
+    "title": "Xylo-oligosaccharides in prevention of hepatic steatosis and adipose tissue inflammation: Associating taxonomic and metabolomic patterns in fecal microbiomes with biclustering",
+    "title-short": "Xylo-oligosaccharides in prevention of hepatic steatosis and adipose tissue inflammation",
+    "type": "article-journal",
+    "volume": "18"
+  },
+  {
+    "DOI": "10.7490/f1000research.1118712.1",
+    "author": [
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Ernst",
+        "given": "Felix G. M."
+      },
+      {
+        "family": "Shetty",
+        "given": "Sudarshan A."
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "container-title": "F1000Research",
+    "id": "Lahti2021bioc",
+    "issue": "748",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "note": "(slides); version 1; not peer reviewed",
+    "title": "Microbiome data science in the  <i>SummarizedExperiment</i> universe",
+    "type": "article-journal",
+    "volume": "10"
   },
   {
     "DOI": "10.1101/2021.04.04.438427",
@@ -410,62 +467,6 @@
     "volume": "23"
   },
   {
-    "DOI": "10.3390/ijerph18084049",
-    "author": [
-      {
-        "family": "Hintikka",
-        "given": "J"
-      },
-      {
-        "family": "Lensu",
-        "given": "S"
-      },
-      {
-        "family": "Mäkinen",
-        "given": "E"
-      },
-      {
-        "family": "Karvinen",
-        "given": "S"
-      },
-      {
-        "family": "Honkanen",
-        "given": "M"
-      },
-      {
-        "family": "Linden",
-        "given": "J"
-      },
-      {
-        "family": "Garrels",
-        "given": "T"
-      },
-      {
-        "family": "Pekkala",
-        "given": "S"
-      },
-      {
-        "family": "Lahti",
-        "given": "L"
-      }
-    ],
-    "container-title": "International Journal of Environmental Research and Public Health",
-    "id": "Hintikka2021",
-    "issue": "8",
-    "issued": {
-      "date-parts": [
-        [
-          2021
-        ]
-      ]
-    },
-    "page": "4049",
-    "title": "Xylo-oligosaccharides in prevention of hepatic steatosis and adipose tissue inflammation: Associating taxonomic and metabolomic patterns in fecal microbiomes with biclustering",
-    "title-short": "Xylo-oligosaccharides in prevention of hepatic steatosis and adipose tissue inflammation",
-    "type": "article-journal",
-    "volume": "18"
-  },
-  {
     "DOI": "10.1038/s41467-021-22962-y",
     "annote": "Preprint featured in HS Tiede Jan 30, 2020. Featured in Science Magazine Jan 22, 2020 https://www.sciencemag.org/news/2020/01/microbes-your-gut-could-predict-whether-you-re-likely-die-next-15-years",
     "author": [
@@ -567,6 +568,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "page": "2671",
     "title": "Taxonomic signatures of cause-specific mortality risk in human gut microbiome",
     "type": "article-journal",
@@ -831,6 +833,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "page": "277",
     "title": "Statistical and machine learning techniques in human microbiome studies: Contemporary challenges and solutions",
     "title-short": "Statistical and machine learning techniques in human microbiome studies",
@@ -969,6 +972,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "page": "313",
     "title": "Applications of machine learning in human microbiome studies: A review on feature selection, biomarker identification, disease prediction and treatment",
     "title-short": "Applications of machine learning in human microbiome studies",
@@ -1056,6 +1060,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "title": "Links between gut microbiome composition and fatty liver disease in a large population sample",
     "type": "article-journal",
     "volume": "13"
@@ -1149,6 +1154,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "page": "16",
     "title": "Systemic cross-talk between brain, gut, and peripheral tissues in glucose homeostasis: Effects of exercise training (CROSSYS): Exercise training intervention in monozygotic twins discordant for body weight",
     "title-short": "Systemic cross-talk between brain, gut, and peripheral tissues in glucose homeostasis",
@@ -1204,6 +1210,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "page": "1-9",
     "title": "Gut microbiota of patients with different subtypes of gastric cancer and gastrointestinal stromal tumors",
     "type": "article-journal",
@@ -1235,6 +1242,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "page": "1248",
     "title": "Targeting gut microbiota to treat hypertension: A systematic review",
     "title-short": "Targeting gut microbiota to treat hypertension",
@@ -1345,6 +1353,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "note": "Shared first authorship.",
     "page": "e10442",
     "title": "Partial restoration of normal intestinal microbiota in morbidly obese women six months after bariatric surgery",
@@ -1413,6 +1422,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "page": "3225",
     "title": "Prebiotic xylo-oligosaccharides targeting faecalibacterium prausnitzii prevent high fat diet-induced hepatic steatosis in rats",
     "type": "article-journal",
@@ -1459,6 +1469,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "note": "Special issue.",
     "page": "2570",
     "title": "Diet, perceived intestinal well-being, fecal microbiota and short chain fatty acids in oat-using subjects with celiac disease or gluten sensitivity.",
@@ -1485,6 +1496,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "page": "e016641",
     "title": "Eicosanoid inflammatory mediators are robustly associated with blood pressure in the general population",
     "type": "article-journal",
@@ -1642,6 +1654,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "page": "1546-1553",
     "title": "Unsupervised hierarchical clustering identifies a metabolically challenged subgroup of hypertensive individuals",
     "type": "article-journal",
@@ -1732,6 +1745,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "title": "Association between the gut microbiota and blood pressure in a population cohort of 6953 individuals",
     "type": "article-journal"
   },
@@ -1800,6 +1814,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "page": "104754",
     "title": "Maternal prenatal psychological distress and hair cortisol levels associate with infant fecal microbiota composition at 2.5 months of age",
     "type": "article-journal",
@@ -1863,6 +1878,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "page": "1325-1334",
     "title": "Gut microbiota and host gene mutations in colorectal cancer patients and controls of iranian and finnish origin",
     "type": "article-journal",
@@ -2132,6 +2148,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "page": "849-858",
     "title": "Gut microbiota composition is associated with temperament traits in infants",
     "type": "article-journal",
@@ -2218,6 +2235,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "page": "fiz096",
     "title": "Microbial communities in a dynamic it in vitro model for the human ileum resemble the human ileal microbiota",
     "type": "article-journal"
@@ -2646,7 +2664,7 @@
         ]
       ]
     },
-    "keyword": "review",
+    "keyword": "bioscience",
     "page": "41-49",
     "title": "Microbial communities as dynamical systems",
     "type": "article-journal",
@@ -2718,6 +2736,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "page": "2950-2958",
     "title": "Stool microbiota composition differs in patients with stomach, colon, and rectal neoplasms",
     "type": "article-journal",
@@ -2795,7 +2814,7 @@
         ]
       ]
     },
-    "keyword": "highlight",
+    "keyword": "bioscience",
     "title": "Signatures of ecological processes in microbial community time series",
     "type": "article-journal",
     "volume": "6"
@@ -2854,6 +2873,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "note": "Epub ahead of print.",
     "title": "Gut microbiota composition in mid-pregnancy is associated with gestational weight gain but not prepregnancy body mass index",
     "type": "article-journal"
@@ -2958,6 +2978,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "note": "(in Finnish)",
     "publisher": "arXiv",
     "title": "A brief overview on the BioPAX and SBML standards",
@@ -3166,6 +3187,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "page": "88",
     "title": "Comparative gut microbiota and resistome profiling of intensive care patients receiving selective digestive tract decontamination and healthy subjects",
     "type": "article-journal",
@@ -3341,6 +3363,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "page": "1056",
     "title": "Improved taxonomic assignment of human intestinal 16S rRNA sequences by a dedicated reference database",
     "type": "article-journal",
@@ -3437,6 +3460,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "title": "A novel atlas of gene expression in human skeletal muscle reveals molecular changes associated with aging",
     "type": "article-journal",
     "volume": "5"
@@ -3529,6 +3553,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "title": "Impact of a wastewater treatment plant on microbial community composition and function in a hyporheic zone of a eutrophic river",
     "type": "article-journal",
     "volume": "5"
@@ -3839,6 +3864,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "page": "588-93",
     "title": "Homozygous deletions of cadherin genes in chondrosarcoma – an array CGH study",
     "type": "article-journal",
@@ -3874,6 +3900,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "page": "16-20",
     "title": "The adult intestinal core microbiota is determined by analysis depth and health status",
     "type": "article-journal",
@@ -3930,6 +3957,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "page": "545-51",
     "title": "MicroRNA profiling predicts survival in anti-EGFR treated chemorefractory metastatic colorectal cancer patients with wild-type KRAS and BRAF",
     "type": "article-journal",
@@ -3970,6 +3998,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "page": "27-35",
     "title": "Cancer gene prioritization by integrative analysis of mRNA expression and DNA copy number data: A comparative review",
     "title-short": "Cancer gene prioritization by integrative analysis of mRNA expression and DNA copy number data",
@@ -4023,6 +4052,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "note": "Highly accessed, featured in PeerJ journal blog and Top-10 Microbiology collection.",
     "page": "e32",
     "title": "Associations between the human intestinal microbiota, lactobacillus rhamnosus GG and serum lipids indicated by integrated analysis of high-throughput profiling data",
@@ -4088,6 +4118,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "page": "182-188",
     "title": "Targeted resequencing of 9p in acute lymphoblastic leukemia yields concordant results with array CGH and reveals novel genomic alterations",
     "type": "article-journal",
@@ -4140,6 +4171,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "page": "2517-2520",
     "title": "MicroRNA profiling in pediatric acute lymphoblastic leukemia: Novel prognostic tools",
     "title-short": "MicroRNA profiling in pediatric acute lymphoblastic leukemia",
@@ -4355,6 +4387,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "page": "2218-2230",
     "title": "Impact of diet and individual variation on intestinal microbiota composition and fermentation products in obese men",
     "type": "article-journal",
@@ -4399,6 +4432,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "page": "78-94",
     "publisher": "Schloss Dagstuhl–Leibniz-Zentrum fuer Informatik",
     "publisher-place": "Dagstuhl, Germany",
@@ -4438,6 +4472,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "page": "217-225",
     "publisher": "IEEE Computer Society",
     "publisher-place": "Los Alamitos, CA, USA",
@@ -4530,6 +4565,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "note": "R-forge",
     "publisher": "software",
     "title": "Intcomp: A benchmarking pipeline for integrative cancer gene detection algorithms",
@@ -4584,6 +4620,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "page": "e23035",
     "title": "Intestinal microbiota in healthy adults: Temporal analysis reveals individual and common core and relation to intestinal symptoms",
     "title-short": "Intestinal microbiota in healthy adults",
@@ -4648,6 +4685,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "note": "Critical Assessment of Massive Data Analysis (CAMDA) workshop",
     "page": "130-136",
     "title": "Systematic use of computational methods allows stratifying treatment responders in glioblastoma multiforme",
@@ -4673,6 +4711,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "note": "Machine Learning for Systems Biology workshop, ISMB, Vienna, Austria",
     "title": "Probabilistic dependency models for data integration in functional genomics",
     "type": ""
@@ -4728,6 +4767,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "page": "585-597",
     "title": "Integrative analysis of microRNA, mRNA and aCGH data reveals asbestos- and histology-related changes in lung cancer",
     "type": "article-journal",
@@ -4788,6 +4828,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "page": "291-306",
     "title": "Array comparative genomic hybridization reveals frequent alterations of G1/s checkpoint genes in undifferentiated pleomorphic sarcoma of bone",
     "type": "article-journal",
@@ -4832,6 +4873,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "page": "e193",
     "title": "Integrating probe-level expression changes across generations of affymetrix arrays",
     "type": "article-journal",
@@ -4981,6 +5023,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "title": "Gene expression profiles in asbestos-exposed epithelial and mesothelial lung cell lines",
     "type": "article-journal",
     "volume": "8"
@@ -5313,6 +5356,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "title": "Biomarker discovery via dependency analysis of multi-view functional genomics data",
     "type": "paper-conference"
   },
@@ -5373,6 +5417,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "note": "R/Matlab implementations available at http://netpro.r-forge.r-project.org/",
     "page": "2713-2720",
     "title": "Global modeling of transcriptional responses in interaction networks",
