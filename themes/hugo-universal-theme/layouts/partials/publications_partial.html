@@ -12,9 +12,11 @@
   {{ end }}
 <br>
 
+<!-- if there are no authors, this will not run -->
+<!-- institution authors are printed (for some reason) in publisher field -->
+{{- if .author -}}
 <!-- number of authors in paper -->
 {{ $len := len .author }}
-
 <!-- when there is only 1 author: no need for delimiter -->
 
 {{ if eq $len 1 }}
@@ -60,6 +62,8 @@
   {{ end }}
 {{ end }}
 <br>
+{{- end -}}
+
 
 <!-- title of the journal, publication etc. -->
 {{- index . "container-title" | markdownify -}}
