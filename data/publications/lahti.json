@@ -163,7 +163,7 @@
       ]
     },
     "note": "(slides); version 1; not peer reviewed",
-    "title": "Microbiome data science in the  <i>SummarizedExperiment</i> universe",
+    "title": "Microbiome data science in the <i>SummarizedExperiment</i> universe",
     "type": "article-journal",
     "volume": "10"
   },
@@ -406,7 +406,7 @@
         "given": "Leo"
       }
     ],
-    "chapter-number": "Examining the Early Modern Canon: The English Short Title Catalogue and Large-Scale Patterns of Cultural Production.",
+    "chapter-number": "3",
     "container-title": "Data visualization in enlightenment literature and culture",
     "editor": [
       {
@@ -424,6 +424,8 @@
     },
     "note": "Book chapter in: Data Visualization in Enlightenment Literature and Culture",
     "publisher": "Palgrave Macmillan, Cham.",
+    "title": "Examining the early modern canon: The english short title catalogue and large-scale patterns of cultural production.",
+    "title-short": "Examining the early modern canon",
     "type": "chapter"
   },
   {
@@ -1284,13 +1286,6 @@
     "volume": "13"
   },
   {
-    "author": [
-      {
-        "dropping-particle": "in Open Education (Open Science Coordination in",
-        "family": "Finland)",
-        "given": "Expert Panel"
-      }
-    ],
     "collection-title": "Responsible research series",
     "id": "openedu2020",
     "issued": {
@@ -1300,7 +1295,7 @@
         ]
       ]
     },
-    "publisher": "unknown; Committee for Public Information (TJNK) and Federation of Finnish Learned Societies (TSV).",
+    "publisher": "Expert Panel in Open Education (Open Science Coordination in Finland); Committee for Public Information (TJNK) and Federation of Finnish Learned Societies (TSV).",
     "publisher-place": "Helsinki, Finland",
     "title": "National policy and executive plan by the higher education and research community for 2021-2025 - policy component 1: Open access to educational resources.",
     "title-short": "National policy and executive plan by the higher education and research community for 2021-2025 - policy component 1",
@@ -2159,20 +2154,20 @@
     "annote": "Comics piece for the popularization of microbiome research.",
     "author": [
       {
-        "family": "K",
-        "given": "K Timmis"
+        "family": "Timmis",
+        "given": "K"
       },
       {
-        "family": "F",
-        "given": "F Jebok"
+        "family": "Jebok",
+        "given": "F"
       },
       {
-        "family": "M",
-        "given": "M Rohde"
+        "family": "Rohde",
+        "given": "M"
       },
       {
-        "family": "L",
-        "given": "L Lahti"
+        "family": "Lahti",
+        "given": "L"
       },
       {
         "family": "Molinari",
@@ -2743,15 +2738,8 @@
     "volume": "63"
   },
   {
-    "URL": "https://www.utu.fi/sites/default/files/public\\%3A//media/file/ty-avoimen-tutkimuksen-politiikka-fi.pdf",
+    "URL": "https://www.utu.fi/sites/default/files/public%3A//media/file/ty-avoimen-tutkimuksen-politiikka-fi.pdf",
     "annote": "Member in the work group that developed the report.",
-    "author": [
-      {
-        "dropping-particle": "of",
-        "family": "Turku",
-        "given": "University"
-      }
-    ],
     "container-title": "unknown",
     "id": "openutu2018",
     "issued": {
@@ -2763,9 +2751,9 @@
       ]
     },
     "note": "(in Finnish)",
-    "publisher": "Report",
+    "publisher": "University of Turku; Report",
     "title": "Turun yliopiston avoimen tutkimuksen politiikka / open research policy",
-    "type": "article-journal"
+    "type": "report"
   },
   {
     "DOI": "10.1186/s40168-018-0496-2",
