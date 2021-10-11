@@ -73,7 +73,7 @@
 {{- if or .volume .issue .publisher -}},{{- end -}}
 <!-- publication date: year -->
 <!-- courtesy of loup-brun's hugo-cite project: https://github.com/loup-brun/hugo-cite -->
-{{- if and (isset $reference "issued") (isset $reference.issued "date-parts") -}}
+{{- if and (.issued) (index . "date-parts") -}}
 {{- range $index, $dateParts := (index .issued "date-parts") -}}{{/* range of dates */}}
 {{- range first 1 $dateParts -}}{{/* First element in date-part is the year */ -}}
 {{- . -}}
