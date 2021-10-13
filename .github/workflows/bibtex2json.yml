@@ -1,6 +1,9 @@
 name: Convert .bib to .json
 
-on: push
+on: 
+  push:
+    paths:
+      - 'content/publication_resources/bibtex/lahti.bib'
 
 jobs:
   convert_via_pandoc:

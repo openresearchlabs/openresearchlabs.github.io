@@ -9,4 +9,4 @@ keywords: All publications
 
 # All publications
 
-{{< articles id >}}
+{{< articles >}}
