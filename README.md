@@ -30,7 +30,7 @@ The site uses GitHub Actions to convert a .bib-file to a .json-file. Please reme
 
 The workflow can be edited in .github/workflows/bibtex2json.yml
 
-Currently the workflow reacts to changes in one: content/publication_resources/bibtex/lahti.bib
+Currently the workflow reacts to changes a single .bib file: content/publication_resources/bibtex/lahti.bib
 
 The output can be found in data/publications folder.
 
