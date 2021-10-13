@@ -6,7 +6,9 @@ The following README gives a quick glance on how to add information from data fi
 
 Edit appropriate .yaml-files in data/team to add new team member information. The information will then be displayed in content/team.md file under the group specified by the .yaml-file name. For example, this will print information on all post-doc team members:
 
+```
 {{< team data="postdocs" >}}
+```
 
 Team member pictures should have face in center and should be close to a square. If no picture is provided a default placeholder image will be used. Add your picture in folder ./static/img/teampic and use a relative URL when pointing to the picture.
 
