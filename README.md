@@ -24,15 +24,24 @@ More information about flex-containers:
 
 ## Print items from bibliography
 
-The site uses GitHub Actions to convert a .bib-file to a .json-file. Specific items from the bibliography, in this case an item that has "Salosensaari2021" as id (or key), can be printed with the following shortcode:
+The site uses GitHub Actions to convert a .bib-file to a .json-file. Please remember to push changes made in .bib-file to server for changes to take place.
+
+Specific items from the bibliography can be printed by using custom shortcodes in .md files (not HTML files). In this example a single item that has the unique id (or key) "Salosensaari2021" is printed:
 
 {{< articles id = "Salosensaari2021" >}}
 
-If you wish to print items with specific keywords (in this case "opinion"), use:
+The output would look like this:
+
+**Taxonomic signatures of cause-specific mortality risk in human gut microbiome**
+Salosensaari* A, Laitinen* V, Havulinna A, Meric G, Cheng S, Perola M, Valsta L, Alfthan G, Inouye M, Watrous J, Long T, Salido R, Sanders K, Brennan C, Humphrey G, Sanders J, Jain M, Jousilahti P, Salomaa V, Knight R, Lahti* L & Niiranen* T. 
+Nature Communications 12, 2021
+[10.1038/s41467-021-22962-y](https://doi.org/10.1038/s41467-021-22962-y)
+
+If you wish to print all items that have a specific keyword (in this case "opinion"), use parameter "keyword" like this:
 
 {{< articles keyword = "opinion" >}}
 
-Finally, ff you wish to print all items in the bibliography, simply use:
+Finally, ff you wish to print all items in the bibliography, simply use the shortcode with no parameters:
 
 {{< articles >}}
 
