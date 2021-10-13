@@ -217,6 +217,7 @@
   },
   {
     "DOI": "10.1089/jwh.2017.6488",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2018-Aatsinki.pdf",
     "author": [
       {
         "family": "Aatsinki",
@@ -276,6 +277,7 @@
   },
   {
     "DOI": "10.1016/j.bbi.2019.05.035",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2019-Aatsinki.pdf",
     "author": [
       {
         "family": "Aatsinki",
@@ -411,6 +413,7 @@
   },
   {
     "DOI": "10.12688/f1000research.5686.2",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2014-Aleksic.pdf",
     "author": [
       {
         "family": "Aleksic",
@@ -504,6 +507,7 @@
   },
   {
     "DOI": "10.1038/nmeth.3103",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2014-Alneberg-NatMeth.pdf",
     "author": [
       {
         "family": "Alneberg",
@@ -566,7 +570,7 @@
   {
     "DOI": "10.1103/PhysRevE.97.062407",
     "ISSN": "2470-0045",
-    "URL": "https://link.aps.org/doi/10.1103/PhysRevE.97.062407",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2018-Arani-PhysRevE.pdf",
     "author": [
       {
         "family": "Arani",
@@ -649,7 +653,7 @@
     "volume": "372"
   },
   {
-    "URL": "http://urn.fi/URN:NBN:fi-fe201802123334",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2018-Bjork-ATT.pdf",
     "author": [
       {
         "family": "Björk",
@@ -745,6 +749,7 @@
   },
   {
     "DOI": "10.1186/s40168-017-0309-z",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2017-Buelow-Microbiome.pdf",
     "author": [
       {
         "family": "Buelow",
@@ -830,6 +835,7 @@
   },
   {
     "DOI": "10.1093/nar/gni193",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2005-Elo-NAR.pdf",
     "author": [
       {
         "family": "Elo",
@@ -874,6 +880,7 @@
     "volume": "33"
   },
   {
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2011-Faisal-NIPS.pdf",
     "author": [
       {
         "family": "Faisal",
@@ -911,6 +918,7 @@
   },
   {
     "DOI": "10.1016/j.mib.2015.04.004",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2015-Faust-CurrOpMicrob.pdf",
     "author": [
       {
         "family": "Faust",
@@ -953,6 +961,7 @@
   },
   {
     "DOI": "10.1038/ismej.2017.60",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2017-Faust-ISME.pdf",
     "author": [
       {
         "family": "Gonze",
@@ -989,6 +998,7 @@
   },
   {
     "DOI": "10.1186/s40168-018-0496-2",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2018-Faust-Microbiome.pdf",
     "author": [
       {
         "family": "Faust",
@@ -1041,6 +1051,7 @@
   },
   {
     "DOI": "10.1016/j.mib.2018.07.004",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2018-Gonze.pdf",
     "author": [
       {
         "family": "Gonze",
@@ -1076,6 +1087,7 @@
   },
   {
     "DOI": "10.1002/gcc.20669",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2009-GCC-Guled-miRNA.pdf",
     "author": [
       {
         "family": "Guled",
@@ -1125,6 +1137,7 @@
   },
   {
     "DOI": "10.1109/JPROC.2015.2428213",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2017-Harris-IEEE.pdf",
     "author": [
       {
         "family": "Harris",
@@ -1215,7 +1228,7 @@
     "type": "paper-conference"
   },
   {
-    "URL": "https://cst.dk/DHN2019Pro/papers/DHN2019_hill.pdf",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2019-Hill-DHN.pdf",
     "author": [
       {
         "family": "Hill",
@@ -1358,6 +1371,7 @@
     "type": "paper-conference"
   },
   {
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2019-Ijaz-RDHum.pdf",
     "author": [
       {
         "family": "Ijaz",
@@ -1387,7 +1401,7 @@
     "type": "paper-conference"
   },
   {
-    "URL": "10.1371/journal.pone.0023035",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2011-JalankaTuovinen-PLoS.pdf",
     "author": [
       {
         "family": "Jalanka-Tuovinen",
@@ -1443,6 +1457,7 @@
   },
   {
     "DOI": "10.1109/TCBB.2005.32",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2005-TCBB–Kaski-AC.pdf",
     "author": [
       {
         "family": "Kaski",
@@ -1636,7 +1651,7 @@
     "volume": "8"
   },
   {
-    "URL": "https://github.com/antagomir/thesis/tree/master/msc03",
+    "URL": "https://github.com/antagomir/thesis/blob/master/msc03/dtyo.pdf",
     "author": [
       {
         "family": "Lahti",
@@ -1660,6 +1675,7 @@
     "type": "thesis"
   },
   {
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/theses/LeoLahti-BSc-2008.pdf",
     "author": [
       {
         "family": "Lahti",
@@ -1682,7 +1698,7 @@
     "type": ""
   },
   {
-    "URL": "http://arxiv.org/abs/1101.5919",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2009-MLSP-Lahti-SimCCA.pdf",
     "author": [
       {
         "family": "Lahti",
@@ -1755,7 +1771,7 @@
   },
   {
     "DOI": "10.1093/bioinformatics/btq500",
-    "URL": "http://bioinformatics.oxfordjournals.org/content/early/2010/09/02/bioinformatics.btq500.abstract.html?ijkey=N1zzjtUBRng3wCM&keytype=ref",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2010-Bioinformatics-Lahti-NetResponse.pdf",
     "annote": "ArXiv: http://arxiv.org/abs/1202.0501; R/Matlab source code http://netpro.r-forge.r-project.org",
     "author": [
       {
@@ -1891,7 +1907,7 @@
   },
   {
     "ISSN": "1797-5069",
-    "URL": "http://lib.tkk.fi/Diss/2010/isbn9789526033686/",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2010-Lahti-thesis.pdf",
     "abstract": "Recent advances in high-throughput measurement technologies and efficient sharing of biomedical data through community databases have made it possible to investigate the complete collection of genetic material, the genome, which encodes the heritable genetic program of an organism. This has opened up new views to the study of living organisms with a profound impact on biological research. Functional genomics is a subdiscipline of molecular biology that investigates the functional organization of genetic information. This thesis develops computational strategies to investigate a key functional layer of the genome, the transcriptome. The time- and context-specific transcriptional activity of the genes regulates the function of living cells through protein synthesis. Efficient computational techniques are needed in order to extract useful information from high-dimensional genomic observations that are associated with high levels of complex variation. Statistical learning and probabilistic models provide the theoretical framework for combining statistical evidence across multiple observations and the wealth of background information in genomic data repositories. This thesis addresses three key challenges in transcriptome analysis. First, new preprocessing techniques that utilize side information in genomic sequence databases and microarray collections are developed to improve the accuracy of high-throughput microarray measurements. Second, a novel exploratory approach is proposed in order to construct a global view of cell-biological network activation patterns and functional relatedness between tissues across normal human body. Information in genomic interaction databases is used to derive constraints that help to focus the modeling in those parts of the data that are supported by known or potential interactions between the genes, and to scale up the analysis. The third contribution is to develop novel approaches to model dependency between co-occurring measurement sources. The methods are used to study cancer mechanisms and transcriptome evolution; integrative analysis of the human transcriptome and other layers of genomic information allows the identification of functional mechanisms and interactions that could not be detected based on the individual measurement sources. Open source implementations of the key methodological contributions have been released to facilitat e their further adoption by the research community.",
     "author": [
       {
@@ -1984,6 +2000,7 @@
     "type": ""
   },
   {
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2011-MLSB-Lahti.pdf",
     "author": [
       {
         "family": "Lahti",
@@ -2009,6 +2026,7 @@
   },
   {
     "DOI": "10.1109/TCBB.2009.38",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2011-Lahti-TCBB.pdf",
     "annote": "R/Bioconductor: RPA",
     "author": [
       {
@@ -2048,6 +2066,7 @@
   },
   {
     "DOI": "10.1111/j.1469-0691.2012.03855.x",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2012-Salonen-CMI.pdf",
     "author": [
       {
         "family": "Salonen",
@@ -2142,6 +2161,7 @@
   },
   {
     "DOI": "10.1093/nar/gkt229",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2013-Lahti-NAR.pdf",
     "author": [
       {
         "family": "Lahti",
@@ -2184,6 +2204,7 @@
   {
     "DOI": "10.7717/peerj.32",
     "PMID": "23638368",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2013-Lahti-PeerJ.pdf",
     "author": [
       {
         "family": "Lahti",
@@ -2238,6 +2259,7 @@
   {
     "DOI": "10.18352/lq.10112",
     "ISSN": "2213-056X",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2015-Lahti-LIBERQuarterly.pdf",
     "author": [
       {
         "family": "Lahti",
@@ -2270,7 +2292,7 @@
     "volume": "25"
   },
   {
-    "URL": "https://journal.r-project.org/archive/2017/RJ-2017-019/index.html",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2017-Lahti-RJournal.pdf",
     "annote": "R package homepage URL: http://ropengov.github.io/eurostat/",
     "author": [
       {
@@ -2308,6 +2330,7 @@
   },
   {
     "DOI": "10.3897/rio.3.e13593",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2017-Lahti-PHOS.pdf",
     "author": [
       {
         "family": "Lahti",
@@ -2415,6 +2438,7 @@
   },
   {
     "DOI": "10.1093/bib/bbs005",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2013-Lahti-BriefBioinf.pdf",
     "author": [
       {
         "family": "Lahti",
@@ -2456,6 +2480,7 @@
     "volume": "14"
   },
   {
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/devel/publications/https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2018-Lahti-IDA.pdf",
     "author": [
       {
         "family": "Lahti",
@@ -2481,6 +2506,7 @@
   },
   {
     "DOI": "10.1080/01639374.2018.1543747",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2019-Lahti-CCQ.pdf",
     "author": [
       {
         "family": "Lahti",
@@ -2518,6 +2544,7 @@
     "volume": "57"
   },
   {
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2019-Lahti-RDHUM.pdf",
     "author": [
       {
         "family": "Lahti",
@@ -2737,7 +2764,7 @@
   },
   {
     "ISBN": "978-1-4503-3948-3",
-    "URL": "http://dl.acm.org/citation.cfm?id=2818187",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2015-Laine-Mindtrek.pdf",
     "author": [
       {
         "family": "Laine",
@@ -2776,7 +2803,7 @@
     "type": "paper-conference"
   },
   {
-    "URL": "https://github.com/velait/OUP",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2018-Laitinen-IDA.pdf",
     "author": [
       {
         "family": "Laitinen",
@@ -2805,6 +2832,7 @@
   },
   {
     "DOI": "10.4161/sysb.28904",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2014-Louhimo.pdf",
     "author": [
       {
         "family": "Louhimo",
@@ -2869,7 +2897,7 @@
     "volume": "1"
   },
   {
-    "URL": "http://ceur-ws.org/Vol-2365/07-TwinTalks-DHN2019_paper_7.pdf",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2019-Makela-DHN.pdf",
     "author": [
       {
         "family": "Mäkelä",
@@ -2924,6 +2952,7 @@
     "volume": "2365"
   },
   {
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2020-Makela-DHN.pdf",
     "author": [
       {
         "family": "Eetu",
@@ -3166,7 +3195,7 @@
   },
   {
     "DOI": "10.21825/jeps.v4i1.10483",
-    "URL": "https://ojs.ugent.be/jeps/article/view/10483",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2019-Marjanen-JEPS.pdf",
     "author": [
       {
         "family": "Marjanen",
@@ -3391,6 +3420,7 @@
   },
   {
     "DOI": "10.1038/modpathol.2010.146",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2010-ModernPathology-Mosakhani-Dupuytre.pdf",
     "author": [
       {
         "family": "Mosakhani",
@@ -3440,6 +3470,7 @@
   },
   {
     "DOI": "10.1016/j.cancergen.2012.08.003",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2012-Mosakhani-CG.pdf",
     "author": [
       {
         "family": "Mosakhani",
@@ -3497,6 +3528,7 @@
   },
   {
     "DOI": "10.3109/10428194.2012.685731",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2012-Mosakhani-LL.pdf",
     "author": [
       {
         "family": "Mosakhani",
@@ -3551,6 +3583,7 @@
   },
   {
     "DOI": "10.1002/gcc.20851",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2011-Niini-GCC.pdf",
     "author": [
       {
         "family": "Niini",
@@ -3783,6 +3816,7 @@
   },
   {
     "DOI": "10.1002/gcc.20880",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2011-Nymark-GCC.pdf",
     "author": [
       {
         "family": "Nymark",
@@ -3840,6 +3874,7 @@
   },
   {
     "DOI": "10.1038/ncomms7342",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2015-OKeefe-NComms.pdf",
     "annote": "Guardian: http://www.theguardian.com/science/2015/apr/28/bowel-cancer-risk-may-be-reduced-by-rural-african-diet-study-finds",
     "author": [
       {
@@ -4171,6 +4206,7 @@
   },
   {
     "DOI": "10.1186/s12864-015-2265-y",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2015-Ritari-BMCGenomics.pdf",
     "author": [
       {
         "family": "Ritari",
@@ -4443,6 +4479,7 @@
   },
   {
     "DOI": "10.1016/j.ygeno.2013.01.001",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2013-Sarhadi-Genomics.pdf",
     "author": [
       {
         "family": "Sarhadi",
@@ -4508,6 +4545,7 @@
   },
   {
     "DOI": "10.21873/anticanres.14074",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2020-Sarhadi-Anticanc.pdf",
     "author": [
       {
         "family": "Sarhadi",
@@ -4627,6 +4665,7 @@
   },
   {
     "DOI": "10.1093/femsre/fuw045",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2017-Shetty-FEMS.pdf",
     "author": [
       {
         "family": "Shetty",
@@ -4673,6 +4712,7 @@
   },
   {
     "DOI": "10.1007/s12038-019-9930-2",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2019-Shetty-MDS.pdf",
     "author": [
       {
         "family": "Shetty",
@@ -4693,7 +4733,6 @@
       ]
     },
     "keyword": "bioscience",
-    "note": "pdf/2019-Shetty-MDS.pdf",
     "page": "115",
     "title": "Microbiome data science",
     "type": "article-journal",
@@ -4701,6 +4740,7 @@
   },
   {
     "DOI": "10.1038/srep17284",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2015-Atagashi.pdf",
     "author": [
       {
         "family": "Atashgahi",
@@ -4764,6 +4804,7 @@
     "volume": "5"
   },
   {
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2003-TechRep-Sinkkonen-ACBayesFactor.pdf",
     "author": [
       {
         "family": "Sinkkonen",
@@ -4799,7 +4840,7 @@
     "type": "report"
   },
   {
-    "URL": "http://www.cis.hut.fi/projects/mi/abstracts/ecml04.html",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2004-ECML-Sinkkonen-AC.pdf",
     "author": [
       {
         "family": "Sinkkonen",
@@ -4849,6 +4890,7 @@
     "type": "chapter"
   },
   {
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2005-TechRep-Sinkkonen-ACtechdetails.pdf",
     "author": [
       {
         "family": "Sinkkonen",
@@ -4886,6 +4928,7 @@
   },
   {
     "DOI": "10.1186/s13395-015-0059-1",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2015-Su-SkeletalMuscle.pdf",
     "author": [
       {
         "family": "Su",
@@ -4980,6 +5023,7 @@
     "type": "article-journal"
   },
   {
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2015-EnnenNyt-Tolonen.pdf",
     "author": [
       {
         "family": "Tolonen",
@@ -5086,6 +5130,7 @@
     "type": "article-journal"
   },
   {
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2019-Tolonen-DHN.pdf",
     "author": [
       {
         "family": "Tolonen",
@@ -5306,6 +5351,7 @@
   },
   {
     "DOI": "10.1007/s10620-018-5190-5",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2018-Youssef.pdf",
     "author": [
       {
         "family": "Youssef",
@@ -5522,6 +5568,7 @@
   },
   {
     "DOI": "10.1038/ncomms5344",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2014-Lahti-NatComm.pdf",
     "author": [
       {
         "family": "Lahti",
@@ -5580,6 +5627,7 @@
     "volume": "16"
   },
   {
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2018-avoimen-tutkimuksen-politiikka-fi.pdf",
     "annote": "Member in the work group that developed the report.",
     "container-title": "unknown",
     "id": "openutu2018",
@@ -5599,6 +5647,7 @@
   },
   {
     "DOI": "10.1038/ismej.2014.63",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2014-Salonen-ISME.pdf",
     "author": [
       {
         "family": "Salonen",
@@ -5724,6 +5773,7 @@
   },
   {
     "DOI": "10.1093/femsec/fiz096",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2019-Stolaki-FEMS.pdf",
     "author": [
       {
         "family": "Stolaki",
@@ -5771,6 +5821,7 @@
   },
   {
     "DOI": "10.1080/01615440.2018.1526657",
+    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2019-Tolonen.pdf",
     "author": [
       {
         "family": "Tolonen",
