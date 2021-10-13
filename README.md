@@ -42,14 +42,14 @@ Specific items from the jsonified bibliography can be printed by using custom sh
 {{< articles id = "Salosensaari2021" >}}
 ```
 
-The output would look something like this:
+The output should look something like this:
 
-**Taxonomic signatures of cause-specific mortality risk in human gut microbiome**
-Salosensaari A, Laitinen V, Havulinna A, Meric G, Cheng S, Perola M, Valsta L, Alfthan G, Inouye M, Watrous J, Long T, Salido R, Sanders K, Brennan C, Humphrey G, Sanders J, Jain M, Jousilahti P, Salomaa V, Knight R, Lahti L & Niiranen T. 
-Nature Communications 12, 2021
-[10.1038/s41467-021-22962-y](https://doi.org/10.1038/s41467-021-22962-y)
+**Taxonomic signatures of cause-specific mortality risk in human gut microbiome** (in bold)
+Salosensaari A, Laitinen V, Havulinna A, Meric G, Cheng S, Perola M, Valsta L, Alfthan G, Inouye M, Watrous J, Long T, Salido R, Sanders K, Brennan C, Humphrey G, Sanders J, Jain M, Jousilahti P, Salomaa V, Knight R, Lahti L & Niiranen T. (all authors listed, first names abbreviated)
+Nature Communications 12, 2021 (publication name, issue, year)
+[10.1038/s41467-021-22962-y](https://doi.org/10.1038/s41467-021-22962-y) (DOI and optional URL as a link)
 
-If you wish to print all items that have a specific keyword (in this case "opinion"), use parameter "keyword" like this:
+If you wish to print all items that have a specific keyword (in this case "opinion"), use parameter "keyword":
 
 ```
 {{< articles keyword = "opinion" >}}
