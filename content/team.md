@@ -43,6 +43,21 @@ keywords: team
 
 <br><br>
 
+<!-- 
+INFO for following sections: Postdocs, PhD candidates, Research assistants
+
+Edit/add team member info in ./data/team/postdocs.yaml etc.
+Add pictures in folder ./static/img/teampic 
+(the format for relative URL is: "../img/teampic/[YOUR_PHOTO].jpg")
+
+To make changes that affect all items, see following items:
+./themes/hugo-universal-theme/layouts/partials/team_partial.html
+./themes/hugo-universal-theme/layouts/shortcodes/team.html
+
+Edit item styles (.flex-container, .flex-item-*) in:
+./themes/hugo-universal-theme/static/css/style.default.css
+-->
+
 ## Postdocs
 
 {{< team data="postdocs" >}}
@@ -68,7 +83,7 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
 {{< team data="researchassistants" >}}
 
 <br><br>
- 
+
 ## Alumni
 
 Co-supervised PhDs:

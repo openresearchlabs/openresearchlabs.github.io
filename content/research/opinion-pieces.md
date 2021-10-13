@@ -6,6 +6,9 @@ keywords: Opinion pieces
 
 ### Opinion pieces (in Finnish)  
 
+
+{{< articles id = "Lahti2020hs1" >}}
+
 [**Aatehistoria ja digitaalisten aineistojen mahdollisuudet**](https://www.ennenjanyt.net/2015/08/aatehistoria-ja-digitaalisten-aineistojen-mahdollisuudet/)  
 Ennen & Nyt (Finland) 2015.  
 Tolonen M, Lahti L.

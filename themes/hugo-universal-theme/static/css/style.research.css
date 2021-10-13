@@ -13,12 +13,12 @@
 
 .research-text { grid-area: research-text; text-align: justify;}
 
-.reasearch-picture { grid-area: research-picture; }
+.research-picture { grid-area: research-picture; }
 
 .figure-research {
   margin-top: 3vh;
-  width: 576px;
-  border-radius: 10px;
+  width: 400px;
+  border-radius: 20px;
 }
 
 .caption {
@@ -34,7 +34,7 @@
       "research-picture";
   }
   .figure-research {
-    width: 90vw;
+    width: 70vw;
     border-radius: 10px;
   }
 }
