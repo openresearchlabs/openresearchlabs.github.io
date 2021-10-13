@@ -1,5 +1,7 @@
 # Turku Data Science Group website
 
+The following README gives a quick glance on how to add information from data files to Turku Data Science Group Website.
+
 ## Add and edit team member information
 
 Edit appropriate .yaml-files in data/team to add new team member information. The information will then be displayed in content/team.md file under the group specified by the .yaml-file name. For example, this will print information on all post-doc team members:
@@ -22,28 +24,42 @@ More information about flex-containers:
 - [Aligning Items in a Flex Container (MDN Web Docs)](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container)
 - [A Complete Guide to Flexbox (CSS-Tricks)](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
-## Print items from bibliography
+## Convert .bib files to .json
 
 The site uses GitHub Actions to convert a .bib-file to a .json-file. Please remember to push changes made in .bib-file to server for changes to take place.
 
-Specific items from the bibliography can be printed by using custom shortcodes in .md files (not HTML files). In this example a single item that has the unique id (or key) "Salosensaari2021" is printed:
+The workflow can be edited in .github/workflows/bibtex2json.yml
 
+Currently the workflow reacts to changes in one: content/publication_resources/bibtex/lahti.bib
+
+The output can be found in data/publications folder.
+
+## Print items from bibliography
+
+Specific items from the jsonified bibliography can be printed by using custom shortcodes in .md files (not HTML files). In this example a single item that has the unique id (or key) "Salosensaari2021" is printed:
+
+```
 {{< articles id = "Salosensaari2021" >}}
+```
 
-The output would look like this:
+The output would look something like this:
 
 **Taxonomic signatures of cause-specific mortality risk in human gut microbiome**
-Salosensaari* A, Laitinen* V, Havulinna A, Meric G, Cheng S, Perola M, Valsta L, Alfthan G, Inouye M, Watrous J, Long T, Salido R, Sanders K, Brennan C, Humphrey G, Sanders J, Jain M, Jousilahti P, Salomaa V, Knight R, Lahti* L & Niiranen* T. 
+Salosensaari A, Laitinen V, Havulinna A, Meric G, Cheng S, Perola M, Valsta L, Alfthan G, Inouye M, Watrous J, Long T, Salido R, Sanders K, Brennan C, Humphrey G, Sanders J, Jain M, Jousilahti P, Salomaa V, Knight R, Lahti L & Niiranen T. 
 Nature Communications 12, 2021
 [10.1038/s41467-021-22962-y](https://doi.org/10.1038/s41467-021-22962-y)
 
 If you wish to print all items that have a specific keyword (in this case "opinion"), use parameter "keyword" like this:
 
+```
 {{< articles keyword = "opinion" >}}
+```
 
 Finally, ff you wish to print all items in the bibliography, simply use the shortcode with no parameters:
 
+```
 {{< articles >}}
+```
 
 ### Editing the shortcodes and output styles
 
@@ -51,6 +67,8 @@ The relevant files are located in themes/hugo-universal-theme/layouts folder:
 
 - layouts/shortcodes/articles.html
 - layouts/partials/publications_partial.html
+
+Especially if you want to change how output is formatted, see publications_partial.html.
 
 For more information about shortcodes and partials, see following links: 
 - [Hugo documentation](https://gohugo.io/templates/shortcode-templates/)
