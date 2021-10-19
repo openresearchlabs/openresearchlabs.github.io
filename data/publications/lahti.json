@@ -216,6 +216,38 @@
     "type": "article-journal"
   },
   {
+    "DOI": "10.1002/ece3.8123",
+    "author": [
+      {
+        "family": "Laitinen",
+        "given": "Ville"
+      },
+      {
+        "family": "Dakos",
+        "given": "Vasilis"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "Ecology & Evolution",
+    "id": "Laitinen2021ews",
+    "issue": "20",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "14101-14114",
+    "title": "Probabilistic early warning signals",
+    "type": "article-journal",
+    "volume": "11"
+  },
+  {
     "DOI": "10.1089/jwh.2017.6488",
     "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2018-Aatsinki.pdf",
     "author": [
@@ -5609,6 +5641,13 @@
     "volume": "5"
   },
   {
+    "author": [
+      {
+        "dropping-particle": "in Open Education (Open Science Coordination in",
+        "family": "Finland)",
+        "given": "Expert Panel"
+      }
+    ],
     "container-title": "Responsible Research Series",
     "id": "openedu2020",
     "issued": {
@@ -5619,7 +5658,7 @@
       ]
     },
     "keyword": "openscience",
-    "publisher": "Expert Panel in Open Education (Open Science Coordination in Finland); Committee for Public Information (TJNK) and Federation of Finnish Learned Societies (TSV).",
+    "publisher": "Committee for Public Information (TJNK) and Federation of Finnish Learned Societies (TSV).",
     "publisher-place": "Helsinki, Finland",
     "title": "National policy and executive plan by the higher education and research community for 2021-2025 - policy component 1: Open access to educational resources.",
     "title-short": "National policy and executive plan by the higher education and research community for 2021-2025 - policy component 1",
@@ -5629,6 +5668,11 @@
   {
     "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2018-avoimen-tutkimuksen-politiikka-fi.pdf",
     "annote": "Member in the work group that developed the report.",
+    "author": [
+      {
+        "literal": "OpenUTU work group"
+      }
+    ],
     "container-title": "unknown",
     "id": "openutu2018",
     "issued": {
