@@ -1,5 +1,111 @@
 [
   {
+    "DOI": "10.1101/2020.09.12.20193045",
+    "URL": "",
+    "author": [
+      {
+        "family": "Qin",
+        "given": "Youwen"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki S."
+      },
+      {
+        "family": "Liu",
+        "given": "Yang"
+      },
+      {
+        "family": "Jousilahti",
+        "given": "Pekka"
+      },
+      {
+        "family": "Ritchie",
+        "given": "Scott C."
+      },
+      {
+        "family": "Tokolyi",
+        "given": "Alex"
+      },
+      {
+        "family": "Sanders",
+        "given": "Jon G."
+      },
+      {
+        "family": "Valsta",
+        "given": "Liisa"
+      },
+      {
+        "family": "Brożyńska",
+        "given": "Marta"
+      },
+      {
+        "family": "Zhu",
+        "given": "Qiyun"
+      },
+      {
+        "family": "Tripathi",
+        "given": "Anupriya"
+      },
+      {
+        "family": "Vazquez-Baeza",
+        "given": "Yoshiki"
+      },
+      {
+        "family": "Loomba",
+        "given": "Rohit"
+      },
+      {
+        "family": "Cheng",
+        "given": "Susan"
+      },
+      {
+        "family": "Jain",
+        "given": "Mohit"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Inouye",
+        "given": "Michael"
+      },
+      {
+        "family": "Méric",
+        "given": "Guillaume"
+      }
+    ],
+    "container-title": "medRxiv (preprint)",
+    "id": "Qin2021",
+    "issue": "",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "keyword": "preprint",
+    "note": "",
+    "page": "2020.09.12.20193045",
+    "title": "Combined effects of host genetics and diet on human gut microbiota and incident disease in a single population cohort",
+    "type": "article-journal",
+    "volume": ""
+  },
+  {
     "DOI": "10.32714/ricl.09.01.03",
     "author": [
       {
