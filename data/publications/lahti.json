@@ -1,5 +1,38 @@
 [
   {
+    "URL": "https://www.hs.fi/mielipide/art-2000008325656.html",
+    "author": [
+      {
+        "family": "Mäkelä",
+        "given": "Eetu"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Lilja",
+        "given": "Johanna"
+      },
+      {
+        "family": "Heikkinen",
+        "given": "Pekka"
+      }
+    ],
+    "container-title": "HS Mielipide",
+    "id": "Lahti2021hs",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "keyword": "opinion",
+    "title": "Laki estää tehokkaiden tutkimusmenetelmien käytön",
+    "type": "article-journal"
+  },
+  {
     "DOI": "10.1101/2020.09.12.20193045",
     "URL": "",
     "author": [
