@@ -7,15 +7,20 @@ keywords: Opinion pieces
 ### Opinion pieces (in Finnish)  
 
 
-{{< articles id = "Lahti2020hs1" >}}
+<!--{{< articles id = "Lahti2020hs1" >}}-->
 
-[**Aatehistoria ja digitaalisten aineistojen mahdollisuudet**](https://www.ennenjanyt.net/2015/08/aatehistoria-ja-digitaalisten-aineistojen-mahdollisuudet/)  
-Ennen & Nyt (Finland) 2015.  
-Tolonen M, Lahti L.
+{{< articles keyword = "opinion" >}}
 
-[**Avoimuus voi vahvistaa päätöksenteon tieteellistä pohjaa**](https://blogs.helsinki.fi/thinkopen/lahdekoodin-avoimuus-paatoksenteossa/)  
-Invited opinion piece: University of Helsinki, ThinkOpen blog. August 2020.  
-Lahti L.
+{{< articles id = "Tolonen15EnnenNyt" >}}
+
+
+
+### All publications
+
+[**All publications**](/research/all)
+
+
+
 
 [**Päätös epidemialaskelmien salaamisesta vastoin valtioneuvoston avoimuuslinjausta**](https://www.okf.fi/fi/2020/06/15/thln-paatos-epidemialaskelmien-salaamisesta-vastoin-valtioneuvoston-avoimuuslinjausta/)  
 Invited perspective, Open Knowledge Finland blog. July 2020.  

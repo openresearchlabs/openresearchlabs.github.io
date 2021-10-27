@@ -1,20 +1,18 @@
 <!-- parameter -->
 {{ $reference := . }}
 
-<!-- Title in bold, DOI or URL as a link if it exists -->
+<!-- Title in bold -->
 <p>
-  {{ if .DOI }}
-  <b><a href="https://doi.org/{{ .DOI }}">{{ .title | markdownify }}</a></b>
-  {{ else if .URL }}
-  <b><a href="{{ .URL }}">{{ .title | markdownify }}</a></b>
-  {{ else }}
+  {{ if .title }}
   <b>{{ .title | markdownify }}</b>
+  <br>
   {{ end }}
-<br>
 
+<!-- if there are no authors, this will not run -->
+<!-- institution authors are printed (for some reason) in publisher field -->
+{{- if .author -}}
 <!-- number of authors in paper -->
 {{ $len := len .author }}
-
 <!-- when there is only 1 author: no need for delimiter -->
 
 {{ if eq $len 1 }}
@@ -60,21 +58,46 @@
   {{ end }}
 {{ end }}
 <br>
+{{- end -}}
 
-<!-- title of the journal, publication etc. -->
-{{- index . "container-title" | markdownify -}}
+
+<!-- title of the publication etc. -->
+{{- $publication := index . "container-title" -}}
+{{- $publication -}}
 {{ if .volume }} {{ .volume }}{{ end }}
 {{- if .issue -}}({{ .issue }}){{- end -}}
 {{ if .publisher }} {{ .publisher }}{{ end }}
 {{- if or .volume .issue .publisher -}},{{- end -}}
 <!-- publication date: year -->
 <!-- courtesy of loup-brun's hugo-cite project: https://github.com/loup-brun/hugo-cite -->
-{{- if and (isset $reference "issued") (isset $reference.issued "date-parts") -}}
+{{- if .issued -}}{{/* if .issued exists, so does "date-parts" */}}
 {{- range $index, $dateParts := (index .issued "date-parts") -}}{{/* range of dates */}}
 {{- range first 1 $dateParts -}}{{/* First element in date-part is the year */ -}}
 {{- . -}}
 {{- end -}}
 {{- end -}}
 {{- end -}}
+
+{{- if or .volume .issue .publisher $publication -}}{{/* break only if something exists */ -}}
 <br>
+{{- end -}}
+
+<!-- note -->
+{{ if .note }}
+{{ .note }}
+<br>
+{{ end }}
+
+<!-- DOI or URL as a link if it exists -->
+{{ if .DOI }}
+  <a href="https://doi.org/{{ .DOI }}">{{ .DOI }}</a>
+{{ end }}
+{{ if and .DOI .URL }}|{{ end }}
+{{ if .URL }}
+  {{ if findRE "pdf$" .URL }}
+  <a href="{{ .URL }}">PDF</a>
+  {{ else }}
+  <a href="{{ .URL }}">URL</a>
+  {{ end }}
+{{ end }}
 </p>
