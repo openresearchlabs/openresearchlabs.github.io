@@ -1,5 +1,48 @@
 [
   {
+    "DOI": "10.1016/j.ebiom.2021.103655",
+    "author": [
+      {
+        "family": "Mokkala",
+        "given": "Kati"
+      },
+      {
+        "family": "Vahlberg",
+        "given": "Tero"
+      },
+      {
+        "family": "Houttu",
+        "given": "Noora"
+      },
+      {
+        "family": "Koivuniemi",
+        "given": "Ella"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Laitinen",
+        "given": "Kirsi"
+      }
+    ],
+    "container-title": "EbioMedicine",
+    "id": "Mokkala2021",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "103655",
+    "title": "Impact of combined consumption of fish oil and probiotics on the serum metabolome in pregnant women with overweight or obesity",
+    "type": "article-journal",
+    "volume": "73"
+  },
+  {
     "DOI": "10.1101/2020.06.24.20138933",
     "URL": "https://www.medrxiv.org/content/early/2020/06/25/2020.06.24.20138933",
     "author": [
