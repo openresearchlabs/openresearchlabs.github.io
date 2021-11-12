@@ -1,5 +1,75 @@
 [
   {
+    "DOI": "10.1101/2021.11.10.21266163 ",
+    "URL": "",
+    "annote": "",
+    "author": [
+      {
+        "family": "Ruuskanen",
+        "given": "Matti O."
+      },
+      {
+        "family": "Erawijantari",
+        "given": "Pande P."
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki S."
+      },
+      {
+        "family": "Liu",
+        "given": "Yang"
+      },
+      {
+        "family": "Meric",
+        "given": "Guillaume"
+      },
+      {
+        "family": "Inouye",
+        "given": "Michael"
+      },
+      {
+        "family": "Jousilahti",
+        "given": "Pekka"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Jain",
+        "given": "Mohit"
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu J."
+      }
+    ],
+    "container-title": "medRxiv",
+    "id": "Ruuskanen2021diabetes",
+    "issue": "",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "note": "",
+    "page": "2021.11.10.21266163",
+    "title": "Gut microbiome composition is predictive of incident type 2 diabetes",
+    "type": "article-journal",
+    "volume": ""
+  },
+  {
     "DOI": "10.1016/j.ebiom.2021.103655",
     "author": [
       {
