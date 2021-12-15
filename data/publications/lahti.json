@@ -1,32 +1,5 @@
 [
   {
-    "URL": "http://ceur-ws.org/Vol-2989/short_paper9.pdf",
-    "annote": "In M Ehrmann et al. (ed.)",
-    "author": [
-      {
-        "family": "Iiro Tiihonen",
-        "given": "Leo Lahti",
-        "suffix": "Mikko Tolonen"
-      }
-    ],
-    "container-title": "Proc. CEUR Workshop Proceedings of the Conference on Computational Humanities Research (CHR 2021)",
-    "id": "Tiihonen2021chr",
-    "issued": {
-      "date-parts": [
-        [
-          2021,
-          11
-        ]
-      ]
-    },
-    "keyword": "dh",
-    "page": "39-48",
-    "publisher-place": "Aachen",
-    "title": "Probabilistic analysis of early modern british book prices",
-    "type": "paper-conference",
-    "volume": "2989"
-  },
-  {
     "DOI": "10.1101/2020.06.24.20138933",
     "URL": "https://www.medrxiv.org/content/early/2020/06/25/2020.06.24.20138933",
     "author": [
@@ -116,7 +89,8 @@
         ]
       ]
     },
-    "keyword": "preprint",
+    "keyword": "bioscience",
+    "status": "preprint",
     "title": "Early prediction of liver disease using conventional risk factors and gut microbiome-augmented gradient boosting",
     "type": "article-journal"
   },
@@ -238,9 +212,37 @@
         ]
       ]
     },
-    "keyword": "preprint",
+    "keyword": "bioscience",
+    "status": "preprint",
     "title": "OGUs enable effective, phylogeny-aware analysis of even shallow metagenome community structures",
     "type": "article-journal"
+  },
+  {
+    "URL": "http://ceur-ws.org/Vol-2989/short_paper9.pdf",
+    "annote": "In M Ehrmann et al. (ed.)",
+    "author": [
+      {
+        "family": "Iiro Tiihonen",
+        "given": "Leo Lahti",
+        "suffix": "Mikko Tolonen"
+      }
+    ],
+    "container-title": "Proc. CEUR Workshop Proceedings of the Conference on Computational Humanities Research (CHR 2021)",
+    "id": "Tiihonen2021chr",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          11
+        ]
+      ]
+    },
+    "keyword": "dh",
+    "page": "39-48",
+    "publisher-place": "Aachen",
+    "title": "Probabilistic analysis of early modern british book prices",
+    "type": "paper-conference",
+    "volume": "2989"
   },
   {
     "DOI": "10.1002/ece3.8123",
@@ -2211,7 +2213,7 @@
         ]
       ]
     },
-    "keyword": "datascience",
+    "keyword": "dh",
     "note": "ICML/MLOSS workshop (Int’l Conf. on Machine Learning - Open Source Software workshop).",
     "publisher": "software",
     "title": "rOpenGov: Open source ecosystem for computational social sciences and digital humanities",
@@ -2817,7 +2819,7 @@
     },
     "keyword": "bioscience",
     "note": "(slides); version 1; not peer reviewed",
-    "title": "Microbiome data science in the <i>SummarizedExperiment</i> universe",
+    "title": "Microbiome data science in the  <i>SummarizedExperiment</i> universe",
     "type": "article-journal",
     "volume": "10"
   },
