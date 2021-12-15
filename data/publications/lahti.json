@@ -65,6 +65,7 @@
     },
     "note": "",
     "page": "2021.11.10.21266163",
+    "status": "preprint",
     "title": "Gut microbiome composition is predictive of incident type 2 diabetes",
     "type": "article-journal",
     "volume": ""
@@ -934,6 +935,7 @@
     "keyword": "openscience",
     "note": "Report on the openness of major scientific publishers commissioned by Finnish Ministry of Education and Culture",
     "publisher": "unknown; Open Science and Research Initiative (ATT)",
+    "status": "openscience",
     "title": "Opening academic publishing: Development and application of systematic evaluation criteria",
     "title-short": "Opening academic publishing",
     "type": "report"
@@ -2534,6 +2536,7 @@
     },
     "keyword": "dh",
     "page": "87-116",
+    "status": "dh",
     "title": "A quantitative study of history in the english short-title catalogue (ESTC) 1470-1800",
     "type": "article-journal",
     "volume": "25"
@@ -2614,6 +2617,7 @@
     "keyword": "dh",
     "note": "Review of the international conference, including electronic material (video interviews, lectures and podcasts.",
     "page": "e13593",
+    "status": "openscience",
     "title": "Alchemy & algorithms: Perspectives on the philosophy and history of open science",
     "title-short": "Alchemy & algorithms",
     "type": "article-journal",
@@ -3194,6 +3198,7 @@
     "keyword": "dh",
     "page": "55-66",
     "publisher-place": "Copenhagen",
+    "status": "dh",
     "title": "Interdisciplinary collaboration in studying newspaper materiality",
     "type": "paper-conference",
     "volume": "2365"
@@ -3485,6 +3490,7 @@
     },
     "keyword": "dh",
     "note": "Special issue: Digital Approaches Towards Serial Publications",
+    "status": "dh",
     "title": "A national public sphere? Analyzing the language, location, and form of newspapers in finland, 1771–1917",
     "type": "article-journal",
     "volume": "4"
@@ -5421,6 +5427,7 @@
     },
     "keyword": "dh",
     "publisher-place": "Copenhagen",
+    "status": "dh",
     "title": "Scaling up bibliographic data science",
     "type": "paper-conference"
   },
