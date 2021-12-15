@@ -1,17 +1,20 @@
-{{ if .IsNamedParams }}
+{{ $path := index $.Site.Data.publications.lahti }}
+
+{{- if .IsNamedParams -}}
   {{- if (isset .Params "id") -}}
-    {{ $path := index $.Site.Data.publications.lahti }}
-      {{ range where $path "id" $.Params.id }}
-        {{ partial "publications_partial" . }}
-      {{ end }}
+    {{ range where $path "id" $.Params.id }}
+      {{ partial "publications_partial" . }}
+    {{ end }}
   {{ else if (isset .Params "keyword") }}
-    {{ $path := index $.Site.Data.publications.lahti }}
-      {{ range where $path "keyword" $.Params.keyword }}
+    {{ range where $path "keyword" $.Params.keyword }}
+      {{ partial "publications_partial" . }}
+    {{ end }}
+  {{ else if (isset .Params "status") }}
+      {{ range where $path "status" $.Params.status }}
         {{ partial "publications_partial" . }}
       {{ end }}
-  {{- end -}}
+  {{ end }}
 {{ else }}
-  {{ $path := index $.Site.Data.publications.lahti }}
   {{ range $path }}
     {{ partial "publications_partial" . }}
   {{ end }}
