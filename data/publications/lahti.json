@@ -211,8 +211,9 @@
         ]
       ]
     },
-    "keyword": "preprint",
+    "keyword": "bioscience",
     "page": "2020.09.12.20193045",
+    "status": "preprint",
     "title": "Combined effects of host genetics and diet on human gut microbiota and incident disease in a single population cohort",
     "type": "article-journal"
   },
@@ -334,7 +335,8 @@
         ]
       ]
     },
-    "keyword": "preprint",
+    "keyword": "bioscience",
+    "status": "preprint",
     "title": "OGUs enable effective, phylogeny-aware analysis of even shallow metagenome community structures",
     "type": "article-journal"
   },
@@ -1545,7 +1547,8 @@
         ]
       ]
     },
-    "keyword": "preprint",
+    "keyword": "bioscience",
+    "status": "preprint",
     "title": "Early prediction of liver disease using conventional risk factors and gut microbiome-augmented gradient boosting",
     "type": "article-journal"
   },
