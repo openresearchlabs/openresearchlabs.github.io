@@ -342,6 +342,33 @@
     "type": "article-journal"
   },
   {
+    "URL": "http://ceur-ws.org/Vol-2989/short_paper9.pdf",
+    "annote": "In M Ehrmann et al. (ed.)",
+    "author": [
+      {
+        "family": "Iiro Tiihonen",
+        "given": "Leo Lahti",
+        "suffix": "Mikko Tolonen"
+      }
+    ],
+    "container-title": "Proc. CEUR Workshop Proceedings of the Conference on Computational Humanities Research (CHR 2021)",
+    "id": "Tiihonen2021chr",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          11
+        ]
+      ]
+    },
+    "keyword": "dh",
+    "page": "39-48",
+    "publisher-place": "Aachen",
+    "title": "Probabilistic analysis of early modern british book prices",
+    "type": "paper-conference",
+    "volume": "2989"
+  },
+  {
     "DOI": "10.1002/ece3.8123",
     "author": [
       {
