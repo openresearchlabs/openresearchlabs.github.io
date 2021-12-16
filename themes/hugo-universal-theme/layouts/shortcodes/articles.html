@@ -13,8 +13,8 @@
     <!-- Get items that contain more than 1 keyword -->
     {{ range $path }}
       {{ $keywords := split .keyword "," }}
-      {{ $longlists := len $keywords }}
-      {{ if gt $longlists 1 }}
+      {{ $keyword_array_length := len $keywords }}
+      {{ if gt $keyword_array_length 1 }}
       {{ $keywords_delimit := delimit $keywords "," }}
         {{ if in $keywords_delimit $.Params.keyword }}
           {{ partial "publications_partial" . }}
@@ -26,8 +26,8 @@
         {{ partial "publications_partial" . }}
       {{ end }}
   {{ end }}
+<!-- if no named parameters, print all items -->
 {{ else }}
-  <!-- print all items -->
   {{ range $path }}
     {{ partial "publications_partial" . }}
   {{ end }}
