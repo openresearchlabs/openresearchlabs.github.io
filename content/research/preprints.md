@@ -7,7 +7,7 @@ keywords: Preprints
 
 ### Preprints
 
-{{< articles keyword = "preprint" >}}
+{{< articles status = "preprint" >}}
 
 
 ### All publications

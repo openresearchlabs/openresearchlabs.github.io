@@ -1,17 +1,33 @@
-{{ if .IsNamedParams }}
+{{ $path := index $.Site.Data.publications.lahti }}
+
+{{- if .IsNamedParams -}}
   {{- if (isset .Params "id") -}}
-    {{ $path := index $.Site.Data.publications.lahti }}
-      {{ range where $path "id" $.Params.id }}
-        {{ partial "publications_partial" . }}
-      {{ end }}
+    {{ range where $path "id" $.Params.id }}
+      {{ partial "publications_partial" . }}
+    {{ end }}
   {{ else if (isset .Params "keyword") }}
-    {{ $path := index $.Site.Data.publications.lahti }}
-      {{ range where $path "keyword" $.Params.keyword }}
+    <!-- Get items where keyword is exact match -->
+    {{ range where $path "keyword" $.Params.keyword }}
+      {{ partial "publications_partial" . }}
+    {{ end }}
+    <!-- Get items that contain more than 1 keyword -->
+    {{ range $path }}
+      {{ $keywords := split .keyword "," }}
+      {{ $keyword_array_length := len $keywords }}
+      {{ if gt $keyword_array_length 1 }}
+      {{ $keywords_delimit := delimit $keywords "," }}
+        {{ if in $keywords_delimit $.Params.keyword }}
+          {{ partial "publications_partial" . }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ else if (isset .Params "status") }}
+      {{ range where $path "status" $.Params.status }}
         {{ partial "publications_partial" . }}
       {{ end }}
-  {{- end -}}
+  {{ end }}
+<!-- if no named parameters, print all items -->
 {{ else }}
-  {{ $path := index $.Site.Data.publications.lahti }}
   {{ range $path }}
     {{ partial "publications_partial" . }}
   {{ end }}
