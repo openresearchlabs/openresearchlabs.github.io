@@ -16,7 +16,7 @@ keywords: Forthcoming courses events tutorial data teaching software past
 
 ### Topics for MSc/PhD theses
 
-Welcome to [contact us](../contact/) to discuss research/study positions.
+Welcome to [contact us](../../contact/) to discuss research/study positions.
 
 We supervise study assignments (BSc/MSc/PhD) on computational science / machine learning / AI theory, methods, and applications.
 
