@@ -6,8 +6,20 @@
       {{ partial "publications_partial" . }}
     {{ end }}
   {{ else if (isset .Params "keyword") }}
+    <!-- Get items where keyword is exact match -->
     {{ range where $path "keyword" $.Params.keyword }}
       {{ partial "publications_partial" . }}
+    {{ end }}
+    <!-- Get items that contain more than 1 keyword -->
+    {{ range $path }}
+      {{ $keywords := split .keyword "," }}
+      {{ $longlists := len $keywords }}
+      {{ if gt $longlists 1 }}
+      {{ $keywords_delimit := delimit $keywords "," }}
+        {{ if in $keywords_delimit $.Params.keyword }}
+          {{ partial "publications_partial" . }}
+        {{ end }}
+      {{ end }}
     {{ end }}
   {{ else if (isset .Params "status") }}
       {{ range where $path "status" $.Params.status }}
@@ -15,6 +27,7 @@
       {{ end }}
   {{ end }}
 {{ else }}
+  <!-- print all items -->
   {{ range $path }}
     {{ partial "publications_partial" . }}
   {{ end }}
