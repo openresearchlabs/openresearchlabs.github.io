@@ -8,9 +8,7 @@ keywords: Forthcoming courses events tutorial data teaching software past
 
 ### Forthcoming 
 
-**2021**
-
-**July 2021** Summer school on microbiome data science related to gut-brain axis.
+**July 2022** Summer school on microbiome data science related to gut-brain axis.
 
 
 
@@ -45,9 +43,11 @@ Application topics are available in e.g. statistical ecology and (eco)systems bi
 
 **Microbiome data science**
 
+- Multi-omics Machine Learning workshop. Jan 13-14, 2022 (virtual - H2020/FindingPheno)
+
 - [Workshop on modeling microbial community time series](http://msysbiology.com/microbialtimeseries/). November 2021 (virtual) 
 
--  [ML4Microbiome Symposium on Grand Challenges of Data-Intensive Science in microbiome & metagenome data analysis and training](https://www.ml4microbiome.eu/the-programme-of-the-goblet-embnet-agm-2021-including-ml4microbiome-events-is-ready-and-available-here/). October 2021 (virtual lecture)
+- [ML4Microbiome Symposium on Grand Challenges of Data-Intensive Science in microbiome & metagenome data analysis and training](https://www.ml4microbiome.eu/the-programme-of-the-goblet-embnet-agm-2021-including-ml4microbiome-events-is-ready-and-available-here/). October 2021 (virtual lecture)
 
 - [Baltic Summer School on Digital Methods](https://t.co/MJANYOeYmJ?amp=1) in humanities and social sciences, August 2021 (virtual)
 
