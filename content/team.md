@@ -29,7 +29,7 @@ keywords: team
   <ul style="overflow: hidden">
     <li><a href="https://www.utu.fi/en/people/leo-lahti">Associate Professor (Data Science)</a></li>
     <li>Director, Turku Center for Computational Humanities</li>
-    <li><a href="https://codata.org/finland/">CODATA Committee on Data of the International Science Council (ISC)</a> national chair</li>
+    <li><a href="https://codata.org/finland/">CODATA Committee on Data of the International Science Council (ISC)</a> national chair & delegate</li>
     <li><a href="https://tenk.fi/en/research-misconduct/research-integrity-advisers">National Board on Research Integrity (TENK)</a> research integrity adviser</li>
     <li> <a href="https://avointiede.fi/fi/koordinaatio">National open science coordination</a> steering group</li>
     <li><a href="https://www.okf.fi/">Open Knowledge Finland ry.</a>, board member</li>    
