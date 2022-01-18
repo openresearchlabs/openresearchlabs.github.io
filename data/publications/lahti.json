@@ -1,5 +1,115 @@
 [
   {
+    "DOI": "10.1101/gr.275777.121",
+    "author": [
+      {
+        "family": "Armstrong",
+        "given": "George W"
+      },
+      {
+        "family": "Cantrell",
+        "given": "Kalen"
+      },
+      {
+        "family": "Huang",
+        "given": "Shi"
+      },
+      {
+        "family": "McDonald",
+        "given": "Daniel"
+      },
+      {
+        "family": "Haiminen",
+        "given": "Niina"
+      },
+      {
+        "family": "Carrieri",
+        "given": "Anna Paola"
+      },
+      {
+        "family": "Zhu",
+        "given": "Qiyun"
+      },
+      {
+        "family": "Gonzalez",
+        "given": "Antonio"
+      },
+      {
+        "family": "McGrath",
+        "given": "Imran"
+      },
+      {
+        "family": "Beck",
+        "given": "Kristen"
+      },
+      {
+        "family": "Hakim",
+        "given": "Daniel"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki S"
+      },
+      {
+        "family": "Méric",
+        "given": "Guillaume"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Jain",
+        "given": "Mohit"
+      },
+      {
+        "family": "Inouye",
+        "given": "Michael"
+      },
+      {
+        "family": "Swafford",
+        "given": "Austin D"
+      },
+      {
+        "family": "Kim",
+        "given": "Ho-Cheol"
+      },
+      {
+        "family": "Parida",
+        "given": "Laxmi"
+      },
+      {
+        "family": "Vázquez-Baeza",
+        "given": "Yoshiki"
+      },
+      {
+        "dropping-particle": "and",
+        "family": "Rob Knight"
+      }
+    ],
+    "container-title": "Genome Research",
+    "id": "Armstrong2021",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "page": "2131-2137",
+    "title": "Efficient computation of faith’s phylogenetic diversity with applications in characterizing microbiomes",
+    "type": "article-journal",
+    "volume": "31"
+  },
+  {
     "DOI": "10.1101/2021.11.10.21266163",
     "URL": "",
     "annote": "",
