@@ -1,5 +1,186 @@
 [
   {
+    "DOI": "10.1038/s41588-021-00991-z",
+    "URL": "",
+    "annote": "",
+    "author": [
+      {
+        "family": "Qin",
+        "given": "Youwen"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki S."
+      },
+      {
+        "family": "Liu",
+        "given": "Yang"
+      },
+      {
+        "family": "Jousilahti",
+        "given": "Pekka"
+      },
+      {
+        "family": "Ritchie",
+        "given": "Scott C."
+      },
+      {
+        "family": "Tokolyi",
+        "given": "Alex"
+      },
+      {
+        "family": "Sanders",
+        "given": "Jon G."
+      },
+      {
+        "family": "Valsta",
+        "given": "Liisa"
+      },
+      {
+        "family": "Brożyńska",
+        "given": "Marta"
+      },
+      {
+        "family": "Zhu",
+        "given": "Qiyun"
+      },
+      {
+        "family": "Tripathi",
+        "given": "Anupriya"
+      },
+      {
+        "family": "Vázquez-Baeza",
+        "given": "Yoshiki"
+      },
+      {
+        "family": "Loomba",
+        "given": "Rohit"
+      },
+      {
+        "family": "Cheng",
+        "given": "Susan"
+      },
+      {
+        "family": "Jain",
+        "given": "Mohit"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Inouye",
+        "given": "Michael"
+      },
+      {
+        "family": "Méric",
+        "given": "Guillaume"
+      }
+    ],
+    "container-title": "Nature Genetics",
+    "id": "Qin2022",
+    "issue": "",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "",
+    "page": "",
+    "title": "Combined effects of host genetics and diet on human gut microbiota and incident disease in a single population cohort",
+    "type": "article-journal",
+    "volume": ""
+  },
+  {
+    "URL": "https://diabetesjournals.org/care/article/doi/10.2337/dc21-2358/141052/Gut-Microbiome-Composition-Is-Predictive-of",
+    "annote": "Published online ahead of print. Preprint at medRxiv, doi: [10.1101/2021.11.10.21266163](https://doi.org/10.1101/2021.11.10.21266163)",
+    "author": [
+      {
+        "family": "Ruuskanen",
+        "given": "Matti O."
+      },
+      {
+        "family": "Erawijantari",
+        "given": "Pande P."
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki S."
+      },
+      {
+        "family": "Liu",
+        "given": "Yang"
+      },
+      {
+        "family": "Méric",
+        "given": "Guillaume"
+      },
+      {
+        "family": "Tuomilehto",
+        "given": "Jaakko"
+      },
+      {
+        "family": "Inouye",
+        "given": "Michael"
+      },
+      {
+        "family": "Jousilahti",
+        "given": "Pekka"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Jain",
+        "given": "Mohit"
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu J."
+      }
+    ],
+    "container-title": "Diabetes Care",
+    "id": "Ruuskanen2022dc",
+    "issue": "",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "",
+    "page": "",
+    "title": "Gut microbiome composition is predictive of incident type 2 diabetes in a population cohort of 5 572 finnish adults",
+    "type": "article-journal",
+    "volume": ""
+  },
+  {
     "DOI": "10.1101/gr.275777.121",
     "author": [
       {
