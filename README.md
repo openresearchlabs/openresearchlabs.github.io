@@ -2,6 +2,14 @@
 
 The following README gives a quick glance on how to add information from data files to Turku Data Science Group Website.
 
+## Editing the front page
+
+The front page layout is determined in the following file: **./themes/hugo-universal-theme/layouts/index.html**
+
+Editing the partials-files in **./themes/hugo-universal-theme/layouts/partials** is one way to edit the front page. Please note that partials-files are, in an ideal situation, supposed to be templates for dynamically generating the site. However, the current solution to change the Recent publications -section in the front page is to edit the recent_posts.html -file in partials-folder by editing the html code - see current file for examples. This behaviour may change in the future.
+
+Some front page items (their order, enabling/disabling certain sections, some texts) are determined in config.yaml-document in the root folder.
+
 ## Add and edit team member information
 
 Edit appropriate .yaml-files in data/team to add new team member information. The information will then be displayed in content/team.md file under the group specified by the .yaml-file name. For example, this will print information on all post-doc team members:
@@ -10,7 +18,7 @@ Edit appropriate .yaml-files in data/team to add new team member information. Th
 {{< team data="postdocs" >}}
 ```
 
-Team member pictures should have face in center and should be close to a square. If no picture is provided a default placeholder image will be used. Add your picture in folder ./static/img/teampic and use a relative URL when pointing to the picture.
+Team member pictures should have face in center and should be **close to a square (1:1 aspect ratio)**. If no picture is provided a default placeholder image will be used. Add your picture in the folder **./static/img/teampic** and use a relative URL when pointing to the picture - see current .yaml-files for examples.
 
 ### Editing the templates and CSS files
 
