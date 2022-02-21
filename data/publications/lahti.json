@@ -155,11 +155,11 @@
         "given": "Rob"
       },
       {
-        "family": "Lahti",
+        "family": "Lahti*",
         "given": "Leo"
       },
       {
-        "family": "Niiranen",
+        "family": "Niiranen*",
         "given": "Teemu J."
       }
     ],
@@ -292,78 +292,6 @@
     "volume": "31"
   },
   {
-    "DOI": "10.1101/2021.11.10.21266163",
-    "URL": "",
-    "annote": "",
-    "author": [
-      {
-        "family": "Ruuskanen",
-        "given": "Matti O."
-      },
-      {
-        "family": "Erawijantari",
-        "given": "Pande P."
-      },
-      {
-        "family": "Havulinna",
-        "given": "Aki S."
-      },
-      {
-        "family": "Liu",
-        "given": "Yang"
-      },
-      {
-        "family": "Meric",
-        "given": "Guillaume"
-      },
-      {
-        "family": "Inouye",
-        "given": "Michael"
-      },
-      {
-        "family": "Jousilahti",
-        "given": "Pekka"
-      },
-      {
-        "family": "Salomaa",
-        "given": "Veikko"
-      },
-      {
-        "family": "Jain",
-        "given": "Mohit"
-      },
-      {
-        "family": "Knight",
-        "given": "Rob"
-      },
-      {
-        "family": "Lahti",
-        "given": "Leo"
-      },
-      {
-        "family": "Niiranen",
-        "given": "Teemu J."
-      }
-    ],
-    "container-title": "medRxiv",
-    "id": "Ruuskanen2021diabetes",
-    "issue": "",
-    "issued": {
-      "date-parts": [
-        [
-          2021
-        ]
-      ]
-    },
-    "keyword": "bioscience",
-    "note": "",
-    "page": "2021.11.10.21266163",
-    "status": "preprint",
-    "title": "Gut microbiome composition is predictive of incident type 2 diabetes",
-    "type": "article-journal",
-    "volume": ""
-  },
-  {
     "DOI": "10.1016/j.ebiom.2021.103655",
     "author": [
       {
@@ -406,109 +334,6 @@
     "title": "Impact of combined consumption of fish oil and probiotics on the serum metabolome in pregnant women with overweight or obesity",
     "type": "article-journal",
     "volume": "73"
-  },
-  {
-    "DOI": "10.1101/2020.09.12.20193045",
-    "author": [
-      {
-        "family": "Qin",
-        "given": "Youwen"
-      },
-      {
-        "family": "Havulinna",
-        "given": "Aki S."
-      },
-      {
-        "family": "Liu",
-        "given": "Yang"
-      },
-      {
-        "family": "Jousilahti",
-        "given": "Pekka"
-      },
-      {
-        "family": "Ritchie",
-        "given": "Scott C."
-      },
-      {
-        "family": "Tokolyi",
-        "given": "Alex"
-      },
-      {
-        "family": "Sanders",
-        "given": "Jon G."
-      },
-      {
-        "family": "Valsta",
-        "given": "Liisa"
-      },
-      {
-        "family": "Brożyńska",
-        "given": "Marta"
-      },
-      {
-        "family": "Zhu",
-        "given": "Qiyun"
-      },
-      {
-        "family": "Tripathi",
-        "given": "Anupriya"
-      },
-      {
-        "family": "Vazquez-Baeza",
-        "given": "Yoshiki"
-      },
-      {
-        "family": "Loomba",
-        "given": "Rohit"
-      },
-      {
-        "family": "Cheng",
-        "given": "Susan"
-      },
-      {
-        "family": "Jain",
-        "given": "Mohit"
-      },
-      {
-        "family": "Niiranen",
-        "given": "Teemu"
-      },
-      {
-        "family": "Lahti",
-        "given": "Leo"
-      },
-      {
-        "family": "Knight",
-        "given": "Rob"
-      },
-      {
-        "family": "Salomaa",
-        "given": "Veikko"
-      },
-      {
-        "family": "Inouye",
-        "given": "Michael"
-      },
-      {
-        "family": "Méric",
-        "given": "Guillaume"
-      }
-    ],
-    "container-title": "medRxiv (preprint)",
-    "id": "Qin2021",
-    "issued": {
-      "date-parts": [
-        [
-          2021
-        ]
-      ]
-    },
-    "keyword": "bioscience",
-    "page": "2020.09.12.20193045",
-    "status": "preprint",
-    "title": "Combined effects of host genetics and diet on human gut microbiota and incident disease in a single population cohort",
-    "type": "article-journal"
   },
   {
     "DOI": "10.1101/2021.04.04.438427",
