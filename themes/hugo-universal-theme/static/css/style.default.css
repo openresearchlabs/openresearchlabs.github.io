@@ -3972,7 +3972,7 @@ a.list-group-item.active > .badge,
   padding-bottom: 10vh;
 }
 
-.recent-posts { 
+.frontpage-recent-publications { 
   grid-area: recent-posts;
   display: inline-block;
 }
