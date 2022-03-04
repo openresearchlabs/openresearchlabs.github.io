@@ -1,6 +1,6 @@
 <div class="boxes-container">
   <div class="box-element box-research">
-  	<a href="{{ path.Join .URL "/research-topics" }}"><div class="box-logo">
+  	<a href="{{ "research-topics" | absURL }}"><div class="box-logo">
   		<img class="box-logo1" src="/img/boxes-logo/research-black.png"></img>
   		<img class="box-logo2" src="/img/boxes-logo/research-white.png"></img>
   	</div></a>
@@ -9,18 +9,10 @@
   	</div>
   	<div class="box-content">
   		<p>All our research topics </p>
-  		<!--<ul>
-	  		<li><a href="{{ path.Join .URL "/research/computational-and-data-science/" }}"> Computational and data science </a></li>
-	  		<li><a href="{{ path.Join .URL "/research/microbiome-data-science/" }}"> Microbiome data science </a></li>
-	  		<li><a href="{{ path.Join .URL "/research/computational-humanities/" }}"> Computational humanities </a></li>
-	  		<li><a href="{{ path.Join .URL "/research/open-science/" }}"> Open Science </a></li>
-	  		<li><a href="{{ path.Join .URL "/research/opinion-pieces" }}"> Opinion pieces (in Finnish) </a></li>
-	  		<li><a href="{{ path.Join .URL "/research/funding-and-support/" }}"> Funding and support </a></li>
-  		</ul>-->
   	</div>
   </div>
   
-  <a href="{{ path.Join .URL "/edu-topics" }}"><div class="box-element box-EDU">
+  <a href="{{ "edu-topics" | absURL }}"><div class="box-element box-EDU">
   	<div class="box-logo">
   		<img class="box-logo1" src="/img/boxes-logo/edu-black.png"></img>
   		<img class="box-logo2" src="/img/boxes-logo/edu-white.png"></img>  	
@@ -30,15 +22,11 @@
   	</div>
   	<div class="box-content">
   		<p>Education and academic events</p>
-  		<!-- <ul>
-	  		<li><a href="{{ path.Join .URL "/edu/courses-events/" }}"> Courses and events </a></li>
-	  		<li><a href="{{ path.Join .URL "/edu/resources/" }}"> Resources </a></li>
-  		</ul> -->
   	</div>
   </div>
 
   <div class="box-element box-code">
-  	<a href="{{ path.Join .URL "/code/" }}"><div class="box-logo">
+  	<a href="{{ "code" | absURL }}"><div class="box-logo">
   		<img class="box-logo1" src="/img/boxes-logo/code-black.png"></img>
   		<img class="box-logo2" src="/img/boxes-logo/code-white.png"></img> 
   	</div></a>
@@ -51,7 +39,7 @@
   </div>
 
   <div class="box-element box-team">
-  	<a href="{{ path.Join .URL "/team/" }}"><div class="box-logo">
+  	<a href="{{ "team" | absURL }}"><div class="box-logo">
   		<img class="box-logo1" src="/img/boxes-logo/team-black.png"></img>
   		<img class="box-logo2" src="/img/boxes-logo/team-white.png"></img> 
   	</div></a>

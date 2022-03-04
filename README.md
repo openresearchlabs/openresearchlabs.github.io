@@ -6,9 +6,11 @@ The following README gives a quick glance on how to add information from data fi
 
 The front page layout is determined in the following file: **./themes/hugo-universal-theme/layouts/index.html**
 
-Editing the partials-files in **./themes/hugo-universal-theme/layouts/partials** is one way to edit the front page. Please note that partials-files are, in an ideal situation, supposed to be templates for dynamically generating the site. However, the current solution to change the Recent publications -section in the front page is to edit the recent_posts.html -file in partials-folder by editing the html code - see current file for examples. This behaviour may change in the future.
+The partials-files that affect the front page (among other pages) are "head.html", "nav.html", "boxes.html" (Research, EDU, Code, Team items), "twitter.html" ("Tweets by openreslabs" section), "testimonials.html", "see_more.html", "clients.html" and "footer.html". Edit them in **./themes/hugo-universal-theme/layouts/partials**. Please note that partials-files are, in an ideal situation, supposed to be templates for dynamically generating the site. Using them to store static html can cause problems.
 
-Some front page items (their order, enabling/disabling certain sections, some texts) are determined in config.yaml-document in the root folder.
+The Recent publications section of the front page is different from others in that it is edited from **/content/_index.md** file. Its place is defined as " .Content " in the abovementioned index.html file. The workflow of editing this file is similar to editing other .md files, such as information on Research-pages. See below for further instructions on using shortcodes to output information.
+
+Some front page items (their order, enabling/disabling certain sections, some texts) are determined in **config.yaml**-document in the root folder.
 
 ## Add and edit team member information
 
