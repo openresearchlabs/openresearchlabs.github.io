@@ -17,15 +17,16 @@ and social systems.** Targeted computational techniques are needed to
 extract information and insights from rich data streams based on
 combinations of human and machine intelligence. We blend elements from
 machine learning/AI, statistical programming, complex systems models,
-and data science, and coordinate open developer communities that help to
-translate latest theoretical advances into accessible methods to
+and data science, and coordinate open developer communities that help
+to translate latest theoretical advances into accessible methods to
 inform modeling, experimentation, and decision-making. **Key
 applications** include microbiome research, population cohort studies,
-and computational social sciences and humanities (SSH). We also
-coordinate the [Open Knowledge Finland Open Science work
+and computational social sciences and humanities (SSH). We have
+coordinated [Open Knowledge Finland Open Science work
 group](https://fi.okfn.org/wg/openscience/), which received **Open
 Science and Research award of the Ministry of Education and Culture in
-2017**.
+2017**, and are active contributors in the **national FIN-CLARIAH
+research infrastructure for computational humanities**.
 
 
 </div>

@@ -6,19 +6,32 @@ keywords: Forthcoming courses events tutorial data teaching software past
 
 ## Courses and events
 
-### Forthcoming 
-
-**July 2022** Summer school on microbiome data science related to gut-brain axis.
-
-
-
 ### Topics for MSc/PhD theses
 
 Welcome to [contact us](../../contact/) to discuss research/study positions.
 
-We supervise study assignments (BSc/MSc/PhD) on computational science / machine learning / AI theory, methods, and applications.
+We supervise study assignments (BSc/MSc/PhD) on applied statistics / computational science / machine learning / AI theory, methods, and their application to study complex natural and social systems. Active research projects cover scientific data analysis, statistical and probabilistic programming workflows, data visualization, microbial metagenomics, ecological and evolutionary models, multi-omic data integration, spatio-temporal models, computational history, and open government data analysis. 
 
-Application topics are available in e.g. statistical ecology and (eco)systems biology, computational history, and open government data analytics.
+
+### Courses in 2022
+
+Contact us if you are interested. The admission varies by course but most courses are open to application.
+
+**March-May 2022 - University of Turku, Finland** 
+- [Machine Learning and Algorithmics Seminar (TKO_3121 5 op)](https://opas.peppi.utu.fi/fi/opintojakso/TKO_3121/3255?period=2020-2022). Drs. Leo Lahti & Matti Ruuskanen
+
+**July 11-15, 2022 - Radboud University Nijmegen, The Netherlands**  
+- [Brain, Bacteria and Behaviour: Understanding the Gut-Brain Axis](https://www.ru.nl/radboudsummerschool/courses/2021/brain-bacteria-behaviour/) summer school.
+
+**June 2022 - Helsinki, Finland**
+- Microbiome data integration and analysis with R/Bioconductor.
+
+**August 2022 - Savitribai Phule Pune University, India**  
+- Microbiome Research Symposium  
+
+**Month TBA 2022 - University of Oulu, Finland**
+- Multi-omic data analysis with R/Bioconductor.
+
 
 
 ### Past courses and events: links to material
