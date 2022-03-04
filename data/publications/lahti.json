@@ -1,5 +1,185 @@
 [
   {
+    "DOI": "",
+    "author": [
+      {
+        "family": "Zhu",
+        "given": "Qiyun"
+      },
+      {
+        "family": "Huang",
+        "given": "Shi"
+      },
+      {
+        "family": "Gonzalez",
+        "given": "Antonio"
+      },
+      {
+        "family": "McGrath",
+        "given": "Imran"
+      },
+      {
+        "family": "McDonald",
+        "given": "Daniel"
+      },
+      {
+        "family": "Haiminen",
+        "given": "Niina"
+      },
+      {
+        "family": "Armstrong",
+        "given": "George"
+      },
+      {
+        "family": "Vázquez-Baeza",
+        "given": "Yoshiki"
+      },
+      {
+        "family": "Yu",
+        "given": "Julian"
+      },
+      {
+        "family": "Kuczynski",
+        "given": "Justin"
+      },
+      {
+        "family": "Sepich-Poore",
+        "given": "Gregory D"
+      },
+      {
+        "family": "Swafford",
+        "given": "Austin D"
+      },
+      {
+        "family": "Das",
+        "given": "Promi"
+      },
+      {
+        "family": "Shaffer",
+        "given": "Justin P"
+      },
+      {
+        "family": "Lejzerowicz",
+        "given": "Franck"
+      },
+      {
+        "family": "Belda-Ferre",
+        "given": "Pedro"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki S"
+      },
+      {
+        "family": "Méric",
+        "given": "Guillaume"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Kim",
+        "given": "Ho-Cheol"
+      },
+      {
+        "family": "Jain",
+        "given": "Mohit"
+      },
+      {
+        "family": "Inouye",
+        "given": "Michael"
+      },
+      {
+        "family": "Gilbert",
+        "given": "Jack"
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      }
+    ],
+    "container-title": "mSystems",
+    "id": "Zhu2022",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "Preprint at: https://www.biorxiv.org/content/early/2021/04/06/2021.04.04.438427",
+    "title": "Phylogeny-aware analysis of metagenome community ecology based on matched reference genomes while bypassing taxonomy",
+    "type": "article-journal"
+  },
+  {
+    "URL": "",
+    "annote": "",
+    "author": [
+      {
+        "family": "Lotankar",
+        "given": "Mrunalini"
+      },
+      {
+        "family": "Mokkala",
+        "given": "Kati"
+      },
+      {
+        "family": "Houttu",
+        "given": "Noora"
+      },
+      {
+        "family": "Koivuniemi",
+        "given": "Ella"
+      },
+      {
+        "family": "Sørensen",
+        "given": "Nikolaj"
+      },
+      {
+        "family": "Nielsen",
+        "given": "Henrik"
+      },
+      {
+        "family": "Munukka",
+        "given": "Eveliina"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Laitinen",
+        "given": "Kirsi"
+      }
+    ],
+    "container-title": "Spectrum",
+    "id": "Lotankar2022",
+    "issue": "",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "note": "In press.",
+    "page": "",
+    "title": "Distinct diet-microbiota-metabolism interactions in overweight and obese pregnant women: A metagenomics approach",
+    "title-short": "Distinct diet-microbiota-metabolism interactions in overweight and obese pregnant women",
+    "type": "article-journal",
+    "volume": ""
+  },
+  {
     "DOI": "10.1038/s41588-021-00991-z",
     "URL": "",
     "annote": "",
@@ -334,129 +514,6 @@
     "title": "Impact of combined consumption of fish oil and probiotics on the serum metabolome in pregnant women with overweight or obesity",
     "type": "article-journal",
     "volume": "73"
-  },
-  {
-    "DOI": "10.1101/2021.04.04.438427",
-    "URL": "https://www.biorxiv.org/content/early/2021/04/06/2021.04.04.438427",
-    "author": [
-      {
-        "family": "Zhu",
-        "given": "Qiyun"
-      },
-      {
-        "family": "Huang",
-        "given": "Shi"
-      },
-      {
-        "family": "Gonzalez",
-        "given": "Antonio"
-      },
-      {
-        "family": "McGrath",
-        "given": "Imran"
-      },
-      {
-        "family": "McDonald",
-        "given": "Daniel"
-      },
-      {
-        "family": "Haiminen",
-        "given": "Niina"
-      },
-      {
-        "family": "Armstrong",
-        "given": "George"
-      },
-      {
-        "family": "Vázquez-Baeza",
-        "given": "Yoshiki"
-      },
-      {
-        "family": "Yu",
-        "given": "Julian"
-      },
-      {
-        "family": "Kuczynski",
-        "given": "Justin"
-      },
-      {
-        "family": "Sepich-Poore",
-        "given": "Gregory D"
-      },
-      {
-        "family": "Swafford",
-        "given": "Austin D"
-      },
-      {
-        "family": "Das",
-        "given": "Promi"
-      },
-      {
-        "family": "Shaffer",
-        "given": "Justin P"
-      },
-      {
-        "family": "Lejzerowicz",
-        "given": "Franck"
-      },
-      {
-        "family": "Belda-Ferre",
-        "given": "Pedro"
-      },
-      {
-        "family": "Havulinna",
-        "given": "Aki S"
-      },
-      {
-        "family": "Méric",
-        "given": "Guillaume"
-      },
-      {
-        "family": "Niiranen",
-        "given": "Teemu"
-      },
-      {
-        "family": "Lahti",
-        "given": "Leo"
-      },
-      {
-        "family": "Salomaa",
-        "given": "Veikko"
-      },
-      {
-        "family": "Kim",
-        "given": "Ho-Cheol"
-      },
-      {
-        "family": "Jain",
-        "given": "Mohit"
-      },
-      {
-        "family": "Inouye",
-        "given": "Michael"
-      },
-      {
-        "family": "Gilbert",
-        "given": "Jack"
-      },
-      {
-        "family": "Knight",
-        "given": "Rob"
-      }
-    ],
-    "container-title": "bioRxiv",
-    "id": "Zhu2021",
-    "issued": {
-      "date-parts": [
-        [
-          2021
-        ]
-      ]
-    },
-    "keyword": "bioscience",
-    "status": "preprint",
-    "title": "OGUs enable effective, phylogeny-aware analysis of even shallow metagenome community structures",
-    "type": "article-journal"
   },
   {
     "DOI": "10.1002/ece3.8123",
