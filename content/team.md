@@ -65,13 +65,13 @@ Edit item styles (.flex-container, .flex-item-*) in:
 
 <br><br>
 
-## PhD candidates
+## PhD researchers
 
 {{< team data="phd_candidates" >}}
 
 <br><br>
 
-## PhD candidates, co-supervised
+## PhD researchers, co-supervised
 
 The affiliation for the co-supervised PhD candidates indicated in parentheses.
 
@@ -93,19 +93,22 @@ Co-supervised PhDs:
 - Sudarshan Shetty (Wageningen University, 2019; with Willem M de Vos)
 
 Research assistants:
-
+- Yagmur Simsek (2021-2022)
+- Julia Matveeva (2021)
 - Tom Gobardhan (2021; summer intern)
 - Tim Garrels (2020; BARI internship)
+- Binu Mathew (2019-2020)
 - Hege Roivainen (2016-2020; at Helsinki Computational History Group)
 - Aaro Salosensaari (2019-2020)
-- Binu Mathew (2019-2020)
 - Prashant Gaikwad (2019; SPARC / supported by Government of India)
 
 MSc students:
-
 - Emma Gheysen (KU Leuven, BE 2021; with Prof. Karoline Faust)
 - Anastasia Karavaeva (2020)
 - Wisam Saleem (2019-2020)
 - Leila Paquay (KU Leuven, Belgium, 2018)
+- Marnix Denys (KU Leuven, BE 2017; with Prof. Jeroen Raes)
+- Tineka Blake (Wageningen University; NL 2015; with Prof. Willem de Vos)
+- Emilio Ugaldes Morales (Wageningen University; NL 2014; with Prof. Willem de Vos)
 
 

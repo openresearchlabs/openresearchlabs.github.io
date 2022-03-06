@@ -4073,6 +4073,8 @@ a.list-group-item.active > .badge,
     "ropengov-logo ropengov-text"
     "bioconductor-logo bioconductor-text"
     "COMHIS-logo COMHIS-text"
+    "cran-logo cran-text"    
+    "julia-logo julia-text"    
     "data-logo data-text";
     margin-bottom: 100px;
 }
@@ -4093,6 +4095,14 @@ a.list-group-item.active > .badge,
 .COMHIS-logo { grid-area: COMHIS-logo; padding-left: 15px; border-bottom: solid #38A7BB 2px; }
 
 .COMHIS-text { grid-area: COMHIS-text; border-bottom: solid #38A7BB 2px; }
+
+.julia-logo { grid-area: julia-logo; padding-left: 15px; border-bottom: solid #38A7BB 2px; }
+
+.julia-text { grid-area: julia-text; border-bottom: solid #38A7BB 2px; }
+
+.cran-logo { grid-area: cran-logo; padding-left: 15px; border-bottom: solid #38A7BB 2px; }
+
+.cran-text { grid-area: cran-text; border-bottom: solid #38A7BB 2px; }
 
 .data-logo { grid-area: data-logo; padding-left: 15px; border-bottom: solid #38A7BB 2px; }
 
@@ -4121,7 +4131,9 @@ a.list-group-item.active > .badge,
       "miaverse"
       "ropengov" 
       "bioconductor"
-      "COMHIS" 
+      "COMHIS"
+      "cran"      
+      "julia"       
       "other" 
       "data";
   }
