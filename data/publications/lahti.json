@@ -1,5 +1,42 @@
 [
   {
+    "DOI": "10.1002/dev.22226",
+    "author": [
+      {
+        "family": "Eckermann",
+        "given": "Henrik Andreas"
+      },
+      {
+        "family": "Ou",
+        "given": "Yangwenshan"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "dropping-particle": "de",
+        "family": "Weerth",
+        "given": "Carolina"
+      }
+    ],
+    "container-title": "Developmental Psychobiology",
+    "id": "Eckermann2022",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "e22226",
+    "title": "Can gut microbiota throughout the first 10 years of life predict executive functioning in childhood?",
+    "type": "article-journal",
+    "volume": "64"
+  },
+  {
     "DOI": "",
     "author": [
       {
