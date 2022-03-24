@@ -1,5 +1,92 @@
 [
   {
+    "URL": "https://www.medrxiv.org/content/10.1101/2022.03.22.22272736v1",
+    "annote": "",
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Yang"
+      },
+      {
+        "family": "Teo",
+        "given": "Shu Mei"
+      },
+      {
+        "family": "Meric",
+        "given": "Guillaume"
+      },
+      {
+        "family": "Tang",
+        "given": "Howard HF"
+      },
+      {
+        "family": "Zhu",
+        "given": "Qiyun"
+      },
+      {
+        "family": "Sanders",
+        "given": "Jon G"
+      },
+      {
+        "family": "Vazquez-Baeza",
+        "given": "Yoshiki"
+      },
+      {
+        "family": "Verspoor",
+        "given": "Karin"
+      },
+      {
+        "family": "Vartiainen",
+        "given": "Ville A"
+      },
+      {
+        "family": "Jousilahti",
+        "given": "Pekka"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki S"
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Inouye",
+        "given": "Michael"
+      }
+    ],
+    "container-title": "",
+    "id": "Liu2022",
+    "issue": "",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "Preprint",
+    "page": "",
+    "status": "preprint",
+    "title": "The gut microbiome is a significant risk factor for future chronic lung disease",
+    "type": "article-journal",
+    "volume": ""
+  },
+  {
     "DOI": "10.7717/peerj.13075",
     "author": [
       {
