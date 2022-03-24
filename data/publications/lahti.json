@@ -1,5 +1,29 @@
 [
   {
+    "DOI": "10.7717/peerj.13075",
+    "author": [
+      {
+        "family": "Renuka Potbhare",
+        "given": "Eveliina Munukka",
+        "suffix": "Ameeta RaviKumar"
+      }
+    ],
+    "container-title": "PeerJ",
+    "id": "Potbhare2022",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "e13075",
+    "title": "Skin microbiota diversity among genetically unrelated individuals of indian origin",
+    "type": "article-journal",
+    "volume": "10"
+  },
+  {
     "DOI": "10.1002/dev.22226",
     "author": [
       {
