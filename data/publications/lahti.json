@@ -87,6 +87,78 @@
     "volume": ""
   },
   {
+    "DOI": "10.1016/j.biopha.2022.112841",
+    "URL": "https://www.sciencedirect.com/science/article/pii/S0753332222002293",
+    "author": [
+      {
+        "family": "Houttu",
+        "given": "Noora"
+      },
+      {
+        "family": "Mokkala",
+        "given": "Kati"
+      },
+      {
+        "family": "Saleem",
+        "given": "Wisam Tariq"
+      },
+      {
+        "family": "Virtanen",
+        "given": "Seppo"
+      },
+      {
+        "family": "Juhila",
+        "given": "Juuso"
+      },
+      {
+        "family": "Koivuniemi",
+        "given": "Ella"
+      },
+      {
+        "family": "Pellonperä",
+        "given": "Outi"
+      },
+      {
+        "family": "Tertti",
+        "given": "Kristiina"
+      },
+      {
+        "family": "Luokola",
+        "given": "Paula"
+      },
+      {
+        "family": "Sorsa",
+        "given": "Timo"
+      },
+      {
+        "family": "Salonen",
+        "given": "Anne"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Laitinen",
+        "given": "Kirsi"
+      }
+    ],
+    "container-title": "Biomedicine & Pharmacotherapy",
+    "id": "Houttu2022",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "112841",
+    "title": "Potential pathobionts in vaginal microbiota are affected by fish oil and/or probiotics intervention in overweight and obese pregnant women",
+    "type": "article-journal",
+    "volume": "149"
+  },
+  {
     "DOI": "10.7717/peerj.13075",
     "author": [
       {
