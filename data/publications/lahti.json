@@ -1853,15 +1853,14 @@
     "volume": "13"
   },
   {
-    "DOI": "10.1101/2020.06.24.20138933",
-    "URL": "https://www.medrxiv.org/content/early/2020/06/25/2020.06.24.20138933",
+    "DOI": "10.1016/j.cmet.2022.03.002",
     "author": [
       {
         "family": "Liu",
         "given": "Yang"
       },
       {
-        "family": "Meric",
+        "family": "Méric",
         "given": "Guillaume"
       },
       {
@@ -1871,6 +1870,10 @@
       {
         "family": "Teo",
         "given": "Shu Mei"
+      },
+      {
+        "family": "Åberg",
+        "given": "Fredrik"
       },
       {
         "family": "Ruuskanen",
@@ -1898,14 +1901,14 @@
       },
       {
         "family": "Jain",
-        "given": "Mo"
+        "given": "Mohit"
       },
       {
         "family": "Jousilahti",
         "given": "Pekka"
       },
       {
-        "family": "Vazquez-Baeza",
+        "family": "Vázquez-Baeza",
         "given": "Yoshiki"
       },
       {
@@ -1933,17 +1936,16 @@
         "given": "Michael"
       }
     ],
-    "container-title": "medRxiv",
-    "id": "Liu2021liver",
+    "container-title": "Cell Metabolism",
+    "id": "Liu2022liver",
     "issued": {
       "date-parts": [
         [
-          2020
+          2022
         ]
       ]
     },
     "keyword": "bioscience",
-    "status": "preprint",
     "title": "Early prediction of liver disease using conventional risk factors and gut microbiome-augmented gradient boosting",
     "type": "article-journal"
   },
