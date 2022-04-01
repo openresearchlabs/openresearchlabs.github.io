@@ -20,18 +20,21 @@ Contact us if you are interested. The admission varies by course but most course
 **March-May 2022 - University of Turku, Finland** 
 - [Machine Learning and Algorithmics Seminar (TKO_3121 5 op)](https://opas.peppi.utu.fi/fi/opintojakso/TKO_3121/3255?period=2020-2022). Drs. Leo Lahti & Matti Ruuskanen
 
-**July 11-15, 2022 - Radboud University Nijmegen, The Netherlands**  
-- [Brain, Bacteria and Behaviour: Understanding the Gut-Brain Axis](https://www.ru.nl/radboudsummerschool/courses/2021/brain-bacteria-behaviour/) summer school.
+**June 2022 - University of Oulu, Finland**
+- Multi-omic data analysis with R/Bioconductor.
+- Details TBC
 
-**June 2022 - Helsinki, Finland**
-- Microbiome data integration and analysis with R/Bioconductor.
+**July 11-15, 2022 - Radboud University Nijmegen, The Netherlands**  
+- [Brain, Bacteria and Behaviour: Understanding the Gut-Brain Axis](https://www.ru.nl/radboudsummerschool/courses/2022/brain-bacteria-behaviour-understanding-gut-brain/) summer school.
 
 **August 2022 - Savitribai Phule Pune University, India**  
 - Microbiome Research Symposium  
 
-**Month TBA 2022 - University of Oulu, Finland**
-- Multi-omic data analysis with R/Bioconductor.
+**September 2022 - Helsinki, Finland**
+- Microbiome data integration and analysis with R/Bioconductor.
 
+**October 2022 - Barcelona**
+- ML4microbiome training school
 
 
 ### Past courses and events: links to material
