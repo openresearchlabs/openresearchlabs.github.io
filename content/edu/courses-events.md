@@ -36,6 +36,8 @@ Contact us if you are interested. The admission varies by course but most course
 **October 2022 - Barcelona**
 - ML4microbiome training school
 
+**Oct-Dec 2022 - University of Turku**
+- Statistical and Probabilistic Programming (TKO_7097)
 
 ### Past courses and events: links to material
 
