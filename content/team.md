@@ -5,7 +5,9 @@ keywords: team
 
 # Research team
 
-**Welcome to [contact us](../contact/) to discuss research/study positions and collaboration.** 
+Our team is part of the [Department of Computing](https://www.utu.fi/en/university/faculty-of-technology/computing) at the Faculty of Technology, University of Turku. 
+
+**Welcome to [contact us](../contact/) to discuss research/study positions and collaboration.** We will do our best to respond in a timely manner.
 
 <div class="col-sm-12 clearfix">
 
