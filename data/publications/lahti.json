@@ -220,7 +220,7 @@
     "volume": "64"
   },
   {
-    "DOI": "",
+    "DOI": "10.1128/msystems.00167-22",
     "author": [
       {
         "family": "Zhu",
@@ -337,7 +337,6 @@
       ]
     },
     "keyword": "bioscience",
-    "note": "Preprint at: https://www.biorxiv.org/content/early/2021/04/06/2021.04.04.438427",
     "title": "Phylogeny-aware analysis of metagenome community ecology based on matched reference genomes while bypassing taxonomy",
     "type": "article-journal"
   },
