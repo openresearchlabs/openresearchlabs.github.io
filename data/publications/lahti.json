@@ -162,9 +162,24 @@
     "DOI": "10.7717/peerj.13075",
     "author": [
       {
-        "family": "Renuka Potbhare",
-        "given": "Eveliina Munukka",
-        "suffix": "Ameeta RaviKumar"
+        "family": "Potbhare",
+        "given": "Renuka"
+      },
+      {
+        "family": "RaviKumar",
+        "given": "Ameeta"
+      },
+      {
+        "family": "Munukka",
+        "given": "Eveliina"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Ashma",
+        "given": "Richa"
       }
     ],
     "container-title": "PeerJ",
