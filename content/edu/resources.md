@@ -10,7 +10,7 @@ keywords: online resources video lectures interview
 
 **Microbiome data science**
 
-- [R tutorial for miaverse](https://microbiome.github.io) (beta version)
+- [Microbiome data science with R/Bioconductor](https://microbiome.github.io/OMA) (beta version)
 - [R tutorial for phyloseq](https://microbiome.github.io/tutorials)
 
 
