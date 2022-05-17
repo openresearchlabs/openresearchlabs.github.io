@@ -1,5 +1,36 @@
 [
   {
+    "URL": "https://arxiv.org/abs/2205.07576",
+    "annote": "",
+    "author": [
+      {
+        "family": "Laitinen",
+        "given": "Ville"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "",
+    "id": "Laitinen2022",
+    "issue": "",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "keyword": "",
+    "note": "Preprint",
+    "page": "",
+    "status": "preprint",
+    "title": "Probabilistic multivariate early warning signals",
+    "type": "article-journal",
+    "volume": ""
+  },
+  {
     "URL": "https://www.medrxiv.org/content/10.1101/2022.03.22.22272736v1",
     "annote": "",
     "author": [
