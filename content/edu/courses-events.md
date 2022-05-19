@@ -20,6 +20,9 @@ Contact us if you are interested. The admission varies by course but most course
 **March-May 2022 - University of Turku, Finland** 
 - [Machine Learning and Algorithmics Seminar (TKO_3121 5 op)](https://opas.peppi.utu.fi/fi/opintojakso/TKO_3121/3255?period=2020-2022). Drs. Leo Lahti & Matti Ruuskanen
 
+**May 24, 2022 - University of Tirana, Albania**
+- [ML4Microbiome Workshop - Advances in the analysis of human microbiome and transcriptomics data](https://www.ml4microbiome.eu/meetings/workshop-advances-in-the-analysis-of-human-microbiome-and-transcriptomics-data-24-may-2022/)
+
 **June 20-23, 2022 - University of Oulu, Finland**
 - [Multi-omic data analysis with R/Bioconductor](https://microbiome.github.io/course_2022_oulu)
 - [Flyer (PDF)](https://github.com/microbiome/course_2022_oulu/raw/main/flyer.pdf)
