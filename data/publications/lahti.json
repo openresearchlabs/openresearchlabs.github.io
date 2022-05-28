@@ -1,5 +1,76 @@
 [
   {
+    "DOI": "10.1111/1462-2920.15945",
+    "annote": "",
+    "author": [
+      {
+        "family": "Ruuskanen",
+        "given": "Matti O."
+      },
+      {
+        "family": "Vats",
+        "given": "Deepti"
+      },
+      {
+        "family": "Potbhare",
+        "given": "Renuka"
+      },
+      {
+        "family": "RaviKumar",
+        "given": "Ameeta"
+      },
+      {
+        "family": "Munukka",
+        "given": "Eveliina"
+      },
+      {
+        "family": "Ashma",
+        "given": "Richa"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "Environmental Microbiology",
+    "id": "Ruuskanen2022emi",
+    "issue": "",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "note": "",
+    "page": "",
+    "title": "Towards standardized and reproducible research in skin microbiomes",
+    "type": "article-journal",
+    "volume": ""
+  },
+  {
+    "DOI": "10.1038/s43588-022-00254-9",
+    "author": [
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "Nature Computational Science",
+    "id": "Lahti2022",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          5
+        ]
+      ]
+    },
+    "note": "Invited News & Views.",
+    "title": "Enhancing biomarkers with co-abundance",
+    "type": "article-journal"
+  },
+  {
     "URL": "https://arxiv.org/abs/2205.07576",
     "annote": "",
     "author": [
