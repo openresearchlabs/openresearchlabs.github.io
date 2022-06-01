@@ -1,5 +1,94 @@
 [
   {
+    "DOI": "10.5281/zenodo.6559857",
+    "author": [
+      {
+        "family": "Umerle",
+        "given": "Tomasz"
+      },
+      {
+        "family": "Colavizza",
+        "given": "Giovanni"
+      },
+      {
+        "family": "Herden",
+        "given": "Elżbieta"
+      },
+      {
+        "family": "Jagersma",
+        "given": "Rindert"
+      },
+      {
+        "family": "Király",
+        "given": "Péter"
+      },
+      {
+        "family": "Koper",
+        "given": "Beata"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Lindemann",
+        "given": "David"
+      },
+      {
+        "family": "Łubocki",
+        "given": "Jakub Maciej"
+      },
+      {
+        "family": "Malínek",
+        "given": "Vojtěch"
+      },
+      {
+        "family": "Milanova",
+        "given": "Alexandra"
+      },
+      {
+        "family": "Péter",
+        "given": "Róbert"
+      },
+      {
+        "family": "Rißler-Pipka",
+        "given": "Nanette"
+      },
+      {
+        "family": "Romanello",
+        "given": "Matteo"
+      },
+      {
+        "family": "Roszkowski",
+        "given": "Marcin"
+      },
+      {
+        "family": "Siwecka",
+        "given": "Dorota"
+      },
+      {
+        "family": "Tolonen",
+        "given": "Mikko"
+      },
+      {
+        "family": "Vimr",
+        "given": "Ondřej"
+      }
+    ],
+    "container-title": "Zenodo",
+    "id": "Umerle2022",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          5
+        ]
+      ]
+    },
+    "title": "An analysis of the current bibliographical data landscape in the humanities. A case for the joint bibliodata agendas of public stakeholders",
+    "type": "article-journal"
+  },
+  {
     "DOI": "10.1111/1462-2920.15945",
     "annote": "",
     "author": [
