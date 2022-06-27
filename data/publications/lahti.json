@@ -1,5 +1,93 @@
 [
   {
+    "DOI": "10.3390/nu14132667",
+    "author": [
+      {
+        "family": "Keskitalo",
+        "given": "Anniina"
+      },
+      {
+        "family": "Munukka",
+        "given": "Eveliina"
+      },
+      {
+        "family": "Aatsinki",
+        "given": "Anna"
+      },
+      {
+        "family": "Saleem",
+        "given": "Wisam"
+      },
+      {
+        "family": "Kartiosuo",
+        "given": "Noora"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Huovinen",
+        "given": "Pentti"
+      },
+      {
+        "family": "Elo",
+        "given": "Laura L."
+      },
+      {
+        "family": "Pietilä",
+        "given": "Sami"
+      },
+      {
+        "family": "Rovio",
+        "given": "Suvi P."
+      },
+      {
+        "family": "Niinikoski",
+        "given": "Harri"
+      },
+      {
+        "family": "Viikari",
+        "given": "Jorma"
+      },
+      {
+        "family": "Rönnemaa",
+        "given": "Tapani"
+      },
+      {
+        "family": "Lagström",
+        "given": "Hanna"
+      },
+      {
+        "family": "Jula",
+        "given": "Antti"
+      },
+      {
+        "family": "Raitakari",
+        "given": "Olli"
+      },
+      {
+        "family": "Pahkala",
+        "given": "Katja"
+      }
+    ],
+    "container-title": "Nutrients",
+    "id": "Keskitalo2022",
+    "issue": "13",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "2667",
+    "title": "An infancy-onset 20-year dietary counselling intervention and gut microbiota composition in adulthood",
+    "type": "article-journal",
+    "volume": "14"
+  },
+  {
     "DOI": "10.5281/zenodo.6559857",
     "author": [
       {
@@ -85,6 +173,7 @@
         ]
       ]
     },
+    "keyword": "dh",
     "title": "An analysis of the current bibliographical data landscape in the humanities. A case for the joint bibliodata agendas of public stakeholders",
     "type": "article-journal"
   },
@@ -131,6 +220,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "note": "",
     "page": "",
     "title": "Towards standardized and reproducible research in skin microbiomes",
@@ -155,6 +245,7 @@
         ]
       ]
     },
+    "keyword": "review",
     "note": "Invited News & Views.",
     "title": "Enhancing biomarkers with co-abundance",
     "type": "article-journal"
@@ -182,7 +273,7 @@
         ]
       ]
     },
-    "keyword": "",
+    "keyword": "datascience",
     "note": "Preprint",
     "page": "",
     "status": "preprint",
