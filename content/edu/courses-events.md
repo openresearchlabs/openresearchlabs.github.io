@@ -33,9 +33,6 @@ Contact us if you are interested. The admission varies by course but most course
 **August 2022 - Savitribai Phule Pune University, India**  
 - Microbiome Research Symposium  
 
-**September 26-30, 2022 - Helsinki, Finland**
-- Microbiome data integration and analysis with R/Bioconductor.
-
 **October 2022 - Barcelona**
 - ML4microbiome training school
 
@@ -44,6 +41,9 @@ Contact us if you are interested. The admission varies by course but most course
 
 **Oct-Dec 2022 - University of Turku, Finland** 
 - [Machine Learning and Algorithmics Seminar (TKO_3121 5 op)](https://opas.peppi.utu.fi/fi/opintojakso/TKO_3121/3255?period=2020-2022). Drs. Leo Lahti & Matti Ruuskanen
+
+**Nov 28- Dec 2, 2022 - Helsinki, Finland**
+- Microbiome data integration and analysis with R/Bioconductor.
 
 
 
