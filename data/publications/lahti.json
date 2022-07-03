@@ -1,5 +1,175 @@
 [
   {
+    "DOI": "10.1101/2022.07.01.498433",
+    "URL": "https://www.biorxiv.org/content/early/2022/07/03/2022.07.01.498433",
+    "abstract": "The maternal microbiota modulates fetal development, but the mechanisms of these earliest host-microbe interactions are unclear. We compared full-term fetuses from germ-free (GF) and normally colonized mouse dams by gene expression profiling and non-targeted metabolomics. The developing immune system was strongly dependent on the maternal microbial status. In the fetal intestine, critical components mediating host-microbe interactions were differentially expressed. In fetal brain and placenta, interferon and inflammatory signaling were downregulated in germ-free fetuses. Neural system development and function, translation and RNA metabolism, and regulation of energy metabolism were significantly affected at the gene expression level. These impacts were strongly associated with microbial metabolite concentrations in the fetal tissues, suggesting that they are largely, although perhaps not exclusively mediated by maternal microbial metabolites absorbed through placenta. Several aryl sulfates were among the compounds strongly associated with gene expression differences. The germ-free fetus may suffer from depletion of queuine, a bacterial hypermodified nucleobase essential for eukaryotic tRNA stability and function.Competing Interest StatementThe authors have declared no competing interest.",
+    "author": [
+      {
+        "family": "Husso",
+        "given": "Aleksi"
+      },
+      {
+        "family": "Pessa-Morikawa",
+        "given": "Tiina"
+      },
+      {
+        "family": "Koistinen",
+        "given": "Ville Mikael"
+      },
+      {
+        "family": "Karkkainen",
+        "given": "Olli"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Iivanainen",
+        "given": "Antti"
+      },
+      {
+        "family": "Hanhineva",
+        "given": "Kati"
+      },
+      {
+        "family": "Niku",
+        "given": "Mikael"
+      }
+    ],
+    "container-title": "bioRxiv",
+    "id": "Husso2022",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "publisher": "Cold Spring Harbor Laboratory",
+    "status": "preprint",
+    "title": "Impacts of maternal microbiota and microbial metabolites on fetal intestine, brain and placenta",
+    "type": "article-journal"
+  },
+  {
+    "URL": "https://arxiv.org/abs/2205.07576",
+    "annote": "",
+    "author": [
+      {
+        "family": "Laitinen",
+        "given": "Ville"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "",
+    "id": "Laitinen2022",
+    "issue": "",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "keyword": "datascience",
+    "note": "Preprint",
+    "page": "",
+    "status": "preprint",
+    "title": "Probabilistic multivariate early warning signals",
+    "type": "article-journal",
+    "volume": ""
+  },
+  {
+    "URL": "https://www.medrxiv.org/content/10.1101/2022.03.22.22272736v1",
+    "annote": "",
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Yang"
+      },
+      {
+        "family": "Teo",
+        "given": "Shu Mei"
+      },
+      {
+        "family": "Meric",
+        "given": "Guillaume"
+      },
+      {
+        "family": "Tang",
+        "given": "Howard HF"
+      },
+      {
+        "family": "Zhu",
+        "given": "Qiyun"
+      },
+      {
+        "family": "Sanders",
+        "given": "Jon G"
+      },
+      {
+        "family": "Vazquez-Baeza",
+        "given": "Yoshiki"
+      },
+      {
+        "family": "Verspoor",
+        "given": "Karin"
+      },
+      {
+        "family": "Vartiainen",
+        "given": "Ville A"
+      },
+      {
+        "family": "Jousilahti",
+        "given": "Pekka"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki S"
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Inouye",
+        "given": "Michael"
+      }
+    ],
+    "container-title": "",
+    "id": "Liu2022",
+    "issue": "",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "Preprint",
+    "page": "",
+    "status": "preprint",
+    "title": "The gut microbiome is a significant risk factor for future chronic lung disease",
+    "type": "article-journal",
+    "volume": ""
+  },
+  {
     "DOI": "10.3390/nu14132667",
     "author": [
       {
@@ -249,124 +419,6 @@
     "note": "Invited News & Views.",
     "title": "Enhancing biomarkers with co-abundance",
     "type": "article-journal"
-  },
-  {
-    "URL": "https://arxiv.org/abs/2205.07576",
-    "annote": "",
-    "author": [
-      {
-        "family": "Laitinen",
-        "given": "Ville"
-      },
-      {
-        "family": "Lahti",
-        "given": "Leo"
-      }
-    ],
-    "container-title": "",
-    "id": "Laitinen2022",
-    "issue": "",
-    "issued": {
-      "date-parts": [
-        [
-          2022
-        ]
-      ]
-    },
-    "keyword": "datascience",
-    "note": "Preprint",
-    "page": "",
-    "status": "preprint",
-    "title": "Probabilistic multivariate early warning signals",
-    "type": "article-journal",
-    "volume": ""
-  },
-  {
-    "URL": "https://www.medrxiv.org/content/10.1101/2022.03.22.22272736v1",
-    "annote": "",
-    "author": [
-      {
-        "family": "Liu",
-        "given": "Yang"
-      },
-      {
-        "family": "Teo",
-        "given": "Shu Mei"
-      },
-      {
-        "family": "Meric",
-        "given": "Guillaume"
-      },
-      {
-        "family": "Tang",
-        "given": "Howard HF"
-      },
-      {
-        "family": "Zhu",
-        "given": "Qiyun"
-      },
-      {
-        "family": "Sanders",
-        "given": "Jon G"
-      },
-      {
-        "family": "Vazquez-Baeza",
-        "given": "Yoshiki"
-      },
-      {
-        "family": "Verspoor",
-        "given": "Karin"
-      },
-      {
-        "family": "Vartiainen",
-        "given": "Ville A"
-      },
-      {
-        "family": "Jousilahti",
-        "given": "Pekka"
-      },
-      {
-        "family": "Lahti",
-        "given": "Leo"
-      },
-      {
-        "family": "Niiranen",
-        "given": "Teemu"
-      },
-      {
-        "family": "Havulinna",
-        "given": "Aki S"
-      },
-      {
-        "family": "Knight",
-        "given": "Rob"
-      },
-      {
-        "family": "Salomaa",
-        "given": "Veikko"
-      },
-      {
-        "family": "Inouye",
-        "given": "Michael"
-      }
-    ],
-    "container-title": "",
-    "id": "Liu2022",
-    "issue": "",
-    "issued": {
-      "date-parts": [
-        [
-          2022
-        ]
-      ]
-    },
-    "keyword": "bioscience",
-    "note": "Preprint",
-    "page": "",
-    "status": "preprint",
-    "title": "The gut microbiome is a significant risk factor for future chronic lung disease",
-    "type": "article-journal",
-    "volume": ""
   },
   {
     "DOI": "10.1016/j.biopha.2022.112841",
