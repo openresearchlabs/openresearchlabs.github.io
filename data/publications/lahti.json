@@ -1,5 +1,45 @@
 [
   {
+    "DOI": "10.1371/journal.pcbi.1009396",
+    "author": [
+      {
+        "family": "Khalighi",
+        "given": "Moein"
+      },
+      {
+        "family": "Sommeria-Klein",
+        "given": "Guilhem"
+      },
+      {
+        "family": "Gonze",
+        "given": "Didier"
+      },
+      {
+        "family": "Faust",
+        "given": "Karoline"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "PLoS Computational Biology",
+    "id": "Khalighi2022",
+    "issue": "6",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "keyword": "datascience",
+    "page": "e1009396",
+    "title": "Quantifying the impact of ecological memory on the dynamics of interacting communities",
+    "type": "article-journal",
+    "volume": "18"
+  },
+  {
     "DOI": "10.1101/2022.07.01.498433",
     "URL": "https://www.biorxiv.org/content/early/2022/07/03/2022.07.01.498433",
     "abstract": "The maternal microbiota modulates fetal development, but the mechanisms of these earliest host-microbe interactions are unclear. We compared full-term fetuses from germ-free (GF) and normally colonized mouse dams by gene expression profiling and non-targeted metabolomics. The developing immune system was strongly dependent on the maternal microbial status. In the fetal intestine, critical components mediating host-microbe interactions were differentially expressed. In fetal brain and placenta, interferon and inflammatory signaling were downregulated in germ-free fetuses. Neural system development and function, translation and RNA metabolism, and regulation of energy metabolism were significantly affected at the gene expression level. These impacts were strongly associated with microbial metabolite concentrations in the fetal tissues, suggesting that they are largely, although perhaps not exclusively mediated by maternal microbial metabolites absorbed through placenta. Several aryl sulfates were among the compounds strongly associated with gene expression differences. The germ-free fetus may suffer from depletion of queuine, a bacterial hypermodified nucleobase essential for eukaryotic tRNA stability and function.Competing Interest StatementThe authors have declared no competing interest.",
