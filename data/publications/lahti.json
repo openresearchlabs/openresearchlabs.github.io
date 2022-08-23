@@ -92,6 +92,7 @@
     "type": "article-journal"
   },
   {
+    "DOI": "10.1007/978-3-031-15034-0",
     "URL": "https://arxiv.org/abs/2205.07576",
     "annote": "",
     "author": [
@@ -104,9 +105,17 @@
         "given": "Leo"
       }
     ],
-    "container-title": "",
+    "editor": [
+      {
+        "family": "Petre",
+        "given": "Ion"
+      },
+      {
+        "family": "Păun",
+        "given": "Andrei"
+      }
+    ],
     "id": "Laitinen2022",
-    "issue": "",
     "issued": {
       "date-parts": [
         [
@@ -115,12 +124,11 @@
       ]
     },
     "keyword": "datascience",
-    "note": "Preprint",
-    "page": "",
-    "status": "preprint",
+    "page": "259-274",
+    "publisher": "Springer Cham.",
+    "publisher-place": "Bucharest, Romania, September 14–16",
     "title": "Probabilistic multivariate early warning signals",
-    "type": "article-journal",
-    "volume": ""
+    "type": ""
   },
   {
     "URL": "https://www.medrxiv.org/content/10.1101/2022.03.22.22272736v1",
