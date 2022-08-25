@@ -89,12 +89,12 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
 
 ## Alumni
 
-Co-supervised PhDs:
-
+Co-supervised PhDs:  
 - Anna Aatsinki (University of Turku, 2021; with <a href="https://sites.utu.fi/finnbrain/en/" target="_blank">Finnbrain</a>)
 - Sudarshan Shetty (Wageningen University, 2019; with Willem M de Vos)
 
 Research assistants & interns:
+- Kevin Gatel (2022; summer intern)
 - Malaury Martin (2022; summer intern)
 - Yagmur Simsek (2021-2022)
 - Julia Matveeva (2021)
@@ -106,6 +106,7 @@ Research assistants & interns:
 - Prashant Gaikwad (2019; SPARC / supported by Government of India)
 
 MSc students:
+- Dorde Klisura (2022)
 - Emma Gheysen (KU Leuven, BE 2021; with Prof. Karoline Faust)
 - Anastasia Karavaeva (2020)
 - Wisam Saleem (2019-2020)
