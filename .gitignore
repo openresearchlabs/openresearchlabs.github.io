@@ -10,3 +10,4 @@ _site
 
 # RStudio files
 .Rproj.user/
+*.Rproj
