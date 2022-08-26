@@ -7,7 +7,7 @@ keywords: positions
 
 Applications for assistant/MSc/PhD/Postdoc positions from outstanding students are welcome.
 
-[Contact](../contact) us to discuss the opportunities in more details.
+[Contact](../contact) us to discuss the opportunities in more detail.
 
 
 
