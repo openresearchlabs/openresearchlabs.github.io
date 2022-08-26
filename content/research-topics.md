@@ -32,7 +32,7 @@ research infrastructure for computational humanities**.
 </div>
 
 <div class="research-picture">
-    <img alt="campus of turku" src="../img/carousel/houp.png" class="figure-research"/>
+    <img alt="A graphical representation of a probabilistic model" src="../img/carousel/houp.png" class="figure-research"/>
     <figcaption class="caption"> Figure by: Ville Laitinen & Leo Lahti </figcaption>
 </div>
 
