@@ -47,20 +47,7 @@ For more information about our different research topics :
 <br/>
 
 <!--
-INFO: How to use bibliography shortcodes
-
-You can... 
-
-output the whole bibliography with
-{{< articles id >}}
-
-individual items by id with
-{{< articles id = "Arani2021" >}}
-
-items by keywords with
-{{< articles keyword = "dh" >}}
-
-...to your .md page. (DOES NOT WORK ON .HTML TEMPLATES)
+See README.md for information on how to add all publications, selected publications or publications with certain keywords.
 -->
 
 
