@@ -1,9 +1,0 @@
-Poster can be scaled from A3 to A4 size by
-
-dvips -x600 -tA4 -O1cm,8cm poster_A3.dvi -o poster_A4.ps
-
-
-
-Scaling to A0 in james using
-
-/share/local/bin/poster -iA3 -mA0 -c0% -w5% -o poster_A0.ps poster_A3.ps

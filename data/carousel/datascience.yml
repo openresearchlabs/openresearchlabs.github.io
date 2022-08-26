@@ -1,9 +1,0 @@
-weight: 1
-title: "Data Science"
-description: >
-  <ul class="list-style-none">
-    <li>Probabilistic machine learning</li>
-    <li>Scientific computing</li>  
-    <li>Open research software</li>
-  </ul>
-image: "img/carousel/houp.png"
