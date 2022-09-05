@@ -1155,7 +1155,7 @@
         ]
       ]
     },
-    "keyword": "bioscience",
+    "keyword": "datascience",
     "page": "14101-14114",
     "title": "Probabilistic early warning signals",
     "type": "article-journal",
@@ -3797,7 +3797,7 @@
     "keyword": "datascience",
     "page": "062407",
     "publisher": "American Physical Society",
-    "title": "Stability estimation of autoregulated genes under michaelis-menten type kinetics",
+    "title": "Stability estimation of autoregulated genes under Michaelis-Menten type kinetics",
     "type": "article-journal",
     "volume": "97"
   },
