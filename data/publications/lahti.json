@@ -396,7 +396,6 @@
   },
   {
     "DOI": "10.1111/1462-2920.15945",
-    "annote": "",
     "author": [
       {
         "family": "Ruuskanen",
@@ -429,7 +428,7 @@
     ],
     "container-title": "Environmental Microbiology",
     "id": "Ruuskanen2022emi",
-    "issue": "",
+    "issue": "9",
     "issued": {
       "date-parts": [
         [
@@ -438,11 +437,10 @@
       ]
     },
     "keyword": "bioscience",
-    "note": "",
-    "page": "",
+    "page": "3840-3860",
     "title": "Towards standardized and reproducible research in skin microbiomes",
     "type": "article-journal",
-    "volume": ""
+    "volume": "24"
   },
   {
     "DOI": "10.1038/s43588-022-00254-9",
