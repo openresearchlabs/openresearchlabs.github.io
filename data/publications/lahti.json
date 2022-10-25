@@ -1,5 +1,38 @@
 [
   {
+    "DOI": "10.1353/ecs.2022.0060",
+    "author": [
+      {
+        "family": "Tolonen",
+        "given": "Mikko"
+      },
+      {
+        "family": "Mäkelä",
+        "given": "Eetu"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "Eighteenth-Century Studies",
+    "id": "Tolonen2022ecco",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "keyword": "dh",
+    "page": "95-123",
+    "publisher": "Johns Hopkins University Press",
+    "title": "The anatomy of eighteenth century collections online (ECCO)",
+    "type": "article-journal",
+    "volume": "56"
+  },
+  {
     "DOI": "10.1371/journal.pcbi.1009396",
     "author": [
       {
