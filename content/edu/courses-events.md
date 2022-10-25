@@ -37,7 +37,7 @@ Contact us if you are interested. The admission varies by course but most course
 - ML4microbiome training school
 
 **Oct-Dec 2022 - University of Turku**
-- Statistical and Probabilistic Programming (TKO_7097)
+- [Statistical and Probabilistic Programming (TKO_7097)](https://opas.peppi.utu.fi/fi/opintojakso/TKO_7097/91483)
 
 **Oct-Dec 2022 - University of Turku, Finland** 
 - [Machine Learning and Algorithmics Seminar (TKO_3121 5 op)](https://opas.peppi.utu.fi/fi/opintojakso/TKO_3121/3255?period=2020-2022). Drs. Leo Lahti & Matti Ruuskanen
