@@ -30,7 +30,8 @@ We are part of the [Department of Computing](https://www.utu.fi/en/university/fa
 
   <ul style="overflow: hidden">
     <li><a href="https://www.utu.fi/en/people/leo-lahti">Associate Professor (Data Science)</a></li>
-    <li>Director, Turku Center for Computational Humanities</li>    
+    <li>Director, Turku Center for Computational Humanities</li>
+    <li><a href="https://www.ml4microbiome.eu">Statistical and machine learning techniques in human microbiome studies</a> (ML4microbiome) COST action WG leader</li>
     <li><a href="https://codata.org/finland/">CODATA Committee on Data of the International Science Council (ISC)</a> national chair & delegate, member in the <a href="https://codata.org/initiatives/working-groups/data-ethics/">Data Ethics work group</a></li>
     <li><a href="https://tenk.fi/en/research-misconduct/research-integrity-advisers">National Board on Research Integrity (TENK)</a> research integrity adviser</li>
     <li> <a href="https://avointiede.fi/fi/koordinaatio">National open science coordination</a> steering group</li>
