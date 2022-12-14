@@ -13,6 +13,13 @@ Welcome to [contact us](../../contact/) to discuss research/study positions.
 We supervise study assignments (BSc/MSc/PhD) on applied statistics / computational science / machine learning / AI theory, methods, and their application to study complex natural and social systems. Active research projects cover scientific data analysis, statistical and probabilistic programming workflows, data visualization, microbial metagenomics, ecological and evolutionary models, multi-omic data integration, spatio-temporal models, computational history, and open government data analysis. 
 
 
+### Courses in 2023
+
+**Apr 12-14 2023, Wageningen, The Netherlands**
+
+- [VLAG Grad School on Intestinal microbiome of humans and animals](https://www.vlaggraduateschool.nl/en/courses/course/imha23.htm)
+
+
 ### Courses in 2022
 
 Contact us if you are interested. The admission varies by course but most courses are open to application.
