@@ -1,65 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Universal</title>
+    <title>Categories on Turku Data Science Group</title>
     <link>http://datascience.utu.fi/categories/</link>
-    <description>Recent content in Categories on Universal</description>
+    <description>Recent content in Categories on Turku Data Science Group</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 12 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://datascience.utu.fi/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>news</title>
-      <link>http://datascience.utu.fi/categories/news/</link>
-      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://datascience.utu.fi/categories/news/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>programming</title>
-      <link>http://datascience.utu.fi/categories/programming/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
-      
-      <guid>http://datascience.utu.fi/categories/programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pseudo</title>
-      <link>http://datascience.utu.fi/categories/pseudo/</link>
-      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
-      
-      <guid>http://datascience.utu.fi/categories/pseudo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>http://datascience.utu.fi/categories/r/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>http://datascience.utu.fi/categories/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>starting</title>
-      <link>http://datascience.utu.fi/categories/starting/</link>
-      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
-      
-      <guid>http://datascience.utu.fi/categories/starting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>lorem</title>
-      <link>http://datascience.utu.fi/categories/lorem/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://datascience.utu.fi/categories/lorem/</guid>
-      <description></description>
-    </item>
-    
+    <language>en-us</language><atom:link href="http://datascience.utu.fi/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -12,6 +12,14 @@
 .navbar-header:after {
   clear: both;
 }
+.title{
+  display: inline-block; 
+  color: #333333;
+  vertical-align: middle;
+  font-size: 25px;
+  padding-top: 17px;
+  padding-left: 95px;
+}
 .center-block {
   display: block;
   margin-left: auto;
@@ -71,6 +79,7 @@ button i[class^="fa"] {
 .text-uppercase {
   text-transform: uppercase;
   letter-spacing: 0.08em;
+  margin-top: 1vmin;
 }
 @media (max-width: 991px) {
   .text-center-sm {
@@ -306,6 +315,62 @@ ul.list-style-none {
 .navbar {
   border: none;
 }
+.dropdown-list-content{
+  display: none;
+  position: absolute;
+  background-color: #555555;
+  width: 240px;
+  color: #999999 !important;
+  text-decoration: none;
+  padding: 10px;
+}
+.dropdown-list-link{
+  padding: 5px;
+}
+.first{
+  padding-top: 0px;
+}
+.last{
+  padding-bottom: 0px;
+}
+.dropdown-list-link a{
+  color: #EEEEEE !important;
+}
+
+@media screen and (min-width: 768px){
+  .dropdown-list:hover .dropdown-list-content{
+    display: block;
+  }
+  .dropdown-list:active .dropdown-list-content{
+    display: block;
+  }
+  .dropbtn2{
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .dropbtn2{
+    display: block !important;
+    color: #999999 !important;
+    padding-left: 8vw !important;
+  }
+  .dropdown-list:hover .dropbtn2{
+    display: block !important;
+  }
+
+  .dropdown-list:active .dropbtn2{
+    display: block !important;
+  }
+  .dropdown-list:hover .d2{
+    display: block !important;
+  }
+
+  .dropdown-list:active .d2{
+    display: block !important;
+  }
+}
+
 .navbar ul.nav > li > a {
   text-transform: uppercase;
   text-decoration: underline;
@@ -1182,11 +1247,6 @@ fieldset[disabled] .btn-template-primary.active {
 @media (max-width: 767px) {
   .home-carousel {
     text-align: center !important;
-  }
-}
-@media (min-width: 992px) {
-  .home-carousel .right {
-    text-align: right;
   }
 }
 .home-carousel h1,
@@ -2512,6 +2572,7 @@ fieldset[disabled] .btn-template-primary.active {
   margin: 0 0 20px;
 }
 #footer {
+  margin-top: 8vmin;
   background: #555555;
   padding: 50px 0;
   color: #999999;
@@ -2600,9 +2661,9 @@ fieldset[disabled] .btn-template-primary.active {
   margin-bottom: 0;
 }
 #footer .social a {
-  color: #555555;
-  font-size: 25px;
-  margin: 0 10px 0 0;
+  color: #999999;
+  font-size: 2vmin;
+  margin: 0 1vmin 1vmin 0;
 }
 #footer .social a:hover {
   color: #38a7bb;
@@ -2661,6 +2722,10 @@ fieldset[disabled] .btn-template-primary.active {
   text-transform: uppercase;
   background-color: none;
   letter-spacing: 0.08em;
+}
+.university-logo {
+  width: 160px;
+  margin-top: -7px;
 }
 /* nav */
 .nav > li > a {
@@ -3061,9 +3126,8 @@ fieldset[disabled] .btn-template-primary.active {
   }
 }
 .navbar-default {
-  background-color: #ffffff;
+  background-color: white;
   border-color: #cccccc;
-  border-bottom: none;
 }
 .navbar-default .navbar-brand {
   color: #555555;
@@ -3077,7 +3141,7 @@ fieldset[disabled] .btn-template-primary.active {
   color: #777777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #555555;
+  color: #333333;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -3259,6 +3323,94 @@ label {
 .form-group {
   margin-bottom: 20px;
 }
+
+/*boxes*/
+
+.boxes-container {
+  padding-top: 6vh;
+  padding-left: 7vw;
+  padding-bottom: 5vh;
+  display: grid;
+  grid-template-columns: 17vw 17vw 17vw 17vw;
+  grid-template-rows: 27vh;
+  gap: 0px 6vw;
+  grid-template-areas:
+    "box-research box-EDU box-code box-team";
+  border-bottom: solid 1px rgb(204, 204, 204);
+}
+
+.box-element {
+  padding: 2vw;
+  background-color: #F7F7F7;
+  border-bottom: solid 2px #38A7BB;
+}
+
+.box-research { grid-area: box-research; }
+
+.box-EDU { grid-area: box-EDU; }
+
+.box-code { grid-area: box-code; }
+
+.box-team { grid-area: box-team; }
+
+.box-logo {
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #38A7BB;
+  width: 10vmin;
+  height: 10vmin;
+  text-align: center;  
+  display: block;
+  clip-path:ellipse(50% 50%);
+  padding-top: 2.2vmin;
+}
+
+.box-logo1 {
+  display: block;
+  margin: auto;
+  width: 5vmin;
+  height: 5vmin;
+}
+
+.box-logo2 {
+  display: none;
+  margin: auto;
+  width: 5vmin;
+  height: 5vmin;
+}
+
+.box-logo:hover .box-logo1 {
+  display: none;
+}
+
+.box-logo:hover .box-logo2 {
+  display: block;
+}
+
+.box-title {
+  text-align: center;
+}
+
+.box-content {
+  padding-top: 0px;
+  text-align: center;
+}
+
+.box-content>p {
+  margin-bottom: 2px;
+}
+
+.box-content>ul {
+  list-style: none;
+}
+
+.box-content>ul>li::before {
+  content: "•"; 
+  color: #38A7BB;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -4em}
+
 /* pager*/
 .pager {
   margin: 20px 0;
@@ -3382,6 +3534,7 @@ h3,
 .h3 {
   margin-top: 20px;
   margin-bottom: 20px;
+  font-size: ;
 }
 p {
   margin: 0 0 10px;
@@ -3562,3 +3715,429 @@ a.list-group-item.active > .badge,
   left: 15px;
   right: 15px;
 }
+
+.lahti{
+  clip-path:ellipse(50% 50%);
+  margin-bottom: 20px;
+}
+
+.twitter-logo{
+  height: 4vmin;
+  width: auto;
+}
+
+.twitter-logo:hover{
+  filter: opacity(0.6);
+  -webkit-filter: opacity(0.6);
+}
+
+.github-logo{
+  height: 3vmin;
+  width: auto;
+  padding-right: 1vmin;
+  filter: invert(40%);
+}
+
+.github-logo:hover{
+  filter: opacity(0.9);
+  -webkit-filter: opacity(0.9);
+}
+
+.internet-logo{
+  height: 3vmin;
+  width: auto;
+  margin-left: 0.5vw;
+}
+
+.internet-logo:hover{
+  filter: opacity(0.6);
+  -webkit-filter: opacity(0.6);
+}
+
+.orcid-logo{
+  margin-left: 0.5vw;
+  height: 3vmin;
+  width: auto;
+}
+
+.orcid-logo:hover{
+  filter: opacity(0.6);
+  -webkit-filter: opacity(0.6);
+}
+
+.google-scholar-logo{
+  margin-left: 0.5vw;
+  height: 3vmin;
+  width: auto;
+}
+
+.google-scholar-logo:hover{
+  filter: opacity(0.6);
+  -webkit-filter: opacity(0.6);
+}
+
+.publon-logo{
+  margin-left: 0.5vw;
+  height: 3vmin;
+  width: auto;
+  clip-path: ellipse(50% 50%);
+}
+
+.publon-logo:hover{
+  filter: opacity(0.6);
+  -webkit-filter: opacity(0.6);
+}
+
+.nih-logo{
+  margin-left: 0.5vw;
+  height: 3vmin;
+  width: auto;
+}
+
+.nih-logo:hover{
+  filter: opacity(0.6);
+  -webkit-filter: opacity(0.6);
+}
+
+.impactstory-logo{
+  margin-left: 0.5vw;
+  height: 3vmin;
+  width: auto;
+  clip-path: ellipse(50% 50%);
+}
+
+.impactstory-logo:hover{
+  filter: opacity(0.6);
+  -webkit-filter: opacity(0.6);
+}
+
+.links-leo {
+  text-align: center; 
+  margin-top: 250px; 
+}
+
+.links-leo > a > .orcid-logo {
+  margin-left: 0vw;
+}
+
+.col-sm-3{
+  width: 350px;
+  margin-bottom: 50px;
+}
+
+.flex-container {
+  /* We first create a flex layout context */
+  display: flex;
+  
+  /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+  
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+  
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-item {
+  padding: 5px;
+  width: 200px;
+  height: 400px;
+}
+
+.flex-item-picture {
+  padding-top: 0.0vh;
+  clip-path:ellipse(50% 50%);
+}
+
+.flex-item-name {
+  padding-top: 1.0vh;
+  font-weight: bold;
+  text-align: center;
+}
+
+.flex-item-keywords {
+  padding-top: 0.0vh;
+  font-weight: normal;
+  text-align: center;
+}
+
+.flex-item-links {
+  padding-top: 0.2vh;
+  text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 1200px){
+  .col-sm-3{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .grid-container{
+    overflow: scroll;
+  }
+  .grid-container-2{
+    overflow: scroll;
+  }  
+  .grid-container-3{
+    overflow: scroll;
+  }  
+  .grid-container-4{
+    overflow: scroll;
+  }
+  .grid-container-5{
+    overflow: scroll;
+  }    
+  .twitter-logo{
+    width: 60px;
+    height: auto;
+  }
+  .internet-logo{
+    width: 40px;
+    height: auto;
+    margin-left: 5px;
+  }
+  .orcid-logo{
+    width: 45px;
+    height: auto;
+    margin-left: 5px;
+  }
+  .google-scholar-logo{
+    width: 45px;
+    height: auto;
+    margin-left: 5px;
+  }
+  .publon-logo{
+    width: 45px;
+    height: auto;
+    margin-left: 5px;
+  }
+  .impactstory-logo{
+    width: 45px;
+    height: auto;
+    margin-left: 5px;
+  }
+  .nih-logo{
+    width: 45px;
+    height: auto;
+    margin-left: 5px;
+  }
+  .links-leo{
+    margin-top: 280px;
+    margin-bottom: 20px;
+  }
+  .github-logo{
+    width: 48px;
+    height: auto;
+    margin-left: 5px;
+  }
+} 
+
+.tom {
+  clip-path: ellipse(50% 50%);
+  height: 154px;
+  width: 154px;
+}
+
+.name-tom {
+  padding-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  width: 154px;
+}
+
+.keywords-tom {
+  padding-top: 0.5vh;
+  text-align: center;
+  width: 154px;
+}
+
+.post-tweets-container {
+  display: grid;
+  margin-top: 5vh;
+  padding-left: 5vw;
+  grid-template-columns: 55vw 30vw;
+  grid-template-rows: 1fr;
+  gap: 0px 5vw;
+  grid-template-areas:
+    "recent-posts twitter-feed";
+  padding-bottom: 10vh;
+}
+
+.frontpage-recent-publications { 
+  grid-area: recent-posts;
+  display: inline-block;
+}
+
+.twitter-feed { 
+  grid-area: twitter-feed;
+  vertical-align: top;
+  justify-self: right;
+  display: inline-block;
+}
+
+@media screen and (max-width: 1700px){
+  .boxes-container {
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+    grid-template-rows: 27vh;
+    gap: 0px 2vw;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .boxes-container {
+    padding-left: 3vw;
+    grid-template-columns: 22vw 22vw 22vw 22vw;
+    grid-template-rows: 27vh;
+    gap: 0px 2vw;
+  }
+  .title {
+    padding-left: 30px;
+  }
+  .university-logo { 
+    margin-left: -60px;
+  }
+}
+
+@media screen and (max-width: 1090px){
+  .university-logo {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .title {
+    padding-left: 0;
+    padding-top: 21px;
+    margin-left: -20px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .title {
+    padding-left: 0;
+    padding-top: 17px;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .boxes-container {
+    padding-left: 5vw;
+    grid-template-columns: 90vw;
+    grid-template-rows: 25vmax 25vmax 25vmax 25vmax;
+    gap: 3vh 0vw;
+    grid-template-areas:
+      "box-research" 
+      "box-EDU"
+      "box-code"
+      "box-team";
+  }
+
+  .post-tweets-container {
+    padding-left: 5vw;
+    grid-template-columns: 90vw;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 5vw;
+    grid-template-areas:
+      "recent-posts"
+      "twitter-feed";
+    padding-bottom: 10vh;
+  }
+}
+
+@media screen and (max-width: 410px){
+  .title{
+    font-size: 6vw;
+    padding-left: 1vw ;
+  }
+}
+
+.code-boxes-container {
+  display: grid;
+  grid-template-columns: 250px 600px;
+  grid-template-rows: 200px 200px 200px 200px 200px;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "miaverse-logo miaverse-text"
+    "ropengov-logo ropengov-text"
+    "bioconductor-logo bioconductor-text"
+    "COMHIS-logo COMHIS-text"
+    "cran-logo cran-text"    
+    "julia-logo julia-text"    
+    "data-logo data-text";
+    margin-bottom: 100px;
+}
+
+
+.miaverse-logo { grid-area: miaverse-logo; padding-left: 15px; border-bottom: solid #38A7BB 2px; }
+
+.miaverse-text { grid-area: miaverse-text; border-bottom: solid #38A7BB 2px; }
+
+.ropengov-logo { grid-area: ropengov-logo; padding-left: 15px; border-bottom: solid #38A7BB 2px; }
+
+.ropengov-text { grid-area: ropengov-text; border-bottom: solid #38A7BB 2px; }
+
+.bioconductor-logo { grid-area: bioconductor-logo; padding-left: 15px; border-bottom: solid #38A7BB 2px; }
+
+.bioconductor-text { grid-area: bioconductor-text; border-bottom: solid #38A7BB 2px; }
+
+.COMHIS-logo { grid-area: COMHIS-logo; padding-left: 15px; border-bottom: solid #38A7BB 2px; }
+
+.COMHIS-text { grid-area: COMHIS-text; border-bottom: solid #38A7BB 2px; }
+
+.julia-logo { grid-area: julia-logo; padding-left: 15px; border-bottom: solid #38A7BB 2px; }
+
+.julia-text { grid-area: julia-text; border-bottom: solid #38A7BB 2px; }
+
+.cran-logo { grid-area: cran-logo; padding-left: 15px; border-bottom: solid #38A7BB 2px; }
+
+.cran-text { grid-area: cran-text; border-bottom: solid #38A7BB 2px; }
+
+.data-logo { grid-area: data-logo; padding-left: 15px; border-bottom: solid #38A7BB 2px; }
+
+.data-text { grid-area: data-text; border-bottom: solid #38A7BB 2px; }
+
+.text-boxes { margin-top: 100px; transform: translateY(-50%); font-size: 20px; border-left: 1px solid #BFC9CA; padding-left: 40px }
+
+.pic-code {
+  margin-top: 100px;
+  transform: translateY(-50%);
+  max-width: 150px;
+  max-height: 90px;
+}
+
+.pic-other {
+  width: 100px;
+}
+
+@media screen and (max-width: 768px){
+  .code-boxes-container{
+    margin-left: auto;
+    grid-template-columns: 90vw;
+    grid-template-rows: 15vh 15vh 15vh 15vh 15vh 15vh;
+    gap: 4vh;
+    grid-template-areas:
+      "miaverse"
+      "ropengov" 
+      "bioconductor"
+      "COMHIS"
+      "cran"      
+      "julia"       
+      "other" 
+      "data";
+  }
+
+  .pic-code{
+    max-width: 75vw;
+  }

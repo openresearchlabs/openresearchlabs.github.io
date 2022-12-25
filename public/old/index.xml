@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Olds on Universal</title>
+    <title>Olds on Turku Data Science Group</title>
     <link>http://datascience.utu.fi/old/</link>
-    <description>Recent content in Olds on Universal</description>
+    <description>Recent content in Olds on Turku Data Science Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://datascience.utu.fi/old/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -101,6 +101,15 @@ Recommended open licenses for academic publishing Software and source code The m
       <description>How to publish and archive research software or source code   Choose open license The code is not really &amp;ldquo;open&amp;rdquo; without an open license. Common ones include MIT, FreeBSD and GPL3. The MIT license is often recommended due to its simplicity. See Quick guide to software licensing for a scientist programmer. See also the brief memo on open licensing of scientific material.
   Add version number
   Document the experiments.</description>
+    </item>
+    
+    <item>
+      <title>Research / Old</title>
+      <link>http://datascience.utu.fi/old/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/old/research/</guid>
+      <description>Research topics Our research focuses on computational analysis of complex natural and social systems. There is a great demand for targeted computational techniques to extract information and insights from rich data collections based on clever combinations of human and machine intelligence. We blend elements from fields such as machine learning/AI, probabilistic programming, statistical ecology, and data science, and drive open developer communities that help to translate latest theoretical advances into accessible methods to inform modeling, experimentation, and decision-making.</description>
     </item>
     
     <item>

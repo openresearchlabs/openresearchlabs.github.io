@@ -18,7 +18,7 @@
   
   <meta name="description" content="Site template made by devcows using hugo">
 
-  <meta name="generator" content="Hugo 0.78.2" />
+  <meta name="generator" content="Hugo 0.75.1" />
 
   
   <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
@@ -55,7 +55,7 @@
   <link href="/css/owl.theme.css" rel="stylesheet">
 
   
-  <link rel="alternate" href="http://datascience.utu.fi/index.xml" type="application/rss+xml" title="Universal">
+  <link rel="alternate" href="http://datascience.utu.fi/index.xml" type="application/rss+xml" title="Turku Data Science Group">
 
   
   
@@ -74,6 +74,24 @@
   <meta name="twitter:description" content="Site template made by devcows using hugo">
   
 
+  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3FJ60G61DS"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-3FJ60G61DS');
+      console.log('Test Google Analytics')
+    </script>
+  
+    <script type="text/javascript">
+    var _mtm = window._mtm = window._mtm || [];
+    _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src='https://analytics.utu.fi/js/container_5AYuB7oa.js'; s.parentNode.insertBefore(g,s);
+    </script>
+  
 </head>
 
 
@@ -82,12 +100,12 @@
     <div id="all">
 
         <header class="navbar-affixed-top" data-spy="affix" data-offset-top="62">
-    <div class="navbar navbar-default yamm" role="navigation" id="navbar">    
+    <div class="navbar navbar-default yamm" role="navigation" style="padding-left: 0px;" id="navbar">    
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand home" href="/">
-                    <img src="/img/logopic/turun_yliopisto_logo_rgb.png" alt="404 Page not found logo" class="hidden-xs hidden-sm">
-                    <img src="/img/logo-small.png" alt="404 Page not found logo" class="visible-xs visible-sm">
+                    <img src="/img/logopic/university_turku.png" alt="404 Page not found logo" class="hidden-xs hidden-sm university-logo">
+                    
                     <span class="sr-only">404 Page not found - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
@@ -95,9 +113,11 @@
                       <span class="sr-only">Toggle Navigation</span>
                         <i class="fas fa-align-justify"></i>
                     </button>
-                </div>
+                </div>            
+                <a href="/"><div class="title">Turku Data Science Group</div></a>
             </div>
             
+
 
             <div class="navbar-collapse collapse" id="navigation">
                 <ul class="nav navbar-nav navbar-right">
@@ -106,49 +126,61 @@
                   
                   <li class="dropdown">
                     
-                    <a href="/">Home</a>
+                        
+                            <li><a href="/">Home</a></li>
+                        
                     
                   </li>
                   
                   
                   <li class="dropdown">
                     
-                    <a href="/blog/">News</a>
+                        
+                            <li class = "dropdown-list"> 
+                                <a class ="dropbtn"  href="/research-topics">Research</a>
+                                
+                            </li>
+                            
+                        
+                        
                     
                   </li>
                   
                   
                   <li class="dropdown">
                     
-                    <a href="/research/">Research</a>
+                        
+                            <li class = "dropdown-list"> 
+                                <a class ="dropbtn" href="/edu-topics">Edu</a>
+                                
+                        
                     
                   </li>
                   
                   
                   <li class="dropdown">
                     
-                    <a href="/edu/">Edu</a>
+                        
+                            <li><a href="/code/">Code</a></li>
+                        
                     
                   </li>
                   
                   
                   <li class="dropdown">
                     
-                    <a href="/code/">Code</a>
+                        
+                            <li><a href="/team/">Team</a></li>
+                        
                     
                   </li>
                   
                   
                   <li class="dropdown">
                     
-                    <a href="/team/">Team</a>
-                    
-                  </li>
-                  
-                  
-                  <li class="dropdown">
-                    
-                    <a href="/contact/">Contact</a>
+                        
+                            <li><a href="/contact/">Contact</a></li>
+                        
                     
                   </li>
                   
@@ -172,7 +204,7 @@
 </header>
 
 
-
+        
 
         <div id="content">
             <div class="container">
@@ -213,54 +245,7 @@
 
         <div class="col-md-4 col-sm-6">
 
-             
-            <h4>Recent posts</h4>
-
-            <div class="blog-entries">
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="http://datascience.utu.fi/blog/2021/02/12/2021-02-12-aatsinki/">
-                          
-                            <img src="/img/placeholder.png" class="img-responsive" alt="Doctoral dissertation of Anna Aatsinki">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="http://datascience.utu.fi/blog/2021/02/12/2021-02-12-aatsinki/">Doctoral dissertation of Anna Aatsinki</a></h5>
-                    </div>
-                </div>
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="http://datascience.utu.fi/blog/2021/02/12/2021-02-21-geofi/">
-                          
-                            <img src="/img/placeholder.png" class="img-responsive" alt="R package geofi for Finnish geospatial data">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="http://datascience.utu.fi/blog/2021/02/12/2021-02-21-geofi/">R package geofi for Finnish geospatial data</a></h5>
-                    </div>
-                </div>
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="http://datascience.utu.fi/blog/2021/02/09/2021-02-09-wg/">
-                          
-                            <img src="/img/placeholder.png" class="img-responsive" alt="Work group set to re-evaluate publicity law">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="http://datascience.utu.fi/blog/2021/02/09/2021-02-09-wg/">Work group set to re-evaluate publicity law</a></h5>
-                    </div>
-                </div>
-                
-            </div>
-
-            <hr class="hidden-md hidden-lg">
-             
+            
 
         </div>
         
@@ -269,6 +254,18 @@
         <div class="col-md-4 col-sm-6">
 
           <h4>Contact</h4>
+           <div class="social">
+            
+            <script type="text/javascript">console.log("https:\/\/github.com\/openresearchlabs\/");</script>
+            <a href="https://github.com/openresearchlabs/" target="_blank" style="opacity: 1;"><i class='fab fa-2x fa-github'></i></a>
+            
+            <script type="text/javascript">console.log("https:\/\/twitter.com\/openreslabs");</script>
+            <a href="https://twitter.com/openreslabs" target="_blank" style="opacity: 1;"><i class='fab fa-2x fa-twitter'></i></a>
+            
+            <script type="text/javascript">console.log("mailto:leo.lahti@utu.fi");</script>
+            <a href="mailto:leo.lahti@utu.fi" target="_blank" style="opacity: 1;"><i class='fas fa-2x fa-envelope'></i></a>
+            
+          </div>
 
             <p class="text-uppercase"><strong>Turku Data Science Group</strong>
         <br>University of Turku

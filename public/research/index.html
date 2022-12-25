@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<script>console.log("Test")</script>
+
   <head>
   <meta charset="utf-8">
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <title>Research</title>
+  <title>Researches</title>
   <meta name="author" content="DevCows" />
   
   
   
   
-  <meta name="keywords" content="devows, hugo, go, research">
+  <meta name="keywords" content="devows, hugo, go">
   
   
-  <meta name="description" content="Research">
+  <meta name="description" content="Site template made by devcows using hugo">
 
-  <meta name="generator" content="Hugo 0.78.2" />
+  <meta name="generator" content="Hugo 0.75.1" />
 
   
   <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
@@ -55,7 +55,7 @@
   <link href="/css/owl.theme.css" rel="stylesheet">
 
   
-  <link rel="alternate" href="http://datascience.utu.fi/index.xml" type="application/rss+xml" title="Universal">
+  <link rel="alternate" href="http://datascience.utu.fi/index.xml" type="application/rss+xml" title="Turku Data Science Group">
 
   
   
@@ -69,11 +69,29 @@
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@GoHugoIO">
-  <meta name="twitter:title" content="Research">
+  <meta name="twitter:title" content="Researches">
   
-  <meta name="twitter:description" content="Research">
+  <meta name="twitter:description" content="Site template made by devcows using hugo">
   
 
+  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3FJ60G61DS"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-3FJ60G61DS');
+      console.log('Test Google Analytics')
+    </script>
+  
+    <script type="text/javascript">
+    var _mtm = window._mtm = window._mtm || [];
+    _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src='https://analytics.utu.fi/js/container_5AYuB7oa.js'; s.parentNode.insertBefore(g,s);
+    </script>
+  
 </head>
 
 
@@ -82,22 +100,24 @@
     <div id="all">
 
         <header class="navbar-affixed-top" data-spy="affix" data-offset-top="62">
-    <div class="navbar navbar-default yamm" role="navigation" id="navbar">    
+    <div class="navbar navbar-default yamm" role="navigation" style="padding-left: 0px;" id="navbar">    
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand home" href="/">
-                    <img src="/img/logopic/turun_yliopisto_logo_rgb.png" alt="Research logo" class="hidden-xs hidden-sm">
-                    <img src="/img/logo-small.png" alt="Research logo" class="visible-xs visible-sm">
-                    <span class="sr-only">Research - go to homepage</span>
+                    <img src="/img/logopic/university_turku.png" alt="Researches logo" class="hidden-xs hidden-sm university-logo">
+                    
+                    <span class="sr-only">Researches - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
                       <span class="sr-only">Toggle Navigation</span>
                         <i class="fas fa-align-justify"></i>
                     </button>
-                </div>
+                </div>            
+                <a href="/"><div class="title">Turku Data Science Group</div></a>
             </div>
             
+
 
             <div class="navbar-collapse collapse" id="navigation">
                 <ul class="nav navbar-nav navbar-right">
@@ -106,49 +126,61 @@
                   
                   <li class="dropdown">
                     
-                    <a href="/">Home</a>
-                    
-                  </li>
-                  
-                  
-                  <li class="dropdown">
-                    
-                    <a href="/blog/">News</a>
+                        
+                            <li><a href="/">Home</a></li>
+                        
                     
                   </li>
                   
                   
                   <li class="dropdown active">
                     
-                    <a href="/research/">Research</a>
+                        
+                            <li class = "dropdown-list"> 
+                                <a class ="dropbtn"  href="/research-topics">Research</a>
+                                
+                            </li>
+                            
+                        
+                        
                     
                   </li>
                   
                   
                   <li class="dropdown">
                     
-                    <a href="/edu/">Edu</a>
+                        
+                            <li class = "dropdown-list"> 
+                                <a class ="dropbtn" href="/edu-topics">Edu</a>
+                                
+                        
                     
                   </li>
                   
                   
                   <li class="dropdown">
                     
-                    <a href="/code/">Code</a>
+                        
+                            <li><a href="/code/">Code</a></li>
+                        
                     
                   </li>
                   
                   
                   <li class="dropdown">
                     
-                    <a href="/team/">Team</a>
+                        
+                            <li><a href="/team/">Team</a></li>
+                        
                     
                   </li>
                   
                   
                   <li class="dropdown">
                     
-                    <a href="/contact/">Contact</a>
+                        
+                            <li><a href="/contact/">Contact</a></li>
+                        
                     
                   </li>
                   
@@ -172,137 +204,97 @@
 </header>
 
 
-
+        
 
         <div id="heading-breadcrumbs">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Research</h1>
+                <h1>Researches</h1>
             </div>
         </div>
     </div>
 </div>
 
-
         <div id="content">
-            
-
             <div class="container">
-
                 <div class="row">
+                    
 
-                    <div class="col-md-12">
+                    <div class="col-md-9" id="blog-listing-medium">
 
-                        <div>
-                          <h1 id="research-topics">Research topics</h1>
-<p><strong>TEST Our research focuses on computational analysis and understanding of complex natural and social systems.</strong> There is a great demand for
-targeted computational techniques to extract information and insights
-from rich data collections based on clever combinations of human and
-machine intelligence. We blend elements from fields such as machine
-learning/AI, probabilistic programming, statistical ecology, and data
-science, and drive open developer communities that help to translate
-latest theoretical advances into accessible methods to inform
-modeling, experimentation, and decision-making.</p>
-<p><strong>Key applications</strong> include microbiome research, population cohort
-studies, and computational social sciences and humanities (SSH). We
-also coordinate the <a href="https://fi.okfn.org/wg/openscience/">Open Knowledge Finland Open Science work
-group</a>, which received <strong>Open
-Science and Research award of the Ministry of Education and Culture in
-2017</strong>.</p>
-<h3 id="publications">Publications</h3>
-<p>See <a href="https://scholar.google.co.uk/citations?user=mjjV-AoAAAAJ&amp;hl=fi&amp;oi=ao">Google scholar</a>.</p>
-<p>Full list under construction.</p>
-<h3 id="funding-and-support">Funding and support</h3>
-<p>We are greatful for the support from University of Turku, Academy of
-Finland, European Union (COST / H2020), foundations, and other
-sources.</p>
-<img src="../img/logopic/aka.png" width="150">
-<img src="../img/logopic/EU-H2020-logo.png" width="200">     
-<img src="../img/logopic/turun_yliopisto_logo_rgb.png" width="150">
-<img src="../img/logopic/cost.png" width="150">
-<img src="../img/logopic/sitra.png" width="150">
-<img src="../img/logopic/kordelin.png" width="150">
-<img src="../img/logopic/hri.png" width="150">
-<img src="../img/logopic/apps4-logo.jpg" width="150">
-<img src="../img/logopic/wici.png" width="150">
-<img src="../img/logopic/dupuytren.jpg" width="100">
-<img src="../img/logopic/Blueprint1.png" width="100">
-<img src="../img/logopic/KONE_green_en.jpeg" width="150">
-<img src="../img/logopic/sparc.png" width="150">
-<img src="../img/logopic/cropped-Turun_Yliopistosaatio_200px.jpg" width="70">
-<!-- <img src="../img/dialister.png" width="200"> -->
-<!--
+                        
+                        
 
-**Functional genomics** Mapping of the three billion base-pair human
-genome sequence in 2001 was the first step towards uncovering the
-dynamic and contextual functional properties of the
-genome. Understanding functional organization of genetic information
-and its regulation through transcriptional, epigenetic, and other
-mechanisms remains a key challenge for human biology. We have done
-research in cancer studies, large gene expression databases, and
-multi-omics data integration.  <!--In the thesis work, I developed
-open source machine learning algorithms for data integration in
-functional genomics.  For more details, check the [list of
-publications](/work/pubs) and the [PhD
-thesis](http://lib.tkk.fi/Diss/2010/isbn9789526033686).--> 
-<!--<img src="../img/isme14.jpg" width="200">
+                        <ul class="pager">
+                            
+                            <li class="previous disabled"><a href="#">&larr; Newer</a></li>
+                            
 
-such as human microbiome, experimental ecology and
-evolution, history of knowledge production in western societies, and
-open research software for social sciences and humanities (SSH)
-research.
+                            
+                            <li class="next disabled"><a href="#">Older &rarr;</a></li>
+                            
+                        </ul>
+                    </div>
+                    
 
--->
-<!--
+                    
 
-### Highlights
+                    
 
-[rOpenGov](https://ropengov.org) developer network and
+                    <div class="col-md-3">
 
-We develop theory, methods and applications of modern statistical data analysis.
+                        
 
-We have
-advocated open science, and some highlights include a [report on the
-openness of academic
-publishers](https://openscience.fi/-/openness-of-academic-publishers-evaluated-for-the-first-time),
-commissioned by Finnish Ministry of Education and Culture; [opening of
-several agreements with academic publishers in
-2017-2019](http://finelib.fi/finelib-agreements-published/) and
-[opening of scientific journal subscription costs in Finland
-2010-2017](https://fi.okfn.org/2018/08/27/finland-remains-a-leading-country-in-the-transparency-of-academic-publishing-costs)
-following our FOI requests. 
+                        
 
-We collaborate actively with applied research teams, such as
-[Helsinki Computational History (COMHIS)
-Group](https://www.helsinki.fi/en/researchgroups/computational-history)
-to model and analysed the history of knowledge production following
-the emergence of print press in the fifteenth century.
+<div class="panel panel-default sidebar-menu">
 
--->
-<!-- (see a [poster in Digital
-Humanities
-2019](https://www.helsinki.fi/en/researchgroups/computational-history/dh2019-poster)). -->
-<!--
+    <div class="panel-heading">
+      <h3 class="panel-title">Search</h3>
+    </div>
 
-**Key collaborators**
+    <div class="panel-body">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
+            <div class="input-group">
+                <input type="search" name="q" class="form-control" placeholder="Search">
+                <input type="hidden" name="sitesearch" value="http://datascience.utu.fi/">
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
+                </span>
+            </div>
+        </form>
+    </div>
+</div>
 
-- [Jeroen Raes Lab](http://www.raeslab.org/) at VIB/KU Leuven on bioinformatics and ecosystems< biology.
-- [Prof Willem de Vos](https://tuhat.helsinki.fi/portal/fi/person/wdevos) Helsinki/Wageningen; human gut microbial ecology. 
-- Prof Mikko Tolonen. I am an active and founding member of [Helsinki Computational History Group](http://comhis.github.io/)
---><blockquote>
-</blockquote>
 
-                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        
 
                     </div>
+                    
+
+                    
 
                 </div>
                 
-
             </div>
-            
-
             
         </div>
         
@@ -324,54 +316,7 @@ Humanities
 
         <div class="col-md-4 col-sm-6">
 
-             
-            <h4>Recent posts</h4>
-
-            <div class="blog-entries">
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="http://datascience.utu.fi/blog/2021/02/12/2021-02-12-aatsinki/">
-                          
-                            <img src="/img/placeholder.png" class="img-responsive" alt="Doctoral dissertation of Anna Aatsinki">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="http://datascience.utu.fi/blog/2021/02/12/2021-02-12-aatsinki/">Doctoral dissertation of Anna Aatsinki</a></h5>
-                    </div>
-                </div>
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="http://datascience.utu.fi/blog/2021/02/12/2021-02-21-geofi/">
-                          
-                            <img src="/img/placeholder.png" class="img-responsive" alt="R package geofi for Finnish geospatial data">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="http://datascience.utu.fi/blog/2021/02/12/2021-02-21-geofi/">R package geofi for Finnish geospatial data</a></h5>
-                    </div>
-                </div>
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="http://datascience.utu.fi/blog/2021/02/09/2021-02-09-wg/">
-                          
-                            <img src="/img/placeholder.png" class="img-responsive" alt="Work group set to re-evaluate publicity law">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="http://datascience.utu.fi/blog/2021/02/09/2021-02-09-wg/">Work group set to re-evaluate publicity law</a></h5>
-                    </div>
-                </div>
-                
-            </div>
-
-            <hr class="hidden-md hidden-lg">
-             
+            
 
         </div>
         
@@ -380,6 +325,18 @@ Humanities
         <div class="col-md-4 col-sm-6">
 
           <h4>Contact</h4>
+           <div class="social">
+            
+            <script type="text/javascript">console.log("https:\/\/github.com\/openresearchlabs\/");</script>
+            <a href="https://github.com/openresearchlabs/" target="_blank" style="opacity: 1;"><i class='fab fa-2x fa-github'></i></a>
+            
+            <script type="text/javascript">console.log("https:\/\/twitter.com\/openreslabs");</script>
+            <a href="https://twitter.com/openreslabs" target="_blank" style="opacity: 1;"><i class='fab fa-2x fa-twitter'></i></a>
+            
+            <script type="text/javascript">console.log("mailto:leo.lahti@utu.fi");</script>
+            <a href="mailto:leo.lahti@utu.fi" target="_blank" style="opacity: 1;"><i class='fas fa-2x fa-envelope'></i></a>
+            
+          </div>
 
             <p class="text-uppercase"><strong>Turku Data Science Group</strong>
         <br>University of Turku

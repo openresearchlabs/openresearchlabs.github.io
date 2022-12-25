@@ -18,7 +18,7 @@
   
   <meta name="description" content="Code resources">
 
-  <meta name="generator" content="Hugo 0.78.2" />
+  <meta name="generator" content="Hugo 0.75.1" />
 
   
   <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
@@ -55,7 +55,7 @@
   <link href="/css/owl.theme.css" rel="stylesheet">
 
   
-  <link rel="alternate" href="http://datascience.utu.fi/index.xml" type="application/rss+xml" title="Universal">
+  <link rel="alternate" href="http://datascience.utu.fi/index.xml" type="application/rss+xml" title="Turku Data Science Group">
 
   
   
@@ -74,6 +74,24 @@
   <meta name="twitter:description" content="Code resources">
   
 
+  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3FJ60G61DS"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-3FJ60G61DS');
+      console.log('Test Google Analytics')
+    </script>
+  
+    <script type="text/javascript">
+    var _mtm = window._mtm = window._mtm || [];
+    _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src='https://analytics.utu.fi/js/container_5AYuB7oa.js'; s.parentNode.insertBefore(g,s);
+    </script>
+  
 </head>
 
 
@@ -82,12 +100,12 @@
     <div id="all">
 
         <header class="navbar-affixed-top" data-spy="affix" data-offset-top="62">
-    <div class="navbar navbar-default yamm" role="navigation" id="navbar">    
+    <div class="navbar navbar-default yamm" role="navigation" style="padding-left: 0px;" id="navbar">    
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand home" href="/">
-                    <img src="/img/logopic/turun_yliopisto_logo_rgb.png" alt="Code logo" class="hidden-xs hidden-sm">
-                    <img src="/img/logo-small.png" alt="Code logo" class="visible-xs visible-sm">
+                    <img src="/img/logopic/university_turku.png" alt="Code logo" class="hidden-xs hidden-sm university-logo">
+                    
                     <span class="sr-only">Code - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
@@ -95,9 +113,11 @@
                       <span class="sr-only">Toggle Navigation</span>
                         <i class="fas fa-align-justify"></i>
                     </button>
-                </div>
+                </div>            
+                <a href="/"><div class="title">Turku Data Science Group</div></a>
             </div>
             
+
 
             <div class="navbar-collapse collapse" id="navigation">
                 <ul class="nav navbar-nav navbar-right">
@@ -106,49 +126,61 @@
                   
                   <li class="dropdown">
                     
-                    <a href="/">Home</a>
+                        
+                            <li><a href="/">Home</a></li>
+                        
                     
                   </li>
                   
                   
                   <li class="dropdown">
                     
-                    <a href="/blog/">News</a>
+                        
+                            <li class = "dropdown-list"> 
+                                <a class ="dropbtn"  href="/research-topics">Research</a>
+                                
+                            </li>
+                            
+                        
+                        
                     
                   </li>
                   
                   
                   <li class="dropdown">
                     
-                    <a href="/research/">Research</a>
-                    
-                  </li>
-                  
-                  
-                  <li class="dropdown">
-                    
-                    <a href="/edu/">Edu</a>
+                        
+                            <li class = "dropdown-list"> 
+                                <a class ="dropbtn" href="/edu-topics">Edu</a>
+                                
+                        
                     
                   </li>
                   
                   
                   <li class="dropdown active">
                     
-                    <a href="/code/">Code</a>
+                        
+                            <li><a href="/code/">Code</a></li>
+                        
                     
                   </li>
                   
                   
                   <li class="dropdown">
                     
-                    <a href="/team/">Team</a>
+                        
+                            <li><a href="/team/">Team</a></li>
+                        
                     
                   </li>
                   
                   
                   <li class="dropdown">
                     
-                    <a href="/contact/">Contact</a>
+                        
+                            <li><a href="/contact/">Contact</a></li>
+                        
                     
                   </li>
                   
@@ -172,7 +204,7 @@
 </header>
 
 
-
+        
 
         <div id="heading-breadcrumbs">
     <div class="container">
@@ -195,30 +227,83 @@
                     <div class="col-md-12">
 
                         <div>
-                          <h1 id="open-research-data-and-software">Open research data and software</h1>
-<p><a href="http://depsy.org/person/333684"><img src="http://depsy.org/api/person/333684/badge.svg" alt="Research software impact"></a>. Mature open source projects are listed below.</p>
-<h3 id="statistical-ecology-and-machine-learning">Statistical ecology and machine learning</h3>
-<p><strong><a href="http://microbiome.github.io">Microbiome bioinformatics software and tutorials</a></strong></p>
-<p><strong><a href="http://dmt.r-forge.r-project.org">DMT</a></strong> Dependency Modeling Toolkit. Probabilistic tools for dependency analysis between multiple data sources (R/CRAN). Probabilistic PCA, factor analysis, CCA, regularized variants, dependency-based dimensionality reduction etc. <em>ICML/MLOSS workshop, Israel 2010</em>.</p>
-<!--**[earlywarnings](http://www.early-warning-signals.org/)** Methods for identification of critical transitions between ecosystem states from time series data (CRAN). Co-developer. [CRAN](http://cran.r-project.org/web/packages/earlywarnings/index.html)/[Github](https://github.com/earlywarningtoolbox/earlywarnings-R/tree/master/earlywarnings). _WICI Data Challenge 2013 runner-up / Waterloo Institute for Complex Systems and Innovation._-->
-<h3 id="bioinformatics">Bioinformatics</h3>
-<p><strong><a href="http://bioconductor.org/packages/release/bioc/html/netresponse.html">netresponse</a></strong> Modeling context-specific activation patterns in genome-wide interaction networks (R/Matlab). Originally applied to study transcriptional responses in genome-scale interaction networks across organism-wide collections of gene expression data. <a href="https://doi.org/10.18129/B9.BIOC.NETRESPONSE">doi:10.18129/B9.BIOC.NETRESPONSE</a></p>
-<p><strong><a href="http://bioconductor.org/packages/release/bioc/html/RPA.html">RPA</a></strong> (R/Bioconductor). Scalable probabilistic method for preprocessing short oligo microarray data. <a href="http://nar.oxfordjournals.org/content/early/2013/04/05/nar.gkt229.abstract"><em>NAR</em> 2013</a>. <a href="https://doi.org/10.18129/B9.BIOC.RPA">doi:10.18129/B9.BIOC.RPA</a></p>
-<p><strong><a href="http://intcomp.r-forge.r-project.org">intcomp</a></strong> Benchmarking for integrative cancer gene discovery algorithms. <a href="http://bib.oxfordjournals.org/content/early/2012/03/21/bib.bbs005.abstract"><em>Briefings in Bioinformatics</em> 2012</a></p>
-<p><strong><a href="https://github.com/antagomir/pint">pint</a></strong> Probabilistic data integration for DNA/RNA data in functional genomics (R/Bioc). <a href="http://arxiv.org/abs/1101.5919"><em>MLSP</em> 2009</a>.</p>
-<h3 id="digital-humanities-and-computational-social-science">Digital Humanities and Computational Social Science</h3>
-<p><strong><a href="https://ropengov.org">rOpenGov</a></strong> R package ecosystem for open government data analytics (R/GitHub). introduced in NIPS Machine Learning Open Source Software workshop 2013.</p>
-<p><strong><a href="http://helsinki.fi/computational-history">COMHIS</a></strong> Helsinki Computational History Group data analytics infrastructure.</p>
-<h2 id="data">Data</h2>
-<h3 id="microbiome-research">Microbiome research</h3>
-<p>Various data sets related to publications available in the following
-open repositories:</p>
-<p><a href="https://datadryad.org/search?utf8=%E2%9C%93&amp;q=Leo+Lahti">Data Dryad</a></p>
-<p><a href="https://figshare.com/search?q=Leo+Lahti">Figshare</a></p>
-<p><a href="https://microbiome.github.io/">Github</a></p>
-<h3 id="academic-publishing">Academic publishing</h3>
-<p><a href="http://finelib.fi/negotiations/negotiations/">Full agreement texts for academic publisher agreements</a>. The agreements were released by the FinELib consortium of research libraries following our FOI request in April 2018.</p>
-<p><a href="http://ropengov.github.io/r/2018/12/05/FOI/">Scientific journal subscription costs in Finland 2010-2017; MoE/ATT</a>. The data set was released by Finnish Ministry of Education (Open Science and Research Initiative) following my Freedom of Information Request (<a href="http://ropengov.github.io/r/2016/06/10/FOI/">summary</a>). Finland became the first country to systematically collect and release this information.</p>
+                          <div class="code-boxes-container">
+  <div class="miaverse-logo">
+    <a href="https://microbiome.github.io/" target="_blank"><img class="pic-code" src="../img/boxes-code/miaverse_logo.png"/></a>
+  </div>
+  <div class="miaverse-text">
+    <div class="text-boxes"><p> Statistical and Machine Learning Techniques for Human Microbiome Studies COST action</p></div>
+  </div>
+  <div class="ropengov-logo">
+    <a href="http://ropengov.org/" target="_blank"><img class="pic-code" src="../img/boxes-code/ropengov.PNG"/></a>
+  </div>
+  <div class="ropengov-text">
+    <div class="text-boxes"><p> Open government data analytics with R. An international developer network, originally introduced in NIPS Machine Learning Open Source Software workshop 2013.
+  </p></div>
+  </div>
+  <div class="cran-logo">
+    <a href="" target="_blank"><img class="pic-code" src="../img/boxes-code/Rlogo.jpg"/></a>
+  </div>
+  <div class="cran-text">
+    <div class="text-boxes"><p> R/CRAN packages.
+    <ul>
+    <li><a href="http://dmt.r-forge.r-project.org">DMT Dependency Modeling Toolkit</a>. ICML/MLOSS workshop, Israel 2010.</li>
+    <li><a href="http://www.early-warning-signals.org/">earlywarnings</a>. Methods for identification of critical transitions between ecosystem states from time series data (CRAN).</li>
+    </ul>
+  </p></div>
+  </div>
+  <div class="bioconductor-logo">
+    <a href="https://www.bioconductor.org/help/search/index.html?q=Leo+Lahti/" target="_blank"><img class="pic-code" src="../img/boxes-code/bioconductorlogo.jpg"/></a>
+  </div>
+  <div class="bioconductor-text">
+    <div class="text-boxes"><p> R/Bioconductor projects</p>
+      <ul>
+        <li><a href="http://microbiome.github.io">Microbiome bioinformatics software and tutorials</a></li>
+        <li><a href="http://bioconductor.org/packages/release/bioc/html/RPA.html">Robust Probabilistic Averaging</a> - scalable method for preprocessing short oligo microarray data. <!--<a href="http://nar.oxfordjournals.org/content/early/2013/04/05/nar.gkt229.abstract">NAR 2013</a>--></li>
+        <li><a href="http://bioconductor.org/packages/release/bioc/html/netresponse.html">netresponse</a> for functional network analysis and modeling of context-specific activation patterns <!--<a href="https://doi.org/10.18129/B9.BIOC.NETRESPONSE">Bioinformatics 2010</a>--></li>
+        <!--<li><a href="https://github.com/antagomir/pint">Probabilistic data integration for DNA/RNA data in functional genomics</a></li>-->
+        <!--<li><a href="http://intcomp.r-forge.r-project.org">intcomp</a>. Benchmarking for integrative cancer gene discovery algorithms. <a href="http://bib.oxfordjournals.org/content/early/2012/03/21/bib.bbs005.abstract">Briefings in Bioinformatics 2012</a> </li>-->
+      </ul>
+    </div>
+  </div>
+  <div class="julia-logo">
+    <a href="https://github.com/JuliaTurkuDataScience/" target="_blank"><img class="pic-code" src="../img/boxes-code/julialogo.png"/></a>
+  </div>
+  <div class="julia-text">
+    <div class="text-boxes"><p> Julia projects</p>
+      <ul>
+        <li>Julia tools for ecological modeling.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="COMHIS-logo">
+    <a href="https://www2.helsinki.fi/en/researchgroups/computational-history" target="_blank"><img class="pic-code" src="../img/boxes-code/comhis.png"/></a>
+  </div>
+  <div class="COMHIS-text">
+    <div class="text-boxes"> <p>Computational history, with a focus on European knowledge production in early modern era</p> </div>
+  </div>
+  <div class="data-logo">
+    <a href="https://datadryad.org/search?utf8=%E2%9C%93&q=Leo+Lahti" target="_blank"><img class="pic-code" src="../img/boxes-code/data-logo.png"/></a>
+  </div>
+  <div class="data-text">
+    <div class="text-boxes">
+      <b>Microbiome data</b> Various data sets related to publications available in open repositories:
+    <a href="https://datadryad.org/search?utf8=%E2%9C%93&q=Leo+Lahti">Data Dryad</a> |
+    <a href="https://figshare.com/search?q=Leo+Lahti">Figshare</a> | 
+    <a href="https://microbiome.github.io">Github</a>
+      <b>Academic publishing data from FOIs</b>
+    <a href="http://finelib.fi/negotiations/negotiations/">Full agreement texts for academic publisher agreements</a> | 
+    <a href="http://ropengov.github.io/r/2018/12/05/FOI/">Scientific journal subscription costs in Finland 2010-2017; MoE/ATT</a> <a href="http://ropengov.github.io/r/2016/06/10/FOI/">FOI Request</a>. 
+    </div>
+  </div>
+</div>
+<!--
+
+INSTRUCTIONS:
+
+- MODIFY TEXTS AT themes/hugo-universal-theme/static/css
+
+-->
 
                         </div>
 
@@ -251,54 +336,7 @@ open repositories:</p>
 
         <div class="col-md-4 col-sm-6">
 
-             
-            <h4>Recent posts</h4>
-
-            <div class="blog-entries">
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="http://datascience.utu.fi/blog/2021/02/12/2021-02-12-aatsinki/">
-                          
-                            <img src="/img/placeholder.png" class="img-responsive" alt="Doctoral dissertation of Anna Aatsinki">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="http://datascience.utu.fi/blog/2021/02/12/2021-02-12-aatsinki/">Doctoral dissertation of Anna Aatsinki</a></h5>
-                    </div>
-                </div>
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="http://datascience.utu.fi/blog/2021/02/12/2021-02-21-geofi/">
-                          
-                            <img src="/img/placeholder.png" class="img-responsive" alt="R package geofi for Finnish geospatial data">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="http://datascience.utu.fi/blog/2021/02/12/2021-02-21-geofi/">R package geofi for Finnish geospatial data</a></h5>
-                    </div>
-                </div>
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="http://datascience.utu.fi/blog/2021/02/09/2021-02-09-wg/">
-                          
-                            <img src="/img/placeholder.png" class="img-responsive" alt="Work group set to re-evaluate publicity law">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="http://datascience.utu.fi/blog/2021/02/09/2021-02-09-wg/">Work group set to re-evaluate publicity law</a></h5>
-                    </div>
-                </div>
-                
-            </div>
-
-            <hr class="hidden-md hidden-lg">
-             
+            
 
         </div>
         
@@ -307,6 +345,18 @@ open repositories:</p>
         <div class="col-md-4 col-sm-6">
 
           <h4>Contact</h4>
+           <div class="social">
+            
+            <script type="text/javascript">console.log("https:\/\/github.com\/openresearchlabs\/");</script>
+            <a href="https://github.com/openresearchlabs/" target="_blank" style="opacity: 1;"><i class='fab fa-2x fa-github'></i></a>
+            
+            <script type="text/javascript">console.log("https:\/\/twitter.com\/openreslabs");</script>
+            <a href="https://twitter.com/openreslabs" target="_blank" style="opacity: 1;"><i class='fab fa-2x fa-twitter'></i></a>
+            
+            <script type="text/javascript">console.log("mailto:leo.lahti@utu.fi");</script>
+            <a href="mailto:leo.lahti@utu.fi" target="_blank" style="opacity: 1;"><i class='fas fa-2x fa-envelope'></i></a>
+            
+          </div>
 
             <p class="text-uppercase"><strong>Turku Data Science Group</strong>
         <br>University of Turku

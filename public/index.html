@@ -7,18 +7,18 @@
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <title>Universal</title>
+  <title>Recent Publications</title>
   <meta name="author" content="DevCows" />
   
   
   
   
-  <meta name="keywords" content="devows, hugo, go">
+  <meta name="keywords" content="devows, hugo, go, papers,, publications">
   
   
-  <meta name="description" content="Site template made by devcows using hugo">
+  <meta name="description" content="Research outputs">
 
-  <meta name="generator" content="Hugo 0.78.2" />
+  <meta name="generator" content="Hugo 0.75.1" />
 
   
   <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
@@ -55,7 +55,7 @@
   <link href="/css/owl.theme.css" rel="stylesheet">
 
   
-  <link rel="alternate" href="http://datascience.utu.fi/index.xml" type="application/rss+xml" title="Universal">
+  <link rel="alternate" href="http://datascience.utu.fi/index.xml" type="application/rss+xml" title="Turku Data Science Group">
 
   
   
@@ -63,17 +63,35 @@
   
   
   
-  <meta property="og:updated_time" content="2021-02-12T00:00:00Z">
+  
   
 
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@GoHugoIO">
-  <meta name="twitter:title" content="Universal">
+  <meta name="twitter:title" content="Recent Publications">
   
-  <meta name="twitter:description" content="Site template made by devcows using hugo">
+  <meta name="twitter:description" content="Research outputs">
   
 
+  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3FJ60G61DS"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-3FJ60G61DS');
+      console.log('Test Google Analytics')
+    </script>
+  
+    <script type="text/javascript">
+    var _mtm = window._mtm = window._mtm || [];
+    _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src='https://analytics.utu.fi/js/container_5AYuB7oa.js'; s.parentNode.insertBefore(g,s);
+    </script>
+  
 </head>
 
 
@@ -82,52 +100,26 @@
     <div id="all">
 
         
-<header>
-  <div id="top">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-5">
-          <p class="hidden-sm hidden-xs">Contact us on first.last@utu.fi</p>
-      <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
-      <a href="#" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
-      </p>
-      
-        </div>
-        <div class="col-xs-7">
-          <div class="social">
-            
-            <a href="https://github.com/devcows/hugo-universal-theme" target="_blank" style="opacity: 1;"><i class='fab fa-2x fa-github'></i></a>
-            
-            <a href="http://twitter.com/antagomir" target="_blank" style="opacity: 1;"><i class='fab fa-2x fa-twitter'></i></a>
-            
-            <a href="mailto:leo.lahti@utu.fi" target="_blank" style="opacity: 1;"><i class='fas fa-2x fa-envelope'></i></a>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</header>
-
-
 
         <header class="navbar-affixed-top" data-spy="affix" data-offset-top="62">
-    <div class="navbar navbar-default yamm" role="navigation" id="navbar">    
+    <div class="navbar navbar-default yamm" role="navigation" style="padding-left: 0px;" id="navbar">    
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand home" href="/">
-                    <img src="/img/logopic/turun_yliopisto_logo_rgb.png" alt="Universal logo" class="hidden-xs hidden-sm">
-                    <img src="/img/logo-small.png" alt="Universal logo" class="visible-xs visible-sm">
-                    <span class="sr-only">Universal - go to homepage</span>
+                    <img src="/img/logopic/university_turku.png" alt="Recent Publications logo" class="hidden-xs hidden-sm university-logo">
+                    
+                    <span class="sr-only">Recent Publications - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
                       <span class="sr-only">Toggle Navigation</span>
                         <i class="fas fa-align-justify"></i>
                     </button>
-                </div>
+                </div>            
+                <a href="/"><div class="title">Turku Data Science Group</div></a>
             </div>
             
+
 
             <div class="navbar-collapse collapse" id="navigation">
                 <ul class="nav navbar-nav navbar-right">
@@ -136,49 +128,61 @@
                   
                   <li class="dropdown active">
                     
-                    <a href="/">Home</a>
+                        
+                            <li><a href="/">Home</a></li>
+                        
                     
                   </li>
                   
                   
                   <li class="dropdown">
                     
-                    <a href="/blog/">News</a>
+                        
+                            <li class = "dropdown-list"> 
+                                <a class ="dropbtn"  href="/research-topics">Research</a>
+                                
+                            </li>
+                            
+                        
+                        
                     
                   </li>
                   
                   
                   <li class="dropdown">
                     
-                    <a href="/research/">Research</a>
+                        
+                            <li class = "dropdown-list"> 
+                                <a class ="dropbtn" href="/edu-topics">Edu</a>
+                                
+                        
                     
                   </li>
                   
                   
                   <li class="dropdown">
                     
-                    <a href="/edu/">Edu</a>
+                        
+                            <li><a href="/code/">Code</a></li>
+                        
                     
                   </li>
                   
                   
                   <li class="dropdown">
                     
-                    <a href="/code/">Code</a>
+                        
+                            <li><a href="/team/">Team</a></li>
+                        
                     
                   </li>
                   
                   
                   <li class="dropdown">
                     
-                    <a href="/team/">Team</a>
-                    
-                  </li>
-                  
-                  
-                  <li class="dropdown">
-                    
-                    <a href="/contact/">Contact</a>
+                        
+                            <li><a href="/contact/">Contact</a></li>
+                        
                     
                   </li>
                   
@@ -202,78 +206,1422 @@
 </header>
 
 
+        
+ 
+        <div class="boxes-container">
+  <div class="box-element box-research">
+  	<a href="http://datascience.utu.fi/research-topics"><div class="box-logo">
+  		<img class="box-logo1" src="/img/boxes-logo/research-black.png"></img>
+  		<img class="box-logo2" src="/img/boxes-logo/research-white.png"></img>
+  	</div></a>
+  	<div class="box-title">
+  		<h3>Research</h3>
+  	</div>
+  	<div class="box-content">
+  		<p>All our research topics </p>
+  	</div>
+  </div>
+  
+  <a href="http://datascience.utu.fi/edu-topics"><div class="box-element box-EDU">
+  	<div class="box-logo">
+  		<img class="box-logo1" src="/img/boxes-logo/edu-black.png"></img>
+  		<img class="box-logo2" src="/img/boxes-logo/edu-white.png"></img>  	
+  	</div></a>
+  	<div class="box-title">
+  		<h3>EDU</h3>
+  	</div>
+  	<div class="box-content">
+  		<p>Education and academic events</p>
+  	</div>
+  </div>
+
+  <div class="box-element box-code">
+  	<a href="http://datascience.utu.fi/code"><div class="box-logo">
+  		<img class="box-logo1" src="/img/boxes-logo/code-black.png"></img>
+  		<img class="box-logo2" src="/img/boxes-logo/code-white.png"></img> 
+  	</div></a>
+  	<div class="box-title">
+  		<h3>Code</h3>
+  	</div>
+  	<div class="box-content">
+  		<p>Open research data and software</p>
+  	</div>
+  </div>
+
+  <div class="box-element box-team">
+  	<a href="http://datascience.utu.fi/team"><div class="box-logo">
+  		<img class="box-logo1" src="/img/boxes-logo/team-black.png"></img>
+  		<img class="box-logo2" src="/img/boxes-logo/team-white.png"></img> 
+  	</div></a>
+  	<div class="box-title">
+  		<h3>Team</h3>
+  	</div>
+  	<div class="box-content">
+  		<p>All members of the research team</p>
+  	</div>
+  </div>
+</div>
+
+        <div class="post-tweets-container">
+          
+          <div class="frontpage-recent-publications"></div>
+
+          <div id="frontpage-recent-publications">
+<h1 id="recent-publications">Recent publications</h1>
+<p>Recent publications below. See <a href="http://orcid.org/0000-0001-5537-637X">ORCID</a> for a full list. Full publication list is also available as <a href="https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/bibtex/lahti.bib">bibtex</a>. Copies of most papers are available <a href="https://github.com/openresearchlabs/openresearchlabs.github.io/tree/master/content/publication_resources">here</a>, and we share free copies upon request (contact the first/corresponding author).</p>
+<h2 id="computational-and-data-science">Computational and data science</h2>
+
+      
+
+
+
+<p>
+  
+  <b>Exit time as a measure of ecological resilience</b>
+  <br>
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    Arani
+       B,
+    
+  
+  
+    Nes
+       E,
+    
+  
+  
+    Lahti
+       L,
+    
+  
+  
+    Carpenter
+       S&#32;&amp;&#32;
+    
+  
+  
+    Scheffer
+       M.
+  
+  
+  
+
+<br>Science 372(6547),
+2021<br>
+
+
+
+
+  <a href="https://doi.org/10.1126/science.aay4895">10.1126/science.aay4895</a>
+
+
+
+</p>
+    
+  
+
+
+
+      
+
+
+
+<p>
+  
+  <b>Probabilistic early warning signals</b>
+  <br>
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    Laitinen
+       V,
+    
+  
+  
+    Dakos
+       V&#32;&amp;&#32;
+    
+  
+  
+    Lahti
+       L.
+  
+  
+  
+
+<br>Ecology &amp; Evolution 11(20),
+2021<br>
+
+
+
+
+  <a href="https://doi.org/10.1002/ece3.8123">10.1002/ece3.8123</a>
+
+
+
+</p>
+    
+  
+
+
+
+      
+
+
+
+<p>
+  
+  <b>Efficient computation of Faith’s phylogenetic diversity with applications in characterizing microbiomes</b>
+  <br>
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    Armstrong
+       G,
+    
+  
+  
+    Cantrell
+       K,
+    
+  
+  
+    Huang
+       S,
+    
+  
+  
+    McDonald
+       D,
+    
+  
+  
+    Haiminen
+       N,
+    
+  
+  
+    Carrieri
+       A,
+    
+  
+  
+    Zhu
+       Q,
+    
+  
+  
+    Gonzalez
+       A,
+    
+  
+  
+    McGrath
+       I,
+    
+  
+  
+    Beck
+       K,
+    
+  
+  
+    Hakim
+       D,
+    
+  
+  
+    Havulinna
+       A,
+    
+  
+  
+    Méric
+       G,
+    
+  
+  
+    Niiranen
+       T,
+    
+  
+  
+    Lahti
+       L,
+    
+  
+  
+    Salomaa
+       V,
+    
+  
+  
+    Jain
+       M,
+    
+  
+  
+    Inouye
+       M,
+    
+  
+  
+    Swafford
+       A,
+    
+  
+  
+    Kim
+       H,
+    
+  
+  
+    Parida
+       L,
+    
+  
+  
+    Vázquez-Baeza
+       Y&#32;&amp;&#32;
+    
+  
+  
+    Rob Knight
+      .
+  
+  
+  
+
+<br>Genome Research 31,
+2021<br>
+
+
+
+
+  <a href="https://doi.org/10.1101/gr.275777.121">10.1101/gr.275777.121</a>
+
+
+
+</p>
+    
+  
+
+
+
+      
+
+
+
+<p>
+  
+  <b>Wrangling with non-standard data</b>
+  <br>
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    Mäkelä
+       E,
+    
+  
+  
+    Lagus
+       K,
+    
+  
+  
+    Lahti
+       L,
+    
+  
+  
+    Säily
+       T,
+    
+  
+  
+    Tolonen
+       M,
+    
+  
+  
+    Hämäläinen
+       M,
+    
+  
+  
+    Kaislaniemi
+       S&#32;&amp;&#32;
+    
+  
+  
+    Nevalainen
+       T.
+  
+  
+  
+
+<br>Proc. Digital humanities in the nordic countries 2612,
+2020<br>
+
+
+
+
+
+
+  
+  <a href="https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2020-Makela-DHN.pdf">PDF</a>
+  
+
+</p>
+    
+  
+
+
+<h2 id="microbiome-data-science">Microbiome data science</h2>
+
+      
+
+
+
+<p>
+  
+  <b>Combined effects of host genetics and diet on human gut microbiota and incident disease in a single population cohort</b>
+  <br>
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    Qin
+       Y,
+    
+  
+  
+    Havulinna
+       A,
+    
+  
+  
+    Liu
+       Y,
+    
+  
+  
+    Jousilahti
+       P,
+    
+  
+  
+    Ritchie
+       S,
+    
+  
+  
+    Tokolyi
+       A,
+    
+  
+  
+    Sanders
+       J,
+    
+  
+  
+    Valsta
+       L,
+    
+  
+  
+    Brożyńska
+       M,
+    
+  
+  
+    Zhu
+       Q,
+    
+  
+  
+    Tripathi
+       A,
+    
+  
+  
+    Vázquez-Baeza
+       Y,
+    
+  
+  
+    Loomba
+       R,
+    
+  
+  
+    Cheng
+       S,
+    
+  
+  
+    Jain
+       M,
+    
+  
+  
+    Niiranen
+       T,
+    
+  
+  
+    Lahti
+       L,
+    
+  
+  
+    Knight
+       R,
+    
+  
+  
+    Salomaa
+       V,
+    
+  
+  
+    Inouye
+       M&#32;&amp;&#32;
+    
+  
+  
+    Méric
+       G.
+  
+  
+  
+
+<br>Nature Genetics 54(2),
+2022<br>
+
+
+
+
+  <a href="https://doi.org/10.1038/s41588-021-00991-z">10.1038/s41588-021-00991-z</a>
+
+
+
+</p>
+    
+  
+
+
+
+      
+
+
+
+<p>
+  
+  <b>Taxonomic signatures of cause-specific mortality risk in human gut microbiome</b>
+  <br>
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    Salosensaari*
+       A,
+    
+  
+  
+    Laitinen*
+       V,
+    
+  
+  
+    Havulinna
+       A,
+    
+  
+  
+    Meric
+       G,
+    
+  
+  
+    Cheng
+       S,
+    
+  
+  
+    Perola
+       M,
+    
+  
+  
+    Valsta
+       L,
+    
+  
+  
+    Alfthan
+       G,
+    
+  
+  
+    Inouye
+       M,
+    
+  
+  
+    Watrous
+       J,
+    
+  
+  
+    Long
+       T,
+    
+  
+  
+    Salido
+       R,
+    
+  
+  
+    Sanders
+       K,
+    
+  
+  
+    Brennan
+       C,
+    
+  
+  
+    Humphrey
+       G,
+    
+  
+  
+    Sanders
+       J,
+    
+  
+  
+    Jain
+       M,
+    
+  
+  
+    Jousilahti
+       P,
+    
+  
+  
+    Salomaa
+       V,
+    
+  
+  
+    Knight
+       R,
+    
+  
+  
+    Lahti*
+       L&#32;&amp;&#32;
+    
+  
+  
+    Niiranen*
+       T.
+  
+  
+  
+
+<br>Nature Communications 12,
+2021<br>
+
+
+
+
+  <a href="https://doi.org/10.1038/s41467-021-22962-y">10.1038/s41467-021-22962-y</a>
+
+
+
+</p>
+    
+  
+
+
+
+      
+
+
+
+<p>
+  
+  <b>Statistical and machine learning techniques in human microbiome studies: Contemporary challenges and solutions</b>
+  <br>
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    Moreno-Indias
+       I,
+    
+  
+  
+    Lahti
+       L,
+    
+  
+  
+    Nedyalkova
+       M,
+    
+  
+  
+    Elbere
+       I,
+    
+  
+  
+    Roshchupkin
+       G,
+    
+  
+  
+    Adilovic
+       M,
+    
+  
+  
+    Aydemir
+       O,
+    
+  
+  
+    Bakir-Gungor
+       B,
+    
+  
+  
+    Pau
+       E,
+    
+  
+  
+    D’Elia
+       D,
+    
+  
+  
+    Desai
+       M,
+    
+  
+  
+    Falquet
+       L,
+    
+  
+  
+    Gundogdu
+       A,
+    
+  
+  
+    Hron
+       K,
+    
+  
+  
+    Klammsteiner
+       T,
+    
+  
+  
+    Lopes
+       M,
+    
+  
+  
+    Zambrano
+       L,
+    
+  
+  
+    Marques
+       C,
+    
+  
+  
+    Mason
+       M,
+    
+  
+  
+    May
+       P,
+    
+  
+  
+    Pašić
+       L,
+    
+  
+  
+    Pio
+       G,
+    
+  
+  
+    Pongor
+       S,
+    
+  
+  
+    Promponas
+       V,
+    
+  
+  
+    Przymus
+       P,
+    
+  
+  
+    Sáez-Rodríguez
+       J,
+    
+  
+  
+    Sampri
+       A,
+    
+  
+  
+    Shigdel
+       R,
+    
+  
+  
+    Stres
+       B,
+    
+  
+  
+    Suharoschi
+       R,
+    
+  
+  
+    Truu
+       J,
+    
+  
+  
+    Truică
+       C,
+    
+  
+  
+    Vilne
+       B,
+    
+  
+  
+    Vlachakis
+       D,
+    
+  
+  
+    Yılmaz
+       E,
+    
+  
+  
+    Zeller
+       G,
+    
+  
+  
+    Zomer
+       A,
+    
+  
+  
+    Gómez-Cabrero
+       D&#32;&amp;&#32;
+    
+  
+  
+    Claesson
+       M.
+  
+  
+  
+
+<br>Frontiers in Microbiology 12,
+2021<br>
+
+
+
+
+  <a href="https://doi.org/10.3389/fmicb.2021.635781">10.3389/fmicb.2021.635781</a>
+
+
+
+</p>
+    
+  
+
+
+<h2 id="computational-humanities">Computational humanities</h2>
+
+      
+
+
+
+<p>
+  
+  <b>Probabilistic analysis of early modern british book prices</b>
+  <br>
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    Tiihonen
+       I,
+    
+  
+  
+    Tolonen
+       M&#32;&amp;&#32;
+    
+  
+  
+    Lahti
+       L.
+  
+  
+  
+
+<br>Proc. CEUR Workshop Proceedings on Computational Humanities Research 2989,
+2021<br>
+
+In M Ehrmann, F Karsdorp et al. (eds).
+<br>
+
+
+
+
+
+
+  
+  <a href="http://ceur-ws.org/Vol-2989/short_paper9.pdf">PDF</a>
+  
+
+</p>
+    
+  
+
+
+
+      
+
+
+
+<p>
+  
+  <b>Quantifying bias and uncertainty in historical data collections with probabilistic programming</b>
+  <br>
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    Lahti
+       L,
+    
+  
+  
+    Mäkelä
+       E&#32;&amp;&#32;
+    
+  
+  
+    Tolonen
+       M.
+  
+  
+  
+
+<br>Proc. CEUR Workshop Proceedings on Computational Humanities Research
+2020<br>
+
+
+
+
+
+
+  
+  <a href="http://ceur-ws.org/Vol-2723/short46.pdf">PDF</a>
+  
+
+</p>
+    
+  
+
+
+
+      
+
+
+
+<p>
+  
+  <b>Bibliographic data science and the history of the book (c. 1500–1800)</b>
+  <br>
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    Lahti
+       L,
+    
+  
+  
+    Marjanen
+       J,
+    
+  
+  
+    Roivainen
+       H&#32;&amp;&#32;
+    
+  
+  
+    Tolonen
+       M.
+  
+  
+  
+
+<br>Cataloging &amp; Classification Quarterly 57(1) Routledge,
+2019<br>
+
+Special issue.
+<br>
+
+
+
+
+  <a href="https://doi.org/10.1080/01639374.2018.1543747">10.1080/01639374.2018.1543747</a>
+
+|
+
+  
+  <a href="https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2019-Lahti-CCQ.pdf">PDF</a>
+  
+
+</p>
+    
+  
+
+
+<h2 id="open-science">Open science</h2>
+
+      
+
+
+
+<p>
+  
+  <b>Alchemy &amp; algorithms: Perspectives on the philosophy and history of open science</b>
+  <br>
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    Lahti
+       L,
+    
+  
+  
+    Silva
+       F,
+    
+  
+  
+    Laine
+       M,
+    
+  
+  
+    Lähteenoja
+       V&#32;&amp;&#32;
+    
+  
+  
+    Tolonen
+       M.
+  
+  
+  
+
+<br>RIO Journal 3,
+2017<br>
+
+Review of the international conference, including electronic material (video interviews, lectures and podcasts.
+<br>
+
+
+
+
+  <a href="https://doi.org/10.3897/rio.3.e13593">10.3897/rio.3.e13593</a>
+
+|
+
+  
+  <a href="https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2017-Lahti-PHOS.pdf">PDF</a>
+  
+
+</p>
+    
+  
+
+
+
+      
+
+
+
+<p>
+  
+  <b>National policy and executive plan by the higher education and research community for 2021-2025 - policy component 1: Open access to educational resources.</b>
+  <br>
+  
+
+
+
+
+
+
+
+
+
+  Finland)
+   E
+
+
+
+
+
+<br>Responsible Research Series 16 Committee for Public Information (TJNK) and Federation of Finnish Learned Societies (TSV).,
+2020<br>
+
+
+
+
+
+
+</p>
+    
+  
+
+
+
+      
+
+
+
+<p>
+  
+  <b>Opening academic publishing: Development and application of systematic evaluation criteria</b>
+  <br>
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    Björk
+       A,
+    
+  
+  
+    Paavolainen
+       J,
+    
+  
+  
+    Ropponen
+       T,
+    
+  
+  
+    Laakso
+       M&#32;&amp;&#32;
+    
+  
+  
+    Lahti
+       L.
+  
+  
+  
+
+<br> unknown; Open Science and Research Initiative (ATT),
+2018<br>
+
+Report on the openness of major scientific publishers commissioned by Finnish Ministry of Education and Culture
+<br>
+
+
+
+
+
+
+  
+  <a href="https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2018-Bjork-ATT.pdf">PDF</a>
+  
+
+</p>
+    
+  
+
+
+<h2 id="opinion-pieces-in-finnish">Opinion pieces (in Finnish)</h2>
+
+      
+
+
+
+<p>
+  
+  <b>Avoimuus voi vahvistaa päätöksenteon tieteellistä pohjaa</b>
+  <br>
+  
+
+
+
+
+
+
+
+
+
+  Lahti
+   L
+
+
+
+
+
+<br>University of Helsinki, ThinkOpen blog
+2020<br>
+
+
+
+
+
+
+  
+  <a href="https://blogs.helsinki.fi/thinkopen/lahdekoodin-avoimuus-paatoksenteossa/">URL</a>
+  
+
+</p>
+    
+  
+
+
+
+      
+
+
+
+<p>
+  
+  <b>Aatehistoria ja digitaalisten aineistojen mahdollisuudet</b>
+  <br>
+  
+
+
+
+
+
+
+
+
+
+  Tolonen
+   M&#32;&amp;&#32;
+
+
+  Lahti
+   L.
+
+
+
+<br>Ennen &amp; Nyt 2 2,
+2015<br>
+
+
+
+
+
+
+  
+  <a href="https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2015-EnnenNyt-Tolonen.pdf">PDF</a>
+  
+
+</p>
+    
+  
+
+
+</div>
+
+          <div class="twitter-feed"></div>
+
+          <div id="twitter-feed">
+	<a class="twitter-timeline" data-width="600" data-height="1100" href="https://twitter.com/openreslabs?ref_src=twsrc%5Etfw">Tweets by openreslabs</a> 
+	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
+        </div>
+        
 
 
         
 
 
+        
 
 
-
-<section>
-  <h1>Turku Data Science Group</h1>
-    <div class="home-carousel">
-        <div class="dark-mask"></div>
-        <div class="container">
-            <div class="homepage owl-carousel">
-                
-                <div class="item">
-                    <div class="row">
-                        <div class="col-sm-5 right">
-                            <h1>Data Science</h1>
-                            <ul class="list-style-none">
-  <li>Probabilistic machine learning</li>
-  <li>Scientific computing</li>  
-  <li>Open research software</li>
-</ul>
-
-                        </div>
-                        <div class="col-sm-7">
-                            <img class="img-responsive" src="img/carousel/houp.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="item">
-                    <div class="row">
-                        <div class="col-sm-5 right">
-                            <h1>Microbiome research</h1>
-                            <ul class="list-style-none">
-  <li>Multi-omic data integration</li>
-  <li>Eco-evolutionary dynamics</li>    
-</ul>
-
-                        </div>
-                        <div class="col-sm-7">
-                            <img class="img-responsive" src="img/carousel/dialister.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="item">
-                    <div class="row">
-                        <div class="col-sm-5 right">
-                            <h1>Computational humanities</h1>
-                            <ul class="list-style-none">
-  <li>History of knowledge production</li>
-  <li>Open government data analytics</li>   
-</ul>
-
-                        </div>
-                        <div class="col-sm-7">
-                            <img class="img-responsive" src="img/carousel/fimig.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-            
-        </div>
-    </div>
-</section>
-
-
-<footer id="footer">
+        <footer id="footer">
     <div class="container">
 
         
@@ -290,54 +1638,7 @@
 
         <div class="col-md-4 col-sm-6">
 
-             
-            <h4>Recent posts</h4>
-
-            <div class="blog-entries">
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="http://datascience.utu.fi/blog/2021/02/12/2021-02-12-aatsinki/">
-                          
-                            <img src="/img/placeholder.png" class="img-responsive" alt="Doctoral dissertation of Anna Aatsinki">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="http://datascience.utu.fi/blog/2021/02/12/2021-02-12-aatsinki/">Doctoral dissertation of Anna Aatsinki</a></h5>
-                    </div>
-                </div>
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="http://datascience.utu.fi/blog/2021/02/12/2021-02-21-geofi/">
-                          
-                            <img src="/img/placeholder.png" class="img-responsive" alt="R package geofi for Finnish geospatial data">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="http://datascience.utu.fi/blog/2021/02/12/2021-02-21-geofi/">R package geofi for Finnish geospatial data</a></h5>
-                    </div>
-                </div>
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="http://datascience.utu.fi/blog/2021/02/09/2021-02-09-wg/">
-                          
-                            <img src="/img/placeholder.png" class="img-responsive" alt="Work group set to re-evaluate publicity law">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="http://datascience.utu.fi/blog/2021/02/09/2021-02-09-wg/">Work group set to re-evaluate publicity law</a></h5>
-                    </div>
-                </div>
-                
-            </div>
-
-            <hr class="hidden-md hidden-lg">
-             
+            
 
         </div>
         
@@ -346,6 +1647,18 @@
         <div class="col-md-4 col-sm-6">
 
           <h4>Contact</h4>
+           <div class="social">
+            
+            <script type="text/javascript">console.log("https:\/\/github.com\/openresearchlabs\/");</script>
+            <a href="https://github.com/openresearchlabs/" target="_blank" style="opacity: 1;"><i class='fab fa-2x fa-github'></i></a>
+            
+            <script type="text/javascript">console.log("https:\/\/twitter.com\/openreslabs");</script>
+            <a href="https://twitter.com/openreslabs" target="_blank" style="opacity: 1;"><i class='fab fa-2x fa-twitter'></i></a>
+            
+            <script type="text/javascript">console.log("mailto:leo.lahti@utu.fi");</script>
+            <a href="mailto:leo.lahti@utu.fi" target="_blank" style="opacity: 1;"><i class='fas fa-2x fa-envelope'></i></a>
+            
+          </div>
 
             <p class="text-uppercase"><strong>Turku Data Science Group</strong>
         <br>University of Turku
