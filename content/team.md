@@ -103,9 +103,16 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
 
 ## Alumni
 
-Co-supervised PhDs:  
+Postdocs:
+- Rajesh Shigdel (visiting scholar, 2022)
+
+<!--
+Co-supervised PhDs:
+- Felix Vaura
+- Joonatan Palmu
 - Anna Aatsinki (University of Turku, 2021; with <a href="https://sites.utu.fi/finnbrain/en/" target="_blank">Finnbrain</a>)
 - Sudarshan Shetty (Wageningen University, 2019; with Willem M de Vos)
+-->
 
 Research assistants & interns:
 - Kevin Gatel (2022; summer intern)
@@ -121,12 +128,14 @@ Research assistants & interns:
 
 MSc students:
 - Dorde Klisura (2022)
-- Emma Gheysen (KU Leuven, BE 2021; with Prof. Karoline Faust)
 - Anastasia Karavaeva (2020)
 - Wisam Saleem (2019-2020)
-- Leila Paquay (KU Leuven, Belgium, 2018)
-- Marnix Denys (KU Leuven, BE 2017; with Prof. Jeroen Raes)
-- Tineka Blake (Wageningen University; NL 2015; with Prof. Willem de Vos)
-- Emilio Ugaldes Morales (Wageningen University; NL 2014; with Prof. Willem de Vos)
+- Binu Mathew (2019-2022)
+
+<!-- - Emma Gheysen (KU Leuven, BE 2021; with Prof. Karoline Faust)-->
+<!-- - Leila Paquay (KU Leuven, Belgium, 2018)-->
+<!-- - Marnix Denys (KU Leuven, BE 2017; with Prof. Jeroen Raes)-->
+<!-- - Tineka Blake (Wageningen University; NL 2015; with Prof. Willem de Vos)-->
+<!-- - Emilio Ugaldes Morales (Wageningen University; NL 2014; with Prof. Willem de Vos)-->
 
 
