@@ -22,7 +22,7 @@ We are part of the [Department of Computing](https://www.utu.fi/en/university/fa
 
 **Mail** [Department of Computing, Faculty of Technology](https://www.utu.fi/en/university/faculty-of-technology/computing), Yliopistonmäki, FI-20014, University of Turku, Finland
 
-**Visiting address** Agora, 4th floor, room 452E. Yliopistonmäki, Turku 
+**Visiting address** Agora, 4th floor, room 450K. Yliopistonmäki, Turku 
 
 **Tel:** Associate Prof. Leo Lahti, +358 (0)50 436 4626
 
