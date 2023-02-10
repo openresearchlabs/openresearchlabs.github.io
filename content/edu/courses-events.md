@@ -15,9 +15,24 @@ We supervise study assignments (BSc/MSc/PhD) on applied statistics / computation
 
 ### Courses in 2023
 
+**July 10-14, 2023, Nijmegen, The Netherlands**
+
+- [Brain, Bacteria and Behaviour: Understanding the Gut-Brain Axis](https://twitter.com/antagomir/status/1624025116001574912?s=20&t=k2TA4i7qHnK6JMhgQR1oBg) including microbiome data science with R/Bioconductor
+
 **Apr 12-14 2023, Wageningen, The Netherlands**
 
 - [VLAG Grad School on Intestinal microbiome of humans and animals](https://www.vlaggraduateschool.nl/en/courses/course/imha23.htm)
+
+
+**March 21-24, 2023, Pune, India**
+
+- [Microbiome research: analysis and applications]() including microbiome data science with R/Bioconductor
+
+
+**March 2023, Turku, Finland** (weekly meetings)
+
+- [Microbiome data science with R/Bioconductor]() 
+
 
 
 ### Courses in 2022
