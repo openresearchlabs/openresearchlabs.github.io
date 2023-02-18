@@ -1,4 +1,3 @@
-
 ---
 title: Research
 description: All publications

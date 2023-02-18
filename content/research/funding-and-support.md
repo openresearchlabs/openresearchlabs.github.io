@@ -1,6 +1,6 @@
 ---
 title: Research
-description: Fundning and support
+description: Funding and support
 keywords: Fundning support
 ---
 
