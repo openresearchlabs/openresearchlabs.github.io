@@ -1,5 +1,64 @@
 [
   {
+    "DOI": "10.1093/bioinformatics/btad021",
+    "URL": "https://doi.org/10.1093/bioinformatics/btad021",
+    "author": [
+      {
+        "family": "Feldner-Busztin",
+        "given": "Dylan"
+      },
+      {
+        "family": "Firbas Nisantzis",
+        "given": "Panos"
+      },
+      {
+        "family": "Edmunds",
+        "given": "Shelley Jane"
+      },
+      {
+        "family": "Boza",
+        "given": "Gergely"
+      },
+      {
+        "family": "Racimo",
+        "given": "Fernando"
+      },
+      {
+        "family": "Gopalakrishnan",
+        "given": "Shyam"
+      },
+      {
+        "family": "Limborg",
+        "given": "Morten Tønsberg"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "dropping-particle": "de",
+        "family": "Polavieja",
+        "given": "Gonzalo G"
+      }
+    ],
+    "container-title": "Bioinformatics",
+    "id": "FeldnerBusztin2023",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          1
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "btad021",
+    "title": "Dealing with dimensionality: the application of machine learning to multi-omics data",
+    "type": "article-journal",
+    "volume": "39"
+  },
+  {
     "DOI": "10.48550/ARXIV.2212.12550",
     "URL": "https://arxiv.org/abs/2212.12550",
     "author": [
@@ -79,6 +138,7 @@
         ]
       ]
     },
+    "keyword": "bioscience",
     "publisher": "Cold Spring Harbor Laboratory",
     "status": "preprint",
     "title": "Impacts of maternal microbiota and microbial metabolites on fetal intestine, brain and placenta",
