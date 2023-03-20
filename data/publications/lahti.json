@@ -1,5 +1,35 @@
 [
   {
+    "author": [
+      {
+        "family": "Ndaïrou",
+        "given": "Faïçal"
+      },
+      {
+        "family": "Khalighi",
+        "given": "Moein"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "Chaos, Solitons and Fractals",
+    "id": "Ndairou2023",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "keyword": "datascience",
+    "page": "113361",
+    "title": "Ebola epidemic model with dynamic population and memory",
+    "type": "article-journal",
+    "volume": "170"
+  },
+  {
     "DOI": "10.1093/bioinformatics/btad021",
     "URL": "https://doi.org/10.1093/bioinformatics/btad021",
     "author": [
