@@ -1,5 +1,95 @@
 [
   {
+    "DOI": "10.1038/s41390-023-02560-y",
+    "author": [
+      {
+        "family": "Rahkola",
+        "given": "Ella-Noora"
+      },
+      {
+        "family": "Rautava",
+        "given": "Samuli"
+      },
+      {
+        "family": "Hiltunen",
+        "given": "Henni"
+      },
+      {
+        "family": "Ross",
+        "given": "Chandler"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Isolauri",
+        "given": "Erika"
+      }
+    ],
+    "container-title": "Pediatric research",
+    "id": "Rahkola2023",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "title": "The preterm gut microbiota and administration routes of different probiotics: A randomized controlled trial",
+    "title-short": "The preterm gut microbiota and administration routes of different probiotics",
+    "type": "article-journal"
+  },
+  {
+    "DOI": "10.1007/s11306-023-01994-z",
+    "author": [
+      {
+        "family": "Muhli",
+        "given": "Ella"
+      },
+      {
+        "family": "Benchraka",
+        "given": "Chouaib"
+      },
+      {
+        "family": "Lotankar",
+        "given": "Mrunalini"
+      },
+      {
+        "family": "Houttu",
+        "given": "Noora"
+      },
+      {
+        "family": "Niinikoski",
+        "given": "Harri"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Laitinen",
+        "given": "Kirsi"
+      }
+    ],
+    "container-title": "Metabolomics",
+    "id": "Muhli2023",
+    "issue": "29",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "title": "Aberrations in the early pregnancy serum metabolic profile in women with prediabetes at two years postpartum",
+    "type": "article-journal",
+    "volume": "19"
+  },
+  {
+    "DOI": "10.1016/j.chaos.2023.113361",
     "author": [
       {
         "family": "Ndaïrou",
