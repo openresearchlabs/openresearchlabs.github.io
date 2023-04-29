@@ -1,5 +1,50 @@
 [
   {
+    "DOI": "10.1007/s00592-023-02064-5",
+    "author": [
+      {
+        "family": "Houttu",
+        "given": "Noora"
+      },
+      {
+        "family": "Benchraka",
+        "given": "Chouaib"
+      },
+      {
+        "family": "Lotankar",
+        "given": "Mrunalini"
+      },
+      {
+        "family": "Muhli",
+        "given": "Ella"
+      },
+      {
+        "family": "Niinikoski",
+        "given": "Harri"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Laitinen",
+        "given": "Kirsi"
+      }
+    ],
+    "container-title": "Acta Diabetologica",
+    "id": "Houttu2023",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "title": "Gut microbiota composition and function in pregnancy as determinants of prediabetes at two years’ postpartum",
+    "type": "article-journal"
+  },
+  {
     "DOI": "10.1038/s41390-023-02560-y",
     "author": [
       {
