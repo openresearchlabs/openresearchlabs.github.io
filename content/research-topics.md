@@ -102,16 +102,16 @@ Links to ongoing and recent projects.
 Computational life sciences:
 
  * [Eco-evolutionary mechanisms underlying critical transitions in microbial communities](https://research.fi/en/results/funding/27223) Academy of Finland 2020-2024
- * [FindingPheno/RIA](http://www.findingpheno.eu/) EU / Horizon 2021-2025
+ * [FindingPheno](http://www.findingpheno.eu/) EU / Horizon 2021-2025 for computational multi-omics 
  * [ML4microbiome COST action](https://www.ml4microbiome.eu/) on Statistical and Machine Learning Techniques in Human Microbiome Studies; EU 2019-2023
  * [KONE / HAT research](https://blogs.helsinki.fi/hatresearch/) to compare evolutionary processes in nature and society (2022-2024)  
- * Biocity Turku Computational and Molecular Methods for Life Sciences
-  (CompLifeSci) program (2022-2026)
+ * Biocity Turku Computational and Molecular Methods for Life Sciences (CompLifeSci) program (lead; 2022-2026)
 
 Computational humanities:
 
+ * [Digital History for Literature in Finland](https://www.kansalliskirjasto.fi/en/projects/digital-history-literature-finland) Academy of Finland; lead 2022-2026  
+ * [OpenMuse](https://www.openmuse.eu) EU / Horizon 2023-2025 
  * [OpenMUSE/RIA](https://music.dataobservatory.eu/) EU / Horizon 2023-2025
- * [Digital History for Literature in Finland](https://www.kansalliskirjasto.fi/en/projects/digital-history-literature-finland) Academy of Finland 2022-2026  
  * Strategic Research Council: [Young Despair](https://ulosepatoivosta.fi/) 2022-2025  
  * [FIN-CLARIAH Infrastructure for Digital Humanities]()  
 
