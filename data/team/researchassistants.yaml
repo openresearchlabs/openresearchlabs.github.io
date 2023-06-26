@@ -30,7 +30,7 @@
     links_twitter: ""
     links_orcid: "https://orcid.org/0009-0007-1347-7552"
     links_homepage: ""
-- name: "Julia Matveeva"
+  - name: "Julia Matveeva"
     affiliation: ""
     affiliation_url: ""
     keywords: "Computational History, Digital Humanities"
