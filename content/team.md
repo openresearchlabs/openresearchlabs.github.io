@@ -7,7 +7,9 @@ keywords: team
 
 We are part of the [Department of Computing](https://www.utu.fi/en/university/faculty-of-technology/computing) at the Faculty of Technology, University of Turku. 
 
-**Welcome to [contact us](../contact/) to discuss research/study positions and collaboration.** Currently open positions are listed [here](../recruit/). We will do our best but cannot guarantee to respond to all contacts. 
+**Welcome to [contact us](../contact/) to discuss research/study positions and collaboration.
+
+<!--** Currently open positions are listed [here](../recruit/). We will do our best but cannot guarantee to respond to all contacts. -->
 
 <div class="col-sm-12 clearfix">
 
