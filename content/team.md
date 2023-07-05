@@ -29,16 +29,16 @@ We are part of the [Department of Computing](https://www.utu.fi/en/university/fa
   <h4>Leo Lahti (Group leader)</h4>
 
   <ul style="overflow: hidden">
-    <li><a href="https://www.utu.fi/en/people/leo-lahti">Associate Professor (Data Science)</a></li>
+    <li><a href="https://www.utu.fi/en/people/leo-lahti">Professor (Data Science / Computational Humanities)</a></li>
+    <li> <a href="https://avointiede.fi/fi/koordinaatio">National open science coordination</a>, vice chair</li>
+    <li><a href="https://tenk.fi/en/research-misconduct/research-integrity-advisers">National Board on Research Integrity (TENK)</a> research integrity adviser</li>    
     <!--<li>Director, Turku Center for Computational Humanities</li>-->
     <li><a href="https://www.ml4microbiome.eu">Statistical and machine learning techniques in human microbiome studies</a> (ML4microbiome) COST action WG leader</li>
     <li><a href="https://codata.org/finland/">International Science Council (ISC) Committee on Data (CODATA)</a> national chair & delegate, member in the <a href="https://codata.org/initiatives/working-groups/data-ethics/">Data Ethics work group</a></li>
-    <li><a href="https://tenk.fi/en/research-misconduct/research-integrity-advisers">National Board on Research Integrity (TENK)</a> research integrity adviser</li>
-    <li> <a href="https://avointiede.fi/fi/koordinaatio">National open science coordination</a>, vice chair</li>
     <li><a href="https://www.okf.fi/">Open Knowledge Finland ry.</a> board</li>    
-    <li> <a href="http://www.tkts.fi/etusivu">Finnish Society for Computer Science</a> board</li> 
+    <!--<li> <a href="http://www.tkts.fi/etusivu">Finnish Society for Computer Science</a> board</li>-->
     <li><a href="https://turkucitydata.fi">Turku City Data Co.</a> Board member and scientific advisor.</li>  
-    <li><a href="https://blueprintgenetics.com">Blueprint Genetics</a>. Scientific Advisor (AI & ML)</li>
+    <!--<li><a href="https://blueprintgenetics.com">Blueprint Genetics</a>. Scientific Advisor (AI & ML)</li>-->
     <!--<li><a href="http://www.helsinki.fi/computational-history">Helsinki Computational History Group</a> founding member</li>-->
     <!--<li><a href="http://fi.okfn.org/wg/openscience/">Open Science work group</a>, OKF Finland. Founding member.</li>-->
     <li> Certified <a href="https://carpentries.org/">Carpentries Instructor</a>
