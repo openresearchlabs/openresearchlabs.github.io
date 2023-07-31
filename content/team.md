@@ -117,7 +117,13 @@ Co-supervised PhDs:
 - Sudarshan Shetty (Wageningen University, 2019; with Willem M de Vos)
 -->
 
+Visiting scholars:
+- prof. Dhiraj Dhotre (2023; visiting professor)
+- Renuka Potbhare (2023; visiting researcher)
+- Dattatray Mongad (2022; visiting researcher)
+
 Research assistants & interns:
+- Elina Chiesa (2023; intern)
 - Kevin Gatel (2022; summer intern)
 - Malaury Martin (2022; summer intern)
 - Yagmur Simsek (2021-2022)
@@ -130,7 +136,8 @@ Research assistants & interns:
 - Prashant Gaikwad (2019; SPARC / supported by Government of India)
 
 MSc students:
-- Dorde Klisura (2022)
+- Marija Rakic (2023; Erasmus)
+- Dorde Klisura (2022; Erasmus)
 - Anastasia Karavaeva (2020)
 - Wisam Saleem (2019-2020)
 - Binu Mathew (2019-2022)
