@@ -1,5 +1,349 @@
 [
   {
+    "DOI": "10.1038/s41587-023-01845-1",
+    "author": [
+      {
+        "family": "McDonald",
+        "given": "Daniel"
+      },
+      {
+        "family": "Jiang",
+        "given": "Yueyu"
+      },
+      {
+        "family": "Balaban",
+        "given": "Metin"
+      },
+      {
+        "family": "Cantrell",
+        "given": "Kalen"
+      },
+      {
+        "family": "Zhu",
+        "given": "Qiyun"
+      },
+      {
+        "family": "Gonzalez",
+        "given": "Antonio"
+      },
+      {
+        "family": "Morton",
+        "given": "James"
+      },
+      {
+        "family": "Nicolaou",
+        "given": "Giorgia"
+      },
+      {
+        "family": "Parks",
+        "given": "Donovan"
+      },
+      {
+        "family": "Karst",
+        "given": "Søren"
+      },
+      {
+        "family": "Albertsen",
+        "given": "Mads"
+      },
+      {
+        "family": "Hugenholtz",
+        "given": "Philip"
+      },
+      {
+        "family": "DeSantis",
+        "given": "Todd"
+      },
+      {
+        "family": "Song",
+        "given": "Se-Jin"
+      },
+      {
+        "family": "Bartko",
+        "given": "Andrew"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki"
+      },
+      {
+        "family": "Jousilahti",
+        "given": "Pekka"
+      },
+      {
+        "family": "Cheng",
+        "given": "Susan"
+      },
+      {
+        "family": "Inouye",
+        "given": "Michael"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      },
+      {
+        "family": "Jain",
+        "given": "Mohit"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Mirarab",
+        "given": "Siavash"
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      }
+    ],
+    "container-title": "Nature Biotechnology",
+    "id": "McDonald2023",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          7
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "title": "Greengenes2 unifies microbial data in a single reference tree",
+    "type": "article-journal"
+  },
+  {
+    "DOI": "10.1111/2041-210X.14129",
+    "author": [
+      {
+        "family": "Gao",
+        "given": "Yu"
+      },
+      {
+        "family": "Şimşek",
+        "given": "Yağmur"
+      },
+      {
+        "family": "Gheysen",
+        "given": "Emma"
+      },
+      {
+        "family": "Borman",
+        "given": "Tuomas"
+      },
+      {
+        "family": "Li",
+        "given": "Yi"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Faust",
+        "given": "Karoline"
+      },
+      {
+        "family": "Garza",
+        "given": "Daniel"
+      }
+    ],
+    "container-title": "Methods in Ecology and Evolution",
+    "id": "Gao2023",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          5
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "title": "miaSim: an R/Bioconductor package to easily simulate microbial community dynamics",
+    "type": "article-journal"
+  },
+  {
+    "DOI": "10.1101/2023.04.23.537273",
+    "author": [
+      {
+        "family": "Aatsinki",
+        "given": "Anna-Katariina"
+      },
+      {
+        "family": "Tuulari",
+        "given": "Jetro"
+      },
+      {
+        "family": "Munukka",
+        "given": "Eveliina"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Keskitalo",
+        "given": "Anniina"
+      },
+      {
+        "family": "Kailanto",
+        "given": "Henna-Maria"
+      },
+      {
+        "family": "Nolvi",
+        "given": "Saara"
+      },
+      {
+        "family": "Scheinin",
+        "given": "Noora"
+      },
+      {
+        "family": "Saunavaara",
+        "given": "Jani"
+      },
+      {
+        "family": "Parkkola",
+        "given": "Riitta"
+      },
+      {
+        "family": "Lewis",
+        "given": "John"
+      },
+      {
+        "family": "Hashempour",
+        "given": "Niloofar"
+      },
+      {
+        "family": "Shulist",
+        "given": "Satu"
+      },
+      {
+        "family": "Karlsson",
+        "given": "Linnea"
+      },
+      {
+        "family": "Karlsson",
+        "given": "Hasse"
+      }
+    ],
+    "container-title": "bioRxiv preprint",
+    "id": "Aatsinki2023",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          4
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "title": "Infant left amygdala volume is negatively associated with fecal microbiota diversity",
+    "type": "article-journal"
+  },
+  {
+    "DOI": "10.1016/j.ebiom.2023.104583",
+    "author": [
+      {
+        "family": "Palmu",
+        "given": "Joonatan"
+      },
+      {
+        "family": "Börschel",
+        "given": "Christin"
+      },
+      {
+        "family": "Ortega-Alonso",
+        "given": "Alfredo"
+      },
+      {
+        "family": "Lajos",
+        "given": "Markó"
+      },
+      {
+        "family": "Inouye",
+        "given": "Michael"
+      },
+      {
+        "family": "Jousilahti",
+        "given": "Pekka"
+      },
+      {
+        "family": "Salido",
+        "given": "Rodolfo"
+      },
+      {
+        "family": "Sanders",
+        "given": "Karenina"
+      },
+      {
+        "family": "Brennan",
+        "given": "Caitriona"
+      },
+      {
+        "family": "Humphrey",
+        "given": "Gregory"
+      },
+      {
+        "family": "Sanders",
+        "given": "Jon"
+      },
+      {
+        "family": "Gutmann",
+        "given": "Friederike"
+      },
+      {
+        "family": "Linz",
+        "given": "Dominik"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki"
+      },
+      {
+        "family": "Forslund",
+        "given": "Sofia"
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      },
+      {
+        "family": "Schnabel",
+        "given": "Renate"
+      }
+    ],
+    "container-title": "eBioMedicine",
+    "id": "Palmu2023",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          5
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "title": "Gut microbiome and atrial fibrillation-results from a large population-based study",
+    "type": "article-journal"
+  },
+  {
     "DOI": "10.1007/s00592-023-02064-5",
     "author": [
       {
@@ -255,6 +599,124 @@
     "status": "preprint",
     "title": "FdeSolver: A Julia Package for Solving Fractional Differential Equations",
     "type": "article-journal"
+  },
+  {
+    "DOI": "10.1161/CIRCGEN.121.003583",
+    "author": [
+      {
+        "family": "Vaura",
+        "given": "Felix"
+      },
+      {
+        "family": "Kim",
+        "given": "Hyunkyung"
+      },
+      {
+        "family": "Udler",
+        "given": "Miriam"
+      },
+      {
+        "literal": "FinnGen"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      }
+    ],
+    "container-title": "Circulation: Genomic and Precision Medicine",
+    "id": "Vaura2022",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "title": "Multi-trait genetic analysis reveals clinically interpretable hypertension subtypes",
+    "type": "article-journal",
+    "volume": "15"
+  },
+  {
+    "DOI": "10.1097/HJH.0000000000003051",
+    "author": [
+      {
+        "family": "Palmu",
+        "given": "Joonatan"
+      },
+      {
+        "family": "Tikkanen",
+        "given": "Emmi"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki"
+      },
+      {
+        "family": "Vartiainen",
+        "given": "Erkki"
+      },
+      {
+        "family": "Lundqvist",
+        "given": "Annamari"
+      },
+      {
+        "family": "Ruuskanen",
+        "given": "Matti"
+      },
+      {
+        "family": "Perola",
+        "given": "Markus"
+      },
+      {
+        "family": "Ala-Korpela",
+        "given": "Mika"
+      },
+      {
+        "family": "Jousilahti",
+        "given": "Pekka"
+      },
+      {
+        "family": "Würtz",
+        "given": "Peter"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      }
+    ],
+    "container-title": "Journal of Hypertension",
+    "id": "Palmu2022",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "579-587",
+    "title": "Comprehensive biomarker profiling of hypertension in 36 985 finnish individuals",
+    "type": "article-journal",
+    "volume": "40"
   },
   {
     "DOI": "10.1101/2022.07.01.498433",
