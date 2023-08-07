@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Read .bib and write .json
-        uses: docker://pandoc/core:latest
+        uses: docker://pandoc/core:2.14.1
         with:
           args: >-
             --from=bibtex
