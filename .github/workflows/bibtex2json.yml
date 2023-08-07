@@ -16,7 +16,7 @@ jobs:
           args: >-
             --from=bibtex
             --to=csljson
-            --output=data/publications/ake.json
+            --output=data/publications/lahti.json
             --content/publication_resources/bibtex/lahti.bib
       - name: Commit results
         run: |
