@@ -17,7 +17,7 @@ jobs:
             --from=bibtex
             --to=csljson
             --output=data/publications/lahti.json
-            content/publication_resources/bibtex/lahti.bib
+            --content/publication_resources/bibtex/lahti.bib
       - name: Commit results
         run: |
           git config --local user.email "actions@github.com"
