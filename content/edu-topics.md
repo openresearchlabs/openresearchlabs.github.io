@@ -20,18 +20,10 @@ research/study positions.
 
 Contact us if you are interested. The admission varies by course but most courses are open to application.
 
-- [Microbiome research: analysis and applications]() including microbiome data science with R/Bioconductor (Feb 21-24, 2023, Pune, India)
-
-- Microbiome & Machine Learning: ML4microbiome training school (March 6-8, Utrecht)
-
-- [Microbiome data science with R/Bioconductor]() (March 2023, Turku, Finland; weekly meetings)
-
-- [VLAG Grad School on Intestinal microbiome of humans and animals](https://www.vlaggraduateschool.nl/en/courses/course/imha23.htm) (Apr 12-14 2023, Wageningen, The Netherlands)
-
-- [Brain, Bacteria and Behaviour: Understanding the Gut-Brain Axis](https://twitter.com/antagomir/status/1624025116001574912?s=20&t=k2TA4i7qHnK6JMhgQR1oBg) including microbiome data science with R/Bioconductor (July 10-14, 2023, Nijmegen, The Netherlands)
 
 - [Summer School: Design and Control of Microbial Communities](http://msysbiology.com/microbedesign/) (Sep 11-13, Leuven, Belgium)
 
+- [NORBIS: Microbiome data science with R/Bioconductor](https://norbis.w.uib.no/microbiome-data-science-with-r-bioconductor/) (Oct 9-12 2023, University of Bergen, Norway)
 
 
 ### Past courses and events
@@ -53,6 +45,16 @@ Contact us if you are interested. The admission varies by course but most course
 
 
 **Microbiome data science**
+
+- [Brain, Bacteria and Behaviour: Understanding the Gut-Brain Axis](https://twitter.com/antagomir/status/1624025116001574912?s=20&t=k2TA4i7qHnK6JMhgQR1oBg) including microbiome data science with R/Bioconductor (July 10-14, 2023, Nijmegen, The Netherlands)
+
+- [Microbiome research: analysis and applications]() including microbiome data science with R/Bioconductor (Feb 21-24, 2023, Pune, India)
+
+- Microbiome & Machine Learning: ML4microbiome training school (March 6-8, Utrecht)
+
+- [Microbiome data science with R/Bioconductor]() (March 2023, Turku, Finland; weekly meetings)
+
+- [VLAG Grad School on Intestinal microbiome of humans and animals](https://www.vlaggraduateschool.nl/en/courses/course/imha23.htm) (Apr 12-14 2023, Wageningen, The Netherlands)
 
 - [ML4Microbiome Workshop - Advances in the analysis of human microbiome and transcriptomics data](https://www.ml4microbiome.eu/meetings/workshop-advances-in-the-analysis-of-human-microbiome-and-transcriptomics-data-24-may-2022/) (May 24, 2022 - University of Tirana, Albania; Lecture)
 
