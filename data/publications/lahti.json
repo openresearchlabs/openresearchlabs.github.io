@@ -1,5 +1,94 @@
 [
   {
+    "DOI": "10.1101/2023.07.30.23293396",
+    "URL": "https://www.medrxiv.org/content/10.1101/2023.07.30.23293396v1",
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Yang"
+      },
+      {
+        "family": "Ritchie",
+        "given": "Scott"
+      },
+      {
+        "family": "Teo",
+        "given": "Shu Mei"
+      },
+      {
+        "family": "Ruuskanen",
+        "given": "Matti"
+      },
+      {
+        "family": "Kambur",
+        "given": "Oleg"
+      },
+      {
+        "family": "Zhu",
+        "given": "Qiyun"
+      },
+      {
+        "family": "Sanders",
+        "given": "Jon"
+      },
+      {
+        "family": "Vazquez-Baeza",
+        "given": "Yoshiki"
+      },
+      {
+        "family": "Verspoor",
+        "given": "Karin"
+      },
+      {
+        "family": "Jousilahti",
+        "given": "Pekka"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki"
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      },
+      {
+        "family": "Méric",
+        "given": "Guillaume"
+      },
+      {
+        "family": "Inouye",
+        "given": "Michael"
+      }
+    ],
+    "container-title": "medRXiv",
+    "id": "Liu2023",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          8
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "Preprint",
+    "publisher": "medRXiv",
+    "title": "Integration of polygenic and gut metagenomic risk prediction for common diseases",
+    "type": "article-journal"
+  },
+  {
     "DOI": "10.1038/s41587-023-01845-1",
     "author": [
       {
