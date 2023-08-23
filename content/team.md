@@ -90,6 +90,7 @@ Edit item styles (.flex-container, .flex-item-*) in:
 
 <br><br>
 
+<!--
 ## PhD researchers, co-supervised
 
 The affiliation for the co-supervised PhD candidates indicated in parentheses.
@@ -97,6 +98,7 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
 {{< team data="phd_cosupervised" >}}
 
 <br><br>
+-->
 
 ## Research assistants
 
@@ -116,6 +118,14 @@ Co-supervised PhDs:
 - Anna Aatsinki (University of Turku, 2021; with <a href="https://sites.utu.fi/finnbrain/en/" target="_blank">Finnbrain</a>)
 - Sudarshan Shetty (Wageningen University, 2019; with Willem M de Vos)
 -->
+
+Co-supervised PhDs:
+- Iiro Tiihonen
+- Ville Vaara
+- Henrik Eckerman
+- Mrunalini Lotankar
+- Anna Sorjamaa
+- Asiye Kazeroonian
 
 Visiting scholars:
 - prof. Dhiraj Dhotre (2023; visiting professor)
