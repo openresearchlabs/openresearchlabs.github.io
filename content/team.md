@@ -135,7 +135,7 @@ Visiting scholars:
 Research assistants & interns:
 - Teo Dallier (2023; summer intern)
 - Elliot Gaudron-Parry (2023; summer intern)
--	Inès Benseddik (2023; summer intern)
+- Inès Benseddik (2023; summer intern)
 - Basil Courbayre Dussau (2023; summer intern)
 - Elina Chiesa (2023; intern)
 - Kevin Gatel (2022; summer intern)
