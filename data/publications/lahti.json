@@ -1,5 +1,59 @@
 [
   {
+    "DOI": "10.1186/s12915-023-01709-9",
+    "author": [
+      {
+        "family": "Husso",
+        "given": "Aleksi"
+      },
+      {
+        "family": "Pessa-Morikawa",
+        "given": "Tiina"
+      },
+      {
+        "family": "Mikael",
+        "given": "Ville"
+      },
+      {
+        "family": "Kärkkäinen",
+        "given": "Olli"
+      },
+      {
+        "family": "Kwon",
+        "given": "Hyuk Nam"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Livanainen",
+        "given": "Antti"
+      },
+      {
+        "family": "Hanhineva",
+        "given": "Kati"
+      },
+      {
+        "family": "Niku",
+        "given": "Mikael"
+      }
+    ],
+    "container-title": "BMC Biology",
+    "id": "Husso2023",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          10
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "title": "Impacts of maternal microbiota and microbial metabolites on fetal intestine, brain, and placenta",
+    "type": "article-journal"
+  },
+  {
     "DOI": "10.3389/fmicb.2023.1257002",
     "author": [
       {
