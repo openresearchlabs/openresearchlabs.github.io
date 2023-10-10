@@ -21,10 +21,6 @@ research/study positions.
 Contact us if you are interested. The admission varies by course but most courses are open to application.
 
 
-- [Summer School: Design and Control of Microbial Communities](http://msysbiology.com/microbedesign/) (Sep 11-13, Leuven, Belgium)
-
-- [NORBIS: Microbiome data science with R/Bioconductor](https://norbis.w.uib.no/microbiome-data-science-with-r-bioconductor/) (Oct 9-12 2023, University of Bergen, Norway)
-
 
 ### Past courses and events
 
@@ -45,6 +41,11 @@ Contact us if you are interested. The admission varies by course but most course
 
 
 **Microbiome data science**
+
+
+- [NORBIS: Microbiome data science with R/Bioconductor](https://norbis.w.uib.no/microbiome-data-science-with-r-bioconductor/) (Oct 9-12 2023, University of Bergen, Norway)
+
+- [Summer School: Design and Control of Microbial Communities](http://msysbiology.com/microbedesign/) (Sep 11-13, Leuven, Belgium)
 
 - [Brain, Bacteria and Behaviour: Understanding the Gut-Brain Axis](https://twitter.com/antagomir/status/1624025116001574912?s=20&t=k2TA4i7qHnK6JMhgQR1oBg) including microbiome data science with R/Bioconductor (July 10-14, 2023, Nijmegen, The Netherlands)
 
