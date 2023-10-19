@@ -35,6 +35,7 @@ We are part of the [Department of Computing](https://www.utu.fi/en/university/fa
     <li> <a href="https://avointiede.fi/fi/koordinaatio">National open science coordination</a>, vice chair</li>
     <li><a href="https://tenk.fi/en/research-misconduct/research-integrity-advisers">National Board on Research Integrity (TENK)</a> research integrity adviser</li>    
     <!--<li>Director, Turku Center for Computational Humanities</li>-->
+    <li><a href="https://ellis.eu/">ELLIS</a> member (the European Laboratory for Learning and Intelligent Systems)
     <li><a href="https://www.ml4microbiome.eu">Statistical and machine learning techniques in human microbiome studies</a> (ML4microbiome) COST action WG leader</li>
     <li><a href="https://codata.org/finland/">International Science Council (ISC) Committee on Data (CODATA)</a> national chair & delegate, member in the <a href="https://codata.org/initiatives/working-groups/data-ethics/">Data Ethics work group</a></li>
     <li><a href="https://www.okf.fi/">Open Knowledge Finland ry.</a> board</li>    
