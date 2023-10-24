@@ -1,5 +1,28 @@
 [
   {
+    "DOI": "10.1101/2023.10.12.23296829",
+    "author": [
+      {
+        "literal": "Pande Putu Erawijantari and Ece Kartal and José Liñares-Blanco and Teemu D. Laajala and Lily Elizabeth Feldman and The FINRISK Microbiome DREAM Challenge and ML4Microbiome Communities and Pedro Carmona-Saez and Rajesh Shigdel and Marcus and Joakim Claesson and Randi Jacobsen Bertelsen and David Gomez-Cabrero and Samuel Minot and Jacob Albrecht and Verena Chung and Michael Inouye and Pekka Jousilahti and Jobst-Hendrik Schultz and Hans-Christoph Friederich and Rob Knight and Veikko Salomaa and Teemu Niiranen and Aki S. Havulinna and Julio Saez-Rodriguez and Rebecca T. Levinson and Leo Lahti"
+      }
+    ],
+    "container-title": "medRxiv",
+    "id": "Erawijantari2023",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          10
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "status": "preprint",
+    "title": "Microbiome-based risk prediction in incident heart failure: A community challenge",
+    "title-short": "Microbiome-based risk prediction in incident heart failure",
+    "type": "article-journal"
+  },
+  {
     "DOI": "10.1186/s12915-023-01709-9",
     "author": [
       {
