@@ -3,7 +3,111 @@
     "DOI": "10.1101/2023.10.12.23296829",
     "author": [
       {
-        "literal": "Pande Putu Erawijantari and Ece Kartal and José Liñares-Blanco and Teemu D. Laajala and Lily Elizabeth Feldman and The FINRISK Microbiome DREAM Challenge and ML4Microbiome Communities and Pedro Carmona-Saez and Rajesh Shigdel and Marcus and Joakim Claesson and Randi Jacobsen Bertelsen and David Gomez-Cabrero and Samuel Minot and Jacob Albrecht and Verena Chung and Michael Inouye and Pekka Jousilahti and Jobst-Hendrik Schultz and Hans-Christoph Friederich and Rob Knight and Veikko Salomaa and Teemu Niiranen and Aki S. Havulinna and Julio Saez-Rodriguez and Rebecca T. Levinson and Leo Lahti"
+        "family": "Erawijantari",
+        "given": "Pande Putu"
+      },
+      {
+        "family": "Kartal",
+        "given": "Ece"
+      },
+      {
+        "family": "Liñares-Blanco",
+        "given": "José"
+      },
+      {
+        "family": "Laajala",
+        "given": "Teemu D."
+      },
+      {
+        "family": "Feldman",
+        "given": "Lily Elizabeth"
+      },
+      {
+        "family": "Challenge",
+        "given": "The FINRISK Microbiome DREAM"
+      },
+      {
+        "family": "Communities",
+        "given": "ML4Microbiome"
+      },
+      {
+        "family": "Carmona-Saez",
+        "given": "Pedro"
+      },
+      {
+        "family": "Shigdel",
+        "given": "Rajesh"
+      },
+      {
+        "family": "Marcus"
+      },
+      {
+        "family": "Claesson",
+        "given": "Joakim"
+      },
+      {
+        "family": "Bertelsen",
+        "given": "Randi Jacobsen"
+      },
+      {
+        "family": "Gomez-Cabrero",
+        "given": "David"
+      },
+      {
+        "family": "Minot",
+        "given": "Samuel"
+      },
+      {
+        "family": "Albrecht",
+        "given": "Jacob"
+      },
+      {
+        "family": "Chung",
+        "given": "Verena"
+      },
+      {
+        "family": "Inouye",
+        "given": "Michael"
+      },
+      {
+        "family": "Jousilahti",
+        "given": "Pekka"
+      },
+      {
+        "family": "Schultz",
+        "given": "Jobst-Hendrik"
+      },
+      {
+        "family": "Friederich",
+        "given": "Hans-Christoph"
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki S."
+      },
+      {
+        "family": "Saez-Rodriguez",
+        "given": "Julio"
+      },
+      {
+        "family": "Levinson",
+        "given": "Rebecca T."
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
       }
     ],
     "container-title": "medRxiv",
