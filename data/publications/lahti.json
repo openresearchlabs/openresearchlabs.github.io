@@ -1,6 +1,7 @@
 [
   {
     "DOI": "10.1101/2023.10.12.23296829",
+    "URL": "https://www.medrxiv.org/content/10.1101/2023.10.12.23296829v1",
     "author": [
       {
         "family": "Erawijantari",
@@ -110,7 +111,7 @@
         "given": "Leo"
       }
     ],
-    "container-title": "medRxiv",
+    "container-title": "medRxiv preprint",
     "id": "Erawijantari2023",
     "issued": {
       "date-parts": [
@@ -121,7 +122,6 @@
       ]
     },
     "keyword": "bioscience",
-    "status": "preprint",
     "title": "Microbiome-based risk prediction in incident heart failure: A community challenge",
     "title-short": "Microbiome-based risk prediction in incident heart failure",
     "type": "article-journal"
