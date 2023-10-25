@@ -1,5 +1,132 @@
 [
   {
+    "DOI": "10.1101/2023.10.12.23296829",
+    "URL": "https://www.medrxiv.org/content/10.1101/2023.10.12.23296829v1",
+    "author": [
+      {
+        "family": "Erawijantari",
+        "given": "Pande Putu"
+      },
+      {
+        "family": "Kartal",
+        "given": "Ece"
+      },
+      {
+        "family": "Liñares-Blanco",
+        "given": "José"
+      },
+      {
+        "family": "Laajala",
+        "given": "Teemu D."
+      },
+      {
+        "family": "Feldman",
+        "given": "Lily Elizabeth"
+      },
+      {
+        "family": "Challenge",
+        "given": "The FINRISK Microbiome DREAM"
+      },
+      {
+        "family": "Communities",
+        "given": "ML4Microbiome"
+      },
+      {
+        "family": "Carmona-Saez",
+        "given": "Pedro"
+      },
+      {
+        "family": "Shigdel",
+        "given": "Rajesh"
+      },
+      {
+        "family": "Marcus"
+      },
+      {
+        "family": "Claesson",
+        "given": "Joakim"
+      },
+      {
+        "family": "Bertelsen",
+        "given": "Randi Jacobsen"
+      },
+      {
+        "family": "Gomez-Cabrero",
+        "given": "David"
+      },
+      {
+        "family": "Minot",
+        "given": "Samuel"
+      },
+      {
+        "family": "Albrecht",
+        "given": "Jacob"
+      },
+      {
+        "family": "Chung",
+        "given": "Verena"
+      },
+      {
+        "family": "Inouye",
+        "given": "Michael"
+      },
+      {
+        "family": "Jousilahti",
+        "given": "Pekka"
+      },
+      {
+        "family": "Schultz",
+        "given": "Jobst-Hendrik"
+      },
+      {
+        "family": "Friederich",
+        "given": "Hans-Christoph"
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki S."
+      },
+      {
+        "family": "Saez-Rodriguez",
+        "given": "Julio"
+      },
+      {
+        "family": "Levinson",
+        "given": "Rebecca T."
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "medRxiv preprint",
+    "id": "Erawijantari2023",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          10
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "title": "Microbiome-based risk prediction in incident heart failure: A community challenge",
+    "title-short": "Microbiome-based risk prediction in incident heart failure",
+    "type": "article-journal"
+  },
+  {
     "DOI": "10.1186/s12915-023-01709-9",
     "author": [
       {
