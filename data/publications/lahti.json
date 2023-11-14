@@ -1,5 +1,117 @@
 [
   {
+    "DOI": "10.1186/s40168-023-01694-9",
+    "URL": "https://rdcu.be/dq2aL",
+    "author": [
+      {
+        "family": "Kaisanlahti",
+        "given": "Anna"
+      },
+      {
+        "family": "Turunen",
+        "given": "Jenni"
+      },
+      {
+        "family": "Byts",
+        "given": "Nadiya"
+      },
+      {
+        "family": "Samoylenko",
+        "given": "Anatoliy"
+      },
+      {
+        "family": "Bart",
+        "given": "Genevieve"
+      },
+      {
+        "family": "Virtanen",
+        "given": "Nikke"
+      },
+      {
+        "family": "Tejesvi",
+        "given": "Mysore V."
+      },
+      {
+        "family": "Zhyvolozhnyi",
+        "given": "Artem"
+      },
+      {
+        "family": "Sarfraz",
+        "given": "Sonia"
+      },
+      {
+        "family": "Kumpula",
+        "given": "Sohvi"
+      },
+      {
+        "family": "Hekkala",
+        "given": "Jenni"
+      },
+      {
+        "family": "Salmi",
+        "given": "Sonja"
+      },
+      {
+        "family": "Will",
+        "given": "Olga"
+      },
+      {
+        "family": "Korvala",
+        "given": "Johanna"
+      },
+      {
+        "family": "Paalanne",
+        "given": "Niko"
+      },
+      {
+        "family": "Erawijantari",
+        "given": "Pande Putu"
+      },
+      {
+        "family": "Suokas",
+        "given": "Marko"
+      },
+      {
+        "family": "Medina",
+        "given": "Tuula Peñate"
+      },
+      {
+        "family": "Vainio",
+        "given": "Seppo"
+      },
+      {
+        "family": "Medina",
+        "given": "Oula Peñate"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Tapiainen",
+        "given": "Terhi"
+      },
+      {
+        "family": "Reunanen",
+        "given": "Justus"
+      }
+    ],
+    "container-title": "BMC microbiome",
+    "id": "Kaisanlahti2023",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          11
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "title": "Maternal microbiota communicates with the fetus through microbiota-derived extracellular vesicles",
+    "type": "article-journal",
+    "volume": "249"
+  },
+  {
     "DOI": "10.1101/2023.10.12.23296829",
     "URL": "https://www.medrxiv.org/content/10.1101/2023.10.12.23296829v1",
     "author": [
