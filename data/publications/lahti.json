@@ -1,5 +1,138 @@
 [
   {
+    "DOI": "10.1161/ATVBAHA.123.319458",
+    "author": [
+      {
+        "family": "Koponen",
+        "given": "Kari"
+      },
+      {
+        "family": "Kambur",
+        "given": "Oleg"
+      },
+      {
+        "family": "Joseph",
+        "given": "Bijoy"
+      },
+      {
+        "family": "Ruuskanen",
+        "given": "Matti O."
+      },
+      {
+        "family": "Jousilahti",
+        "given": "Pekka"
+      },
+      {
+        "family": "Salido",
+        "given": "Rodolfo"
+      },
+      {
+        "family": "Brennan",
+        "given": "Caitriona"
+      },
+      {
+        "family": "Jain",
+        "given": "Mohit"
+      },
+      {
+        "family": "Meric",
+        "given": "Guillaume"
+      },
+      {
+        "family": "Inouye",
+        "given": "Michael"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki S."
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      }
+    ],
+    "container-title": "Arteriosclerosis, Thrombosis, and Vascular Biology",
+    "id": "Koponen2023",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          11
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "title": "Role of Gut Microbiota in Statin-Associated New-Onset Diabetes—a Cross-Sectional and Prospective Analysis of the FINRISK 2002 Cohort",
+    "type": "article-journal"
+  },
+  {
+    "DOI": "10.1098/rsos.230052",
+    "author": [
+      {
+        "family": "Raulo",
+        "given": "Aura"
+      },
+      {
+        "family": "Rojas",
+        "given": "Alexis"
+      },
+      {
+        "family": "Kröger",
+        "given": "Björn"
+      },
+      {
+        "family": "Laaksonen",
+        "given": "Antti"
+      },
+      {
+        "family": "Orta",
+        "given": "Carlos Lamuela"
+      },
+      {
+        "family": "Nurmio",
+        "given": "Silva"
+      },
+      {
+        "family": "Peltoniemi",
+        "given": "Mirva"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Žliobaitė",
+        "given": "Indrė"
+      }
+    ],
+    "container-title": "The Royal Society of Open Science",
+    "id": "Raulo2023",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          11
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "title": "What are patterns of rise and decline?",
+    "type": "article-journal",
+    "volume": "10"
+  },
+  {
     "DOI": "10.1186/s40168-023-01694-9",
     "URL": "https://rdcu.be/dq2aL",
     "author": [
