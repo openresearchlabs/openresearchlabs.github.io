@@ -12,6 +12,9 @@ Recent publications below. See [ORCID](http://orcid.org/0000-0001-5537-637X) for
 
 ## Computational and data science
 
+
+{{< articles id = "Raulo2023" >}}
+
 {{< articles id = "Arani2021" >}}
 
 {{< articles id = "Laitinen2021ews" >}}
