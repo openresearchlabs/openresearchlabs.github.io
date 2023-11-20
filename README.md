@@ -1,6 +1,6 @@
 # Turku Data Science Group website
 
-The following README gives a quick glance on how to add information from data files to Turku Data Science Group Website.
+The following README gives a quick glance on how to add information from data files to this Website.
 
 ## Editing the front page
 
