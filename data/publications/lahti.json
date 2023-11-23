@@ -1,5 +1,217 @@
 [
   {
+    "DOI": "10.3389/fmicb.2023.1250806",
+    "author": [
+      {
+        "family": "Marcos-Zambrano",
+        "given": "Laura Judith"
+      },
+      {
+        "family": "López-Molina",
+        "given": "Víctor Manuel"
+      },
+      {
+        "family": "Bakir-Gungor",
+        "given": "Burcu"
+      },
+      {
+        "family": "Frohme",
+        "given": "Marcus"
+      },
+      {
+        "family": "Karaduzovic-Hadziabdic",
+        "given": "Kanita"
+      },
+      {
+        "family": "Klammsteiner",
+        "given": "Thomas"
+      },
+      {
+        "family": "Ibrahimi",
+        "given": "Eliana"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Loncar-Turukalo",
+        "given": "Tatjana"
+      },
+      {
+        "family": "Dhamo",
+        "given": "Xhilda"
+      },
+      {
+        "family": "Simeon",
+        "given": "Andrea"
+      },
+      {
+        "family": "Nechyporenko",
+        "given": "Alina"
+      },
+      {
+        "family": "Pio",
+        "given": "Gianvito"
+      },
+      {
+        "family": "Przymus",
+        "given": "Piotr"
+      },
+      {
+        "family": "Sampri",
+        "given": "Alexia"
+      },
+      {
+        "family": "Trajkovik",
+        "given": "Vladimir"
+      },
+      {
+        "family": "Lacruz-Pleguezuelos",
+        "given": "Blanca"
+      },
+      {
+        "family": "Aasmets",
+        "given": "Oliver"
+      },
+      {
+        "family": "Araujo",
+        "given": "Ricardo"
+      },
+      {
+        "family": "Anagnostopoulos",
+        "given": "Ioannis"
+      },
+      {
+        "family": "Aydemir",
+        "given": "Önder"
+      },
+      {
+        "family": "Berland",
+        "given": "Magali"
+      },
+      {
+        "family": "Calle",
+        "given": "M. Luz"
+      },
+      {
+        "family": "Ceci",
+        "given": "Michelangelo"
+      },
+      {
+        "family": "Duman",
+        "given": "Hatice"
+      },
+      {
+        "family": "Gündoğdu",
+        "given": "Aycan"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki S."
+      },
+      {
+        "family": "Bra",
+        "given": "Kardokh Hama Najib Kaka"
+      },
+      {
+        "family": "Kalluci",
+        "given": "Eglantina"
+      },
+      {
+        "family": "Karav",
+        "given": "Sercan"
+      },
+      {
+        "family": "Lode",
+        "given": "Daniel"
+      },
+      {
+        "family": "Lopes",
+        "given": "Marta B."
+      },
+      {
+        "family": "May",
+        "given": "Patrick"
+      },
+      {
+        "family": "Nap",
+        "given": "Bram"
+      },
+      {
+        "family": "Nedyalkova",
+        "given": "Miroslava"
+      },
+      {
+        "family": "Paciência",
+        "given": "Inês"
+      },
+      {
+        "family": "Pasic",
+        "given": "Lejla"
+      },
+      {
+        "family": "Pujolassos",
+        "given": "Meritxell"
+      },
+      {
+        "family": "Shigdel",
+        "given": "Rajesh"
+      },
+      {
+        "family": "Susín",
+        "given": "Antonio"
+      },
+      {
+        "family": "Thiele",
+        "given": "Ines"
+      },
+      {
+        "family": "Truică",
+        "given": "Ciprian-Octavian"
+      },
+      {
+        "family": "Wilmes",
+        "given": "Paul"
+      },
+      {
+        "family": "Yilmaz",
+        "given": "Ercument"
+      },
+      {
+        "family": "Yousef",
+        "given": "Malik"
+      },
+      {
+        "family": "Claesson",
+        "given": "Marcus Joakim"
+      },
+      {
+        "family": "Truu",
+        "given": "Jaak"
+      },
+      {
+        "dropping-particle": "de",
+        "family": "Santa Pau",
+        "given": "Enrique Carrillo"
+      }
+    ],
+    "container-title": "Frontiers in Microbiology",
+    "id": "MarcosZambrano2023",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          11
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "title": "A toolbox of machine learning software to support microbiome analysis",
+    "type": "article-journal",
+    "volume": "14"
+  },
+  {
     "DOI": "10.1161/ATVBAHA.123.319458",
     "author": [
       {
