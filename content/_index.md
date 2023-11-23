@@ -15,6 +15,8 @@ Recent publications below. See [ORCID](http://orcid.org/0000-0001-5537-637X) for
 
 {{< articles id = "Raulo2023" >}}
 
+{{< articles id = "Khalighi2022" >}}
+
 {{< articles id = "Arani2021" >}}
 
 {{< articles id = "Laitinen2021ews" >}}
