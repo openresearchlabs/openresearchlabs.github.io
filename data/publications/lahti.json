@@ -1,5 +1,83 @@
 [
   {
+    "DOI": "10.1017/S0954579423001396",
+    "author": [
+      {
+        "family": "Huovinen",
+        "given": "Venla"
+      },
+      {
+        "family": "Aatsinki",
+        "given": "Anna-Katariina"
+      },
+      {
+        "family": "Kataja",
+        "given": "Eeva-Leena"
+      },
+      {
+        "family": "Munukka",
+        "given": "Eveliina"
+      },
+      {
+        "family": "Keskitalo",
+        "given": "Anniina"
+      },
+      {
+        "family": "Lamichhane",
+        "given": "Santosh"
+      },
+      {
+        "family": "Raunioniemi",
+        "given": "Peppi"
+      },
+      {
+        "family": "Bridgett",
+        "given": "David J."
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "O’Mahony",
+        "given": "Siobhain M."
+      },
+      {
+        "family": "Dickens",
+        "given": "Alex"
+      },
+      {
+        "family": "Korja",
+        "given": "Riikka"
+      },
+      {
+        "family": "Karlsson",
+        "given": "Hasse"
+      },
+      {
+        "family": "Nolvi",
+        "given": "Saara"
+      },
+      {
+        "family": "Karlsson",
+        "given": "Linnea"
+      }
+    ],
+    "container-title": "Cambridge University Press",
+    "id": "Huovinen2023",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          11
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "title": "Infant gut microbiota and negative and fear reactivity",
+    "type": "article-journal"
+  },
+  {
     "DOI": "10.3389/fmicb.2023.1250806",
     "author": [
       {
