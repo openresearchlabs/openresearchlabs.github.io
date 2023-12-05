@@ -126,7 +126,6 @@ Co-supervised PhDs:
 - Henrik Eckerman
 - Mrunalini Lotankar
 - Anna Sorjamaa
-- Asiye Kazeroonian
 
 Visiting scholars:
 - prof. Dhiraj Dhotre (2023; visiting professor)
