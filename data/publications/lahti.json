@@ -63,7 +63,7 @@
         "given": "Linnea"
       }
     ],
-    "container-title": "Cambridge University Press",
+    "container-title": "Development and Psychopathology",
     "id": "Huovinen2023",
     "issued": {
       "date-parts": [
@@ -74,11 +74,13 @@
       ]
     },
     "keyword": "bioscience",
+    "page": "1-16",
     "title": "Infant gut microbiota and negative and fear reactivity",
     "type": "article-journal"
   },
   {
     "DOI": "10.3389/fmicb.2023.1250806",
+    "URL": "https://www.frontiersin.org/articles/10.3389/fmicb.2023.1250806",
     "author": [
       {
         "family": "Marcos-Zambrano",
@@ -889,7 +891,8 @@
     },
     "keyword": "bioscience",
     "title": "Advancing microbiome research with machine learning: key findings from the ML4Microbiome COST action",
-    "type": "article-journal"
+    "type": "article-journal",
+    "volume": "14"
   },
   {
     "DOI": "10.1038/s41587-023-01845-1",
