@@ -1,5 +1,85 @@
 [
   {
+    "DOI": "10.1038/s41598-023-50791-0",
+    "author": [
+      {
+        "family": "König",
+        "given": "Emilia"
+      },
+      {
+        "family": "Heponiemi",
+        "given": "Paulina"
+      },
+      {
+        "family": "Kivinen",
+        "given": "Sanni"
+      },
+      {
+        "family": "Räkköläinen",
+        "given": "Jaakko"
+      },
+      {
+        "family": "Beasley",
+        "given": "Shea"
+      },
+      {
+        "family": "Borman",
+        "given": "Tuomas"
+      },
+      {
+        "family": "Collado",
+        "given": "Maria Carmen"
+      },
+      {
+        "family": "Hukkinen",
+        "given": "Vilja"
+      },
+      {
+        "family": "Junnila",
+        "given": "Jouni"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Norring",
+        "given": "Marianna"
+      },
+      {
+        "family": "Piirainen",
+        "given": "Virpi"
+      },
+      {
+        "family": "Salminen",
+        "given": "Seppo"
+      },
+      {
+        "family": "Heinonen",
+        "given": "Mari"
+      },
+      {
+        "family": "Valros",
+        "given": "Anna"
+      }
+    ],
+    "container-title": "Scientific Reports",
+    "id": "König2024",
+    "issue": "132",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          1
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "title": "Fewer culturable Lactobacillaceae species identified in faecal samples of pigs performing manipulative behaviour",
+    "type": "article-journal",
+    "volume": "14"
+  },
+  {
     "DOI": "10.1017/S0954579423001396",
     "author": [
       {
