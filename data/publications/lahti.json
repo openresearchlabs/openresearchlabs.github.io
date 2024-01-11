@@ -1,5 +1,46 @@
 [
   {
+    "DOI": "10.1080/19490976.2023.2295403",
+    "author": [
+      {
+        "family": "Eckermann",
+        "given": "Henrik Andreas"
+      },
+      {
+        "family": "Meijer",
+        "given": "Jennifer"
+      },
+      {
+        "family": "Cooijmans",
+        "given": "Kelly"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "dropping-particle": "de",
+        "family": "Weerth",
+        "given": "Carolina"
+      }
+    ],
+    "container-title": "Gut Microbes",
+    "id": "Eckermann2024",
+    "issue": "2295403, 1",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          1
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "title": "Daily skin-to-skin contact alters microbiota development in healthy full-term infants",
+    "type": "article-journal",
+    "volume": "16"
+  },
+  {
     "DOI": "10.1038/s41598-023-50791-0",
     "author": [
       {
