@@ -1,5 +1,110 @@
 [
   {
+    "DOI": "10.1111/dom.15311",
+    "author": [
+      {
+        "family": "Ojala",
+        "given": "Ronja"
+      },
+      {
+        "family": "Hentilä",
+        "given": "Jaakko"
+      },
+      {
+        "family": "Lietzén",
+        "given": "Martin S."
+      },
+      {
+        "family": "Arponen",
+        "given": "Milja"
+      },
+      {
+        "family": "Heiskanen",
+        "given": "Marja A."
+      },
+      {
+        "family": "Honkala",
+        "given": "Sanna M."
+      },
+      {
+        "family": "Virtanen",
+        "given": "Heidi"
+      },
+      {
+        "family": "Koskensalo",
+        "given": "Kalle"
+      },
+      {
+        "family": "Lautamäki",
+        "given": "Riikka"
+      },
+      {
+        "family": "Löyttyniemi",
+        "given": "Eliisa"
+      },
+      {
+        "family": "Parkkola",
+        "given": "Riitta"
+      },
+      {
+        "family": "Heinonen",
+        "given": "Olli J."
+      },
+      {
+        "family": "Malm",
+        "given": "Tarja"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Rinne",
+        "given": "Juha"
+      },
+      {
+        "family": "Eskola",
+        "given": "Olli"
+      },
+      {
+        "family": "Rajander",
+        "given": "Johan"
+      },
+      {
+        "family": "Pietiläinen",
+        "given": "Kirsi H."
+      },
+      {
+        "family": "Kaprio",
+        "given": "Jaakko"
+      },
+      {
+        "family": "Ivaska",
+        "given": "Kaisa K."
+      },
+      {
+        "family": "Hannukainen",
+        "given": "Jarna C."
+      }
+    ],
+    "container-title": "Diabetes, Obesity and Metabolism",
+    "id": "Ojala2024",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          1
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "First published 11 October 2023",
+    "page": "251-261",
+    "title": "Bone marrow metabolism is affected by body weight and response to exercise training varies according to anatomical location",
+    "type": "article-journal",
+    "volume": "16"
+  },
+  {
     "DOI": "10.1080/19490976.2023.2295403",
     "author": [
       {
