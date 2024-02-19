@@ -1,5 +1,88 @@
 [
   {
+    "DOI": "10.1016/j.tjnut.2024.01.008",
+    "author": [
+      {
+        "family": "Heiskanen",
+        "given": "Marja"
+      },
+      {
+        "family": "Aatsinki",
+        "given": "Anna"
+      },
+      {
+        "family": "Hakonen",
+        "given": "Petra"
+      },
+      {
+        "family": "Kartiosuo",
+        "given": "Noora"
+      },
+      {
+        "family": "Munukka",
+        "given": "Eveliina"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Keskitalo",
+        "given": "Anniina"
+      },
+      {
+        "family": "Huovinen",
+        "given": "Pentti"
+      },
+      {
+        "family": "Niinikoski",
+        "given": "Harri"
+      },
+      {
+        "family": "Viikari",
+        "given": "Jorma"
+      },
+      {
+        "family": "Rönnemaa",
+        "given": "Tapani"
+      },
+      {
+        "family": "Lagström",
+        "given": "Hanna"
+      },
+      {
+        "family": "Jula",
+        "given": "Antti"
+      },
+      {
+        "family": "Raitakari",
+        "given": "Olli"
+      },
+      {
+        "family": "Rovio",
+        "given": "Suvi"
+      },
+      {
+        "family": "Pahkala",
+        "given": "Katja"
+      }
+    ],
+    "container-title": "The Journal of Nutrition",
+    "id": "Heiskanen2024",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          1
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "Available online 12 January 2024",
+    "title": "Association of long-term habitual dietary fiber intake since infancy with gut microbiota composition in young adulthood",
+    "type": "article-journal"
+  },
+  {
     "DOI": "10.1111/dom.15311",
     "author": [
       {
