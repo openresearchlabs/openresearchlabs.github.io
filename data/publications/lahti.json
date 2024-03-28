@@ -1,5 +1,377 @@
 [
   {
+    "DOI": "10.5281/zenodo.10663903",
+    "author": [
+      {
+        "family": "Barker",
+        "given": "Michelle"
+      },
+      {
+        "family": "Hong",
+        "given": "Neil Chue"
+      },
+      {
+        "family": "Morthorst",
+        "given": "Anna Mette"
+      },
+      {
+        "family": "Schmidt",
+        "given": "Birgit"
+      },
+      {
+        "family": "Christensen-Dalsgaard",
+        "given": "Birte"
+      },
+      {
+        "family": "Roewenstrunk",
+        "given": "Daniel"
+      },
+      {
+        "family": "Heuson",
+        "given": "Egon"
+      },
+      {
+        "family": "Nominé",
+        "given": "Jean-Francois"
+      },
+      {
+        "family": "Hansen",
+        "given": "Karsten Kryger"
+      },
+      {
+        "family": "Sesink",
+        "given": "Laurents"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Brinkman",
+        "given": "Loek"
+      },
+      {
+        "family": "Jaquiery",
+        "given": "Matt"
+      },
+      {
+        "family": "Rouchon",
+        "given": "Olivier"
+      },
+      {
+        "family": "Mewes",
+        "given": "Stefanie"
+      },
+      {
+        "family": "Alatera",
+        "given": "Toumas"
+      }
+    ],
+    "container-title": "Zenodo",
+    "id": "BarkerandNeil2024",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          3
+        ]
+      ]
+    },
+    "keyword": "KE",
+    "title": "Approaches to scaling up reproducibility in research organisations",
+    "type": "article-journal"
+  },
+  {
+    "DOI": "10.1080/20002297.2024.2330867",
+    "author": [
+      {
+        "family": "Manzoora",
+        "given": "Muhammed"
+      },
+      {
+        "family": "Leskelä",
+        "given": "Jaakko"
+      },
+      {
+        "family": "Pietiäinen",
+        "given": "Milla"
+      },
+      {
+        "family": "Martinez-Majander",
+        "given": "Nicolas"
+      },
+      {
+        "family": "Könönen",
+        "given": "Eija"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Sinisalo",
+        "given": "Juha"
+      },
+      {
+        "family": "Putaala",
+        "given": "Jukka"
+      },
+      {
+        "family": "Pussinen",
+        "given": "Pirkko J."
+      },
+      {
+        "family": "Paju",
+        "given": "Susanna"
+      }
+    ],
+    "container-title": "Journal of Oral Microbiology (ZJOM)",
+    "id": "Manzoora2024",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          3
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "title": "Shotgun metagenomic analysis of the oral microbiome in gingivitis: A nested case-control study",
+    "title-short": "Shotgun metagenomic analysis of the oral microbiome in gingivitis",
+    "type": "article-journal",
+    "volume": "16"
+  },
+  {
+    "DOI": "10.1038/s43587-024-00590-7",
+    "ISSN": "2662-8465",
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Yang"
+      },
+      {
+        "family": "Ritchie",
+        "given": "Scott C."
+      },
+      {
+        "family": "Teo",
+        "given": "Shu Mei"
+      },
+      {
+        "family": "Ruuskanen",
+        "given": "Matti O."
+      },
+      {
+        "family": "Kambur",
+        "given": "Oleg"
+      },
+      {
+        "family": "Zhu",
+        "given": "Qiyun"
+      },
+      {
+        "family": "Sanders",
+        "given": "Jon"
+      },
+      {
+        "family": "Vázquez-Baeza",
+        "given": "Yoshiki"
+      },
+      {
+        "family": "Verspoor",
+        "given": "Karin"
+      },
+      {
+        "family": "Jousilahti",
+        "given": "Pekka"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki S."
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      },
+      {
+        "family": "Méric",
+        "given": "Guillaume"
+      },
+      {
+        "family": "Inouye",
+        "given": "Michael"
+      }
+    ],
+    "container-title": "Nature Aging",
+    "id": "Liu2024",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          3
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "title": "Integration of polygenic and gut metagenomic risk prediction for common diseases",
+    "type": "article-journal"
+  },
+  {
+    "DOI": "10.1016/j.jare.2024.03.003",
+    "author": [
+      {
+        "family": "Mishra",
+        "given": "Surbhi"
+      },
+      {
+        "family": "Tejesvi",
+        "given": "Mysore Vishakantegowda"
+      },
+      {
+        "family": "Hekkala",
+        "given": "Jenni"
+      },
+      {
+        "family": "Turunen",
+        "given": "Jenni"
+      },
+      {
+        "family": "Kandikanti",
+        "given": "Niyati"
+      },
+      {
+        "family": "Kaisanlahti",
+        "given": "Anna"
+      },
+      {
+        "family": "Suokas",
+        "given": "Marko"
+      },
+      {
+        "family": "Leppä",
+        "given": "Sirpa"
+      },
+      {
+        "family": "Vihinen",
+        "given": "Pia"
+      },
+      {
+        "family": "Kuitunen",
+        "given": "Hanne"
+      },
+      {
+        "family": "Sunela",
+        "given": "Kaisa"
+      },
+      {
+        "family": "Koivunen",
+        "given": "Jussi"
+      },
+      {
+        "family": "Jukkola",
+        "given": "Arja"
+      },
+      {
+        "family": "Kalashnikov",
+        "given": "Ilja"
+      },
+      {
+        "family": "Auvinen",
+        "given": "Päivi"
+      },
+      {
+        "family": "Kääriäinen",
+        "given": "Okko-Sakari"
+      },
+      {
+        "family": "Medina",
+        "given": "T. Peñate"
+      },
+      {
+        "family": "Medina",
+        "given": "O. Peñate"
+      },
+      {
+        "family": "Saarnio",
+        "given": "Juha"
+      },
+      {
+        "family": "Meriläinen",
+        "given": "Sanna"
+      },
+      {
+        "family": "Rautio",
+        "given": "Tero"
+      },
+      {
+        "family": "Aro",
+        "given": "Raila"
+      },
+      {
+        "family": "Häivälä",
+        "given": "Reetta"
+      },
+      {
+        "family": "Suojanen",
+        "given": "Juho"
+      },
+      {
+        "family": "Laine",
+        "given": "Mikael"
+      },
+      {
+        "family": "Erawijattari",
+        "given": "Pande Putu"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Karihtala",
+        "given": "Peeter"
+      },
+      {
+        "family": "Ruuska",
+        "given": "Terhi S."
+      },
+      {
+        "family": "Reunanen",
+        "given": "Justus"
+      }
+    ],
+    "container-title": "Journal of Advanced Research",
+    "id": "Mishra2024",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          3
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "Available online 7 March 2024",
+    "title": "Gut microbiome-derived bacterial extracellular vesicles in patients with solid tumours",
+    "type": "article-journal"
+  },
+  {
     "DOI": "10.1016/j.tjnut.2024.01.008",
     "author": [
       {
