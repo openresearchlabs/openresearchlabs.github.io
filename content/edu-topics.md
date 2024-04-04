@@ -23,6 +23,11 @@ Contact us if you are interested. The admission varies by course but most course
 [Brain, Bacteria and Behaviour: understanding the gut-brain axis (RSS4.06)](https://www.ru.nl/en/education/education-for-professionals/overview/brain-bacteria-and-behaviour-understanding-the-gut-brain-axis-rss406) (2 ECTS; Summer course; 08 July - 12 July 2024 - Radboud University, Nijmegen, Netherlands)
 
 
+[Metagenomics bioinformatics at MGnify](https://www.ebi.ac.uk/training/events/metagenomics-bioinformatics-mgnify/) (September, 23-27, 2024, Virtual Course)
+
+
+[Nordic Summer School on Computational Microbiome Research](https://sites.utu.fi/microbiomesummerschool/); (August 13-15, 2024, Turku, Finland)
+
 
 ### Past courses and events
 
