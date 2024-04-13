@@ -1,5 +1,71 @@
 [
   {
+    "author": [
+      {
+        "family": "König",
+        "given": "Emilia"
+      },
+      {
+        "family": "Beasley",
+        "given": "Shea"
+      },
+      {
+        "family": "Heponiemi",
+        "given": "Paulina"
+      },
+      {
+        "family": "Kivinen",
+        "given": "Sanni"
+      },
+      {
+        "family": "Räkköläinen",
+        "given": "Jaakko"
+      },
+      {
+        "family": "Salminen",
+        "given": "Seppo"
+      },
+      {
+        "family": "Collado",
+        "given": "Maria Carmen"
+      },
+      {
+        "family": "Borman",
+        "given": "Tuomas"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Piirainen",
+        "given": "Virpi"
+      },
+      {
+        "family": "Valros",
+        "given": "Anna"
+      },
+      {
+        "family": "Heinonen",
+        "given": "Mari"
+      }
+    ],
+    "container-title": "PLoS ONE",
+    "id": "König2024",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          4
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "In press.",
+    "title": "Fecal microbiota profiles of growing pigs and their relation to growth performance",
+    "type": "article-journal"
+  },
+  {
     "DOI": "10.48550/arXiv.2404.02691",
     "URL": "https://arxiv.org/abs/2404.02691",
     "author": [
