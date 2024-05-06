@@ -1,5 +1,75 @@
 [
   {
+    "DOI": "10.1038/s41591-024-02963-2",
+    "author": [
+      {
+        "family": "Tito",
+        "given": "Raúl Y."
+      },
+      {
+        "family": "Verbandt",
+        "given": "Sara"
+      },
+      {
+        "family": "Vazquez",
+        "given": "Marta Aguirre"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Verspecht",
+        "given": "Chloe"
+      },
+      {
+        "family": "Lloréns-Rico",
+        "given": "Verónica"
+      },
+      {
+        "family": "Vieira-Silva",
+        "given": "Sara"
+      },
+      {
+        "family": "Arts",
+        "given": "Janine"
+      },
+      {
+        "family": "Falony",
+        "given": "Gwen"
+      },
+      {
+        "family": "Dekker",
+        "given": "Evelien"
+      },
+      {
+        "family": "Reumers",
+        "given": "Joke"
+      },
+      {
+        "family": "Tejpar",
+        "given": "Sabine"
+      },
+      {
+        "family": "Raes",
+        "given": "Jeroen"
+      }
+    ],
+    "container-title": "Nature Medicine",
+    "id": "Tito2024",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          4
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "title": "Microbiome confounders and quantitative profiling challenge predicted microbial targets in colorectal cancer development",
+    "type": "article-journal"
+  },
+  {
     "author": [
       {
         "family": "König",
@@ -50,7 +120,7 @@
         "given": "Mari"
       }
     ],
-    "container-title": "PLoS ONE",
+    "container-title": "PLoS One",
     "id": "König2024",
     "issued": {
       "date-parts": [
@@ -111,62 +181,6 @@
       {
         "family": "Hong",
         "given": "Neil Chue"
-      },
-      {
-        "family": "Morthorst",
-        "given": "Anna Mette"
-      },
-      {
-        "family": "Schmidt",
-        "given": "Birgit"
-      },
-      {
-        "family": "Christensen-Dalsgaard",
-        "given": "Birte"
-      },
-      {
-        "family": "Roewenstrunk",
-        "given": "Daniel"
-      },
-      {
-        "family": "Heuson",
-        "given": "Egon"
-      },
-      {
-        "family": "Nominé",
-        "given": "Jean-Francois"
-      },
-      {
-        "family": "Hansen",
-        "given": "Karsten Kryger"
-      },
-      {
-        "family": "Sesink",
-        "given": "Laurents"
-      },
-      {
-        "family": "Lahti",
-        "given": "Leo"
-      },
-      {
-        "family": "Brinkman",
-        "given": "Loek"
-      },
-      {
-        "family": "Jaquiery",
-        "given": "Matt"
-      },
-      {
-        "family": "Rouchon",
-        "given": "Olivier"
-      },
-      {
-        "family": "Mewes",
-        "given": "Stefanie"
-      },
-      {
-        "family": "Alatera",
-        "given": "Toumas"
       }
     ],
     "container-title": "Zenodo",
