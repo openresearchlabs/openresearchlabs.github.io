@@ -78,3 +78,12 @@
     links_twitter: ""
     links_orcid: "https://orcid.org/0009-0008-8602-093X"
     links_homepage: ""
+  - name: "Arvi Tolvanen"
+    affiliation: ""
+    affiliation_url: ""
+    keywords: "Data Science, R programming"
+    avatar: "../img/teampic/ArviTolvanen24.png"
+    links_twitter: ""
+    links_orcid: "https://orcid.org/0009-0001-1590-0795"
+    links_homepage: ""
+    
