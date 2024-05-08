@@ -70,6 +70,7 @@
     "type": "article-journal"
   },
   {
+    "DOI": "10.1371/journal.pone.0302724",
     "author": [
       {
         "family": "König",
@@ -126,14 +127,15 @@
       "date-parts": [
         [
           2024,
-          4
+          5
         ]
       ]
     },
     "keyword": "bioscience",
-    "note": "In press.",
+    "page": "1-20",
     "title": "Fecal microbiota profiles of growing pigs and their relation to growth performance",
-    "type": "article-journal"
+    "type": "article-journal",
+    "volume": "19"
   },
   {
     "DOI": "10.48550/arXiv.2404.02691",
