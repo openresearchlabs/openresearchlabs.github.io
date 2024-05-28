@@ -20,6 +20,8 @@ research/study positions.
 
 Contact us if you are interested. The admission varies by course but most courses are open to application.
 
+[EMBL-EBI Training]()
+
 [Brain, Bacteria and Behaviour: understanding the gut-brain axis (RSS4.06)](https://www.ru.nl/en/education/education-for-professionals/overview/brain-bacteria-and-behaviour-understanding-the-gut-brain-axis-rss406) (2 ECTS; Summer course; 08 July - 12 July 2024 - Radboud University, Nijmegen, Netherlands)
 
 
