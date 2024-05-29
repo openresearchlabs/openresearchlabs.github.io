@@ -1,5 +1,346 @@
 [
   {
+    "DOI": "10.1111/1751-7915.14456",
+    "author": [
+      {
+        "family": "Timmis",
+        "given": "Kenneth"
+      },
+      {
+        "family": "Hallsworth",
+        "given": "John E."
+      },
+      {
+        "family": "McGenity",
+        "given": "Terry J."
+      },
+      {
+        "family": "Armstrong",
+        "given": "Rachel"
+      },
+      {
+        "family": "Colom",
+        "given": "María Francisca"
+      },
+      {
+        "family": "Karahan",
+        "given": "Zeynep Ceren"
+      },
+      {
+        "family": "Chavarría",
+        "given": "Max"
+      },
+      {
+        "family": "Bernal",
+        "given": "Patricia"
+      },
+      {
+        "family": "Boyd",
+        "given": "Eric S."
+      },
+      {
+        "family": "Ramos",
+        "given": "Juan Luis"
+      },
+      {
+        "family": "Kaltenpoth",
+        "given": "Martin"
+      },
+      {
+        "family": "Pruzzo",
+        "given": "Carla"
+      },
+      {
+        "family": "Clarke",
+        "given": "Gerard"
+      },
+      {
+        "family": "López-Garcia",
+        "given": "Purificación"
+      },
+      {
+        "family": "Yakimov",
+        "given": "Michail M."
+      },
+      {
+        "family": "Perlmutter",
+        "given": "Jessamyn"
+      },
+      {
+        "family": "Greening",
+        "given": "Chris"
+      },
+      {
+        "family": "Eloe-Fadrosh",
+        "given": "Emiley"
+      },
+      {
+        "family": "Verstraete",
+        "given": "Willy"
+      },
+      {
+        "family": "Nunes",
+        "given": "Olga C."
+      },
+      {
+        "family": "Kotsyurbenko",
+        "given": "Oleg"
+      },
+      {
+        "family": "Nikel",
+        "given": "Pablo Iván"
+      },
+      {
+        "family": "Scavone",
+        "given": "Paola"
+      },
+      {
+        "family": "Lavigne",
+        "given": "Max M. Häggblomand Rob"
+      },
+      {
+        "family": "Roux",
+        "given": "Frédérique Le"
+      },
+      {
+        "family": "Timmis",
+        "given": "James K."
+      },
+      {
+        "family": "Parro",
+        "given": "Victor"
+      },
+      {
+        "family": "Michán",
+        "given": "Carmen"
+      },
+      {
+        "family": "García",
+        "given": "José Luis"
+      },
+      {
+        "family": "Casadevall",
+        "given": "Arturo"
+      },
+      {
+        "family": "Payne",
+        "given": "Shelley M."
+      },
+      {
+        "family": "Frey",
+        "given": "Joachim"
+      },
+      {
+        "family": "Koren",
+        "given": "Omry"
+      },
+      {
+        "family": "Prosser",
+        "given": "James I."
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Lal",
+        "given": "Rup"
+      },
+      {
+        "family": "Anand",
+        "given": "Shailly"
+      },
+      {
+        "family": "Sood",
+        "given": "Utkarsh"
+      },
+      {
+        "family": "Offre",
+        "given": "Pierre"
+      },
+      {
+        "family": "Bryce",
+        "given": "Casey C."
+      },
+      {
+        "family": "Mswaka",
+        "given": "Allen Y."
+      },
+      {
+        "family": "Jores",
+        "given": "Jörg"
+      },
+      {
+        "family": "Kaçar",
+        "given": "Betül"
+      },
+      {
+        "family": "Blank",
+        "given": "Lars Mathias"
+      },
+      {
+        "family": "Maaßen",
+        "given": "Nicole"
+      },
+      {
+        "family": "Pope",
+        "given": "Phillip B."
+      },
+      {
+        "family": "Banciu",
+        "given": "Horia L."
+      },
+      {
+        "family": "Armitage",
+        "given": "Judith"
+      },
+      {
+        "family": "Lee",
+        "given": "Sang Yup"
+      },
+      {
+        "family": "Wang",
+        "given": "Fengping"
+      },
+      {
+        "family": "Makhalanyane",
+        "given": "Thulani P."
+      },
+      {
+        "family": "Gilbert",
+        "given": "Jack A."
+      },
+      {
+        "family": "Wood",
+        "given": "Thomas K."
+      },
+      {
+        "family": "Vasiljevic",
+        "given": "Branka"
+      },
+      {
+        "family": "Soberón",
+        "given": "Mario"
+      },
+      {
+        "family": "Udaondo",
+        "given": "Zulema"
+      },
+      {
+        "family": "Rojo",
+        "given": "Fernando"
+      },
+      {
+        "family": "Tamang",
+        "given": "Jyoti Prakash"
+      },
+      {
+        "family": "Giraud",
+        "given": "Tatiana"
+      },
+      {
+        "family": "Ropars",
+        "given": "Jeanne"
+      },
+      {
+        "family": "Ezeji",
+        "given": "Thaddeus"
+      },
+      {
+        "family": "Müller",
+        "given": "Volker"
+      },
+      {
+        "family": "Danbara",
+        "given": "Hirofume"
+      },
+      {
+        "family": "Averhoff",
+        "given": "Beate"
+      },
+      {
+        "family": "Sessitsch",
+        "given": "Angela"
+      },
+      {
+        "family": "Partida-Martínez",
+        "given": "Laila Pamela"
+      },
+      {
+        "family": "Huang",
+        "given": "Wei"
+      },
+      {
+        "family": "Molin",
+        "given": "Søren"
+      },
+      {
+        "family": "Junier",
+        "given": "Pilar"
+      },
+      {
+        "family": "Amils",
+        "given": "Ricardo"
+      },
+      {
+        "family": "Wu",
+        "given": "Xiao-Lei"
+      },
+      {
+        "family": "Ron",
+        "given": "Eliora"
+      },
+      {
+        "family": "Erten",
+        "given": "Huseyin"
+      },
+      {
+        "dropping-particle": "de",
+        "family": "Martinis",
+        "given": "Elaine Cristina Pereira"
+      },
+      {
+        "family": "Rapoport",
+        "given": "Alexander"
+      },
+      {
+        "family": "Öpik",
+        "given": "Maarja"
+      },
+      {
+        "family": "Pokatong",
+        "given": "W. Donald R."
+      },
+      {
+        "family": "Stairs",
+        "given": "Courtney"
+      },
+      {
+        "family": "Amoozegar",
+        "given": "Mohammad Ali"
+      },
+      {
+        "family": "Serna",
+        "given": "Jéssica Gil"
+      }
+    ],
+    "container-title": "Microbial Biotechnology",
+    "id": "Timmis2024",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          5
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "e14456",
+    "title": "Microbiome confounders and quantitative profiling challenge predicted microbial targets in colorectal cancer development",
+    "type": "article-journal"
+  },
+  {
     "DOI": "10.1038/s41591-024-02963-2",
     "author": [
       {
@@ -799,6 +1140,26 @@
     "title": "Fewer culturable Lactobacillaceae species identified in faecal samples of pigs performing manipulative behaviour",
     "type": "article-journal",
     "volume": "14"
+  },
+  {
+    "DOI": "10.23847/tsv.669",
+    "ISBN": "978-952-5995-87-9",
+    "ISSN": "2670-062X",
+    "URL": "https://edition.fi/tsv/catalog/view/669/702/2461-1",
+    "author": [
+      {
+        "dropping-particle": "Open Science Coordination in",
+        "family": "Finland",
+        "given": "Federation of Finnish Learned Societies"
+      }
+    ],
+    "id": "openedu2023",
+    "keyword": "openscience",
+    "publisher": "The Committee for Public Information (TJNK) and Federation of Finnish Learned Societies (TSV)",
+    "title": "Open research data and methods. National policy and executive plan by the higher education and research community for 2021–2025: Policy component 1 (open access to research data) and 2 (open access to research methods and infrastructures)",
+    "title-short": "Open research data and methods. National policy and executive plan by the higher education and research community for 2021–2025",
+    "type": "report",
+    "volume": "5"
   },
   {
     "DOI": "10.1017/S0954579423001396",
