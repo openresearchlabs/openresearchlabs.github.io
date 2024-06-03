@@ -1,5 +1,45 @@
 [
   {
+    "DOI": "10.1101/2024.05.31.24308262",
+    "author": [
+      {
+        "family": "Bhanushali",
+        "given": "Shivang"
+      },
+      {
+        "family": "Parnanen",
+        "given": "Katariina"
+      },
+      {
+        "family": "Mongad",
+        "given": "Dattatray"
+      },
+      {
+        "family": "Dhotre",
+        "given": "Dhiraj"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "medRxiv",
+    "id": "Bhanushali2024",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          5
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "status": "preprint",
+    "title": "Biochemical analyses can complement sequencing-based ARG load monitoring: A case study in indian hospital sewage networks",
+    "title-short": "Biochemical analyses can complement sequencing-based ARG load monitoring",
+    "type": "article-journal"
+  },
+  {
     "DOI": "10.1111/1751-7915.14456",
     "author": [
       {
