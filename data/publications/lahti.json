@@ -41,6 +41,7 @@
   },
   {
     "DOI": "10.1111/1751-7915.14456",
+    "ISSN": "1751-7915",
     "author": [
       {
         "family": "Timmis",
@@ -377,8 +378,9 @@
     },
     "keyword": "bioscience",
     "page": "e14456",
-    "title": "Microbiome confounders and quantitative profiling challenge predicted microbial targets in colorectal cancer development",
-    "type": "article-journal"
+    "title": "A concept for international societally relevant microbiology education and microbiology knowledge promulgation in society",
+    "type": "article-journal",
+    "volume": "17"
   },
   {
     "DOI": "10.1038/s41591-024-02963-2",
