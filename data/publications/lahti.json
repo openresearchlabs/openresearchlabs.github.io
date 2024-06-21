@@ -1,5 +1,118 @@
 [
   {
+    "DOI": "https://doi.org/10.1016/S2666-5247(24)00079-X",
+    "ISSN": "2666-5247",
+    "author": [
+      {
+        "family": "Kullberg",
+        "given": "Robert F J"
+      },
+      {
+        "family": "Wikki",
+        "given": "Irina"
+      },
+      {
+        "family": "Haak",
+        "given": "Bastiaan W"
+      },
+      {
+        "family": "Kauko",
+        "given": "Anni"
+      },
+      {
+        "family": "Galenkamp",
+        "given": "Henrike"
+      },
+      {
+        "family": "Peters-Sengers",
+        "given": "Hessel"
+      },
+      {
+        "family": "Butler",
+        "given": "Joe M"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki S"
+      },
+      {
+        "family": "Palmu",
+        "given": "Joonatan"
+      },
+      {
+        "family": "McDonald",
+        "given": "Daniel"
+      },
+      {
+        "family": "Benchraka",
+        "given": "Chouaib"
+      },
+      {
+        "family": "Abdel-Aziz",
+        "given": "Mahmoud I"
+      },
+      {
+        "family": "Prins",
+        "given": "Maria"
+      },
+      {
+        "family": "Maitland van der Zee",
+        "given": "Anke H"
+      },
+      {
+        "family": "Born",
+        "given": "Bert-Jan",
+        "non-dropping-particle": "van den"
+      },
+      {
+        "family": "Jousilahti",
+        "given": "Pekka"
+      },
+      {
+        "family": "Vos",
+        "given": "Willem M",
+        "non-dropping-particle": "de"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Nieuwdorp",
+        "given": "Max"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      },
+      {
+        "family": "Wiersinga",
+        "given": "W Joost"
+      }
+    ],
+    "container-title": "The Lancet Microbe",
+    "id": "Kullberg2024",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "title": "Association between butyrate-producing gut bacteria and the risk of infectious disease hospitalisation: Results from two observational, population-based microbiome studies",
+    "title-short": "Association between butyrate-producing gut bacteria and the risk of infectious disease hospitalisation",
+    "type": "article-journal"
+  },
+  {
     "DOI": "10.1101/2024.05.31.24308262",
     "author": [
       {
