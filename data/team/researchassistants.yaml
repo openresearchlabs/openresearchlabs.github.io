@@ -110,4 +110,12 @@
   links_twitter: ""
   links_orcid:  "https://orcid.org/0009-0004-5254-3426"
   links_homepage: ""
+- name: "Axel Dagnaud"
+  affiliation: ""
+  affiliation_url: ""
+  keywords: "Data Science"
+  avatar: "../img/teampic/Axel_Dagnaud.png"
+  links_twitter: ""
+  links_orcid: "https://orcid.org/0009-0008-1081-3781"
+  links_homepage: ""
   
