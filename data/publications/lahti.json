@@ -1,5 +1,74 @@
 [
   {
+    "DOI": "10.1093/ismeco/ycae088",
+    "ISSN": "2730-6151",
+    "author": [
+      {
+        "family": "Manzoor",
+        "given": "Muhammed"
+      },
+      {
+        "family": "Leskelä",
+        "given": "Jaakko"
+      },
+      {
+        "family": "Pietiäinen",
+        "given": "Milla"
+      },
+      {
+        "family": "Martinez-Majander",
+        "given": "Nicolas"
+      },
+      {
+        "family": "Ylikotila",
+        "given": "Pauli"
+      },
+      {
+        "family": "Könönen",
+        "given": "Eija"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Sinisalo",
+        "given": "Juha"
+      },
+      {
+        "family": "Putaala",
+        "given": "Jukka"
+      },
+      {
+        "family": "Pussinen",
+        "given": "Pirkko J"
+      },
+      {
+        "family": "Paju",
+        "given": "Susanna"
+      }
+    ],
+    "container-title": "ISME Communications",
+    "id": "Manzoor2024",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          6
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "title": "Multikingdom oral microbiome interactions in early-onset cryptogenic ischemic stroke",
+    "type": "article-journal",
+    "volume": "4"
+  },
+  {
     "DOI": "https://doi.org/10.1016/S2666-5247(24)00079-X",
     "ISSN": "2666-5247",
     "author": [
