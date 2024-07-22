@@ -46,14 +46,23 @@
     "type": "article-journal"
   },
   {
+    "DOI": "10.1016/j.eeh.2024.101614",
+    "ISSN": "0014-4983",
     "author": [
       {
-        "dropping-particle": "et",
-        "family": "al.",
-        "given": "Tiihonen"
+        "family": "Tiihonen",
+        "given": "Iiro"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Tolonen",
+        "given": "Mikko"
       }
     ],
-    "container-title": "Elsevier",
+    "container-title": "Explorations in Economic History",
     "id": "Tiihonen2024",
     "issued": {
       "date-parts": [
@@ -63,7 +72,7 @@
       ]
     },
     "keyword": "dh",
-    "note": "In press.",
+    "page": "101614",
     "title": "Print culture and economic constraints: A quantitative analysis of book prices in eighteenth-century britain",
     "title-short": "Print culture and economic constraints",
     "type": "article-journal"
@@ -124,9 +133,16 @@
   {
     "author": [
       {
-        "dropping-particle": "et",
-        "family": "al.",
-        "given": "Khaligi"
+        "family": "Khalighi",
+        "given": "Moein"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Ndaïrou",
+        "given": "Faïçal"
       }
     ],
     "container-title": "International Journal of Biomathematics",
@@ -140,7 +156,7 @@
     },
     "keyword": "datascience",
     "note": "In press.",
-    "title": "Epidemic transmission modeling with fractional derivatives and environmental pathogens international journal of biomathematics",
+    "title": "Epidemic transmission modeling with fractional derivatives and environmental pathogens",
     "type": "article-journal"
   },
   {
