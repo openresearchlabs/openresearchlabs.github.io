@@ -1,5 +1,149 @@
 [
   {
+    "author": [
+      {
+        "family": "Jokela",
+        "given": "Roosa"
+      },
+      {
+        "family": "Pärnänen",
+        "given": "Katariina"
+      },
+      {
+        "family": "ponsero",
+        "given": "Alise"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Kolho",
+        "given": "Kaija Leena"
+      },
+      {
+        "family": "Davos",
+        "given": "Willem"
+      },
+      {
+        "family": "Salonen",
+        "given": "Anne"
+      }
+    ],
+    "container-title": "Gut Microbes",
+    "id": "Jokela2024",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "In press.",
+    "title": "A cohort study in family triads: Impact of gut microbiota composition and early life exposures on intestinal resistome during the first two years of life",
+    "title-short": "A cohort study in family triads",
+    "type": "article-journal"
+  },
+  {
+    "author": [
+      {
+        "dropping-particle": "et",
+        "family": "al.",
+        "given": "Tiihonen"
+      }
+    ],
+    "container-title": "Elsevier",
+    "id": "Tiihonen2024",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "keyword": "dh",
+    "note": "In press.",
+    "title": "Print culture and economic constraints: A quantitative analysis of book prices in eighteenth-century britain",
+    "title-short": "Print culture and economic constraints",
+    "type": "article-journal"
+  },
+  {
+    "author": [
+      {
+        "family": "Ohlsson",
+        "given": "Claes"
+      },
+      {
+        "family": "Grahnemo",
+        "given": "Louise"
+      },
+      {
+        "family": "Kambur",
+        "given": "Oleg"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Jousilahti",
+        "given": "Pekka"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki"
+      }
+    ],
+    "container-title": "npj Biofilms and Microbiomes",
+    "id": "Ohlsson2024",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "In press.",
+    "title": "Associations between gut microbiota and incident fractures in the FINRISK cohort",
+    "type": "article-journal"
+  },
+  {
+    "author": [
+      {
+        "dropping-particle": "et",
+        "family": "al.",
+        "given": "Khaligi"
+      }
+    ],
+    "container-title": "International Journal of Biomathematics",
+    "id": "Khaligi2024",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "keyword": "datascience",
+    "note": "In press.",
+    "title": "Epidemic transmission modeling with fractional derivatives and environmental pathogens international journal of biomathematics",
+    "type": "article-journal"
+  },
+  {
     "DOI": "10.1093/ismeco/ycae088",
     "ISSN": "2730-6151",
     "author": [
