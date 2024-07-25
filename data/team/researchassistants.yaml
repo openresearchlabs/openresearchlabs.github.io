@@ -110,4 +110,11 @@
   links_twitter: ""
   links_orcid:  "https://orcid.org/0009-0004-5254-3426"
   links_homepage: ""
-  
+- name: "Jiya Chaudhary"
+  affiliation: ""
+  affiliation_url: ""
+  keywords: "Data Analytics, R Programming"
+  avatar: "../img/teampic/JiyaChaudhary.jpg"
+  links_twitter: ""
+  links_orcid:  "https://orcid.org/0009-0005-8985-9413"
+  links_homepage: ""  
