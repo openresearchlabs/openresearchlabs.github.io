@@ -1,5 +1,36 @@
 [
   {
+    "DOI": "10.1145/3680280",
+    "ISSN": "0098-3500",
+    "author": [
+      {
+        "family": "Khalighi",
+        "given": "Moein"
+      },
+      {
+        "family": "Benedetti",
+        "given": "Giulio"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "ACM Transactions on Mathematical Software",
+    "id": "Khalighi2024acm",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          7
+        ]
+      ]
+    },
+    "keyword": "datascience",
+    "title": "FdeSolver, a Julia package for solving fractional differential equations",
+    "type": "article-journal"
+  },
+  {
     "author": [
       {
         "family": "Jokela",
@@ -147,7 +178,7 @@
       }
     ],
     "container-title": "International Journal of Biomathematics",
-    "id": "Khaligi2024",
+    "id": "Khalighi2024",
     "issued": {
       "date-parts": [
         [
