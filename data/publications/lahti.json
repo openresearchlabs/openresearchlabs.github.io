@@ -31,30 +31,12 @@
     "type": "article-journal"
   },
   {
+    "DOI": "10.1080/19490976.2024.2383746",
     "author": [
       {
-        "family": "Jokela",
-        "given": "Roosa"
-      },
-      {
-        "family": "Pärnänen",
-        "given": "Katariina"
-      },
-      {
-        "family": "ponsero",
-        "given": "Alise"
-      },
-      {
-        "family": "Lahti",
-        "given": "Leo"
-      },
-      {
-        "family": "Kolho",
-        "given": "Kaija Leena"
-      },
-      {
-        "family": "Davos",
-        "given": "Willem"
+        "family": "Roosa Jokela",
+        "given": "Alise J Ponsero",
+        "suffix": "Katariina MM Pärnänen"
       },
       {
         "family": "Salonen",
@@ -63,6 +45,7 @@
     ],
     "container-title": "Gut Microbes",
     "id": "Jokela2024",
+    "issue": "1",
     "issued": {
       "date-parts": [
         [
@@ -71,10 +54,11 @@
       ]
     },
     "keyword": "bioscience",
-    "note": "In press.",
+    "page": "2383746",
     "title": "A cohort study in family triads: Impact of gut microbiota composition and early life exposures on intestinal resistome during the first two years of life",
     "title-short": "A cohort study in family triads",
-    "type": "article-journal"
+    "type": "article-journal",
+    "volume": "16"
   },
   {
     "DOI": "10.1016/j.eeh.2024.101614",
@@ -163,6 +147,7 @@
     "type": "article-journal"
   },
   {
+    "DOI": "10.48550/arXiv.2305.16689",
     "URL": "https://arxiv.org/html/2305.16689v2",
     "author": [
       {
@@ -188,7 +173,6 @@
       ]
     },
     "keyword": "datascience",
-    "note": "In press.",
     "title": "Epidemic transmission modeling with fractional derivatives and environmental pathogens",
     "type": "article-journal"
   },
@@ -2270,7 +2254,7 @@
         "given": "Leo"
       },
       {
-        "family": "Livanainen",
+        "family": "Iivanainen",
         "given": "Antti"
       },
       {
