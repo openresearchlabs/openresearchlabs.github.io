@@ -34,9 +34,29 @@
     "DOI": "10.1080/19490976.2024.2383746",
     "author": [
       {
-        "family": "Roosa Jokela",
-        "given": "Alise J Ponsero",
-        "suffix": "Katariina MM Pärnänen"
+        "family": "Jokela",
+        "given": "Roosa"
+      },
+      {
+        "family": "Pärnänen",
+        "given": "Katariina MM"
+      },
+      {
+        "family": "Ponsero",
+        "given": "Alise J"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Kolho",
+        "given": "Kaija-Leena"
+      },
+      {
+        "dropping-particle": "de",
+        "family": "Vos",
+        "given": "Willem M"
       },
       {
         "family": "Salonen",
