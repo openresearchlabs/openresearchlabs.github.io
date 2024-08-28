@@ -1,5 +1,92 @@
 [
   {
+    "author": [
+      {
+        "family": "Lietzén",
+        "given": "Martin S"
+      },
+      {
+        "family": "Mari",
+        "given": "Andrea"
+      },
+      {
+        "family": "Ojala",
+        "given": "Ronja"
+      },
+      {
+        "family": "Hentilä",
+        "given": "Jaakko"
+      },
+      {
+        "family": "Koskensalo",
+        "given": "Kalle"
+      },
+      {
+        "family": "Lautamäki",
+        "given": "Riikka"
+      },
+      {
+        "family": "Löyttyniemi",
+        "given": "Eliisa"
+      },
+      {
+        "family": "Parkkola",
+        "given": "Riitta"
+      },
+      {
+        "family": "Saunavaara",
+        "given": "Virva"
+      },
+      {
+        "family": "Kirjavainen",
+        "given": "Anna K"
+      },
+      {
+        "family": "Rajander",
+        "given": "Johan"
+      },
+      {
+        "family": "Malm",
+        "given": "Tarja"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Rinne",
+        "given": "Juha O"
+      },
+      {
+        "family": "Pietiläinen",
+        "given": "Kirsi H"
+      },
+      {
+        "family": "Iozzo",
+        "given": "Patricia"
+      },
+      {
+        "family": "Hannukainen",
+        "given": "Jarna C"
+      }
+    ],
+    "container-title": "Molecular Medicine",
+    "id": "Lietzén2024",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          8
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "In press.",
+    "title": "Effects of obesity and exercise on hepatic and pancreatic lipid content and glucose metabolism: PET-studies in twins discordant for BMI",
+    "title-short": "Effects of obesity and exercise on hepatic and pancreatic lipid content and glucose metabolism",
+    "type": "article-journal"
+  },
+  {
     "DOI": "10.1145/3680280",
     "ISSN": "0098-3500",
     "author": [
@@ -114,11 +201,8 @@
     "volume": "94"
   },
   {
+    "DOI": "10.1038/s41522-024-00530-8",
     "author": [
-      {
-        "family": "Ohlsson",
-        "given": "Claes"
-      },
       {
         "family": "Grahnemo",
         "given": "Louise"
@@ -149,11 +233,16 @@
       },
       {
         "family": "Havulinna",
-        "given": "Aki"
+        "given": "Aki S."
+      },
+      {
+        "family": "Ohlsson",
+        "given": "Claes"
       }
     ],
     "container-title": "npj Biofilms and Microbiomes",
-    "id": "Ohlsson2024",
+    "id": "Grahnemo2024",
+    "issue": "69",
     "issued": {
       "date-parts": [
         [
@@ -162,9 +251,9 @@
       ]
     },
     "keyword": "bioscience",
-    "note": "In press.",
     "title": "Associations between gut microbiota and incident fractures in the FINRISK cohort",
-    "type": "article-journal"
+    "type": "article-journal",
+    "volume": "10"
   },
   {
     "DOI": "10.48550/arXiv.2305.16689",
@@ -3125,6 +3214,30 @@
     "title": "Multi-trait genetic analysis reveals clinically interpretable hypertension subtypes",
     "type": "article-journal",
     "volume": "15"
+  },
+  {
+    "DOI": "10.23847/tsv.441",
+    "ISSN": "2670-062X",
+    "author": [
+      {
+        "family": "Mikkonen",
+        "given": "Kärki",
+        "suffix": "Anna"
+      }
+    ],
+    "container-title": "Vastuullisen tieteen julkaisusarja, Tieteellisten seurain valtuuskunta",
+    "id": "Mikkonen2022",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          7
+        ]
+      ]
+    },
+    "keyword": "openscience",
+    "title": "Open science recommendation and checklist for research, development and innovation activities in collaboration between research organisations and companies",
+    "type": "article-journal"
   },
   {
     "DOI": "10.1097/HJH.0000000000003051",
