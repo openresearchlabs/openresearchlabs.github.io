@@ -134,6 +134,14 @@ Visiting scholars:
 - Dattatray Mongad (2022; visiting researcher)
 
 Research assistants & interns:
+- Chouaib Benchraka
+- Arvi Tolvanen (2024; summer intern)
+- Samuel Hillman (2024; summer intern)
+- Ely Seraidarian (2024; summer intern)
+- Théotime Pralas (2024; summer intern)
+- Jiya Chaudhary (2024; summer intern)
+- Axel Dagnaud (2024; summer intern)
+- Noah de Gunst (2024; summer intern)
 - Teo Dallier (2023; summer intern)
 - Elliot Gaudron-Parry (2023; summer intern)
 - Inès Benseddik (2023; summer intern)
