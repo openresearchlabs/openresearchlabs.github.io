@@ -1,73 +1,910 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Recent Publications on Turku Data Science Group</title><link>http://datascience.utu.fi/</link><description>Recent content in Recent Publications on Turku Data Science Group</description><generator>Hugo</generator><language>en-us</language><atom:link href="http://datascience.utu.fi/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>http://datascience.utu.fi/bio_lahti/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/bio_lahti/</guid><description>Bio Short version Leo Lahti is professor in Data Science in University of Turku, Finland. His research team focuses on computational analysis of complex natural and social systems. Lahti obtained his doctoral degree in probabilistic machine learning applications in life sciences from Aalto University in Finland (2010). He subsequently worked as postdoctoral research in UK, The Netherlands and Belgium and is now conducting research at the Department of Computing, University of Turku.</description></item><item><title/><link>http://datascience.utu.fi/data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/data/</guid><description/></item><item><title/><link>http://datascience.utu.fi/old/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/old/contact/</guid><description>Test test
-Email leo.lahti@iki.fi
-&amp;ndash;&amp;gt;</description></item><item><title/><link>http://datascience.utu.fi/old/publications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/old/publications/</guid><description>The complete bibliography is available in BibTex. You can find most papers and other outputs from here, or just ask by email.
-For code, data, and audiovisual material see the separate code and media pages.
-Selected papers {% bibliography &amp;ndash;file bibtex/lahti &amp;ndash;query @*[keywords=highlight] %}
-Computational biosciences {% bibliography &amp;ndash;file bibtex/lahti &amp;ndash;query @[status=bioscience] %} {% bibliography &amp;ndash;file bibtex/lahti &amp;ndash;query @[status=datascience] %}
-Digital humanities and computational social science {% bibliography &amp;ndash;file bibtex/lahti &amp;ndash;query @*[status=dh] %}</description></item><item><title/><link>http://datascience.utu.fi/publication_resources/assignments/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/publication_resources/assignments/readme/</guid><description>publications Self-archived publication material</description></item><item><title/><link>http://datascience.utu.fi/publication_resources/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/publication_resources/readme/</guid><description>Publications / Leo Lahti Publication material of our research group is collected in this folder.
-Presentation material in UTU Gitlab Some slides also available through SlideShare Note that the copyrights may differ by publication.</description></item><item><title/><link>http://datascience.utu.fi/recruit/2017-sa-eng/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/recruit/2017-sa-eng/</guid><description>PhD student position / Project Researcher / Research Assistant Open PhD student position / Project Researcher / Research Assistant in high-throughput biomedical data analysis (Finland / Belgium) 1.7.2017 – 30.6.2019
-A position is open for a PhD candidate on high-throughput biomedical data analysis in the research team of Dr. Leo Lahti in University of Turku, Finland. The project provides a unique opportunity to gain widely applicable data analytical skills and make pioneering work in a rapidly emerging, data-intensive biomedical research area; a particular focus of the project is on computational analysis and modeling of the human microbiome and its individuality, dynamics, and function in large population cohorts.</description></item><item><title/><link>http://datascience.utu.fi/recruit/2017-sa-fin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/recruit/2017-sa-fin/</guid><description>Tohtorikoulutettava / Projektitutkija / Tutkimusavustaja Haetaan määräaikaiseen työsuhteeseen ajalle 1.7.2017 – 30.6.2019 jatko-opiskelijaa / projektitutkijaa / tutkimusavustajaa biolääketieteellisen data-analyysin alalla (Suomi / Belgia)
-Jatko-opiskelupaikka biolääketieteellisen data-analyysin alalla on avoinna Dos. Leo Lahden tutkimusryhmässä (Turun yliopisto, Matematiikan ja tilastotieteen laitos). Hanke tarjoaa erinomaiset mahdollisuudet kartuttaa laajalti sovellettavia data-analyysivalmiuksia sekä uuden tutkimuksen tekemiseen nopeasti kasvavalla tutkimusalalla. Hanke keskittyy ihmiskehon mikrobiekosysteemien laskennalliseen mallitukseen. Rahoittajana on Suomen Akatemia. Suositeltu aloituspäivä on 1.7.2017.
-Työnkuva Paikka on suunnattu täysipäiväiseen tutkimukseen ja jatko-opiskeluun ja sisältää tavanomaisen osallistumisen opetus- ja tutkimuksen tukitehtäviin.</description></item><item><title>About the website</title><link>http://datascience.utu.fi/old/aboutwebsite/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/old/aboutwebsite/</guid><description>Make your own Jekyll website for your academic research group This website is powered by Jekyll and uses some Bootstrap and Bootswatch. The page borrows open source code from Allan Lab. The site is simple yet adaptable.
-All pages are written in markdown for easy editing, and Jekyll uses Liquid for the data-driven pages. The publication list is automatically generated from bibtex, and requires the jekyll-scholar plugin. The news items, and group members are stored as .</description></item><item><title>Blog</title><link>http://datascience.utu.fi/blog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/blog/</guid><description/></item><item><title>Blog</title><link>http://datascience.utu.fi/old/blog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/old/blog/</guid><description> {% for post in site.posts %} {% capture y %}{{post.date | date:"%Y"}}{% endcapture %} {% if year != y %} {% assign year = y %} {{ y }} {% endif %}</description></item><item><title>Code</title><link>http://datascience.utu.fi/code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/code/</guid><description>Statistical and Machine Learning Techniques for Human Microbiome Studies COST action
-Open government data analytics with R. An international developer network, originally introduced in NIPS Machine Learning Open Source Software workshop 2013. R/CRAN packages. DMT Dependency Modeling Toolkit. ICML/MLOSS workshop, Israel 2010. earlywarnings. Methods for identification of critical transitions between ecosystem states from time series data (CRAN). R/Bioconductor projects
-Microbiome bioinformatics software and tutorials Robust Probabilistic Averaging - scalable method for preprocessing short oligo microarray data.</description></item><item><title>Contact</title><link>http://datascience.utu.fi/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/contact/</guid><description>::: contact-container ::: text
-How to reach us? Welcome to contact us to discuss research/study positions and collaboration. We are part of the Department of Computing at the Faculty of Technology, University of Turku. Reach us through the following channels:
-Twitter Turku Data Science Group Twitter
-Email first.last - at - utu.fi (see the Team page for the list)
-Mail Department of Computing, Faculty of Technology, Yliopistonmäki, FI-20014, University of Turku, Finland</description></item><item><title>COST Action CA18131</title><link>http://datascience.utu.fi/cost_ca18131/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/cost_ca18131/</guid><description>European Network for statistical and machine learning techniques in human microbiome studies Finland has joined the new COST Action Statistical and machine learning techniques in human microbiome studies
-In recent years, the human microbiome has been characterised in great detail in several large-scale studies as a key player in intestinal and non-intestinal diseases, e.g. inflammatory bowel disease, diabetes and liver cirrhosis, along with brain development and behaviour. As more associations between microbiome and phenotypes are elucidated, research focus is now shifting towards causality and clinical use for diagnostics, prognostics and therapeutics, where some promising applications have recently been showcased.</description></item><item><title>CV</title><link>http://datascience.utu.fi/old/cv/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/old/cv/</guid><description>I embed a current version of my CV below. You can also download the PDF here.
-{% include embedpdf.html code=&amp;ldquo;30ah9tgxevj1vl9/svm-cv.pdf&amp;rdquo; width=100 height=800 %}</description></item><item><title>Edu</title><link>http://datascience.utu.fi/edu-topics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/edu-topics/</guid><description>Courses and events Topics for MSc/PhD theses We supervise study assignments (BSc/MSc/PhD) on the theory, methods, and applications of data science related to our ongoing research. Welcome to contact us to discuss research/study positions.
-Courses in 2024 Contact us if you are interested. The admission varies by course but most courses are open to application.
-Brain, Bacteria and Behaviour: understanding the gut-brain axis (RSS4.06) (2 ECTS; Summer course; 08 July - 12 July 2024 - Radboud University, Nijmegen, Netherlands)</description></item><item><title>EDU</title><link>http://datascience.utu.fi/edu/old/courses-events/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/edu/old/courses-events/</guid><description>Courses and events Topics for MSc/PhD theses Welcome to contact us to discuss research/study positions.
-We supervise study assignments (BSc/MSc/PhD) on applied statistics / computational science / machine learning / AI theory, methods, and their application to study complex natural and social systems. Active research projects cover scientific data analysis, statistical and probabilistic programming workflows, data visualization, microbial metagenomics, ecological and evolutionary models, multi-omic data integration, spatio-temporal models, computational history, and open government data analysis.</description></item><item><title>EDU</title><link>http://datascience.utu.fi/edu/resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/edu/resources/</guid><description>Resources Tutorials and Data Microbiome data science
-Microbiome data science with R/Bioconductor (beta version) R tutorial for phyloseq Open government data analytics
-Various R tutorials Data visualization
-Finnish geospatial data visualization in R Teaching software &amp;amp; online resources A framework for creating and assessing exercises for R courses (presented in UseR2017!; Markus Kainu)
-Open access to educational resources National policy and executive plan by the higher education and research community for 2021-2025 (2020) DOI:10.</description></item><item><title>Leo Lahti</title><link>http://datascience.utu.fi/old/leo_lahti/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/old/leo_lahti/</guid><description>Links to academic services online: Leo Lahti Researcher profiles, networks, publication databases and impact altmetrics
-University of Turku Research Portal University of Helsinki TUHAT publication database ResearchGate ORCID: 0000-0001-5537-637X ResearcherID: G-3170-2010 ScienceOpen CiteUlike PubMed Google Scholar Scopus Publon reviewer profile ImpactStory Depsy research software impact Loop</description></item><item><title>Licensing</title><link>http://datascience.utu.fi/old/licensing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/old/licensing/</guid><description>Open licensing of scientific material This memo gives recommendations for selecting open source license for scientific material, including software, data and documents. Let us continue to make the newest computational techniques easily available to spark new applications and further development!
-Recommended open licenses for academic publishing Software and source code The modified BSD licenses (in particular FreeBSD) and MIT license set minimal restrictions on the end user, and have therefore been recommended for academic purposes, for instance at ICML/MLOSS workshop 2010 (V.</description></item><item><title>Media</title><link>http://datascience.utu.fi/media/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/media/</guid><description>Online resources Presentation slides
-Blog on open data analytics (rOpenGov)
-Versus online journal for science popularization.
-Selected video lectures and interviews Integrating open science in the humanities: the case of computational history Springer-Nature blog post and links to the streamed presentations 11/2019
-Microcosm within us: gut microbiome Science Cafe, Turku, Finland 3/2018
-Open science interview University of Helsinki, Finland 2/2014
-Apps4Finland interview Helsinki, 9/2012
-Dependency Modeling Toolkit, ICML/MLSS Workshop. Haifa, Israel 6/2010</description></item><item><title>Microbial bioinformatics and statistical ecology</title><link>http://datascience.utu.fi/edu_resources/microbiome/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/edu_resources/microbiome/</guid><description>Course 2 Lorem</description></item><item><title>News</title><link>http://datascience.utu.fi/old/allnews/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/old/allnews/</guid><description>News {% for article in site.data.news %}
-{{ article.date }} {{ article.headline }}
-{% endfor %}</description></item><item><title>Open positions</title><link>http://datascience.utu.fi/recruit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/recruit/</guid><description>Open positions Applications for assistant/MSc/PhD/Postdoc positions from outstanding students are welcome.
-Contact us to discuss the opportunities in more detail.
-The following positions are now open:
-PhD or project researcher: Microbiome bioinformatics and data science. Apply by Sep 19, 2022. Starting date negotiable.
-PhD or project researcher: Computational humanities. Apply by Sep 30, 2022. Starting date negotiable.
-Project researcher or research assistant: Scientific programming and data analysis. Apply by Sep 30, 2022.</description></item><item><title>Page Not Found</title><link>http://datascience.utu.fi/404/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/404/</guid><description>Sorry, but the page you were trying to view does not exist.</description></item><item><title>Probabilistic programming</title><link>http://datascience.utu.fi/edu_resources/probprog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/edu_resources/probprog/</guid><description>Introduction probabilistic programming</description></item><item><title>Publications</title><link>http://datascience.utu.fi/publications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/publications/</guid><description>Publications See Google scholar.
-Full list under construction.</description></item><item><title>Publishing data and code</title><link>http://datascience.utu.fi/old/publishing_code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/old/publishing_code/</guid><description>How to publish and archive research software or source code Choose open license The code is not really &amp;ldquo;open&amp;rdquo; without an open license. Common ones include MIT, FreeBSD and GPL3. The MIT license is often recommended due to its simplicity. See Quick guide to software licensing for a scientist programmer. See also the brief memo on open licensing of scientific material.
-Add version number
-Document the experiments. At the minimum, list where the data is located (preferably link directly in the code) and which scripts should be run to replicate the experiments.</description></item><item><title>Research</title><link>http://datascience.utu.fi/research/all/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/research/all/</guid><description>All publications Effects of obesity and exercise on hepatic and pancreatic lipid content and glucose metabolism: PET-studies in twins discordant for BMI Lietzén M, Mari A, Ojala R, Hentilä J, Koskensalo K, Lautamäki R, Löyttyniemi E, Parkkola R, Saunavaara V, Kirjavainen A, Rajander J, Malm T, Lahti L, Rinne J, Pietiläinen K, Iozzo P&amp;#32;&amp;amp;&amp;#32; Hannukainen J. Molecular Medicine 2024
-In press. FdeSolver, a Julia package for solving fractional differential equations Khalighi M, Benedetti G&amp;#32;&amp;amp;&amp;#32; Lahti L.</description></item><item><title>Research</title><link>http://datascience.utu.fi/research/computational-and-data-science/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/research/computational-and-data-science/</guid><description>Computational and data science: selected examples Exit time as a measure of ecological resilience Arani B, Nes E, Lahti L, Carpenter S&amp;#32;&amp;amp;&amp;#32; Scheffer M. Science 372(6547), 2021
-10.1126/science.aay4895 Quantifying the impact of ecological memory on the dynamics of interacting communities Khalighi M, Sommeria-Klein G, Gonze D, Faust K&amp;#32;&amp;amp;&amp;#32; Lahti L. PLoS Computational Biology 18(6), 2022
-10.1371/journal.pcbi.1009396 Wrangling with non-standard data Mäkelä E, Lagus K, Lahti L, Säily T, Tolonen M, Hämäläinen M, Kaislaniemi S&amp;#32;&amp;amp;&amp;#32; Nevalainen T.</description></item><item><title>Research</title><link>http://datascience.utu.fi/research/computational-humanities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/research/computational-humanities/</guid><description>Selected examples Bibliographic data science and the history of the book (c. 1500–1800) Lahti L, Marjanen J, Roivainen H&amp;#32;&amp;amp;&amp;#32; Tolonen M. Cataloging &amp;amp; Classification Quarterly 57(1) Routledge, 2019
-Special issue. 10.1080/01639374.2018.1543747 | PDF Quantifying bias and uncertainty in historical data collections with probabilistic programming Lahti L, Mäkelä E&amp;#32;&amp;amp;&amp;#32; Tolonen M. Proc. CEUR Workshop Proceedings on Computational Humanities Research 2020
-PDF More publications in computational humanities Print culture and economic constraints: A quantitative analysis of book prices in eighteenth-century britain Tiihonen I, Lahti L&amp;#32;&amp;amp;&amp;#32; Tolonen M.</description></item><item><title>Research</title><link>http://datascience.utu.fi/research/funding-and-support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/research/funding-and-support/</guid><description>Funding and support The work has been supported by
-University of Turku Academy of Finland EU / COST action on Statistical and Machine Learning Techniques in Human Microbiome Studies EU / H2020 FindingPheno KONE Turku University Foundation and other sources</description></item><item><title>Research</title><link>http://datascience.utu.fi/research/microbiome-data-science/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/research/microbiome-data-science/</guid><description>Microbiome data science: selected examples Taxonomic signatures of cause-specific mortality risk in human gut microbiome Salosensaari* A, Laitinen* V, Havulinna A, Meric G, Cheng S, Perola M, Valsta L, Alfthan G, Inouye M, Watrous J, Long T, Salido R, Sanders K, Brennan C, Humphrey G, Sanders J, Jain M, Jousilahti P, Salomaa V, Knight R, Lahti* L&amp;#32;&amp;amp;&amp;#32; Niiranen* T. Nature Communications 12, 2021
-10.1038/s41467-021-22962-y Statistical and machine learning techniques in human microbiome studies: Contemporary challenges and solutions Moreno-Indias I, Lahti L, Nedyalkova M, Elbere I, Roshchupkin G, Adilovic M, Aydemir O, Bakir-Gungor B, Pau E, D’Elia D, Desai M, Falquet L, Gundogdu A, Hron K, Klammsteiner T, Lopes M, Zambrano L, Marques C, Mason M, May P, Pašić L, Pio G, Pongor S, Promponas V, Przymus P, Sáez-Rodríguez J, Sampri A, Shigdel R, Stres B, Suharoschi R, Truu J, Truică C, Vilne B, Vlachakis D, Yılmaz E, Zeller G, Zomer A, Gómez-Cabrero D&amp;#32;&amp;amp;&amp;#32; Claesson M.</description></item><item><title>Research</title><link>http://datascience.utu.fi/research/open-science/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/research/open-science/</guid><description>Open science Alchemy &amp;amp; algorithms: perspectives on the philosophy and history of open science
-RIO Journal 2017.
-Lahti L, da Silva F, Laine MP, Lähteenoja V, Tolonen M.
-Open education and educational resources. National policy and executive plan by the higher education and research community for 2021-2025 - Policy component 1: Open access to educational resources
-Responsible Research Series 16:2020. Helsinki, Finland. Published by the Committee for Public Information (TJNK) and Federation of Finnish Learned Societies (TSV) .</description></item><item><title>Research</title><link>http://datascience.utu.fi/research/opinion-pieces/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/research/opinion-pieces/</guid><description>Opinion pieces (in Finnish) Laki estää tehokkaiden tutkimusmenetelmien käytön Mäkelä E, Lahti L, Lilja J&amp;#32;&amp;amp;&amp;#32; Heikkinen P. HS Mielipide, 2021
-URL Laskentamallit eivät lähtökohtaisesti ole salassa pidettävää tietoa Lahti L, Wallgren T&amp;#32;&amp;amp;&amp;#32; Kulmala M. HS Mielipide 2020
-URL Lähdekoodin sisältämien yksityiskohtien avoimuus on keskeistä päätöksenteon läpinäkyvyydelle. Lahti L HS Mielipide 2020
-URL Tietopyyntö epidemialaskelmien lähdekoodeista Lahti L&amp;#32;&amp;amp;&amp;#32; Toikkanen T. Open Knowledge Finland Blog 2020
-URL Päätös epidemialaskelmien salaamisesta vastoin valtioneuvoston avoimuuslinjausta Lahti L Open Knowledge Finland Blog 2020</description></item><item><title>Research</title><link>http://datascience.utu.fi/research/preprints/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/research/preprints/</guid><description>Preprints Biochemical analyses can complement sequencing-based ARG load monitoring: A case study in indian hospital sewage networks Bhanushali S, Parnanen K, Mongad D, Dhotre D&amp;#32;&amp;amp;&amp;#32; Lahti L. medRxiv 2024
-10.1101/2024.05.31.24308262 Elementary methods provide more replicable results in microbial differential abundance analysis Pelto J, Auranen K, Kujala J&amp;#32;&amp;amp;&amp;#32; Lahti L. arXiv 2024
-10.48550/arXiv.2404.02691 | URL FdeSolver: A Julia Package for Solving Fractional Differential Equations Khalighi M, Benedetti G&amp;#32;&amp;amp;&amp;#32; Lahti L. arXiv arXiv, 2022</description></item><item><title>Research / Old</title><link>http://datascience.utu.fi/old/research/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/old/research/</guid><description>Research topics Our research focuses on computational analysis of complex natural and social systems. There is a great demand for targeted computational techniques to extract information and insights from rich data collections based on clever combinations of human and machine intelligence. We blend elements from fields such as machine learning/AI, probabilistic programming, statistical ecology, and data science, and drive open developer communities that help to translate latest theoretical advances into accessible methods to inform modeling, experimentation, and decision-making.</description></item><item><title>Research seminar</title><link>http://datascience.utu.fi/old/seminar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/old/seminar/</guid><description>Seminar on machine learning and data science We are running a weekly research seminar and journal club on machine learning and data science in University of Turku, Finland. These are open and informal events. The exact location and topics may vary, so contact us if you&amp;rsquo;re interested!
-Research seminar / Reading circle Thursdays 10-11:30am (2018-2019). We cover material from the following books, a chapter per week.
-Machine learning - a probabilistic perspective (K.</description></item><item><title>Research Topics</title><link>http://datascience.utu.fi/research-topics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/research-topics/</guid><description>Research topics We focus on computational analysis of complex natural and social systems. We blend elements from machine learning/AI, statistical and probabilistic programming, complex systems, and data science in order to develop novel, targeted techniques to extract information and insights from rich data streams based on combinations of human and machine intelligence. We coordinate open developer communities that help to translate latest theoretical advances into accessible methods to inform modeling, experimentation, and decision-making.</description></item><item><title>Team</title><link>http://datascience.utu.fi/team/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/team/</guid><description>Research team We are part of the Department of Computing at the Faculty of Technology, University of Turku.
-**Welcome to contact us to discuss research/study positions and collaboration.
-Leo Lahti (Group leader) Professor (Data Science / Computational Humanities) National open science coordination, vice chair National Board on Research Integrity (TENK) research integrity adviser ELLIS member (the European Laboratory for Learning and Intelligent Systems) Statistical and machine learning techniques in human microbiome studies (ML4microbiome) COST action WG leader International Science Council (ISC) Committee on Data (CODATA) national chair, delegate, Executive Commite member , member in the Data Ethics work group Open Knowledge Finland ry.</description></item><item><title>TKO_3121: Topics</title><link>http://datascience.utu.fi/edu_resources/seminar_topics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/edu_resources/seminar_topics/</guid><description>Machine Learning and Algorithmics Seminar 2020 Course page (Peppi) Moodle for Machine Learning and Algorithmics Seminar 2020 Proposed seminar topics Session 1: Introduction Participants Overview and practicalities Assigning the topics Session 2: Overview Introduction lecture: contemporary themes in machine learning Discussion Finalizing the schedule Session 3: Position papers Replication, Communication, and the Population Dynamics of Scientific Discovery. McElreath, R., &amp;amp; Smaldino, P. E. (2015).
-Machine behaviour. Rahwan, I., Cebrian, M., Obradovich, N.</description></item><item><title>TKO_3121: Topics</title><link>http://datascience.utu.fi/edu_resources/tko3121/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/edu_resources/tko3121/</guid><description>Machine Learning and Algorithmics Seminar 2020 Replication, Communication, and the Population Dynamics of Scientific Discovery. McElreath, R., &amp;amp; Smaldino, P. E. (2015).
-Sparsity information and regularization in the horseshoe and other shrinkage priors. In Electronic Journal of Statistics, 11(2):5018-5051. Juho Piironen and Aki Vehtari (2017). arXiv:1707.01694. After the article was published, the regularized horseshoe prior has been implemented in rstanarm and brms (without conditioning on sigma).
-Probabilistic principal component analysis. Journal of the Royal Statistical Society: Series B (Statistical Methodology), 61(3), 611–622.</description></item><item><title>Turku Data Science</title><link>http://datascience.utu.fi/old/docs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/old/docs/</guid><description>Turku Data Science group site has moved to datascience.utu.fi</description></item><item><title>Turku Data Science Group - Home</title><link>http://datascience.utu.fi/old/home/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/old/home/</guid><description>Modern data analysis from theory to practice
-We carry out research on theory, methods and applications of modern algorithmic data analysis, blending elements from various fields including statistical machine learning/AI, probabilistic programming, data science, and information engineering.
-Our methodologically oriented research is motivated by data-rich applications that range from molecular life sciences to computational social sciences and humanities (SSH) research. Turku Data Science Group is led by Associate Prof. Leo Lahti.</description></item><item><title>Vacancies</title><link>http://datascience.utu.fi/old/vacancies/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/old/vacancies/</guid><description>Open positions We are always looking for new group members with passion, talent, and grit!
-PhD and Postdoc positions If you are interested in working with us as a PhD student or postdoc, please send me an email. State briefly why you are interested and attach a CV, including information about the grades you had as an undergraduate. Important: please insert &amp;ldquo;Application PhD&amp;rdquo; or &amp;ldquo;Application Postdoc&amp;rdquo; in the subject line.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Recent Publications on Turku Data Science Group</title><link>http://datascience.utu.fi/</link><description>Recent content in Recent Publications on Turku Data Science Group</description><generator>Hugo</generator><language>en-us</language><atom:link href="http://datascience.utu.fi/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>http://datascience.utu.fi/bio_lahti/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/bio_lahti/</guid><description>&lt;h1 id="bio">Bio&lt;/h1>
+&lt;h2 id="short-version">Short version&lt;/h2>
+&lt;p>Leo Lahti is professor in Data Science in University of Turku, Finland. His research team focuses on computational analysis of complex natural and social systems. Lahti obtained his doctoral degree in probabilistic machine learning applications in life sciences from Aalto University in Finland (2010). He subsequently worked as postdoctoral research in UK, The Netherlands and Belgium and is now conducting research at the Department of Computing, University of Turku. Dr Lahti is an open science advocate and has coordinated international networks and training workshops in data science methods and applications. For more information, see the research homepage &lt;a href="http://datascience.utu.fi">datascience.utu.fi&lt;/a>&lt;/p></description></item><item><title/><link>http://datascience.utu.fi/data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/data/</guid><description>&lt;!--
+
+## Data
+
+### Microbiome research
+
+Various data sets related to publications available in the following
+open repositories:
+
+[Data Dryad](https://datadryad.org/search?utf8=%E2%9C%93&amp;q=Leo+Lahti)
+
+[Figshare](https://figshare.com/search?q=Leo+Lahti)
+
+[Github](https://microbiome.github.io/)
+
+--></description></item><item><title/><link>http://datascience.utu.fi/old/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/old/contact/</guid><description>&lt;h1 id="test">Test&lt;/h1>
+&lt;p>test&lt;/p>
+&lt;!--
+
+&lt;p>&lt;/p>
+ &lt;!-- The icons here come from the external css links at _includes/head.html-->
+&lt;p>&lt;a href="https://github.com/antagomir/">&lt;i class="fa fa-lg fa-github">&lt;/i>&lt;/a>
+&lt;a href="https://twitter.com/antagomir">&lt;i class="fa fa-lg fa-twitter">&lt;/i>&lt;/a>
+&lt;a href="https://antagomir.wordpress.com/">&lt;i class="fa fa-lg fa-rss">&lt;/i>&lt;/a>
+&lt;strong>Email&lt;/strong> &lt;a href="mailto:leo.lahti@iki.fi">&lt;i class="fa fa-fw fa-envelope-o">&lt;/i>&lt;a href="mailto:leo.lahti@iki.fi">leo.lahti@iki.fi&lt;/a>&lt;/a>&lt;/p>
+&lt;p>&lt;/p>
+&lt;p>&amp;ndash;&amp;gt;&lt;/p></description></item><item><title/><link>http://datascience.utu.fi/old/publications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/old/publications/</guid><description>&lt;p>The complete bibliography is available in &lt;a href="https://github.com/openresearchlabs/openresearchlabs.github.io/blob/build/publications/bibtex/lahti.bib">BibTex&lt;/a>. You can find most papers and other outputs from &lt;a href="https://github.com/openresearchlabs/openresearchlabs.github.io/tree/master/publications">here&lt;/a>, or just ask by email.&lt;/p>
+&lt;p>For code, data, and audiovisual material see the separate &lt;a href="../code/">code&lt;/a> and &lt;a href="../media/">media&lt;/a> pages.&lt;/p>
+&lt;!-- This is for altmetrics padges from http://www.altmetric.com/-->
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;h2 id="selected-papers">Selected papers&lt;/h2>
+&lt;p>{% bibliography &amp;ndash;file bibtex/lahti &amp;ndash;query @*[keywords=highlight] %}&lt;/p>
+&lt;h2 id="computational-biosciences">Computational biosciences&lt;/h2>
+&lt;p>{% bibliography &amp;ndash;file bibtex/lahti &amp;ndash;query @&lt;em>[status=bioscience] %}
+{% bibliography &amp;ndash;file bibtex/lahti &amp;ndash;query @&lt;/em>[status=datascience] %}&lt;/p></description></item><item><title/><link>http://datascience.utu.fi/publication_resources/assignments/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/publication_resources/assignments/readme/</guid><description>&lt;h1 id="publications">publications&lt;/h1>
+&lt;p>Self-archived publication material&lt;/p>
+&lt;p>&lt;a href="http://githalytics.com/antagomir/publications">&lt;img src="https://cruel-carlota.pagodabox.com/5495a78191a33cf63a301afdd6a754cc" alt="githalytics.com
+alpha" title="githalytics.com">&lt;/a>&lt;/p></description></item><item><title/><link>http://datascience.utu.fi/publication_resources/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/publication_resources/readme/</guid><description>&lt;h1 id="publications--leo-lahti">Publications / Leo Lahti&lt;/h1>
+&lt;p>Publication material of our &lt;a href="http://www.iki.fi/Leo.Lahti">research group&lt;/a> is collected in this folder.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://gitlab.utu.fi/opencomp/outreach">Presentation material in UTU Gitlab&lt;/a>&lt;/li>
+&lt;li>Some slides also available through &lt;a href="http://www.slideshare.net/antagomir/presentations">SlideShare&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Note that the copyrights may differ by publication.&lt;/p></description></item><item><title/><link>http://datascience.utu.fi/recruit/2017-sa-eng/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/recruit/2017-sa-eng/</guid><description>&lt;h2 id="phd-student-position--project-researcher--research-assistant">PhD student position / Project Researcher / Research Assistant&lt;/h2>
+&lt;p>Open PhD student position / Project Researcher / Research Assistant in high-throughput biomedical data analysis (Finland / Belgium) 1.7.2017 – 30.6.2019&lt;/p>
+&lt;p>&lt;strong>A position is open for a PhD candidate on high-throughput biomedical data analysis&lt;/strong> in the research team of Dr. &lt;a href="http://www.iki.fi/Leo.Lahti">Leo Lahti&lt;/a> in University of Turku, Finland. The project provides a unique opportunity to gain widely applicable data analytical skills and make pioneering work in a rapidly emerging, data-intensive biomedical research area; a particular focus of the project is on computational analysis and modeling of the human microbiome and its individuality, dynamics, and function in large population cohorts. The project is funded by Academy of Finland and the preferred starting date is July 1, 2017.&lt;/p></description></item><item><title/><link>http://datascience.utu.fi/recruit/2017-sa-fin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/recruit/2017-sa-fin/</guid><description>&lt;h3 id="tohtorikoulutettava--projektitutkija--tutkimusavustaja">Tohtorikoulutettava / Projektitutkija / Tutkimusavustaja&lt;/h3>
+&lt;p>&lt;strong>Haetaan määräaikaiseen työsuhteeseen ajalle 1.7.2017 – 30.6.2019 jatko-opiskelijaa / projektitutkijaa / tutkimusavustajaa biolääketieteellisen data-analyysin alalla&lt;/strong> (Suomi / Belgia)&lt;/p>
+&lt;p>&lt;strong>Jatko-opiskelupaikka biolääketieteellisen data-analyysin alalla&lt;/strong> on avoinna Dos. &lt;a href="http://www.iki.fi/Leo.Lahti">Leo Lahden&lt;/a> tutkimusryhmässä (Turun yliopisto, Matematiikan ja tilastotieteen laitos). Hanke tarjoaa erinomaiset mahdollisuudet kartuttaa laajalti sovellettavia data-analyysivalmiuksia sekä uuden tutkimuksen tekemiseen nopeasti kasvavalla tutkimusalalla. Hanke keskittyy ihmiskehon mikrobiekosysteemien laskennalliseen mallitukseen. Rahoittajana on Suomen Akatemia. Suositeltu aloituspäivä on 1.7.2017.&lt;/p></description></item><item><title>About the website</title><link>http://datascience.utu.fi/old/aboutwebsite/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/old/aboutwebsite/</guid><description>&lt;h1 id="make-your-own-jekyll-website-for-your-academic-research-group">Make your own Jekyll website for your academic research group&lt;/h1>
+&lt;p>This website is powered by &lt;a href="https://jekyllrb.com">Jekyll&lt;/a> and uses some &lt;a href="http://www.getbootstrap.com">Bootstrap&lt;/a> and &lt;a href="http://www.bootswatch.com">Bootswatch&lt;/a>. The page borrows open source code from &lt;a href="https://github.com/allanlab/allanlab/">Allan Lab&lt;/a>. The site is simple yet adaptable.&lt;/p>
+&lt;p>All pages are written in markdown for easy editing, and &lt;a href="https://jekyllrb.com">Jekyll&lt;/a> uses Liquid for the data-driven pages. The publication list is automatically generated from bibtex, and requires the jekyll-scholar plugin. The news items, and group members are stored as &lt;code>.yml&lt;/code> data sheets (plain text) in the &lt;code>_data folder&lt;/code>, so that one can update the website easily. The pages are in the &lt;code>_pages&lt;/code> folder. Updating and maintaining is easy using &lt;a href="http://www.github.com">Github&lt;/a> (not worldpress-easy, but there are other advantages (see e.g. &lt;a href="https://www.taniarascia.com/make-a-static-website-with-jekyll/">this&lt;/a>, or &lt;a href="http://www.webdesignerdepot.com/2015/11/jekyll-against-the-rest-of-the-world/">this&lt;/a>). &lt;a href="https://jekyllrb.com">Jekyll&lt;/a> takes all the markdown and data files, and creates beautiful &lt;code>html&lt;/code> files in the &lt;code>_site&lt;/code> folder.&lt;/p></description></item><item><title>Blog</title><link>http://datascience.utu.fi/blog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/blog/</guid><description>&lt;!-- Visit our [Twitter](https://twitter.com/openreslabs) :
+
+
+&lt;a class="twitter-timeline" data-width="700" href="https://twitter.com/openreslabs?ref_src=twsrc%5Etfw">Tweets by openreslabs&lt;/a> &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script> --></description></item><item><title>Blog</title><link>http://datascience.utu.fi/old/blog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/old/blog/</guid><description>&lt;ul class="listing">
+{% for post in site.posts %}
+ {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
+ {% if year != y %}
+ {% assign year = y %}
+ &lt;li class="listing-seperator">{{ y }}&lt;/li>
+ {% endif %}
+ &lt;li class="listing-item">
+ &lt;time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}&lt;/time>
+ &lt;a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}&lt;/a>
+ &lt;/li>
+{% endfor %}
+&lt;/ul></description></item><item><title>Code</title><link>http://datascience.utu.fi/code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/code/</guid><description>&lt;div class="code-boxes-container">
+ &lt;div class="miaverse-logo">
+ &lt;a href="https://microbiome.github.io/" target="_blank">&lt;img class="pic-code" src="../img/boxes-code/miaverse_logo.png"/>&lt;/a>
+ &lt;/div>
+ &lt;div class="miaverse-text">
+ &lt;div class="text-boxes">&lt;p> Statistical and Machine Learning Techniques for Human Microbiome Studies COST action&lt;/p>&lt;/div>
+ &lt;/div>
+ &lt;div class="ropengov-logo">
+ &lt;a href="http://ropengov.org/" target="_blank">&lt;img class="pic-code" src="../img/boxes-code/ropengov.PNG"/>&lt;/a>
+ &lt;/div>
+ &lt;div class="ropengov-text">
+ &lt;div class="text-boxes">&lt;p> Open government data analytics with R. An international developer network, originally introduced in NIPS Machine Learning Open Source Software workshop 2013.
+ &lt;/p></description></item><item><title>Contact</title><link>http://datascience.utu.fi/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/contact/</guid><description>&lt;link href="http://datascience.utu.fi/css/style.contact.css" rel="stylesheet">
+&lt;p>::: contact-container
+::: text&lt;/p>
+&lt;h1 id="how-to-reach-us">How to reach us?&lt;/h1>
+&lt;br/>
+&lt;p>Welcome to contact us to discuss research/study positions and collaboration. &lt;!-- One position is currently open (DL May 2, 2022; [link to application form](https://rekry.saima.fi/certiahome/open_job_view.html?id=000013223&amp;did=5600&amp;lang=en&amp;jc=14&amp;nav_from_open_jobs_view_new=true))-->&lt;/p>
+&lt;p>We are part of the &lt;a href="https://www.utu.fi/en/university/faculty-of-technology/computing">Department of Computing&lt;/a> at the Faculty of Technology, University of Turku. Reach us through the following channels:&lt;/p>
+&lt;p>&lt;strong>Twitter&lt;/strong> Turku Data Science Group &lt;a href="https://twitter.com/openreslabs">Twitter&lt;/a>&lt;/p></description></item><item><title>COST Action CA18131</title><link>http://datascience.utu.fi/cost_ca18131/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/cost_ca18131/</guid><description>&lt;h2 id="european-network-for-statistical-and-machine-learning-techniques-in-human-microbiome-studies">European Network for statistical and machine learning techniques in human microbiome studies&lt;/h2>
+&lt;p>&lt;strong>Finland has joined the new COST Action &lt;em>Statistical and machine learning techniques in human microbiome studies&lt;/em>&lt;/strong>&lt;/p>
+&lt;p>In recent years, the human microbiome has been characterised in great detail in several large-scale studies as a key player in intestinal and non-intestinal diseases, e.g. inflammatory bowel disease, diabetes and liver cirrhosis, along with brain development and behaviour. As more associations between microbiome and phenotypes are elucidated, research focus is now shifting towards causality and clinical use for diagnostics, prognostics and therapeutics, where some promising applications have recently been showcased. Microbiome data are inherently convoluted, noisy and highly variable, and non-standard analytical methodologies are therefore required to unlock its clinical and scientific potential. While a range of statistical modelling and Machine Learning (ML) methods are now available, sub-optimal implementation often leads to errors, over-fitting and misleading results, due to a lack of good analytical practices and ML expertise in the microbiome community. Thus, this COST Action network will create productive symbiosis between discovery-oriented microbiome researchers and data-driven ML experts, through regular meetings, workshops and training courses. Together, it will first optimise and then standardise the use of said techniques, following the creation of publicly available benchmark datasets. Correct usage of these approaches will allow for better identification of predictive and discriminatory ‘omics’ features, increase study repeatability, and provide mechanistic insights into possible causal or contributing roles of the microbiome. This Action will also investigate automation opportunities and define priority areas for novel development of ML/Statistics methods targeting microbiome data. Thus, this COST Action will open novel and exciting avenues within the fields of both ML/Statistics and microbiome research.&lt;/p></description></item><item><title>CV</title><link>http://datascience.utu.fi/old/cv/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/old/cv/</guid><description>&lt;p>I embed a current version of my CV below. You can also &lt;a href="https://www.dropbox.com/s/30ah9tgxevj1vl9/svm-cv.pdf">download the PDF here&lt;/a>.&lt;/p>
+&lt;p>{% include embedpdf.html code=&amp;ldquo;30ah9tgxevj1vl9/svm-cv.pdf&amp;rdquo; width=100 height=800 %}&lt;/p></description></item><item><title>Edu</title><link>http://datascience.utu.fi/edu-topics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/edu-topics/</guid><description>&lt;h1 id="courses-and-events">Courses and events&lt;/h1>
+&lt;h3 id="topics-for-mscphd-theses">Topics for MSc/PhD theses&lt;/h3>
+&lt;p>We supervise study assignments (BSc/MSc/PhD) on the theory, methods,
+and applications of data science related to our ongoing
+research. Welcome to &lt;a href="../../contact/">contact us&lt;/a> to discuss
+research/study positions.&lt;/p>
+&lt;h3 id="courses-in-2024">Courses in 2024&lt;/h3>
+&lt;p>Contact us if you are interested. The admission varies by course but most courses are open to application.&lt;/p>
+&lt;p>&lt;a href="https://www.ru.nl/en/education/education-for-professionals/overview/brain-bacteria-and-behaviour-understanding-the-gut-brain-axis-rss406">Brain, Bacteria and Behaviour: understanding the gut-brain axis (RSS4.06)&lt;/a> (2 ECTS; Summer course; 08 July - 12 July 2024 - Radboud University, Nijmegen, Netherlands)&lt;/p></description></item><item><title>EDU</title><link>http://datascience.utu.fi/edu/old/courses-events/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/edu/old/courses-events/</guid><description>&lt;h2 id="courses-and-events">Courses and events&lt;/h2>
+&lt;h3 id="topics-for-mscphd-theses">Topics for MSc/PhD theses&lt;/h3>
+&lt;p>Welcome to &lt;a href="../../contact/">contact us&lt;/a> to discuss research/study positions.&lt;/p>
+&lt;p>We supervise study assignments (BSc/MSc/PhD) on applied statistics / computational science / machine learning / AI theory, methods, and their application to study complex natural and social systems. Active research projects cover scientific data analysis, statistical and probabilistic programming workflows, data visualization, microbial metagenomics, ecological and evolutionary models, multi-omic data integration, spatio-temporal models, computational history, and open government data analysis.&lt;/p></description></item><item><title>EDU</title><link>http://datascience.utu.fi/edu/resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/edu/resources/</guid><description>&lt;h2 id="resources">Resources&lt;/h2>
+&lt;h3 id="tutorials-and-data">Tutorials and Data&lt;/h3>
+&lt;p>&lt;strong>Microbiome data science&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://microbiome.github.io/OMA">Microbiome data science with R/Bioconductor&lt;/a> (beta version)&lt;/li>
+&lt;li>&lt;a href="https://microbiome.github.io/tutorials">R tutorial for phyloseq&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Open government data analytics&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://ropengov.org/projects">Various R tutorials&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Data visualization&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://ropengov.github.io/geofi">Finnish geospatial data visualization in R&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="teaching-software--online-resources">Teaching software &amp;amp; online resources&lt;/h3>
+&lt;p>&lt;a href="https://ropengov.github.io/edu/">A framework for creating and assessing exercises for R courses&lt;/a> (presented in UseR2017!; Markus Kainu)&lt;/p></description></item><item><title>Leo Lahti</title><link>http://datascience.utu.fi/old/leo_lahti/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/old/leo_lahti/</guid><description>&lt;h2 id="links-to-academic-services-online-leo-lahti">Links to academic services online: Leo Lahti&lt;/h2>
+&lt;!--
+
+Dr Leo Lahti is a computational scientist, with a focus on modern statistical data analysis and probabilistic models. The key applications include large population cohorts studies, functional genomics, microbial ecology of the human body, and computational history. Dr Lahti has worked in VIB/KU Leuven, Belgium (2015-2018), Wageningen University, The Netherlands (2012-2015), University of Turku, University of Helsinki, Finland, Aalto University.
+
+
+- [Academy of Finland Research Fellow](http://webfocus.aka.fi/ibi_apps/WFServlet?IBIF_ex=x_HakKuvaus&amp;CLICKED_ON=&amp;HAKNRO1=295741&amp;UILANG=en&amp;IBIAPP_app=aka_ext&amp;TULOSTE=HTML) 2016-2021 
+- [University of Turku](https://www.utu.fi/en/units/sci/units/math/Pages/home.aspx), Finland. Docent/Adjunct Professor. Applied Mathematics.
+- [Blueprint Genetics](https://blueprintgenetics.com/) - Scientific Advisor (AI &amp; Machine Learning)
+- [VIB/KU Leuven](http://www.kuleuven.be/wieiswie/en/unit/50000700), Belgium. Visiting Researcher 
+- [Open Science work group](http://fi.okfn.org/wg/openscience/) of the Open Knowledge Finland (OKF). Founding member and former coordinator 
+- Twitter: [@antagomir](https://twitter.com/antagomir)
+
+![]({{ site.url }}{{ site.baseurl }}/images/meitsi2006.jpg){: style="width: 300px; float: right; border: 10px"}
+
+&lt;!--
+
+&lt;!--*[http://roihu.info/cv.pdf Curriculum Vitae]-->
+&lt;p>&lt;/p></description></item><item><title>Licensing</title><link>http://datascience.utu.fi/old/licensing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/old/licensing/</guid><description>&lt;h1 id="open-licensing-of-scientific-material">Open licensing of scientific material&lt;/h1>
+&lt;p>This memo gives recommendations for selecting open source license for
+scientific material, including software, data and documents. Let us
+continue to make the newest computational techniques easily available
+to spark new applications and further development!&lt;/p>
+&lt;h2 id="recommended-open-licenses-for-academic-publishing">Recommended open licenses for academic publishing&lt;/h2>
+&lt;h1 id="software-and-source-code">Software and source code&lt;/h1>
+&lt;p>The modified BSD licenses (in particular FreeBSD) and MIT license set minimal restrictions on the end user, and have therefore been recommended for academic purposes, for instance at ICML/MLOSS workshop 2010 (&lt;a href="http://www.stanford.edu/~vcs/Papers.html">V. Stodden&lt;/a> and G. Bradski), and in the &lt;a href="http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002598">Quick Guide to Software Licensing for the Scientist-Programmer&lt;/a> in PLoS CB. Also note that none of the standard licenses below excludes commercial use. Based on my experiences in developing scientific open source tools, I suggest the following preference order for selecting an open license:&lt;/p></description></item><item><title>Media</title><link>http://datascience.utu.fi/media/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/media/</guid><description>&lt;h3 id="online-resources">Online resources&lt;/h3>
+&lt;p>&lt;a href="https://gitlab.utu.fi/opencomp/outreach">Presentation slides&lt;/a>&lt;/p>
+&lt;!--Presentation slides, posters and other material available via [Github](https://github.com/openresearchlabs/openresearchlabs.github.io/tree/master/publications).-->
+&lt;p>&lt;a href="https://ropengov.org">Blog on open data analytics&lt;/a> (rOpenGov)&lt;/p>
+&lt;p>&lt;a href="https://www.versuslehti.fi/english/">Versus online journal&lt;/a> for science popularization.&lt;/p>
+&lt;!--[Louhos](http://louhos.wordpress.com) Finnish blog on open government data analysis-->
+&lt;!--[opencomp](http://antagomir.wordpress.com) Open research blog-->
+&lt;h3 id="selected-video-lectures-and-interviews">Selected video lectures and interviews&lt;/h3>
+&lt;!--&lt;iframe src="http://livestream.com/accounts/2914987/events/4349899/videos/100125511/player?autoPlay=false&amp;mute=false" frameborder="0" scrolling="no">&lt;/iframe>-->
+&lt;!-- To adjust frame size use: -->
+&lt;!--&lt;iframe src="http://livestream.com/accounts/2914987/events/4349899/videos/100125511/player?autoPlay=false&amp;height=360&amp;mute=false&amp;width=640" width="640" height="360" frameborder="0" scrolling="no">&lt;/iframe>-->
+&lt;p>&lt;a href="https://researchdata.springernature.com/users/334226-mikko-tolonen-leo-lahti/posts/56722-integrating-open-science-in-the-humanities-the-case-of-computational-history?fbclid=IwAR0f6C3jluizvZG6krIYMQ8P8VmPJi9lKVCjn62d1Db12eIB7YWIBXoT3l0">&lt;strong>Integrating open science in the humanities: the case of computational history&lt;/strong>&lt;/a> Springer-Nature blog post and links to the streamed presentations 11/2019&lt;/p></description></item><item><title>Microbial bioinformatics and statistical ecology</title><link>http://datascience.utu.fi/edu_resources/microbiome/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/edu_resources/microbiome/</guid><description>&lt;h1 id="course-2">Course 2&lt;/h1>
+&lt;p>Lorem&lt;/p></description></item><item><title>News</title><link>http://datascience.utu.fi/old/allnews/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/old/allnews/</guid><description>&lt;h1 id="news">News&lt;/h1>
+&lt;p>{% for article in site.data.news %}&lt;/p>
+&lt;p>{{ article.date }} &lt;br>
+&lt;em>{{ article.headline }}&lt;/em>&lt;/p>
+{% endfor %}</description></item><item><title>Open positions</title><link>http://datascience.utu.fi/recruit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/recruit/</guid><description>&lt;h1 id="open-positions">Open positions&lt;/h1>
+&lt;p>Applications for assistant/MSc/PhD/Postdoc positions from outstanding students are welcome.&lt;/p>
+&lt;p>&lt;a href="../contact">Contact&lt;/a> us to discuss the opportunities in more detail.&lt;/p>
+&lt;p>The following positions are now open:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>PhD or project researcher: &lt;a href="https://tinyurl.com/2r2a6s9w">Microbiome bioinformatics and data science&lt;/a>. Apply by Sep 19, 2022. Starting date negotiable.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>PhD or project researcher: &lt;a href="https://t.co/0sBhdR6SXI">Computational humanities&lt;/a>. Apply by Sep 30, 2022. Starting date negotiable.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Project researcher or research assistant: &lt;a href="https://rekry.saima.fi/certiahome/open_job_view.html?id=000013904&amp;amp;did=5600&amp;amp;lang=en&amp;amp;jc=14&amp;amp;nav_from_open_jobs_view_new=true">Scientific programming and data analysis&lt;/a>. Apply by Sep 30, 2022. Starting date negotiable.&lt;/p></description></item><item><title>Page Not Found</title><link>http://datascience.utu.fi/404/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/404/</guid><description>&lt;p>Sorry, but the page you were trying to view does not exist.&lt;/p></description></item><item><title>Probabilistic programming</title><link>http://datascience.utu.fi/edu_resources/probprog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/edu_resources/probprog/</guid><description>&lt;h1 id="introduction-probabilistic-programming">Introduction probabilistic programming&lt;/h1></description></item><item><title>Publications</title><link>http://datascience.utu.fi/publications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/publications/</guid><description>&lt;h1 id="publications">Publications&lt;/h1>
+&lt;p>See &lt;a href="https://scholar.google.co.uk/citations?user=mjjV-AoAAAAJ&amp;amp;hl=fi&amp;amp;oi=ao">Google scholar&lt;/a>.&lt;/p>
+&lt;p>Full list under construction.&lt;/p></description></item><item><title>Publishing data and code</title><link>http://datascience.utu.fi/old/publishing_code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/old/publishing_code/</guid><description>&lt;h1 id="how-to-publish-and-archive-research-software-or-source-code">How to publish and archive research software or source code&lt;/h1>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Choose open license&lt;/strong> The code is not really &amp;ldquo;open&amp;rdquo; without an open license. Common ones include MIT, FreeBSD and GPL3. The MIT license is often recommended due to its simplicity. See &lt;a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002598">Quick guide to software licensing for a scientist programmer&lt;/a>. See also the brief &lt;a href="../licensing/">memo on open licensing of scientific material&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Add version number&lt;/strong>&lt;/p></description></item><item><title>Research</title><link>http://datascience.utu.fi/research/all/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/research/all/</guid><description>&lt;h1 id="all-publications">All publications&lt;/h1>
+
+ 
+ 
+
+
+
+&lt;p>
+ 
+ &lt;b>Examining the healthy human microbiome concept&lt;/b>
+ &lt;br>
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ Ross
+ R,
+ 
+ 
+ 
+ Joos
+ R,
+ 
+ 
+ 
+ Boucher
+ K,
+ 
+ 
+ 
+ Lavelle
+ A,
+ 
+ 
+ 
+ Arumugam
+ M,
+ 
+ 
+ 
+ Blaser
+ M,
+ 
+ 
+ 
+ Claesson
+ M,
+ 
+ 
+ 
+ Clarke
+ G,
+ 
+ 
+ 
+ Cotter
+ P,
+ 
+ 
+ 
+ Sordi
+ L,
+ 
+ 
+ 
+ Dominguez-Bello
+ M,
+ 
+ 
+ 
+ Dutilh
+ B,
+ 
+ 
+ 
+ Ehrlich
+ S,
+ 
+ 
+ 
+ Ghosh
+ T,
+ 
+ 
+ 
+ Hill
+ C,
+ 
+ 
+ 
+ Junot
+ C,
+ 
+ 
+ 
+ Lahti
+ L,
+ 
+ 
+ 
+ Lawley
+ T,
+ 
+ 
+ 
+ Licht
+ T,
+ 
+ 
+ 
+ Maguin
+ E,
+ 
+ 
+ 
+ Makhalanyane
+ T,
+ 
+ 
+ 
+ Marchesi
+ J,
+ 
+ 
+ 
+ Matthijnssens
+ J,
+ 
+ 
+ 
+ Raes
+ J,
+ 
+ 
+ 
+ Ravel
+ J,
+ 
+ 
+ 
+ Salonen
+ A,
+ 
+ 
+ 
+ Scanlan
+ P,
+ 
+ 
+ 
+ Shkoporov
+ A,
+ 
+ 
+ 
+ Stanton
+ C,
+ 
+ 
+ 
+ Thiele
+ I,
+ 
+ 
+ 
+ Tolstoy
+ I,
+ 
+ 
+ 
+ Walter
+ J,
+ 
+ 
+ 
+ Yang
+ B,
+ 
+ 
+ 
+ Yutin
+ N,
+ 
+ 
+ 
+ Zhernakova
+ A,
+ 
+ 
+ 
+ Zwart
+ H,
+ 
+ 
+ 
+ Dore
+ J&amp;#32;&amp;amp;&amp;#32;
+ 
+ 
+ 
+ 
+ Human Microbiome Action Consortium [NRMICRO-23-369V4].
+ 
+ 
+ 
+
+&lt;br>Nature Reviews Microbiology
+2024&lt;br>
+
+In press.
+&lt;br>
+
+
+
+
+
+
+&lt;/p></description></item><item><title>Research</title><link>http://datascience.utu.fi/research/computational-and-data-science/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/research/computational-and-data-science/</guid><description>&lt;h3 id="computational-and-data-science-selected-examples">Computational and data science: selected examples&lt;/h3>
+
+ 
+
+
+
+&lt;p>
+ 
+ &lt;b>Exit time as a measure of ecological resilience&lt;/b>
+ &lt;br>
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ Arani
+ B,
+ 
+ 
+ 
+ Nes
+ E,
+ 
+ 
+ 
+ Lahti
+ L,
+ 
+ 
+ 
+ Carpenter
+ S&amp;#32;&amp;amp;&amp;#32;
+ 
+ 
+ 
+ Scheffer
+ M.
+ 
+ 
+ 
+
+&lt;br>Science 372(6547),
+2021&lt;br>
+
+
+
+
+ &lt;a href="https://doi.org/10.1126/science.aay4895">10.1126/science.aay4895&lt;/a>
+
+
+
+&lt;/p></description></item><item><title>Research</title><link>http://datascience.utu.fi/research/computational-humanities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/research/computational-humanities/</guid><description>&lt;!-- Header texts come from themes/hugo-universal-theme/layouts/partials -->
+&lt;h3 id="selected-examples">Selected examples&lt;/h3>
+
+ 
+
+
+
+&lt;p>
+ 
+ &lt;b>Bibliographic data science and the history of the book (c. 1500–1800)&lt;/b>
+ &lt;br>
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ Lahti
+ L,
+ 
+ 
+ 
+ Marjanen
+ J,
+ 
+ 
+ 
+ Roivainen
+ H&amp;#32;&amp;amp;&amp;#32;
+ 
+ 
+ 
+ Tolonen
+ M.
+ 
+ 
+ 
+
+&lt;br>Cataloging &amp;amp; Classification Quarterly 57(1) Routledge,
+2019&lt;br>
+
+Special issue.
+&lt;br>
+
+
+
+
+ &lt;a href="https://doi.org/10.1080/01639374.2018.1543747">10.1080/01639374.2018.1543747&lt;/a>
+
+|
+
+ 
+ &lt;a href="https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2019-Lahti-CCQ.pdf">PDF&lt;/a>
+ 
+
+&lt;/p></description></item><item><title>Research</title><link>http://datascience.utu.fi/research/funding-and-support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/research/funding-and-support/</guid><description>&lt;h3 id="funding-and-support">Funding and support&lt;/h3>
+&lt;p>The work has been supported by&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.utu.fi/en">University of Turku&lt;/a>&lt;/li>
+&lt;li>Academy of Finland&lt;/li>
+&lt;li>EU / &lt;a href="https://www.ml4microbiome.eu/">COST action on Statistical and Machine Learning Techniques in Human Microbiome Studies&lt;/a>&lt;/li>
+&lt;li>EU / &lt;a href="http://www.findingpheno.eu/">H2020 FindingPheno&lt;/a>&lt;/li>
+&lt;li>KONE&lt;/li>
+&lt;li>Turku University Foundation&lt;/li>
+&lt;li>and other sources&lt;/li>
+&lt;/ul></description></item><item><title>Research</title><link>http://datascience.utu.fi/research/microbiome-data-science/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/research/microbiome-data-science/</guid><description>&lt;!-- Header texts come from themes/hugo-universal-theme/layouts/partials -->
+&lt;h3 id="microbiome-data-science-selected-examples">Microbiome data science: selected examples&lt;/h3>
+
+ 
+
+
+
+&lt;p>
+ 
+ &lt;b>Taxonomic signatures of cause-specific mortality risk in human gut microbiome&lt;/b>
+ &lt;br>
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ Salosensaari*
+ A,
+ 
+ 
+ 
+ Laitinen*
+ V,
+ 
+ 
+ 
+ Havulinna
+ A,
+ 
+ 
+ 
+ Meric
+ G,
+ 
+ 
+ 
+ Cheng
+ S,
+ 
+ 
+ 
+ Perola
+ M,
+ 
+ 
+ 
+ Valsta
+ L,
+ 
+ 
+ 
+ Alfthan
+ G,
+ 
+ 
+ 
+ Inouye
+ M,
+ 
+ 
+ 
+ Watrous
+ J,
+ 
+ 
+ 
+ Long
+ T,
+ 
+ 
+ 
+ Salido
+ R,
+ 
+ 
+ 
+ Sanders
+ K,
+ 
+ 
+ 
+ Brennan
+ C,
+ 
+ 
+ 
+ Humphrey
+ G,
+ 
+ 
+ 
+ Sanders
+ J,
+ 
+ 
+ 
+ Jain
+ M,
+ 
+ 
+ 
+ Jousilahti
+ P,
+ 
+ 
+ 
+ Salomaa
+ V,
+ 
+ 
+ 
+ Knight
+ R,
+ 
+ 
+ 
+ Lahti*
+ L&amp;#32;&amp;amp;&amp;#32;
+ 
+ 
+ 
+ Niiranen*
+ T.
+ 
+ 
+ 
+
+&lt;br>Nature Communications 12,
+2021&lt;br>
+
+
+
+
+ &lt;a href="https://doi.org/10.1038/s41467-021-22962-y">10.1038/s41467-021-22962-y&lt;/a>
+
+
+
+&lt;/p></description></item><item><title>Research</title><link>http://datascience.utu.fi/research/open-science/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/research/open-science/</guid><description>&lt;h3 id="open-science">Open science&lt;/h3>
+&lt;p>&lt;a href="https://doi.org/10.3897/rio.3.e13593">&lt;strong>Alchemy &amp;amp; algorithms: perspectives on the philosophy and history of open science&lt;/strong>&lt;/a>&lt;br>
+RIO Journal 2017.&lt;br>
+Lahti L, da Silva F, Laine MP, Lähteenoja V, Tolonen M.&lt;/p>
+&lt;p>&lt;a href="https://doi.org/10.23847/isbn.9789525995251">&lt;strong>Open education and educational resources. National policy and executive plan by the higher education and research community for 2021-2025 - Policy component 1: Open access to educational resources&lt;/strong>&lt;/a>&lt;br>
+Responsible Research Series 16:2020. Helsinki, Finland.
+Published by the Committee for Public Information (TJNK) and Federation of Finnish Learned Societies (TSV) .&lt;/p></description></item><item><title>Research</title><link>http://datascience.utu.fi/research/opinion-pieces/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/research/opinion-pieces/</guid><description>&lt;h3 id="opinion-pieces-in-finnish">Opinion pieces (in Finnish)&lt;/h3>
+&lt;!--
+ 
+
+
+
+&lt;p>
+ 
+ &lt;b>Laskentamallit eivät lähtökohtaisesti ole salassa pidettävää tietoa&lt;/b>
+ &lt;br>
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ Lahti
+ L,
+ 
+ 
+ 
+ Wallgren
+ T&amp;#32;&amp;amp;&amp;#32;
+ 
+ 
+ 
+ Kulmala
+ M.
+ 
+ 
+ 
+
+&lt;br>HS Mielipide
+2020&lt;br>
+
+
+
+
+
+
+ 
+ &lt;a href="https://www.hs.fi/mielipide/art-2000006494641.html">URL&lt;/a>
+ 
+
+&lt;/p></description></item><item><title>Research</title><link>http://datascience.utu.fi/research/preprints/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/research/preprints/</guid><description>&lt;h3 id="preprints">Preprints&lt;/h3>
+
+ 
+ 
+
+
+
+&lt;p>
+ 
+ &lt;b>Biochemical analyses can complement sequencing-based ARG load monitoring: A case study in indian hospital sewage networks&lt;/b>
+ &lt;br>
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ Bhanushali
+ S,
+ 
+ 
+ 
+ Parnanen
+ K,
+ 
+ 
+ 
+ Mongad
+ D,
+ 
+ 
+ 
+ Dhotre
+ D&amp;#32;&amp;amp;&amp;#32;
+ 
+ 
+ 
+ Lahti
+ L.
+ 
+ 
+ 
+
+&lt;br>medRxiv
+2024&lt;br>
+
+
+
+
+ &lt;a href="https://doi.org/10.1101/2024.05.31.24308262">10.1101/2024.05.31.24308262&lt;/a>
+
+
+
+&lt;/p></description></item><item><title>Research / Old</title><link>http://datascience.utu.fi/old/research/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/old/research/</guid><description>&lt;h1 id="research-topics">Research topics&lt;/h1>
+&lt;p>&lt;strong>Our research focuses on computational analysis of
+complex natural and social systems.&lt;/strong> There is a great demand for
+targeted computational techniques to extract information and insights
+from rich data collections based on clever combinations of human and
+machine intelligence. We blend elements from fields such as machine
+learning/AI, probabilistic programming, statistical ecology, and data
+science, and drive open developer communities that help to translate
+latest theoretical advances into accessible methods to inform
+modeling, experimentation, and decision-making.&lt;/p></description></item><item><title>Research seminar</title><link>http://datascience.utu.fi/old/seminar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/old/seminar/</guid><description>&lt;h2 id="seminar-on-machine-learning-and-data-science">Seminar on machine learning and data science&lt;/h2>
+&lt;p>&lt;a href="../">We&lt;/a> are running a &lt;strong>weekly research seminar and journal club on machine learning and data science&lt;/strong> in University of Turku, Finland. These are open and informal events. The exact location and topics may vary, so contact us if you&amp;rsquo;re interested!&lt;/p>
+&lt;h3 id="research-seminar--reading-circle">Research seminar / Reading circle&lt;/h3>
+&lt;p>&lt;strong>Thursdays 10-11:30am&lt;/strong> (2018-2019). We cover material from the following books, a chapter per week.&lt;/p></description></item><item><title>Research Topics</title><link>http://datascience.utu.fi/research-topics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/research-topics/</guid><description>&lt;!--Header texts come from themes/hugo-universal-theme/layouts/partials-->
+&lt;link href="http://datascience.utu.fi/css/style.research.css" rel="stylesheet">
+&lt;div class="research-container">
+ &lt;div class="research-text">
+&lt;h1 id="research-topics">Research topics&lt;/h1>
+&lt;p>&lt;strong>We focus on computational analysis of complex natural and social
+systems.&lt;/strong> We blend elements from machine learning/AI, statistical and
+probabilistic programming, complex systems, and data science in order
+to develop novel, targeted techniques to extract information and
+insights from rich data streams based on combinations of human and
+machine intelligence. We coordinate open developer communities that
+help to translate latest theoretical advances into accessible methods
+to inform modeling, experimentation, and decision-making. &lt;strong>Key
+applications&lt;/strong> include microbiome research, population studies, and
+computational humanities.&lt;/p></description></item><item><title>Team</title><link>http://datascience.utu.fi/team/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/team/</guid><description>&lt;h1 id="research-team">Research team&lt;/h1>
+&lt;p>We are part of the &lt;a href="https://www.utu.fi/en/university/faculty-of-technology/computing">Department of Computing&lt;/a> at the Faculty of Technology, University of Turku.&lt;/p>
+&lt;p>**Welcome to &lt;a href="../contact/">contact us&lt;/a> to discuss research/study positions and collaboration.&lt;/p>
+&lt;!--** Currently open positions are listed [here](../recruit/). We will do our best but cannot guarantee to respond to all contacts. -->
+&lt;div class="col-sm-12 clearfix">
+ &lt;div class="col-sm-3 clearfix" width="400px"> 
+ &lt;img src="../img/teampic/leo_sci_crop.jpg" class="img-responsive lahti" style="float: left"/>&lt;br/>
+ &lt;div class="links-leo">
+ &lt;a href="https://twitter.com/antagomir">&lt;img class="twitter-logo" src="../img/twitter-logo.png"/>&lt;/a>
+ &lt;a href="https://github.com/openresearchlabs/">&lt;img class="github-logo" src="../img/logo-github.png"/>&lt;/a>
+ &lt;a href="https://orcid.org/0000-0001-5537-637X">&lt;img class="orcid-logo" src="../img/orcid-logo.png"/>&lt;/a> 
+ &lt;a href="https://scholar.google.com/citations?hl=en&amp;user=mjjV-AoAAAAJ">&lt;img class="google-scholar-logo" src="../img/google-scholar-logo.png"/>&lt;/a> 
+ &lt;a href="https://publons.com/researcher/246930/leo-lahti">&lt;img class="publon-logo" src="../img/publon-logo.png"/>&lt;/a>
+ &lt;a href="https://www.ncbi.nlm.nih.gov/myncbi/1LcO5Ior1p-5d/bibliography/public/">&lt;img class="nih-logo" src="../img/nih-logo.png"/>&lt;/a>
+ &lt;a href="https://profiles.impactstory.org/u/0000-0001-5537-637X">&lt;img class="impactstory-logo" src="../img/impactstory.png"/>&lt;/a>
+ &lt;/div>
+ &lt;/div>
+&lt;!-- &lt;a href="http://orcid.org/0000-0001-5537-637X">&lt;img src='../img/orcid_qrcode_leolahti.png' title='Leo Lahti ORCID QR code 0000-0001-5537-637X' alt='ORCID: 0000-0001-5537-637X' width='33%'/>&lt;/a> &lt;a href="https://twitter.com/antagomir">&lt;img src='../img/twitter.jpeg' title='antagomir@twitter' alt='https://twitter.com/antagomir' width='25%'/>&lt;/a> -->
+ &lt;h4>Leo Lahti (Group leader)&lt;/h4>
+ &lt;ul style="overflow: hidden">
+ &lt;li>&lt;a href="https://www.utu.fi/en/people/leo-lahti">Professor (Data Science / Computational Humanities)&lt;/a>&lt;/li>
+ &lt;li> &lt;a href="https://avointiede.fi/fi/koordinaatio">National open science coordination&lt;/a>, vice chair&lt;/li>
+ &lt;li>&lt;a href="https://tenk.fi/en/research-misconduct/research-integrity-advisers">National Board on Research Integrity (TENK)&lt;/a> research integrity adviser&lt;/li> 
+ &lt;!--&lt;li>Director, Turku Center for Computational Humanities&lt;/li>-->
+ &lt;li>&lt;a href="https://ellis.eu/">ELLIS&lt;/a> member (the European Laboratory for Learning and Intelligent Systems)
+ &lt;li>&lt;a href="https://www.ml4microbiome.eu">Statistical and machine learning techniques in human microbiome studies&lt;/a> (ML4microbiome) COST action WG leader&lt;/li>
+ &lt;li>&lt;a href="https://codata.org/finland/">International Science Council (ISC) Committee on Data (CODATA)&lt;/a> national chair, delegate,&lt;a href="https://codata.org/about-codata/executive-committee/"> Executive Commite member&lt;/a> , member in the &lt;a href="https://codata.org/initiatives/working-groups/data-ethics/">Data Ethics work group&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="https://www.okf.fi/">Open Knowledge Finland ry.&lt;/a> board&lt;/li>
+ &lt;li>&lt;a href="http://urn.fi/URN:ISBN:978-952-400-005-5">Updating the law on public information. Report from the working group.Ministry of Justice, Finland 12.12.2023&lt;/a> work group member&lt;/li>
+ &lt;!--&lt;li> &lt;a href="http://www.tkts.fi/etusivu">Finnish Society for Computer Science&lt;/a> board&lt;/li>-->
+ &lt;li>&lt;a href="https://turkucitydata.fi">Turku City Data Co.&lt;/a> Board member and scientific advisor.&lt;/li> 
+ &lt;!--&lt;li>&lt;a href="https://blueprintgenetics.com">Blueprint Genetics&lt;/a>. Scientific Advisor (AI &amp; ML)&lt;/li>-->
+ &lt;!--&lt;li>&lt;a href="http://www.helsinki.fi/computational-history">Helsinki Computational History Group&lt;/a> founding member&lt;/li>-->
+ &lt;!--&lt;li>&lt;a href="http://fi.okfn.org/wg/openscience/">Open Science work group&lt;/a>, OKF Finland. Founding member.&lt;/li>-->
+ &lt;li> Certified &lt;a href="https://carpentries.org/">Carpentries Instructor&lt;/a>
+ &lt;li>&lt;a href="../bio_lahti">Biography&lt;/a>&lt;/li>
+ &lt;li> &lt;a
+ id="cy-effective-orcid-url"
+ class="underline"
+ href="https://orcid.org/0000-0001-5537-637X"
+ target="orcid.widget"
+ rel="me noopener noreferrer"
+ style="vertical-align: top">
+ &lt;img
+ src="https://orcid.org/sites/default/files/images/orcid_16x16.png"
+ style="width: 1em; margin-inline-start: 0.5em"
+ alt="ORCID iD icon"/>
+ https://orcid.org/0000-0001-5537-637X
+ &lt;/a>&lt;/li>
+ &lt;/ul>
+&lt;/div>
+&lt;p>&lt;br>&lt;br>&lt;/p></description></item><item><title>TKO_3121: Topics</title><link>http://datascience.utu.fi/edu_resources/seminar_topics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/edu_resources/seminar_topics/</guid><description>&lt;h1 id="machine-learning-and-algorithmics-seminar-2020">Machine Learning and Algorithmics Seminar 2020&lt;/h1>
+&lt;ul>
+&lt;li>&lt;a href="https://opas.peppi.utu.fi/fi/opintojakso/TKO_3121/3255">Course page (Peppi)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://moodle.utu.fi/course/view.php?id=17982">Moodle for Machine Learning and Algorithmics Seminar 2020&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="proposed-seminar-topics">Proposed seminar topics&lt;/h2>
+&lt;h3 id="session-1-introduction">Session 1: Introduction&lt;/h3>
+&lt;ul>
+&lt;li>Participants&lt;/li>
+&lt;li>Overview and practicalities&lt;/li>
+&lt;li>Assigning the topics&lt;/li>
+&lt;/ul>
+&lt;h3 id="session-2-overview">Session 2: Overview&lt;/h3>
+&lt;ul>
+&lt;li>Introduction lecture: contemporary themes in machine learning&lt;/li>
+&lt;li>Discussion&lt;/li>
+&lt;li>Finalizing the schedule&lt;/li>
+&lt;/ul>
+&lt;h3 id="session-3-position-papers">Session 3: Position papers&lt;/h3>
+&lt;p>Replication, Communication, and the Population Dynamics of Scientific Discovery.
+McElreath, R., &amp;amp; Smaldino, P. E. (2015).&lt;/p></description></item><item><title>TKO_3121: Topics</title><link>http://datascience.utu.fi/edu_resources/tko3121/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/edu_resources/tko3121/</guid><description>&lt;h1 id="machine-learning-and-algorithmics-seminar-2020">Machine Learning and Algorithmics Seminar 2020&lt;/h1>
+&lt;p>Replication, Communication, and the Population Dynamics of Scientific Discovery.
+McElreath, R., &amp;amp; Smaldino, P. E. (2015).&lt;/p>
+&lt;p>Sparsity information and regularization in the horseshoe and other shrinkage priors. In Electronic Journal of Statistics, 11(2):5018-5051. Juho Piironen and Aki Vehtari (2017). arXiv:1707.01694. After the article was published, the regularized horseshoe prior has been implemented in rstanarm and brms (without conditioning on sigma).&lt;/p>
+&lt;p>Probabilistic principal component analysis.
+Journal of the Royal Statistical Society: Series B (Statistical Methodology), 61(3), 611–622.
+Tipping, M. E., &amp;amp; Bishop, C. M. (1999).&lt;/p></description></item><item><title>Turku Data Science</title><link>http://datascience.utu.fi/old/docs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/old/docs/</guid><description>&lt;p>Turku Data Science group site has moved to &lt;a href="http://datascience.utu.fi">datascience.utu.fi&lt;/a>&lt;/p></description></item><item><title>Turku Data Science Group - Home</title><link>http://datascience.utu.fi/old/home/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/old/home/</guid><description>&lt;p>&lt;strong>Modern data analysis from theory to practice&lt;/strong>&lt;/p>
+&lt;p>We carry out research on theory, methods and applications of modern algorithmic data analysis, blending elements from various fields including statistical machine learning/AI, probabilistic programming, data science, and information engineering.&lt;/p>
+&lt;p>Our methodologically oriented research is motivated by data-rich applications that range from molecular life sciences to computational social sciences and humanities (SSH) research. &lt;a href="https://openresearchlabs.github.io/team/">Turku Data Science Group&lt;/a> is led by Associate Prof. Leo Lahti.&lt;/p></description></item><item><title>Vacancies</title><link>http://datascience.utu.fi/old/vacancies/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/old/vacancies/</guid><description>&lt;h1 id="open-positions">Open positions&lt;/h1>
+&lt;p>We are always looking for new group members with passion, talent, and grit!&lt;/p>
+&lt;h4 id="phd-and-postdoc-positions">PhD and Postdoc positions&lt;/h4>
+&lt;p>If you are interested in working with us as a PhD student or postdoc, please send me an &lt;a href="mailto:leo.lahti@iki.fi">email&lt;/a>. State briefly why you are interested and attach a CV, including information about the grades you had as an undergraduate. &lt;strong>Important&lt;/strong>: please insert &lt;em>&amp;ldquo;Application PhD&amp;rdquo;&lt;/em> or &lt;em>&amp;ldquo;Application Postdoc&amp;rdquo;&lt;/em> in the subject line.&lt;/p></description></item></channel></rss>
