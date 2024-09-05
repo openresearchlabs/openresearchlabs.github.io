@@ -169,6 +169,8 @@
     "type": "article-journal"
   },
   {
+    "DOI": "10.3390/biom14091070",
+    "ISSN": "2218-273X",
     "author": [
       {
         "family": "Lietzén",
@@ -239,8 +241,9 @@
         "given": "Jarna C"
       }
     ],
-    "container-title": "Molecular Medicine",
+    "container-title": "Biomolecules",
     "id": "Lietzén2024",
+    "issue": "9",
     "issued": {
       "date-parts": [
         [
@@ -250,10 +253,10 @@
       ]
     },
     "keyword": "bioscience",
-    "note": "In press.",
     "title": "Effects of obesity and exercise on hepatic and pancreatic lipid content and glucose metabolism: PET-studies in twins discordant for BMI",
     "title-short": "Effects of obesity and exercise on hepatic and pancreatic lipid content and glucose metabolism",
-    "type": "article-journal"
+    "type": "article-journal",
+    "volume": "14"
   },
   {
     "DOI": "10.1145/3680280",
