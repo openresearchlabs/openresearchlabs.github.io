@@ -2,6 +2,95 @@
   {
     "author": [
       {
+        "family": "Király",
+        "given": "Péter"
+      },
+      {
+        "family": "Umerle",
+        "given": "Tomasz"
+      },
+      {
+        "family": "Malínek",
+        "given": "Vojtěch"
+      },
+      {
+        "family": "Colavizza",
+        "given": "Giovanni"
+      },
+      {
+        "family": "Herden",
+        "given": "Elzbieta"
+      },
+      {
+        "family": "Jagersma",
+        "given": "Rindert"
+      },
+      {
+        "family": "Koper",
+        "given": "Beata"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Lindemann",
+        "given": "David"
+      },
+      {
+        "family": "Łubocki",
+        "given": "Jakub Maciej"
+      },
+      {
+        "family": "Milanova",
+        "given": "Alexandra"
+      },
+      {
+        "family": "Péter",
+        "given": "Róbert"
+      },
+      {
+        "family": "Rißler-Pipka",
+        "given": "Nanette"
+      },
+      {
+        "family": "Siwiecka",
+        "given": "Dorota"
+      },
+      {
+        "family": "Romanello",
+        "given": "Matteo"
+      },
+      {
+        "family": "Roszkowski",
+        "given": "Marcin"
+      },
+      {
+        "family": "Tolonen",
+        "given": "Mikko"
+      },
+      {
+        "family": "Vimr",
+        "given": "Ondřej"
+      }
+    ],
+    "id": "Király2024",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          9
+        ]
+      ]
+    },
+    "keyword": "dh",
+    "note": "In press.",
+    "title": "Effects of open science and the digital transformation on the bibliographical data landscape",
+    "type": "article-journal"
+  },
+  {
+    "author": [
+      {
         "family": "Ross",
         "given": "R Paul"
       },
