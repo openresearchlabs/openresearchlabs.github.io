@@ -19,7 +19,9 @@
 &lt;/ul>
 &lt;h3 id="session-3-position-papers">Session 3: Position papers&lt;/h3>
 &lt;p>Replication, Communication, and the Population Dynamics of Scientific Discovery.
-McElreath, R., &amp;amp; Smaldino, P. E. (2015).&lt;/p></description></item><item><title>TKO_3121: Topics</title><link>http://datascience.utu.fi/edu_resources/tko3121/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/edu_resources/tko3121/</guid><description>&lt;h1 id="machine-learning-and-algorithmics-seminar-2020">Machine Learning and Algorithmics Seminar 2020&lt;/h1>
+McElreath, R., &amp;amp; Smaldino, P. E. (2015).&lt;/p>
+&lt;p>Machine behaviour.
+Rahwan, I., Cebrian, M., Obradovich, N., Bongard, J., Bonnefon, J., &amp;amp; Breazeal, C., et al. (2019).&lt;/p></description></item><item><title>TKO_3121: Topics</title><link>http://datascience.utu.fi/edu_resources/tko3121/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/edu_resources/tko3121/</guid><description>&lt;h1 id="machine-learning-and-algorithmics-seminar-2020">Machine Learning and Algorithmics Seminar 2020&lt;/h1>
 &lt;p>Replication, Communication, and the Population Dynamics of Scientific Discovery.
 McElreath, R., &amp;amp; Smaldino, P. E. (2015).&lt;/p>
 &lt;p>Sparsity information and regularization in the horseshoe and other shrinkage priors. In Electronic Journal of Statistics, 11(2):5018-5051. Juho Piironen and Aki Vehtari (2017). arXiv:1707.01694. After the article was published, the regularized horseshoe prior has been implemented in rstanarm and brms (without conditioning on sigma).&lt;/p>
