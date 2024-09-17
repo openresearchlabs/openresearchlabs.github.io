@@ -3261,6 +3261,90 @@
     "type": "article-journal"
   },
   {
+    "DOI": "10.1016/j.jaci.2022.12.810",
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Yang"
+      },
+      {
+        "family": "Teo",
+        "given": "Shu Mei"
+      },
+      {
+        "family": "Meric",
+        "given": "Guillaume"
+      },
+      {
+        "family": "Tang",
+        "given": "Howard HF"
+      },
+      {
+        "family": "Zhu",
+        "given": "Qiyun"
+      },
+      {
+        "family": "Sanders",
+        "given": "Jon G"
+      },
+      {
+        "family": "Vazquez-Baeza",
+        "given": "Yoshiki"
+      },
+      {
+        "family": "Verspoor",
+        "given": "Karin"
+      },
+      {
+        "family": "Vartiainen",
+        "given": "Ville A"
+      },
+      {
+        "family": "Jousilahti",
+        "given": "Pekka"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki S"
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Inouye",
+        "given": "Michael"
+      }
+    ],
+    "container-title": "Journal of Allergy and Clinical Immunology",
+    "id": "Liu2023",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          4
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "943-952",
+    "title": "The gut microbiome is a significant risk factor for future chronic lung disease",
+    "type": "article-journal",
+    "volume": "151"
+  },
+  {
     "DOI": "10.1007/s11306-023-01994-z",
     "author": [
       {
