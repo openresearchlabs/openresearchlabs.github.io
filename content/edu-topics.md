@@ -16,17 +16,15 @@ research/study positions.
 
 
 
-### Courses in 2024
+### Courses and events in 2024
 
 Contact us if you are interested. The admission varies by course but most courses are open to application.
 
-[Brain, Bacteria and Behaviour: understanding the gut-brain axis (RSS4.06)](https://www.ru.nl/en/education/education-for-professionals/overview/brain-bacteria-and-behaviour-understanding-the-gut-brain-axis-rss406) (2 ECTS; Summer course; 08 July - 12 July 2024 - Radboud University, Nijmegen, Netherlands)
 
+- [Resistance is Futile: A codeathon to combat antimicrobial resistance](https://ncbiinsights.ncbi.nlm.nih.gov/event/2024amrcodeathon/) (September, 23-27, 2024, Virtual Course)
 
-[Metagenomics bioinformatics at MGnify](https://www.ebi.ac.uk/training/events/metagenomics-bioinformatics-mgnify/) (September, 23-27, 2024, Virtual Course)
+- [Metagenomics bioinformatics at MGnify](https://www.ebi.ac.uk/training/events/metagenomics-bioinformatics-mgnify/) (September, 23-27, 2024, Virtual Course)
 
-
-[Nordic Summer School on Computational Microbiome Research](https://sites.utu.fi/microbiomesummerschool/); (August 13-15, 2024, Turku, Finland)
 
 
 ### Past courses and events
@@ -49,6 +47,9 @@ Contact us if you are interested. The admission varies by course but most course
 
 **Microbiome data science**
 
+- [Nordic Summer School on Computational Microbiome Research](https://sites.utu.fi/microbiomesummerschool/); (August 13-15, 2024, Turku, Finland)
+
+- [Brain, Bacteria and Behaviour: understanding the gut-brain axis (RSS4.06)](https://www.ru.nl/en/education/education-for-professionals/overview/brain-bacteria-and-behaviour-understanding-the-gut-brain-axis-rss406) (2 ECTS; Summer course; 08 July - 12 July 2024 - Radboud University, Nijmegen, Netherlands)
 
 - [NORBIS: Microbiome data science with R/Bioconductor](https://norbis.w.uib.no/microbiome-data-science-with-r-bioconductor/) (Oct 9-12 2023, University of Bergen, Norway)
 
