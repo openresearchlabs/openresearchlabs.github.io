@@ -78,6 +78,7 @@
       ]
     },
     "keyword": "bioscience",
+    "status": "preprint",
     "title": "Learning and teaching biological data science in the bioconductor community",
     "type": "article-journal"
   },
@@ -1363,7 +1364,6 @@
       ]
     },
     "keyword": "bioscience",
-    "status": "preprint",
     "title": "Elementary methods provide more replicable results in microbial differential abundance analysis",
     "type": "article-journal"
   },
@@ -2720,6 +2720,7 @@
     ],
     "container-title": "BMC Biology",
     "id": "Husso2023",
+    "issue": "207",
     "issued": {
       "date-parts": [
         [
@@ -3590,9 +3591,7 @@
       ]
     },
     "keyword": "datascience",
-    "note": "Preprint",
     "publisher": "arXiv",
-    "status": "preprint",
     "title": "FdeSolver: A Julia Package for Solving Fractional Differential Equations",
     "type": "article-journal"
   },
@@ -3818,7 +3817,6 @@
     },
     "keyword": "bioscience",
     "publisher": "Cold Spring Harbor Laboratory",
-    "status": "preprint",
     "title": "Impacts of maternal microbiota and microbial metabolites on fetal intestine, brain and placenta",
     "type": "article-journal"
   },
