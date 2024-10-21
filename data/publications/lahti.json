@@ -1,5 +1,89 @@
 [
   {
+    "DOI": "10.3390/nu16203554",
+    "author": [
+      {
+        "family": "Lietzén",
+        "given": "Martin S."
+      },
+      {
+        "family": "Guzzardi",
+        "given": "Maria Angela"
+      },
+      {
+        "family": "Ojala",
+        "given": "Ronja"
+      },
+      {
+        "family": "Hentilä",
+        "given": "Jaakko"
+      },
+      {
+        "family": "Heiskanen",
+        "given": "Marja A."
+      },
+      {
+        "family": "Honkala",
+        "given": "Sanna M."
+      },
+      {
+        "family": "Lautamäki",
+        "given": "Riikka"
+      },
+      {
+        "family": "Löyttyniemi",
+        "given": "Eliisa"
+      },
+      {
+        "family": "Kirjavainen",
+        "given": "Anna K."
+      },
+      {
+        "family": "Rajander",
+        "given": "Johan"
+      },
+      {
+        "family": "Malm",
+        "given": "Tarja"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Rinne",
+        "given": "Juha O."
+      },
+      {
+        "family": "Pietiläinen",
+        "given": "Kirsi H."
+      },
+      {
+        "family": "Iozzo",
+        "given": "Patricia"
+      },
+      {
+        "family": "Hannukainen",
+        "given": "Jarna C."
+      }
+    ],
+    "container-title": "Nutrients",
+    "id": "Lietzén2024nut",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          10
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "3554",
+    "title": "Regular exercise training induces more changes on intestinal glucose uptake from blood and microbiota composition in leaner compared to heavier individuals in monozygotic twins discordant for BMI",
+    "type": "article-journal",
+    "volume": "16"
+  },
+  {
     "DOI": "10.48550/arXiv.2410.01351",
     "author": [
       {
@@ -414,7 +498,7 @@
       }
     ],
     "container-title": "Biomolecules",
-    "id": "Lietzén2024",
+    "id": "Lietzén2024biom",
     "issue": "9",
     "issued": {
       "date-parts": [
