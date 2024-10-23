@@ -1,5 +1,175 @@
 [
   {
+    "DOI": "10.1038/s41579-024-01107-0",
+    "ISSN": "1740-1534",
+    "author": [
+      {
+        "family": "Joos",
+        "given": "Raphaela"
+      },
+      {
+        "family": "Boucher",
+        "given": "Katy"
+      },
+      {
+        "family": "Lavelle",
+        "given": "Aonghus"
+      },
+      {
+        "family": "Arumugam",
+        "given": "Manimozhiyan"
+      },
+      {
+        "family": "Blaser",
+        "given": "Martin J."
+      },
+      {
+        "family": "Claesson",
+        "given": "Marcus J."
+      },
+      {
+        "family": "Clarke",
+        "given": "Gerard"
+      },
+      {
+        "family": "Cotter",
+        "given": "Paul D."
+      },
+      {
+        "family": "Sordi",
+        "given": "Luisa De"
+      },
+      {
+        "family": "Dominguez-Bello",
+        "given": "Maria G."
+      },
+      {
+        "family": "Dutilh",
+        "given": "Bas E."
+      },
+      {
+        "family": "Ehrlich",
+        "given": "Stanislav D."
+      },
+      {
+        "family": "Ghosh",
+        "given": "Tarini Shankar"
+      },
+      {
+        "family": "Hill",
+        "given": "Colin"
+      },
+      {
+        "family": "Junot",
+        "given": "Christophe"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Lawley",
+        "given": "Trevor D."
+      },
+      {
+        "family": "Licht",
+        "given": "Tine R."
+      },
+      {
+        "family": "Maguin",
+        "given": "Emmanuelle"
+      },
+      {
+        "family": "Makhalanyane",
+        "given": "Thulani P."
+      },
+      {
+        "family": "Marchesi",
+        "given": "Julian R."
+      },
+      {
+        "family": "Matthijnssens",
+        "given": "Jelle"
+      },
+      {
+        "family": "Raes",
+        "given": "Jeroen"
+      },
+      {
+        "family": "Ravel",
+        "given": "Jacques"
+      },
+      {
+        "family": "Salonen",
+        "given": "Anne"
+      },
+      {
+        "family": "Scanlan",
+        "given": "Pauline D."
+      },
+      {
+        "family": "Shkoporov",
+        "given": "Andrey"
+      },
+      {
+        "family": "Stanton",
+        "given": "Catherine"
+      },
+      {
+        "family": "Thiele",
+        "given": "Ines"
+      },
+      {
+        "family": "Tolstoy",
+        "given": "Igor"
+      },
+      {
+        "family": "Walter",
+        "given": "Jens"
+      },
+      {
+        "family": "Yang",
+        "given": "Bo"
+      },
+      {
+        "family": "Yutin",
+        "given": "Natalia"
+      },
+      {
+        "family": "Zhernakova",
+        "given": "Alexandra"
+      },
+      {
+        "family": "Zwart",
+        "given": "Hub"
+      },
+      {
+        "literal": "Human Microbiome Action Consortium"
+      },
+      {
+        "family": "Doré",
+        "given": "Joël"
+      },
+      {
+        "family": "Ross",
+        "given": "R. Paul"
+      }
+    ],
+    "container-title": "Nature Reviews Microbiology",
+    "id": "Joos2024",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          10
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "title": "Examining the healthy human microbiome concept",
+    "type": "article-journal"
+  },
+  {
     "DOI": "10.3390/nu16203554",
     "author": [
       {
