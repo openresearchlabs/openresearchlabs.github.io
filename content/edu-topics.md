@@ -21,10 +21,7 @@ research/study positions.
 Contact us if you are interested. The admission varies by course but most courses are open to application.
 
 
-- [Resistance is Futile: A codeathon to combat antimicrobial resistance](https://ncbiinsights.ncbi.nlm.nih.gov/event/2024amrcodeathon/) (September, 23-27, 2024, Virtual Course)
-
-- [Metagenomics bioinformatics at MGnify](https://www.ebi.ac.uk/training/events/metagenomics-bioinformatics-mgnify/) (September, 23-27, 2024, Virtual Course)
-
+- [Microbiome data science & multi-omics with R/Bioconductor](https://microbiome.github.io/course_2024_oulu/) (December 18-20, 2024, University of Oulu training school)
 
 
 ### Past courses and events
@@ -35,6 +32,10 @@ Contact us if you are interested. The admission varies by course but most course
 
 
 **Computational science and machine learning**
+
+- [Resistance is Futile: A codeathon to combat antimicrobial resistance](https://ncbiinsights.ncbi.nlm.nih.gov/event/2024amrcodeathon/) (September, 23-27, 2024, Virtual Course)
+
+- [Metagenomics bioinformatics at MGnify](https://www.ebi.ac.uk/training/events/metagenomics-bioinformatics-mgnify/) (September, 23-27, 2024, Virtual Course)
 
 - [Statistical and Probabilistic Programming (TKO_7097)](https://opas.peppi.utu.fi/fi/opintojakso/TKO_7097/91483) (5 ECTS; period II; Oct-Dec 2022 - University of Turku, Finland)
 
