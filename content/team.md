@@ -111,6 +111,7 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
 ## Alumni
 
 Postdocs:
+- Guilhem Sommeria-Klein (2021-2024)
 - Rajesh Shigdel (visiting scholar, 2022)
 
 <!--
@@ -119,22 +120,21 @@ Co-supervised PhDs:
 - Joonatan Palmu
 - Anna Aatsinki (University of Turku, 2021; with <a href="https://sites.utu.fi/finnbrain/en/" target="_blank">Finnbrain</a>)
 - Sudarshan Shetty (Wageningen University, 2019; with Willem M de Vos)
--->
-
 Co-supervised PhDs:
 - Iiro Tiihonen
 - Ville Vaara
 - Henrik Eckerman
 - Mrunalini Lotankar
 - Anna Sorjamaa
-
+-->
 Visiting scholars:
 - prof. Dhiraj Dhotre (2023; visiting professor)
 - Renuka Potbhare (2023; visiting researcher)
 - Dattatray Mongad (2022; visiting researcher)
 
 Research assistants & interns:
-- Chouaib Benchraka
+- Shadman Ishraq (2024)
+- Chouaib Benchraka (2021-2024)
 - Arvi Tolvanen (2024; summer intern)
 - Samuel Hillman (2024; summer intern)
 - Ely Seraidarian (2024; summer intern)
