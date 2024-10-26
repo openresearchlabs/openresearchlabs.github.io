@@ -120,8 +120,6 @@ Co-supervised PhDs:
 - Joonatan Palmu
 - Anna Aatsinki (University of Turku, 2021; with <a href="https://sites.utu.fi/finnbrain/en/" target="_blank">Finnbrain</a>)
 - Sudarshan Shetty (Wageningen University, 2019; with Willem M de Vos)
--->
-<!--
 Co-supervised PhDs:
 - Iiro Tiihonen
 - Ville Vaara
