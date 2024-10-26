@@ -111,7 +111,7 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
 ## Alumni
 
 Postdocs:
-- Guilhem Sommeria-Klein 
+- Guilhem Sommeria-Klein (2021-2024)
 - Rajesh Shigdel (visiting scholar, 2022)
 
 <!--
@@ -135,7 +135,8 @@ Visiting scholars:
 - Dattatray Mongad (2022; visiting researcher)
 
 Research assistants & interns:
-- Chouaib Benchraka
+- Shadman Ishraq (2024)
+- Chouaib Benchraka (2021-2024)
 - Arvi Tolvanen (2024; summer intern)
 - Samuel Hillman (2024; summer intern)
 - Ely Seraidarian (2024; summer intern)
