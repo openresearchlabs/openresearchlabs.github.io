@@ -1,5 +1,39 @@
 [
   {
+    "DOI": "10.1145/3680280",
+    "ISSN": "0098-3500",
+    "author": [
+      {
+        "family": "Khalighi",
+        "given": "Moein"
+      },
+      {
+        "family": "Benedetti",
+        "given": "Giulio"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "ACM Transactions on Mathematical Software",
+    "id": "Khalighi2024acm",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          10
+        ]
+      ]
+    },
+    "keyword": "datascience",
+    "title": "Algorithm 1047: FdeSolver, a Julia package for solving fractional differential equations",
+    "title-short": "Algorithm 1047",
+    "type": "article-journal",
+    "volume": "50"
+  },
+  {
     "DOI": "10.1038/s41579-024-01107-0",
     "ISSN": "1740-1534",
     "author": [
@@ -683,37 +717,6 @@
     "title-short": "Effects of obesity and exercise on hepatic and pancreatic lipid content and glucose metabolism",
     "type": "article-journal",
     "volume": "14"
-  },
-  {
-    "DOI": "10.1145/3680280",
-    "ISSN": "0098-3500",
-    "author": [
-      {
-        "family": "Khalighi",
-        "given": "Moein"
-      },
-      {
-        "family": "Benedetti",
-        "given": "Giulio"
-      },
-      {
-        "family": "Lahti",
-        "given": "Leo"
-      }
-    ],
-    "container-title": "ACM Transactions on Mathematical Software",
-    "id": "Khalighi2024acm",
-    "issued": {
-      "date-parts": [
-        [
-          2024,
-          7
-        ]
-      ]
-    },
-    "keyword": "datascience",
-    "title": "FdeSolver, a Julia package for solving fractional differential equations",
-    "type": "article-journal"
   },
   {
     "DOI": "10.1080/19490976.2024.2383746",
