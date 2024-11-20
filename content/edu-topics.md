@@ -20,6 +20,7 @@ research/study positions.
 
 Contact us if you are interested. The admission varies by course but most courses are open to application.
 
+- [Microbiome Data Analysis Workshop 2025](https://www.uhasselt.be/MDAW25) (December 16-17, 2024, Hasselt University, Belgium)
 
 - [Microbiome data science & multi-omics with R/Bioconductor](https://microbiome.github.io/course_2024_oulu/) (December 18-20, 2024, University of Oulu training school)
 
