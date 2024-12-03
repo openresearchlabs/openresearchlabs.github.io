@@ -102,6 +102,12 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
 <br><br>
 -->
 
+## Project researchers
+
+{{< team data="project_researchers" >}}
+
+<br><br>
+
 ## Research assistants
 
 {{< team data="researchassistants" >}}
