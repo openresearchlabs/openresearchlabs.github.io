@@ -1,5 +1,42 @@
 [
   {
+    "DOI": "10.18129/B9.bioc.LimROTS",
+    "URL": "https://bioconductor.org/packages/LimROTS",
+    "annote": "R package version 0.99.12",
+    "author": [
+      {
+        "family": "Mostafa",
+        "given": "Ali"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Jeba",
+        "given": "Akewak"
+      },
+      {
+        "family": "Coffey",
+        "given": "Eleanor"
+      }
+    ],
+    "container-title": "Bioconductor open source software for Bioinformatics",
+    "id": "Mostafa2024",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          12
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "title": "LimROTS: A hybrid method integrating empirical bayes and reproducibility-optimized statistics for robust analysis of proteomics and metabolomics data.",
+    "title-short": "LimROTS",
+    "type": "article-journal"
+  },
+  {
     "DOI": "10.48550/arXiv.2412.02882",
     "author": [
       {
