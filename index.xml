@@ -227,6 +227,65 @@ to spark new applications and further development!&lt;/p>
 
 &lt;p>
  
+ &lt;b>LimROTS: A hybrid method integrating empirical bayes and reproducibility-optimized statistics for robust analysis of proteomics and metabolomics data.&lt;/b>
+ &lt;br>
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ Mostafa
+ A,
+ 
+ 
+ 
+ Lahti
+ L,
+ 
+ 
+ 
+ Jeba
+ A&amp;#32;&amp;amp;&amp;#32;
+ 
+ 
+ 
+ Coffey
+ E.
+ 
+ 
+ 
+
+&lt;br>Bioconductor open source software for Bioinformatics
+2024&lt;br>
+
+
+
+
+ &lt;a href="https://doi.org/10.18129/B9.bioc.LimROTS">10.18129/B9.bioc.LimROTS&lt;/a>
+
+|
+
+ 
+ &lt;a href="https://bioconductor.org/packages/LimROTS">URL&lt;/a>
+ 
+
+&lt;/p>
+ 
+ 
+
+
+
+&lt;p>
+ 
  &lt;b>iSEEtree: Interactive explorer for hierarchical data&lt;/b>
  &lt;br>
  
@@ -331,231 +390,6 @@ to spark new applications and further development!&lt;/p>
 
 
  &lt;a href="https://doi.org/10.1145/3680280">10.1145/3680280&lt;/a>
-
-
-
-&lt;/p>
- 
- 
-
-
-
-&lt;p>
- 
- &lt;b>Examining the healthy human microbiome concept&lt;/b>
- &lt;br>
- 
-
-
-
-
-
-
-
-
-
-
- 
- 
- 
- Joos
- R,
- 
- 
- 
- Boucher
- K,
- 
- 
- 
- Lavelle
- A,
- 
- 
- 
- Arumugam
- M,
- 
- 
- 
- Blaser
- M,
- 
- 
- 
- Claesson
- M,
- 
- 
- 
- Clarke
- G,
- 
- 
- 
- Cotter
- P,
- 
- 
- 
- Sordi
- L,
- 
- 
- 
- Dominguez-Bello
- M,
- 
- 
- 
- Dutilh
- B,
- 
- 
- 
- Ehrlich
- S,
- 
- 
- 
- Ghosh
- T,
- 
- 
- 
- Hill
- C,
- 
- 
- 
- Junot
- C,
- 
- 
- 
- Lahti
- L,
- 
- 
- 
- Lawley
- T,
- 
- 
- 
- Licht
- T,
- 
- 
- 
- Maguin
- E,
- 
- 
- 
- Makhalanyane
- T,
- 
- 
- 
- Marchesi
- J,
- 
- 
- 
- Matthijnssens
- J,
- 
- 
- 
- Raes
- J,
- 
- 
- 
- Ravel
- J,
- 
- 
- 
- Salonen
- A,
- 
- 
- 
- Scanlan
- P,
- 
- 
- 
- Shkoporov
- A,
- 
- 
- 
- Stanton
- C,
- 
- 
- 
- Thiele
- I,
- 
- 
- 
- Tolstoy
- I,
- 
- 
- 
- Walter
- J,
- 
- 
- 
- Yang
- B,
- 
- 
- 
- Yutin
- N,
- 
- 
- 
- Zhernakova
- A,
- 
- 
- 
- Zwart
- H,
- 
- 
- 
- 
- ,
- 
- 
- 
- Doré
- J&amp;#32;&amp;amp;&amp;#32;
- 
- 
- 
- Ross
- R.
- 
- 
- 
-
-&lt;br>Nature Reviews Microbiology
-2024&lt;br>
-
-
-
-
- &lt;a href="https://doi.org/10.1038/s41579-024-01107-0">10.1038/s41579-024-01107-0&lt;/a>
 
 
 
