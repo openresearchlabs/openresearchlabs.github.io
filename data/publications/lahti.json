@@ -1,5 +1,44 @@
 [
   {
+    "author": [
+      {
+        "family": "Eckermann",
+        "given": "Henrik"
+      },
+      {
+        "dropping-particle": "de",
+        "family": "Weerth",
+        "given": "Carolina"
+      },
+      {
+        "family": "Lustermans",
+        "given": "Hellen"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Pärnänen",
+        "given": "Katariina"
+      }
+    ],
+    "container-title": "Psychoneuroendocrinology",
+    "id": "Eckermann2024",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          12
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "status": "preprint",
+    "title": "Maternal pre- and postnatal stress and maternal and infant gut microbiota features.",
+    "type": "article-journal"
+  },
+  {
     "DOI": "10.18129/B9.bioc.LimROTS",
     "URL": "https://bioconductor.org/packages/LimROTS",
     "annote": "R package version 0.99.12",
