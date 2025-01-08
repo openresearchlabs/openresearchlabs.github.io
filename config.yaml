@@ -44,7 +44,7 @@ menu:
     - identifier: team
       name: Team
       url: /team/
-      weight: 7          
+      weight: 7
   topbar:
     - name: GitHub
       pre: <i class='fab fa-2x fa-github'></i>
@@ -70,7 +70,7 @@ params:
   #  subtitle: ''
   #  title: Our Clients
   contact_form_ajax: no
-  copyright: Copyright (c) 2020-2024, Leo Lahti; some rights reserved.
+  copyright: Copyright (c) 2020-2025, Leo Lahti; some rights reserved.
   date_format:  2006-01-02
   #date_format: 2020-12-15
   default_sharing_image: img/sharing-default.png
