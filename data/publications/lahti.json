@@ -1,40 +1,173 @@
 [
   {
+    "DOI": "10.1016/j.mbs.2024.109373",
+    "ISSN": "0025-5564",
+    "URL": "https://www.sciencedirect.com/science/article/pii/S0025556424002335",
     "author": [
       {
-        "family": "Eckermann",
-        "given": "Henrik"
-      },
-      {
-        "dropping-particle": "de",
-        "family": "Weerth",
-        "given": "Carolina"
-      },
-      {
-        "family": "Lustermans",
-        "given": "Hellen"
+        "family": "Khalighi",
+        "given": "Moein"
       },
       {
         "family": "Lahti",
         "given": "Leo"
       },
       {
-        "family": "Pärnänen",
-        "given": "Katariina"
+        "family": "Ndaïrou",
+        "given": "Faïçal"
+      },
+      {
+        "family": "Rashkov",
+        "given": "Peter"
+      },
+      {
+        "family": "Torres",
+        "given": "Delfim F. M."
       }
     ],
-    "container-title": "Psychoneuroendocrinology",
-    "id": "Eckermann2024",
+    "container-title": "Mathematical Biosciences",
+    "id": "Khalighi2025",
     "issued": {
       "date-parts": [
         [
-          2024,
-          12
+          2025,
+          1
+        ]
+      ]
+    },
+    "keyword": "datascience",
+    "page": "109373",
+    "status": "preprint",
+    "title": "Fractional modelling of COVID-19 transmission incorporating asymptomatic and super-spreader individuals",
+    "type": "article-journal"
+  },
+  {
+    "author": [
+      {
+        "family": "Jeyaram",
+        "given": "Kumaraswamy"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Tims",
+        "given": "Sebastian"
+      },
+      {
+        "family": "Heilig",
+        "given": "Hans"
+      },
+      {
+        "dropping-particle": "van",
+        "family": "Gelder",
+        "given": "Antonie"
+      },
+      {
+        "dropping-particle": "de",
+        "family": "Vos",
+        "given": "Willem"
+      },
+      {
+        "family": "Smidt",
+        "given": "Hauke"
+      },
+      {
+        "dropping-particle": "and",
+        "family": "Erwin Zoetendal"
+      }
+    ],
+    "container-title": "Nature Communications",
+    "id": "Jeyaram2025",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          1
         ]
       ]
     },
     "keyword": "bioscience",
-    "status": "preprint",
+    "note": "In press.",
+    "title": "Fermented foods affect the seasonal stability of gut bacteria in an indian rural population",
+    "type": "article-journal"
+  },
+  {
+    "author": [
+      {
+        "family": "Potbhare",
+        "given": "Renuka"
+      },
+      {
+        "family": "Ravikumar",
+        "given": "Ameeta"
+      },
+      {
+        "family": "Munukka",
+        "given": "Eveliina"
+      },
+      {
+        "family": "Ashma",
+        "given": "Richa"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "PeerJLife",
+    "id": "Potbhare2025",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          1
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "title": "Skin microbiota variation in indian families",
+    "type": "article-journal"
+  },
+  {
+    "DOI": "10.1016/j.psyneuen.2024.107273",
+    "ISSN": "0306-4530",
+    "URL": "https://www.sciencedirect.com/science/article/pii/S0306453024003184",
+    "author": [
+      {
+        "family": "Eckermann",
+        "given": "Henrik"
+      },
+      {
+        "family": "Lustermans",
+        "given": "Hellen"
+      },
+      {
+        "family": "Parnanen",
+        "given": "Katariina"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Weerth",
+        "given": "Carolina",
+        "non-dropping-particle": "de"
+      }
+    ],
+    "container-title": "Psychoneuroendocrinology",
+    "id": "Eckermann2025",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "107273",
     "title": "Maternal pre- and postnatal stress and maternal and infant gut microbiota features.",
     "type": "article-journal"
   },
