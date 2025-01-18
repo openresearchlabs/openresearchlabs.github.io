@@ -42,6 +42,8 @@
     "volume": "380"
   },
   {
+    "DOI": "10.1038/s41467-025-56014-6",
+    "ISSN": "2041-1723",
     "author": [
       {
         "family": "Jeyaram",
@@ -80,6 +82,7 @@
     ],
     "container-title": "Nature Communications",
     "id": "Jeyaram2025",
+    "issue": "771",
     "issued": {
       "date-parts": [
         [
@@ -89,9 +92,9 @@
       ]
     },
     "keyword": "bioscience",
-    "note": "In press.",
     "title": "Fermented foods affect the seasonal stability of gut bacteria in an indian rural population",
-    "type": "article-journal"
+    "type": "article-journal",
+    "volume": "16"
   },
   {
     "author": [
