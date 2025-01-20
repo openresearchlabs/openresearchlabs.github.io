@@ -3909,37 +3909,6 @@
     "volume": "39"
   },
   {
-    "DOI": "10.48550/ARXIV.2212.12550",
-    "URL": "https://arxiv.org/abs/2212.12550",
-    "author": [
-      {
-        "family": "Khalighi",
-        "given": "Moein"
-      },
-      {
-        "family": "Benedetti",
-        "given": "Giulio"
-      },
-      {
-        "family": "Lahti",
-        "given": "Leo"
-      }
-    ],
-    "container-title": "arXiv",
-    "id": "Khalighi2023",
-    "issued": {
-      "date-parts": [
-        [
-          2022
-        ]
-      ]
-    },
-    "keyword": "datascience",
-    "publisher": "arXiv",
-    "title": "FdeSolver: A Julia Package for Solving Fractional Differential Equations",
-    "type": "article-journal"
-  },
-  {
     "DOI": "10.1161/CIRCGEN.121.003583",
     "author": [
       {
