@@ -119,6 +119,10 @@ Contact us if you are interested. The admission varies by course but most course
 
 # Educational resources
 
+### Introduction to Probabilistic Programming in R
+
+- [Introduction to Probabilistic Programming in R](https://carpentries-incubator.github.io/statistical-probabilistic-programming-r/index.html) 
+
 ### Microbiome data science and multi-omic data integration
 
 **Microbiome data science tutorials**
