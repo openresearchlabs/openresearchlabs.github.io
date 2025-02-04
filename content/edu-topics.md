@@ -16,13 +16,9 @@ research/study positions.
 
 
 
-### Courses and events in 2024
+### Courses and events in 2025
 
 Contact us if you are interested. The admission varies by course but most courses are open to application.
-
-- [Microbiome Data Analysis Workshop 2025](https://www.uhasselt.be/MDAW25) (December 16-17, 2024, Hasselt University, Belgium)
-
-- [Microbiome data science & multi-omics with R/Bioconductor](https://microbiome.github.io/course_2024_oulu/) (December 18-20, 2024, University of Oulu training school)
 
 
 ### Past courses and events
@@ -48,6 +44,11 @@ Contact us if you are interested. The admission varies by course but most course
 
 
 **Microbiome data science**
+
+
+- [Microbiome Data Analysis Workshop 2025](https://www.uhasselt.be/MDAW25) (December 16-17, 2024, Hasselt University, Belgium)
+
+- [Microbiome data science & multi-omics with R/Bioconductor](https://microbiome.github.io/course_2024_oulu/) (December 18-20, 2024, University of Oulu training school)
 
 - [Nordic Summer School on Computational Microbiome Research](https://sites.utu.fi/microbiomesummerschool/); (August 13-15, 2024, Turku, Finland)
 
@@ -119,7 +120,7 @@ Contact us if you are interested. The admission varies by course but most course
 
 # Educational resources
 
-### Introduction to Probabilistic Programming in R
+### **Computational science and machine learning**
 
 - [Introduction to Probabilistic Programming in R](https://carpentries-incubator.github.io/statistical-probabilistic-programming-r/index.html) 
 
