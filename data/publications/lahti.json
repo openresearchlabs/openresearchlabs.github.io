@@ -1,5 +1,41 @@
 [
   {
+    "DOI": "10.1101/2025.02.06.636801",
+    "author": [
+      {
+        "family": "Mostafa",
+        "given": "Ali"
+      },
+      {
+        "family": "Jeba",
+        "given": "Akewak"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Coffey",
+        "given": "Eleanor"
+      }
+    ],
+    "container-title": "bioRXiv",
+    "id": "Mostafa2025",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2
+        ]
+      ]
+    },
+    "keyword": "datascience",
+    "status": "preprint",
+    "title": "LimROTS: A hybrid method integrating empirical bayes and reproducibility-optimized statistics for robust analysis of proteomics data",
+    "title-short": "LimROTS",
+    "type": "article-journal"
+  },
+  {
     "DOI": "10.1016/j.mbs.2024.109373",
     "ISSN": "0025-5564",
     "URL": "https://www.sciencedirect.com/science/article/pii/S0025556424002335",
