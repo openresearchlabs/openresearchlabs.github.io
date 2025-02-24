@@ -211,43 +211,6 @@
     "type": "article-journal"
   },
   {
-    "DOI": "10.18129/B9.bioc.LimROTS",
-    "URL": "https://bioconductor.org/packages/LimROTS",
-    "annote": "R package version 0.99.12",
-    "author": [
-      {
-        "family": "Mostafa",
-        "given": "Ali"
-      },
-      {
-        "family": "Lahti",
-        "given": "Leo"
-      },
-      {
-        "family": "Jeba",
-        "given": "Akewak"
-      },
-      {
-        "family": "Coffey",
-        "given": "Eleanor"
-      }
-    ],
-    "container-title": "Bioconductor open source software for Bioinformatics",
-    "id": "Mostafa2024",
-    "issued": {
-      "date-parts": [
-        [
-          2024,
-          12
-        ]
-      ]
-    },
-    "keyword": "bioscience",
-    "title": "LimROTS: A hybrid method integrating empirical bayes and reproducibility-optimized statistics for robust analysis of proteomics and metabolomics data.",
-    "title-short": "LimROTS",
-    "type": "article-journal"
-  },
-  {
     "DOI": "10.48550/arXiv.2412.02882",
     "author": [
       {
@@ -981,7 +944,6 @@
   },
   {
     "DOI": "10.48550/arXiv.2305.16689",
-    "URL": "https://arxiv.org/html/2305.16689v2",
     "author": [
       {
         "family": "Khalighi",
@@ -1079,7 +1041,7 @@
     "volume": "4"
   },
   {
-    "DOI": "https://doi.org/10.1016/S2666-5247(24)00079-X",
+    "DOI": "10.1016/S2666-5247(24)00079-X",
     "ISSN": "2666-5247",
     "author": [
       {
@@ -1714,7 +1676,6 @@
   },
   {
     "DOI": "10.48550/arXiv.2404.02691",
-    "URL": "https://arxiv.org/abs/2404.02691",
     "author": [
       {
         "family": "Pelto",
@@ -2933,7 +2894,6 @@
   },
   {
     "DOI": "10.1101/2023.10.12.23296829",
-    "URL": "https://www.medrxiv.org/content/10.1101/2023.10.12.23296829v1",
     "author": [
       {
         "family": "Erawijantari",
@@ -3887,7 +3847,6 @@
   },
   {
     "DOI": "10.1093/bioinformatics/btad021",
-    "URL": "https://doi.org/10.1093/bioinformatics/btad021",
     "author": [
       {
         "family": "Feldner-Busztin",
