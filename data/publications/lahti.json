@@ -133,6 +133,7 @@
     "volume": "16"
   },
   {
+    "DOI": "10.7717/peerj.18881",
     "author": [
       {
         "family": "Potbhare",
@@ -157,17 +158,19 @@
     ],
     "container-title": "PeerJLife",
     "id": "Potbhare2025",
+    "issue": "e18881",
     "issued": {
       "date-parts": [
         [
           2025,
-          1
+          2
         ]
       ]
     },
     "keyword": "bioscience",
     "title": "Skin microbiota variation in Indian families",
-    "type": "article-journal"
+    "type": "article-journal",
+    "volume": "13"
   },
   {
     "DOI": "10.1016/j.psyneuen.2024.107273",
