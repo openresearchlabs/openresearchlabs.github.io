@@ -38,4 +38,12 @@
   links_twitter: ""
   links_orcid: "https://orcid.org/0009-0009-9640-5187"
   links_homepage: ""
+- name: "Ali Hajj"
+  affiliation: ""
+  affiliation_url: ""
+  keywords: "Bioinformatics, Data science, Human microbiome"
+  avatar: "../img/teampic/Alihajj.jpg"
+  links_twitter: ""
+  links_orcid: "https://orcid.org/0009-0006-6962-5916"
+  links_homepage: ""
 
