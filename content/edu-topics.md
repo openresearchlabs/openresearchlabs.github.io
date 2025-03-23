@@ -20,7 +20,8 @@ research/study positions.
 
 Contact us if you are interested. The admission varies by course but most courses are open to application.
 
-
+ - [Brain, bacteria, and behaviour summer courseUnderstanding the gut brain axis](https://www.radboudumc.nl/en/agenda/2025/july/07jul25-brain-bacteria-and-behaviour-summer-course?trk=feed_main-feed-card_feed-article-content) (2 ECTS; July, 7-11  2025, Radboud University Medical Center, Nijmegen, the Netherlands; Full week summer school)
+ 
 ### Past courses and events
 
 **Open science**
