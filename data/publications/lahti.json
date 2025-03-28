@@ -1,5 +1,104 @@
 [
   {
+    "author": [
+      {
+        "family": "Koponen",
+        "given": "Kari"
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      },
+      {
+        "family": "Jousilahti",
+        "given": "Pekka"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki"
+      },
+      {
+        "family": "McDonald",
+        "given": "Daniel"
+      },
+      {
+        "family": "Meric",
+        "given": "Guillaume"
+      },
+      {
+        "family": "Inouye",
+        "given": "Michael"
+      },
+      {
+        "family": "Männistö",
+        "given": "Satu"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "European Journal of Nutrition",
+    "id": "Koponen2025",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          3
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "In press.",
+    "title": "Associations of alcohol, coffee and sugar-sweetened beverages with the human gut microbiome and prospective health outcomes in the FINRISK 2002 cohort",
+    "type": "article-journal"
+  },
+  {
+    "DOI": "10.1093/bib/bbaf130",
+    "ISSN": "1477-4054",
+    "author": [
+      {
+        "family": "Pelto",
+        "given": "Juho"
+      },
+      {
+        "family": "Auranen",
+        "given": "Kari"
+      },
+      {
+        "family": "Kujala",
+        "given": "Janne"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "Briefings in Bioinformatics",
+    "id": "Pelto2025",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          3
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "109373",
+    "title": "Elementary methods provide more replicable results in microbial differential abundance analysis",
+    "type": "article-journal",
+    "volume": "26"
+  },
+  {
     "DOI": "10.1101/2025.02.06.636801",
     "author": [
       {
@@ -29,7 +128,7 @@
         ]
       ]
     },
-    "keyword": "datascience",
+    "keyword": "bioscience",
     "status": "preprint",
     "title": "LimROTS: A hybrid method integrating empirical bayes and reproducibility-optimized statistics for robust analysis of proteomics data",
     "title-short": "LimROTS",
