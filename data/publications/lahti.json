@@ -2,6 +2,116 @@
   {
     "author": [
       {
+        "family": "Metris",
+        "given": "Aline"
+      },
+      {
+        "family": "Walker",
+        "given": "Alan"
+      },
+      {
+        "family": "Showering",
+        "given": "Alicia"
+      },
+      {
+        "family": "Doolan",
+        "given": "Andrea"
+      },
+      {
+        "family": "McBain",
+        "given": "Andrew"
+      },
+      {
+        "family": "Ampatzoglou",
+        "given": "Antonis"
+      },
+      {
+        "family": "Murphy",
+        "given": "Barry"
+      },
+      {
+        "family": "O’Neill",
+        "given": "Catherine"
+      },
+      {
+        "family": "Shortt",
+        "given": "Colette"
+      },
+      {
+        "family": "Darby",
+        "given": "Elizabeth"
+      },
+      {
+        "family": "Aldis",
+        "given": "Gary"
+      },
+      {
+        "family": "Hillebrand",
+        "given": "Greg"
+      },
+      {
+        "family": "Brown",
+        "given": "Helen"
+      },
+      {
+        "family": "Browne",
+        "given": "Hilary"
+      },
+      {
+        "family": "Tiesman",
+        "given": "Jay"
+      },
+      {
+        "family": "Leng",
+        "given": "Joy"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Jakubovics",
+        "given": "Nick"
+      },
+      {
+        "family": "Hasselwander",
+        "given": "Oliver"
+      },
+      {
+        "family": "Finn",
+        "given": "Rob"
+      },
+      {
+        "family": "Klamert",
+        "given": "Silvia"
+      },
+      {
+        "family": "Korcsmaros",
+        "given": "Tamas"
+      },
+      {
+        "family": "Hall",
+        "given": "Lindsay J"
+      }
+    ],
+    "container-title": "Microbial Genomics",
+    "id": "Metris2025",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          4
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "In press.",
+    "title": "Assessing the safety of microbiome perturbations",
+    "type": "article-journal"
+  },
+  {
+    "author": [
+      {
         "family": "Koponen",
         "given": "Kari"
       },
