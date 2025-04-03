@@ -2,6 +2,182 @@
   {
     "author": [
       {
+        "family": "Kaisanlahti",
+        "given": "Anna"
+      },
+      {
+        "family": "Turunen",
+        "given": "Jenni"
+      },
+      {
+        "family": "Hekkala",
+        "given": "Jenni"
+      },
+      {
+        "family": "Mishra",
+        "given": "Surbhi"
+      },
+      {
+        "family": "Karikka",
+        "given": "Sonja"
+      },
+      {
+        "family": "Amatya",
+        "given": "Sajeen"
+      },
+      {
+        "family": "Paalanne",
+        "given": "Niko"
+      },
+      {
+        "family": "Krüger",
+        "given": "Johanna"
+      },
+      {
+        "family": "Portaankorva",
+        "given": "Anne"
+      },
+      {
+        "family": "Koivunen",
+        "given": "Jussi"
+      },
+      {
+        "family": "Jukkola",
+        "given": "Arja"
+      },
+      {
+        "family": "Vihinen",
+        "given": "Pia"
+      },
+      {
+        "family": "Auvinen",
+        "given": "Päivi"
+      },
+      {
+        "family": "Leppä",
+        "given": "Sirpa"
+      },
+      {
+        "family": "Karihtala",
+        "given": "Peeter"
+      },
+      {
+        "family": "Koivukangas",
+        "given": "Vesa"
+      },
+      {
+        "family": "Hukkanen",
+        "given": "Janne"
+      },
+      {
+        "family": "Vainio",
+        "given": "Seppo"
+      },
+      {
+        "family": "Samoylenko",
+        "given": "Anatoliy"
+      },
+      {
+        "family": "Bart",
+        "given": "Genevieve"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Reunanen",
+        "given": "Justus"
+      },
+      {
+        "family": "Tejesvi",
+        "given": "Mysore"
+      },
+      {
+        "family": "Ruuska-Loewald",
+        "given": "Terhi"
+      }
+    ],
+    "container-title": "American Society for Microbiology",
+    "id": "Kaisanlahti2025",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          4
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "In press.",
+    "title": "Gut microbiota-derived extracellular vesicles form a distinct entity from gut microbiota",
+    "type": "article-journal"
+  },
+  {
+    "author": [
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      },
+      {
+        "family": "Hellman",
+        "given": "Tapio"
+      },
+      {
+        "family": "Palmu",
+        "given": "Joonatan"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki"
+      },
+      {
+        "family": "Pekka",
+        "given": "Jousilahti"
+      },
+      {
+        "family": "Laitinen",
+        "given": "Ville"
+      },
+      {
+        "family": "Pärnänen",
+        "given": "Katariina"
+      },
+      {
+        "family": "Veikko",
+        "given": "Salomaa"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      },
+      {
+        "family": "Yeo",
+        "given": "Li-Fang"
+      }
+    ],
+    "container-title": "American Society of Nephrology",
+    "id": "Niiranen2025",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          4
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "In press.",
+    "title": "Microbiome and prevalent/incident kidney disease",
+    "type": "article-journal"
+  },
+  {
+    "author": [
+      {
         "family": "Metris",
         "given": "Aline"
       },
