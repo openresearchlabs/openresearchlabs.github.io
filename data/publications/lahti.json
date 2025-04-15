@@ -286,34 +286,19 @@
     "type": "article-journal"
   },
   {
+    "DOI": "10.1007/s00394-025-03668-z",
     "author": [
       {
         "family": "Koponen",
         "given": "Kari"
       },
       {
-        "family": "Knight",
-        "given": "Rob"
+        "family": "McDonald",
+        "given": "Daniel"
       },
       {
         "family": "Jousilahti",
         "given": "Pekka"
-      },
-      {
-        "family": "Salomaa",
-        "given": "Veikko"
-      },
-      {
-        "family": "Niiranen",
-        "given": "Teemu"
-      },
-      {
-        "family": "Havulinna",
-        "given": "Aki"
-      },
-      {
-        "family": "McDonald",
-        "given": "Daniel"
       },
       {
         "family": "Meric",
@@ -324,28 +309,45 @@
         "given": "Michael"
       },
       {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      },
+      {
         "family": "Männistö",
         "given": "Satu"
       },
       {
-        "family": "Lahti",
-        "given": "Leo"
+        "family": "Havulinna",
+        "given": "Aki"
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
       }
     ],
     "container-title": "European Journal of Nutrition",
     "id": "Koponen2025",
+    "issue": "153",
     "issued": {
       "date-parts": [
         [
           2025,
-          3
+          4
         ]
       ]
     },
     "keyword": "bioscience",
-    "note": "In press.",
-    "title": "Associations of alcohol, coffee and sugar-sweetened beverages with the human gut microbiome and prospective health outcomes in the FINRISK 2002 cohort",
-    "type": "article-journal"
+    "title": "Associations of alcohol with the human gut microbiome and prospective health outcomes in the FINRISK 2002 cohort",
+    "type": "article-journal",
+    "volume": "64"
   },
   {
     "DOI": "10.1093/bib/bbaf130",
