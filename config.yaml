@@ -4,7 +4,7 @@ theme: hugo-universal-theme
 languageCode: en-us
 defaultContentLanguage: en
 disqusShortname: devcows
-ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$", "old/allnews\\.md", "old/publishing_code\\.md", "404\\.md"]
 googleAnalytics: 'G-3HREPRC83G'
 pagination:
   pagerSize: 10
