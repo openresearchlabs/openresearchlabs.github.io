@@ -2,6 +2,44 @@
   {
     "author": [
       {
+        "family": "Lotankar",
+        "given": "Mrunalini"
+      },
+      {
+        "family": "Houttu",
+        "given": "Noora"
+      },
+      {
+        "family": "Benchraka",
+        "given": "Chouaib"
+      },
+      {
+        "family": "Laitinen",
+        "given": "Kirsi"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "Nutrition, Metabolism and Cardiovascular Diseases",
+    "id": "Lotankar2025",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          4
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "In press.",
+    "title": "Links between gut microbiota with specific serum metabolite groups in pregnant women with overweight or obesity",
+    "type": "article-journal"
+  },
+  {
+    "author": [
+      {
         "family": "Kaisanlahti",
         "given": "Anna"
       },
