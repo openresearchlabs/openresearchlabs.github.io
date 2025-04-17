@@ -1,30 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Edu_resources on Turku Data Science Group</title><link>http://datascience.utu.fi/edu_resources/</link><description>Recent content in Edu_resources on Turku Data Science Group</description><generator>Hugo</generator><language>en-us</language><atom:link href="http://datascience.utu.fi/edu_resources/index.xml" rel="self" type="application/rss+xml"/><item><title>Microbial bioinformatics and statistical ecology</title><link>http://datascience.utu.fi/edu_resources/microbiome/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/edu_resources/microbiome/</guid><description>&lt;h1 id="course-2">Course 2&lt;/h1>
-&lt;p>Lorem&lt;/p></description></item><item><title>Probabilistic programming</title><link>http://datascience.utu.fi/edu_resources/probprog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/edu_resources/probprog/</guid><description>&lt;h1 id="introduction-probabilistic-programming">Introduction probabilistic programming&lt;/h1></description></item><item><title>TKO_3121: Topics</title><link>http://datascience.utu.fi/edu_resources/seminar_topics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/edu_resources/seminar_topics/</guid><description>&lt;h1 id="machine-learning-and-algorithmics-seminar-2020">Machine Learning and Algorithmics Seminar 2020&lt;/h1>
-&lt;ul>
-&lt;li>&lt;a href="https://opas.peppi.utu.fi/fi/opintojakso/TKO_3121/3255">Course page (Peppi)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://moodle.utu.fi/course/view.php?id=17982">Moodle for Machine Learning and Algorithmics Seminar 2020&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="proposed-seminar-topics">Proposed seminar topics&lt;/h2>
-&lt;h3 id="session-1-introduction">Session 1: Introduction&lt;/h3>
-&lt;ul>
-&lt;li>Participants&lt;/li>
-&lt;li>Overview and practicalities&lt;/li>
-&lt;li>Assigning the topics&lt;/li>
-&lt;/ul>
-&lt;h3 id="session-2-overview">Session 2: Overview&lt;/h3>
-&lt;ul>
-&lt;li>Introduction lecture: contemporary themes in machine learning&lt;/li>
-&lt;li>Discussion&lt;/li>
-&lt;li>Finalizing the schedule&lt;/li>
-&lt;/ul>
-&lt;h3 id="session-3-position-papers">Session 3: Position papers&lt;/h3>
-&lt;p>Replication, Communication, and the Population Dynamics of Scientific Discovery.
-McElreath, R., &amp;amp; Smaldino, P. E. (2015).&lt;/p>
-&lt;p>Machine behaviour.
-Rahwan, I., Cebrian, M., Obradovich, N., Bongard, J., Bonnefon, J., &amp;amp; Breazeal, C., et al. (2019).&lt;/p></description></item><item><title>TKO_3121: Topics</title><link>http://datascience.utu.fi/edu_resources/tko3121/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/edu_resources/tko3121/</guid><description>&lt;h1 id="machine-learning-and-algorithmics-seminar-2020">Machine Learning and Algorithmics Seminar 2020&lt;/h1>
-&lt;p>Replication, Communication, and the Population Dynamics of Scientific Discovery.
-McElreath, R., &amp;amp; Smaldino, P. E. (2015).&lt;/p>
-&lt;p>Sparsity information and regularization in the horseshoe and other shrinkage priors. In Electronic Journal of Statistics, 11(2):5018-5051. Juho Piironen and Aki Vehtari (2017). arXiv:1707.01694. After the article was published, the regularized horseshoe prior has been implemented in rstanarm and brms (without conditioning on sigma).&lt;/p>
-&lt;p>Probabilistic principal component analysis.
-Journal of the Royal Statistical Society: Series B (Statistical Methodology), 61(3), 611–622.
-Tipping, M. E., &amp;amp; Bishop, C. M. (1999).&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Edu_resources on Turku Data Science Group</title>
+    <link>http://datascience.utu.fi/edu_resources/</link>
+    <description>Recent content in Edu_resources on Turku Data Science Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://datascience.utu.fi/edu_resources/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Microbial bioinformatics and statistical ecology</title>
+      <link>http://datascience.utu.fi/edu_resources/microbiome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/edu_resources/microbiome/</guid>
+      <description>Course 2 Lorem</description>
+    </item>
+    
+    <item>
+      <title>Probabilistic programming</title>
+      <link>http://datascience.utu.fi/edu_resources/probprog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/edu_resources/probprog/</guid>
+      <description>Introduction probabilistic programming </description>
+    </item>
+    
+    <item>
+      <title>TKO_3121: Topics</title>
+      <link>http://datascience.utu.fi/edu_resources/seminar_topics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/edu_resources/seminar_topics/</guid>
+      <description>Machine Learning and Algorithmics Seminar 2020  Course page (Peppi) Moodle for Machine Learning and Algorithmics Seminar 2020  Proposed seminar topics Session 1: Introduction  Participants Overview and practicalities Assigning the topics  Session 2: Overview  Introduction lecture: contemporary themes in machine learning Discussion Finalizing the schedule  Session 3: Position papers Replication, Communication, and the Population Dynamics of Scientific Discovery. McElreath, R., &amp;amp; Smaldino, P. E. (2015).</description>
+    </item>
+    
+    <item>
+      <title>TKO_3121: Topics</title>
+      <link>http://datascience.utu.fi/edu_resources/tko3121/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://datascience.utu.fi/edu_resources/tko3121/</guid>
+      <description>Machine Learning and Algorithmics Seminar 2020 Replication, Communication, and the Population Dynamics of Scientific Discovery. McElreath, R., &amp;amp; Smaldino, P. E. (2015).
+Sparsity information and regularization in the horseshoe and other shrinkage priors. In Electronic Journal of Statistics, 11(2):5018-5051. Juho Piironen and Aki Vehtari (2017). arXiv:1707.01694. After the article was published, the regularized horseshoe prior has been implemented in rstanarm and brms (without conditioning on sigma).
+Probabilistic principal component analysis. Journal of the Royal Statistical Society: Series B (Statistical Methodology), 61(3), 611–622.</description>
+    </item>
+    
+  </channel>
+</rss>
