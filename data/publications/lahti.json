@@ -1,5 +1,90 @@
 [
   {
+    "DOI": "10.1371/journal.pcbi.1012925",
+    "author": [
+      {
+        "family": "Drnevich",
+        "given": "Jenny"
+      },
+      {
+        "family": "Tan",
+        "given": "Frederick J."
+      },
+      {
+        "family": "Almeida-Silva",
+        "given": "Fabricio"
+      },
+      {
+        "family": "Castelo",
+        "given": "Robert"
+      },
+      {
+        "family": "Culhane",
+        "given": "Aedin C."
+      },
+      {
+        "family": "Davis",
+        "given": "Sean"
+      },
+      {
+        "family": "Doyle",
+        "given": "Maria A."
+      },
+      {
+        "family": "Holmes",
+        "given": "Susan"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Mahmoud",
+        "given": "Alexandru"
+      },
+      {
+        "family": "Nishida",
+        "given": "Kozo"
+      },
+      {
+        "family": "Ramos",
+        "given": "Marcel"
+      },
+      {
+        "family": "Rue-Albrecht",
+        "given": "Kevin"
+      },
+      {
+        "family": "Shih",
+        "given": "David J. H."
+      },
+      {
+        "family": "Gatto",
+        "given": "Laurent"
+      },
+      {
+        "family": "Soneson",
+        "given": "Charlotte"
+      }
+    ],
+    "container-title": "PLOS Computational Biology",
+    "id": "Drnevich2025",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          4
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "1-13",
+    "title": "Learning and teaching biological data science in the bioconductor community",
+    "type": "article-journal",
+    "volume": "21"
+  },
+  {
     "author": [
       {
         "family": "Lotankar",
@@ -969,89 +1054,6 @@
     "title": "Regular exercise training induces more changes on intestinal glucose uptake from blood and microbiota composition in leaner compared to heavier individuals in monozygotic twins discordant for BMI",
     "type": "article-journal",
     "volume": "16"
-  },
-  {
-    "DOI": "10.48550/arXiv.2410.01351",
-    "author": [
-      {
-        "family": "Drnevich",
-        "given": "Jenny"
-      },
-      {
-        "family": "Tan",
-        "given": "Frederick J."
-      },
-      {
-        "family": "Almeida-Silva",
-        "given": "Fabricio"
-      },
-      {
-        "family": "Castelo",
-        "given": "Robert"
-      },
-      {
-        "family": "Culhane",
-        "given": "Aedin C."
-      },
-      {
-        "family": "Davis",
-        "given": "Sean"
-      },
-      {
-        "family": "Doyle",
-        "given": "Maria A."
-      },
-      {
-        "family": "Holmes",
-        "given": "Susan"
-      },
-      {
-        "family": "Lahti",
-        "given": "Leo"
-      },
-      {
-        "family": "Mahmoud",
-        "given": "Alexandru"
-      },
-      {
-        "family": "Nishida",
-        "given": "Kozo"
-      },
-      {
-        "family": "Ramos",
-        "given": "Marcel"
-      },
-      {
-        "family": "Rue-Albrecht",
-        "given": "Kevin"
-      },
-      {
-        "family": "Shih",
-        "given": "David J. H."
-      },
-      {
-        "family": "Gatto",
-        "given": "Laurent"
-      },
-      {
-        "family": "Soneson",
-        "given": "Charlotte"
-      }
-    ],
-    "container-title": "arXiv",
-    "id": "Drnevich2024",
-    "issued": {
-      "date-parts": [
-        [
-          2024,
-          10
-        ]
-      ]
-    },
-    "keyword": "bioscience",
-    "status": "preprint",
-    "title": "Learning and teaching biological data science in the bioconductor community",
-    "type": "article-journal"
   },
   {
     "author": [
