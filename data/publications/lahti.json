@@ -2107,40 +2107,6 @@
     "volume": "19"
   },
   {
-    "DOI": "10.48550/arXiv.2404.02691",
-    "author": [
-      {
-        "family": "Pelto",
-        "given": "Juho"
-      },
-      {
-        "family": "Auranen",
-        "given": "Kari"
-      },
-      {
-        "family": "Kujala",
-        "given": "Janne"
-      },
-      {
-        "family": "Lahti",
-        "given": "Leo"
-      }
-    ],
-    "container-title": "arXiv",
-    "id": "Pelto2024",
-    "issued": {
-      "date-parts": [
-        [
-          2024,
-          4
-        ]
-      ]
-    },
-    "keyword": "bioscience",
-    "title": "Elementary methods provide more replicable results in microbial differential abundance analysis",
-    "type": "article-journal"
-  },
-  {
     "DOI": "10.5281/zenodo.10663903",
     "author": [
       {
@@ -5684,7 +5650,6 @@
       ]
     },
     "keyword": "bioscience",
-    "note": "In press.",
     "page": "551-560",
     "title": "Gut microbiota diversity but not composition is related to saliva cortisol stress response at the age of 2.5 months",
     "type": "article-journal",
