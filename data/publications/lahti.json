@@ -1,5 +1,44 @@
 [
   {
+    "author": [
+      {
+        "family": "Salehi",
+        "given": "Mahkameh"
+      },
+      {
+        "family": "Laitinen",
+        "given": "Ville"
+      },
+      {
+        "family": "Shivang Bhanushali",
+        "given": "Johan Bengtsson-Palme"
+      },
+      {
+        "family": "Collignon P",
+        "given": "Katariina Pärnänen",
+        "suffix": "John J Beggs"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "npj Biofilms and Microbiomes",
+    "id": "Drnevich2025",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          5
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "In press.",
+    "title": "Gender differences in global antimicrobial resistance",
+    "type": "article-journal"
+  },
+  {
     "DOI": "10.1371/journal.pcbi.1012925",
     "author": [
       {
