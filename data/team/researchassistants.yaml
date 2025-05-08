@@ -54,5 +54,12 @@
   links_twitter: ""
   links_orcid: "https://orcid.org/0009-0005-5486-9419"
   links_homepage: ""
-
+- name: "Maija Hakula"
+  affiliation: ""
+  affiliation_url: ""
+  keywords: "Data Analytics, Data Science"
+  avatar: "../img/teampic/MaijaHakula.jpg"
+  links_twitter: ""
+  links_orcid: "https://orcid.org/0009-0003-0240-0315"
+  links_homepage: ""
 
