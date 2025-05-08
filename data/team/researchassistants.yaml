@@ -46,4 +46,13 @@
   links_twitter: ""
   links_orcid: "https://orcid.org/0009-0006-6962-5916"
   links_homepage: ""
+- name: "Eetu Tammi"
+  affiliation: ""
+  affiliation_url: ""
+  keywords: "Data Analytics, Data Science"
+  avatar: "../img/teampic/EetuTammi.jpg"
+  links_twitter: ""
+  links_orcid: "https://orcid.org/0009-0005-5486-9419"
+  links_homepage: ""
+
 
