@@ -1,5 +1,50 @@
 [
   {
+    "DOI": "10.1093/bioadv/vbaf107",
+    "ISSN": "2635-0041",
+    "author": [
+      {
+        "family": "Benedetti",
+        "given": "Giulio"
+      },
+      {
+        "family": "Seraidarian",
+        "given": "Ely"
+      },
+      {
+        "family": "Pralas",
+        "given": "Theotime"
+      },
+      {
+        "family": "Jeba",
+        "given": "Akewak"
+      },
+      {
+        "family": "Borman",
+        "given": "Tuomas"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "Bioinformatics Advances",
+    "id": "Benedetti2024",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          5
+        ]
+      ]
+    },
+    "keyword": "datascience",
+    "page": "vbaf107",
+    "title": "iSEEtree: Interactive explorer for hierarchical data",
+    "title-short": "iSEEtree",
+    "type": "article-journal"
+  },
+  {
     "author": [
       {
         "family": "Salehi",
@@ -118,7 +163,7 @@
       ]
     },
     "keyword": "bioscience",
-    "page": "1-13",
+    "page": "e1012925",
     "title": "Learning and teaching biological data science in the bioconductor community",
     "type": "article-journal",
     "volume": "21"
@@ -451,6 +496,7 @@
   },
   {
     "DOI": "10.1007/s00394-025-03668-z",
+    "ISSN": "1436-6215",
     "author": [
       {
         "family": "Koponen",
@@ -499,7 +545,7 @@
     ],
     "container-title": "European Journal of Nutrition",
     "id": "Koponen2025",
-    "issue": "153",
+    "issue": "4",
     "issued": {
       "date-parts": [
         [
@@ -509,6 +555,7 @@
       ]
     },
     "keyword": "bioscience",
+    "page": "153",
     "title": "Associations of alcohol with the human gut microbiome and prospective health outcomes in the FINRISK 2002 cohort",
     "type": "article-journal",
     "volume": "64"
@@ -536,6 +583,7 @@
     ],
     "container-title": "Briefings in Bioinformatics",
     "id": "Pelto2025",
+    "issue": "2",
     "issued": {
       "date-parts": [
         [
@@ -545,7 +593,7 @@
       ]
     },
     "keyword": "bioscience",
-    "page": "109373",
+    "page": "bbaf130",
     "title": "Elementary methods provide more replicable results in microbial differential abundance analysis",
     "type": "article-journal",
     "volume": "26"
@@ -589,7 +637,6 @@
   {
     "DOI": "10.1016/j.mbs.2024.109373",
     "ISSN": "0025-5564",
-    "URL": "https://www.sciencedirect.com/science/article/pii/S0025556424002335",
     "author": [
       {
         "family": "Khalighi",
@@ -669,7 +716,7 @@
     ],
     "container-title": "Nature Communications",
     "id": "Jeyaram2025",
-    "issue": "771",
+    "issue": "1",
     "issued": {
       "date-parts": [
         [
@@ -679,6 +726,7 @@
       ]
     },
     "keyword": "bioscience",
+    "page": "771",
     "title": "Fermented foods affect the seasonal stability of gut bacteria in an Indian rural population",
     "type": "article-journal",
     "volume": "16"
@@ -707,9 +755,8 @@
         "given": "Leo"
       }
     ],
-    "container-title": "PeerJLife",
+    "container-title": "PeerJ",
     "id": "Potbhare2025",
-    "issue": "e18881",
     "issued": {
       "date-parts": [
         [
@@ -719,6 +766,7 @@
       ]
     },
     "keyword": "bioscience",
+    "page": "e18881",
     "title": "Skin microbiota variation in Indian families",
     "type": "article-journal",
     "volume": "13"
@@ -726,7 +774,6 @@
   {
     "DOI": "10.1016/j.psyneuen.2024.107273",
     "ISSN": "0306-4530",
-    "URL": "https://www.sciencedirect.com/science/article/pii/S0306453024003184",
     "author": [
       {
         "family": "Eckermann",
@@ -762,85 +809,8 @@
     "keyword": "bioscience",
     "page": "107273",
     "title": "Maternal pre- and postnatal stress and maternal and infant gut microbiota features.",
-    "type": "article-journal"
-  },
-  {
-    "DOI": "10.48550/arXiv.2412.02882",
-    "author": [
-      {
-        "family": "Benedetti",
-        "given": "Giulio"
-      },
-      {
-        "family": "Seraidarian",
-        "given": "Ely"
-      },
-      {
-        "family": "Pralas",
-        "given": "Theotime"
-      },
-      {
-        "family": "Jeba",
-        "given": "Akewak"
-      },
-      {
-        "family": "Borman",
-        "given": "Tuomas"
-      },
-      {
-        "family": "Lahti",
-        "given": "Leo"
-      }
-    ],
-    "container-title": "arXiv",
-    "id": "Benedetti2024",
-    "issued": {
-      "date-parts": [
-        [
-          2024,
-          12
-        ]
-      ]
-    },
-    "keyword": "datascience",
-    "status": "preprint",
-    "title": "iSEEtree: Interactive explorer for hierarchical data",
-    "title-short": "iSEEtree",
-    "type": "article-journal"
-  },
-  {
-    "DOI": "10.1145/3680280",
-    "ISSN": "0098-3500",
-    "author": [
-      {
-        "family": "Khalighi",
-        "given": "Moein"
-      },
-      {
-        "family": "Benedetti",
-        "given": "Giulio"
-      },
-      {
-        "family": "Lahti",
-        "given": "Leo"
-      }
-    ],
-    "container-title": "ACM Transactions on Mathematical Software",
-    "id": "Khalighi2024acm",
-    "issue": "3",
-    "issued": {
-      "date-parts": [
-        [
-          2024,
-          10
-        ]
-      ]
-    },
-    "keyword": "datascience",
-    "title": "Algorithm 1047: FdeSolver, a Julia package for solving fractional differential equations",
-    "title-short": "Algorithm 1047",
     "type": "article-journal",
-    "volume": "50"
+    "volume": "172"
   },
   {
     "DOI": "10.1038/s41579-024-01107-0",
@@ -1000,6 +970,41 @@
     ],
     "container-title": "Nature Reviews Microbiology",
     "id": "Joos2024",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          1
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "192-205",
+    "title": "Examining the healthy human microbiome concept",
+    "type": "article-journal",
+    "volume": "23"
+  },
+  {
+    "DOI": "10.1145/3680280",
+    "ISSN": "0098-3500",
+    "author": [
+      {
+        "family": "Khalighi",
+        "given": "Moein"
+      },
+      {
+        "family": "Benedetti",
+        "given": "Giulio"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "ACM Transactions on Mathematical Software",
+    "id": "Khalighi2024acm",
+    "issue": "3",
     "issued": {
       "date-parts": [
         [
@@ -1008,9 +1013,12 @@
         ]
       ]
     },
-    "keyword": "bioscience",
-    "title": "Examining the healthy human microbiome concept",
-    "type": "article-journal"
+    "keyword": "datascience",
+    "page": "22",
+    "title": "Algorithm 1047: FdeSolver, a Julia package for solving fractional differential equations",
+    "title-short": "Algorithm 1047",
+    "type": "article-journal",
+    "volume": "50"
   },
   {
     "DOI": "10.3390/nu16203554",
@@ -1277,6 +1285,7 @@
   },
   {
     "DOI": "10.1080/19490976.2024.2383746",
+    "ISSN": "1949-0976",
     "author": [
       {
         "family": "Jokela",
@@ -1314,7 +1323,8 @@
     "issued": {
       "date-parts": [
         [
-          2024
+          2024,
+          8
         ]
       ]
     },
@@ -1347,7 +1357,8 @@
     "issued": {
       "date-parts": [
         [
-          2024
+          2024,
+          10
         ]
       ]
     },
@@ -1360,6 +1371,7 @@
   },
   {
     "DOI": "10.1038/s41522-024-00530-8",
+    "ISSN": "2055-5008",
     "author": [
       {
         "family": "Grahnemo",
@@ -1400,7 +1412,7 @@
     ],
     "container-title": "npj Biofilms and Microbiomes",
     "id": "Grahnemo2024",
-    "issue": "69",
+    "issue": "1",
     "issued": {
       "date-parts": [
         [
@@ -1409,6 +1421,7 @@
       ]
     },
     "keyword": "bioscience",
+    "page": "69",
     "title": "Associations between gut microbiota and incident fractures in the FINRISK cohort",
     "type": "article-journal",
     "volume": "10"
@@ -1507,6 +1520,7 @@
       ]
     },
     "keyword": "bioscience",
+    "page": "ycae088",
     "title": "Multikingdom oral microbiome interactions in early-onset cryptogenic ischemic stroke",
     "type": "article-journal",
     "volume": "4"
@@ -1612,6 +1626,7 @@
     ],
     "container-title": "The Lancet Microbe",
     "id": "Kullberg2024",
+    "issue": "9",
     "issued": {
       "date-parts": [
         [
@@ -1620,9 +1635,11 @@
       ]
     },
     "keyword": "bioscience",
+    "page": "100864",
     "title": "Association between butyrate-producing gut bacteria and the risk of infectious disease hospitalisation: Results from two observational, population-based microbiome studies",
     "title-short": "Association between butyrate-producing gut bacteria and the risk of infectious disease hospitalisation",
-    "type": "article-journal"
+    "type": "article-journal",
+    "volume": "5"
   },
   {
     "DOI": "10.1101/2024.05.31.24308262",
@@ -2009,6 +2026,7 @@
   },
   {
     "DOI": "10.1038/s41591-024-02963-2",
+    "ISSN": "1546-170X",
     "author": [
       {
         "family": "Tito",
@@ -2065,6 +2083,7 @@
     ],
     "container-title": "Nature Medicine",
     "id": "Tito2024",
+    "issue": "5",
     "issued": {
       "date-parts": [
         [
@@ -2074,8 +2093,10 @@
       ]
     },
     "keyword": "bioscience",
+    "page": "1339-1348",
     "title": "Microbiome confounders and quantitative profiling challenge predicted microbial targets in colorectal cancer development",
-    "type": "article-journal"
+    "type": "article-journal",
+    "volume": "30"
   },
   {
     "DOI": "10.1371/journal.pone.0302724",
@@ -2131,6 +2152,7 @@
     ],
     "container-title": "PLoS One",
     "id": "König2024",
+    "issue": "5",
     "issued": {
       "date-parts": [
         [
@@ -2221,6 +2243,7 @@
     ],
     "container-title": "Journal of Oral Microbiology (ZJOM)",
     "id": "Manzoora2024",
+    "issue": "1",
     "issued": {
       "date-parts": [
         [
@@ -2319,11 +2342,14 @@
       ]
     },
     "keyword": "bioscience",
+    "page": "584-594",
     "title": "Integration of polygenic and gut metagenomic risk prediction for common diseases",
-    "type": "article-journal"
+    "type": "article-journal",
+    "volume": "4"
   },
   {
     "DOI": "10.1016/j.jare.2024.03.003",
+    "ISSN": "2090-1232",
     "author": [
       {
         "family": "Mishra",
@@ -2458,8 +2484,10 @@
     },
     "keyword": "bioscience",
     "note": "Available online 7 March 2024",
+    "page": "375-386",
     "title": "Gut microbiome-derived bacterial extracellular vesicles in patients with solid tumours",
-    "type": "article-journal"
+    "type": "article-journal",
+    "volume": "68"
   },
   {
     "DOI": "10.1016/j.tjnut.2024.01.008",
@@ -2649,7 +2677,7 @@
     "page": "251-261",
     "title": "Bone marrow metabolism is affected by body weight and response to exercise training varies according to anatomical location",
     "type": "article-journal",
-    "volume": "16"
+    "volume": "26"
   },
   {
     "DOI": "10.1080/19490976.2023.2295403",
@@ -2678,7 +2706,7 @@
     ],
     "container-title": "Gut Microbes",
     "id": "Eckermann2024",
-    "issue": "2295403, 1",
+    "issue": "1",
     "issued": {
       "date-parts": [
         [
@@ -2688,6 +2716,7 @@
       ]
     },
     "keyword": "bioscience",
+    "page": "2295403",
     "title": "Daily skin-to-skin contact alters microbiota development in healthy full-term infants",
     "type": "article-journal",
     "volume": "16"
@@ -2858,6 +2887,7 @@
     ],
     "container-title": "Development and Psychopathology",
     "id": "Huovinen2023",
+    "issue": "4",
     "issued": {
       "date-parts": [
         [
@@ -2867,13 +2897,13 @@
       ]
     },
     "keyword": "bioscience",
-    "page": "1-16",
+    "page": "2016-2031",
     "title": "Infant gut microbiota and negative and fear reactivity",
-    "type": "article-journal"
+    "type": "article-journal",
+    "volume": "36"
   },
   {
     "DOI": "10.3389/fmicb.2023.1250806",
-    "URL": "https://www.frontiersin.org/articles/10.3389/fmicb.2023.1250806",
     "author": [
       {
         "family": "Marcos-Zambrano",
@@ -3150,6 +3180,7 @@
     ],
     "container-title": "Arteriosclerosis, Thrombosis, and Vascular Biology",
     "id": "Koponen2023",
+    "issue": "2",
     "issued": {
       "date-parts": [
         [
@@ -3159,8 +3190,10 @@
       ]
     },
     "keyword": "bioscience",
+    "page": "477-487",
     "title": "Role of Gut Microbiota in Statin-Associated New-Onset Diabetes—a Cross-Sectional and Prospective Analysis of the FINRISK 2002 Cohort",
-    "type": "article-journal"
+    "type": "article-journal",
+    "volume": "44"
   },
   {
     "DOI": "10.1098/rsos.230052",
@@ -3316,6 +3349,7 @@
     ],
     "container-title": "BMC Microbiome",
     "id": "Kaisanlahti2023",
+    "issue": "249",
     "issued": {
       "date-parts": [
         [
@@ -3327,7 +3361,7 @@
     "keyword": "bioscience",
     "title": "Maternal microbiota communicates with the fetus through microbiota-derived extracellular vesicles",
     "type": "article-journal",
-    "volume": "249"
+    "volume": "11"
   },
   {
     "DOI": "10.1101/2023.10.12.23296829",
@@ -3508,7 +3542,8 @@
     },
     "keyword": "bioscience",
     "title": "Impacts of maternal microbiota and microbial metabolites on fetal intestine, brain, and placenta",
-    "type": "article-journal"
+    "type": "article-journal",
+    "volume": "21"
   },
   {
     "DOI": "10.3389/fmicb.2023.1257002",
@@ -3802,8 +3837,10 @@
       ]
     },
     "keyword": "bioscience",
+    "page": "715-718",
     "title": "Greengenes2 unifies microbial data in a single reference tree",
-    "type": "article-journal"
+    "type": "article-journal",
+    "volume": "42"
   },
   {
     "DOI": "10.1111/2041-210X.14129",
@@ -3937,6 +3974,7 @@
   },
   {
     "DOI": "10.1016/j.ebiom.2023.104583",
+    "ISSN": "2352-3964",
     "author": [
       {
         "family": "Palmu",
@@ -4030,8 +4068,10 @@
       ]
     },
     "keyword": "bioscience",
+    "page": "104583",
     "title": "Gut microbiome and atrial fibrillation-results from a large population-based study",
-    "type": "article-journal"
+    "type": "article-journal",
+    "volume": "91"
   },
   {
     "DOI": "10.1007/s00592-023-02064-5",
@@ -4070,13 +4110,16 @@
     "issued": {
       "date-parts": [
         [
-          2023
+          2023,
+          4
         ]
       ]
     },
     "keyword": "bioscience",
+    "page": "1045-1054",
     "title": "Gut microbiota composition and function in pregnancy as determinants of prediabetes at two years’ postpartum",
-    "type": "article-journal"
+    "type": "article-journal",
+    "volume": "60"
   },
   {
     "DOI": "10.1038/s41390-023-02560-y",
@@ -4111,14 +4154,17 @@
     "issued": {
       "date-parts": [
         [
-          2023
+          2023,
+          4
         ]
       ]
     },
     "keyword": "bioscience",
+    "page": "1480-1487",
     "title": "The preterm gut microbiota and administration routes of different probiotics: A randomized controlled trial",
     "title-short": "The preterm gut microbiota and administration routes of different probiotics",
-    "type": "article-journal"
+    "type": "article-journal",
+    "volume": "94"
   },
   {
     "DOI": "10.1016/j.jaci.2022.12.810",
