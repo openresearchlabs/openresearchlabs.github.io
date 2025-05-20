@@ -1,5 +1,48 @@
 [
   {
+    "DOI": "10.1038/s41522-025-00715-9",
+    "ISSN": "2055-5008",
+    "author": [
+      {
+        "family": "Salehi",
+        "given": "Mahkameh"
+      },
+      {
+        "family": "Laitinen",
+        "given": "Ville"
+      },
+      {
+        "family": "Shivang Bhanushali",
+        "given": "Johan Bengtsson-Palme"
+      },
+      {
+        "family": "Collignon P",
+        "given": "Katariina Pärnänen",
+        "suffix": "John J Beggs"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "npj Biofilms and Microbiomes",
+    "id": "Salehi2025",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          5
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "79",
+    "title": "Gender differences in global antimicrobial resistance",
+    "type": "article-journal",
+    "volume": "11"
+  },
+  {
     "DOI": "10.1093/bioadv/vbaf107",
     "ISSN": "2635-0041",
     "author": [
@@ -42,45 +85,6 @@
     "page": "vbaf107",
     "title": "iSEEtree: Interactive explorer for hierarchical data",
     "title-short": "iSEEtree",
-    "type": "article-journal"
-  },
-  {
-    "author": [
-      {
-        "family": "Salehi",
-        "given": "Mahkameh"
-      },
-      {
-        "family": "Laitinen",
-        "given": "Ville"
-      },
-      {
-        "family": "Shivang Bhanushali",
-        "given": "Johan Bengtsson-Palme"
-      },
-      {
-        "family": "Collignon P",
-        "given": "Katariina Pärnänen",
-        "suffix": "John J Beggs"
-      },
-      {
-        "family": "Lahti",
-        "given": "Leo"
-      }
-    ],
-    "container-title": "npj Biofilms and Microbiomes",
-    "id": "Drnevich2025",
-    "issued": {
-      "date-parts": [
-        [
-          2025,
-          5
-        ]
-      ]
-    },
-    "keyword": "bioscience",
-    "note": "In press.",
-    "title": "Gender differences in global antimicrobial resistance",
     "type": "article-journal"
   },
   {
