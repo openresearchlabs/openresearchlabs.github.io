@@ -1,5 +1,118 @@
 [
   {
+    "DOI": "10.1099/mgen.0.001405",
+    "ISSN": "2057-5858",
+    "author": [
+      {
+        "family": "Metris",
+        "given": "Aline"
+      },
+      {
+        "family": "Walker",
+        "given": "Alan W."
+      },
+      {
+        "family": "Showering",
+        "given": "Alicia"
+      },
+      {
+        "family": "Doolan",
+        "given": "Andrea"
+      },
+      {
+        "family": "McBain",
+        "given": "Andrew J."
+      },
+      {
+        "family": "Ampatzoglou",
+        "given": "Antonis"
+      },
+      {
+        "family": "Murphy",
+        "given": "Barry"
+      },
+      {
+        "family": "O’Neill",
+        "given": "Catherine"
+      },
+      {
+        "family": "Shortt",
+        "given": "Colette"
+      },
+      {
+        "family": "Darby",
+        "given": "Elizabeth M."
+      },
+      {
+        "family": "Aldis",
+        "given": "Gary"
+      },
+      {
+        "family": "Hillebrand",
+        "given": "Greg G."
+      },
+      {
+        "family": "Brown",
+        "given": "Helen L."
+      },
+      {
+        "family": "Browne",
+        "given": "Hilary P."
+      },
+      {
+        "family": "Tiesman",
+        "given": "Jay P."
+      },
+      {
+        "family": "Leng",
+        "given": "Joy"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Jakubovics",
+        "given": "Nicholas S."
+      },
+      {
+        "family": "Hasselwander",
+        "given": "Oliver"
+      },
+      {
+        "family": "Finn",
+        "given": "Robert D."
+      },
+      {
+        "family": "Klamert",
+        "given": "Silvia"
+      },
+      {
+        "family": "Korcsmaros",
+        "given": "Tamas"
+      },
+      {
+        "family": "Hall",
+        "given": "Lindsay J."
+      }
+    ],
+    "container-title": "Microbial Genomics",
+    "id": "Metris2025",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "publisher": "Microbiology Society",
+    "title": "Assessing the safety of microbiome perturbations",
+    "type": "article-journal",
+    "volume": "11"
+  },
+  {
     "DOI": "10.1038/s41522-025-00715-9",
     "ISSN": "2055-5008",
     "author": [
@@ -2908,6 +3021,7 @@
   },
   {
     "DOI": "10.3389/fmicb.2023.1250806",
+    "ISSN": "1664-302X",
     "author": [
       {
         "family": "Marcos-Zambrano",
