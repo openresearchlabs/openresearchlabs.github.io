@@ -54,6 +54,7 @@ title: Code
     <div class="text-boxes"><p> Julia projects</p>
       <ul>
         <li>Julia tools for ecological modeling.</li>
+        <li><a href="https://juliaturkudatascience.github.io/FdeSolver.jl/stable/readme/">FdeSolver.jl: Solving fractional differential equations</a></li>
       </ul>
     </div>
   </div>
