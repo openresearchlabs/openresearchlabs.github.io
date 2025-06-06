@@ -62,4 +62,12 @@
   links_twitter: ""
   links_orcid: "https://orcid.org/0009-0003-0240-0315"
   links_homepage: ""
+- name: "Aituar Bektanov"
+  affiliation: ""
+  affiliation_url: ""
+  keywords: "Data Analytics, Data Science, R Programming"
+  avatar: "../img/teampic/aituar_bektanov.jpg"
+  links_twitter: ""
+  links_orcid: "https://orcid.org/0009-0007-9930-2867"
+  links_homepage: ""
 
