@@ -1,5 +1,98 @@
 [
   {
+    "DOI": "10.1038/s41598-025-02287-2",
+    "ISSN": "2045-2322",
+    "author": [
+      {
+        "family": "Boelius",
+        "given": "Hanna-Mari"
+      },
+      {
+        "family": "Aatsinki",
+        "given": "Anna-Katariina"
+      },
+      {
+        "family": "Heiskanen",
+        "given": "Marja A."
+      },
+      {
+        "family": "Haapala",
+        "given": "Eero A."
+      },
+      {
+        "family": "Munukka",
+        "given": "Eveliina"
+      },
+      {
+        "family": "Mykkänen",
+        "given": "Juha"
+      },
+      {
+        "family": "Kartiosuo",
+        "given": "Noora"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Keskitalo",
+        "given": "Anniina"
+      },
+      {
+        "family": "Huovinen",
+        "given": "Pentti"
+      },
+      {
+        "family": "Niinikoski",
+        "given": "Harri"
+      },
+      {
+        "family": "Viikari",
+        "given": "Jorma"
+      },
+      {
+        "family": "Rönnemaa",
+        "given": "Tapani"
+      },
+      {
+        "family": "Lagström",
+        "given": "Hanna"
+      },
+      {
+        "family": "Jula",
+        "given": "Antti"
+      },
+      {
+        "family": "Rovio",
+        "given": "Suvi P."
+      },
+      {
+        "family": "Raitakari",
+        "given": "Olli T."
+      },
+      {
+        "family": "Pahkala",
+        "given": "Katja"
+      }
+    ],
+    "container-title": "Scientific Reports",
+    "id": "Boelius2025",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "19697",
+    "title": "Association of leisure time physical activity with gut microbiota composition in early adulthood",
+    "type": "article-journal",
+    "volume": "15"
+  },
+  {
     "DOI": "10.1099/mgen.0.001405",
     "ISSN": "2057-5858",
     "author": [
