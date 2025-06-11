@@ -419,6 +419,7 @@
     "type": "article-journal"
   },
   {
+    "DOI": "10.1128/msystems.00311-25",
     "author": [
       {
         "family": "Kaisanlahti",
@@ -517,8 +518,9 @@
         "given": "Terhi"
       }
     ],
-    "container-title": "American Society for Microbiology",
+    "container-title": "mSystems",
     "id": "Kaisanlahti2025",
+    "issue": "5",
     "issued": {
       "date-parts": [
         [
@@ -528,19 +530,20 @@
       ]
     },
     "keyword": "bioscience",
-    "note": "In press.",
+    "page": "e00311-25",
     "title": "Gut microbiota-derived extracellular vesicles form a distinct entity from gut microbiota",
-    "type": "article-journal"
+    "type": "article-journal",
+    "volume": "10"
   },
   {
     "author": [
       {
-        "family": "Niiranen",
-        "given": "Teemu"
-      },
-      {
         "family": "Hellman",
         "given": "Tapio"
+      },
+      {
+        "family": "Yeo",
+        "given": "Li-Fang"
       },
       {
         "family": "Palmu",
@@ -551,8 +554,8 @@
         "given": "Aki"
       },
       {
-        "family": "Pekka",
-        "given": "Jousilahti"
+        "family": "Jousilahti",
+        "given": "Pekka"
       },
       {
         "family": "Laitinen",
@@ -563,8 +566,8 @@
         "given": "Katariina"
       },
       {
-        "family": "Veikko",
-        "given": "Salomaa"
+        "family": "Salomaa",
+        "given": "Veikko"
       },
       {
         "family": "Lahti",
@@ -575,8 +578,8 @@
         "given": "Rob"
       },
       {
-        "family": "Yeo",
-        "given": "Li-Fang"
+        "family": "Niiranen",
+        "given": "Teemu"
       }
     ],
     "container-title": "American Society of Nephrology",
@@ -595,6 +598,8 @@
     "type": "article-journal"
   },
   {
+    "DOI": "10.1099/mgen.0.001405",
+    "ISSN": "2057-5858",
     "author": [
       {
         "family": "Metris",
@@ -691,6 +696,7 @@
     ],
     "container-title": "Microbial Genomics",
     "id": "Metris2025",
+    "issue": "5",
     "issued": {
       "date-parts": [
         [
@@ -700,9 +706,9 @@
       ]
     },
     "keyword": "bioscience",
-    "note": "In press.",
     "title": "Assessing the safety of microbiome perturbations",
-    "type": "article-journal"
+    "type": "article-journal",
+    "volume": "11"
   },
   {
     "DOI": "10.1007/s00394-025-03668-z",
@@ -1315,18 +1321,11 @@
     "volume": "16"
   },
   {
+    "DOI": "10.5281/zenodo.6559857",
     "author": [
-      {
-        "family": "Király",
-        "given": "Péter"
-      },
       {
         "family": "Umerle",
         "given": "Tomasz"
-      },
-      {
-        "family": "Malínek",
-        "given": "Vojtěch"
       },
       {
         "family": "Colavizza",
@@ -1339,6 +1338,10 @@
       {
         "family": "Jagersma",
         "given": "Rindert"
+      },
+      {
+        "family": "Király",
+        "given": "Péter"
       },
       {
         "family": "Koper",
@@ -1357,6 +1360,10 @@
         "given": "Jakub Maciej"
       },
       {
+        "family": "Malínek",
+        "given": "Vojtěch"
+      },
+      {
         "family": "Milanova",
         "given": "Alexandra"
       },
@@ -1369,16 +1376,16 @@
         "given": "Nanette"
       },
       {
-        "family": "Siwiecka",
-        "given": "Dorota"
-      },
-      {
         "family": "Romanello",
         "given": "Matteo"
       },
       {
         "family": "Roszkowski",
         "given": "Marcin"
+      },
+      {
+        "family": "Siwiecka",
+        "given": "Dorota"
       },
       {
         "family": "Tolonen",
@@ -1393,14 +1400,13 @@
     "issued": {
       "date-parts": [
         [
-          2024,
-          10
+          2022,
+          5
         ]
       ]
     },
     "keyword": "dh",
-    "note": "In press.",
-    "title": "Effects of open science and the digital transformation on the bibliographical data landscape",
+    "title": "An analysis of the current bibliographical data landscape in the humanities. A case for the joint bibliodata agendas of public stakeholders",
     "type": "article-journal"
   },
   {
@@ -8238,7 +8244,6 @@
       ]
     },
     "keyword": "dh",
-    "note": "In press.",
     "title": "The emerging paradigm of bibliographic data science",
     "type": "paper-conference"
   },
