@@ -1,5 +1,71 @@
 [
   {
+    "DOI": "10.1016/j.ekir.2025.04.007",
+    "ISSN": "2468-0249",
+    "author": [
+      {
+        "family": "Hellman",
+        "given": "Tapio"
+      },
+      {
+        "family": "Yeo",
+        "given": "Li-Fang"
+      },
+      {
+        "family": "Palmu",
+        "given": "Joonatan"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki"
+      },
+      {
+        "family": "Jousilahti",
+        "given": "Pekka"
+      },
+      {
+        "family": "Laitinen",
+        "given": "Ville"
+      },
+      {
+        "family": "Pärnänen",
+        "given": "Katariina"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      }
+    ],
+    "container-title": "Kidney International Reports",
+    "id": "Hellman2025",
+    "issue": "6",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          6
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "1673-1682",
+    "title": "Gut microbiome as a risk factor for future CKD",
+    "type": "article-journal",
+    "volume": "10"
+  },
+  {
     "DOI": "10.1038/s41598-025-02287-2",
     "ISSN": "2045-2322",
     "author": [
@@ -534,68 +600,6 @@
     "title": "Gut microbiota-derived extracellular vesicles form a distinct entity from gut microbiota",
     "type": "article-journal",
     "volume": "10"
-  },
-  {
-    "author": [
-      {
-        "family": "Hellman",
-        "given": "Tapio"
-      },
-      {
-        "family": "Yeo",
-        "given": "Li-Fang"
-      },
-      {
-        "family": "Palmu",
-        "given": "Joonatan"
-      },
-      {
-        "family": "Havulinna",
-        "given": "Aki"
-      },
-      {
-        "family": "Jousilahti",
-        "given": "Pekka"
-      },
-      {
-        "family": "Laitinen",
-        "given": "Ville"
-      },
-      {
-        "family": "Pärnänen",
-        "given": "Katariina"
-      },
-      {
-        "family": "Salomaa",
-        "given": "Veikko"
-      },
-      {
-        "family": "Lahti",
-        "given": "Leo"
-      },
-      {
-        "family": "Knight",
-        "given": "Rob"
-      },
-      {
-        "family": "Niiranen",
-        "given": "Teemu"
-      }
-    ],
-    "container-title": "American Society of Nephrology",
-    "id": "Niiranen2025",
-    "issued": {
-      "date-parts": [
-        [
-          2025,
-          4
-        ]
-      ]
-    },
-    "keyword": "bioscience",
-    "note": "In press.",
-    "title": "Microbiome and prevalent/incident kidney disease",
-    "type": "article-journal"
   },
   {
     "DOI": "10.1099/mgen.0.001405",
