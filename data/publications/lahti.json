@@ -1,5 +1,50 @@
 [
   {
+    "DOI": "10.32614/RJ-2024-023",
+    "ISSN": "2073-4859",
+    "author": [
+      {
+        "family": "Kantanen",
+        "given": "Pyry"
+      },
+      {
+        "family": "Bülow",
+        "given": "Erik"
+      },
+      {
+        "family": "Lahtinen",
+        "given": "Aleksi"
+      },
+      {
+        "family": "Magnusson",
+        "given": "Måns"
+      },
+      {
+        "family": "Paananen",
+        "given": "Jussi"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "The R Journal",
+    "id": "kantanen2025",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "keyword": "datascience",
+    "page": "4-14",
+    "title": "Validating and extracting information from national identification numbers in r: The case of finland and sweden",
+    "title-short": "Validating and extracting information from national identification numbers in r",
+    "type": "article-journal",
+    "volume": "16"
+  },
+  {
     "DOI": "10.1016/j.ekir.2025.04.007",
     "ISSN": "2468-0249",
     "author": [
@@ -600,119 +645,6 @@
     "title": "Gut microbiota-derived extracellular vesicles form a distinct entity from gut microbiota",
     "type": "article-journal",
     "volume": "10"
-  },
-  {
-    "DOI": "10.1099/mgen.0.001405",
-    "ISSN": "2057-5858",
-    "author": [
-      {
-        "family": "Metris",
-        "given": "Aline"
-      },
-      {
-        "family": "Walker",
-        "given": "Alan"
-      },
-      {
-        "family": "Showering",
-        "given": "Alicia"
-      },
-      {
-        "family": "Doolan",
-        "given": "Andrea"
-      },
-      {
-        "family": "McBain",
-        "given": "Andrew"
-      },
-      {
-        "family": "Ampatzoglou",
-        "given": "Antonis"
-      },
-      {
-        "family": "Murphy",
-        "given": "Barry"
-      },
-      {
-        "family": "O’Neill",
-        "given": "Catherine"
-      },
-      {
-        "family": "Shortt",
-        "given": "Colette"
-      },
-      {
-        "family": "Darby",
-        "given": "Elizabeth"
-      },
-      {
-        "family": "Aldis",
-        "given": "Gary"
-      },
-      {
-        "family": "Hillebrand",
-        "given": "Greg"
-      },
-      {
-        "family": "Brown",
-        "given": "Helen"
-      },
-      {
-        "family": "Browne",
-        "given": "Hilary"
-      },
-      {
-        "family": "Tiesman",
-        "given": "Jay"
-      },
-      {
-        "family": "Leng",
-        "given": "Joy"
-      },
-      {
-        "family": "Lahti",
-        "given": "Leo"
-      },
-      {
-        "family": "Jakubovics",
-        "given": "Nick"
-      },
-      {
-        "family": "Hasselwander",
-        "given": "Oliver"
-      },
-      {
-        "family": "Finn",
-        "given": "Rob"
-      },
-      {
-        "family": "Klamert",
-        "given": "Silvia"
-      },
-      {
-        "family": "Korcsmaros",
-        "given": "Tamas"
-      },
-      {
-        "family": "Hall",
-        "given": "Lindsay J"
-      }
-    ],
-    "container-title": "Microbial Genomics",
-    "id": "Metris2025",
-    "issue": "5",
-    "issued": {
-      "date-parts": [
-        [
-          2025,
-          4
-        ]
-      ]
-    },
-    "keyword": "bioscience",
-    "title": "Assessing the safety of microbiome perturbations",
-    "type": "article-journal",
-    "volume": "11"
   },
   {
     "DOI": "10.1007/s00394-025-03668-z",
