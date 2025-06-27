@@ -1,5 +1,62 @@
 [
   {
+    "DOI": "10.1016/j.bbih.2025.101042",
+    "ISSN": "2666-3546",
+    "author": [
+      {
+        "family": "Hieta",
+        "given": "Janina"
+      },
+      {
+        "family": "Benchraka",
+        "given": "Chouaib"
+      },
+      {
+        "family": "Pärnänen",
+        "given": "Katariina"
+      },
+      {
+        "family": "Houttu",
+        "given": "Noora"
+      },
+      {
+        "family": "Mokkala",
+        "given": "Kati"
+      },
+      {
+        "family": "Lotankar",
+        "given": "Mrunalini"
+      },
+      {
+        "family": "Kataja",
+        "given": "Eeva-Leena"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Laitinen",
+        "given": "Kirsi"
+      }
+    ],
+    "container-title": "Brain, Behavior, & Immunity - Health",
+    "id": "Hieta2025",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "101042",
+    "title": "Perinatal depressive and anxiety symptoms are associated with gut microbiota in pregnant women with overweight and obesity",
+    "type": "article-journal",
+    "volume": "47"
+  },
+  {
     "DOI": "10.1101/2025.06.16.659887",
     "author": [
       {
