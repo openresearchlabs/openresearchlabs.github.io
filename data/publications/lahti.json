@@ -1,5 +1,69 @@
 [
   {
+    "DOI": "10.1101/2025.07.03.659054",
+    "author": [
+      {
+        "family": "Sherwani",
+        "given": "Moiz Khan"
+      },
+      {
+        "family": "Ruuskanen",
+        "given": "Matti"
+      },
+      {
+        "family": "Feldner-Busztin",
+        "given": "Dylan"
+      },
+      {
+        "family": "Firbas",
+        "given": "Panos Nisantzis"
+      },
+      {
+        "family": "Boza",
+        "given": "Gergely"
+      },
+      {
+        "family": "Moreh",
+        "given": "Agnes"
+      },
+      {
+        "family": "Borman",
+        "given": "Tuomas"
+      },
+      {
+        "family": "Erawijantari",
+        "given": "Pande P"
+      },
+      {
+        "family": "Scheuring",
+        "given": "Istvan"
+      },
+      {
+        "family": "Gopalakrishnan",
+        "given": "Shyam"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "bioRXiv",
+    "id": "Sherwani2025",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          7
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "status": "preprint",
+    "title": "Multi-omics time-series analysis in microbiome research: A systematic review",
+    "title-short": "Multi-omics time-series analysis in microbiome research",
+    "type": "article-journal"
+  },
+  {
     "DOI": "10.1016/j.bbih.2025.101042",
     "ISSN": "2666-3546",
     "author": [
