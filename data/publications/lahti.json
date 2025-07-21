@@ -1,5 +1,137 @@
 [
   {
+    "DOI": "10.1101/2025.06.25.25330258",
+    "author": [
+      {
+        "family": "Dühr",
+        "given": "Hendrik"
+      },
+      {
+        "family": "Pärnänen",
+        "given": "Katariina"
+      },
+      {
+        "family": "Kucháriková",
+        "given": "Nina"
+      },
+      {
+        "family": "Werner",
+        "given": "Paulina"
+      },
+      {
+        "family": "Pershagen",
+        "given": "Göran"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Alenius",
+        "given": "Harri"
+      },
+      {
+        "family": "Bergström",
+        "given": "Anna"
+      },
+      {
+        "family": "Ruuskanen",
+        "given": "Matti O."
+      },
+      {
+        "family": "Fyhrquist",
+        "given": "Nanna"
+      }
+    ],
+    "container-title": "medRxiv",
+    "id": "Duhr2025",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "2025.06.25.25330258",
+    "status": "preprint",
+    "title": "Lifestyle associates with unique resistome and microbiome signatures in children",
+    "type": "article-journal",
+    "volume": ""
+  },
+  {
+    "DOI": "10.1038/s41467-025-61137-x",
+    "author": [
+      {
+        "family": "Pärnänen",
+        "given": "Katariina"
+      },
+      {
+        "family": "Ruuskanen",
+        "given": "Matti O."
+      },
+      {
+        "family": "Sommeria-Klein",
+        "given": "Guilhem"
+      },
+      {
+        "family": "Laitinen",
+        "given": "Ville"
+      },
+      {
+        "family": "Kantanen",
+        "given": "Pyry"
+      },
+      {
+        "family": "Méric",
+        "given": "Guillaume"
+      },
+      {
+        "family": "Volpiano",
+        "given": "Camila Gazolla"
+      },
+      {
+        "family": "Inouye",
+        "given": "Michael"
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki S."
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "Nature Communications",
+    "id": "Parnanen2025",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "5963",
+    "title": "Variation and prognostic potential of the gut antibiotic resistome in the FINRISK 2002 cohort",
+    "type": "article-journal",
+    "volume": "16"
+  },
+  {
     "DOI": "10.1101/2025.07.03.659054",
     "author": [
       {
