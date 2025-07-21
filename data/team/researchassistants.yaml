@@ -70,4 +70,12 @@
   links_twitter: ""
   links_orcid: "https://orcid.org/0009-0007-9930-2867"
   links_homepage: ""
+- name: "Rasmus Hindström"
+  affiliation: ""
+  affiliation_url: ""
+  keywords: "Human Microbiome, Data Science, Bayesian Statistics, Causal Inference"
+  avatar: "../img/teampic/rasmus_hindstrom.jpg"
+  links_twitter: ""
+  links_orcid: "https://orcid.org/0009-0004-5731-178X"
+  links_homepage: ""
 
