@@ -1,5 +1,79 @@
 [
   {
+    "author": [
+      {
+        "family": "Jakubovics",
+        "given": "Nick"
+      },
+      {
+        "family": "Allippara",
+        "given": "Muhammed"
+      },
+      {
+        "family": "Putaala",
+        "given": "Jukka"
+      },
+      {
+        "family": "Zaric",
+        "given": "Svetislav"
+      },
+      {
+        "family": "Leskela",
+        "given": "Jaakko"
+      },
+      {
+        "family": "Dong",
+        "given": "Anbo"
+      },
+      {
+        "family": "Könönen",
+        "given": "Eija"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Paju",
+        "given": "Susanna"
+      },
+      {
+        "family": "Pussinen",
+        "given": "Pirkko"
+      }
+    ],
+    "container-title": "Journal of Dental Research",
+    "id": "Jakubovics2025",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "In press.",
+    "title": "Oral microbial determinants of saliva and serum lipopolysaccharide activity",
+    "type": "article-journal",
+    "volume": ""
+  },
+  {
+    "container-title": "Communications Biology",
+    "id": "lahti2025",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "In press.",
+    "title": "Chronological age estimation from human microbiomes with transformer-based robust principal component analysis",
+    "type": "article-journal",
+    "volume": ""
+  },
+  {
     "DOI": "10.1101/2025.06.25.25330258",
     "author": [
       {
