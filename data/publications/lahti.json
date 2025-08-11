@@ -54,24 +54,93 @@
     "keyword": "bioscience",
     "note": "In press.",
     "title": "Oral microbial determinants of saliva and serum lipopolysaccharide activity",
-    "type": "article-journal",
-    "volume": ""
+    "type": "article-journal"
   },
   {
+    "DOI": "10.1038/s42003-025-08590-y",
+    "ISSN": "2399-3642",
+    "author": [
+      {
+        "family": "Myers",
+        "given": "Tyler"
+      },
+      {
+        "family": "Se Jin Song",
+        "given": "Yang Chen"
+      },
+      {
+        "family": "Pessemier",
+        "given": "Britta De"
+      },
+      {
+        "family": "Khatib",
+        "given": "Lora"
+      },
+      {
+        "family": "McDonald",
+        "given": "Daniel"
+      },
+      {
+        "family": "Huang",
+        "given": "Shi"
+      },
+      {
+        "family": "Gallo",
+        "given": "Richard"
+      },
+      {
+        "family": "Callewaert",
+        "given": "Chris"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki S."
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Roeselers",
+        "given": "Guus"
+      },
+      {
+        "family": "Laiola",
+        "given": "Manolo"
+      },
+      {
+        "family": "Shetty",
+        "given": "Sudarshan A."
+      },
+      {
+        "family": "Kelley",
+        "given": "Scott T."
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      },
+      {
+        "family": "Bartko",
+        "given": "Andrew"
+      }
+    ],
     "container-title": "Communications Biology",
-    "id": "lahti2025",
+    "id": "Myers2025",
+    "issue": "1",
     "issued": {
       "date-parts": [
         [
-          2025
+          2025,
+          8
         ]
       ]
     },
     "keyword": "bioscience",
-    "note": "In press.",
+    "page": "1159",
     "title": "Chronological age estimation from human microbiomes with transformer-based robust principal component analysis",
     "type": "article-journal",
-    "volume": ""
+    "volume": "8"
   },
   {
     "DOI": "10.1101/2025.06.25.25330258",
@@ -130,8 +199,7 @@
     "page": "2025.06.25.25330258",
     "status": "preprint",
     "title": "Lifestyle associates with unique resistome and microbiome signatures in children",
-    "type": "article-journal",
-    "volume": ""
+    "type": "article-journal"
   },
   {
     "DOI": "10.1038/s41467-025-61137-x",
@@ -195,7 +263,8 @@
     "issued": {
       "date-parts": [
         [
-          2025
+          2025,
+          7
         ]
       ]
     },
@@ -316,7 +385,7 @@
       "date-parts": [
         [
           2025,
-          8
+          6
         ]
       ]
     },
@@ -410,7 +479,8 @@
     "issued": {
       "date-parts": [
         [
-          2025
+          2025,
+          5
         ]
       ]
     },
@@ -570,7 +640,8 @@
     "issued": {
       "date-parts": [
         [
-          2025
+          2025,
+          6
         ]
       ]
     },
@@ -683,7 +754,8 @@
     "issued": {
       "date-parts": [
         [
-          2025
+          2025,
+          5
         ]
       ]
     },
