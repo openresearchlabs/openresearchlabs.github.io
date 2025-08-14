@@ -2,6 +2,64 @@
   {
     "author": [
       {
+        "family": "Viitaharju",
+        "given": "Jenni"
+      },
+      {
+        "family": "Kauko",
+        "given": "Otto"
+      },
+      {
+        "family": "Toivola",
+        "given": "Diana"
+      },
+      {
+        "family": "Seitz",
+        "given": "Timo"
+      },
+      {
+        "family": "Merilahti",
+        "given": "Johannes"
+      },
+      {
+        "family": "Kalliomäki",
+        "given": "Marko"
+      },
+      {
+        "family": "Polari",
+        "given": "Lauri"
+      },
+      {
+        "family": "Benchraka",
+        "given": "Chouaib"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Laitinen",
+        "given": "Kirsi"
+      }
+    ],
+    "container-title": "Molecular Nutrition & Food Research",
+    "id": "Viitaharju2025",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "In press.",
+    "title": "Breast milk proteome: Changes in the different stages of lactation and impacts of gestational diabetes mellitus and body mass index",
+    "title-short": "Breast milk proteome",
+    "type": "article-journal"
+  },
+  {
+    "author": [
+      {
         "family": "Jakubovics",
         "given": "Nick"
       },
