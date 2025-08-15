@@ -1,5 +1,21 @@
 [
   {
+    "container-title": "Gut Pathogens",
+    "id": "leo2025",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "In press.",
+    "title": "Associations between gut microbiome and circulating cytokines: A cross-sectional analysis in the FINRISK 2002 population cohort",
+    "title-short": "Associations between gut microbiome and circulating cytokines",
+    "type": "article-journal"
+  },
+  {
     "author": [
       {
         "family": "Viitaharju",
