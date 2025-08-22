@@ -1,5 +1,113 @@
 [
   {
+    "author": [
+      {
+        "family": "Ruuskanen",
+        "given": "Matti"
+      },
+      {
+        "family": "Gopalakrishnan",
+        "given": "Shyam"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Firbas",
+        "given": "Panos"
+      },
+      {
+        "family": "Feldner",
+        "given": "Dylan"
+      },
+      {
+        "family": "Boza",
+        "given": "Gergely"
+      },
+      {
+        "family": "Borman",
+        "given": "Tuomas"
+      },
+      {
+        "family": "Erawijantari",
+        "given": "Pande"
+      },
+      {
+        "family": "Scheuring",
+        "given": "István"
+      },
+      {
+        "family": "Ágnes",
+        "given": "Szilágyiné Móréh"
+      }
+    ],
+    "container-title": "Briefings in Bioinformatics",
+    "id": "Ruuskanen2025",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "In press.",
+    "title": "Multi-omics time-series analysis in microbiome research: A systematic review",
+    "title-short": "Multi-omics time-series analysis in microbiome research",
+    "type": "article-journal"
+  },
+  {
+    "author": [
+      {
+        "family": "Borman",
+        "given": "Tuomas"
+      },
+      {
+        "family": "Sannikov",
+        "given": "Artur"
+      },
+      {
+        "family": "Finn",
+        "given": "Robert D."
+      },
+      {
+        "family": "Limborg",
+        "given": "Morten Tønsberg"
+      },
+      {
+        "family": "Rogers",
+        "given": "Alexander B."
+      },
+      {
+        "family": "Kale",
+        "given": "Varsha"
+      },
+      {
+        "family": "Hanhineva",
+        "given": "Kati"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "Gut Pathogens",
+    "id": "Borman2025",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "In press.",
+    "title": "HoloFoodR: A statistical programming framework for holo-omics data integration workflows",
+    "title-short": "HoloFoodR",
+    "type": "article-journal"
+  },
+  {
     "container-title": "Gut Pathogens",
     "id": "leo2025",
     "issued": {
