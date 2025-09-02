@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Edus on Turku Data Science Group</title><link>http://datascience.utu.fi/edu/</link><description>Recent content in Edus on Turku Data Science Group</description><generator>Hugo</generator><language>en-us</language><atom:link href="http://datascience.utu.fi/edu/index.xml" rel="self" type="application/rss+xml"/><item><title>EDU</title><link>http://datascience.utu.fi/edu/resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/edu/resources/</guid><description>&lt;h2 id="resources">Resources&lt;/h2>
-&lt;h3 id="tutorials-and-data">Tutorials and Data&lt;/h3>
-&lt;p>&lt;strong>Microbiome data science&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://microbiome.github.io/OMA">Microbiome data science with R/Bioconductor&lt;/a> (beta version)&lt;/li>
-&lt;li>&lt;a href="https://microbiome.github.io/tutorials">R tutorial for phyloseq&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>Open government data analytics&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="http://ropengov.org/projects">Various R tutorials&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>Data visualization&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://ropengov.github.io/geofi">Finnish geospatial data visualization in R&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3 id="teaching-software--online-resources">Teaching software &amp;amp; online resources&lt;/h3>
-&lt;p>&lt;a href="https://ropengov.github.io/edu/">A framework for creating and assessing exercises for R courses&lt;/a> (presented in UseR2017!; Markus Kainu)&lt;/p>
-&lt;p>&lt;strong>Open access to educational resources&lt;/strong> National policy and executive plan by the higher education and research community for 2021-2025 (2020) &lt;a href="https://doi.org/10.23847/isbn.9789525995251">DOI:10.23847/isbn.9789525995251&lt;/a>&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Edus on Turku Data Science Group</title><link>http://datascience.utu.fi/edu/</link><description>Recent content in Edus on Turku Data Science Group</description><generator>Hugo</generator><language>en-us</language><atom:link href="http://datascience.utu.fi/edu/index.xml" rel="self" type="application/rss+xml"/><item><title>EDU</title><link>http://datascience.utu.fi/edu/resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/edu/resources/</guid><description>&lt;h2 id="resources"&gt;Resources&lt;/h2&gt;
+&lt;h3 id="tutorials-and-data"&gt;Tutorials and Data&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Microbiome data science&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://microbiome.github.io/OMA"&gt;Microbiome data science with R/Bioconductor&lt;/a&gt; (beta version)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://microbiome.github.io/tutorials"&gt;R tutorial for phyloseq&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Open government data analytics&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://ropengov.org/projects"&gt;Various R tutorials&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Data visualization&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://ropengov.github.io/geofi"&gt;Finnish geospatial data visualization in R&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="teaching-software--online-resources"&gt;Teaching software &amp;amp; online resources&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://ropengov.github.io/edu/"&gt;A framework for creating and assessing exercises for R courses&lt;/a&gt; (presented in UseR2017!; Markus Kainu)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Open access to educational resources&lt;/strong&gt; National policy and executive plan by the higher education and research community for 2021-2025 (2020) &lt;a href="https://doi.org/10.23847/isbn.9789525995251"&gt;DOI:10.23847/isbn.9789525995251&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
