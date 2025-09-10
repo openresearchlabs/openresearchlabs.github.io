@@ -54,14 +54,12 @@
     "type": "article-journal"
   },
   {
+    "DOI": "10.1111/dom.70109",
+    "ISSN": "1462-8902",
     "author": [
       {
         "family": "Hentilä",
         "given": "Jaakko"
-      },
-      {
-        "family": "Hannukainen",
-        "given": "Jarna"
       },
       {
         "family": "Tuisku",
@@ -84,12 +82,12 @@
         "given": "Heidi"
       },
       {
-        "family": "Riikka",
-        "given": "Lautamäki"
+        "family": "Lautamäki",
+        "given": "Riikka"
       },
       {
         "family": "Koskensalo",
-        "given": "Kalle Matias"
+        "given": "Kalle"
       },
       {
         "family": "Nummenmaa",
@@ -104,8 +102,12 @@
         "given": "Semi"
       },
       {
+        "family": "Pietiläinen",
+        "given": "Kirsi"
+      },
+      {
         "family": "Kaprio",
-        "given": "Jaakko A"
+        "given": "Jaakko"
       },
       {
         "family": "Lahti",
@@ -116,12 +118,16 @@
         "given": "Tarja"
       },
       {
-        "family": "Juha",
-        "given": "Rinne"
+        "family": "Rinne",
+        "given": "Juha"
+      },
+      {
+        "family": "Hannukainen",
+        "given": "Jarna"
       }
     ],
     "container-title": "Diabetes, Obesity and Metabolism",
-    "id": "Hentilä2025",
+    "id": "Hentila2025",
     "issued": {
       "date-parts": [
         [
@@ -130,7 +136,6 @@
       ]
     },
     "keyword": "bioscience",
-    "note": "In press.",
     "title": "Obesity is associated with increased brain glucose uptake and activity but not neuroinflammation (TSPO availability) in monozygotic twin pairs discordant for BMI – exercise training reverses increased brain activity",
     "type": "article-journal"
   },
