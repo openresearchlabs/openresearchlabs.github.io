@@ -1,9 +1,19 @@
 [
   {
+    "DOI": "10.1016/j.cdnut.2025.107553",
+    "ISSN": "2475-2991",
     "author": [
       {
         "family": "Houttu",
         "given": "Veera"
+      },
+      {
+        "family": "Mongad",
+        "given": "Dattatray"
+      },
+      {
+        "family": "Houttu",
+        "given": "Noora"
       },
       {
         "family": "Saros",
@@ -14,24 +24,16 @@
         "given": "Chunpeng"
       },
       {
-        "family": "Mongad",
-        "given": "Dattatray"
-      },
-      {
-        "family": "Lahti",
-        "given": "Leo"
+        "family": "Viitaharju",
+        "given": "Jenni"
       },
       {
         "family": "Vahlberg",
         "given": "Tero"
       },
       {
-        "family": "Houttu",
-        "given": "Noora"
-      },
-      {
-        "family": "Viitaharju",
-        "given": "Jenni"
+        "family": "Lahti",
+        "given": "Leo"
       },
       {
         "family": "Laitinen",
@@ -43,14 +45,76 @@
     "issued": {
       "date-parts": [
         [
-          2025
+          2025,
+          9
         ]
       ]
     },
     "keyword": "bioscience",
-    "note": "In press.",
+    "page": "107553",
     "title": "The impact of maternal supplementation of fish oil and/or probiotics during pregnancy on the serum metabolomic profile from infancy to childhood: Secondary analysis of a randomized placebo-controlled trial.",
     "title-short": "The impact of maternal supplementation of fish oil and/or probiotics during pregnancy on the serum metabolomic profile from infancy to childhood",
+    "type": "article-journal"
+  },
+  {
+    "DOI": "10.1002/mnfr.70225",
+    "ISSN": "1613-4133",
+    "author": [
+      {
+        "family": "Seitz",
+        "given": "Timo"
+      },
+      {
+        "family": "Viitaharju",
+        "given": "Jenni"
+      },
+      {
+        "family": "Benchraka",
+        "given": "Chouaib"
+      },
+      {
+        "family": "Merilahti",
+        "given": "Johannes"
+      },
+      {
+        "family": "Kalliomäki",
+        "given": "Marko"
+      },
+      {
+        "family": "Polari",
+        "given": "Lauri"
+      },
+      {
+        "family": "Toivola",
+        "given": "Diana"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Kauko",
+        "given": "Otto"
+      },
+      {
+        "family": "Laitinen",
+        "given": "Kirsi"
+      }
+    ],
+    "container-title": "Molecular Nutrition & Food Research",
+    "id": "Seitz2025",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          9
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "e70225",
+    "title": "Breast milk proteome: Changes in the different stages of lactation and impacts of gestational diabetes mellitus and body mass index",
+    "title-short": "Breast milk proteome",
     "type": "article-journal"
   },
   {
@@ -131,7 +195,8 @@
     "issued": {
       "date-parts": [
         [
-          2025
+          2025,
+          9
         ]
       ]
     },
@@ -187,7 +252,8 @@
     "issued": {
       "date-parts": [
         [
-          2025
+          2025,
+          8
         ]
       ]
     },
@@ -237,7 +303,8 @@
     "issued": {
       "date-parts": [
         [
-          2025
+          2025,
+          8
         ]
       ]
     },
@@ -253,7 +320,8 @@
     "issued": {
       "date-parts": [
         [
-          2025
+          2025,
+          8
         ]
       ]
     },
@@ -261,64 +329,6 @@
     "note": "In press.",
     "title": "Associations between gut microbiome and circulating cytokines: A cross-sectional analysis in the FINRISK 2002 population cohort",
     "title-short": "Associations between gut microbiome and circulating cytokines",
-    "type": "article-journal"
-  },
-  {
-    "author": [
-      {
-        "family": "Viitaharju",
-        "given": "Jenni"
-      },
-      {
-        "family": "Kauko",
-        "given": "Otto"
-      },
-      {
-        "family": "Toivola",
-        "given": "Diana"
-      },
-      {
-        "family": "Seitz",
-        "given": "Timo"
-      },
-      {
-        "family": "Merilahti",
-        "given": "Johannes"
-      },
-      {
-        "family": "Kalliomäki",
-        "given": "Marko"
-      },
-      {
-        "family": "Polari",
-        "given": "Lauri"
-      },
-      {
-        "family": "Benchraka",
-        "given": "Chouaib"
-      },
-      {
-        "family": "Lahti",
-        "given": "Leo"
-      },
-      {
-        "family": "Laitinen",
-        "given": "Kirsi"
-      }
-    ],
-    "container-title": "Molecular Nutrition & Food Research",
-    "id": "Viitaharju2025",
-    "issued": {
-      "date-parts": [
-        [
-          2025
-        ]
-      ]
-    },
-    "keyword": "bioscience",
-    "note": "In press.",
-    "title": "Breast milk proteome: Changes in the different stages of lactation and impacts of gestational diabetes mellitus and body mass index",
-    "title-short": "Breast milk proteome",
     "type": "article-journal"
   },
   {
