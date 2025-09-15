@@ -117,6 +117,8 @@ The affiliation for the co-supervised PhD candidates indicated in parentheses.
 ## Alumni
 
 Postdocs:
+- Matti Ruuskanen
+- Katariina Pärnänen
 - Guilhem Sommeria-Klein (2021-2024)
 - Rajesh Shigdel (visiting scholar, 2022)
 
