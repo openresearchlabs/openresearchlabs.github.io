@@ -207,8 +207,40 @@
   {
     "author": [
       {
+        "family": "Sherwani",
+        "given": "Moiz Khan"
+      },
+      {
         "family": "Ruuskanen",
-        "given": "Matti"
+        "given": "Matti O."
+      },
+      {
+        "family": "Feldner-Busztin",
+        "given": "Dylan"
+      },
+      {
+        "family": "Firbas",
+        "given": "Panos Nisantzis"
+      },
+      {
+        "family": "Boza",
+        "given": "Gergely"
+      },
+      {
+        "family": "Móréh",
+        "given": "Ágnes"
+      },
+      {
+        "family": "Borman",
+        "given": "Tuomas"
+      },
+      {
+        "family": "Erawijantari",
+        "given": "Pande Putu"
+      },
+      {
+        "family": "Scheuring",
+        "given": "István"
       },
       {
         "family": "Gopalakrishnan",
@@ -217,38 +249,10 @@
       {
         "family": "Lahti",
         "given": "Leo"
-      },
-      {
-        "family": "Firbas",
-        "given": "Panos"
-      },
-      {
-        "family": "Feldner",
-        "given": "Dylan"
-      },
-      {
-        "family": "Boza",
-        "given": "Gergely"
-      },
-      {
-        "family": "Borman",
-        "given": "Tuomas"
-      },
-      {
-        "family": "Erawijantari",
-        "given": "Pande"
-      },
-      {
-        "family": "Scheuring",
-        "given": "István"
-      },
-      {
-        "family": "Ágnes",
-        "given": "Szilágyiné Móréh"
       }
     ],
     "container-title": "Briefings in Bioinformatics",
-    "id": "Ruuskanen2025",
+    "id": "Sherwani2025bb",
     "issued": {
       "date-parts": [
         [
@@ -315,21 +319,74 @@
     "type": "article-journal"
   },
   {
+    "DOI": "10.1186/s13099-025-00742-z",
+    "ISSN": "1757-4749",
+    "author": [
+      {
+        "family": "Diab",
+        "given": "Hassan"
+      },
+      {
+        "family": "Langén",
+        "given": "Ville"
+      },
+      {
+        "family": "Yeo",
+        "given": "Li-Fang"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Pärnänen",
+        "given": "Katariina"
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      },
+      {
+        "family": "Jalkanen",
+        "given": "Sirpa"
+      },
+      {
+        "family": "Salmi",
+        "given": "Marko"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      },
+      {
+        "family": "Palmu",
+        "given": "Joonatan"
+      }
+    ],
     "container-title": "Gut Pathogens",
-    "id": "leo2025",
+    "id": "Diab2025",
+    "issue": "1",
     "issued": {
       "date-parts": [
         [
-          2025,
-          8
+          2025
         ]
       ]
     },
     "keyword": "bioscience",
-    "note": "In press.",
+    "page": "66",
     "title": "Associations between gut microbiome and circulating cytokines: A cross-sectional analysis in the FINRISK 2002 population cohort",
     "title-short": "Associations between gut microbiome and circulating cytokines",
-    "type": "article-journal"
+    "type": "article-journal",
+    "volume": "17"
   },
   {
     "author": [
