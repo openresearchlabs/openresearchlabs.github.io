@@ -1,5 +1,89 @@
 [
   {
+    "DOI": "10.1016/j.isci.2025.113596",
+    "ISSN": "2589-0042",
+    "author": [
+      {
+        "family": "Aatsinki",
+        "given": "Anna-Katariina"
+      },
+      {
+        "family": "Lamichhane",
+        "given": "Santosh"
+      },
+      {
+        "family": "Isokääntä",
+        "given": "Heidi"
+      },
+      {
+        "family": "Sen",
+        "given": "Partho"
+      },
+      {
+        "family": "Kråkström",
+        "given": "Matilda"
+      },
+      {
+        "family": "Alves",
+        "given": "Marina Amaral"
+      },
+      {
+        "family": "Keskitalo",
+        "given": "Anniina"
+      },
+      {
+        "family": "Munukka",
+        "given": "Eveliina"
+      },
+      {
+        "family": "Karlsson",
+        "given": "Hasse"
+      },
+      {
+        "family": "Perasto",
+        "given": "Laura"
+      },
+      {
+        "family": "Lukkarinen",
+        "given": "Minna"
+      },
+      {
+        "family": "Oresic",
+        "given": "Matej"
+      },
+      {
+        "family": "Kailanto",
+        "given": "Henna-Maria"
+      },
+      {
+        "family": "Karlsson",
+        "given": "Linnea"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Dickens",
+        "given": "Alex M."
+      }
+    ],
+    "container-title": "iScience",
+    "id": "Aatsinki2025",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "In press.",
+    "page": "113596",
+    "title": "Dynamics of gut metabolome and microbiota maturation during early life",
+    "type": "article-journal"
+  },
+  {
     "DOI": "10.1016/j.cdnut.2025.107553",
     "ISSN": "2475-2991",
     "author": [
