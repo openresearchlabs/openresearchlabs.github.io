@@ -42,6 +42,7 @@
     ],
     "container-title": "Current Developments in Nutrition",
     "id": "Houttu2025",
+    "issue": "10",
     "issued": {
       "date-parts": [
         [
@@ -52,9 +53,10 @@
     },
     "keyword": "bioscience",
     "page": "107553",
-    "title": "The impact of maternal supplementation of fish oil and/or probiotics during pregnancy on the serum metabolomic profile from infancy to childhood: Secondary analysis of a randomized placebo-controlled trial.",
+    "title": "The impact of maternal supplementation of fish oil and/or probiotics during pregnancy on the serum metabolomic profile from infancy to childhood: Secondary analysis of a randomized placebo-controlled trial",
     "title-short": "The impact of maternal supplementation of fish oil and/or probiotics during pregnancy on the serum metabolomic profile from infancy to childhood",
-    "type": "article-journal"
+    "type": "article-journal",
+    "volume": "9"
   },
   {
     "DOI": "",
