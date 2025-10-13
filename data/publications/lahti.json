@@ -1,5 +1,43 @@
 [
   {
+    "DOI": "10.1093/bioinformatics/btaf570",
+    "ISSN": "1367-4811",
+    "author": [
+      {
+        "family": "Mostafa",
+        "given": "Ali"
+      },
+      {
+        "family": "Jeba",
+        "given": "Akewak"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Coffey",
+        "given": "Eleanor"
+      }
+    ],
+    "container-title": "Bioinformatics",
+    "id": "Mostafa2025",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "In press.",
+    "page": "btaf570",
+    "title": "LimROTS: A hybrid method integrating empirical bayes and reproducibility-optimized statistics for robust analysis of proteomics data",
+    "title-short": "LimROTS",
+    "type": "article-journal"
+  },
+  {
     "DOI": "10.1016/j.cdnut.2025.107553",
     "ISSN": "2475-2991",
     "author": [
@@ -57,42 +95,6 @@
     "title-short": "The impact of maternal supplementation of fish oil and/or probiotics during pregnancy on the serum metabolomic profile from infancy to childhood",
     "type": "article-journal",
     "volume": "9"
-  },
-  {
-    "DOI": "",
-    "author": [
-      {
-        "family": "Mostafa",
-        "given": "Ali"
-      },
-      {
-        "family": "Jeba",
-        "given": "Akewak"
-      },
-      {
-        "family": "Lahti",
-        "given": "Leo"
-      },
-      {
-        "family": "Coffey",
-        "given": "Eleanor"
-      }
-    ],
-    "container-title": "Bioinformatics",
-    "id": "Mostafa2025",
-    "issued": {
-      "date-parts": [
-        [
-          2025,
-          10
-        ]
-      ]
-    },
-    "keyword": "bioscience",
-    "note": "In press.",
-    "title": "LimROTS: A hybrid method integrating empirical bayes and reproducibility-optimized statistics for robust analysis of proteomics data",
-    "title-short": "LimROTS",
-    "type": "article-journal"
   },
   {
     "DOI": "10.1016/j.isci.2025.113596",
