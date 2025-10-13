@@ -37,6 +37,72 @@
     "type": "article-journal"
   },
   {
+    "DOI": "10.1093/bib/bbaf502",
+    "author": [
+      {
+        "family": "Sherwani",
+        "given": "Moiz Khan"
+      },
+      {
+        "family": "Ruuskanen",
+        "given": "Matti O."
+      },
+      {
+        "family": "Feldner-Busztin",
+        "given": "Dylan"
+      },
+      {
+        "family": "Firbas",
+        "given": "Panos Nisantzis"
+      },
+      {
+        "family": "Boza",
+        "given": "Gergely"
+      },
+      {
+        "family": "Móréh",
+        "given": "Ágnes"
+      },
+      {
+        "family": "Borman",
+        "given": "Tuomas"
+      },
+      {
+        "family": "Erawijantari",
+        "given": "Pande Putu"
+      },
+      {
+        "family": "Scheuring",
+        "given": "István"
+      },
+      {
+        "family": "Gopalakrishnan",
+        "given": "Shyam"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "Briefings in Bioinformatics",
+    "id": "Sherwani2025",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "bbaf502",
+    "title": "Multi-omics time-series analysis in microbiome research: A systematic review",
+    "title-short": "Multi-omics time-series analysis in microbiome research",
+    "type": "article-journal",
+    "volume": "26"
+  },
+  {
     "DOI": "10.1016/j.cdnut.2025.107553",
     "ISSN": "2475-2991",
     "author": [
@@ -326,69 +392,6 @@
     },
     "keyword": "bioscience",
     "title": "Obesity is associated with increased brain glucose uptake and activity but not neuroinflammation (TSPO availability) in monozygotic twin pairs discordant for BMI – exercise training reverses increased brain activity",
-    "type": "article-journal"
-  },
-  {
-    "author": [
-      {
-        "family": "Sherwani",
-        "given": "Moiz Khan"
-      },
-      {
-        "family": "Ruuskanen",
-        "given": "Matti O."
-      },
-      {
-        "family": "Feldner-Busztin",
-        "given": "Dylan"
-      },
-      {
-        "family": "Firbas",
-        "given": "Panos Nisantzis"
-      },
-      {
-        "family": "Boza",
-        "given": "Gergely"
-      },
-      {
-        "family": "Móréh",
-        "given": "Ágnes"
-      },
-      {
-        "family": "Borman",
-        "given": "Tuomas"
-      },
-      {
-        "family": "Erawijantari",
-        "given": "Pande Putu"
-      },
-      {
-        "family": "Scheuring",
-        "given": "István"
-      },
-      {
-        "family": "Gopalakrishnan",
-        "given": "Shyam"
-      },
-      {
-        "family": "Lahti",
-        "given": "Leo"
-      }
-    ],
-    "container-title": "Briefings in Bioinformatics",
-    "id": "Sherwani2025bb",
-    "issued": {
-      "date-parts": [
-        [
-          2025,
-          8
-        ]
-      ]
-    },
-    "keyword": "bioscience",
-    "note": "In press.",
-    "title": "Multi-omics time-series analysis in microbiome research: A systematic review",
-    "title-short": "Multi-omics time-series analysis in microbiome research",
     "type": "article-journal"
   },
   {
@@ -786,70 +789,6 @@
     "title": "Variation and prognostic potential of the gut antibiotic resistome in the FINRISK 2002 cohort",
     "type": "article-journal",
     "volume": "16"
-  },
-  {
-    "DOI": "10.1101/2025.07.03.659054",
-    "author": [
-      {
-        "family": "Sherwani",
-        "given": "Moiz Khan"
-      },
-      {
-        "family": "Ruuskanen",
-        "given": "Matti"
-      },
-      {
-        "family": "Feldner-Busztin",
-        "given": "Dylan"
-      },
-      {
-        "family": "Firbas",
-        "given": "Panos Nisantzis"
-      },
-      {
-        "family": "Boza",
-        "given": "Gergely"
-      },
-      {
-        "family": "Moreh",
-        "given": "Agnes"
-      },
-      {
-        "family": "Borman",
-        "given": "Tuomas"
-      },
-      {
-        "family": "Erawijantari",
-        "given": "Pande P"
-      },
-      {
-        "family": "Scheuring",
-        "given": "Istvan"
-      },
-      {
-        "family": "Gopalakrishnan",
-        "given": "Shyam"
-      },
-      {
-        "family": "Lahti",
-        "given": "Leo"
-      }
-    ],
-    "container-title": "bioRXiv",
-    "id": "Sherwani2025",
-    "issued": {
-      "date-parts": [
-        [
-          2025,
-          7
-        ]
-      ]
-    },
-    "keyword": "bioscience",
-    "status": "preprint",
-    "title": "Multi-omics time-series analysis in microbiome research: A systematic review",
-    "title-short": "Multi-omics time-series analysis in microbiome research",
-    "type": "article-journal"
   },
   {
     "DOI": "10.1016/j.bbih.2025.101042",
