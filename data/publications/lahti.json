@@ -31,7 +31,6 @@
       ]
     },
     "keyword": "bioscience",
-    "note": "In press.",
     "page": "btaf570",
     "title": "LimROTS: A hybrid method integrating empirical bayes and reproducibility-optimized statistics for robust analysis of proteomics data",
     "title-short": "LimROTS",
@@ -1292,13 +1291,24 @@
         "given": "Ville"
       },
       {
-        "family": "Shivang Bhanushali",
-        "given": "Johan Bengtsson-Palme"
+        "family": "Bhanushali",
+        "given": "Shivang"
       },
       {
-        "family": "Collignon P",
-        "given": "Katariina Pärnänen",
-        "suffix": "John J Beggs"
+        "family": "Bengtsson-Palme",
+        "given": "Johan"
+      },
+      {
+        "family": "P",
+        "given": "Collignon"
+      },
+      {
+        "family": "Beggs",
+        "given": "John J"
+      },
+      {
+        "family": "Pärnänen",
+        "given": "Katariina"
       },
       {
         "family": "Lahti",
