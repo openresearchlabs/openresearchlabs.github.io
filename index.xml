@@ -204,6 +204,96 @@ research/study positions.&lt;/p&gt;
 
 &lt;p&gt;
  
+ &lt;b&gt;Multi-omics time-series analysis in microbiome research: A systematic review&lt;/b&gt;
+ &lt;br&gt;
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ Sherwani
+ M,
+ 
+ 
+ 
+ Ruuskanen
+ M,
+ 
+ 
+ 
+ Feldner-Busztin
+ D,
+ 
+ 
+ 
+ Firbas
+ P,
+ 
+ 
+ 
+ Boza
+ G,
+ 
+ 
+ 
+ Móréh
+ Á,
+ 
+ 
+ 
+ Borman
+ T,
+ 
+ 
+ 
+ Erawijantari
+ P,
+ 
+ 
+ 
+ Scheuring
+ I,
+ 
+ 
+ 
+ Gopalakrishnan
+ S&amp;#32;&amp;amp;&amp;#32;
+ 
+ 
+ 
+ Lahti
+ L.
+ 
+ 
+ 
+
+&lt;br&gt;Briefings in Bioinformatics 26(5),
+2025&lt;br&gt;
+
+
+
+
+ &lt;a href="https://doi.org/10.1093/bib/bbaf502"&gt;10.1093/bib/bbaf502&lt;/a&gt;
+
+
+
+&lt;/p&gt;
+ 
+ 
+
+
+
+&lt;p&gt;
+ 
  &lt;b&gt;The impact of maternal supplementation of fish oil and/or probiotics during pregnancy on the serum metabolomic profile from infancy to childhood: Secondary analysis of a randomized placebo-controlled trial&lt;/b&gt;
  &lt;br&gt;
  
@@ -1160,96 +1250,6 @@ Published by the Committee for Public Information (TJNK) and Federation of Finni
 
 &lt;p&gt;
  
- &lt;b&gt;Multi-omics time-series analysis in microbiome research: A systematic review&lt;/b&gt;
- &lt;br&gt;
- 
-
-
-
-
-
-
-
-
-
-
- 
- 
- 
- Sherwani
- M,
- 
- 
- 
- Ruuskanen
- M,
- 
- 
- 
- Feldner-Busztin
- D,
- 
- 
- 
- Firbas
- P,
- 
- 
- 
- Boza
- G,
- 
- 
- 
- Moreh
- A,
- 
- 
- 
- Borman
- T,
- 
- 
- 
- Erawijantari
- P,
- 
- 
- 
- Scheuring
- I,
- 
- 
- 
- Gopalakrishnan
- S&amp;#32;&amp;amp;&amp;#32;
- 
- 
- 
- Lahti
- L.
- 
- 
- 
-
-&lt;br&gt;bioRXiv
-2025&lt;br&gt;
-
-
-
-
- &lt;a href="https://doi.org/10.1101/2025.07.03.659054"&gt;10.1101/2025.07.03.659054&lt;/a&gt;
-
-
-
-&lt;/p&gt;
- 
- 
-
-
-
-&lt;p&gt;
- 
  &lt;b&gt;Biochemical analyses can complement sequencing-based ARG load monitoring: A case study in indian hospital sewage networks&lt;/b&gt;
  &lt;br&gt;
  
@@ -1302,7 +1302,13 @@ Published by the Committee for Public Information (TJNK) and Federation of Finni
 
 
 
-&lt;/p&gt;</description></item><item><title>Research Topics</title><link>http://datascience.utu.fi/research-topics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/research-topics/</guid><description>&lt;!--Header texts come from themes/hugo-universal-theme/layouts/partials--&gt;
+&lt;/p&gt;
+ 
+ 
+
+
+&lt;h3 id="all-publications"&gt;All publications&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://datascience.utu.fi/research/all"&gt;&lt;strong&gt;All publications&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Research Topics</title><link>http://datascience.utu.fi/research-topics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/research-topics/</guid><description>&lt;!--Header texts come from themes/hugo-universal-theme/layouts/partials--&gt;
 &lt;link href="http://datascience.utu.fi/css/style.research.css" rel="stylesheet"&gt;
 &lt;div class="research-container"&gt;
  &lt;div class="research-text"&gt;
