@@ -1,5 +1,55 @@
 [
   {
+    "DOI": "10.1093/nargab/lqaf133",
+    "ISSN": "2631-9268",
+    "author": [
+      {
+        "family": "Särkkä",
+        "given": "Mikko"
+      },
+      {
+        "family": "Myöhänen",
+        "given": "Sami"
+      },
+      {
+        "family": "Marinov",
+        "given": "Kaloyan"
+      },
+      {
+        "family": "Saarinen",
+        "given": "Inka"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Fortino",
+        "given": "Vittorio"
+      },
+      {
+        "family": "Paananen",
+        "given": "Jussi"
+      }
+    ],
+    "container-title": "NAR Genomics and Bioinformatics",
+    "id": "Sarkka2025",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "lqaf133",
+    "title": "Comparison of missing data handling methods for variant pathogenicity predictors",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
     "DOI": "10.1093/bioinformatics/btaf570",
     "ISSN": "1367-4811",
     "author": [
