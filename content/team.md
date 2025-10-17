@@ -141,6 +141,7 @@ Visiting scholars:
 - Dattatray Mongad (2022; visiting researcher)
 
 Research assistants & interns:
+- Signe Nynäs (2025)
 - Ali Hajj (2025; intern)
 - Shadman Ishraq (2024)
 - Chouaib Benchraka (2021-2024)
