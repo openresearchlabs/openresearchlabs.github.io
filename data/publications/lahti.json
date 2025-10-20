@@ -1,5 +1,61 @@
 [
   {
+    "DOI": "10.1177/00220345251370995",
+    "ISSN": "0022-0345",
+    "author": [
+      {
+        "family": "Manzoor",
+        "given": "Muhammed"
+      },
+      {
+        "family": "Putaala",
+        "given": "Jukka"
+      },
+      {
+        "family": "Zaric",
+        "given": "Svetislav"
+      },
+      {
+        "family": "Leskela",
+        "given": "Jaakko"
+      },
+      {
+        "family": "Dong",
+        "given": "Anbo"
+      },
+      {
+        "family": "Könönen",
+        "given": "Eija"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Paju",
+        "given": "Susanna"
+      },
+      {
+        "family": "Pussinen",
+        "given": "Pirkko"
+      }
+    ],
+    "container-title": "Journal of Dental Research",
+    "id": "Manzoor2025",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "title": "Oral microbial determinants of saliva and serum lipopolysaccharide activity",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
     "DOI": "10.1093/nargab/lqaf133",
     "ISSN": "2631-9268",
     "author": [
@@ -564,63 +620,6 @@
     "title-short": "Associations between gut microbiome and circulating cytokines",
     "type": "article-journal",
     "volume": "17"
-  },
-  {
-    "author": [
-      {
-        "family": "Jakubovics",
-        "given": "Nick"
-      },
-      {
-        "family": "Allippara",
-        "given": "Muhammed"
-      },
-      {
-        "family": "Putaala",
-        "given": "Jukka"
-      },
-      {
-        "family": "Zaric",
-        "given": "Svetislav"
-      },
-      {
-        "family": "Leskela",
-        "given": "Jaakko"
-      },
-      {
-        "family": "Dong",
-        "given": "Anbo"
-      },
-      {
-        "family": "Könönen",
-        "given": "Eija"
-      },
-      {
-        "family": "Lahti",
-        "given": "Leo"
-      },
-      {
-        "family": "Paju",
-        "given": "Susanna"
-      },
-      {
-        "family": "Pussinen",
-        "given": "Pirkko"
-      }
-    ],
-    "container-title": "Journal of Dental Research",
-    "id": "Jakubovics2025",
-    "issued": {
-      "date-parts": [
-        [
-          2025
-        ]
-      ]
-    },
-    "keyword": "bioscience",
-    "note": "In press.",
-    "title": "Oral microbial determinants of saliva and serum lipopolysaccharide activity",
-    "type": "article-journal"
   },
   {
     "DOI": "10.1038/s42003-025-08590-y",
