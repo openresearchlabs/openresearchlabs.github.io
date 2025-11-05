@@ -488,6 +488,7 @@
     ],
     "container-title": "Diabetes, Obesity and Metabolism",
     "id": "Hentila2025",
+    "issue": "12",
     "issued": {
       "date-parts": [
         [
@@ -497,8 +498,10 @@
       ]
     },
     "keyword": "bioscience",
+    "page": "7097-7109",
     "title": "Obesity is associated with increased brain glucose uptake and activity but not neuroinflammation (TSPO availability) in monozygotic twin pairs discordant for BMI – exercise training reverses increased brain activity",
-    "type": "article-journal"
+    "type": "article-journal",
+    "volume": "27"
   },
   {
     "author": [
