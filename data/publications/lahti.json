@@ -1,5 +1,176 @@
 [
   {
+    "DOI": "10.1002/mbo3.70128",
+    "ISSN": "2045-8827",
+    "author": [
+      {
+        "family": "Houttu",
+        "given": "Noora"
+      },
+      {
+        "family": "Mokkala",
+        "given": "Kati"
+      },
+      {
+        "family": "Lindgren",
+        "given": "Himmi"
+      },
+      {
+        "family": "Lotankar",
+        "given": "Mrunalini"
+      },
+      {
+        "family": "Benchraka",
+        "given": "Chouaib"
+      },
+      {
+        "family": "Pärnänen",
+        "given": "Katariina"
+      },
+      {
+        "family": "Saros",
+        "given": "Lotta"
+      },
+      {
+        "family": "Muhli",
+        "given": "Ella"
+      },
+      {
+        "family": "Vahlberg",
+        "given": "Tero"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Laitinen",
+        "given": "Kirsi"
+      }
+    ],
+    "container-title": "MicrobiologyOpen",
+    "id": "Houttu2025b",
+    "issue": "6",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "e70128",
+    "title": "The relationship between gut microbiota during pregnancy and the level of postpartum adiposity",
+    "type": "article-journal",
+    "volume": "14"
+  },
+  {
+    "DOI": "10.1101/2025.10.29.685036",
+    "author": [
+      {
+        "family": "Borman",
+        "given": "Tuomas"
+      },
+      {
+        "family": "Benedetti",
+        "given": "Giulio"
+      },
+      {
+        "family": "Muluh",
+        "given": "Geraldson"
+      },
+      {
+        "family": "Raulo",
+        "given": "Aura"
+      },
+      {
+        "family": "Valderrama",
+        "given": "Benjamin"
+      },
+      {
+        "family": "Sannikov",
+        "given": "Artur"
+      },
+      {
+        "family": "Peschel",
+        "given": "Stefanie"
+      },
+      {
+        "family": "Liu",
+        "given": "Yihan"
+      },
+      {
+        "family": "Hindström",
+        "given": "Rasmus"
+      },
+      {
+        "family": "OMA_consortium",
+        "given": "OMA"
+      },
+      {
+        "family": "Pärnänen",
+        "given": "Katariina"
+      },
+      {
+        "family": "Müller",
+        "given": "Christian L."
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki S."
+      },
+      {
+        "family": "Shetty",
+        "given": "Sudarshan"
+      },
+      {
+        "family": "Ramos",
+        "given": "Marcel"
+      },
+      {
+        "family": "Braccia",
+        "given": "Domenick J."
+      },
+      {
+        "family": "Bravo",
+        "given": "Héctor Corrada"
+      },
+      {
+        "family": "Ernst",
+        "given": "Felix M."
+      },
+      {
+        "family": "Waldron",
+        "given": "Levi"
+      },
+      {
+        "family": "Bastiaanssen",
+        "given": "Thomaz F. S."
+      },
+      {
+        "family": "Mallick",
+        "given": "Himel"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "bioRxiv",
+    "id": "Borman2025OMA",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "status": "preprint",
+    "title": "Orchestrating microbiome analysis with bioconductor",
+    "type": "article-journal"
+  },
+  {
     "DOI": "10.1177/00220345251370995",
     "ISSN": "0022-0345",
     "author": [
@@ -539,7 +710,7 @@
       }
     ],
     "container-title": "Bioinformatics",
-    "id": "Borman2025",
+    "id": "Borman2025HR",
     "issued": {
       "date-parts": [
         [
