@@ -54,7 +54,8 @@
     "issued": {
       "date-parts": [
         [
-          2025
+          2025,
+          12
         ]
       ]
     },
@@ -63,6 +64,59 @@
     "title": "The relationship between gut microbiota during pregnancy and the level of postpartum adiposity",
     "type": "article-journal",
     "volume": "14"
+  },
+  {
+    "DOI": "10.1093/bioinformatics/btaf605",
+    "ISSN": "1367-4811",
+    "author": [
+      {
+        "family": "Borman",
+        "given": "Tuomas"
+      },
+      {
+        "family": "Sannikov",
+        "given": "Artur"
+      },
+      {
+        "family": "Finn",
+        "given": "Robert D."
+      },
+      {
+        "family": "Limborg",
+        "given": "Morten Tønsberg"
+      },
+      {
+        "family": "Rogers",
+        "given": "Alexander B."
+      },
+      {
+        "family": "Kale",
+        "given": "Varsha"
+      },
+      {
+        "family": "Hanhineva",
+        "given": "Kati"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "Bioinformatics",
+    "id": "Borman2025HR",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          11
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "btaf605",
+    "title": "HoloFoodR: A statistical programming framework for holo-omics data integration workflows",
+    "title-short": "HoloFoodR",
+    "type": "article-journal"
   },
   {
     "DOI": "10.1101/2025.10.29.685036",
@@ -673,57 +727,6 @@
     "title": "Obesity is associated with increased brain glucose uptake and activity but not neuroinflammation (TSPO availability) in monozygotic twin pairs discordant for BMI – exercise training reverses increased brain activity",
     "type": "article-journal",
     "volume": "27"
-  },
-  {
-    "author": [
-      {
-        "family": "Borman",
-        "given": "Tuomas"
-      },
-      {
-        "family": "Sannikov",
-        "given": "Artur"
-      },
-      {
-        "family": "Finn",
-        "given": "Robert D."
-      },
-      {
-        "family": "Limborg",
-        "given": "Morten Tønsberg"
-      },
-      {
-        "family": "Rogers",
-        "given": "Alexander B."
-      },
-      {
-        "family": "Kale",
-        "given": "Varsha"
-      },
-      {
-        "family": "Hanhineva",
-        "given": "Kati"
-      },
-      {
-        "family": "Lahti",
-        "given": "Leo"
-      }
-    ],
-    "container-title": "Bioinformatics",
-    "id": "Borman2025HR",
-    "issued": {
-      "date-parts": [
-        [
-          2025,
-          8
-        ]
-      ]
-    },
-    "keyword": "bioscience",
-    "note": "In press.",
-    "title": "HoloFoodR: A statistical programming framework for holo-omics data integration workflows",
-    "title-short": "HoloFoodR",
-    "type": "article-journal"
   },
   {
     "DOI": "10.1186/s13099-025-00742-z",
