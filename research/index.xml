@@ -7,7 +7,7 @@
 
 &lt;p&gt;
  
- &lt;b&gt;Oral microbial determinants of saliva and serum lipopolysaccharide activity&lt;/b&gt;
+ &lt;b&gt;The relationship between gut microbiota during pregnancy and the level of postpartum adiposity&lt;/b&gt;
  &lt;br&gt;
  
 
@@ -23,163 +23,48 @@
  
  
  
- Manzoor
- M,
+ Houttu
+ N,
  
  
  
- Putaala
- J,
- 
- 
- 
- Zaric
- S,
- 
- 
- 
- Leskela
- J,
- 
- 
- 
- Dong
- A,
- 
- 
- 
- Könönen
- E,
- 
- 
- 
- Lahti
- L,
- 
- 
- 
- Paju
- S&amp;#32;&amp;amp;&amp;#32;
- 
- 
- 
- Pussinen
- P.
- 
- 
- 
-
-&lt;br&gt;Journal of Dental Research 1,
-2025&lt;br&gt;
-
-
-
-
- &lt;a href="https://doi.org/10.1177/00220345251370995"&gt;10.1177/00220345251370995&lt;/a&gt;
-
-
-
-&lt;/p&gt;
- 
- 
-
-
-
-&lt;p&gt;
- 
- &lt;b&gt;Comparison of missing data handling methods for variant pathogenicity predictors&lt;/b&gt;
- &lt;br&gt;
- 
-
-
-
-
-
-
-
-
-
-
- 
- 
- 
- Särkkä
- M,
- 
- 
- 
- Myöhänen
- S,
- 
- 
- 
- Marinov
+ Mokkala
  K,
  
  
  
- Saarinen
- I,
+ Lindgren
+ H,
  
  
  
- Lahti
+ Lotankar
+ M,
+ 
+ 
+ 
+ Benchraka
+ C,
+ 
+ 
+ 
+ Pärnänen
+ K,
+ 
+ 
+ 
+ Saros
  L,
  
  
  
- Fortino
- V&amp;#32;&amp;amp;&amp;#32;
+ Muhli
+ E,
  
  
  
- Paananen
- J.
- 
- 
- 
-
-&lt;br&gt;NAR Genomics and Bioinformatics 7(4),
-2025&lt;br&gt;
-
-
-
-
- &lt;a href="https://doi.org/10.1093/nargab/lqaf133"&gt;10.1093/nargab/lqaf133&lt;/a&gt;
-
-
-
-&lt;/p&gt;
- 
- 
-
-
-
-&lt;p&gt;
- 
- &lt;b&gt;LimROTS: A hybrid method integrating empirical bayes and reproducibility-optimized statistics for robust analysis of proteomics data&lt;/b&gt;
- &lt;br&gt;
- 
-
-
-
-
-
-
-
-
-
-
- 
- 
- 
- Mostafa
- A,
- 
- 
- 
- Jeba
- A,
+ Vahlberg
+ T,
  
  
  
@@ -188,19 +73,164 @@
  
  
  
- Coffey
- E.
+ Laitinen
+ K.
  
  
  
 
-&lt;br&gt;Bioinformatics
+&lt;br&gt;MicrobiologyOpen 14(6),
 2025&lt;br&gt;
 
 
 
 
- &lt;a href="https://doi.org/10.1093/bioinformatics/btaf570"&gt;10.1093/bioinformatics/btaf570&lt;/a&gt;
+ &lt;a href="https://doi.org/10.1002/mbo3.70128"&gt;10.1002/mbo3.70128&lt;/a&gt;
+
+
+
+&lt;/p&gt;
+ 
+ 
+
+
+
+&lt;p&gt;
+ 
+ &lt;b&gt;Orchestrating microbiome analysis with bioconductor&lt;/b&gt;
+ &lt;br&gt;
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ Borman
+ T,
+ 
+ 
+ 
+ Benedetti
+ G,
+ 
+ 
+ 
+ Muluh
+ G,
+ 
+ 
+ 
+ Raulo
+ A,
+ 
+ 
+ 
+ Valderrama
+ B,
+ 
+ 
+ 
+ Sannikov
+ A,
+ 
+ 
+ 
+ Peschel
+ S,
+ 
+ 
+ 
+ Liu
+ Y,
+ 
+ 
+ 
+ Hindström
+ R,
+ 
+ 
+ 
+ OMA_consortium
+ O,
+ 
+ 
+ 
+ Pärnänen
+ K,
+ 
+ 
+ 
+ Müller
+ C,
+ 
+ 
+ 
+ Havulinna
+ A,
+ 
+ 
+ 
+ Shetty
+ S,
+ 
+ 
+ 
+ Ramos
+ M,
+ 
+ 
+ 
+ Braccia
+ D,
+ 
+ 
+ 
+ Bravo
+ H,
+ 
+ 
+ 
+ Ernst
+ F,
+ 
+ 
+ 
+ Waldron
+ L,
+ 
+ 
+ 
+ Bastiaanssen
+ T,
+ 
+ 
+ 
+ Mallick
+ H&amp;#32;&amp;amp;&amp;#32;
+ 
+ 
+ 
+ Lahti
+ L.
+ 
+ 
+ 
+
+&lt;br&gt;bioRxiv
+2025&lt;br&gt;
+
+
+
+
+ &lt;a href="https://doi.org/10.1101/2025.10.29.685036"&gt;10.1101/2025.10.29.685036&lt;/a&gt;
 
 
 
@@ -1003,6 +1033,151 @@ Published by the Committee for Public Information (TJNK) and Federation of Finni
 
 &lt;p&gt;
  
+ &lt;b&gt;Orchestrating microbiome analysis with bioconductor&lt;/b&gt;
+ &lt;br&gt;
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ Borman
+ T,
+ 
+ 
+ 
+ Benedetti
+ G,
+ 
+ 
+ 
+ Muluh
+ G,
+ 
+ 
+ 
+ Raulo
+ A,
+ 
+ 
+ 
+ Valderrama
+ B,
+ 
+ 
+ 
+ Sannikov
+ A,
+ 
+ 
+ 
+ Peschel
+ S,
+ 
+ 
+ 
+ Liu
+ Y,
+ 
+ 
+ 
+ Hindström
+ R,
+ 
+ 
+ 
+ OMA_consortium
+ O,
+ 
+ 
+ 
+ Pärnänen
+ K,
+ 
+ 
+ 
+ Müller
+ C,
+ 
+ 
+ 
+ Havulinna
+ A,
+ 
+ 
+ 
+ Shetty
+ S,
+ 
+ 
+ 
+ Ramos
+ M,
+ 
+ 
+ 
+ Braccia
+ D,
+ 
+ 
+ 
+ Bravo
+ H,
+ 
+ 
+ 
+ Ernst
+ F,
+ 
+ 
+ 
+ Waldron
+ L,
+ 
+ 
+ 
+ Bastiaanssen
+ T,
+ 
+ 
+ 
+ Mallick
+ H&amp;#32;&amp;amp;&amp;#32;
+ 
+ 
+ 
+ Lahti
+ L.
+ 
+ 
+ 
+
+&lt;br&gt;bioRxiv
+2025&lt;br&gt;
+
+
+
+
+ &lt;a href="https://doi.org/10.1101/2025.10.29.685036"&gt;10.1101/2025.10.29.685036&lt;/a&gt;
+
+
+
+&lt;/p&gt;
+ 
+ 
+
+
+
+&lt;p&gt;
+ 
  &lt;b&gt;Lifestyle associates with unique resistome and microbiome signatures in children&lt;/b&gt;
  &lt;br&gt;
  
@@ -1080,70 +1255,4 @@ Published by the Committee for Public Information (TJNK) and Federation of Finni
 
 
 
-&lt;/p&gt;
- 
- 
-
-
-
-&lt;p&gt;
- 
- &lt;b&gt;Biochemical analyses can complement sequencing-based ARG load monitoring: A case study in indian hospital sewage networks&lt;/b&gt;
- &lt;br&gt;
- 
-
-
-
-
-
-
-
-
-
-
- 
- 
- 
- Bhanushali
- S,
- 
- 
- 
- Parnanen
- K,
- 
- 
- 
- Mongad
- D,
- 
- 
- 
- Dhotre
- D&amp;#32;&amp;amp;&amp;#32;
- 
- 
- 
- Lahti
- L.
- 
- 
- 
-
-&lt;br&gt;medRxiv
-2024&lt;br&gt;
-
-
-
-
- &lt;a href="https://doi.org/10.1101/2024.05.31.24308262"&gt;10.1101/2024.05.31.24308262&lt;/a&gt;
-
-
-
-&lt;/p&gt;
- 
- 
-
-
-&lt;h3 id="all-publications"&gt;All publications&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://datascience.utu.fi/research/all"&gt;&lt;strong&gt;All publications&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
+&lt;/p&gt;</description></item></channel></rss>
