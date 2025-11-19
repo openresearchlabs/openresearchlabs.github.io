@@ -1,5 +1,44 @@
 [
   {
+    "DOI": "10.63744/eCwMjQ976nWf",
+    "author": [
+      {
+        "family": "Lahtinen",
+        "given": "Aleksi"
+      },
+      {
+        "family": "Edwards",
+        "given": "James Rhys"
+      },
+      {
+        "family": "Calmbach",
+        "given": "Marc"
+      },
+      {
+        "family": "Tautscher",
+        "given": "Isabella"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "Anthology of Computers and the Humanities",
+    "id": "Lahtinen2025",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "keyword": "datascience",
+    "page": "608-625",
+    "title": "Robust modelling of ordinal survey data using probabilistic programming",
+    "type": "article-journal",
+    "volume": "3"
+  },
+  {
     "DOI": "10.1002/mbo3.70128",
     "ISSN": "2045-8827",
     "author": [
