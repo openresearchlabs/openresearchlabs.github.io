@@ -143,6 +143,7 @@
     ],
     "container-title": "Bioinformatics",
     "id": "Borman2025HR",
+    "issue": "11",
     "issued": {
       "date-parts": [
         [
@@ -155,7 +156,8 @@
     "page": "btaf605",
     "title": "HoloFoodR: A statistical programming framework for holo-omics data integration workflows",
     "title-short": "HoloFoodR",
-    "type": "article-journal"
+    "type": "article-journal",
+    "volume": "41"
   },
   {
     "DOI": "10.1101/2025.10.29.685036",
