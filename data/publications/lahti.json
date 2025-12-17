@@ -8147,7 +8147,26 @@
         "given": "Mikko"
       }
     ],
-    "container-title": "Proc. CEUR Workshop Proceedings on Computational Humanities Research",
+    "collection-title": "CEUR workshop proceedings",
+    "container-title": "CHR2020: Proc. CEUR Workshop Proceedings on Computational Humanities Research",
+    "editor": [
+      {
+        "family": "Karsdorp",
+        "given": "Folgert"
+      },
+      {
+        "family": "McGillivray",
+        "given": "Barbara"
+      },
+      {
+        "family": "Nerghes",
+        "given": "Adina"
+      },
+      {
+        "family": "Wevers",
+        "given": "Melvin"
+      }
+    ],
     "id": "Lahti2020chr",
     "issued": {
       "date-parts": [
@@ -8159,8 +8178,11 @@
     },
     "keyword": "dh",
     "page": "80-89",
+    "publisher": "CEUR-WS.org",
+    "publisher-place": "Amsterdam, The Netherlands",
     "title": "Quantifying bias and uncertainty in historical data collections with probabilistic programming",
-    "type": "paper-conference"
+    "type": "paper-conference",
+    "volume": "2723"
   },
   {
     "URL": "https://www.hs.fi/mielipide/art-2000006494641.html",
