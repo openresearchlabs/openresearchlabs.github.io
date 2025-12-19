@@ -2635,7 +2635,8 @@
     "volume": "10"
   },
   {
-    "DOI": "10.48550/arXiv.2305.16689",
+    "DOI": "10.1142/S1793524524500852",
+    "ISSN": "1793-5245",
     "author": [
       {
         "family": "Khalighi",
@@ -2660,6 +2661,7 @@
       ]
     },
     "keyword": "datascience",
+    "page": "2450085",
     "title": "Epidemic transmission modeling with fractional derivatives and environmental pathogens",
     "type": "article-journal"
   },
