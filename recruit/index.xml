@@ -1,31 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Recruits on Turku Data Science Group</title>
-    <link>http://datascience.utu.fi/recruit/</link>
-    <description>Recent content in Recruits on Turku Data Science Group</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://datascience.utu.fi/recruit/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>http://datascience.utu.fi/recruit/2017-sa-eng/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://datascience.utu.fi/recruit/2017-sa-eng/</guid>
-      <description>PhD student position / Project Researcher / Research Assistant Open PhD student position / Project Researcher / Research Assistant in high-throughput biomedical data analysis (Finland / Belgium) 1.7.2017 – 30.6.2019
-A position is open for a PhD candidate on high-throughput biomedical data analysis in the research team of Dr. Leo Lahti in University of Turku, Finland. The project provides a unique opportunity to gain widely applicable data analytical skills and make pioneering work in a rapidly emerging, data-intensive biomedical research area; a particular focus of the project is on computational analysis and modeling of the human microbiome and its individuality, dynamics, and function in large population cohorts.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://datascience.utu.fi/recruit/2017-sa-fin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://datascience.utu.fi/recruit/2017-sa-fin/</guid>
-      <description>Tohtorikoulutettava / Projektitutkija / Tutkimusavustaja Haetaan määräaikaiseen työsuhteeseen ajalle 1.7.2017 – 30.6.2019 jatko-opiskelijaa / projektitutkijaa / tutkimusavustajaa biolääketieteellisen data-analyysin alalla (Suomi / Belgia)
-Jatko-opiskelupaikka biolääketieteellisen data-analyysin alalla on avoinna Dos. Leo Lahden tutkimusryhmässä (Turun yliopisto, Matematiikan ja tilastotieteen laitos). Hanke tarjoaa erinomaiset mahdollisuudet kartuttaa laajalti sovellettavia data-analyysivalmiuksia sekä uuden tutkimuksen tekemiseen nopeasti kasvavalla tutkimusalalla. Hanke keskittyy ihmiskehon mikrobiekosysteemien laskennalliseen mallitukseen. Rahoittajana on Suomen Akatemia. Suositeltu aloituspäivä on 1.7.2017.
-Työnkuva Paikka on suunnattu täysipäiväiseen tutkimukseen ja jatko-opiskeluun ja sisältää tavanomaisen osallistumisen opetus- ja tutkimuksen tukitehtäviin.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Recruits on Turku Data Science Group</title><link>http://datascience.utu.fi/recruit/</link><description>Recent content in Recruits on Turku Data Science Group</description><generator>Hugo</generator><language>en-us</language><atom:link href="http://datascience.utu.fi/recruit/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>http://datascience.utu.fi/recruit/2017-sa-eng/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/recruit/2017-sa-eng/</guid><description>&lt;h2 id="phd-student-position--project-researcher--research-assistant"&gt;PhD student position / Project Researcher / Research Assistant&lt;/h2&gt;
+&lt;p&gt;Open PhD student position / Project Researcher / Research Assistant in high-throughput biomedical data analysis (Finland / Belgium) 1.7.2017 – 30.6.2019&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A position is open for a PhD candidate on high-throughput biomedical data analysis&lt;/strong&gt; in the research team of Dr. &lt;a href="http://www.iki.fi/Leo.Lahti"&gt;Leo Lahti&lt;/a&gt; in University of Turku, Finland. The project provides a unique opportunity to gain widely applicable data analytical skills and make pioneering work in a rapidly emerging, data-intensive biomedical research area; a particular focus of the project is on computational analysis and modeling of the human microbiome and its individuality, dynamics, and function in large population cohorts. The project is funded by Academy of Finland and the preferred starting date is July 1, 2017.&lt;/p&gt;</description></item><item><title/><link>http://datascience.utu.fi/recruit/2017-sa-fin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://datascience.utu.fi/recruit/2017-sa-fin/</guid><description>&lt;h3 id="tohtorikoulutettava--projektitutkija--tutkimusavustaja"&gt;Tohtorikoulutettava / Projektitutkija / Tutkimusavustaja&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Haetaan määräaikaiseen työsuhteeseen ajalle 1.7.2017 – 30.6.2019 jatko-opiskelijaa / projektitutkijaa / tutkimusavustajaa biolääketieteellisen data-analyysin alalla&lt;/strong&gt; (Suomi / Belgia)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jatko-opiskelupaikka biolääketieteellisen data-analyysin alalla&lt;/strong&gt; on avoinna Dos. &lt;a href="http://www.iki.fi/Leo.Lahti"&gt;Leo Lahden&lt;/a&gt; tutkimusryhmässä (Turun yliopisto, Matematiikan ja tilastotieteen laitos). Hanke tarjoaa erinomaiset mahdollisuudet kartuttaa laajalti sovellettavia data-analyysivalmiuksia sekä uuden tutkimuksen tekemiseen nopeasti kasvavalla tutkimusalalla. Hanke keskittyy ihmiskehon mikrobiekosysteemien laskennalliseen mallitukseen. Rahoittajana on Suomen Akatemia. Suositeltu aloituspäivä on 1.7.2017.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Työnkuva&lt;/strong&gt; Paikka on suunnattu täysipäiväiseen tutkimukseen ja jatko-opiskeluun ja sisältää tavanomaisen osallistumisen opetus- ja tutkimuksen tukitehtäviin. Hankkeen tavoitteena on muodostaa kokonaiskuvaa ihmiskehon mikrobiekosysteemien järjestäytymisestä, dynamiikasta, ja terveysvaikutuksista. Tuloksilla on perustutkimuksen lisäksi sovelluksia mm. henkilökohtaisessa lääketieteessä. Työtehtäviin kuuluu ensisijaisesti modernien tilastomenetelmien kehittäminen, jossa voidaan yhdistellä koneoppimisen, ekologian, bioinformatiikan, sekä muiden relevanttien tutkimusalojen lähestymistapoja. Hakijalla on mahdollisuus päästä mukaan Turun biolääketieteelliseen tutkimusyhteisöön ja työskennellä koti- ja ulkomaisten yhteistyökumppanien kanssa. Hanke alkaa 6-12 kuukauden liikkuvuusperiodilla VIB/KU Leuvenin yliopistossa Belgiassa professori &lt;a href="http://www.vib.be/en/research/scientists/Pages/Jeroen-Raes-Lab.aspx"&gt;Jeroen Raesin tutkimusryhmässä&lt;/a&gt; yhdessä Dos. Lahden kanssa.&lt;/p&gt;</description></item></channel></rss>
