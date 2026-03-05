@@ -6,8 +6,7 @@ excerpt: Contact
 
 <link href="/css/style.contact.css" rel="stylesheet">
 
-::: contact-container
-::: text
+
 # How to reach us?
 
 <br/>
@@ -18,7 +17,7 @@ We are part of the [Department of Computing](https://www.utu.fi/en/university/fa
 
 **Twitter** Turku Data Science Group [Twitter](https://twitter.com/openreslabs)
 
-**Email** first.last - at - utu.fi (see the [Team](../team) page for the list)
+**Email**  lahtilab - at - utu.fi (see the [Team](../team) page for the list)
 
 **Mail** [Department of Computing, Faculty of Technology](https://www.utu.fi/en/university/faculty-of-technology/computing), Yliopistonmäki, FI-20014, University of Turku, Finland
 
