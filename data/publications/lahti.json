@@ -1,5 +1,54 @@
 [
   {
+    "author": [
+      {
+        "family": "Kuukkanen",
+        "given": "Ilari"
+      },
+      {
+        "family": "Muluh",
+        "given": "Geraldson"
+      },
+      {
+        "family": "Klisura",
+        "given": "Đorđe"
+      },
+      {
+        "family": "Kortela",
+        "given": "Elisa"
+      },
+      {
+        "family": "Pietikäinen",
+        "given": "Annukka"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Hytönen",
+        "given": "Jukka"
+      },
+      {
+        "family": "Karonen",
+        "given": "Maarit"
+      }
+    ],
+    "container-title": "ACS Omega",
+    "id": "Kuukkanen2026",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "In press.",
+    "title": "Application of mass spectrometry-based metabolomics and machine learning in the diagnostics of lyme neuroborreliosis",
+    "type": "article-journal"
+  },
+  {
     "DOI": "10.48550/arXiv.2602.05938",
     "author": [
       {
