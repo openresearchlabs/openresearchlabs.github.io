@@ -1,5 +1,82 @@
 [
   {
+    "DOI": "10.1111/mmi.70064",
+    "author": [
+      {
+        "family": "Hekkala",
+        "given": "Jenni"
+      },
+      {
+        "family": "Kaisanlahti",
+        "given": "Anna"
+      },
+      {
+        "family": "Tejesvi",
+        "given": "Mysore V."
+      },
+      {
+        "family": "Turunen",
+        "given": "Jenni"
+      },
+      {
+        "family": "Virtanen",
+        "given": "Nikke"
+      },
+      {
+        "family": "Karikka",
+        "given": "Sonja"
+      },
+      {
+        "family": "Erawijantari",
+        "given": "Pande Putu"
+      },
+      {
+        "family": "Samoylenko",
+        "given": "Anatoliy"
+      },
+      {
+        "family": "Bart",
+        "given": "Genevieve"
+      },
+      {
+        "family": "Vainio",
+        "given": "Seppo"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Hukkanen",
+        "given": "Janne"
+      },
+      {
+        "family": "Ruuska-Loewald",
+        "given": "Terhi"
+      },
+      {
+        "family": "Koivukangas",
+        "given": "Vesa"
+      },
+      {
+        "family": "Reunanen",
+        "given": "Justus"
+      }
+    ],
+    "container-title": "Molecular Microbiology",
+    "id": "Hekkala2026",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "title": "Gut microbiota-derived extracellular vesicles in patients with obesity undergoing gastric bypass surgery",
+    "type": "article-journal"
+  },
+  {
     "author": [
       {
         "family": "Kuukkanen",
