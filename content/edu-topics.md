@@ -16,7 +16,7 @@ research/study positions.
 
 
 
-### Courses and events in 2025
+### Courses and events in 2026
 
 Contact us if you are interested. The admission varies by course but most courses are open to application.
 
