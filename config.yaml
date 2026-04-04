@@ -118,4 +118,4 @@ params:
     search: yes
     tags: yes
 Permalinks:
-  blog: /blog/:year/:month/:day/:contentbasename/
+  blog: /blog/:year/:month/:day/:filename/
