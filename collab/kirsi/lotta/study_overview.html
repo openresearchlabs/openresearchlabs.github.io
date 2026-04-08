@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Study overview – FOPP</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-44a3683b6ccfbb924b084949c7b6eae5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link href="site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
+<script src="site_libs/datatables-binding-0.34.0/datatables.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet">
+<script src="site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
+<link href="site_libs/crosstalk-1.2.2/css/crosstalk.min.css" rel="stylesheet">
+<script src="site_libs/crosstalk-1.2.2/js/crosstalk.min.js"></script>
+<link href="site_libs/nouislider-7.0.10/jquery.nouislider.min.css" rel="stylesheet">
+<script src="site_libs/nouislider-7.0.10/jquery.nouislider.min.js"></script>
+<link href="site_libs/selectize-0.12.0/selectize.bootstrap3.css" rel="stylesheet">
+<script src="site_libs/selectize-0.12.0/selectize.min.js"></script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+
+
+<link rel="stylesheet" href="toc-toggle.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">FOPP</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./study_overview.html" aria-current="page"> 
+<span class="menu-text">Study overview</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./analysis_plan.html"> 
+<span class="menu-text">Analysis plan</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./covariate_diagnostics.html"> 
+<span class="menu-text">Covariate and model specification</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./primary_results.html"> 
+<span class="menu-text">Primary results</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./figures.html"> 
+<span class="menu-text">Figures</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./supplementary_tables.html"> 
+<span class="menu-text">Supplementary tables</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./secondary_figures.html"> 
+<span class="menu-text">Secondary figures</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./exposure_atlas.html"> 
+<span class="menu-text">Exposure atlas</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-data" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Data</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-data">    
+        <li>
+    <a class="dropdown-item" href="./clinical_characteristics.html">
+ <span class="dropdown-text">Clinical characteristics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./data_summary.html">
+ <span class="dropdown-text">Data summary</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./data_quality_assumptions.html">
+ <span class="dropdown-text">Data quality and assumptions</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="1">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#research-aim" id="toc-research-aim" class="nav-link active" data-scroll-target="#research-aim"><span class="header-section-number">1</span> Research aim</a></li>
+  <li><a href="#analytic-panels" id="toc-analytic-panels" class="nav-link" data-scroll-target="#analytic-panels"><span class="header-section-number">2</span> Analytic panels</a></li>
+  <li><a href="#exposure-timing-and-families" id="toc-exposure-timing-and-families" class="nav-link" data-scroll-target="#exposure-timing-and-families"><span class="header-section-number">3</span> Exposure timing and families</a></li>
+  <li><a href="#covariate-strategy" id="toc-covariate-strategy" class="nav-link" data-scroll-target="#covariate-strategy"><span class="header-section-number">4</span> Covariate strategy</a></li>
+  <li><a href="#model-families" id="toc-model-families" class="nav-link" data-scroll-target="#model-families"><span class="header-section-number">5</span> Model families</a></li>
+  <li><a href="#multiple-testing" id="toc-multiple-testing" class="nav-link" data-scroll-target="#multiple-testing"><span class="header-section-number">6</span> Multiple testing</a></li>
+  <li><a href="#result-inventory" id="toc-result-inventory" class="nav-link" data-scroll-target="#result-inventory"><span class="header-section-number">7</span> Result inventory</a></li>
+  <li><a href="#execution-status" id="toc-execution-status" class="nav-link" data-scroll-target="#execution-status"><span class="header-section-number">8</span> Execution status</a></li>
+  <li><a href="#interpretation-notes" id="toc-interpretation-notes" class="nav-link" data-scroll-target="#interpretation-notes"><span class="header-section-number">9</span> Interpretation notes</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Study overview</h1>
+</div>
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="research-aim" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="research-aim"><span class="header-section-number">1</span> Research aim</h2>
+<p>Child diet at 2 years and 5-6 years is evaluated against the child plasma metabolome measured at the same ages, with an additional prospective analysis from 2-year diet to 5-6-year metabolites.</p>
+<p>Questions:</p>
+<ol type="1">
+<li>concurrent associations at 2 years</li>
+<li>concurrent associations at 5-6 years</li>
+<li>prospective associations from 2-year diet to 5-6-year metabolites, conditioning on the same metabolite at 2 years</li>
+<li>repeated-measures associations across 2 years and 5-6 years</li>
+</ol>
+</section>
+<section id="analytic-panels" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="analytic-panels"><span class="header-section-number">2</span> Analytic panels</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>panel_tbl <span class="ot">&lt;-</span> raw_df <span class="sc">%&gt;%</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">distinct</span>(StudyID, visit_num) <span class="sc">%&gt;%</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(visit_num, <span class="at">name =</span> <span class="st">"n_children"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">child_age =</span> <span class="fu">visit_label</span>(visit_num),</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">metabolite_features =</span> <span class="fu">length</span>(analysis_obj<span class="sc">$</span>metabolite_cols)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(child_age, n_children, metabolite_features)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">make_table</span>(panel_tbl, <span class="at">caption =</span> <span class="st">"Analytic child-age panels"</span>, <span class="at">table_mode =</span> <span class="st">"compact"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div class="dt-wrap dt-wrap-compact">
+<div class="datatables html-widget html-fill-item" id="htmlwidget-4abaeacfd998af990c68" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-4abaeacfd998af990c68">{"x":{"filter":"none","vertical":false,"caption":"<caption>Analytic child-age panels<\/caption>","data":[["2 Years","5-6 Years"],[239,139],[250,250]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>child_age<\/th>\n      <th>n_children<\/th>\n      <th>metabolite_features<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"scrollX":false,"autoWidth":false,"columnDefs":[{"targets":1,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 0, 3, \",\", \".\", null);\n  }"},{"targets":2,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 0, 3, \",\", \".\", null);\n  }"},{"className":"dt-right","targets":[1,2]},{"name":"child_age","targets":0},{"name":"n_children","targets":1},{"name":"metabolite_features","targets":2}],"order":[],"orderClasses":false}},"evals":["options.columnDefs.0.render","options.columnDefs.1.render"],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+</section>
+<section id="exposure-timing-and-families" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="exposure-timing-and-families"><span class="header-section-number">3</span> Exposure timing and families</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>exposure_tbl <span class="ot">&lt;-</span> <span class="fu">tibble</span>(</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">component =</span> <span class="fu">c</span>(</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Concurrent at 2 Years"</span>,</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Concurrent at 5-6 Years"</span>,</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Prospective: 2-Year Diet to 5-6-Year Metabolites"</span>,</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Repeated-Measures Across 2 Years and 5-6 Years"</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">exposure_timing =</span> <span class="fu">c</span>(<span class="st">"2-year child diet"</span>, <span class="st">"5-6-year child diet"</span>, <span class="st">"2-year child diet"</span>, <span class="st">"2-year child diet paired across both child ages"</span>),</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">exposure_families =</span> <span class="fu">c</span>(</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="fu">paste</span>(<span class="fu">pretty_var</span>(<span class="fu">unique</span>(model_status<span class="sc">$</span>exposure[model_status<span class="sc">$</span>question <span class="sc">==</span> <span class="st">"Q1"</span>])), <span class="at">collapse =</span> <span class="st">"; "</span>),</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    <span class="fu">paste</span>(<span class="fu">pretty_var</span>(<span class="fu">unique</span>(model_status<span class="sc">$</span>exposure[model_status<span class="sc">$</span>question <span class="sc">==</span> <span class="st">"Q2"</span>])), <span class="at">collapse =</span> <span class="st">"; "</span>),</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    <span class="fu">paste</span>(<span class="fu">pretty_var</span>(<span class="fu">unique</span>(model_status<span class="sc">$</span>exposure[model_status<span class="sc">$</span>question <span class="sc">==</span> <span class="st">"Q3"</span>])), <span class="at">collapse =</span> <span class="st">"; "</span>),</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    <span class="fu">paste</span>(<span class="fu">pretty_var</span>(<span class="fu">unique</span>(model_status<span class="sc">$</span>exposure[model_status<span class="sc">$</span>question <span class="sc">==</span> <span class="st">"Q4"</span>])), <span class="at">collapse =</span> <span class="st">"; "</span>)</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="fu">make_table</span>(exposure_tbl, <span class="at">caption =</span> <span class="st">"Exposure timing and families"</span>, <span class="at">table_mode =</span> <span class="st">"wide"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div class="dt-wrap dt-wrap-wide">
+<div class="datatables html-widget html-fill-item" id="htmlwidget-f03d776900ff586fa7f9" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-f03d776900ff586fa7f9">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","caption":"<caption>Exposure timing and families<\/caption>","data":[["Concurrent at 2 Years","Concurrent at 5-6 Years","Prospective: 2-Year Diet to 5-6-Year Metabolites","Repeated-Measures Across 2 Years and 5-6 Years"],["2-year child diet","5-6-year child diet","2-year child diet","2-year child diet paired across both child ages"],["Percent Proteindiet6; Percent Carbohydratediet6; Percent Fatdiet6; Percent Sfadiet6; Percent Mufadiet6; Percent Pufadiet6; Percent n-3 Fatty Acidsdiet6; Percent n-6 Fatty Acidsdiet6; Fibre Diet6; Diet Quality Points 6; Diet Quality Classes 6","Percent Proteindiet7; Percent Carbohydratediet7; Percent Fatdiet7; Percent Sfadiet7; Percent Mufadiet7; Percent Pufadiet7; Percent n-3 Fatty Acidsdiet7; Percent n-6 Fatty Acidsdiet7; Fibre Diet7; Diet Quality Points 7; Diet Quality Classes 7","Percent Proteindiet6; Percent Carbohydratediet6; Percent Fatdiet6; Percent Sfadiet6; Percent Mufadiet6; Percent Pufadiet6; Percent n-3 Fatty Acidsdiet6; Percent n-6 Fatty Acidsdiet6; Fibre Diet6; Diet Quality Points 6; Diet Quality Classes 6","Percent Proteindiet6; Percent Carbohydratediet6; Percent Fatdiet6; Percent Sfadiet6; Percent Mufadiet6; Percent Pufadiet6; Percent n-3 Fatty Acidsdiet6; Percent n-6 Fatty Acidsdiet6; Fibre Diet6; Diet Quality Points 6; Diet Quality Classes 6"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>component<\/th>\n      <th>exposure_timing<\/th>\n      <th>exposure_families<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"scrollX":false,"autoWidth":false,"columnDefs":[{"name":"component","targets":0},{"name":"exposure_timing","targets":1},{"name":"exposure_families","targets":2}],"order":[],"orderClasses":false,"orderCellsTop":true}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+</section>
+<section id="covariate-strategy" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="covariate-strategy"><span class="header-section-number">4</span> Covariate strategy</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>covar_tbl <span class="ot">&lt;-</span> <span class="fu">tibble</span>(</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">analysis_component =</span> <span class="fu">c</span>(</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Concurrent at 2 Years"</span>,</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Concurrent at 5-6 Years"</span>,</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Prospective: 2-Year Diet to 5-6-Year Metabolites"</span>,</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Repeated-Measures Across 2 Years and 5-6 Years"</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">primary_covariates =</span> <span class="fu">c</span>(</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Intervention; maternal age; pre-pregnancy BMI; parity; university education; maternal smoking; GDM status; prematurity; mode of delivery; child sex; birthweight; breastfeeding duration; 2-year fasting; 2-year medication; 2-year antibiotics"</span>,</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Intervention; maternal age; pre-pregnancy BMI; parity; university education; GDM status; mode of delivery; child sex; birthweight; 5-6-year fasting; 5-6-year medication; 5-6-year antibiotics"</span>,</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2-year exposure; baseline metabolite at 2 years; maternal age; pre-pregnancy BMI; parity; university education; maternal smoking; GDM status; prematurity; mode of delivery; child sex; birthweight; breastfeeding duration; 2-year fasting; 2-year medication; 2-year antibiotics"</span>,</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Time-varying paired diet exposure across 2 years and 5-6 years; maternal age; pre-pregnancy BMI; parity; university education; maternal smoking; GDM status; prematurity; mode of delivery; child sex; birthweight; breastfeeding duration; time-varying fasting; time-varying medication; time-varying antibiotics"</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>  <span class="at">sensitivity_additions =</span> <span class="fu">c</span>(</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Small-for-gestational-age; macrosomy; healthy-diet score at 2 years"</span>,</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Maternal smoking; prematurity; breastfeeding duration; small-for-gestational-age; macrosomy; healthy-diet score at 5-6 years"</span>,</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Primary prospective block plus small-for-gestational-age; macrosomy; healthy-diet score at 2 years"</span>,</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Primary repeated-measures block plus small-for-gestational-age; macrosomy; time-varying healthy-diet score"</span></span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a><span class="fu">make_table</span>(covar_tbl, <span class="at">caption =</span> <span class="st">"Primary and sensitivity covariate strategy"</span>, <span class="at">table_mode =</span> <span class="st">"wide"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div class="dt-wrap dt-wrap-wide">
+<div class="datatables html-widget html-fill-item" id="htmlwidget-7c64c76f5df691aa31f9" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-7c64c76f5df691aa31f9">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","caption":"<caption>Primary and sensitivity covariate strategy<\/caption>","data":[["Concurrent at 2 Years","Concurrent at 5-6 Years","Prospective: 2-Year Diet to 5-6-Year Metabolites","Repeated-Measures Across 2 Years and 5-6 Years"],["Intervention; maternal age; pre-pregnancy BMI; parity; university education; maternal smoking; GDM status; prematurity; mode of delivery; child sex; birthweight; breastfeeding duration; 2-year fasting; 2-year medication; 2-year antibiotics","Intervention; maternal age; pre-pregnancy BMI; parity; university education; GDM status; mode of delivery; child sex; birthweight; 5-6-year fasting; 5-6-year medication; 5-6-year antibiotics","2-year exposure; baseline metabolite at 2 years; maternal age; pre-pregnancy BMI; parity; university education; maternal smoking; GDM status; prematurity; mode of delivery; child sex; birthweight; breastfeeding duration; 2-year fasting; 2-year medication; 2-year antibiotics","Time-varying paired diet exposure across 2 years and 5-6 years; maternal age; pre-pregnancy BMI; parity; university education; maternal smoking; GDM status; prematurity; mode of delivery; child sex; birthweight; breastfeeding duration; time-varying fasting; time-varying medication; time-varying antibiotics"],["Small-for-gestational-age; macrosomy; healthy-diet score at 2 years","Maternal smoking; prematurity; breastfeeding duration; small-for-gestational-age; macrosomy; healthy-diet score at 5-6 years","Primary prospective block plus small-for-gestational-age; macrosomy; healthy-diet score at 2 years","Primary repeated-measures block plus small-for-gestational-age; macrosomy; time-varying healthy-diet score"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>analysis_component<\/th>\n      <th>primary_covariates<\/th>\n      <th>sensitivity_additions<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"scrollX":false,"autoWidth":false,"columnDefs":[{"name":"analysis_component","targets":0},{"name":"primary_covariates","targets":1},{"name":"sensitivity_additions","targets":2}],"order":[],"orderClasses":false,"orderCellsTop":true}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+</section>
+<section id="model-families" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="model-families"><span class="header-section-number">5</span> Model families</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>model_tbl <span class="ot">&lt;-</span> <span class="fu">tibble</span>(</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">component =</span> <span class="fu">c</span>(</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Concurrent at 2 Years"</span>,</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Concurrent at 5-6 Years"</span>,</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Prospective: 2-Year Diet to 5-6-Year Metabolites"</span>,</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Repeated-Measures Across 2 Years and 5-6 Years"</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">model_family =</span> <span class="fu">c</span>(<span class="st">"Feature-wise linear model"</span>, <span class="st">"Feature-wise linear model"</span>, <span class="st">"Feature-wise linear model with baseline metabolite adjustment"</span>, <span class="st">"Feature-wise mixed model with child-level repeated measures"</span>),</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">outcome =</span> <span class="fu">c</span>(<span class="st">"2-year metabolite"</span>, <span class="st">"5-6-year metabolite"</span>, <span class="st">"5-6-year metabolite"</span>, <span class="st">"Metabolite measured at both child ages"</span>),</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>  <span class="at">result_rows =</span> <span class="fu">c</span>(<span class="fu">nrow</span>(results<span class="sc">$</span>q1), <span class="fu">nrow</span>(results<span class="sc">$</span>q2), <span class="fu">nrow</span>(results<span class="sc">$</span>q3), <span class="fu">nrow</span>(results<span class="sc">$</span>q4))</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="fu">make_table</span>(model_tbl, <span class="at">caption =</span> <span class="st">"Primary model families"</span>, <span class="at">table_mode =</span> <span class="st">"wide"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div class="dt-wrap dt-wrap-wide">
+<div class="datatables html-widget html-fill-item" id="htmlwidget-826deb91c8b3bd6b66a9" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-826deb91c8b3bd6b66a9">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"integer\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"363\" data-max=\"6000\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","caption":"<caption>Primary model families<\/caption>","data":[["Concurrent at 2 Years","Concurrent at 5-6 Years","Prospective: 2-Year Diet to 5-6-Year Metabolites","Repeated-Measures Across 2 Years and 5-6 Years"],["Feature-wise linear model","Feature-wise linear model","Feature-wise linear model with baseline metabolite adjustment","Feature-wise mixed model with child-level repeated measures"],["2-year metabolite","5-6-year metabolite","5-6-year metabolite","Metabolite measured at both child ages"],[1903,1903,363,6000]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>component<\/th>\n      <th>model_family<\/th>\n      <th>outcome<\/th>\n      <th>result_rows<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"scrollX":false,"autoWidth":false,"columnDefs":[{"targets":3,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 0, 3, \",\", \".\", null);\n  }"},{"className":"dt-right","targets":3},{"name":"component","targets":0},{"name":"model_family","targets":1},{"name":"outcome","targets":2},{"name":"result_rows","targets":3}],"order":[],"orderClasses":false,"orderCellsTop":true}},"evals":["options.columnDefs.0.render"],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+</section>
+<section id="multiple-testing" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="multiple-testing"><span class="header-section-number">6</span> Multiple testing</h2>
+<p>False-discovery control is based on Benjamini-Hochberg adjustment across metabolites, but the adjustment scope differs by model family.</p>
+<ul>
+<li>Concurrent outputs apply BH within each exposure-specific result set.</li>
+<li>Prospective outputs apply BH within each exposure-specific result set.</li>
+<li>Repeated-measures outputs apply BH separately within each exposure and coefficient family.</li>
+</ul>
+</section>
+<section id="result-inventory" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="result-inventory"><span class="header-section-number">7</span> Result inventory</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>q4_main <span class="ot">&lt;-</span> results<span class="sc">$</span>q4 <span class="sc">%&gt;%</span> <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">grepl</span>(<span class="st">":visit_num$"</span>, term))</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>q4_interaction <span class="ot">&lt;-</span> results<span class="sc">$</span>q4 <span class="sc">%&gt;%</span> <span class="fu">filter</span>(<span class="fu">grepl</span>(<span class="st">":visit_num$"</span>, term))</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>inventory_tbl <span class="ot">&lt;-</span> <span class="fu">tibble</span>(</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">component =</span> <span class="fu">c</span>(</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Concurrent at 2 Years"</span>,</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Concurrent at 5-6 Years"</span>,</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Prospective: 2-Year Diet to 5-6-Year Metabolites"</span>,</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Repeated-Measures Main Effect"</span>,</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Repeated-Measures Diet-by-Time Interaction"</span></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>  <span class="at">result_rows =</span> <span class="fu">c</span>(<span class="fu">nrow</span>(results<span class="sc">$</span>q1), <span class="fu">nrow</span>(results<span class="sc">$</span>q2), <span class="fu">nrow</span>(results<span class="sc">$</span>q3), <span class="fu">nrow</span>(q4_main), <span class="fu">nrow</span>(q4_interaction)),</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>  <span class="at">significant_rows_q_lt_0_10 =</span> <span class="fu">c</span>(</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>    <span class="fu">sum</span>(results<span class="sc">$</span>q1<span class="sc">$</span>q.value <span class="sc">&lt;</span> <span class="fl">0.10</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>    <span class="fu">sum</span>(results<span class="sc">$</span>q2<span class="sc">$</span>q.value <span class="sc">&lt;</span> <span class="fl">0.10</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>    <span class="fu">sum</span>(results<span class="sc">$</span>q3<span class="sc">$</span>q.value <span class="sc">&lt;</span> <span class="fl">0.10</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>    <span class="fu">sum</span>(q4_main<span class="sc">$</span>q.value <span class="sc">&lt;</span> <span class="fl">0.10</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>    <span class="fu">sum</span>(q4_interaction<span class="sc">$</span>q.value <span class="sc">&lt;</span> <span class="fl">0.10</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>  <span class="at">complete_case_n_range =</span> <span class="fu">c</span>(</span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>    <span class="fu">sample_n_label</span>(results<span class="sc">$</span>q1, <span class="st">"n"</span>),</span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>    <span class="fu">sample_n_label</span>(results<span class="sc">$</span>q2, <span class="st">"n"</span>),</span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>    <span class="fu">sample_n_label</span>(results<span class="sc">$</span>q3, <span class="st">"n"</span>),</span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>    <span class="fu">sample_n_label</span>(q4_main, <span class="st">"n_obs"</span>),</span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>    <span class="fu">sample_n_label</span>(q4_interaction, <span class="st">"n_obs"</span>)</span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a><span class="fu">make_table</span>(inventory_tbl, <span class="at">caption =</span> <span class="st">"Returned result inventory"</span>, <span class="at">table_mode =</span> <span class="st">"compact"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div class="dt-wrap dt-wrap-compact">
+<div class="datatables html-widget html-fill-item" id="htmlwidget-5ca846af830905f54a08" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-5ca846af830905f54a08">{"x":{"filter":"none","vertical":false,"caption":"<caption>Returned result inventory<\/caption>","data":[["Concurrent at 2 Years","Concurrent at 5-6 Years","Prospective: 2-Year Diet to 5-6-Year Metabolites","Repeated-Measures Main Effect","Repeated-Measures Diet-by-Time Interaction"],[1903,1903,363,3250,2750],[76,2,0,2,2],["145-168","112-123","77-107","179-302","179-302"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>component<\/th>\n      <th>result_rows<\/th>\n      <th>significant_rows_q_lt_0_10<\/th>\n      <th>complete_case_n_range<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"scrollX":false,"autoWidth":false,"columnDefs":[{"targets":1,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 0, 3, \",\", \".\", null);\n  }"},{"targets":2,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 0, 3, \",\", \".\", null);\n  }"},{"className":"dt-right","targets":[1,2]},{"name":"component","targets":0},{"name":"result_rows","targets":1},{"name":"significant_rows_q_lt_0_10","targets":2},{"name":"complete_case_n_range","targets":3}],"order":[],"orderClasses":false}},"evals":["options.columnDefs.0.render","options.columnDefs.1.render"],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+</section>
+<section id="execution-status" class="level2" data-number="8">
+<h2 data-number="8" class="anchored" data-anchor-id="execution-status"><span class="header-section-number">8</span> Execution status</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>status_tbl <span class="ot">&lt;-</span> model_status <span class="sc">%&gt;%</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">question =</span> dplyr<span class="sc">::</span><span class="fu">case_when</span>(</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>      question <span class="sc">==</span> <span class="st">"Q1"</span> <span class="sc">~</span> <span class="st">"Concurrent at 2 Years"</span>,</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>      question <span class="sc">==</span> <span class="st">"Q2"</span> <span class="sc">~</span> <span class="st">"Concurrent at 5-6 Years"</span>,</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>      question <span class="sc">==</span> <span class="st">"Q3"</span> <span class="sc">~</span> <span class="st">"Prospective"</span>,</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>      question <span class="sc">==</span> <span class="st">"Q4"</span> <span class="sc">~</span> <span class="st">"Repeated-Measures"</span>,</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>      <span class="cn">TRUE</span> <span class="sc">~</span> question</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">exposure =</span> <span class="fu">pretty_var</span>(exposure),</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">n_complete =</span> <span class="fu">ifelse</span>(</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>      <span class="fu">is.na</span>(n_complete_min) <span class="sc">|</span> <span class="sc">!</span><span class="fu">is.finite</span>(n_complete_min),</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>      <span class="cn">NA_character_</span>,</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>      <span class="fu">ifelse</span>(n_complete_min <span class="sc">==</span> n_complete_max, <span class="fu">as.character</span>(n_complete_min), <span class="fu">paste0</span>(n_complete_min, <span class="st">"-"</span>, n_complete_max))</span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(question, analysis, exposure, status, reason, n_complete, n_features_tested, term_family)</span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a><span class="fu">make_table</span>(status_tbl, <span class="at">caption =</span> <span class="st">"Saved execution-status inventory"</span>, <span class="at">table_mode =</span> <span class="st">"wide"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div class="dt-wrap dt-wrap-wide">
+<div class="datatables html-widget html-fill-item" id="htmlwidget-e4fd146050ec26529197" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-e4fd146050ec26529197">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\" disabled=\"\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\" disabled=\"\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"integer\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"33\" data-max=\"250\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","caption":"<caption>Saved execution-status inventory<\/caption>","data":[["Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Prospective","Prospective","Prospective","Prospective","Prospective","Prospective","Prospective","Prospective","Prospective","Prospective","Prospective","Prospective","Prospective","Prospective","Prospective","Prospective","Prospective","Prospective","Prospective","Prospective","Prospective","Prospective","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures"],["Q1_Concurrent","Q1_Concurrent","Q1_Concurrent","Q1_Concurrent","Q1_Concurrent","Q1_Concurrent","Q1_Concurrent","Q1_Concurrent","Q1_Concurrent","Q1_Concurrent","Q1_Concurrent","Q1_Concurrent_sensitivity","Q1_Concurrent_sensitivity","Q1_Concurrent_sensitivity","Q1_Concurrent_sensitivity","Q1_Concurrent_sensitivity","Q1_Concurrent_sensitivity","Q1_Concurrent_sensitivity","Q1_Concurrent_sensitivity","Q1_Concurrent_sensitivity","Q1_Concurrent_sensitivity","Q1_Concurrent_sensitivity","Q2_Concurrent","Q2_Concurrent","Q2_Concurrent","Q2_Concurrent","Q2_Concurrent","Q2_Concurrent","Q2_Concurrent","Q2_Concurrent","Q2_Concurrent","Q2_Concurrent","Q2_Concurrent","Q2_Concurrent_sensitivity","Q2_Concurrent_sensitivity","Q2_Concurrent_sensitivity","Q2_Concurrent_sensitivity","Q2_Concurrent_sensitivity","Q2_Concurrent_sensitivity","Q2_Concurrent_sensitivity","Q2_Concurrent_sensitivity","Q2_Concurrent_sensitivity","Q2_Concurrent_sensitivity","Q2_Concurrent_sensitivity","Q3_Prospective","Q3_Prospective","Q3_Prospective","Q3_Prospective","Q3_Prospective","Q3_Prospective","Q3_Prospective","Q3_Prospective","Q3_Prospective","Q3_Prospective","Q3_Prospective","Q3_Prospective_sensitivity","Q3_Prospective_sensitivity","Q3_Prospective_sensitivity","Q3_Prospective_sensitivity","Q3_Prospective_sensitivity","Q3_Prospective_sensitivity","Q3_Prospective_sensitivity","Q3_Prospective_sensitivity","Q3_Prospective_sensitivity","Q3_Prospective_sensitivity","Q3_Prospective_sensitivity","Q4_Repeated","Q4_Repeated","Q4_Repeated","Q4_Repeated","Q4_Repeated","Q4_Repeated","Q4_Repeated","Q4_Repeated","Q4_Repeated","Q4_Repeated","Q4_Repeated","Q4_Repeated_sensitivity","Q4_Repeated_sensitivity","Q4_Repeated_sensitivity","Q4_Repeated_sensitivity","Q4_Repeated_sensitivity","Q4_Repeated_sensitivity","Q4_Repeated_sensitivity","Q4_Repeated_sensitivity","Q4_Repeated_sensitivity","Q4_Repeated_sensitivity","Q4_Repeated_sensitivity"],["Percent Proteindiet6","Percent Carbohydratediet6","Percent Fatdiet6","Percent Sfadiet6","Percent Mufadiet6","Percent Pufadiet6","Percent n-3 Fatty Acidsdiet6","Percent n-6 Fatty Acidsdiet6","Fibre Diet6","Diet Quality Points 6","Diet Quality Classes 6","Percent Proteindiet6","Percent Carbohydratediet6","Percent Fatdiet6","Percent Sfadiet6","Percent Mufadiet6","Percent Pufadiet6","Percent n-3 Fatty Acidsdiet6","Percent n-6 Fatty Acidsdiet6","Fibre Diet6","Diet Quality Points 6","Diet Quality Classes 6","Percent Proteindiet7","Percent Carbohydratediet7","Percent Fatdiet7","Percent Sfadiet7","Percent Mufadiet7","Percent Pufadiet7","Percent n-3 Fatty Acidsdiet7","Percent n-6 Fatty Acidsdiet7","Fibre Diet7","Diet Quality Points 7","Diet Quality Classes 7","Percent Proteindiet7","Percent Carbohydratediet7","Percent Fatdiet7","Percent Sfadiet7","Percent Mufadiet7","Percent Pufadiet7","Percent n-3 Fatty Acidsdiet7","Percent n-6 Fatty Acidsdiet7","Fibre Diet7","Diet Quality Points 7","Diet Quality Classes 7","Percent Proteindiet6","Percent Carbohydratediet6","Percent Fatdiet6","Percent Sfadiet6","Percent Mufadiet6","Percent Pufadiet6","Percent n-3 Fatty Acidsdiet6","Percent n-6 Fatty Acidsdiet6","Fibre Diet6","Diet Quality Points 6","Diet Quality Classes 6","Percent Proteindiet6","Percent Carbohydratediet6","Percent Fatdiet6","Percent Sfadiet6","Percent Mufadiet6","Percent Pufadiet6","Percent n-3 Fatty Acidsdiet6","Percent n-6 Fatty Acidsdiet6","Fibre Diet6","Diet Quality Points 6","Diet Quality Classes 6","Percent Proteindiet6","Percent Carbohydratediet6","Percent Fatdiet6","Percent Sfadiet6","Percent Mufadiet6","Percent Pufadiet6","Percent n-3 Fatty Acidsdiet6","Percent n-6 Fatty Acidsdiet6","Fibre Diet6","Diet Quality Points 6","Diet Quality Classes 6","Percent Proteindiet6","Percent Carbohydratediet6","Percent Fatdiet6","Percent Sfadiet6","Percent Mufadiet6","Percent Pufadiet6","Percent n-3 Fatty Acidsdiet6","Percent n-6 Fatty Acidsdiet6","Fibre Diet6","Diet Quality Points 6","Diet Quality Classes 6"],["ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok"],["ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok"],["145","145","145","145","145","145","145","145","145","168","168","145","145","145","145","145","145","145","145","145","168","168","112","112","112","112","112","112","112","112","112","123","123","97","97","97","97","97","97","97","97","97","108","108","77-91","77-91","77-91","77-91","77-91","77-91","77-91","77-91","77-91","90-107","90-107","75-89","75-89","75-89","75-89","75-89","75-89","75-89","75-89","75-89","87-104","87-104","179-266","179-266","179-266","179-266","179-266","179-266","179-266","179-266","179-266","204-302","204-302","163-242","163-242","163-242","163-242","163-242","163-242","163-242","163-242","163-242","187-276","187-276"],[173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,250,250,250,250,250,250,250,250,250,250,250,250,250,250,250,250,250,250,250,250,250,250],["CEPercentProDiet6","CEPercentCHODiet6","CEPercentFatDiet6","CEPercentSFADiet6","CEPercentMUFADiet6","CEPercentPUFADiet6","CEPercentFAn3Diet6","CEPercentFAn6Diet6","CFibtotDiet6","C_DietQuality_points_6","C_DietQuality_classes_6moderate but needs to be improved|C_DietQuality_classes_6ok/good","CEPercentProDiet6","CEPercentCHODiet6","CEPercentFatDiet6","CEPercentSFADiet6","CEPercentMUFADiet6","CEPercentPUFADiet6","CEPercentFAn3Diet6","CEPercentFAn6Diet6","CFibtotDiet6","C_DietQuality_points_6","C_DietQuality_classes_6moderate but needs to be improved|C_DietQuality_classes_6ok/good","CEPercentProDiet7","CEPercentCHODiet7","CEPercentFatDiet7","CEPercentSFADiet7","CEPercentMUFADiet7","CEPercentPUFADiet7","CEPercentFAn3Diet7","CEPercentFAn6Diet7","CFibtotDiet7","C_DietQuality_points_7","C_DietQuality_classes_7moderate but needs to be improved|C_DietQuality_classes_7ok/Good","CEPercentProDiet7","CEPercentCHODiet7","CEPercentFatDiet7","CEPercentSFADiet7","CEPercentMUFADiet7","CEPercentPUFADiet7","CEPercentFAn3Diet7","CEPercentFAn6Diet7","CFibtotDiet7","C_DietQuality_points_7","C_DietQuality_classes_7moderate but needs to be improved|C_DietQuality_classes_7ok/Good",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_itneeds to be vastly improved|exposure_itneeds to be vastly improved:visit_num|exposure_itok/good|exposure_itok/Good","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_itneeds to be vastly improved|exposure_itneeds to be vastly improved:visit_num|exposure_itok/good|exposure_itok/Good"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>question<\/th>\n      <th>analysis<\/th>\n      <th>exposure<\/th>\n      <th>status<\/th>\n      <th>reason<\/th>\n      <th>n_complete<\/th>\n      <th>n_features_tested<\/th>\n      <th>term_family<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"scrollX":false,"autoWidth":false,"columnDefs":[{"targets":6,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 0, 3, \",\", \".\", null);\n  }"},{"className":"dt-right","targets":6},{"name":"question","targets":0},{"name":"analysis","targets":1},{"name":"exposure","targets":2},{"name":"status","targets":3},{"name":"reason","targets":4},{"name":"n_complete","targets":5},{"name":"n_features_tested","targets":6},{"name":"term_family","targets":7}],"order":[],"orderClasses":false,"orderCellsTop":true}},"evals":["options.columnDefs.0.render"],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+</section>
+<section id="interpretation-notes" class="level2" data-number="9">
+<h2 data-number="9" class="anchored" data-anchor-id="interpretation-notes"><span class="header-section-number">9</span> Interpretation notes</h2>
+<ol type="1">
+<li>The concurrent and prospective models carry the clearest inferential weight.</li>
+<li>The prospective model is conditional on the earlier metabolite value, so it should be interpreted as a follow-up association rather than a pure baseline-only prediction.</li>
+<li>The repeated-measures component is included because it is part of the Study 1 question set, but it remains the most warning-prone analysis family and should be interpreted more cautiously than the linear components.</li>
+<li>Detailed coefficient tables, sensitivity comparisons, and supporting figures are reported elsewhere in the site; this page is the study-level map.</li>
+</ol>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<script src="toc-toggle.js"></script>
+
+
+
+
+</body></html>

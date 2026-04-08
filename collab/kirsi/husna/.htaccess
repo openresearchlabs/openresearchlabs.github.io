@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Husna Collaboration"
+AuthUserFile /home/hoster/.htpasswd-husna
+Require valid-user

@@ -1,0 +1,1530 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Covariate and model specification – FOPP</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-44a3683b6ccfbb924b084949c7b6eae5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link href="site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
+<script src="site_libs/datatables-binding-0.34.0/datatables.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet">
+<script src="site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
+<link href="site_libs/nouislider-7.0.10/jquery.nouislider.min.css" rel="stylesheet">
+<script src="site_libs/nouislider-7.0.10/jquery.nouislider.min.js"></script>
+<link href="site_libs/selectize-0.12.0/selectize.bootstrap3.css" rel="stylesheet">
+<script src="site_libs/selectize-0.12.0/selectize.min.js"></script>
+<link href="site_libs/crosstalk-1.2.2/css/crosstalk.min.css" rel="stylesheet">
+<script src="site_libs/crosstalk-1.2.2/js/crosstalk.min.js"></script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="toc-toggle.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">FOPP</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./study_overview.html"> 
+<span class="menu-text">Study overview</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./analysis_plan.html"> 
+<span class="menu-text">Analysis plan</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./covariate_diagnostics.html" aria-current="page"> 
+<span class="menu-text">Covariate and model specification</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./primary_results.html"> 
+<span class="menu-text">Primary results</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./figures.html"> 
+<span class="menu-text">Figures</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./supplementary_tables.html"> 
+<span class="menu-text">Supplementary tables</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./secondary_figures.html"> 
+<span class="menu-text">Secondary figures</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./exposure_atlas.html"> 
+<span class="menu-text">Exposure atlas</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-data" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Data</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-data">    
+        <li>
+    <a class="dropdown-item" href="./clinical_characteristics.html">
+ <span class="dropdown-text">Clinical characteristics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./data_summary.html">
+ <span class="dropdown-text">Data summary</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./data_quality_assumptions.html">
+ <span class="dropdown-text">Data quality and assumptions</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="1">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#setup" id="toc-setup" class="nav-link active" data-scroll-target="#setup"><span class="header-section-number">1</span> Setup</a></li>
+  <li><a href="#analysis-question" id="toc-analysis-question" class="nav-link" data-scroll-target="#analysis-question"><span class="header-section-number">2</span> Analysis question</a></li>
+  <li><a href="#covariate-selection-framework" id="toc-covariate-selection-framework" class="nav-link" data-scroll-target="#covariate-selection-framework"><span class="header-section-number">3</span> Covariate selection framework</a></li>
+  <li><a href="#group-balance-tests-across-intervention-arms" id="toc-group-balance-tests-across-intervention-arms" class="nav-link" data-scroll-target="#group-balance-tests-across-intervention-arms"><span class="header-section-number">4</span> Group balance tests across intervention arms</a></li>
+  <li><a href="#symbol-key" id="toc-symbol-key" class="nav-link" data-scroll-target="#symbol-key"><span class="header-section-number">5</span> Symbol key</a></li>
+  <li><a href="#causal-roles" id="toc-causal-roles" class="nav-link" data-scroll-target="#causal-roles"><span class="header-section-number">6</span> Causal roles</a></li>
+  <li><a href="#dag" id="toc-dag" class="nav-link" data-scroll-target="#dag"><span class="header-section-number">7</span> DAG</a></li>
+  <li><a href="#covariates" id="toc-covariates" class="nav-link" data-scroll-target="#covariates"><span class="header-section-number">8</span> Covariates</a></li>
+  <li><a href="#covariate-selection-traceability" id="toc-covariate-selection-traceability" class="nav-link" data-scroll-target="#covariate-selection-traceability"><span class="header-section-number">9</span> Covariate selection traceability</a></li>
+  <li><a href="#missingness" id="toc-missingness" class="nav-link" data-scroll-target="#missingness"><span class="header-section-number">10</span> Missingness</a></li>
+  <li><a href="#proposed-models" id="toc-proposed-models" class="nav-link" data-scroll-target="#proposed-models"><span class="header-section-number">11</span> Proposed models</a></li>
+  <li><a href="#mathematical-model-forms" id="toc-mathematical-model-forms" class="nav-link" data-scroll-target="#mathematical-model-forms"><span class="header-section-number">12</span> Mathematical model forms</a></li>
+  <li><a href="#data-snapshot" id="toc-data-snapshot" class="nav-link" data-scroll-target="#data-snapshot"><span class="header-section-number">13</span> Data snapshot</a></li>
+  <li><a href="#variable-key" id="toc-variable-key" class="nav-link" data-scroll-target="#variable-key"><span class="header-section-number">14</span> Variable key</a></li>
+  <li><a href="#session-info" id="toc-session-info" class="nav-link" data-scroll-target="#session-info"><span class="header-section-number">15</span> Session info</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Covariate and model specification</h1>
+</div>
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="setup" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="setup"><span class="header-section-number">1</span> Setup</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(haven)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>has_dagitty <span class="ot">&lt;-</span> <span class="fu">requireNamespace</span>(<span class="st">"dagitty"</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>has_DT <span class="ot">&lt;-</span> <span class="fu">requireNamespace</span>(<span class="st">"DT"</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>has_patchwork <span class="ot">&lt;-</span> <span class="fu">requireNamespace</span>(<span class="st">"patchwork"</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>show_table <span class="ot">&lt;-</span> <span class="cf">function</span>(tbl, <span class="at">page_len =</span> <span class="dv">10</span>, <span class="at">caption =</span> <span class="cn">NULL</span>, <span class="at">title =</span> <span class="cn">NULL</span>) {</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="sc">!</span>has_DT) <span class="fu">return</span>(tbl)</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  tbl_dt <span class="ot">&lt;-</span> DT<span class="sc">::</span><span class="fu">datatable</span>(</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    tbl,</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> caption,</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">rownames =</span> <span class="cn">FALSE</span>,</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">filter =</span> <span class="st">"top"</span>,</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">options =</span> <span class="fu">list</span>(</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>      <span class="at">pageLength =</span> page_len,</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>      <span class="at">scrollX =</span> <span class="cn">FALSE</span>,</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>      <span class="at">autoWidth =</span> <span class="cn">FALSE</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(title) <span class="sc">&amp;&amp;</span> <span class="fu">nzchar</span>(title)) {</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>    <span class="fu">return</span>(htmltools<span class="sc">::</span><span class="fu">tagList</span>(htmltools<span class="sc">::</span>tags<span class="sc">$</span><span class="fu">h4</span>(title), tbl_dt))</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>  tbl_dt</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>clinical_path <span class="ot">&lt;-</span> <span class="st">"../data/FOPP_clinical_diet_variables_maternal_30032026.sav"</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>metabolite_path <span class="ot">&lt;-</span> <span class="st">"../data/Fopp_childserum_all_visits_MASTER_090326.xlsx"</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>clinical <span class="ot">&lt;-</span> <span class="fu">read_sav</span>(clinical_path)</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>metabolite_spss <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(metabolite_path, <span class="at">sheet =</span> <span class="st">"SPSS"</span>)</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>extract_visit_num <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>  out <span class="ot">&lt;-</span> <span class="fu">suppressWarnings</span>(<span class="fu">as.integer</span>(<span class="fu">gsub</span>(<span class="st">"[^0-9]"</span>, <span class="st">""</span>, <span class="fu">as.character</span>(x))))</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>  out</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>metabolite_spss <span class="ot">&lt;-</span> metabolite_spss <span class="sc">%&gt;%</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>    <span class="at">StudyID =</span> <span class="fu">as.character</span>(StudyID),</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>    <span class="at">visit_num =</span> <span class="fu">extract_visit_num</span>(<span class="st">`</span><span class="at">Study visit no</span><span class="st">`</span>)</span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>visit_levels_husna <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">4</span>L, <span class="dv">5</span>L, <span class="dv">6</span>L, <span class="dv">7</span>L)</span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>visit_id_map_husna <span class="ot">&lt;-</span> <span class="fu">lapply</span>(visit_levels_husna, <span class="cf">function</span>(v) {</span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unique</span>(metabolite_spss<span class="sc">$</span>StudyID[metabolite_spss<span class="sc">$</span>visit_num <span class="sc">==</span> v <span class="sc">&amp;</span> <span class="sc">!</span><span class="fu">is.na</span>(metabolite_spss<span class="sc">$</span>StudyID)])</span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(visit_id_map_husna) <span class="ot">&lt;-</span> <span class="fu">paste0</span>(<span class="st">"visit"</span>, visit_levels_husna)</span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>clinical<span class="sc">$</span>StudyID <span class="ot">&lt;-</span> <span class="fu">as.character</span>(clinical<span class="sc">$</span>VariableCode)</span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>clinical_visit_map_husna <span class="ot">&lt;-</span> <span class="fu">lapply</span>(<span class="fu">names</span>(visit_id_map_husna), <span class="cf">function</span>(vn) {</span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>  ids <span class="ot">&lt;-</span> visit_id_map_husna[[vn]]</span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>  clinical <span class="sc">%&gt;%</span> <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(StudyID), StudyID <span class="sc">%in%</span> ids)</span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(clinical_visit_map_husna) <span class="ot">&lt;-</span> <span class="fu">names</span>(visit_id_map_husna)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+</section>
+<section id="analysis-question" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="analysis-question"><span class="header-section-number">2</span> Analysis question</h2>
+<p>Association between maternal prenatal diet exposures and child metabolite outcomes across visits 4, 5, 6, and 7 (6 months, 12 months, 24 months, and 5-6 years).</p>
+</section>
+<section id="covariate-selection-framework" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="covariate-selection-framework"><span class="header-section-number">3</span> Covariate selection framework</h2>
+<p>Covariate selection is pre-specified and DAG-informed:</p>
+<ol type="1">
+<li>The primary adjustment set is fixed in advance.</li>
+<li>Balance tests and missingness summaries are reported.</li>
+<li>Secondary models add sensitivity covariates.</li>
+</ol>
+</section>
+<section id="group-balance-tests-across-intervention-arms" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="group-balance-tests-across-intervention-arms"><span class="header-section-number">4</span> Group balance tests across intervention arms</h2>
+<p>Covariate balance diagnostics across intervention groups:</p>
+<ul>
+<li><code>Kruskal-Wallis</code> for continuous covariates.</li>
+<li><code>Fisher exact</code> for discrete covariates (ordinal and nominal categorical).</li>
+<li><code>BH</code> adjusted p-values across all visits in the combined table.</li>
+</ul>
+<p>These p-values are not used alone to choose adjustment covariates.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>run_covariate_test <span class="ot">&lt;-</span> <span class="cf">function</span>(df, group_var, covariate, test_method) {</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  out <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">var =</span> covariate,</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">test =</span> test_method,</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">p_value =</span> <span class="cn">NA_real_</span>,</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">p_adj_bh =</span> <span class="cn">NA_real_</span>,</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">n_groups =</span> <span class="cn">NA_integer_</span>,</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">note =</span> <span class="cn">NA_character_</span>,</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">stringsAsFactors =</span> <span class="cn">FALSE</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="sc">!</span>covariate <span class="sc">%in%</span> <span class="fu">names</span>(df)) {</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    out<span class="sc">$</span>note <span class="ot">&lt;-</span> <span class="st">"covariate_missing_in_data"</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    <span class="fu">return</span>(out)</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="sc">!</span>group_var <span class="sc">%in%</span> <span class="fu">names</span>(df)) {</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>    out<span class="sc">$</span>note <span class="ot">&lt;-</span> <span class="st">"group_var_missing_in_data"</span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    <span class="fu">return</span>(out)</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="sc">!</span>test_method <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"anova"</span>, <span class="st">"kruskal_wallis"</span>, <span class="st">"fisher_or_chisq"</span>)) {</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>    out<span class="sc">$</span>note <span class="ot">&lt;-</span> <span class="st">"invalid_test_method"</span></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>    <span class="fu">return</span>(out)</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>  x <span class="ot">&lt;-</span> df[[covariate]]</span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>  g <span class="ot">&lt;-</span> df[[group_var]]</span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>  keep <span class="ot">&lt;-</span> <span class="sc">!</span><span class="fu">is.na</span>(x) <span class="sc">&amp;</span> <span class="sc">!</span><span class="fu">is.na</span>(g)</span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="sc">!</span><span class="fu">any</span>(keep)) {</span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>    out<span class="sc">$</span>note <span class="ot">&lt;-</span> <span class="st">"no_complete_cases"</span></span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>    <span class="fu">return</span>(out)</span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>  x <span class="ot">&lt;-</span> x[keep]</span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>  g <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(g[keep])</span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a>  out<span class="sc">$</span>n_groups <span class="ot">&lt;-</span> <span class="fu">nlevels</span>(g)</span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (out<span class="sc">$</span>n_groups <span class="sc">&lt;</span> <span class="dv">2</span>L) {</span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a>    out<span class="sc">$</span>note <span class="ot">&lt;-</span> <span class="st">"fewer_than_two_groups"</span></span>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a>    <span class="fu">return</span>(out)</span>
+<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="fu">length</span>(<span class="fu">unique</span>(x)) <span class="sc">&lt;</span> <span class="dv">2</span>L) {</span>
+<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a>    out<span class="sc">$</span>note <span class="ot">&lt;-</span> <span class="st">"constant_covariate"</span></span>
+<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a>    <span class="fu">return</span>(out)</span>
+<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="fu">identical</span>(test_method, <span class="st">"anova"</span>)) {</span>
+<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a>    out<span class="sc">$</span>p_value <span class="ot">&lt;-</span> <span class="fu">tryCatch</span>({</span>
+<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a>      fit <span class="ot">&lt;-</span> <span class="fu">aov</span>(<span class="fu">as.numeric</span>(x) <span class="sc">~</span> g)</span>
+<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a>      <span class="fu">summary</span>(fit)[[<span class="dv">1</span>]][[<span class="st">"Pr(&gt;F)"</span>]][<span class="dv">1</span>]</span>
+<span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a>    }, <span class="at">error =</span> <span class="cf">function</span>(e) <span class="cn">NA_real_</span>)</span>
+<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> <span class="cf">if</span> (<span class="fu">identical</span>(test_method, <span class="st">"kruskal_wallis"</span>)) {</span>
+<span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a>    out<span class="sc">$</span>test <span class="ot">&lt;-</span> <span class="st">"kruskal_wallis"</span></span>
+<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a>    y <span class="ot">&lt;-</span> <span class="cf">if</span> (<span class="fu">is.character</span>(x) <span class="sc">||</span> <span class="fu">is.factor</span>(x)) <span class="fu">as.numeric</span>(<span class="fu">factor</span>(x)) <span class="cf">else</span> <span class="fu">as.numeric</span>(x)</span>
+<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a>    out<span class="sc">$</span>p_value <span class="ot">&lt;-</span> <span class="fu">tryCatch</span>(<span class="fu">kruskal.test</span>(y <span class="sc">~</span> g)<span class="sc">$</span>p.value, <span class="at">error =</span> <span class="cf">function</span>(e) <span class="cn">NA_real_</span>)</span>
+<span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> {</span>
+<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a>    x_cat <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(x)</span>
+<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (<span class="fu">nlevels</span>(x_cat) <span class="sc">&lt;</span> <span class="dv">2</span>L) {</span>
+<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a>      out<span class="sc">$</span>note <span class="ot">&lt;-</span> <span class="st">"fewer_than_two_levels"</span></span>
+<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a>      <span class="fu">return</span>(out)</span>
+<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a>    tbl <span class="ot">&lt;-</span> <span class="fu">table</span>(g, x_cat)</span>
+<span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (<span class="fu">any</span>(<span class="fu">dim</span>(tbl) <span class="sc">&lt;</span> <span class="dv">2</span>L)) {</span>
+<span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a>      out<span class="sc">$</span>note <span class="ot">&lt;-</span> <span class="st">"invalid_contingency_table"</span></span>
+<span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a>      <span class="fu">return</span>(out)</span>
+<span id="cb2-66"><a href="#cb2-66" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb2-67"><a href="#cb2-67" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-68"><a href="#cb2-68" aria-hidden="true" tabindex="-1"></a>    out<span class="sc">$</span>p_value <span class="ot">&lt;-</span> <span class="fu">tryCatch</span>({</span>
+<span id="cb2-69"><a href="#cb2-69" aria-hidden="true" tabindex="-1"></a>      out<span class="sc">$</span>test <span class="ot">&lt;-</span> <span class="st">"fisher_exact"</span></span>
+<span id="cb2-70"><a href="#cb2-70" aria-hidden="true" tabindex="-1"></a>      <span class="fu">fisher.test</span>(tbl)<span class="sc">$</span>p.value</span>
+<span id="cb2-71"><a href="#cb2-71" aria-hidden="true" tabindex="-1"></a>    }, <span class="at">error =</span> <span class="cf">function</span>(e) <span class="cn">NA_real_</span>)</span>
+<span id="cb2-72"><a href="#cb2-72" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb2-73"><a href="#cb2-73" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-74"><a href="#cb2-74" aria-hidden="true" tabindex="-1"></a>  out<span class="sc">$</span>note <span class="ot">&lt;-</span> <span class="fu">ifelse</span>(<span class="fu">is.na</span>(out<span class="sc">$</span>p_value), <span class="st">"test_failed"</span>, <span class="st">"ok"</span>)</span>
+<span id="cb2-75"><a href="#cb2-75" aria-hidden="true" tabindex="-1"></a>  out</span>
+<span id="cb2-76"><a href="#cb2-76" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb2-77"><a href="#cb2-77" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-78"><a href="#cb2-78" aria-hidden="true" tabindex="-1"></a>balance_covars_husna <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb2-79"><a href="#cb2-79" aria-hidden="true" tabindex="-1"></a>  <span class="at">var =</span> <span class="fu">c</span>(</span>
+<span id="cb2-80"><a href="#cb2-80" aria-hidden="true" tabindex="-1"></a>    <span class="st">"MAge1"</span>,</span>
+<span id="cb2-81"><a href="#cb2-81" aria-hidden="true" tabindex="-1"></a>    <span class="st">"MprepBMI"</span>,</span>
+<span id="cb2-82"><a href="#cb2-82" aria-hidden="true" tabindex="-1"></a>    <span class="st">"MPrimipara"</span>,</span>
+<span id="cb2-83"><a href="#cb2-83" aria-hidden="true" tabindex="-1"></a>    <span class="st">"MUniEdu"</span>,</span>
+<span id="cb2-84"><a href="#cb2-84" aria-hidden="true" tabindex="-1"></a>    <span class="st">"MPRSmoke"</span>,</span>
+<span id="cb2-85"><a href="#cb2-85" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Intervention"</span>,</span>
+<span id="cb2-86"><a href="#cb2-86" aria-hidden="true" tabindex="-1"></a>    <span class="st">"MEthnicity"</span>,</span>
+<span id="cb2-87"><a href="#cb2-87" aria-hidden="true" tabindex="-1"></a>    <span class="st">"MprevGDM_new"</span>,</span>
+<span id="cb2-88"><a href="#cb2-88" aria-hidden="true" tabindex="-1"></a>    <span class="st">"MprepSmoke"</span>,</span>
+<span id="cb2-89"><a href="#cb2-89" aria-hidden="true" tabindex="-1"></a>    <span class="st">"MDise"</span></span>
+<span id="cb2-90"><a href="#cb2-90" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb2-91"><a href="#cb2-91" aria-hidden="true" tabindex="-1"></a>  <span class="at">test =</span> <span class="fu">c</span>(</span>
+<span id="cb2-92"><a href="#cb2-92" aria-hidden="true" tabindex="-1"></a>    <span class="st">"kruskal_wallis"</span>,   <span class="co"># MAge1</span></span>
+<span id="cb2-93"><a href="#cb2-93" aria-hidden="true" tabindex="-1"></a>    <span class="st">"kruskal_wallis"</span>,   <span class="co"># MprepBMI</span></span>
+<span id="cb2-94"><a href="#cb2-94" aria-hidden="true" tabindex="-1"></a>    <span class="st">"fisher_or_chisq"</span>,  <span class="co"># MPrimipara</span></span>
+<span id="cb2-95"><a href="#cb2-95" aria-hidden="true" tabindex="-1"></a>    <span class="st">"fisher_or_chisq"</span>,  <span class="co"># MUniEdu</span></span>
+<span id="cb2-96"><a href="#cb2-96" aria-hidden="true" tabindex="-1"></a>    <span class="st">"fisher_or_chisq"</span>,  <span class="co"># MPRSmoke</span></span>
+<span id="cb2-97"><a href="#cb2-97" aria-hidden="true" tabindex="-1"></a>    <span class="st">"fisher_or_chisq"</span>,  <span class="co"># Intervention</span></span>
+<span id="cb2-98"><a href="#cb2-98" aria-hidden="true" tabindex="-1"></a>    <span class="st">"fisher_or_chisq"</span>,  <span class="co"># MEthnicity</span></span>
+<span id="cb2-99"><a href="#cb2-99" aria-hidden="true" tabindex="-1"></a>    <span class="st">"fisher_or_chisq"</span>,  <span class="co"># MprevGDM_new</span></span>
+<span id="cb2-100"><a href="#cb2-100" aria-hidden="true" tabindex="-1"></a>    <span class="st">"fisher_or_chisq"</span>,  <span class="co"># MprepSmoke</span></span>
+<span id="cb2-101"><a href="#cb2-101" aria-hidden="true" tabindex="-1"></a>    <span class="st">"fisher_or_chisq"</span>   <span class="co"># MDise</span></span>
+<span id="cb2-102"><a href="#cb2-102" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb2-103"><a href="#cb2-103" aria-hidden="true" tabindex="-1"></a>  <span class="at">stringsAsFactors =</span> <span class="cn">FALSE</span></span>
+<span id="cb2-104"><a href="#cb2-104" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-105"><a href="#cb2-105" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-106"><a href="#cb2-106" aria-hidden="true" tabindex="-1"></a>run_group_balance_panel <span class="ot">&lt;-</span> <span class="cf">function</span>(df, group_var, covariates, panel_name) {</span>
+<span id="cb2-107"><a href="#cb2-107" aria-hidden="true" tabindex="-1"></a>  res <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(<span class="fu">lapply</span>(<span class="fu">seq_len</span>(<span class="fu">nrow</span>(covariates)), <span class="cf">function</span>(i) {</span>
+<span id="cb2-108"><a href="#cb2-108" aria-hidden="true" tabindex="-1"></a>    <span class="fu">run_covariate_test</span>(</span>
+<span id="cb2-109"><a href="#cb2-109" aria-hidden="true" tabindex="-1"></a>      <span class="at">df =</span> df,</span>
+<span id="cb2-110"><a href="#cb2-110" aria-hidden="true" tabindex="-1"></a>      <span class="at">group_var =</span> group_var,</span>
+<span id="cb2-111"><a href="#cb2-111" aria-hidden="true" tabindex="-1"></a>      <span class="at">covariate =</span> covariates<span class="sc">$</span>var[i],</span>
+<span id="cb2-112"><a href="#cb2-112" aria-hidden="true" tabindex="-1"></a>      <span class="at">test_method =</span> covariates<span class="sc">$</span>test[i]</span>
+<span id="cb2-113"><a href="#cb2-113" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb2-114"><a href="#cb2-114" aria-hidden="true" tabindex="-1"></a>  }))</span>
+<span id="cb2-115"><a href="#cb2-115" aria-hidden="true" tabindex="-1"></a>  res<span class="sc">$</span>panel <span class="ot">&lt;-</span> panel_name</span>
+<span id="cb2-116"><a href="#cb2-116" aria-hidden="true" tabindex="-1"></a>  res <span class="sc">%&gt;%</span> <span class="fu">arrange</span>(p_value)</span>
+<span id="cb2-117"><a href="#cb2-117" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb2-118"><a href="#cb2-118" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-119"><a href="#cb2-119" aria-hidden="true" tabindex="-1"></a>balance_visit4 <span class="ot">&lt;-</span> <span class="fu">run_group_balance_panel</span>(</span>
+<span id="cb2-120"><a href="#cb2-120" aria-hidden="true" tabindex="-1"></a>  <span class="at">df =</span> clinical_visit_map_husna<span class="sc">$</span>visit4,</span>
+<span id="cb2-121"><a href="#cb2-121" aria-hidden="true" tabindex="-1"></a>  <span class="at">group_var =</span> <span class="st">"Intervention"</span>,</span>
+<span id="cb2-122"><a href="#cb2-122" aria-hidden="true" tabindex="-1"></a>  <span class="at">covariates =</span> balance_covars_husna,</span>
+<span id="cb2-123"><a href="#cb2-123" aria-hidden="true" tabindex="-1"></a>  <span class="at">panel_name =</span> <span class="st">"visit4"</span></span>
+<span id="cb2-124"><a href="#cb2-124" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-125"><a href="#cb2-125" aria-hidden="true" tabindex="-1"></a>balance_visit5 <span class="ot">&lt;-</span> <span class="fu">run_group_balance_panel</span>(</span>
+<span id="cb2-126"><a href="#cb2-126" aria-hidden="true" tabindex="-1"></a>  <span class="at">df =</span> clinical_visit_map_husna<span class="sc">$</span>visit5,</span>
+<span id="cb2-127"><a href="#cb2-127" aria-hidden="true" tabindex="-1"></a>  <span class="at">group_var =</span> <span class="st">"Intervention"</span>,</span>
+<span id="cb2-128"><a href="#cb2-128" aria-hidden="true" tabindex="-1"></a>  <span class="at">covariates =</span> balance_covars_husna,</span>
+<span id="cb2-129"><a href="#cb2-129" aria-hidden="true" tabindex="-1"></a>  <span class="at">panel_name =</span> <span class="st">"visit5"</span></span>
+<span id="cb2-130"><a href="#cb2-130" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-131"><a href="#cb2-131" aria-hidden="true" tabindex="-1"></a>balance_visit6 <span class="ot">&lt;-</span> <span class="fu">run_group_balance_panel</span>(</span>
+<span id="cb2-132"><a href="#cb2-132" aria-hidden="true" tabindex="-1"></a>  <span class="at">df =</span> clinical_visit_map_husna<span class="sc">$</span>visit6,</span>
+<span id="cb2-133"><a href="#cb2-133" aria-hidden="true" tabindex="-1"></a>  <span class="at">group_var =</span> <span class="st">"Intervention"</span>,</span>
+<span id="cb2-134"><a href="#cb2-134" aria-hidden="true" tabindex="-1"></a>  <span class="at">covariates =</span> balance_covars_husna,</span>
+<span id="cb2-135"><a href="#cb2-135" aria-hidden="true" tabindex="-1"></a>  <span class="at">panel_name =</span> <span class="st">"visit6"</span></span>
+<span id="cb2-136"><a href="#cb2-136" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-137"><a href="#cb2-137" aria-hidden="true" tabindex="-1"></a>balance_visit7 <span class="ot">&lt;-</span> <span class="fu">run_group_balance_panel</span>(</span>
+<span id="cb2-138"><a href="#cb2-138" aria-hidden="true" tabindex="-1"></a>  <span class="at">df =</span> clinical_visit_map_husna<span class="sc">$</span>visit7,</span>
+<span id="cb2-139"><a href="#cb2-139" aria-hidden="true" tabindex="-1"></a>  <span class="at">group_var =</span> <span class="st">"Intervention"</span>,</span>
+<span id="cb2-140"><a href="#cb2-140" aria-hidden="true" tabindex="-1"></a>  <span class="at">covariates =</span> balance_covars_husna,</span>
+<span id="cb2-141"><a href="#cb2-141" aria-hidden="true" tabindex="-1"></a>  <span class="at">panel_name =</span> <span class="st">"visit7"</span></span>
+<span id="cb2-142"><a href="#cb2-142" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-143"><a href="#cb2-143" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-144"><a href="#cb2-144" aria-hidden="true" tabindex="-1"></a>pretty_test <span class="ot">&lt;-</span> <span class="cf">function</span>(x) dplyr<span class="sc">::</span><span class="fu">case_when</span>(</span>
+<span id="cb2-145"><a href="#cb2-145" aria-hidden="true" tabindex="-1"></a>  x <span class="sc">==</span> <span class="st">"anova"</span> <span class="sc">~</span> <span class="st">"ANOVA"</span>,</span>
+<span id="cb2-146"><a href="#cb2-146" aria-hidden="true" tabindex="-1"></a>  x <span class="sc">==</span> <span class="st">"kruskal_wallis"</span> <span class="sc">~</span> <span class="st">"Kruskal-Wallis"</span>,</span>
+<span id="cb2-147"><a href="#cb2-147" aria-hidden="true" tabindex="-1"></a>  x <span class="sc">==</span> <span class="st">"fisher_exact"</span> <span class="sc">~</span> <span class="st">"Fisher exact"</span>,</span>
+<span id="cb2-148"><a href="#cb2-148" aria-hidden="true" tabindex="-1"></a>  <span class="cn">TRUE</span> <span class="sc">~</span> x</span>
+<span id="cb2-149"><a href="#cb2-149" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-150"><a href="#cb2-150" aria-hidden="true" tabindex="-1"></a>format_p <span class="ot">&lt;-</span> <span class="cf">function</span>(x) <span class="fu">ifelse</span>(<span class="fu">is.na</span>(x), <span class="st">""</span>, <span class="fu">formatC</span>(x, <span class="at">format =</span> <span class="st">"fg"</span>, <span class="at">digits =</span> <span class="dv">4</span>))</span>
+<span id="cb2-151"><a href="#cb2-151" aria-hidden="true" tabindex="-1"></a>format_p2 <span class="ot">&lt;-</span> <span class="cf">function</span>(x) <span class="fu">ifelse</span>(<span class="fu">is.na</span>(x), <span class="st">""</span>, <span class="fu">formatC</span>(x, <span class="at">format =</span> <span class="st">"f"</span>, <span class="at">digits =</span> <span class="dv">2</span>))</span>
+<span id="cb2-152"><a href="#cb2-152" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-153"><a href="#cb2-153" aria-hidden="true" tabindex="-1"></a>make_balance_display <span class="ot">&lt;-</span> <span class="cf">function</span>(tbl) {</span>
+<span id="cb2-154"><a href="#cb2-154" aria-hidden="true" tabindex="-1"></a>  visit_label <span class="ot">&lt;-</span> <span class="cf">function</span>(panel_name) {</span>
+<span id="cb2-155"><a href="#cb2-155" aria-hidden="true" tabindex="-1"></a>    <span class="fu">gsub</span>(<span class="st">"visit"</span>, <span class="st">"visit "</span>, panel_name)</span>
+<span id="cb2-156"><a href="#cb2-156" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb2-157"><a href="#cb2-157" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-158"><a href="#cb2-158" aria-hidden="true" tabindex="-1"></a>  tbl <span class="sc">%&gt;%</span></span>
+<span id="cb2-159"><a href="#cb2-159" aria-hidden="true" tabindex="-1"></a>    <span class="fu">filter</span>(note <span class="sc">==</span> <span class="st">"ok"</span>, <span class="sc">!</span><span class="fu">is.na</span>(p_adj_bh)) <span class="sc">%&gt;%</span></span>
+<span id="cb2-160"><a href="#cb2-160" aria-hidden="true" tabindex="-1"></a>    <span class="fu">transmute</span>(</span>
+<span id="cb2-161"><a href="#cb2-161" aria-hidden="true" tabindex="-1"></a>      <span class="at">visit =</span> <span class="fu">visit_label</span>(panel),</span>
+<span id="cb2-162"><a href="#cb2-162" aria-hidden="true" tabindex="-1"></a>      <span class="at">var =</span> var,</span>
+<span id="cb2-163"><a href="#cb2-163" aria-hidden="true" tabindex="-1"></a>      <span class="at">test =</span> <span class="fu">pretty_test</span>(test),</span>
+<span id="cb2-164"><a href="#cb2-164" aria-hidden="true" tabindex="-1"></a>      <span class="at">p =</span> <span class="fu">format_p</span>(p_value),</span>
+<span id="cb2-165"><a href="#cb2-165" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">adjusted p</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">format_p2</span>(p_adj_bh)</span>
+<span id="cb2-166"><a href="#cb2-166" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb2-167"><a href="#cb2-167" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb2-168"><a href="#cb2-168" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-169"><a href="#cb2-169" aria-hidden="true" tabindex="-1"></a>balance_husna_all <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(balance_visit4, balance_visit5, balance_visit6, balance_visit7)</span>
+<span id="cb2-170"><a href="#cb2-170" aria-hidden="true" tabindex="-1"></a>ok_all_husna <span class="ot">&lt;-</span> balance_husna_all<span class="sc">$</span>note <span class="sc">==</span> <span class="st">"ok"</span> <span class="sc">&amp;</span> <span class="sc">!</span><span class="fu">is.na</span>(balance_husna_all<span class="sc">$</span>p_value)</span>
+<span id="cb2-171"><a href="#cb2-171" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="fu">any</span>(ok_all_husna)) {</span>
+<span id="cb2-172"><a href="#cb2-172" aria-hidden="true" tabindex="-1"></a>  balance_husna_all<span class="sc">$</span>p_adj_bh[ok_all_husna] <span class="ot">&lt;-</span> <span class="fu">p.adjust</span>(balance_husna_all<span class="sc">$</span>p_value[ok_all_husna], <span class="at">method =</span> <span class="st">"BH"</span>)</span>
+<span id="cb2-173"><a href="#cb2-173" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb2-174"><a href="#cb2-174" aria-hidden="true" tabindex="-1"></a>balance_husna_all <span class="ot">&lt;-</span> balance_husna_all <span class="sc">%&gt;%</span> <span class="fu">arrange</span>(p_adj_bh, p_value)</span>
+<span id="cb2-175"><a href="#cb2-175" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-176"><a href="#cb2-176" aria-hidden="true" tabindex="-1"></a>visit_coverage_husna <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb2-177"><a href="#cb2-177" aria-hidden="true" tabindex="-1"></a>  <span class="at">panel =</span> <span class="fu">names</span>(clinical_visit_map_husna),</span>
+<span id="cb2-178"><a href="#cb2-178" aria-hidden="true" tabindex="-1"></a>  <span class="at">n =</span> <span class="fu">sapply</span>(clinical_visit_map_husna, nrow),</span>
+<span id="cb2-179"><a href="#cb2-179" aria-hidden="true" tabindex="-1"></a>  <span class="at">stringsAsFactors =</span> <span class="cn">FALSE</span></span>
+<span id="cb2-180"><a href="#cb2-180" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-181"><a href="#cb2-181" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-182"><a href="#cb2-182" aria-hidden="true" tabindex="-1"></a><span class="fu">show_table</span>(</span>
+<span id="cb2-183"><a href="#cb2-183" aria-hidden="true" tabindex="-1"></a>  visit_coverage_husna,</span>
+<span id="cb2-184"><a href="#cb2-184" aria-hidden="true" tabindex="-1"></a>  <span class="at">page_len =</span> <span class="dv">10</span>,</span>
+<span id="cb2-185"><a href="#cb2-185" aria-hidden="true" tabindex="-1"></a>  <span class="at">title =</span> <span class="st">"Visit panel coverage"</span>,</span>
+<span id="cb2-186"><a href="#cb2-186" aria-hidden="true" tabindex="-1"></a>  <span class="at">caption =</span> <span class="st">"Visit panel coverage (clinical rows linked to metabolite visits)"</span></span>
+<span id="cb2-187"><a href="#cb2-187" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<h4 class="anchored">Visit panel coverage</h4>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-77cfdc43d3a723b1db17" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-77cfdc43d3a723b1db17">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"integer\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"139\" data-max=\"258\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","caption":"<caption>Visit panel coverage (clinical rows linked to metabolite visits)<\/caption>","data":[["visit4","visit5","visit6","visit7"],[258,257,239,139]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>panel<\/th>\n      <th>n<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"scrollX":false,"autoWidth":false,"columnDefs":[{"className":"dt-right","targets":1},{"name":"panel","targets":0},{"name":"n","targets":1}],"order":[],"orderClasses":false,"orderCellsTop":true}},"evals":[],"jsHooks":[]}</script>
+</div>
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">show_table</span>(</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">make_balance_display</span>(balance_husna_all),</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">page_len =</span> <span class="dv">10</span>,</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">title =</span> <span class="st">"Covariate balance across visits"</span>,</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">caption =</span> <span class="st">"Covariate balance across visits (BH adjusted across all visits)"</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<h4 class="anchored">Covariate balance across visits</h4>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-af2579f016d9e8128893" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-af2579f016d9e8128893">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","caption":"<caption>Covariate balance across visits (BH adjusted across all visits)<\/caption>","data":[["visit 7","visit 6","visit 4","visit 5","visit 4","visit 4","visit 7","visit 7","visit 7","visit 6","visit 5","visit 6","visit 6","visit 4","visit 5","visit 6","visit 5","visit 6","visit 7","visit 5","visit 5","visit 5","visit 4","visit 7","visit 4","visit 7","visit 4","visit 4","visit 5","visit 6","visit 7","visit 4","visit 7","visit 6","visit 6","visit 5","visit 7"],["Intervention","MprepSmoke","MprepSmoke","MprepSmoke","MPRSmoke","MprepBMI","MPRSmoke","MEthnicity","MprepBMI","MEthnicity","MPRSmoke","MDise","MPRSmoke","MEthnicity","MprepBMI","MprepBMI","MDise","MUniEdu","MDise","MAge1","MEthnicity","MUniEdu","MDise","MprepSmoke","MAge1","MUniEdu","MprevGDM_new","MUniEdu","MprevGDM_new","MprevGDM_new","MprevGDM_new","MPrimipara","MPrimipara","MAge1","MPrimipara","MPrimipara","MAge1"],["Fisher exact","Fisher exact","Fisher exact","Fisher exact","Fisher exact","Kruskal-Wallis","Fisher exact","Fisher exact","Kruskal-Wallis","Fisher exact","Fisher exact","Fisher exact","Fisher exact","Fisher exact","Kruskal-Wallis","Kruskal-Wallis","Fisher exact","Fisher exact","Fisher exact","Kruskal-Wallis","Fisher exact","Fisher exact","Fisher exact","Fisher exact","Kruskal-Wallis","Fisher exact","Fisher exact","Fisher exact","Fisher exact","Fisher exact","Fisher exact","Fisher exact","Fisher exact","Kruskal-Wallis","Fisher exact","Fisher exact","Kruskal-Wallis"],["0.000000000000000000000000000000000000000000000000000000000000000000000000000000004366","0.003538","0.007975","0.01611","0.02699","0.03281","0.05754","0.0647","0.06736","0.1052","0.123","0.1503","0.1511","0.1868","0.1944","0.2139","0.3408","0.4033","0.4456","0.5021","0.508","0.5205","0.5364","0.5556","0.5882","0.6822","0.6941","0.7044","0.7608","0.8042","0.852","0.8533","0.8697","0.8798","0.8812","0.9636","0.9638"],["0.00","0.07","0.10","0.15","0.20","0.20","0.28","0.28","0.28","0.39","0.41","0.43","0.43","0.48","0.48","0.49","0.74","0.83","0.86","0.86","0.86","0.86","0.86","0.86","0.87","0.93","0.93","0.93","0.93","0.93","0.93","0.93","0.93","0.93","0.93","0.96","0.96"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>visit<\/th>\n      <th>var<\/th>\n      <th>test<\/th>\n      <th>p<\/th>\n      <th>adjusted p<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"scrollX":false,"autoWidth":false,"columnDefs":[{"name":"visit","targets":0},{"name":"var","targets":1},{"name":"test","targets":2},{"name":"p","targets":3},{"name":"adjusted p","targets":4}],"order":[],"orderClasses":false,"orderCellsTop":true}},"evals":[],"jsHooks":[]}</script>
+</div>
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>plot_balance_var <span class="ot">&lt;-</span> <span class="cf">function</span>(df, group_var, var_name, test_name) {</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  x <span class="ot">&lt;-</span> df[[var_name]]</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  g <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(df[[group_var]])</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  keep <span class="ot">&lt;-</span> <span class="sc">!</span><span class="fu">is.na</span>(x) <span class="sc">&amp;</span> <span class="sc">!</span><span class="fu">is.na</span>(g)</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="sc">!</span><span class="fu">any</span>(keep)) <span class="fu">return</span>(<span class="cn">NULL</span>)</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  dat <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">group =</span> <span class="fu">as.factor</span>(g[keep]),</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">value =</span> x[keep],</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">stringsAsFactors =</span> <span class="cn">FALSE</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (test_name <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"anova"</span>, <span class="st">"kruskal_wallis"</span>)) {</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>    dat<span class="sc">$</span>value <span class="ot">&lt;-</span> <span class="fu">suppressWarnings</span>(<span class="fu">as.numeric</span>(dat<span class="sc">$</span>value))</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>    <span class="fu">ggplot</span>(dat, <span class="fu">aes</span>(<span class="at">x =</span> group, <span class="at">y =</span> value)) <span class="sc">+</span></span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>      <span class="fu">geom_boxplot</span>(<span class="at">outlier.alpha =</span> <span class="fl">0.4</span>, <span class="at">width =</span> <span class="fl">0.6</span>) <span class="sc">+</span></span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>      <span class="fu">geom_jitter</span>(<span class="at">width =</span> <span class="fl">0.12</span>, <span class="at">alpha =</span> <span class="fl">0.35</span>, <span class="at">size =</span> <span class="fl">1.2</span>) <span class="sc">+</span></span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>      <span class="fu">labs</span>(</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>        <span class="at">title =</span> <span class="fu">paste0</span>(var_name, <span class="st">" ("</span>, <span class="fu">pretty_test</span>(test_name), <span class="st">")"</span>),</span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>        <span class="at">x =</span> <span class="st">"Intervention"</span>,</span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>        <span class="at">y =</span> var_name</span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>      ) <span class="sc">+</span></span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>      <span class="fu">theme_minimal</span>(<span class="at">base_size =</span> <span class="dv">11</span>)</span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> {</span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>    dat<span class="sc">$</span>value <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(dat<span class="sc">$</span>value)</span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>    <span class="fu">ggplot</span>(dat, <span class="fu">aes</span>(<span class="at">x =</span> group, <span class="at">fill =</span> value)) <span class="sc">+</span></span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>      <span class="fu">geom_bar</span>(<span class="at">position =</span> <span class="st">"fill"</span>) <span class="sc">+</span></span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>      <span class="fu">labs</span>(</span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>        <span class="at">title =</span> <span class="fu">paste0</span>(var_name, <span class="st">" ("</span>, <span class="fu">pretty_test</span>(test_name), <span class="st">")"</span>),</span>
+<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>        <span class="at">x =</span> <span class="st">"Intervention"</span>,</span>
+<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a>        <span class="at">y =</span> <span class="st">"Proportion"</span>,</span>
+<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a>        <span class="at">fill =</span> var_name</span>
+<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a>      ) <span class="sc">+</span></span>
+<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a>      <span class="fu">theme_minimal</span>(<span class="at">base_size =</span> <span class="dv">11</span>)</span>
+<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a>top_by_panel <span class="ot">&lt;-</span> <span class="cf">function</span>(tbl, <span class="at">n =</span> <span class="dv">2</span>L) {</span>
+<span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a>  tbl <span class="sc">%&gt;%</span></span>
+<span id="cb4-41"><a href="#cb4-41" aria-hidden="true" tabindex="-1"></a>    <span class="fu">filter</span>(note <span class="sc">==</span> <span class="st">"ok"</span>, <span class="sc">!</span><span class="fu">is.na</span>(p_value)) <span class="sc">%&gt;%</span></span>
+<span id="cb4-42"><a href="#cb4-42" aria-hidden="true" tabindex="-1"></a>    <span class="fu">arrange</span>(p_value) <span class="sc">%&gt;%</span></span>
+<span id="cb4-43"><a href="#cb4-43" aria-hidden="true" tabindex="-1"></a>    <span class="fu">slice_head</span>(<span class="at">n =</span> n)</span>
+<span id="cb4-44"><a href="#cb4-44" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb4-45"><a href="#cb4-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-46"><a href="#cb4-46" aria-hidden="true" tabindex="-1"></a>prop_plot_data_husna <span class="ot">&lt;-</span> <span class="fu">list</span>()</span>
+<span id="cb4-47"><a href="#cb4-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-48"><a href="#cb4-48" aria-hidden="true" tabindex="-1"></a>build_prop_plot_data <span class="ot">&lt;-</span> <span class="cf">function</span>(df, group_var, var_name, panel_title) {</span>
+<span id="cb4-49"><a href="#cb4-49" aria-hidden="true" tabindex="-1"></a>  x <span class="ot">&lt;-</span> df[[var_name]]</span>
+<span id="cb4-50"><a href="#cb4-50" aria-hidden="true" tabindex="-1"></a>  g <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(df[[group_var]])</span>
+<span id="cb4-51"><a href="#cb4-51" aria-hidden="true" tabindex="-1"></a>  keep <span class="ot">&lt;-</span> <span class="sc">!</span><span class="fu">is.na</span>(x) <span class="sc">&amp;</span> <span class="sc">!</span><span class="fu">is.na</span>(g)</span>
+<span id="cb4-52"><a href="#cb4-52" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="sc">!</span><span class="fu">any</span>(keep)) <span class="fu">return</span>(<span class="cn">NULL</span>)</span>
+<span id="cb4-53"><a href="#cb4-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-54"><a href="#cb4-54" aria-hidden="true" tabindex="-1"></a>  <span class="fu">data.frame</span>(</span>
+<span id="cb4-55"><a href="#cb4-55" aria-hidden="true" tabindex="-1"></a>    <span class="at">group =</span> <span class="fu">as.factor</span>(g[keep]),</span>
+<span id="cb4-56"><a href="#cb4-56" aria-hidden="true" tabindex="-1"></a>    <span class="at">value =</span> <span class="fu">as.factor</span>(x[keep]),</span>
+<span id="cb4-57"><a href="#cb4-57" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel =</span> panel_title,</span>
+<span id="cb4-58"><a href="#cb4-58" aria-hidden="true" tabindex="-1"></a>    <span class="at">stringsAsFactors =</span> <span class="cn">FALSE</span></span>
+<span id="cb4-59"><a href="#cb4-59" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb4-60"><a href="#cb4-60" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb4-61"><a href="#cb4-61" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-62"><a href="#cb4-62" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (vn <span class="cf">in</span> <span class="fu">names</span>(clinical_visit_map_husna)) {</span>
+<span id="cb4-63"><a href="#cb4-63" aria-hidden="true" tabindex="-1"></a>  panel_tbl <span class="ot">&lt;-</span> <span class="fu">get</span>(<span class="fu">paste0</span>(<span class="st">"balance_"</span>, vn))</span>
+<span id="cb4-64"><a href="#cb4-64" aria-hidden="true" tabindex="-1"></a>  top_tbl <span class="ot">&lt;-</span> <span class="fu">top_by_panel</span>(panel_tbl, <span class="at">n =</span> <span class="dv">2</span>L)</span>
+<span id="cb4-65"><a href="#cb4-65" aria-hidden="true" tabindex="-1"></a>  panel_df <span class="ot">&lt;-</span> clinical_visit_map_husna[[vn]]</span>
+<span id="cb4-66"><a href="#cb4-66" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-67"><a href="#cb4-67" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> (i <span class="cf">in</span> <span class="fu">seq_len</span>(<span class="fu">nrow</span>(top_tbl))) {</span>
+<span id="cb4-68"><a href="#cb4-68" aria-hidden="true" tabindex="-1"></a>    test_name_i <span class="ot">&lt;-</span> top_tbl<span class="sc">$</span>test[i]</span>
+<span id="cb4-69"><a href="#cb4-69" aria-hidden="true" tabindex="-1"></a>    p <span class="ot">&lt;-</span> <span class="fu">plot_balance_var</span>(</span>
+<span id="cb4-70"><a href="#cb4-70" aria-hidden="true" tabindex="-1"></a>      <span class="at">df =</span> panel_df,</span>
+<span id="cb4-71"><a href="#cb4-71" aria-hidden="true" tabindex="-1"></a>      <span class="at">group_var =</span> <span class="st">"Intervention"</span>,</span>
+<span id="cb4-72"><a href="#cb4-72" aria-hidden="true" tabindex="-1"></a>      <span class="at">var_name =</span> top_tbl<span class="sc">$</span>var[i],</span>
+<span id="cb4-73"><a href="#cb4-73" aria-hidden="true" tabindex="-1"></a>      <span class="at">test_name =</span> test_name_i</span>
+<span id="cb4-74"><a href="#cb4-74" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb4-75"><a href="#cb4-75" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p)) {</span>
+<span id="cb4-76"><a href="#cb4-76" aria-hidden="true" tabindex="-1"></a>      p <span class="ot">&lt;-</span> p <span class="sc">+</span> <span class="fu">labs</span>(<span class="at">title =</span> <span class="fu">paste0</span>(vn, <span class="st">": "</span>, top_tbl<span class="sc">$</span>var[i], <span class="st">" ("</span>, <span class="fu">pretty_test</span>(test_name_i), <span class="st">")"</span>))</span>
+<span id="cb4-77"><a href="#cb4-77" aria-hidden="true" tabindex="-1"></a>      <span class="cf">if</span> (test_name_i <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"anova"</span>, <span class="st">"kruskal_wallis"</span>)) {</span>
+<span id="cb4-78"><a href="#cb4-78" aria-hidden="true" tabindex="-1"></a>        <span class="fu">print</span>(p)</span>
+<span id="cb4-79"><a href="#cb4-79" aria-hidden="true" tabindex="-1"></a>      } <span class="cf">else</span> {</span>
+<span id="cb4-80"><a href="#cb4-80" aria-hidden="true" tabindex="-1"></a>        prop_df <span class="ot">&lt;-</span> <span class="fu">build_prop_plot_data</span>(</span>
+<span id="cb4-81"><a href="#cb4-81" aria-hidden="true" tabindex="-1"></a>          <span class="at">df =</span> panel_df,</span>
+<span id="cb4-82"><a href="#cb4-82" aria-hidden="true" tabindex="-1"></a>          <span class="at">group_var =</span> <span class="st">"Intervention"</span>,</span>
+<span id="cb4-83"><a href="#cb4-83" aria-hidden="true" tabindex="-1"></a>          <span class="at">var_name =</span> top_tbl<span class="sc">$</span>var[i],</span>
+<span id="cb4-84"><a href="#cb4-84" aria-hidden="true" tabindex="-1"></a>          <span class="at">panel_title =</span> <span class="fu">paste0</span>(vn, <span class="st">": "</span>, top_tbl<span class="sc">$</span>var[i], <span class="st">" ("</span>, <span class="fu">pretty_test</span>(test_name_i), <span class="st">")"</span>)</span>
+<span id="cb4-85"><a href="#cb4-85" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb4-86"><a href="#cb4-86" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(prop_df)) {</span>
+<span id="cb4-87"><a href="#cb4-87" aria-hidden="true" tabindex="-1"></a>          prop_plot_data_husna[[<span class="fu">length</span>(prop_plot_data_husna) <span class="sc">+</span> <span class="dv">1</span>L]] <span class="ot">&lt;-</span> prop_df</span>
+<span id="cb4-88"><a href="#cb4-88" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb4-89"><a href="#cb4-89" aria-hidden="true" tabindex="-1"></a>      }</span>
+<span id="cb4-90"><a href="#cb4-90" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb4-91"><a href="#cb4-91" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb4-92"><a href="#cb4-92" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb4-93"><a href="#cb4-93" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-94"><a href="#cb4-94" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="fu">length</span>(prop_plot_data_husna) <span class="sc">&gt;</span> <span class="dv">0</span>L) {</span>
+<span id="cb4-95"><a href="#cb4-95" aria-hidden="true" tabindex="-1"></a>  prop_plot_df_husna <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(prop_plot_data_husna)</span>
+<span id="cb4-96"><a href="#cb4-96" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(</span>
+<span id="cb4-97"><a href="#cb4-97" aria-hidden="true" tabindex="-1"></a>    <span class="fu">ggplot</span>(prop_plot_df_husna, <span class="fu">aes</span>(<span class="at">x =</span> group, <span class="at">fill =</span> value)) <span class="sc">+</span></span>
+<span id="cb4-98"><a href="#cb4-98" aria-hidden="true" tabindex="-1"></a>      <span class="fu">geom_bar</span>(<span class="at">position =</span> <span class="st">"fill"</span>) <span class="sc">+</span></span>
+<span id="cb4-99"><a href="#cb4-99" aria-hidden="true" tabindex="-1"></a>      <span class="fu">facet_wrap</span>(<span class="sc">~</span>panel, <span class="at">ncol =</span> <span class="dv">2</span>) <span class="sc">+</span></span>
+<span id="cb4-100"><a href="#cb4-100" aria-hidden="true" tabindex="-1"></a>      <span class="fu">scale_fill_brewer</span>(<span class="at">palette =</span> <span class="st">"Dark2"</span>) <span class="sc">+</span></span>
+<span id="cb4-101"><a href="#cb4-101" aria-hidden="true" tabindex="-1"></a>      <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Intervention"</span>, <span class="at">y =</span> <span class="st">"Proportion"</span>, <span class="at">fill =</span> <span class="st">"Level"</span>) <span class="sc">+</span></span>
+<span id="cb4-102"><a href="#cb4-102" aria-hidden="true" tabindex="-1"></a>      <span class="fu">theme_minimal</span>(<span class="at">base_size =</span> <span class="dv">11</span>) <span class="sc">+</span></span>
+<span id="cb4-103"><a href="#cb4-103" aria-hidden="true" tabindex="-1"></a>      <span class="fu">theme</span>(</span>
+<span id="cb4-104"><a href="#cb4-104" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.position =</span> <span class="st">"bottom"</span>,</span>
+<span id="cb4-105"><a href="#cb4-105" aria-hidden="true" tabindex="-1"></a>        <span class="at">strip.text =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">10</span>)</span>
+<span id="cb4-106"><a href="#cb4-106" aria-hidden="true" tabindex="-1"></a>      )</span>
+<span id="cb4-107"><a href="#cb4-107" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb4-108"><a href="#cb4-108" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><a href="covariate_diagnostics_files/figure-html/covariate-diagnostics-02-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="covariate_diagnostics_files/figure-html/covariate-diagnostics-02-1.png" class="img-fluid figure-img" width="4200"></a></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Per visit panel, the two covariates with the smallest p-values are visualized (continuous: boxplots; discrete: stacked proportion bars).</p>
+</section>
+<section id="symbol-key" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="symbol-key"><span class="header-section-number">5</span> Symbol key</h2>
+<ul>
+<li><span class="math inline">\(E\)</span>: exposure</li>
+<li><span class="math inline">\(Y\)</span>: outcome</li>
+<li><span class="math inline">\(C_k\)</span>: covariate <span class="math inline">\(k\)</span></li>
+<li><span class="math inline">\(i\)</span>: participant index</li>
+<li><span class="math inline">\(a\)</span>: age/timepoint index</li>
+<li><span class="math inline">\(t\)</span>: repeated-measure time index</li>
+</ul>
+</section>
+<section id="causal-roles" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="causal-roles"><span class="header-section-number">6</span> Causal roles</h2>
+<ul>
+<li><code>Confounder</code>: common cause of <code>E</code> and <code>Y</code>; adjust in primary models.</li>
+<li><code>Mediator</code>: on path <code>E -&gt; mediator -&gt; Y</code>; do not include in primary confounder set.</li>
+<li><code>Collider</code>: common effect of two causes; do not condition on it.</li>
+</ul>
+</section>
+<section id="dag" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="dag"><span class="header-section-number">7</span> DAG</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span>has_dagitty) {</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="st">"Package 'dagitty' not installed; DAG plot and adjustment set are skipped."</span>)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> {</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  dag_husna <span class="ot">&lt;-</span> dagitty<span class="sc">::</span><span class="fu">dagitty</span>(<span class="st">" </span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="st">  dag {</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="st">    E [exposure]</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="st">    Y [outcome]</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="st">    Mage</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="st">    MBMI</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="st">    Parity</span></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="st">    SES</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a><span class="st">    Lifestyle</span></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="st">    Intervention</span></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a><span class="st">    ChildSex</span></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a><span class="st">    ChildAge</span></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a><span class="st">    BirthFactors</span></span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a><span class="st">    PostnatalDiet</span></span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a><span class="st">    Mage -&gt; E</span></span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a><span class="st">    MBMI -&gt; E</span></span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a><span class="st">    Parity -&gt; E</span></span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a><span class="st">    SES -&gt; E</span></span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a><span class="st">    Lifestyle -&gt; E</span></span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a><span class="st">    Mage -&gt; Y</span></span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a><span class="st">    MBMI -&gt; Y</span></span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a><span class="st">    Parity -&gt; Y</span></span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a><span class="st">    SES -&gt; Y</span></span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a><span class="st">    Lifestyle -&gt; Y</span></span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a><span class="st">    Intervention -&gt; Y</span></span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a><span class="st">    ChildSex -&gt; Y</span></span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a><span class="st">    ChildAge -&gt; Y</span></span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a><span class="st">    E -&gt; BirthFactors</span></span>
+<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a><span class="st">    E -&gt; PostnatalDiet</span></span>
+<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a><span class="st">    E -&gt; Y</span></span>
+<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a><span class="st">    BirthFactors -&gt; Y</span></span>
+<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a><span class="st">    PostnatalDiet -&gt; Y</span></span>
+<span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a><span class="st">  }</span></span>
+<span id="cb5-40"><a href="#cb5-40" aria-hidden="true" tabindex="-1"></a><span class="st">  "</span>)</span>
+<span id="cb5-41"><a href="#cb5-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-42"><a href="#cb5-42" aria-hidden="true" tabindex="-1"></a>  <span class="fu">plot</span>(dag_husna)</span>
+<span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a>  dagitty<span class="sc">::</span><span class="fu">adjustmentSets</span>(dag_husna, <span class="at">exposure =</span> <span class="st">"E"</span>, <span class="at">outcome =</span> <span class="st">"Y"</span>)</span>
+<span id="cb5-44"><a href="#cb5-44" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><a href="covariate_diagnostics_files/figure-html/covariate-diagnostics-03-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="covariate_diagnostics_files/figure-html/covariate-diagnostics-03-1.png" class="img-fluid figure-img" width="4200"></a></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>{ Lifestyle, MBMI, Mage, Parity, SES }</code></pre>
+</div>
+</div>
+</section>
+<section id="covariates" class="level2" data-number="8">
+<h2 data-number="8" class="anchored" data-anchor-id="covariates"><span class="header-section-number">8</span> Covariates</h2>
+<p>Primary models use the maternal core block below. Age-specific metabolite models additionally adjust for visit-specific fasting time as a measurement-condition covariate when available. Sensitivity models add the sensitivity block and compare estimates.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>core_covars_husna <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Intervention"</span>,</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="st">"MAge1"</span>,</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  <span class="st">"MprepBMI"</span>,</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  <span class="st">"MPrimipara"</span>,</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>  <span class="st">"MprevGDM_new"</span>,</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>  <span class="st">"MUniEdu"</span>,</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>  <span class="st">"MPRSmoke"</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>sensitivity_covars_husna <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>  <span class="st">"MprepSmoke"</span>,</span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>  <span class="st">"MEthnicity"</span>,</span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>  <span class="st">"MDise"</span></span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a><span class="fu">list</span>(<span class="at">core =</span> core_covars_husna, <span class="at">sensitivity =</span> sensitivity_covars_husna)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>$core
+[1] "Intervention" "MAge1"        "MprepBMI"     "MPrimipara"   "MprevGDM_new"
+[6] "MUniEdu"      "MPRSmoke"    
+
+$sensitivity
+[1] "MprepSmoke" "MEthnicity" "MDise"     </code></pre>
+</div>
+</div>
+</section>
+<section id="covariate-selection-traceability" class="level2" data-number="9">
+<h2 data-number="9" class="anchored" data-anchor-id="covariate-selection-traceability"><span class="header-section-number">9</span> Covariate selection traceability</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>covariate_trace_husna <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">variable =</span> <span class="fu">c</span>(</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Intervention"</span>, <span class="st">"MAge1"</span>, <span class="st">"MprepBMI"</span>, <span class="st">"MPrimipara"</span>, <span class="st">"MprevGDM_new"</span>,</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"MUniEdu"</span>, <span class="st">"MPRSmoke"</span>, <span class="st">"MprepSmoke"</span>, <span class="st">"MEthnicity"</span>, <span class="st">"MDise"</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">role =</span> <span class="fu">c</span>(</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">"core"</span>, <span class="st">"core"</span>, <span class="st">"core"</span>, <span class="st">"core"</span>, <span class="st">"core"</span>,</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">"core"</span>, <span class="st">"core"</span>, <span class="st">"sensitivity"</span>, <span class="st">"sensitivity"</span>, <span class="st">"sensitivity"</span></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>  <span class="at">motivation =</span> <span class="fu">c</span>(</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Design/control factor relevant to allocation context"</span>,</span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Maternal baseline confounding control"</span>,</span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Maternal baseline metabolic confounding control"</span>,</span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Parity-related confounding control"</span>,</span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Maternal metabolic history confounding control"</span>,</span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Socioeconomic proxy"</span>,</span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Maternal smoking-related confounding control"</span>,</span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Maternal lifestyle proxy; added in sensitivity"</span>,</span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Potential structural/contextual confounding; sensitivity"</span>,</span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Maternal health status proxy; sensitivity"</span></span>
+<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a>  <span class="at">test_role =</span> <span class="fu">rep</span>(<span class="st">"Balance and missingness summary"</span>, <span class="dv">10</span>),</span>
+<span id="cb9-23"><a href="#cb9-23" aria-hidden="true" tabindex="-1"></a>  <span class="at">stringsAsFactors =</span> <span class="cn">FALSE</span></span>
+<span id="cb9-24"><a href="#cb9-24" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb9-25"><a href="#cb9-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-26"><a href="#cb9-26" aria-hidden="true" tabindex="-1"></a><span class="fu">show_table</span>(</span>
+<span id="cb9-27"><a href="#cb9-27" aria-hidden="true" tabindex="-1"></a>  covariate_trace_husna,</span>
+<span id="cb9-28"><a href="#cb9-28" aria-hidden="true" tabindex="-1"></a>  <span class="at">page_len =</span> <span class="dv">10</span>,</span>
+<span id="cb9-29"><a href="#cb9-29" aria-hidden="true" tabindex="-1"></a>  <span class="at">title =</span> <span class="st">"Covariate selection traceability"</span>,</span>
+<span id="cb9-30"><a href="#cb9-30" aria-hidden="true" tabindex="-1"></a>  <span class="at">caption =</span> <span class="st">"Covariate selection traceability"</span></span>
+<span id="cb9-31"><a href="#cb9-31" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<h4 class="anchored">Covariate selection traceability</h4>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-f10424452a85d3280113" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-f10424452a85d3280113">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\" disabled=\"\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","caption":"<caption>Covariate selection traceability<\/caption>","data":[["Intervention","MAge1","MprepBMI","MPrimipara","MprevGDM_new","MUniEdu","MPRSmoke","MprepSmoke","MEthnicity","MDise"],["core","core","core","core","core","core","core","sensitivity","sensitivity","sensitivity"],["Design/control factor relevant to allocation context","Maternal baseline confounding control","Maternal baseline metabolic confounding control","Parity-related confounding control","Maternal metabolic history confounding control","Socioeconomic proxy","Maternal smoking-related confounding control","Maternal lifestyle proxy; added in sensitivity","Potential structural/contextual confounding; sensitivity","Maternal health status proxy; sensitivity"],["Balance and missingness summary","Balance and missingness summary","Balance and missingness summary","Balance and missingness summary","Balance and missingness summary","Balance and missingness summary","Balance and missingness summary","Balance and missingness summary","Balance and missingness summary","Balance and missingness summary"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>variable<\/th>\n      <th>role<\/th>\n      <th>motivation<\/th>\n      <th>test_role<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"scrollX":false,"autoWidth":false,"columnDefs":[{"name":"variable","targets":0},{"name":"role","targets":1},{"name":"motivation","targets":2},{"name":"test_role","targets":3}],"order":[],"orderClasses":false,"orderCellsTop":true}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+<section id="missingness" class="level2" data-number="10">
+<h2 data-number="10" class="anchored" data-anchor-id="missingness"><span class="header-section-number">10</span> Missingness</h2>
+<p>Missingness is reported as a data-quality diagnostic and to inform interpretation of precision and sensitivity analyses within the visit-linked analytic panels.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>covars <span class="ot">&lt;-</span> <span class="fu">unique</span>(<span class="fu">c</span>(core_covars_husna, sensitivity_covars_husna, <span class="fu">paste0</span>(<span class="st">"CFastingHoursBloodSample"</span>, visit_levels_husna)))</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>missing_by_panel <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(<span class="fu">lapply</span>(<span class="fu">names</span>(clinical_visit_map_husna), <span class="cf">function</span>(vn) {</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>  df_panel <span class="ot">&lt;-</span> clinical_visit_map_husna[[vn]]</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>  vars_here <span class="ot">&lt;-</span> covars[covars <span class="sc">%in%</span> <span class="fu">names</span>(df_panel)]</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="fu">length</span>(vars_here) <span class="sc">==</span> <span class="dv">0</span>) <span class="fu">return</span>(<span class="cn">NULL</span>)</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">data.frame</span>(</span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">visit =</span> <span class="fu">gsub</span>(<span class="st">"visit"</span>, <span class="st">"visit "</span>, vn),</span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">Covariate =</span> vars_here,</span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">Available_N =</span> <span class="fu">sapply</span>(vars_here, <span class="cf">function</span>(v) <span class="fu">sum</span>(<span class="sc">!</span><span class="fu">is.na</span>(df_panel[[v]]))),</span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">Missing_pct =</span> <span class="fu">sapply</span>(vars_here, <span class="cf">function</span>(v) <span class="fu">round</span>(<span class="fu">mean</span>(<span class="fu">is.na</span>(df_panel[[v]])) <span class="sc">*</span> <span class="dv">100</span>, <span class="dv">1</span>)),</span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">stringsAsFactors =</span> <span class="cn">FALSE</span></span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a>}))</span>
+<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a>missing_by_panel <span class="sc">%&gt;%</span></span>
+<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(visit, <span class="fu">desc</span>(Missing_pct), Covariate) <span class="sc">%&gt;%</span></span>
+<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">show_table</span>(</span>
+<span id="cb10-20"><a href="#cb10-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">page_len =</span> <span class="dv">10</span>,</span>
+<span id="cb10-21"><a href="#cb10-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Covariate missingness by visit-linked panel"</span>,</span>
+<span id="cb10-22"><a href="#cb10-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">"Covariate missingness by visit-linked panel"</span></span>
+<span id="cb10-23"><a href="#cb10-23" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<h4 class="anchored">Covariate missingness by visit-linked panel</h4>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-b4b252a06309deea56b1" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-b4b252a06309deea56b1">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"integer\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"67\" data-max=\"258\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"0\" data-max=\"57\" data-scale=\"1\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","caption":"<caption>Covariate missingness by visit-linked panel<\/caption>","data":[["visit 4","visit 4","visit 4","visit 4","visit 4","visit 4","visit 4","visit 4","visit 4","visit 4","visit 4","visit 4","visit 4","visit 4","visit 5","visit 5","visit 5","visit 5","visit 5","visit 5","visit 5","visit 5","visit 5","visit 5","visit 5","visit 5","visit 5","visit 5","visit 6","visit 6","visit 6","visit 6","visit 6","visit 6","visit 6","visit 6","visit 6","visit 6","visit 6","visit 6","visit 6","visit 6","visit 7","visit 7","visit 7","visit 7","visit 7","visit 7","visit 7","visit 7","visit 7","visit 7","visit 7","visit 7","visit 7","visit 7"],["CFastingHoursBloodSample7","MprevGDM_new","CFastingHoursBloodSample6","CFastingHoursBloodSample5","CFastingHoursBloodSample4","MDise","MPRSmoke","Intervention","MAge1","MEthnicity","MPrimipara","MUniEdu","MprepBMI","MprepSmoke","MprevGDM_new","CFastingHoursBloodSample7","CFastingHoursBloodSample4","CFastingHoursBloodSample6","CFastingHoursBloodSample5","MDise","MPRSmoke","Intervention","MAge1","MEthnicity","MPrimipara","MUniEdu","MprepBMI","MprepSmoke","MprevGDM_new","CFastingHoursBloodSample7","CFastingHoursBloodSample4","CFastingHoursBloodSample5","CFastingHoursBloodSample6","MDise","MPRSmoke","Intervention","MAge1","MEthnicity","MPrimipara","MUniEdu","MprepBMI","MprepSmoke","MprevGDM_new","CFastingHoursBloodSample4","CFastingHoursBloodSample6","CFastingHoursBloodSample5","CFastingHoursBloodSample7","MDise","MPRSmoke","MUniEdu","MprepSmoke","Intervention","MAge1","MEthnicity","MPrimipara","MprepBMI"],[111,130,192,209,224,253,257,258,258,258,258,258,258,258,117,119,194,204,233,251,256,257,257,257,257,257,257,257,111,116,178,201,216,236,237,239,239,239,239,239,239,239,67,100,106,113,134,135,137,138,138,139,139,139,139,139],[57,49.6,25.6,19,13.2,1.9,0.4,0,0,0,0,0,0,0,54.5,53.7,24.5,20.6,9.300000000000001,2.3,0.4,0,0,0,0,0,0,0,53.6,51.5,25.5,15.9,9.6,1.3,0.8,0,0,0,0,0,0,0,51.8,28.1,23.7,18.7,3.6,2.9,1.4,0.7,0.7,0,0,0,0,0]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>visit<\/th>\n      <th>Covariate<\/th>\n      <th>Available_N<\/th>\n      <th>Missing_pct<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"scrollX":false,"autoWidth":false,"columnDefs":[{"className":"dt-right","targets":[2,3]},{"name":"visit","targets":0},{"name":"Covariate","targets":1},{"name":"Available_N","targets":2},{"name":"Missing_pct","targets":3}],"order":[],"orderClasses":false,"orderCellsTop":true}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+<section id="proposed-models" class="level2" data-number="11">
+<h2 data-number="11" class="anchored" data-anchor-id="proposed-models"><span class="header-section-number">11</span> Proposed models</h2>
+<ol type="1">
+<li>Age-specific linear model: <code>Y_age ~ E + maternal_core_covariates + visit_specific_fasting</code></li>
+<li>Mutually adjusted timing model: <code>Y_age ~ E_early + E_late + maternal_core_covariates + visit_specific_fasting</code></li>
+<li>Repeated-measures mixed model: <code>Y_it ~ E + age_t + E:age_t + maternal_core_covariates + (1|child)</code></li>
+<li>Sensitivity models: add sensitivity covariate block and compare estimates.</li>
+</ol>
+</section>
+<section id="mathematical-model-forms" class="level2" data-number="12">
+<h2 data-number="12" class="anchored" data-anchor-id="mathematical-model-forms"><span class="header-section-number">12</span> Mathematical model forms</h2>
+<ol type="1">
+<li>Age-specific linear model (age <code>a</code>):</li>
+</ol>
+<p><span class="math display">\[
+Y_{i,a} = \beta_0 + \beta_1 E_i + \sum_{k=1}^{p} \gamma_k C_{i,k} + \delta F_{i,a} + \varepsilon_{i,a}
+\]</span></p>
+<ol start="2" type="1">
+<li>Mutually adjusted timing model (age <code>a</code>):</li>
+</ol>
+<p><span class="math display">\[
+Y_{i,a} = \beta_0 + \beta_1 E_{i,\mathrm{early}} + \beta_2 E_{i,\mathrm{late}} + \sum_{k=1}^{p} \gamma_k C_{i,k} + \delta F_{i,a} + \varepsilon_{i,a}
+\]</span></p>
+<ol start="3" type="1">
+<li>Repeated-measures mixed model (child <code>i</code>, time <code>t</code>):</li>
+</ol>
+<p><span class="math display">\[
+Y_{i,t} = \beta_0 + \beta_1 E_i + \beta_2 t + \beta_3(E_i \times t) + \sum_{k=1}^{p} \gamma_k C_{i,k} + u_i + \varepsilon_{i,t}
+\]</span></p>
+<p>with random intercept:</p>
+<p><span class="math display">\[
+u_i \sim \mathcal{N}(0, \sigma_u^2), \quad \varepsilon_{i,t} \sim \mathcal{N}(0, \sigma^2)
+\]</span></p>
+</section>
+<section id="data-snapshot" class="level2" data-number="13">
+<h2 data-number="13" class="anchored" data-anchor-id="data-snapshot"><span class="header-section-number">13</span> Data snapshot</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">dim</span>(clinical)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 438  67</code></pre>
+</div>
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(<span class="fu">names</span>(clinical), <span class="dv">30</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] "NroOfOrder"         "VariableCode"       "Intervention"      
+ [4] "MAge1"              "MprepBMI"           "MBMIOverwOrObese"  
+ [7] "MBMI2"              "MPrimipara"         "MUniEdu"           
+[10] "MDise"              "MDiseGroup"         "MDMFamH1ST"        
+[13] "MEthnicity"         "MPRSmoke"           "MprevGDM_new"      
+[16] "MprepSmoke"         "MDIINormalDiet1"    "MDIIDensityDiet1"  
+[19] "MDIINormalDiet2"    "MDIIDensityDiet2"   "MIDQ1"             
+[22] "MIDQ1_categorized"  "MIDQ2"              "MIDQ2_categorized" 
+[25] "MDietaryPatterns_1" "MDietaryPatterns_2" "MEkcalDiet1"       
+[28] "MEPercentProDiet1"  "MEPercentCHODiet1"  "MEPercentFatDiet1" </code></pre>
+</div>
+</div>
+</section>
+<section id="variable-key" class="level2" data-number="14">
+<h2 data-number="14" class="anchored" data-anchor-id="variable-key"><span class="header-section-number">14</span> Variable key</h2>
+<details>
+<summary>
+Click to expand full variable key
+</summary>
+<div class="cell">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>build_variable_key <span class="ot">&lt;-</span> <span class="cf">function</span>(df) {</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>  nm <span class="ot">&lt;-</span> <span class="fu">names</span>(df)</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>  make_friendly <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>    y <span class="ot">&lt;-</span> <span class="fu">gsub</span>(<span class="st">"([a-z])([A-Z])"</span>, <span class="st">"</span><span class="sc">\\</span><span class="st">1 </span><span class="sc">\\</span><span class="st">2"</span>, x)</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>    y <span class="ot">&lt;-</span> <span class="fu">gsub</span>(<span class="st">"([A-Za-z])([0-9])"</span>, <span class="st">"</span><span class="sc">\\</span><span class="st">1 </span><span class="sc">\\</span><span class="st">2"</span>, y)</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>    y <span class="ot">&lt;-</span> <span class="fu">gsub</span>(<span class="st">"([0-9])([A-Za-z])"</span>, <span class="st">"</span><span class="sc">\\</span><span class="st">1 </span><span class="sc">\\</span><span class="st">2"</span>, y)</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>    y <span class="ot">&lt;-</span> <span class="fu">gsub</span>(<span class="st">"[._]+"</span>, <span class="st">" "</span>, y)</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>    y <span class="ot">&lt;-</span> <span class="fu">gsub</span>(<span class="st">"</span><span class="sc">\\</span><span class="st">s+"</span>, <span class="st">" "</span>, <span class="fu">trimws</span>(y))</span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>    tools<span class="sc">::</span><span class="fu">toTitleCase</span>(<span class="fu">tolower</span>(y))</span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>  var_label <span class="ot">&lt;-</span> <span class="fu">sapply</span>(nm, <span class="cf">function</span>(v) {</span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a>    lb <span class="ot">&lt;-</span> <span class="fu">attr</span>(df[[v]], <span class="st">"label"</span>)</span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (<span class="fu">is.null</span>(lb) <span class="sc">||</span> <span class="fu">is.na</span>(lb) <span class="sc">||</span> lb <span class="sc">==</span> <span class="st">""</span>) <span class="st">""</span> <span class="cf">else</span> <span class="fu">as.character</span>(lb)</span>
+<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a>  })</span>
+<span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a>  value_levels <span class="ot">&lt;-</span> <span class="fu">sapply</span>(nm, <span class="cf">function</span>(v) {</span>
+<span id="cb15-16"><a href="#cb15-16" aria-hidden="true" tabindex="-1"></a>    labs <span class="ot">&lt;-</span> <span class="fu">attr</span>(df[[v]], <span class="st">"labels"</span>)</span>
+<span id="cb15-17"><a href="#cb15-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (<span class="fu">is.null</span>(labs) <span class="sc">||</span> <span class="fu">length</span>(labs) <span class="sc">==</span> <span class="dv">0</span>) <span class="fu">return</span>(<span class="st">""</span>)</span>
+<span id="cb15-18"><a href="#cb15-18" aria-hidden="true" tabindex="-1"></a>    <span class="fu">paste</span>(<span class="fu">sprintf</span>(<span class="st">"%s = %s"</span>, <span class="fu">names</span>(labs), <span class="fu">unname</span>(labs)), <span class="at">collapse =</span> <span class="st">"; "</span>)</span>
+<span id="cb15-19"><a href="#cb15-19" aria-hidden="true" tabindex="-1"></a>  })</span>
+<span id="cb15-20"><a href="#cb15-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">data.frame</span>(</span>
+<span id="cb15-21"><a href="#cb15-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">Friendly_Name =</span> <span class="fu">sapply</span>(nm, make_friendly),</span>
+<span id="cb15-22"><a href="#cb15-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">Variable_Code =</span> nm,</span>
+<span id="cb15-23"><a href="#cb15-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">Variable_Label =</span> var_label,</span>
+<span id="cb15-24"><a href="#cb15-24" aria-hidden="true" tabindex="-1"></a>    <span class="at">Value_Levels =</span> value_levels,</span>
+<span id="cb15-25"><a href="#cb15-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">stringsAsFactors =</span> <span class="cn">FALSE</span></span>
+<span id="cb15-26"><a href="#cb15-26" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb15-27"><a href="#cb15-27" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb15-28"><a href="#cb15-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-29"><a href="#cb15-29" aria-hidden="true" tabindex="-1"></a>variable_key <span class="ot">&lt;-</span> <span class="fu">build_variable_key</span>(clinical)</span>
+<span id="cb15-30"><a href="#cb15-30" aria-hidden="true" tabindex="-1"></a><span class="fu">show_table</span>(</span>
+<span id="cb15-31"><a href="#cb15-31" aria-hidden="true" tabindex="-1"></a>  variable_key,</span>
+<span id="cb15-32"><a href="#cb15-32" aria-hidden="true" tabindex="-1"></a>  <span class="at">page_len =</span> <span class="dv">10</span>,</span>
+<span id="cb15-33"><a href="#cb15-33" aria-hidden="true" tabindex="-1"></a>  <span class="at">title =</span> <span class="st">"Variable key"</span>,</span>
+<span id="cb15-34"><a href="#cb15-34" aria-hidden="true" tabindex="-1"></a>  <span class="at">caption =</span> <span class="st">"Variable key"</span></span>
+<span id="cb15-35"><a href="#cb15-35" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<h4 class="anchored">Variable key</h4>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-9b203e7bd9627994ef4d" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-9b203e7bd9627994ef4d">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","caption":"<caption>Variable key<\/caption>","data":[["Nro of Order","Variable Code","Intervention","Mage 1","Mprep Bmi","Mbmioverw or Obese","Mbmi 2","Mprimipara","Muni Edu","Mdise","Mdise Group","Mdmfam h 1 St","Methnicity","Mprsmoke","Mprev Gdm New","Mprep Smoke","Mdiinormal Diet 1","Mdiidensity Diet 1","Mdiinormal Diet 2","Mdiidensity Diet 2","Midq 1","Midq 1 Categorized","Midq 2","Midq 2 Categorized","Mdietary Patterns 1","Mdietary Patterns 2","Mekcal Diet 1","Mepercent Pro Diet 1","Mepercent Chodiet 1","Mepercent Fat Diet 1","Mepercent Fibtot Diet 1","Mepercent Fiball Diet 1","Mepercent Fadiet 1","Mepercent Sfadiet 1","Mepercent Mufadiet 1","Mepercent Pufadiet 1","Mepercent Ladiet 1","Mepercent Aladiet 1","Mepercent Aradiet 1","Mepercent Fan 3 Diet 1","Mepercent Fan 6 Diet 1","Mepercent Fatrans Diet 1","Mepercent Epadiet 1","Mepercent Dhadiet 1","Mekcal Diet 2","Mepercent Pro Diet 2","Mepercent Chodiet 2","Mepercent Fat Diet 2","Mepercent Fibtot Diet 2","Mepercent Fiball Diet 2","Mepercent Fadiet 2","Mepercent Sfadiet 2","Mepercent Mufadiet 2","Mepercent Pufadiet 2","Mepercent Ladiet 2","Mepercent Aladiet 2","Mepercent Aradiet 2","Mepercent Fan 3 Diet 2","Mepercent Fan 6 Diet 2","Mepercent Fatrans Diet 2","Mepercent Epadiet 2","Mepercent Dhadiet 2","Cfasting Hours Blood Sample 4","Cfasting Hours Blood Sample 5","Cfasting Hours Blood Sample 6","Cfasting Hours Blood Sample 7","Study Id"],["NroOfOrder","VariableCode","Intervention","MAge1","MprepBMI","MBMIOverwOrObese","MBMI2","MPrimipara","MUniEdu","MDise","MDiseGroup","MDMFamH1ST","MEthnicity","MPRSmoke","MprevGDM_new","MprepSmoke","MDIINormalDiet1","MDIIDensityDiet1","MDIINormalDiet2","MDIIDensityDiet2","MIDQ1","MIDQ1_categorized","MIDQ2","MIDQ2_categorized","MDietaryPatterns_1","MDietaryPatterns_2","MEkcalDiet1","MEPercentProDiet1","MEPercentCHODiet1","MEPercentFatDiet1","MEPercentFibtotDiet1","MEPercentFiballDiet1","MEPercentFADiet1","MEPercentSFADiet1","MEPercentMUFADiet1","MEPercentPUFADiet1","MEPercentLADiet1","MEPercentALADiet1","MEPercentARADiet1","MEPercentFAn3Diet1","MEPercentFAn6Diet1","MEPercentFatransDiet1","MEPercentEPADiet1","MEPercentDHADiet1","MEkcalDiet2","MEPercentProDiet2","MEPercentCHODiet2","MEPercentFatDiet2","MEPercentFibtotDiet2","MEPercentFiballDiet2","MEPercentFADiet2","MEPercentSFADiet2","MEPercentMUFADiet2","MEPercentPUFADiet2","MEPercentLADiet2","MEPercentALADiet2","MEPercentARADiet2","MEPercentFAn3Diet2","MEPercentFAn6Diet2","MEPercentFatransDiet2","MEPercentEPADiet2","MEPercentDHADiet2","CFastingHoursBloodSample4","CFastingHoursBloodSample5","CFastingHoursBloodSample6","CFastingHoursBloodSample7","StudyID"],["","","Intervention groups","Mother's age at 1st visit (y)","Prepregnancy BMI (weight self reported, height visit1)","BMI overweight or obese","Maternal BMI at 2nd visit","Expecting her 1st child","Mother has college or university education","Mother has diseases","Mothers' disease classification","Mother's parents have DM or metabolic syndrome","Region of origin","Smoked during pregnancy","Mother, previous GDM diagnosis","Smoked before pregnancy","Mother, DII score normal, diet, 1. visit","Mother, DII score energy adjusted, diet, 1. visit","Mother, DII score normal, diet, 2. visit","Mother, DII score energy adjusted, diet, 2. visit","Mother Index of Dietary Qualiti at visit 1","Mother Index of Dietary Quality categorized at visit 1","Mother Index of Dietary Quality at visit 2","Mother Index of Dietary Quality categorized at visit 2","Mother, dietary patterns, 1. visit","Mother, dietary patterns, 2. visit","mother, energy intake, kcal, diet, 1.visit","mother, energy percent, protein, diet, 1.visit","mother, energy percent, carbohydrate, diet, 1.visit","mother, energy percent, fat, diet, 1.visit","mother, energy percent, fiber total intake, diet, 1.visit","mother, energy percent, fiber all intake, diet, 1.visit","mother, energy percent, fatty acid intake, diet, 1.visit","mother, energy percent, saturated fatty acid intake, diet, 1.visit","mother, energy percent, monounsaturated fatty acid intake, diet, 1.visit","mother, energy percent, polyunsaturated fatty acid intake, diet, 1.visit","mother, energy percent, linoleic acid intake, diet, 1.visit","mother, energy percent, alpha linoleic acid intake, diet, 1.visit","mother, energy percent, arachidonic acid intake, diet, 1.visit","mother, energy percent, omega-3 fatty acid intake, diet, 1.visit","mother, energy percent, omega-6 fatty acid intake, diet, 1.visit","mother, energy percent, trans fat intake, diet, 1.visit","mother, energy percent, EPA intake, diet, 1.visit","mother, energy percent, DHA intake, diet, 1.visit","mother, energy intake, kcal, diet, 2.visit","mother, energy percent, protein, diet, 2.visit","mother, energy percent, carbohydrate, diet, 2.visit","mother, energy percent, fat, diet, 2.visit","mother, energy percent, fiber total intake, diet, 2.visit","mother, energy percent, fiber all intake, diet, 2.visit","mother, energy percent, fatty acid intake, diet, 2.visit","mother, energy percent, saturated fatty acid intake, diet, 2.visit","mother, energy percent, monounsaturated fatty acid intake, diet, 2.visit","mother, energy percent, polyunsaturated fatty acid intake, diet, 2.visit","mother, energy percent, linoleic acid intake, diet, 2.visit","mother, energy percent, alpha linoleic acid intake, diet, 2.visit","mother, energy percent, arachidonic acid intake, diet, 2.visit","mother, energy percent, omega-3 fatty acid intake, diet, 2.visit","mother, energy percent, omega-6 fatty acid intake, diet, 2.visit","mother, energy percent, trans fat intake, diet, 2.visit","mother, energy percent, EPA intake, diet, 2.visit","mother, energy percent, DHA intake, diet, 2.visit","Child fasting time before blood sample, 4. visit","Child fasting time before blood sample, 5. visit","Child fasting time before blood sample, 6. visit","Child fasting time, before blood sample 7. visit",""],["","","Fish oil = 1; Probiotics = 2; Fish oil + Probiotics = 3; Placebo = 4","","","BMI &lt;30 = 1; BMI =/&gt; 30 = 2","","no = 1; yes = 2","no = 1; yes = 2","no = 1; yes = 2","none of those mentioned = 0; asthma, allergy, atopy = 1; migraine = 2; hypothyroidism = 3; mental disorder = 4; musculoskeletal disorder = 5; Gastrointestinal diseases = 6","no = 1; yes = 2; Does not know = 3","European = 1; Asian = 2; Middle estern = 3; other/mixed = 4","no = 1; yes = 2","no = 1; yes = 2","no = 1; yes = 2","","","","","","Poor = 1; Good = 2","","Poor = 1; Good = 2","Healthy = 1; Less healthy = 2","Healthy = 1; Less healthy = 2","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Friendly_Name<\/th>\n      <th>Variable_Code<\/th>\n      <th>Variable_Label<\/th>\n      <th>Value_Levels<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"scrollX":false,"autoWidth":false,"columnDefs":[{"name":"Friendly_Name","targets":0},{"name":"Variable_Code","targets":1},{"name":"Variable_Label","targets":2},{"name":"Value_Levels","targets":3}],"order":[],"orderClasses":false,"orderCellsTop":true}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</details>
+</section>
+<section id="session-info" class="level2" data-number="15">
+<h2 data-number="15" class="anchored" data-anchor-id="session-info"><span class="header-section-number">15</span> Session info</h2>
+<div class="callout callout-style-default callout-note callout-titled" title="Show session information">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show session information
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>R version 4.5.2 (2025-10-31)
+Platform: x86_64-pc-linux-gnu
+Running under: Ubuntu 24.04.3 LTS
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.12.0 
+LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.12.0  LAPACK version 3.12.0
+
+locale:
+ [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+ [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+ [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+ [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+
+time zone: Europe/Helsinki
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] ggplot2_4.0.0 readxl_1.4.5  dplyr_1.1.4   haven_2.5.5  
+
+loaded via a namespace (and not attached):
+ [1] gtable_0.3.6       jsonlite_2.0.0     compiler_4.5.2     Rcpp_1.1.1        
+ [5] tidyselect_1.2.1   dichromat_2.0-0.1  jquerylib_0.1.4    scales_1.4.0      
+ [9] boot_1.3-32        yaml_2.3.12        fastmap_1.2.0      readr_2.1.5       
+[13] R6_2.6.1           labeling_0.4.3     patchwork_1.3.2    generics_0.1.4    
+[17] curl_7.0.0         knitr_1.51         MASS_7.3-65        htmlwidgets_1.6.4 
+[21] forcats_1.0.0      tibble_3.3.0       bslib_0.10.0       tzdb_0.5.0        
+[25] pillar_1.11.1      RColorBrewer_1.1-3 rlang_1.1.7        DT_0.34.0         
+[29] V8_8.0.1           cachem_1.1.0       xfun_0.57          sass_0.4.10       
+[33] S7_0.2.1           otel_0.2.0         cli_3.6.5          withr_3.0.2       
+[37] magrittr_2.0.4     crosstalk_1.2.2    digest_0.6.39      grid_4.5.2        
+[41] hms_1.1.3          lifecycle_1.0.5    dagitty_0.3-4      vctrs_0.7.2       
+[45] evaluate_1.0.5     glue_1.8.0         farver_2.1.2       cellranger_1.1.0  
+[49] rmarkdown_2.29     tools_4.5.2        pkgconfig_2.0.3    htmltools_0.5.9   </code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<script src="toc-toggle.js"></script>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
+
+
+
+</body></html>

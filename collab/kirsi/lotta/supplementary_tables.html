@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Supplementary tables – FOPP</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-44a3683b6ccfbb924b084949c7b6eae5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link href="site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
+<script src="site_libs/datatables-binding-0.34.0/datatables.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet">
+<script src="site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
+<link href="site_libs/crosstalk-1.2.2/css/crosstalk.min.css" rel="stylesheet">
+<script src="site_libs/crosstalk-1.2.2/js/crosstalk.min.js"></script>
+<link href="site_libs/nouislider-7.0.10/jquery.nouislider.min.css" rel="stylesheet">
+<script src="site_libs/nouislider-7.0.10/jquery.nouislider.min.js"></script>
+<link href="site_libs/selectize-0.12.0/selectize.bootstrap3.css" rel="stylesheet">
+<script src="site_libs/selectize-0.12.0/selectize.min.js"></script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+
+
+<link rel="stylesheet" href="toc-toggle.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">FOPP</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./study_overview.html"> 
+<span class="menu-text">Study overview</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./analysis_plan.html"> 
+<span class="menu-text">Analysis plan</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./covariate_diagnostics.html"> 
+<span class="menu-text">Covariate and model specification</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./primary_results.html"> 
+<span class="menu-text">Primary results</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./figures.html"> 
+<span class="menu-text">Figures</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./supplementary_tables.html" aria-current="page"> 
+<span class="menu-text">Supplementary tables</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./secondary_figures.html"> 
+<span class="menu-text">Secondary figures</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./exposure_atlas.html"> 
+<span class="menu-text">Exposure atlas</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-data" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Data</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-data">    
+        <li>
+    <a class="dropdown-item" href="./clinical_characteristics.html">
+ <span class="dropdown-text">Clinical characteristics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./data_summary.html">
+ <span class="dropdown-text">Data summary</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./data_quality_assumptions.html">
+ <span class="dropdown-text">Data quality and assumptions</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="1">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#supplementary-table-s1.-analytic-sample-derivation" id="toc-supplementary-table-s1.-analytic-sample-derivation" class="nav-link active" data-scroll-target="#supplementary-table-s1.-analytic-sample-derivation"><span class="header-section-number">1</span> Supplementary Table S1. Analytic sample derivation</a></li>
+  <li><a href="#supplementary-table-s2.-exposure-definitions" id="toc-supplementary-table-s2.-exposure-definitions" class="nav-link" data-scroll-target="#supplementary-table-s2.-exposure-definitions"><span class="header-section-number">2</span> Supplementary Table S2. Exposure definitions</a></li>
+  <li><a href="#supplementary-table-s3.-primary-model-specifications" id="toc-supplementary-table-s3.-primary-model-specifications" class="nav-link" data-scroll-target="#supplementary-table-s3.-primary-model-specifications"><span class="header-section-number">3</span> Supplementary Table S3. Primary model specifications</a></li>
+  <li><a href="#supplementary-table-s4.-returned-result-inventory" id="toc-supplementary-table-s4.-returned-result-inventory" class="nav-link" data-scroll-target="#supplementary-table-s4.-returned-result-inventory"><span class="header-section-number">4</span> Supplementary Table S4. Returned result inventory</a></li>
+  <li><a href="#supplementary-table-s5.-candidate-associations-with-q-0.10" id="toc-supplementary-table-s5.-candidate-associations-with-q-0.10" class="nav-link" data-scroll-target="#supplementary-table-s5.-candidate-associations-with-q-0.10"><span class="header-section-number">5</span> Supplementary Table S5. Candidate associations with q &lt; 0.10</a></li>
+  <li><a href="#supplementary-table-s6.-primary-vs-sensitivity-stability-summary" id="toc-supplementary-table-s6.-primary-vs-sensitivity-stability-summary" class="nav-link" data-scroll-target="#supplementary-table-s6.-primary-vs-sensitivity-stability-summary"><span class="header-section-number">6</span> Supplementary Table S6. Primary-vs-sensitivity stability summary</a></li>
+  <li><a href="#supplementary-table-s7.-saved-execution-status-inventory" id="toc-supplementary-table-s7.-saved-execution-status-inventory" class="nav-link" data-scroll-target="#supplementary-table-s7.-saved-execution-status-inventory"><span class="header-section-number">7</span> Supplementary Table S7. Saved execution status inventory</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Supplementary tables</h1>
+</div>
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="supplementary-table-s1.-analytic-sample-derivation" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="supplementary-table-s1.-analytic-sample-derivation"><span class="header-section-number">1</span> Supplementary Table S1. Analytic sample derivation</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>sample_tbl <span class="ot">&lt;-</span> <span class="fu">tibble</span>(</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">analytic_step =</span> <span class="fu">c</span>(</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Children with at least one metabolomics panel"</span>,</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Children with a 2-year metabolomics panel"</span>,</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Children with a 5-6-year metabolomics panel"</span>,</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Children with metabolomics at both 2 years and 5-6 years"</span>,</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Children with any analyzed 2-year diet exposure in the 2-year panel"</span>,</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Children with any analyzed 5-6-year diet exposure in the 5-6-year panel"</span>,</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Children contributing to the prospective question set"</span>,</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Children with paired diet exposure data across both ages for repeated-measures models"</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  <span class="at">n_children =</span> <span class="fu">c</span>(</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    <span class="fu">n_distinct</span>(raw_df<span class="sc">$</span>StudyID),</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    <span class="fu">n_distinct</span>(raw_df<span class="sc">$</span>StudyID[raw_df<span class="sc">$</span>visit_num <span class="sc">==</span> <span class="dv">6</span>]),</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    <span class="fu">n_distinct</span>(raw_df<span class="sc">$</span>StudyID[raw_df<span class="sc">$</span>visit_num <span class="sc">==</span> <span class="dv">7</span>]),</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    <span class="fu">nrow</span>(both_visits),</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    <span class="fu">sum</span>(v6<span class="sc">$</span>has_q1_exposure, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    <span class="fu">sum</span>(v7<span class="sc">$</span>has_q2_exposure, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    <span class="fu">sum</span>(both_visits<span class="sc">$</span>has_q1_exposure, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    <span class="fu">sum</span>(q4_eligible, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="fu">make_table</span>(sample_tbl, <span class="at">caption =</span> <span class="st">"Supplementary Table S1. Analytic sample derivation"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div class="dt-wrap dt-wrap-compact">
+<div class="datatables html-widget html-fill-item" id="htmlwidget-82ed4c30f5b7ebef1d6c" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-82ed4c30f5b7ebef1d6c">{"x":{"filter":"none","vertical":false,"caption":"<caption>Supplementary Table S1. Analytic sample derivation<\/caption>","data":[["Children with at least one metabolomics panel","Children with a 2-year metabolomics panel","Children with a 5-6-year metabolomics panel","Children with metabolomics at both 2 years and 5-6 years","Children with any analyzed 2-year diet exposure in the 2-year panel","Children with any analyzed 5-6-year diet exposure in the 5-6-year panel","Children contributing to the prospective question set","Children with paired diet exposure data across both ages for repeated-measures models"],[260,239,139,118,238,138,117,116]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>analytic_step<\/th>\n      <th>n_children<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"scrollX":false,"autoWidth":false,"columnDefs":[{"targets":1,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 0, 3, \",\", \".\", null);\n  }"},{"className":"dt-right","targets":1},{"name":"analytic_step","targets":0},{"name":"n_children","targets":1}],"order":[],"orderClasses":false}},"evals":["options.columnDefs.0.render"],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+</section>
+<section id="supplementary-table-s2.-exposure-definitions" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="supplementary-table-s2.-exposure-definitions"><span class="header-section-number">2</span> Supplementary Table S2. Exposure definitions</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>exposure_tbl <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tibble</span>(</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">component =</span> <span class="st">"Concurrent at 2 Years"</span>,</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">exposure_timing =</span> <span class="st">"2-year child diet"</span>,</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">exposure_code =</span> q1_expos</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tibble</span>(</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">component =</span> <span class="st">"Concurrent at 5-6 Years"</span>,</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">exposure_timing =</span> <span class="st">"5-6-year child diet"</span>,</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">exposure_code =</span> q2_expos</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tibble</span>(</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">component =</span> <span class="st">"Prospective 2-Year to 5-6-Year Models"</span>,</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">exposure_timing =</span> <span class="st">"2-year child diet"</span>,</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">exposure_code =</span> q1_expos</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>  q4_pairs <span class="sc">%&gt;%</span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    <span class="fu">transmute</span>(</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>      <span class="at">component =</span> <span class="st">"Repeated-Measures Models"</span>,</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>      <span class="at">exposure_timing =</span> <span class="st">"Paired 2-year and 5-6-year child diet"</span>,</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>      <span class="at">exposure_code =</span> exposure_family,</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>      <span class="at">paired_codes =</span> <span class="fu">paste0</span>(exposure_2y, <span class="st">" / "</span>, exposure_56y)</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>) <span class="sc">%&gt;%</span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>    <span class="at">exposure_label =</span> <span class="fu">pretty_var</span>(exposure_code),</span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">scale =</span> <span class="fu">case_when</span>(</span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>      <span class="fu">grepl</span>(<span class="st">"classes"</span>, exposure_code, <span class="at">ignore.case =</span> <span class="cn">TRUE</span>) <span class="sc">~</span> <span class="st">"Categorical class variable"</span>,</span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>      <span class="fu">grepl</span>(<span class="st">"points"</span>, exposure_code, <span class="at">ignore.case =</span> <span class="cn">TRUE</span>) <span class="sc">~</span> <span class="st">"Continuous score"</span>,</span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>      <span class="cn">TRUE</span> <span class="sc">~</span> <span class="st">"Continuous percentage or intake metric"</span></span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>  <span class="fu">relocate</span>(exposure_label, <span class="at">.after =</span> exposure_code)</span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a><span class="fu">make_table</span>(exposure_tbl, <span class="at">caption =</span> <span class="st">"Supplementary Table S2. Exposure definitions and coding"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div class="dt-wrap dt-wrap-wide">
+<div class="datatables html-widget html-fill-item" id="htmlwidget-23a8695068bf0dbe9aef" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-23a8695068bf0dbe9aef">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","caption":"<caption>Supplementary Table S2. Exposure definitions and coding<\/caption>","data":[["Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Prospective 2-Year to 5-6-Year Models","Prospective 2-Year to 5-6-Year Models","Prospective 2-Year to 5-6-Year Models","Prospective 2-Year to 5-6-Year Models","Prospective 2-Year to 5-6-Year Models","Prospective 2-Year to 5-6-Year Models","Prospective 2-Year to 5-6-Year Models","Prospective 2-Year to 5-6-Year Models","Prospective 2-Year to 5-6-Year Models","Prospective 2-Year to 5-6-Year Models","Prospective 2-Year to 5-6-Year Models","Repeated-Measures Models","Repeated-Measures Models","Repeated-Measures Models","Repeated-Measures Models","Repeated-Measures Models","Repeated-Measures Models","Repeated-Measures Models","Repeated-Measures Models","Repeated-Measures Models","Repeated-Measures Models","Repeated-Measures Models"],["2-year child diet","2-year child diet","2-year child diet","2-year child diet","2-year child diet","2-year child diet","2-year child diet","2-year child diet","2-year child diet","2-year child diet","2-year child diet","5-6-year child diet","5-6-year child diet","5-6-year child diet","5-6-year child diet","5-6-year child diet","5-6-year child diet","5-6-year child diet","5-6-year child diet","5-6-year child diet","5-6-year child diet","5-6-year child diet","2-year child diet","2-year child diet","2-year child diet","2-year child diet","2-year child diet","2-year child diet","2-year child diet","2-year child diet","2-year child diet","2-year child diet","2-year child diet","Paired 2-year and 5-6-year child diet","Paired 2-year and 5-6-year child diet","Paired 2-year and 5-6-year child diet","Paired 2-year and 5-6-year child diet","Paired 2-year and 5-6-year child diet","Paired 2-year and 5-6-year child diet","Paired 2-year and 5-6-year child diet","Paired 2-year and 5-6-year child diet","Paired 2-year and 5-6-year child diet","Paired 2-year and 5-6-year child diet","Paired 2-year and 5-6-year child diet"],["C_DietQuality_classes_6","C_DietQuality_points_6","CEPercentCHODiet6","CEPercentFAn3Diet6","CEPercentFAn6Diet6","CEPercentFatDiet6","CEPercentMUFADiet6","CEPercentProDiet6","CEPercentPUFADiet6","CEPercentSFADiet6","CFibtotDiet6","C_DietQuality_classes_7","C_DietQuality_points_7","CEPercentCHODiet7","CEPercentFAn3Diet7","CEPercentFAn6Diet7","CEPercentFatDiet7","CEPercentMUFADiet7","CEPercentProDiet7","CEPercentPUFADiet7","CEPercentSFADiet7","CFibtotDiet7","C_DietQuality_classes_6","C_DietQuality_points_6","CEPercentCHODiet6","CEPercentFAn3Diet6","CEPercentFAn6Diet6","CEPercentFatDiet6","CEPercentMUFADiet6","CEPercentProDiet6","CEPercentPUFADiet6","CEPercentSFADiet6","CFibtotDiet6","CEPercentProDiet","CEPercentCHODiet","CEPercentFatDiet","CEPercentSFADiet","CEPercentMUFADiet","CEPercentPUFADiet","CEPercentFAn3Diet","CEPercentFAn6Diet","CFibtotDiet","C_DietQuality_points","C_DietQuality_classes"],["Diet Quality Classes 6","Diet Quality Points 6","Percent Carbohydratediet6","Percent n-3 Fatty Acidsdiet6","Percent n-6 Fatty Acidsdiet6","Percent Fatdiet6","Percent Mufadiet6","Percent Proteindiet6","Percent Pufadiet6","Percent Sfadiet6","Fibre Diet6","Diet Quality Classes 7","Diet Quality Points 7","Percent Carbohydratediet7","Percent n-3 Fatty Acidsdiet7","Percent n-6 Fatty Acidsdiet7","Percent Fatdiet7","Percent Mufadiet7","Percent Proteindiet7","Percent Pufadiet7","Percent Sfadiet7","Fibre Diet7","Diet Quality Classes 6","Diet Quality Points 6","Percent Carbohydratediet6","Percent n-3 Fatty Acidsdiet6","Percent n-6 Fatty Acidsdiet6","Percent Fatdiet6","Percent Mufadiet6","Percent Proteindiet6","Percent Pufadiet6","Percent Sfadiet6","Fibre Diet6","Percent Proteindiet","Percent Carbohydratediet","Percent Fatdiet","Percent Sfadiet","Percent Mufadiet","Percent Pufadiet","Percent n-3 Fatty Acidsdiet","Percent n-6 Fatty Acidsdiet","Fibre Diet","Diet Quality Points","Diet Quality Classes"],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"C_DietQuality_classes_6 / C_DietQuality_classes_7","C_DietQuality_points_6 / C_DietQuality_points_7","CEPercentCHODiet6 / CEPercentCHODiet7","CEPercentFAn3Diet6 / CEPercentFAn3Diet7","CEPercentFAn6Diet6 / CEPercentFAn6Diet7","CEPercentFatDiet6 / CEPercentFatDiet7","CEPercentMUFADiet6 / CEPercentMUFADiet7","CEPercentProDiet6 / CEPercentProDiet7","CEPercentPUFADiet6 / CEPercentPUFADiet7","CEPercentSFADiet6 / CEPercentSFADiet7","CFibtotDiet6 / CFibtotDiet7"],["Categorical class variable","Continuous score","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Categorical class variable","Continuous score","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Categorical class variable","Continuous score","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous score","Categorical class variable"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>component<\/th>\n      <th>exposure_timing<\/th>\n      <th>exposure_code<\/th>\n      <th>exposure_label<\/th>\n      <th>paired_codes<\/th>\n      <th>scale<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"scrollX":false,"autoWidth":false,"columnDefs":[{"name":"component","targets":0},{"name":"exposure_timing","targets":1},{"name":"exposure_code","targets":2},{"name":"exposure_label","targets":3},{"name":"paired_codes","targets":4},{"name":"scale","targets":5}],"order":[],"orderClasses":false,"orderCellsTop":true}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+</section>
+<section id="supplementary-table-s3.-primary-model-specifications" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="supplementary-table-s3.-primary-model-specifications"><span class="header-section-number">3</span> Supplementary Table S3. Primary model specifications</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>model_tbl <span class="ot">&lt;-</span> <span class="fu">tibble</span>(</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">analysis_component =</span> <span class="fu">c</span>(</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Concurrent at 2 Years"</span>,</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Concurrent at 5-6 Years"</span>,</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Prospective: 2-Year Diet to 5-6-Year Metabolites"</span>,</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Repeated-Measures Across 2 Years and 5-6 Years"</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">outcome =</span> <span class="fu">c</span>(</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2-year metabolite"</span>,</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">"5-6-year metabolite"</span>,</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">"5-6-year metabolite with baseline metabolite adjustment"</span>,</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Repeated metabolite across 2 years and 5-6 years"</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>  <span class="at">model_family =</span> <span class="fu">c</span>(</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Feature-wise linear model"</span>,</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Feature-wise linear model"</span>,</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Feature-wise linear model"</span>,</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Feature-wise mixed model"</span></span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>  <span class="at">primary_covariates =</span> <span class="fu">c</span>(</span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Intervention; maternal age; pre-pregnancy BMI; parity; university education; maternal smoking; GDM status; prematurity; mode of delivery; child sex; birthweight; breastfeeding duration; 2-year fasting; 2-year medication; 2-year antibiotics"</span>,</span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Intervention; maternal age; pre-pregnancy BMI; parity; university education; GDM status; mode of delivery; child sex; birthweight; 5-6-year fasting; 5-6-year medication; 5-6-year antibiotics"</span>,</span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2-year exposure; 2-year baseline metabolite; maternal age; pre-pregnancy BMI; parity; university education; maternal smoking; GDM status; prematurity; mode of delivery; child sex; birthweight; breastfeeding duration; 2-year fasting; 2-year medication; 2-year antibiotics"</span>,</span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Paired diet exposure across child ages; maternal age; pre-pregnancy BMI; parity; university education; maternal smoking; GDM status; prematurity; mode of delivery; child sex; birthweight; breastfeeding duration; time-varying fasting; time-varying medication; time-varying antibiotics"</span></span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>  <span class="at">sensitivity_additions =</span> <span class="fu">c</span>(</span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Small-for-gestational-age; macrosomy; healthy-diet score at 2 years"</span>,</span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Maternal smoking; prematurity; breastfeeding duration; small-for-gestational-age; macrosomy; healthy-diet score at 5-6 years"</span>,</span>
+<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Primary prospective block plus small-for-gestational-age; macrosomy; healthy-diet score at 2 years"</span>,</span>
+<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Primary repeated-measures block plus small-for-gestational-age; macrosomy; time-varying healthy-diet score"</span></span>
+<span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a>  <span class="at">multiple_testing =</span> <span class="fu">c</span>(</span>
+<span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Benjamini-Hochberg across metabolites within each exposure-specific concurrent model"</span>,</span>
+<span id="cb3-34"><a href="#cb3-34" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Benjamini-Hochberg across metabolites within each exposure-specific concurrent model"</span>,</span>
+<span id="cb3-35"><a href="#cb3-35" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Benjamini-Hochberg across metabolites within each exposure-specific prospective model"</span>,</span>
+<span id="cb3-36"><a href="#cb3-36" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Benjamini-Hochberg across metabolites applied separately within each repeated-measures exposure and coefficient family"</span></span>
+<span id="cb3-37"><a href="#cb3-37" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb3-38"><a href="#cb3-38" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb3-39"><a href="#cb3-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-40"><a href="#cb3-40" aria-hidden="true" tabindex="-1"></a><span class="fu">make_table</span>(model_tbl, <span class="at">caption =</span> <span class="st">"Supplementary Table S3. Primary model specifications"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div class="dt-wrap dt-wrap-compact">
+<div class="datatables html-widget html-fill-item" id="htmlwidget-5d73885617ba8bdb069f" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-5d73885617ba8bdb069f">{"x":{"filter":"none","vertical":false,"caption":"<caption>Supplementary Table S3. Primary model specifications<\/caption>","data":[["Concurrent at 2 Years","Concurrent at 5-6 Years","Prospective: 2-Year Diet to 5-6-Year Metabolites","Repeated-Measures Across 2 Years and 5-6 Years"],["2-year metabolite","5-6-year metabolite","5-6-year metabolite with baseline metabolite adjustment","Repeated metabolite across 2 years and 5-6 years"],["Feature-wise linear model","Feature-wise linear model","Feature-wise linear model","Feature-wise mixed model"],["Intervention; maternal age; pre-pregnancy BMI; parity; university education; maternal smoking; GDM status; prematurity; mode of delivery; child sex; birthweight; breastfeeding duration; 2-year fasting; 2-year medication; 2-year antibiotics","Intervention; maternal age; pre-pregnancy BMI; parity; university education; GDM status; mode of delivery; child sex; birthweight; 5-6-year fasting; 5-6-year medication; 5-6-year antibiotics","2-year exposure; 2-year baseline metabolite; maternal age; pre-pregnancy BMI; parity; university education; maternal smoking; GDM status; prematurity; mode of delivery; child sex; birthweight; breastfeeding duration; 2-year fasting; 2-year medication; 2-year antibiotics","Paired diet exposure across child ages; maternal age; pre-pregnancy BMI; parity; university education; maternal smoking; GDM status; prematurity; mode of delivery; child sex; birthweight; breastfeeding duration; time-varying fasting; time-varying medication; time-varying antibiotics"],["Small-for-gestational-age; macrosomy; healthy-diet score at 2 years","Maternal smoking; prematurity; breastfeeding duration; small-for-gestational-age; macrosomy; healthy-diet score at 5-6 years","Primary prospective block plus small-for-gestational-age; macrosomy; healthy-diet score at 2 years","Primary repeated-measures block plus small-for-gestational-age; macrosomy; time-varying healthy-diet score"],["Benjamini-Hochberg across metabolites within each exposure-specific concurrent model","Benjamini-Hochberg across metabolites within each exposure-specific concurrent model","Benjamini-Hochberg across metabolites within each exposure-specific prospective model","Benjamini-Hochberg across metabolites applied separately within each repeated-measures exposure and coefficient family"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>analysis_component<\/th>\n      <th>outcome<\/th>\n      <th>model_family<\/th>\n      <th>primary_covariates<\/th>\n      <th>sensitivity_additions<\/th>\n      <th>multiple_testing<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"scrollX":false,"autoWidth":false,"columnDefs":[{"name":"analysis_component","targets":0},{"name":"outcome","targets":1},{"name":"model_family","targets":2},{"name":"primary_covariates","targets":3},{"name":"sensitivity_additions","targets":4},{"name":"multiple_testing","targets":5}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+</section>
+<section id="supplementary-table-s4.-returned-result-inventory" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="supplementary-table-s4.-returned-result-inventory"><span class="header-section-number">4</span> Supplementary Table S4. Returned result inventory</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>q4_main <span class="ot">&lt;-</span> q4 <span class="sc">%&gt;%</span> <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">grepl</span>(<span class="st">":"</span>, term))</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>q4_interaction <span class="ot">&lt;-</span> q4 <span class="sc">%&gt;%</span> <span class="fu">filter</span>(<span class="fu">grepl</span>(<span class="st">":"</span>, term))</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>inventory_tbl <span class="ot">&lt;-</span> <span class="fu">tibble</span>(</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">component =</span> <span class="fu">c</span>(</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Concurrent at 2 Years"</span>,</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Concurrent at 5-6 Years"</span>,</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Prospective: 2-Year Diet to 5-6-Year Metabolites"</span>,</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Repeated-Measures Main Effect"</span>,</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Repeated-Measures Diet-by-Time Interaction"</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  <span class="at">result_rows =</span> <span class="fu">c</span>(<span class="fu">nrow</span>(q1), <span class="fu">nrow</span>(q2), <span class="fu">nrow</span>(q3), <span class="fu">nrow</span>(q4_main), <span class="fu">nrow</span>(q4_interaction)),</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  <span class="at">significant_rows_q_lt_0_10 =</span> <span class="fu">c</span>(</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>    <span class="fu">sum</span>(q1<span class="sc">$</span>q.value <span class="sc">&lt;</span> <span class="fl">0.10</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>    <span class="fu">sum</span>(q2<span class="sc">$</span>q.value <span class="sc">&lt;</span> <span class="fl">0.10</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>    <span class="fu">sum</span>(q3<span class="sc">$</span>q.value <span class="sc">&lt;</span> <span class="fl">0.10</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>    <span class="fu">sum</span>(q4_main<span class="sc">$</span>q.value <span class="sc">&lt;</span> <span class="fl">0.10</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>    <span class="fu">sum</span>(q4_interaction<span class="sc">$</span>q.value <span class="sc">&lt;</span> <span class="fl">0.10</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>  <span class="at">complete_case_n_range =</span> <span class="fu">c</span>(</span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>    <span class="fu">sample_n_label</span>(q1, <span class="st">"n"</span>),</span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>    <span class="fu">sample_n_label</span>(q2, <span class="st">"n"</span>),</span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>    <span class="fu">sample_n_label</span>(q3, <span class="st">"n"</span>),</span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>    <span class="fu">sample_n_label</span>(q4_main, <span class="st">"n_obs"</span>),</span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>    <span class="fu">sample_n_label</span>(q4_interaction, <span class="st">"n_obs"</span>)</span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a><span class="fu">make_table</span>(inventory_tbl, <span class="at">caption =</span> <span class="st">"Supplementary Table S4. Returned result inventory"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div class="dt-wrap dt-wrap-compact">
+<div class="datatables html-widget html-fill-item" id="htmlwidget-80f81af1ca624434dd92" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-80f81af1ca624434dd92">{"x":{"filter":"none","vertical":false,"caption":"<caption>Supplementary Table S4. Returned result inventory<\/caption>","data":[["Concurrent at 2 Years","Concurrent at 5-6 Years","Prospective: 2-Year Diet to 5-6-Year Metabolites","Repeated-Measures Main Effect","Repeated-Measures Diet-by-Time Interaction"],[1903,1903,363,3250,2750],[76,2,0,2,2],["145-168","112-123","77-107","179-302","179-302"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>component<\/th>\n      <th>result_rows<\/th>\n      <th>significant_rows_q_lt_0_10<\/th>\n      <th>complete_case_n_range<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"scrollX":false,"autoWidth":false,"columnDefs":[{"targets":1,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 0, 3, \",\", \".\", null);\n  }"},{"targets":2,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 0, 3, \",\", \".\", null);\n  }"},{"className":"dt-right","targets":[1,2]},{"name":"component","targets":0},{"name":"result_rows","targets":1},{"name":"significant_rows_q_lt_0_10","targets":2},{"name":"complete_case_n_range","targets":3}],"order":[],"orderClasses":false}},"evals":["options.columnDefs.0.render","options.columnDefs.1.render"],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+</section>
+<section id="supplementary-table-s5.-candidate-associations-with-q-0.10" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="supplementary-table-s5.-candidate-associations-with-q-0.10"><span class="header-section-number">5</span> Supplementary Table S5. Candidate associations with q &lt; 0.10</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>candidate_linear <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  q1 <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">component =</span> <span class="st">"Concurrent at 2 Years"</span>),</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  q2 <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">component =</span> <span class="st">"Concurrent at 5-6 Years"</span>),</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  q3 <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">component =</span> <span class="st">"Prospective: 2-Year Diet to 5-6-Year Metabolites"</span>)</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>) <span class="sc">%&gt;%</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(q.value <span class="sc">&lt;</span> <span class="fl">0.10</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">multilevel_factor =</span> <span class="fu">grepl</span>(<span class="st">"</span><span class="sc">\\</span><span class="st">|"</span>, term)) <span class="sc">%&gt;%</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">transmute</span>(</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>    component,</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">exposure =</span> <span class="fu">pretty_var</span>(exposure),</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>    feature,</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">term =</span> <span class="fu">if_else</span>(multilevel_factor, <span class="st">"Omnibus multi-level factor test"</span>, <span class="cn">NA_character_</span>),</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>    n,</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">beta =</span> <span class="fu">if_else</span>(multilevel_factor, <span class="cn">NA_real_</span>, estimate),</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">conf_low =</span> <span class="fu">if_else</span>(multilevel_factor, <span class="cn">NA_real_</span>, conf.low),</span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">conf_high =</span> <span class="fu">if_else</span>(multilevel_factor, <span class="cn">NA_real_</span>, conf.high),</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">p_value =</span> p.value,</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">q_value =</span> q.value</span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>candidate_q4 <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(</span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>  q4_main <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">component =</span> <span class="st">"Repeated-Measures Main Effect"</span>),</span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>  q4_interaction <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">component =</span> <span class="st">"Repeated-Measures Diet-by-Time Interaction"</span>)</span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>) <span class="sc">%&gt;%</span></span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(q.value <span class="sc">&lt;</span> <span class="fl">0.10</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">transmute</span>(</span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>    component,</span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">exposure =</span> <span class="fu">pretty_var</span>(exposure),</span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>    feature,</span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>    term,</span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a>    n_obs,</span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>    n_ind,</span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a>    <span class="at">beta =</span> estimate,</span>
+<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a>    <span class="at">conf_low =</span> estimate <span class="sc">-</span> <span class="fl">1.96</span> <span class="sc">*</span> std.error,</span>
+<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a>    <span class="at">conf_high =</span> estimate <span class="sc">+</span> <span class="fl">1.96</span> <span class="sc">*</span> std.error,</span>
+<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a>    <span class="at">p_value =</span> p.value,</span>
+<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a>    <span class="at">q_value =</span> q.value</span>
+<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-40"><a href="#cb5-40" aria-hidden="true" tabindex="-1"></a>candidate_tbl <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(</span>
+<span id="cb5-41"><a href="#cb5-41" aria-hidden="true" tabindex="-1"></a>  candidate_linear <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">n_obs =</span> n, <span class="at">n_ind =</span> <span class="cn">NA_real_</span>),</span>
+<span id="cb5-42"><a href="#cb5-42" aria-hidden="true" tabindex="-1"></a>  candidate_q4 <span class="sc">%&gt;%</span> <span class="fu">rename</span>(<span class="at">n =</span> n_obs)</span>
+<span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a>) <span class="sc">%&gt;%</span></span>
+<span id="cb5-44"><a href="#cb5-44" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(q_value, p_value)</span>
+<span id="cb5-45"><a href="#cb5-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-46"><a href="#cb5-46" aria-hidden="true" tabindex="-1"></a><span class="fu">make_table</span>(candidate_tbl, <span class="at">caption =</span> <span class="st">"Supplementary Table S5. Candidate associations meeting q &lt; 0.10"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div class="dt-wrap dt-wrap-wide">
+<div class="datatables html-widget html-fill-item" id="htmlwidget-93d05af2c2a65beb04aa" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-93d05af2c2a65beb04aa">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"integer\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"123\" data-max=\"293\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"-0.920959578622457\" data-max=\"0.148193300676529\" data-scale=\"15\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"-1.43400747065677\" data-max=\"0.070795004294472\" data-scale=\"15\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"-0.407911686588142\" data-max=\"0.228001656932163\" data-scale=\"15\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"2.9503311922e-05\" data-max=\"0.031900982596618\" data-scale=\"15\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"0.005104072962609\" data-max=\"0.09910297591077\" data-scale=\"15\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"integer\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"123\" data-max=\"145\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\" disabled=\"\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"0\" data-max=\"1\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","caption":"<caption>Supplementary Table S5. Candidate associations meeting q &lt; 0.10<\/caption>","data":[["Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 5-6 Years","Repeated-Measures Diet-by-Time Interaction","Repeated-Measures Diet-by-Time Interaction","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Repeated-Measures Main Effect","Repeated-Measures Main Effect","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 5-6 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years"],["Percent Proteindiet6","Percent Proteindiet6","Percent Proteindiet6","Percent Proteindiet6","Percent Sfadiet6","Percent Proteindiet6","Percent Proteindiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Diet Quality Points 7","Diet Quality Points 6","Diet Quality Points 6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Diet Quality Points 6","Diet Quality Points 6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Diet Quality Points 7","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Sfadiet6","Percent Carbohydratediet6","Percent Carbohydratediet6","Percent Carbohydratediet6","Percent Carbohydratediet6","Percent Carbohydratediet6","Percent Carbohydratediet6","Percent Carbohydratediet6","Percent Carbohydratediet6","Percent Carbohydratediet6","Percent Carbohydratediet6","Percent Carbohydratediet6","Percent Carbohydratediet6","Percent Carbohydratediet6"],["Val","Total BCAA","Leu","Gly","Omega-6/Omega-3","Creatinine","Ile","IDL-C","IDL-CE","IDL-FC","IDL-L","L-LDL-FC","Total-CE","IDL-PL","Total-C","XS-VLDL-CE","Total-FC","L-LDL-C","LDL-FC","L-LDL-L","L-LDL-PL","L-LDL-CE","Total-PL","XS-VLDL-C","LDL-C","Clinical LDL-C","non-HDL-C","LDL-L","LDL-CE","Sphingomyelins","Omega-6/Omega-3","XL-VLDL-CE-ratio","XL-VLDL-C-ratio","LDL-PL","Total-L","Remnant-C","Unsaturation","S-HDL-FC","M-LDL-FC","Total-P","HDL-FC","XL-VLDL-CE-ratio","XL-VLDL-C-ratio","S-LDL-FC","M-LDL-C","L-HDL-TG","L-LDL-P","Omega-3","Phosphatidylc","Omega-3","Cholines","M-LDL-L","M-HDL-FC","ApoA1","M-LDL-CE","M-VLDL-CE","XS-VLDL-FC","HDL-P","LDL-P","M-LDL-PL","ApoB","XS-VLDL-P","HDL-L","IDL-P","HDL-PL","S-LDL-C","Phosphoglyc","S-LDL-PL","XS-VLDL-L","GlycA","Creatinine","HDL-FC","M-HDL-FC","HDL-L","HDL-C","HDL-PL","M-HDL-C","HDL-CE","ApoA1","M-HDL-L","M-HDL-CE","M-HDL-P"],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"exposure_it:visit_num","exposure_it:visit_num",null,null,null,null,null,null,null,null,"exposure_it","exposure_it",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,123,293,293,145,145,145,145,145,145,145,145,293,293,145,145,145,145,123,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145],[0.119878885154187,0.1141279723912651,0.1108095885571312,-0.1076667447877311,0.1403198531032252,-0.0961808175047537,0.09577161688745134,0.1187923404560495,0.118374415818804,0.1183282271161488,0.1145096518495871,0.1126322111375765,0.1109559429705052,0.1107304415574543,0.1102168155827926,0.1067233171378147,0.1063781807913024,0.106182863849797,0.1050199704710083,0.1045637997715107,0.104404778264255,0.1032090372148644,0.1009011172321973,0.09995855311266348,0.09981538425923416,0.09979280886720888,0.09829536642166885,0.09717880766006118,0.09693464922794,0.09625980672596629,-0.1340656095057855,0.1481933006765286,0.1470030120535224,0.09471961695323082,0.09404916686761639,0.09154500443144989,-0.09132346298161531,0.09134717303482159,0.09035130798435005,0.08814355369270067,0.08790605250226957,-0.9209595786224565,-0.9173039910673469,0.08642702559057239,0.08574206906846678,0.08501642791783338,0.08500194532987146,0.1219479099174125,0.08365670165775874,-0.08330360892581601,0.08313229438154256,0.08305477273485563,0.0823055727404996,0.08150045360941231,0.08148817791831629,0.08131226434496643,0.08108582936926717,0.0808958100344674,0.08055233151176715,0.07955304688824291,0.07950255980308789,0.07939696152704963,0.0792720258708801,0.07876133610023675,0.07818829019908929,0.07732070733867952,0.0771352555360951,0.07666526692273656,0.07622485223644458,0.04783561376529536,0.04663741742839859,-0.04640700970031578,-0.04628755349984334,-0.04597219028047914,-0.04581356622541082,-0.04557647602388816,-0.04523025529057866,-0.04513824496514979,-0.04487869627177445,-0.04468591801370695,-0.0446138832055783,-0.04461465714393136],[0.06365515058189616,0.05789342684434954,0.05456611738231425,-0.1639075020562604,0.07079500429447118,-0.1524365418831301,0.03952061639689655,0.04920846767924641,0.04879232693760908,0.04873913159864895,0.04491492103583097,0.04305023541073821,0.04137148525803194,0.04112489512779188,0.04062798521966131,0.03711286567945077,0.03677905115560662,0.03658725961979213,0.03543491763149102,0.03496702717643607,0.03481396840967486,0.0336086978685511,0.03130320773897827,0.03034293518282188,0.03021695838514697,0.03019982703739181,0.02869093362948809,0.02757886490624183,0.02733166285367983,0.02667698784191064,-0.206458621213282,0.06838494442089417,0.06699403165138784,0.02512343961559944,0.02443918441896022,0.02193353493244579,-0.1608829513314474,0.02175999735776328,0.02076383886060272,0.01858395988939933,0.01835313659084084,-1.434007470656772,-1.431617326904278,0.0168310975585778,0.01613868764518257,0.01542068271282017,0.0153866585631139,0.04955196991465767,0.01405027997495863,-0.1528804178211618,0.01352906768896857,0.01345108697888427,0.01274681131528647,0.01194421347616589,0.01188076178432609,0.01169861865047006,0.01146166848402878,0.01134057918660422,0.01093716691536312,0.009953481434393563,0.009887717473532981,0.009773440020694926,0.009716781259379886,0.009157493358411692,0.008625965190690435,0.007716490825780076,0.007525669355261222,0.007057960619750905,0.006598129105854528,0.01515650486998252,0.01394296420699202,-0.07907732129757555,-0.07895918069781732,-0.07864162556663218,-0.07847482452206238,-0.07824919834108894,-0.07789459307140345,-0.07779741047861359,-0.07754985944059517,-0.077360219210742,-0.07727677207201494,-0.07728618628760212],[0.1761026197264779,0.1703625179381806,0.1670530597319482,-0.05142598751920172,0.2098447019119792,-0.03992509312637733,0.1520226173780061,0.1883762132328526,0.1879565046999989,0.1879173226336487,0.1841043826633431,0.1822141868644147,0.1805404006829785,0.1803359879871168,0.1798056459459239,0.1763337685961787,0.1759773104269982,0.1757784680798018,0.1746050233105255,0.1741605723665852,0.1739955881188352,0.1728093765611776,0.1704990267254163,0.1695741710425051,0.1694138101333214,0.169385790697026,0.1678997992138496,0.1667787504138805,0.1665376356022002,0.1658426256100219,-0.06167259779828893,0.228001656932163,0.227011992455657,0.1643157942908622,0.1636591493162726,0.161156473930454,-0.02176397463178319,0.1609343487118799,0.1599387771080974,0.157703147496002,0.1574589684136983,-0.4079116865881411,-0.4029906552304161,0.156022953622567,0.155345450491751,0.1546121731228466,0.154617232096629,0.1943438499201673,0.1532631233405589,-0.01372680003047021,0.1527355210741165,0.152658458490827,0.1518643341657127,0.1510566937426587,0.1510955940523065,0.1509259100394628,0.1507099902545055,0.1504510408823306,0.1501674961081712,0.1491526123420923,0.1491174021326428,0.1490204830334043,0.1488272704823803,0.1483651788420618,0.1477506152074882,0.146924923851579,0.146744841716929,0.1462725732257222,0.1458515753670346,0.08051472266060819,0.07933187064980517,-0.01373669810305599,-0.01361592630186935,-0.01330275499432609,-0.01315230792875925,-0.01290375370668738,-0.01256591750975385,-0.01247907945168598,-0.01220753310295372,-0.0120116168166719,-0.01195099433914167,-0.01194312800026061],[2.950331192259763e-05,6.999445956607771e-05,0.0001133020122310977,0.0001761489894308697,7.67518005306883e-05,0.0008074861862715593,0.0008491617506757938,0.0008220217633768472,0.0008573126383607258,0.0008623657262618045,0.001263065000645795,0.001513968173236283,0.001779854666421865,0.00182447211411752,0.001911145028746663,0.002660626220622933,0.002742427499662444,0.002790874244141588,0.003100435283055496,0.003237227240771441,0.003281683943055054,0.003660944594023633,0.004495292053513955,0.004894531694527124,0.004945541200006636,0.004951933107018959,0.00564809537150419,0.006213537693070196,0.006346825599236516,0.00670611565695107,0.0002848991360527125,0.0003476151981412772,0.0004009734112085942,0.007648049941490177,0.00810106066714735,0.009957523819580049,0.0100825057219897,0.01009287691216286,0.0109407838962699,0.01301257617510412,0.01325017125127494,0.0005378587786837177,0.0005846838462825193,0.01494088433763034,0.01576683363643584,0.01666092496084366,0.01671002121039891,0.0009641978984367426,0.01849942371423608,0.01894930347714719,0.01924173735455733,0.01935527829117834,0.02039371980237045,0.02165131284882176,0.02176773066628078,0.02206539639422731,0.02245850305701174,0.02264143563219905,0.02334124241099226,0.02507924148262137,0.02520361205346821,0.0254162361729348,0.02550341762659237,0.02657146360045388,0.02759906601092925,0.02946631344037354,0.02987051490385207,0.03087774466604206,0.03190098259661772,0.004122793543233554,0.005182282560083764,0.005373783048236329,0.005495515768352474,0.005820375206320123,0.005979389221554005,0.006262118960598096,0.006654249952422776,0.0067571734303523,0.007101979162127179,0.007357637709908905,0.007432364879385332,0.007447044432601213],[0.005104072962609391,0.006054520752465722,0.0065337493719933,0.007618443792885117,0.01327806149180908,0.02448416381115206,0.02448416381115206,0.03673645444146362,0.03673645444146362,0.03673645444146362,0.03673645444146362,0.03673645444146362,0.03673645444146362,0.03673645444146362,0.03673645444146362,0.03784875480990162,0.03784875480990162,0.03784875480990162,0.03784875480990162,0.03784875480990162,0.03784875480990162,0.03958396342288053,0.042834221375714,0.042834221375714,0.042834221375714,0.042834221375714,0.04652954758429641,0.04773916646382249,0.04773916646382249,0.04833991702718896,0.04928755053711926,0.05012167640107427,0.05012167640107427,0.05292450559511203,0.05390321136217275,0.06020923123462671,0.06020923123462671,0.06020923123462671,0.06309185380182311,0.07163373832720515,0.07163373832720515,0.07308548078531492,0.07308548078531492,0.07832645425484996,0.0802253593853941,0.08030093526108364,0.08030093526108364,0.08340311821477824,0.08371157860934633,0.08371157860934633,0.08371157860934633,0.08371157860934633,0.085151486181966,0.085151486181966,0.085151486181966,0.085151486181966,0.085151486181966,0.085151486181966,0.08591563695960983,0.08651159312549959,0.08651159312549959,0.08651159312549959,0.08651159312549959,0.08840121543997156,0.09008751735642945,0.09395634687938922,0.09395634687938922,0.09539017548616564,0.09682228051254151,0.09910297591076998,0.09910297591076998,0.09910297591076998,0.09910297591076998,0.09910297591076998,0.09910297591076998,0.09910297591076998,0.09910297591076998,0.09910297591076998,0.09910297591076998,0.09910297591076998,0.09910297591076998,0.09910297591076998],[145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,123,null,null,145,145,145,145,145,145,145,145,null,null,145,145,145,145,123,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,221,221,null,null,null,null,null,null,null,null,221,221,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>component<\/th>\n      <th>exposure<\/th>\n      <th>feature<\/th>\n      <th>term<\/th>\n      <th>n<\/th>\n      <th>beta<\/th>\n      <th>conf_low<\/th>\n      <th>conf_high<\/th>\n      <th>p_value<\/th>\n      <th>q_value<\/th>\n      <th>n_obs<\/th>\n      <th>n_ind<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"scrollX":false,"autoWidth":false,"columnDefs":[{"targets":5,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 3, 3, \",\", \".\", null);\n  }"},{"targets":6,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 3, 3, \",\", \".\", null);\n  }"},{"targets":7,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 3, 3, \",\", \".\", null);\n  }"},{"targets":8,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 3, 3, \",\", \".\", null);\n  }"},{"targets":9,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 3, 3, \",\", \".\", null);\n  }"},{"targets":4,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 0, 3, \",\", \".\", null);\n  }"},{"targets":10,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 0, 3, \",\", \".\", null);\n  }"},{"targets":11,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 0, 3, \",\", \".\", null);\n  }"},{"className":"dt-right","targets":[4,5,6,7,8,9,10,11]},{"name":"component","targets":0},{"name":"exposure","targets":1},{"name":"feature","targets":2},{"name":"term","targets":3},{"name":"n","targets":4},{"name":"beta","targets":5},{"name":"conf_low","targets":6},{"name":"conf_high","targets":7},{"name":"p_value","targets":8},{"name":"q_value","targets":9},{"name":"n_obs","targets":10},{"name":"n_ind","targets":11}],"order":[],"orderClasses":false,"orderCellsTop":true}},"evals":["options.columnDefs.0.render","options.columnDefs.1.render","options.columnDefs.2.render","options.columnDefs.3.render","options.columnDefs.4.render","options.columnDefs.5.render","options.columnDefs.6.render","options.columnDefs.7.render"],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+</section>
+<section id="supplementary-table-s6.-primary-vs-sensitivity-stability-summary" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="supplementary-table-s6.-primary-vs-sensitivity-stability-summary"><span class="header-section-number">6</span> Supplementary Table S6. Primary-vs-sensitivity stability summary</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>stability_tbl <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">compare_primary_sensitivity</span>(q1, q1_sens, <span class="fu">c</span>(<span class="st">"exposure"</span>, <span class="st">"feature"</span>, <span class="st">"visit"</span>)) <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">component =</span> <span class="st">"Concurrent at 2 Years"</span>),</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">compare_primary_sensitivity</span>(q2, q2_sens, <span class="fu">c</span>(<span class="st">"exposure"</span>, <span class="st">"feature"</span>, <span class="st">"visit"</span>)) <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">component =</span> <span class="st">"Concurrent at 5-6 Years"</span>),</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">compare_primary_sensitivity</span>(q3, q3_sens, <span class="fu">c</span>(<span class="st">"exposure"</span>, <span class="st">"feature"</span>, <span class="st">"visit_exposure"</span>, <span class="st">"visit_outcome"</span>)) <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">component =</span> <span class="st">"Prospective: 2-Year Diet to 5-6-Year Metabolites"</span>),</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">compare_primary_sensitivity</span>(q4, q4_sens, <span class="fu">c</span>(<span class="st">"exposure"</span>, <span class="st">"feature"</span>, <span class="st">"term"</span>)) <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">component =</span> <span class="st">"Repeated-Measures"</span>)</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>) <span class="sc">%&gt;%</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(component) <span class="sc">%&gt;%</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">matched_rows =</span> <span class="fu">n</span>(),</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">median_abs_beta_change =</span> <span class="fu">median</span>(abs_delta, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">p90_abs_beta_change =</span> <span class="fu">quantile</span>(abs_delta, <span class="fl">0.90</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">direction_flip_fraction =</span> <span class="fu">mean</span>(direction_flip, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">q_reclassification_fraction =</span> <span class="fu">mean</span>(q_reclassified, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a><span class="fu">make_table</span>(stability_tbl, <span class="at">caption =</span> <span class="st">"Supplementary Table S6. Primary-vs-sensitivity stability summary"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div class="dt-wrap dt-wrap-compact">
+<div class="datatables html-widget html-fill-item" id="htmlwidget-4c540e0fbaeb9b8d092f" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-4c540e0fbaeb9b8d092f">{"x":{"filter":"none","vertical":false,"caption":"<caption>Supplementary Table S6. Primary-vs-sensitivity stability summary<\/caption>","data":[["Concurrent at 2 Years","Concurrent at 5-6 Years","Prospective: 2-Year Diet to 5-6-Year Metabolites","Repeated-Measures"],[1903,1903,363,6000],[0.00251797922969091,0.01793412831924746,0.006771101865278807,0.02601402744313707],[0.01598584511703881,0.09824169673183612,0.05803303863443827,0.1779394563795113],[0.0210194429847609,0.1833946400420389,0.09641873278236915,0.1],[0.01576458223857068,0.0005254860746190226,0.005509641873278237,0.0025]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>component<\/th>\n      <th>matched_rows<\/th>\n      <th>median_abs_beta_change<\/th>\n      <th>p90_abs_beta_change<\/th>\n      <th>direction_flip_fraction<\/th>\n      <th>q_reclassification_fraction<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"scrollX":false,"autoWidth":false,"columnDefs":[{"targets":2,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 3, 3, \",\", \".\", null);\n  }"},{"targets":3,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 3, 3, \",\", \".\", null);\n  }"},{"targets":4,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 3, 3, \",\", \".\", null);\n  }"},{"targets":5,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 3, 3, \",\", \".\", null);\n  }"},{"targets":1,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 0, 3, \",\", \".\", null);\n  }"},{"className":"dt-right","targets":[1,2,3,4,5]},{"name":"component","targets":0},{"name":"matched_rows","targets":1},{"name":"median_abs_beta_change","targets":2},{"name":"p90_abs_beta_change","targets":3},{"name":"direction_flip_fraction","targets":4},{"name":"q_reclassification_fraction","targets":5}],"order":[],"orderClasses":false}},"evals":["options.columnDefs.0.render","options.columnDefs.1.render","options.columnDefs.2.render","options.columnDefs.3.render","options.columnDefs.4.render"],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+</section>
+<section id="supplementary-table-s7.-saved-execution-status-inventory" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="supplementary-table-s7.-saved-execution-status-inventory"><span class="header-section-number">7</span> Supplementary Table S7. Saved execution status inventory</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>status_tbl <span class="ot">&lt;-</span> model_status <span class="sc">%&gt;%</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">component =</span> <span class="fu">case_when</span>(</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>      question <span class="sc">==</span> <span class="st">"Q1"</span> <span class="sc">~</span> <span class="st">"Concurrent at 2 Years"</span>,</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>      question <span class="sc">==</span> <span class="st">"Q2"</span> <span class="sc">~</span> <span class="st">"Concurrent at 5-6 Years"</span>,</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>      question <span class="sc">==</span> <span class="st">"Q3"</span> <span class="sc">~</span> <span class="st">"Prospective: 2-Year Diet to 5-6-Year Metabolites"</span>,</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>      question <span class="sc">==</span> <span class="st">"Q4"</span> <span class="sc">~</span> <span class="st">"Repeated-Measures"</span>,</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>      <span class="cn">TRUE</span> <span class="sc">~</span> question</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">exposure =</span> <span class="fu">pretty_var</span>(exposure),</span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">complete_case_n =</span> <span class="fu">ifelse</span>(</span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>      <span class="fu">is.na</span>(n_complete_min) <span class="sc">|</span> <span class="sc">!</span><span class="fu">is.finite</span>(n_complete_min),</span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>      <span class="cn">NA_character_</span>,</span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>      <span class="fu">ifelse</span>(n_complete_min <span class="sc">==</span> n_complete_max, <span class="fu">as.character</span>(n_complete_min), <span class="fu">paste0</span>(n_complete_min, <span class="st">"-"</span>, n_complete_max))</span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(component, analysis, exposure, term_family, status, reason, complete_case_n, n_features_tested)</span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a><span class="fu">make_table</span>(status_tbl, <span class="at">caption =</span> <span class="st">"Supplementary Table S7. Saved execution-status inventory"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div class="dt-wrap dt-wrap-wide">
+<div class="datatables html-widget html-fill-item" id="htmlwidget-ab9b23246c94bba9783d" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-ab9b23246c94bba9783d">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\" disabled=\"\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\" disabled=\"\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"integer\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"33\" data-max=\"250\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","caption":"<caption>Supplementary Table S7. Saved execution-status inventory<\/caption>","data":[["Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 2 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Concurrent at 5-6 Years","Prospective: 2-Year Diet to 5-6-Year Metabolites","Prospective: 2-Year Diet to 5-6-Year Metabolites","Prospective: 2-Year Diet to 5-6-Year Metabolites","Prospective: 2-Year Diet to 5-6-Year Metabolites","Prospective: 2-Year Diet to 5-6-Year Metabolites","Prospective: 2-Year Diet to 5-6-Year Metabolites","Prospective: 2-Year Diet to 5-6-Year Metabolites","Prospective: 2-Year Diet to 5-6-Year Metabolites","Prospective: 2-Year Diet to 5-6-Year Metabolites","Prospective: 2-Year Diet to 5-6-Year Metabolites","Prospective: 2-Year Diet to 5-6-Year Metabolites","Prospective: 2-Year Diet to 5-6-Year Metabolites","Prospective: 2-Year Diet to 5-6-Year Metabolites","Prospective: 2-Year Diet to 5-6-Year Metabolites","Prospective: 2-Year Diet to 5-6-Year Metabolites","Prospective: 2-Year Diet to 5-6-Year Metabolites","Prospective: 2-Year Diet to 5-6-Year Metabolites","Prospective: 2-Year Diet to 5-6-Year Metabolites","Prospective: 2-Year Diet to 5-6-Year Metabolites","Prospective: 2-Year Diet to 5-6-Year Metabolites","Prospective: 2-Year Diet to 5-6-Year Metabolites","Prospective: 2-Year Diet to 5-6-Year Metabolites","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures","Repeated-Measures"],["Q1_Concurrent","Q1_Concurrent","Q1_Concurrent","Q1_Concurrent","Q1_Concurrent","Q1_Concurrent","Q1_Concurrent","Q1_Concurrent","Q1_Concurrent","Q1_Concurrent","Q1_Concurrent","Q1_Concurrent_sensitivity","Q1_Concurrent_sensitivity","Q1_Concurrent_sensitivity","Q1_Concurrent_sensitivity","Q1_Concurrent_sensitivity","Q1_Concurrent_sensitivity","Q1_Concurrent_sensitivity","Q1_Concurrent_sensitivity","Q1_Concurrent_sensitivity","Q1_Concurrent_sensitivity","Q1_Concurrent_sensitivity","Q2_Concurrent","Q2_Concurrent","Q2_Concurrent","Q2_Concurrent","Q2_Concurrent","Q2_Concurrent","Q2_Concurrent","Q2_Concurrent","Q2_Concurrent","Q2_Concurrent","Q2_Concurrent","Q2_Concurrent_sensitivity","Q2_Concurrent_sensitivity","Q2_Concurrent_sensitivity","Q2_Concurrent_sensitivity","Q2_Concurrent_sensitivity","Q2_Concurrent_sensitivity","Q2_Concurrent_sensitivity","Q2_Concurrent_sensitivity","Q2_Concurrent_sensitivity","Q2_Concurrent_sensitivity","Q2_Concurrent_sensitivity","Q3_Prospective","Q3_Prospective","Q3_Prospective","Q3_Prospective","Q3_Prospective","Q3_Prospective","Q3_Prospective","Q3_Prospective","Q3_Prospective","Q3_Prospective","Q3_Prospective","Q3_Prospective_sensitivity","Q3_Prospective_sensitivity","Q3_Prospective_sensitivity","Q3_Prospective_sensitivity","Q3_Prospective_sensitivity","Q3_Prospective_sensitivity","Q3_Prospective_sensitivity","Q3_Prospective_sensitivity","Q3_Prospective_sensitivity","Q3_Prospective_sensitivity","Q3_Prospective_sensitivity","Q4_Repeated","Q4_Repeated","Q4_Repeated","Q4_Repeated","Q4_Repeated","Q4_Repeated","Q4_Repeated","Q4_Repeated","Q4_Repeated","Q4_Repeated","Q4_Repeated","Q4_Repeated_sensitivity","Q4_Repeated_sensitivity","Q4_Repeated_sensitivity","Q4_Repeated_sensitivity","Q4_Repeated_sensitivity","Q4_Repeated_sensitivity","Q4_Repeated_sensitivity","Q4_Repeated_sensitivity","Q4_Repeated_sensitivity","Q4_Repeated_sensitivity","Q4_Repeated_sensitivity"],["Percent Proteindiet6","Percent Carbohydratediet6","Percent Fatdiet6","Percent Sfadiet6","Percent Mufadiet6","Percent Pufadiet6","Percent n-3 Fatty Acidsdiet6","Percent n-6 Fatty Acidsdiet6","Fibre Diet6","Diet Quality Points 6","Diet Quality Classes 6","Percent Proteindiet6","Percent Carbohydratediet6","Percent Fatdiet6","Percent Sfadiet6","Percent Mufadiet6","Percent Pufadiet6","Percent n-3 Fatty Acidsdiet6","Percent n-6 Fatty Acidsdiet6","Fibre Diet6","Diet Quality Points 6","Diet Quality Classes 6","Percent Proteindiet7","Percent Carbohydratediet7","Percent Fatdiet7","Percent Sfadiet7","Percent Mufadiet7","Percent Pufadiet7","Percent n-3 Fatty Acidsdiet7","Percent n-6 Fatty Acidsdiet7","Fibre Diet7","Diet Quality Points 7","Diet Quality Classes 7","Percent Proteindiet7","Percent Carbohydratediet7","Percent Fatdiet7","Percent Sfadiet7","Percent Mufadiet7","Percent Pufadiet7","Percent n-3 Fatty Acidsdiet7","Percent n-6 Fatty Acidsdiet7","Fibre Diet7","Diet Quality Points 7","Diet Quality Classes 7","Percent Proteindiet6","Percent Carbohydratediet6","Percent Fatdiet6","Percent Sfadiet6","Percent Mufadiet6","Percent Pufadiet6","Percent n-3 Fatty Acidsdiet6","Percent n-6 Fatty Acidsdiet6","Fibre Diet6","Diet Quality Points 6","Diet Quality Classes 6","Percent Proteindiet6","Percent Carbohydratediet6","Percent Fatdiet6","Percent Sfadiet6","Percent Mufadiet6","Percent Pufadiet6","Percent n-3 Fatty Acidsdiet6","Percent n-6 Fatty Acidsdiet6","Fibre Diet6","Diet Quality Points 6","Diet Quality Classes 6","Percent Proteindiet6","Percent Carbohydratediet6","Percent Fatdiet6","Percent Sfadiet6","Percent Mufadiet6","Percent Pufadiet6","Percent n-3 Fatty Acidsdiet6","Percent n-6 Fatty Acidsdiet6","Fibre Diet6","Diet Quality Points 6","Diet Quality Classes 6","Percent Proteindiet6","Percent Carbohydratediet6","Percent Fatdiet6","Percent Sfadiet6","Percent Mufadiet6","Percent Pufadiet6","Percent n-3 Fatty Acidsdiet6","Percent n-6 Fatty Acidsdiet6","Fibre Diet6","Diet Quality Points 6","Diet Quality Classes 6"],["CEPercentProDiet6","CEPercentCHODiet6","CEPercentFatDiet6","CEPercentSFADiet6","CEPercentMUFADiet6","CEPercentPUFADiet6","CEPercentFAn3Diet6","CEPercentFAn6Diet6","CFibtotDiet6","C_DietQuality_points_6","C_DietQuality_classes_6moderate but needs to be improved|C_DietQuality_classes_6ok/good","CEPercentProDiet6","CEPercentCHODiet6","CEPercentFatDiet6","CEPercentSFADiet6","CEPercentMUFADiet6","CEPercentPUFADiet6","CEPercentFAn3Diet6","CEPercentFAn6Diet6","CFibtotDiet6","C_DietQuality_points_6","C_DietQuality_classes_6moderate but needs to be improved|C_DietQuality_classes_6ok/good","CEPercentProDiet7","CEPercentCHODiet7","CEPercentFatDiet7","CEPercentSFADiet7","CEPercentMUFADiet7","CEPercentPUFADiet7","CEPercentFAn3Diet7","CEPercentFAn6Diet7","CFibtotDiet7","C_DietQuality_points_7","C_DietQuality_classes_7moderate but needs to be improved|C_DietQuality_classes_7ok/Good","CEPercentProDiet7","CEPercentCHODiet7","CEPercentFatDiet7","CEPercentSFADiet7","CEPercentMUFADiet7","CEPercentPUFADiet7","CEPercentFAn3Diet7","CEPercentFAn6Diet7","CFibtotDiet7","C_DietQuality_points_7","C_DietQuality_classes_7moderate but needs to be improved|C_DietQuality_classes_7ok/Good",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_itneeds to be vastly improved|exposure_itneeds to be vastly improved:visit_num|exposure_itok/good|exposure_itok/Good","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_it|exposure_it:visit_num","exposure_itneeds to be vastly improved|exposure_itneeds to be vastly improved:visit_num|exposure_itok/good|exposure_itok/Good"],["ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok"],["ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok"],["145","145","145","145","145","145","145","145","145","168","168","145","145","145","145","145","145","145","145","145","168","168","112","112","112","112","112","112","112","112","112","123","123","97","97","97","97","97","97","97","97","97","108","108","77-91","77-91","77-91","77-91","77-91","77-91","77-91","77-91","77-91","90-107","90-107","75-89","75-89","75-89","75-89","75-89","75-89","75-89","75-89","75-89","87-104","87-104","179-266","179-266","179-266","179-266","179-266","179-266","179-266","179-266","179-266","204-302","204-302","163-242","163-242","163-242","163-242","163-242","163-242","163-242","163-242","163-242","187-276","187-276"],[173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,250,250,250,250,250,250,250,250,250,250,250,250,250,250,250,250,250,250,250,250,250,250]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>component<\/th>\n      <th>analysis<\/th>\n      <th>exposure<\/th>\n      <th>term_family<\/th>\n      <th>status<\/th>\n      <th>reason<\/th>\n      <th>complete_case_n<\/th>\n      <th>n_features_tested<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"scrollX":false,"autoWidth":false,"columnDefs":[{"targets":7,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 0, 3, \",\", \".\", null);\n  }"},{"className":"dt-right","targets":7},{"name":"component","targets":0},{"name":"analysis","targets":1},{"name":"exposure","targets":2},{"name":"term_family","targets":3},{"name":"status","targets":4},{"name":"reason","targets":5},{"name":"complete_case_n","targets":6},{"name":"n_features_tested","targets":7}],"order":[],"orderClasses":false,"orderCellsTop":true}},"evals":["options.columnDefs.0.render"],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<script src="toc-toggle.js"></script>
+
+
+
+
+</body></html>
