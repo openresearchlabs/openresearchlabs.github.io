@@ -1,5 +1,96 @@
 [
   {
+    "URL": "https://www.hs.fi/mielipide/art-2000011947730.html",
+    "author": [
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Mäkelä",
+        "given": "Eetu"
+      },
+      {
+        "family": "Pihlajarinne",
+        "given": "Taina"
+      }
+    ],
+    "id": "Lahti2026hs",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          4
+        ]
+      ]
+    },
+    "keyword": "opinion",
+    "publisher": "HS Mielipide",
+    "title": "Tekoälyn sääntely uhkaa sivuuttaa tutkimuksen tarpeet",
+    "type": ""
+  },
+  {
+    "DOI": "10.1186/s12866-025-04665-2",
+    "author": [
+      {
+        "family": "Dühr",
+        "given": "Hendrik"
+      },
+      {
+        "family": "Pärnänen",
+        "given": "Katariina"
+      },
+      {
+        "family": "Kucháriková",
+        "given": "Nina"
+      },
+      {
+        "family": "Werner",
+        "given": "Paulina"
+      },
+      {
+        "family": "Pershagen",
+        "given": "Göran"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Alenius",
+        "given": "Harri"
+      },
+      {
+        "family": "Bergström",
+        "given": "Anna"
+      },
+      {
+        "family": "Ruuskanen",
+        "given": "Matti O."
+      },
+      {
+        "family": "Fyhrquist",
+        "given": "Nanna"
+      }
+    ],
+    "container-title": "BMC Microbiology",
+    "id": "Duhr2026",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "238",
+    "title": "Lifestyle associates with unique resistome and microbiome signatures in children",
+    "type": "article-journal",
+    "volume": "26"
+  },
+  {
     "author": [
       {
         "family": "Hakkarainen",
@@ -305,16 +396,20 @@
     ],
     "container-title": "Molecular Microbiology",
     "id": "Hekkala2026",
+    "issue": "5",
     "issued": {
       "date-parts": [
         [
-          2026
+          2026,
+          3
         ]
       ]
     },
     "keyword": "bioscience",
+    "page": "412-425",
     "title": "Gut microbiota-derived extracellular vesicles in patients with obesity undergoing gastric bypass surgery",
-    "type": "article-journal"
+    "type": "article-journal",
+    "volume": "125"
   },
   {
     "author": [
@@ -1389,65 +1484,6 @@
     "title": "Chronological age estimation from human microbiomes with transformer-based robust principal component analysis",
     "type": "article-journal",
     "volume": "8"
-  },
-  {
-    "DOI": "10.1101/2025.06.25.25330258",
-    "author": [
-      {
-        "family": "Dühr",
-        "given": "Hendrik"
-      },
-      {
-        "family": "Pärnänen",
-        "given": "Katariina"
-      },
-      {
-        "family": "Kucháriková",
-        "given": "Nina"
-      },
-      {
-        "family": "Werner",
-        "given": "Paulina"
-      },
-      {
-        "family": "Pershagen",
-        "given": "Göran"
-      },
-      {
-        "family": "Lahti",
-        "given": "Leo"
-      },
-      {
-        "family": "Alenius",
-        "given": "Harri"
-      },
-      {
-        "family": "Bergström",
-        "given": "Anna"
-      },
-      {
-        "family": "Ruuskanen",
-        "given": "Matti O."
-      },
-      {
-        "family": "Fyhrquist",
-        "given": "Nanna"
-      }
-    ],
-    "container-title": "medRxiv",
-    "id": "Duhr2025",
-    "issued": {
-      "date-parts": [
-        [
-          2025
-        ]
-      ]
-    },
-    "keyword": "bioscience",
-    "page": "2025.06.25.25330258",
-    "status": "in press.",
-    "title": "Lifestyle associates with unique resistome and microbiome signatures in children",
-    "type": "article-journal"
   },
   {
     "DOI": "10.1038/s41467-025-61137-x",
