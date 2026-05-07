@@ -1,5 +1,36 @@
 [
   {
+    "URL": "https://carpentries-incubator.github.io/statistical-probabilistic-programming-r/",
+    "author": [
+      {
+        "family": "Laitinen",
+        "given": "Ville"
+      },
+      {
+        "family": "Lahtinen",
+        "given": "Aleksi"
+      },
+      {
+        "family": "Tammi",
+        "given": "Eetu"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "id": "Laitinen2026carp",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "title": "Introduction to probabilistic programming in r",
+    "type": ""
+  },
+  {
     "URL": "https://www.hs.fi/mielipide/art-2000011947730.html",
     "author": [
       {
