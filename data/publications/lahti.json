@@ -1,5 +1,41 @@
 [
   {
+    "DOI": "10.7717/peerj.21208",
+    "ISSN": "2167-8359",
+    "author": [
+      {
+        "family": "Potbhare",
+        "given": "Renuka"
+      },
+      {
+        "family": "Jonnalagadda",
+        "given": "Manjari"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Ashma",
+        "given": "Richa"
+      }
+    ],
+    "container-title": "PeerJ",
+    "id": "Potbhare2026",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "e21208",
+    "title": "Skin microbiota variation among indian monozygotic twins",
+    "type": "article-journal",
+    "volume": "14"
+  },
+  {
     "URL": "https://carpentries-incubator.github.io/statistical-probabilistic-programming-r/",
     "author": [
       {
