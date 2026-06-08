@@ -217,13 +217,13 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-number="4" class="anchored" data-anchor-id="covariate-strategy"><span class="header-section-number">4</span> Covariate strategy</h2>
 <p>Primary covariate block:</p>
 <ul>
-<li><code>Intervention</code>, <code>MAge1</code>, <code>MprepBMI</code>, <code>MPrimipara</code>, <code>MprevGDM_new</code>, <code>MUniEdu</code>, <code>MPRSmoke</code>, <code>CGender</code>, <code>CWeightBirth</code>, <code>Bfdurationm</code></li>
+<li><code>Intervention</code>, <code>CGender</code>, <code>MEthnicity</code>, <code>MDise</code></li>
 </ul>
 <p>Sensitivity covariate block:</p>
 <ul>
-<li><code>MprepSmoke</code>, <code>MEthnicity</code>, <code>MDise</code></li>
+<li><code>MprepBMI</code>, <code>MAge1</code>, <code>MprevGDM_new</code>, <code>Bfdurationm</code>, <code>MPRSmoke</code>, <code>MUniEdu</code>, <code>CWeightBirth</code></li>
 </ul>
-<p>Rule: keep primary estimates based on primary block; report sensitivity shifts separately. Age-specific models additionally adjust for visit-specific fasting time when available as a measurement-condition covariate.</p>
+<p>Rule: keep primary estimates based on primary block; report sensitivity shifts separately. Age-specific, mutual-timing, and longitudinal models additionally adjust for visit-specific fasting time when available as a measurement-condition covariate.</p>
 <p>Covariates are pre-specified. Test results are reported and are not used as the sole inclusion rule.</p>
 </section>
 <section id="model-plan" class="level2" data-number="5">
@@ -239,7 +239,7 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li>Longitudinal mixed model:
 <ul>
-<li><code>lmer(Y_it ~ E + age_t + E:age_t + primary_covariates + (1|child))</code></li>
+<li><code>lmer(Y_it ~ E + age_t + E:age_t + primary_covariates + fasting_it + (1|child))</code></li>
 </ul></li>
 <li>Sensitivity model:
 <ul>
@@ -316,9 +316,9 @@ attached base packages:
 
 loaded via a namespace (and not attached):
  [1] htmlwidgets_1.6.4 compiler_4.5.2    fastmap_1.2.0     cli_3.6.5        
- [5] tools_4.5.2       htmltools_0.5.9   otel_0.2.0        rstudioapi_0.18.0
- [9] yaml_2.3.12       rmarkdown_2.29    knitr_1.51        jsonlite_2.0.0   
-[13] xfun_0.57         digest_0.6.39     rlang_1.1.7       evaluate_1.0.5   </code></pre>
+ [5] tools_4.5.2       htmltools_0.5.9   otel_0.2.0        yaml_2.3.12      
+ [9] rmarkdown_2.29    knitr_1.51        jsonlite_2.0.0    xfun_0.57        
+[13] digest_0.6.39     rlang_1.1.7       evaluate_1.0.5   </code></pre>
 </div>
 </div>
 </div>

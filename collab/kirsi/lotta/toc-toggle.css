@@ -25,6 +25,19 @@
   padding-top: 0.5rem;
 }
 
+#quarto-document-content > p,
+#quarto-document-content > ul,
+#quarto-document-content > ol,
+#quarto-document-content > blockquote,
+#quarto-document-content > .callout,
+#quarto-document-content section > p,
+#quarto-document-content section > ul,
+#quarto-document-content section > ol,
+#quarto-document-content section > blockquote,
+#quarto-document-content section > .callout {
+  max-width: 80ch;
+}
+
 #quarto-document-content h1,
 #quarto-document-content h2,
 #quarto-document-content h3,

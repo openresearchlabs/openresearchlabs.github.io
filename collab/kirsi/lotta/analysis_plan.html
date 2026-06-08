@@ -217,19 +217,19 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-number="4" class="anchored" data-anchor-id="covariate-strategy"><span class="header-section-number">4</span> Covariate strategy</h2>
 <p>Visit 6 core block:</p>
 <ul>
-<li><code>Intervention</code>, <code>MAge1</code>, <code>MprepBMI</code>, <code>MPrimipara</code>, <code>MUniEdu</code>, <code>MPRSmoke</code>, <code>MGDMOGTT1OR2Fi</code>, <code>Premature</code>, <code>MModeOfDelivery_cat</code>, <code>CGender</code>, <code>CWeightBirth</code>, <code>Bfdurationm</code>, <code>CFastingHoursBloodSample6</code>, <code>CMed6</code>, <code>CAb6</code></li>
+<li><code>Intervention</code>, <code>MPrimipara</code>, <code>MUniEdu</code>, <code>MGDMOGTT1OR2Fi</code>, <code>CGender</code>, <code>CWeightBirth</code>, <code>Bfdurationm</code></li>
 </ul>
-<p>Visit 7 core lean block:</p>
+<p>Visit 7 core block:</p>
 <ul>
-<li><code>Intervention</code>, <code>MAge1</code>, <code>MprepBMI</code>, <code>MPrimipara</code>, <code>MUniEdu</code>, <code>MGDMOGTT1OR2Fi</code>, <code>MModeOfDelivery_cat</code>, <code>CGender</code>, <code>CWeightBirth</code>, <code>CFastingHoursBloodSample7</code>, <code>CMed7</code>, <code>CAbQ7</code></li>
+<li><code>Intervention</code>, <code>MPrimipara</code>, <code>MUniEdu</code>, <code>MGDMOGTT1OR2Fi</code>, <code>CGender</code>, <code>CWeightBirth</code>, <code>Bfdurationm</code></li>
 </ul>
 <p>Prospective baseline block:</p>
 <ul>
-<li><code>Intervention</code>, <code>MAge1</code>, <code>MprepBMI</code>, <code>MPrimipara</code>, <code>MUniEdu</code>, <code>MPRSmoke</code>, <code>MGDMOGTT1OR2Fi</code>, <code>Premature</code>, <code>MModeOfDelivery_cat</code>, <code>CGender</code>, <code>CWeightBirth</code>, <code>Bfdurationm</code></li>
+<li><code>Intervention</code>, <code>MPrimipara</code>, <code>MUniEdu</code>, <code>MGDMOGTT1OR2Fi</code>, <code>CGender</code>, <code>CWeightBirth</code>, <code>Bfdurationm</code></li>
 </ul>
 <p>Repeated-measures core block:</p>
 <ul>
-<li><code>Intervention</code>, <code>MAge1</code>, <code>MprepBMI</code>, <code>MPrimipara</code>, <code>MUniEdu</code>, <code>MGDMOGTT1OR2Fi</code>, <code>MModeOfDelivery_cat</code>, <code>CGender</code>, <code>CWeightBirth</code>, <code>CFastingHoursBloodSample_it</code>, <code>CMed_it</code>, <code>CAb_it</code></li>
+<li><code>Intervention</code>, <code>MPrimipara</code>, <code>MUniEdu</code>, <code>MGDMOGTT1OR2Fi</code>, <code>CGender</code>, <code>CWeightBirth</code>, <code>Bfdurationm</code></li>
 </ul>
 <p>Sensitivity block:</p>
 <ul>
@@ -254,7 +254,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><code>lmer(Y_it ~ E_it * visit_t + repeated_core_covariates + (1|child))</code></li>
 <li><code>E_it</code> is harmonized within-child exposure at visit 6 or visit 7</li>
-<li>visit-specific fasting, medication, antibiotics, and sensitivity healthy-diet variables are harmonized as time-varying covariates</li>
+<li>sensitivity healthy-diet variables are harmonized as time-varying covariates for expanded sensitivity models</li>
 </ul></li>
 </ol>
 </section>
@@ -328,9 +328,9 @@ attached base packages:
 
 loaded via a namespace (and not attached):
  [1] htmlwidgets_1.6.4 compiler_4.5.2    fastmap_1.2.0     cli_3.6.5        
- [5] tools_4.5.2       htmltools_0.5.9   otel_0.2.0        rstudioapi_0.18.0
- [9] yaml_2.3.12       rmarkdown_2.29    knitr_1.51        jsonlite_2.0.0   
-[13] xfun_0.57         digest_0.6.39     rlang_1.1.7       evaluate_1.0.5   </code></pre>
+ [5] tools_4.5.2       htmltools_0.5.9   otel_0.2.0        yaml_2.3.12      
+ [9] rmarkdown_2.29    knitr_1.51        jsonlite_2.0.0    xfun_0.57        
+[13] digest_0.6.39     rlang_1.1.7       evaluate_1.0.5   </code></pre>
 </div>
 </div>
 </div>
