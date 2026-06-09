@@ -1,5 +1,126 @@
 [
   {
+    "DOI": "10.1016/j.gutmic.2026.100013",
+    "ISSN": "3051-1720",
+    "author": [
+      {
+        "family": "Aatsinki",
+        "given": "Anna-Katariina"
+      },
+      {
+        "family": "Kråkström",
+        "given": "Matilda"
+      },
+      {
+        "family": "Salonen",
+        "given": "Katja"
+      },
+      {
+        "family": "Isokääntä",
+        "given": "Heidi"
+      },
+      {
+        "family": "Paul",
+        "given": "Abhijit"
+      },
+      {
+        "family": "Bastiaanssen",
+        "given": "Thomaz"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Lukkarinen",
+        "given": "Minna"
+      },
+      {
+        "family": "Munukka",
+        "given": "Eveliina"
+      },
+      {
+        "family": "Paunio",
+        "given": "Tiina"
+      },
+      {
+        "family": "Kantojärvi",
+        "given": "Katri"
+      },
+      {
+        "family": "Dorrestein",
+        "given": "Pieter C."
+      },
+      {
+        "family": "Karlsson",
+        "given": "Hasse"
+      },
+      {
+        "family": "Karlsson",
+        "given": "Linnea"
+      },
+      {
+        "family": "Oresic",
+        "given": "Matej"
+      },
+      {
+        "family": "Dickens",
+        "given": "Alex M."
+      },
+      {
+        "family": "Lamichhane",
+        "given": "Santosh"
+      }
+    ],
+    "container-title": "Gut Microbiology",
+    "id": "Aatsinki2026",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "100013",
+    "title": "Early life gut microbial and metabolic shifts reflected in stool consistency: A gut transit time proxy",
+    "title-short": "Early life gut microbial and metabolic shifts reflected in stool consistency",
+    "type": "article-journal"
+  },
+  {
+    "DOI": "10.1142/S1793524524500852",
+    "ISSN": "1793-5245",
+    "author": [
+      {
+        "family": "Khalighi",
+        "given": "Moein"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Ndaïrou",
+        "given": "Faïçal"
+      }
+    ],
+    "container-title": "International Journal of Biomathematics",
+    "id": "Khalighi2026",
+    "issue": "05",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "keyword": "datascience",
+    "page": "2450085",
+    "title": "Epidemic transmission modeling with fractional derivatives and environmental pathogens",
+    "type": "article-journal",
+    "volume": "19"
+  },
+  {
     "DOI": "10.7717/peerj.21208",
     "ISSN": "2167-8359",
     "author": [
@@ -3201,37 +3322,6 @@
     "title": "Associations between gut microbiota and incident fractures in the FINRISK cohort",
     "type": "article-journal",
     "volume": "10"
-  },
-  {
-    "DOI": "10.1142/S1793524524500852",
-    "ISSN": "1793-5245",
-    "author": [
-      {
-        "family": "Khalighi",
-        "given": "Moein"
-      },
-      {
-        "family": "Lahti",
-        "given": "Leo"
-      },
-      {
-        "family": "Ndaïrou",
-        "given": "Faïçal"
-      }
-    ],
-    "container-title": "International Journal of Biomathematics",
-    "id": "Khalighi2024",
-    "issued": {
-      "date-parts": [
-        [
-          2024
-        ]
-      ]
-    },
-    "keyword": "datascience",
-    "page": "2450085",
-    "title": "Epidemic transmission modeling with fractional derivatives and environmental pathogens",
-    "type": "article-journal"
   },
   {
     "DOI": "10.1093/ismeco/ycae088",
