@@ -1,5 +1,82 @@
 [
   {
+    "author": [
+      {
+        "family": "Diab",
+        "given": "Hassan"
+      },
+      {
+        "family": "Kullberg",
+        "given": "Robert"
+      },
+      {
+        "family": "Yeo",
+        "given": "Li-Fang"
+      },
+      {
+        "family": "Wikki",
+        "given": "Irina"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Pärnänen",
+        "given": "Katariina"
+      },
+      {
+        "family": "Jalkanen",
+        "given": "Sirpa"
+      },
+      {
+        "family": "Salmi",
+        "given": "Marko"
+      },
+      {
+        "family": "Nieuwdorp",
+        "given": "Max"
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      },
+      {
+        "family": "Wiersinga",
+        "given": "Willem"
+      },
+      {
+        "family": "Palmu",
+        "given": "Joonatan"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      }
+    ],
+    "container-title": "mSystems",
+    "id": "Diab2026",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "Submitted",
+    "title": "Faecalibacterium prausnitzii is associated with a lower risk of incident sepsis in a population cohort of 6,372 individuals",
+    "type": "article-journal"
+  },
+  {
     "DOI": "10.1016/j.gutmic.2026.100013",
     "ISSN": "3051-1720",
     "author": [
@@ -851,6 +928,36 @@
     "title": "The relationship between gut microbiota during pregnancy and the level of postpartum adiposity",
     "type": "article-journal",
     "volume": "14"
+  },
+  {
+    "author": [
+      {
+        "family": "Jeba",
+        "given": "Akewak"
+      },
+      {
+        "family": "Matveeva",
+        "given": "Julia"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "Data Science Journal",
+    "id": "Jeba2025",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          11
+        ]
+      ]
+    },
+    "keyword": "datascience",
+    "note": "Submitted",
+    "title": "Automated retrieval and analysis of finnish cultural metadata",
+    "type": "article-journal"
   },
   {
     "DOI": "10.1093/bioinformatics/btaf605",
@@ -6256,6 +6363,103 @@
     "volume": "39"
   },
   {
+    "DOI": "10.1037/emo0000924",
+    "author": [
+      {
+        "family": "Aatsinki",
+        "given": "Anna-Katariina"
+      },
+      {
+        "family": "Kataja",
+        "given": "Eeva-Leena"
+      },
+      {
+        "family": "Munukka",
+        "given": "Eveliina"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Keskitalo",
+        "given": "Anniina"
+      },
+      {
+        "family": "Korja",
+        "given": "Riikka"
+      },
+      {
+        "family": "Nolvi",
+        "given": "Saara"
+      },
+      {
+        "family": "Häikiö",
+        "given": "Tuomo"
+      },
+      {
+        "family": "Tarro",
+        "given": "Saija"
+      },
+      {
+        "family": "Karlsson",
+        "given": "Hasse"
+      },
+      {
+        "family": "Karlsson",
+        "given": "Linnea"
+      }
+    ],
+    "container-title": "Emotion",
+    "id": "Aatsinki2022",
+    "issue": "6",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "1159-1170",
+    "title": "Infant fecal microbiota composition and attention to emotional faces",
+    "type": "article-journal",
+    "volume": "22"
+  },
+  {
+    "DOI": "10.1353/ecs.2022.0060",
+    "ISSN": "1086-315X",
+    "author": [
+      {
+        "family": "Tolonen",
+        "given": "Mikko"
+      },
+      {
+        "family": "Mäkelä",
+        "given": "Eetu"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "Eighteenth-Century Studies",
+    "id": "Tolonen2022",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "page": "95-123",
+    "publisher": "dh",
+    "title": "The anatomy of eighteenth century collections online (ECCO)",
+    "type": "article-journal",
+    "volume": "56"
+  },
+  {
     "DOI": "10.1161/CIRCGEN.121.003583",
     "author": [
       {
@@ -10005,6 +10209,48 @@
     "title": "A quantitative approach to book-printing in sweden and finland, 1640–1828",
     "type": "article-journal",
     "volume": "52"
+  },
+  {
+    "DOI": "10.1111/1751-7915.13037",
+    "author": [
+      {
+        "family": "Timmis",
+        "given": "Kenneth"
+      },
+      {
+        "family": "Jebok",
+        "given": "F."
+      },
+      {
+        "family": "Molinari",
+        "given": "Giulia"
+      },
+      {
+        "family": "Rohde",
+        "given": "Manfred"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "Microbial Biotechnology",
+    "id": "Timmis2018MicrobiomeYarns",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "keyword": "misc",
+    "note": "Comics piece for the popularization of microbiome research",
+    "page": "149-159",
+    "title": "Microbiome yarns: Human biome reproduction, evolution and visual acuity",
+    "title-short": "Microbiome yarns",
+    "type": "article-journal",
+    "volume": "11"
   },
   {
     "DOI": "10.1089/jwh.2017.6488",
