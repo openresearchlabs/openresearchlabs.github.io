@@ -72,7 +72,7 @@
       ]
     },
     "keyword": "bioscience",
-    "note": "Submitted",
+    "note": "In press.",
     "title": "Faecalibacterium prausnitzii is associated with a lower risk of incident sepsis in a population cohort of 6,372 individuals",
     "type": "article-journal"
   },
@@ -10209,6 +10209,59 @@
     "title": "A quantitative approach to book-printing in sweden and finland, 1640–1828",
     "type": "article-journal",
     "volume": "52"
+  },
+  {
+    "author": [
+      {
+        "family": "Tolonen",
+        "given": "Mikko"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "id": "Tolonen2019OpenScience",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "keyword": "dh",
+    "note": "Scientific Data Blog, Better Science through Better Data (#scidata19",
+    "publisher": "Springer Nature",
+    "title": "Integrating open science in the humanities: The case of computational history",
+    "title-short": "Integrating open science in the humanities",
+    "type": ""
+  },
+  {
+    "URL": "https://github.com/velait/OU",
+    "author": [
+      {
+        "family": "Laitinen",
+        "given": "Ville"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "StanCon 2018",
+    "id": "Laitinen2018StanCon",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "keyword": "datascience",
+    "note": "Reviewed reproducible notebook and conference paper",
+    "publisher-place": "Helsinki, Finland",
+    "title": "A hierarchical ornstein-uhlenbeck model for stochastic time series analysis",
+    "type": "paper-conference"
   },
   {
     "DOI": "10.1111/1751-7915.13037",
