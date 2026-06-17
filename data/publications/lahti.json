@@ -3097,7 +3097,6 @@
     ],
     "container-title": "ACM Transactions on Mathematical Software",
     "id": "Khalighi2024acm",
-    "issue": "3",
     "issued": {
       "date-parts": [
         [
@@ -3107,10 +3106,11 @@
       ]
     },
     "keyword": "datascience",
+    "number": "3",
     "page": "22",
     "title": "Algorithm 1047: FdeSolver, a Julia package for solving fractional differential equations",
     "title-short": "Algorithm 1047",
-    "type": "article-journal",
+    "type": "",
     "volume": "50"
   },
   {
@@ -10213,6 +10213,32 @@
   {
     "author": [
       {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Paavolainen",
+        "given": "Mikko"
+      }
+    ],
+    "id": "LahtiPaavolainen2018OpenScience",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          8
+        ]
+      ]
+    },
+    "keyword": "dh",
+    "note": "Blog",
+    "publisher": "ThinkOpen Blog, University of Helsinki",
+    "title": "Open science infrastructures in the humanities?",
+    "type": "article-journal"
+  },
+  {
+    "author": [
+      {
         "family": "Tolonen",
         "given": "Mikko"
       },
@@ -11113,6 +11139,27 @@
     "type": "paper-conference"
   },
   {
+    "author": [
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "id": "Lahti2015SosiaalinenKoodailu",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "keyword": "openscience",
+    "note": "Blog",
+    "publisher": "Open Science Initiative of the Ministry of Education and Culture",
+    "title": "Sosiaalinen koodailu ja avoin tiede",
+    "type": "article-journal"
+  },
+  {
     "DOI": "10.12688/f1000research.5686.2",
     "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2014-Aleksic.pdf",
     "author": [
@@ -11925,6 +11972,26 @@
     "volume": "53"
   },
   {
+    "author": [
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "id": "Lahti2013Sotkanet",
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "note": "Blog",
+    "publisher": "Helsinki Region Infoshare",
+    "title": "Sotkanet-indikaattorit sorvi-työkalupakkiin",
+    "type": "article-journal"
+  },
+  {
     "URL": "http://ropengov.github.io",
     "author": [
       {
@@ -12206,6 +12273,30 @@
     "title-short": "Intestinal microbiota, individuality and health. In",
     "type": "article-journal",
     "volume": "3"
+  },
+  {
+    "author": [
+      {
+        "family": "Lehtomäki",
+        "given": "Juha"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "id": "LehtomakiLahti2012AvoinData",
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "keyword": "openscience",
+    "publisher": "Elinympäristön tietopalvelut",
+    "title": "Avoin data, välineet ja haasteet",
+    "type": "article-journal"
   },
   {
     "DOI": "10.1111/j.1469-0691.2012.03855.x",
