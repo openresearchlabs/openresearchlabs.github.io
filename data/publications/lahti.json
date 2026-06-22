@@ -7829,7 +7829,25 @@
         "given": "Sudarshan A."
       },
       {
-        "literal": "others"
+        "family": "Borman",
+        "given": "Tuomas"
+      },
+      {
+        "family": "Huang",
+        "given": "Ruizhu"
+      },
+      {
+        "family": "Braccia",
+        "given": "Domenick J."
+      },
+      {
+        "family": "Corrada Bravo",
+        "given": "Hector"
+      },
+      {
+        "dropping-particle": "miaverse",
+        "family": "Collective",
+        "given": "The"
       }
     ],
     "container-title": "F1000Research",
