@@ -2,6 +2,31 @@
   {
     "author": [
       {
+        "family": "Linderborg",
+        "given": "Kristiina"
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "container-title": "The Journal of Nutrition",
+    "id": "Linderborg2026",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "In press.",
+    "title": "Oat-rich low-gluten diet modulates plasma short-chain fatty acids without significant changes in fecal microbiome or inflammatory markers: A randomized clinical trial in people with cardiometabolic risk",
+    "title-short": "Oat-rich low-gluten diet modulates plasma short-chain fatty acids without significant changes in fecal microbiome or inflammatory markers",
+    "type": "article-journal"
+  },
+  {
+    "author": [
+      {
         "family": "Diab",
         "given": "Hassan"
       },
