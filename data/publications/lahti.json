@@ -6,6 +6,30 @@
         "given": "Hassan"
       },
       {
+        "literal": "others"
+      }
+    ],
+    "container-title": "Rheumatology",
+    "id": "Diab2026Rheumatology",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "In press.",
+    "title": "Prospective analysis on the gut microbiome and the risk of autoimmune rheumatic diseases in the population-based FINRISK 2002 cohort",
+    "type": "article-journal"
+  },
+  {
+    "author": [
+      {
+        "family": "Diab",
+        "given": "Hassan"
+      },
+      {
         "family": "Kullberg",
         "given": "Robert"
       },
