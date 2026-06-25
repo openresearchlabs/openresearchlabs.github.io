@@ -2,6 +2,103 @@
   {
     "author": [
       {
+        "family": "Karikka",
+        "given": "Sonja"
+      },
+      {
+        "family": "Gowda",
+        "given": "Tejesvi Mysore Vishakante"
+      },
+      {
+        "family": "Hekkala",
+        "given": "Jenni"
+      },
+      {
+        "family": "Turunen",
+        "given": "Jenni"
+      },
+      {
+        "family": "Kaisanlahti",
+        "given": "Anna"
+      },
+      {
+        "family": "Virtanen",
+        "given": "Nikke"
+      },
+      {
+        "family": "Mishra",
+        "given": "Surbhi"
+      },
+      {
+        "family": "Zhyvolozhnyi",
+        "given": "Artem"
+      },
+      {
+        "family": "Sinkkonen",
+        "given": "Nelli"
+      },
+      {
+        "family": "Suokas",
+        "given": "Marko"
+      },
+      {
+        "family": "Meriläinen",
+        "given": "Sanna"
+      },
+      {
+        "family": "Pande",
+        "given": "Erawijantari"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Saarnio",
+        "given": "Juha"
+      },
+      {
+        "family": "Krüger",
+        "given": "Suvi-Johanna"
+      },
+      {
+        "family": "Portaankorva",
+        "given": "Anne M."
+      },
+      {
+        "family": "Vainio",
+        "given": "Seppo"
+      },
+      {
+        "family": "Ruuska-Loewald",
+        "given": "Terhi"
+      },
+      {
+        "family": "Reunanen",
+        "given": "Justus"
+      },
+      {
+        "family": "Samoylenko",
+        "given": "Anatoliy"
+      }
+    ],
+    "container-title": "iScience",
+    "id": "Karikka2026",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "In press.",
+    "title": "Gut microbiota-derived extracellular vesicles in parkinson’s disease",
+    "type": "article-journal"
+  },
+  {
+    "author": [
+      {
         "family": "Linderborg",
         "given": "Kristiina"
       },
