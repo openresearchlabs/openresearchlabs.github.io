@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Supplementary tables – FOPP</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-44a3683b6ccfbb924b084949c7b6eae5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link href="../site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
+<script src="../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="../site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
+<script src="../site_libs/datatables-binding-0.34.0/datatables.js"></script>
+<script src="../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="../site_libs/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="../site_libs/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet">
+<script src="../site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
+<script src="../site_libs/jszip-1.13.6/jszip.min.js"></script>
+<link href="../site_libs/dt-ext-buttons-1.13.6/css/buttons.dataTables.min.css" rel="stylesheet">
+<script src="../site_libs/dt-ext-buttons-1.13.6/js/dataTables.buttons.min.js"></script>
+<script src="../site_libs/dt-ext-buttons-1.13.6/js/buttons.html5.min.js"></script>
+<script src="../site_libs/dt-ext-buttons-1.13.6/js/buttons.colVis.min.js"></script>
+<script src="../site_libs/dt-ext-buttons-1.13.6/js/buttons.print.min.js"></script>
+<link href="../site_libs/crosstalk-1.2.2/css/crosstalk.min.css" rel="stylesheet">
+<script src="../site_libs/crosstalk-1.2.2/js/crosstalk.min.js"></script>
+<link href="../site_libs/nouislider-7.0.10/jquery.nouislider.min.css" rel="stylesheet">
+<script src="../site_libs/nouislider-7.0.10/jquery.nouislider.min.js"></script>
+<link href="../site_libs/selectize-0.12.0/selectize.bootstrap3.css" rel="stylesheet">
+<script src="../site_libs/selectize-0.12.0/selectize.min.js"></script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+
+
+<link rel="stylesheet" href="../toc-toggle.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">FOPP</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-setup--design" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Setup &amp; Design</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-setup--design">    
+        <li>
+    <a class="dropdown-item" href="../design/study_overview.html">
+ <span class="dropdown-text">Study overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../design/analysis_plan.html">
+ <span class="dropdown-text">Analysis plan</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../design/covariate_diagnostics.html">
+ <span class="dropdown-text">Covariate and model specification</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-primary-analysis" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Primary Analysis</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-primary-analysis">    
+        <li>
+    <a class="dropdown-item" href="../primary/primary_results.html">
+ <span class="dropdown-text">Primary results</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../primary/figures.html">
+ <span class="dropdown-text">Figures</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-secondary-analysis" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Secondary Analysis</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-secondary-analysis">    
+        <li>
+    <a class="dropdown-item" href="../secondary/supplementary_tables.html">
+ <span class="dropdown-text">Supplementary tables</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../secondary/secondary_figures.html">
+ <span class="dropdown-text">Secondary figures</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../secondary/exposure_atlas.html">
+ <span class="dropdown-text">Exposure atlas</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-data" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Data</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-data">    
+        <li>
+    <a class="dropdown-item" href="../data/clinical_characteristics.html">
+ <span class="dropdown-text">Clinical characteristics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../data/data_summary.html">
+ <span class="dropdown-text">Data summary</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../data/data_quality_assumptions.html">
+ <span class="dropdown-text">Data quality and assumptions</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="1">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#supplementary-table-s1.-analytic-sample-derivation" id="toc-supplementary-table-s1.-analytic-sample-derivation" class="nav-link active" data-scroll-target="#supplementary-table-s1.-analytic-sample-derivation"><span class="header-section-number">1</span> Supplementary Table S1. Analytic sample derivation</a></li>
+  <li><a href="#supplementary-table-s2.-exposure-definitions" id="toc-supplementary-table-s2.-exposure-definitions" class="nav-link" data-scroll-target="#supplementary-table-s2.-exposure-definitions"><span class="header-section-number">2</span> Supplementary Table S2. Exposure definitions</a></li>
+  <li><a href="#supplementary-table-s3.-primary-model-specifications" id="toc-supplementary-table-s3.-primary-model-specifications" class="nav-link" data-scroll-target="#supplementary-table-s3.-primary-model-specifications"><span class="header-section-number">3</span> Supplementary Table S3. Primary model specifications</a></li>
+  <li><a href="#supplementary-table-s4.-returned-result-inventory" id="toc-supplementary-table-s4.-returned-result-inventory" class="nav-link" data-scroll-target="#supplementary-table-s4.-returned-result-inventory"><span class="header-section-number">4</span> Supplementary Table S4. Returned result inventory</a></li>
+  <li><a href="#supplementary-table-s5.-candidate-associations-with-q-0.10" id="toc-supplementary-table-s5.-candidate-associations-with-q-0.10" class="nav-link" data-scroll-target="#supplementary-table-s5.-candidate-associations-with-q-0.10"><span class="header-section-number">5</span> Supplementary Table S5. Candidate associations with q &lt; 0.10</a></li>
+  <li><a href="#supplementary-table-s6.-primary-vs-sensitivity-stability-summary" id="toc-supplementary-table-s6.-primary-vs-sensitivity-stability-summary" class="nav-link" data-scroll-target="#supplementary-table-s6.-primary-vs-sensitivity-stability-summary"><span class="header-section-number">6</span> Supplementary Table S6. Primary-vs-sensitivity stability summary</a></li>
+  <li><a href="#supplementary-table-s7.-longitudinal-execution-status-inventory" id="toc-supplementary-table-s7.-longitudinal-execution-status-inventory" class="nav-link" data-scroll-target="#supplementary-table-s7.-longitudinal-execution-status-inventory"><span class="header-section-number">7</span> Supplementary Table S7. Longitudinal execution status inventory</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Supplementary tables</h1>
+</div>
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="supplementary-table-s1.-analytic-sample-derivation" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="supplementary-table-s1.-analytic-sample-derivation"><span class="header-section-number">1</span> Supplementary Table S1. Analytic sample derivation</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>sample_tbl <span class="ot">&lt;-</span> <span class="fu">tibble</span>(</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">analytic_step =</span> <span class="fu">c</span>(</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Children with at least one linked metabolomics panel"</span>,</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Children with a 6-month metabolomics panel"</span>,</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Children with a 12-month metabolomics panel"</span>,</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Children with a 24-month metabolomics panel"</span>,</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Children with a 5-6-year metabolomics panel"</span>,</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Children with any linked early-pregnancy exposure"</span>,</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Children with any linked late-pregnancy exposure"</span>,</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Children with both early- and late-pregnancy exposures in linked panels"</span>,</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Children contributing at least two child-age panels"</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>  <span class="at">n_children =</span> <span class="fu">c</span>(</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    <span class="fu">n_distinct</span>(raw_df<span class="sc">$</span>StudyID),</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    <span class="fu">n_distinct</span>(raw_df<span class="sc">$</span>StudyID[raw_df<span class="sc">$</span>visit_num <span class="sc">==</span> <span class="dv">4</span>]),</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    <span class="fu">n_distinct</span>(raw_df<span class="sc">$</span>StudyID[raw_df<span class="sc">$</span>visit_num <span class="sc">==</span> <span class="dv">5</span>]),</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    <span class="fu">n_distinct</span>(raw_df<span class="sc">$</span>StudyID[raw_df<span class="sc">$</span>visit_num <span class="sc">==</span> <span class="dv">6</span>]),</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    <span class="fu">n_distinct</span>(raw_df<span class="sc">$</span>StudyID[raw_df<span class="sc">$</span>visit_num <span class="sc">==</span> <span class="dv">7</span>]),</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    <span class="fu">n_distinct</span>(raw_df<span class="sc">$</span>StudyID[raw_df<span class="sc">$</span>has_early_exposure]),</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    <span class="fu">n_distinct</span>(raw_df<span class="sc">$</span>StudyID[raw_df<span class="sc">$</span>has_late_exposure]),</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    <span class="fu">n_distinct</span>(raw_df<span class="sc">$</span>StudyID[raw_df<span class="sc">$</span>has_early_exposure <span class="sc">&amp;</span> raw_df<span class="sc">$</span>has_late_exposure]),</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    <span class="fu">sum</span>(child_panel_counts<span class="sc">$</span>n_panels <span class="sc">&gt;=</span> <span class="dv">2</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="fu">make_table</span>(sample_tbl, <span class="at">caption =</span> <span class="st">"Supplementary Table S1. Analytic sample derivation"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div class="dt-wrap dt-wrap-compact">
+<div class="datatables html-widget html-fill-item" id="htmlwidget-baa0a044d04570603104" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-baa0a044d04570603104">{"x":{"filter":"none","vertical":false,"extensions":["Buttons"],"caption":"<caption>Supplementary Table S1. Analytic sample derivation<\/caption>","data":[["Children with at least one linked metabolomics panel","Children with a 6-month metabolomics panel","Children with a 12-month metabolomics panel","Children with a 24-month metabolomics panel","Children with a 5-6-year metabolomics panel","Children with any linked early-pregnancy exposure","Children with any linked late-pregnancy exposure","Children with both early- and late-pregnancy exposures in linked panels","Children contributing at least two child-age panels"],[306,258,257,239,139,285,280,280,269]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>analytic_step<\/th>\n      <th>n_children<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"scrollX":false,"autoWidth":false,"dom":"Blfrtip","buttons":["copy","csv","excel"],"columnDefs":[{"targets":1,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 0, 3, \",\", \".\", null);\n  }"},{"className":"dt-right","targets":1},{"name":"analytic_step","targets":0},{"name":"n_children","targets":1}],"order":[],"orderClasses":false}},"evals":["options.columnDefs.0.render"],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+</section>
+<section id="supplementary-table-s2.-exposure-definitions" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="supplementary-table-s2.-exposure-definitions"><span class="header-section-number">2</span> Supplementary Table S2. Exposure definitions</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>exposure_tbl <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tibble</span>(</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">component =</span> <span class="st">"Q1: Early-Pregnancy Age-Specific Models"</span>,</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">exposure_timing =</span> <span class="st">"Early pregnancy"</span>,</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">exposure_code =</span> q4_expos</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tibble</span>(</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">component =</span> <span class="st">"Q2: Late-Pregnancy Age-Specific Models"</span>,</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">exposure_timing =</span> <span class="st">"Late pregnancy"</span>,</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">exposure_code =</span> q5_expos</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>) <span class="sc">%&gt;%</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">exposure_label =</span> <span class="fu">pretty_var</span>(exposure_code),</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">scale =</span> <span class="fu">case_when</span>(</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>      <span class="fu">grepl</span>(<span class="st">"DietaryPatterns"</span>, exposure_code) <span class="sc">~</span> <span class="st">"Diet pattern score"</span>,</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>      <span class="fu">grepl</span>(<span class="st">"DII"</span>, exposure_code) <span class="sc">~</span> <span class="st">"Diet inflammatory index score"</span>,</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>      <span class="fu">grepl</span>(<span class="st">"IDQ"</span>, exposure_code) <span class="sc">~</span> <span class="st">"Diet quality score"</span>,</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>      <span class="cn">TRUE</span> <span class="sc">~</span> <span class="st">"Continuous percentage or intake metric"</span></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">linked_use =</span> <span class="fu">case_when</span>(</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>      <span class="fu">grepl</span>(<span class="st">"1$"</span>, exposure_code) <span class="sc">~</span> <span class="st">"Used in early-pregnancy age-specific, mutual-timing, and early longitudinal attempts"</span>,</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>      <span class="fu">grepl</span>(<span class="st">"2$"</span>, exposure_code) <span class="sc">~</span> <span class="st">"Used in late-pregnancy age-specific, mutual-timing, and late longitudinal attempts"</span>,</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>      <span class="cn">TRUE</span> <span class="sc">~</span> <span class="st">"Used in prenatal diet modeling"</span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">relocate</span>(exposure_label, <span class="at">.after =</span> exposure_code)</span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a><span class="fu">make_table</span>(exposure_tbl, <span class="at">caption =</span> <span class="st">"Supplementary Table S2. Exposure definitions and coding"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div class="dt-wrap dt-wrap-wide">
+<div class="datatables html-widget html-fill-item" id="htmlwidget-d43a6c947833b641b639" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-d43a6c947833b641b639">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","extensions":["Buttons"],"caption":"<caption>Supplementary Table S2. Exposure definitions and coding<\/caption>","data":[["Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models"],["Early pregnancy","Early pregnancy","Early pregnancy","Early pregnancy","Early pregnancy","Early pregnancy","Early pregnancy","Early pregnancy","Early pregnancy","Early pregnancy","Early pregnancy","Early pregnancy","Early pregnancy","Late pregnancy","Late pregnancy","Late pregnancy","Late pregnancy","Late pregnancy","Late pregnancy","Late pregnancy","Late pregnancy","Late pregnancy","Late pregnancy","Late pregnancy","Late pregnancy","Late pregnancy"],["MDietaryPatterns_1","MDIIDensityDiet1","MDIINormalDiet1","MEPercentCHODiet1","MEPercentFAn3Diet1","MEPercentFAn6Diet1","MEPercentFatDiet1","MEPercentFiballDiet1","MEPercentMUFADiet1","MEPercentProDiet1","MEPercentPUFADiet1","MEPercentSFADiet1","MIDQ1","MDietaryPatterns_2","MDIIDensityDiet2","MDIINormalDiet2","MEPercentCHODiet2","MEPercentFAn3Diet2","MEPercentFAn6Diet2","MEPercentFatDiet2","MEPercentFiballDiet2","MEPercentMUFADiet2","MEPercentProDiet2","MEPercentPUFADiet2","MEPercentSFADiet2","MIDQ2"],["Dietary Patterns","Dietary Inflammatory Index Density","Dietary Inflammatory Index","Percent Carbohydratediet","Percent n-3 Fatty Acidsdiet","Percent n-6 Fatty Acidsdiet","Percent Fatdiet","Percent Fibre Diet","Percent Mufadiet","Percent Proteindiet","Percent Pufadiet","Percent Sfadiet","Idq","Dietary Patterns","Dietary Inflammatory Index Density","Dietary Inflammatory Index","Percent Carbohydratediet","Percent n-3 Fatty Acidsdiet","Percent n-6 Fatty Acidsdiet","Percent Fatdiet","Percent Fibre Diet","Percent Mufadiet","Percent Proteindiet","Percent Pufadiet","Percent Sfadiet","Idq"],["Diet pattern score","Diet inflammatory index score","Diet inflammatory index score","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Diet quality score","Diet pattern score","Diet inflammatory index score","Diet inflammatory index score","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Continuous percentage or intake metric","Diet quality score"],["Used in early-pregnancy age-specific, mutual-timing, and early longitudinal attempts","Used in early-pregnancy age-specific, mutual-timing, and early longitudinal attempts","Used in early-pregnancy age-specific, mutual-timing, and early longitudinal attempts","Used in early-pregnancy age-specific, mutual-timing, and early longitudinal attempts","Used in early-pregnancy age-specific, mutual-timing, and early longitudinal attempts","Used in early-pregnancy age-specific, mutual-timing, and early longitudinal attempts","Used in early-pregnancy age-specific, mutual-timing, and early longitudinal attempts","Used in early-pregnancy age-specific, mutual-timing, and early longitudinal attempts","Used in early-pregnancy age-specific, mutual-timing, and early longitudinal attempts","Used in early-pregnancy age-specific, mutual-timing, and early longitudinal attempts","Used in early-pregnancy age-specific, mutual-timing, and early longitudinal attempts","Used in early-pregnancy age-specific, mutual-timing, and early longitudinal attempts","Used in early-pregnancy age-specific, mutual-timing, and early longitudinal attempts","Used in late-pregnancy age-specific, mutual-timing, and late longitudinal attempts","Used in late-pregnancy age-specific, mutual-timing, and late longitudinal attempts","Used in late-pregnancy age-specific, mutual-timing, and late longitudinal attempts","Used in late-pregnancy age-specific, mutual-timing, and late longitudinal attempts","Used in late-pregnancy age-specific, mutual-timing, and late longitudinal attempts","Used in late-pregnancy age-specific, mutual-timing, and late longitudinal attempts","Used in late-pregnancy age-specific, mutual-timing, and late longitudinal attempts","Used in late-pregnancy age-specific, mutual-timing, and late longitudinal attempts","Used in late-pregnancy age-specific, mutual-timing, and late longitudinal attempts","Used in late-pregnancy age-specific, mutual-timing, and late longitudinal attempts","Used in late-pregnancy age-specific, mutual-timing, and late longitudinal attempts","Used in late-pregnancy age-specific, mutual-timing, and late longitudinal attempts","Used in late-pregnancy age-specific, mutual-timing, and late longitudinal attempts"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>component<\/th>\n      <th>exposure_timing<\/th>\n      <th>exposure_code<\/th>\n      <th>exposure_label<\/th>\n      <th>scale<\/th>\n      <th>linked_use<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"scrollX":false,"autoWidth":false,"dom":"Blfrtip","buttons":["copy","csv","excel"],"columnDefs":[{"name":"component","targets":0},{"name":"exposure_timing","targets":1},{"name":"exposure_code","targets":2},{"name":"exposure_label","targets":3},{"name":"scale","targets":4},{"name":"linked_use","targets":5}],"order":[],"orderClasses":false,"orderCellsTop":true}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+</section>
+<section id="supplementary-table-s3.-primary-model-specifications" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="supplementary-table-s3.-primary-model-specifications"><span class="header-section-number">3</span> Supplementary Table S3. Primary model specifications</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>model_tbl <span class="ot">&lt;-</span> <span class="fu">tibble</span>(</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">analysis_component =</span> <span class="fu">c</span>(</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Q1: Early-Pregnancy Age-Specific Models"</span>,</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Q2: Late-Pregnancy Age-Specific Models"</span>,</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Q3: Mutual Timing Model"</span>,</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Q4: Longitudinal Interaction Model"</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">outcome =</span> <span class="fu">c</span>(</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Child metabolite at each age"</span>,</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Child metabolite at each age"</span>,</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Child metabolite at each age with early and late pregnancy terms together"</span>,</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Repeated child metabolite across all available ages"</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>  <span class="at">model_family =</span> <span class="fu">c</span>(</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Feature-wise linear model"</span>,</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Feature-wise linear model"</span>,</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Feature-wise linear model"</span>,</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Feature-wise mixed model"</span></span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>  <span class="at">primary_covariates =</span> <span class="fu">c</span>(</span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Intervention; child sex/gender; maternal ethnicity; maternal disease; visit-specific fasting time"</span>,</span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Intervention; child sex/gender; maternal ethnicity; maternal disease; visit-specific fasting time"</span>,</span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Intervention; child sex/gender; maternal ethnicity; maternal disease; visit-specific fasting time"</span>,</span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Intervention; child sex/gender; maternal ethnicity; maternal disease; visit-specific fasting time"</span></span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>  <span class="at">sensitivity_additions =</span> <span class="fu">c</span>(</span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Pre-pregnancy BMI; maternal age; prior GDM; breastfeeding duration; maternal smoking; university education; child birth weight"</span>,</span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Pre-pregnancy BMI; maternal age; prior GDM; breastfeeding duration; maternal smoking; university education; child birth weight"</span>,</span>
+<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Pre-pregnancy BMI; maternal age; prior GDM; breastfeeding duration; maternal smoking; university education; child birth weight"</span>,</span>
+<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Pre-pregnancy BMI; maternal age; prior GDM; breastfeeding duration; maternal smoking; university education; child birth weight"</span></span>
+<span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a>  <span class="at">multiple_testing =</span> <span class="fu">c</span>(</span>
+<span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Benjamini-Hochberg across metabolites within each visit-specific exposure model"</span>,</span>
+<span id="cb3-34"><a href="#cb3-34" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Benjamini-Hochberg across metabolites within each visit-specific exposure model"</span>,</span>
+<span id="cb3-35"><a href="#cb3-35" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Benjamini-Hochberg across metabolites applied separately to the early-term and late-term coefficients within each visit-specific exposure pair"</span>,</span>
+<span id="cb3-36"><a href="#cb3-36" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Benjamini-Hochberg across metabolites applied separately within each longitudinal exposure and coefficient family"</span></span>
+<span id="cb3-37"><a href="#cb3-37" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb3-38"><a href="#cb3-38" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb3-39"><a href="#cb3-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-40"><a href="#cb3-40" aria-hidden="true" tabindex="-1"></a><span class="fu">make_table</span>(model_tbl, <span class="at">caption =</span> <span class="st">"Supplementary Table S3. Primary model specifications"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div class="dt-wrap dt-wrap-compact">
+<div class="datatables html-widget html-fill-item" id="htmlwidget-2ebd826f8c73bb39d9dc" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-2ebd826f8c73bb39d9dc">{"x":{"filter":"none","vertical":false,"extensions":["Buttons"],"caption":"<caption>Supplementary Table S3. Primary model specifications<\/caption>","data":[["Q1: Early-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q3: Mutual Timing Model","Q4: Longitudinal Interaction Model"],["Child metabolite at each age","Child metabolite at each age","Child metabolite at each age with early and late pregnancy terms together","Repeated child metabolite across all available ages"],["Feature-wise linear model","Feature-wise linear model","Feature-wise linear model","Feature-wise mixed model"],["Intervention; child sex/gender; maternal ethnicity; maternal disease; visit-specific fasting time","Intervention; child sex/gender; maternal ethnicity; maternal disease; visit-specific fasting time","Intervention; child sex/gender; maternal ethnicity; maternal disease; visit-specific fasting time","Intervention; child sex/gender; maternal ethnicity; maternal disease; visit-specific fasting time"],["Pre-pregnancy BMI; maternal age; prior GDM; breastfeeding duration; maternal smoking; university education; child birth weight","Pre-pregnancy BMI; maternal age; prior GDM; breastfeeding duration; maternal smoking; university education; child birth weight","Pre-pregnancy BMI; maternal age; prior GDM; breastfeeding duration; maternal smoking; university education; child birth weight","Pre-pregnancy BMI; maternal age; prior GDM; breastfeeding duration; maternal smoking; university education; child birth weight"],["Benjamini-Hochberg across metabolites within each visit-specific exposure model","Benjamini-Hochberg across metabolites within each visit-specific exposure model","Benjamini-Hochberg across metabolites applied separately to the early-term and late-term coefficients within each visit-specific exposure pair","Benjamini-Hochberg across metabolites applied separately within each longitudinal exposure and coefficient family"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>analysis_component<\/th>\n      <th>outcome<\/th>\n      <th>model_family<\/th>\n      <th>primary_covariates<\/th>\n      <th>sensitivity_additions<\/th>\n      <th>multiple_testing<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"scrollX":false,"autoWidth":false,"dom":"Blfrtip","buttons":["copy","csv","excel"],"columnDefs":[{"name":"analysis_component","targets":0},{"name":"outcome","targets":1},{"name":"model_family","targets":2},{"name":"primary_covariates","targets":3},{"name":"sensitivity_additions","targets":4},{"name":"multiple_testing","targets":5}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+</section>
+<section id="supplementary-table-s4.-returned-result-inventory" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="supplementary-table-s4.-returned-result-inventory"><span class="header-section-number">4</span> Supplementary Table S4. Returned result inventory</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>inventory_tbl <span class="ot">&lt;-</span> <span class="fu">build_result_inventory_husna</span>(results)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">make_table</span>(inventory_tbl, <span class="at">caption =</span> <span class="st">"Supplementary Table S4. Returned result inventory"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div class="dt-wrap dt-wrap-compact">
+<div class="datatables html-widget html-fill-item" id="htmlwidget-4f26c35aea52cedfa009" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-4f26c35aea52cedfa009">{"x":{"filter":"none","vertical":false,"extensions":["Buttons"],"caption":"<caption>Supplementary Table S4. Returned result inventory<\/caption>","data":[["Q1: Early-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q3: Mutual Timing: Early-Pregnancy Term","Q3: Mutual Timing: Late-Pregnancy Term","Q4: Longitudinal Interaction Model"],[8996,8996,13000,13000,8996],[0,64,1,160,126],["113-208","102-186","100-182","100-182","538-810"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>component<\/th>\n      <th>result_rows<\/th>\n      <th>significant_rows_q_lt_0_10<\/th>\n      <th>complete_case_n_range<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"scrollX":false,"autoWidth":false,"dom":"Blfrtip","buttons":["copy","csv","excel"],"columnDefs":[{"targets":1,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 0, 3, \",\", \".\", null);\n  }"},{"targets":2,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 0, 3, \",\", \".\", null);\n  }"},{"className":"dt-right","targets":[1,2]},{"name":"component","targets":0},{"name":"result_rows","targets":1},{"name":"significant_rows_q_lt_0_10","targets":2},{"name":"complete_case_n_range","targets":3}],"order":[],"orderClasses":false}},"evals":["options.columnDefs.0.render","options.columnDefs.1.render"],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+</section>
+<section id="supplementary-table-s5.-candidate-associations-with-q-0.10" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="supplementary-table-s5.-candidate-associations-with-q-0.10"><span class="header-section-number">5</span> Supplementary Table S5. Candidate associations with q &lt; 0.10</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>candidate_age_specific <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  early_all <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">component =</span> <span class="fu">paste0</span>(<span class="st">"Q1 early pregnancy | "</span>, <span class="fu">visit_label</span>(visit))),</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  late_all <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">component =</span> <span class="fu">paste0</span>(<span class="st">"Q2 late pregnancy | "</span>, <span class="fu">visit_label</span>(visit)))</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>) <span class="sc">%&gt;%</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(q.value <span class="sc">&lt;</span> <span class="fl">0.10</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">transmute</span>(</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>    component,</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">exposure =</span> <span class="fu">pretty_var</span>(exposure),</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>    feature,</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>    n,</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">beta =</span> estimate,</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">conf_low =</span> conf.low,</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">conf_high =</span> conf.high,</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">p_value =</span> p.value,</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">q_value =</span> q.value</span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>candidate_mutual <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(</span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>  mutual_early_all <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">component =</span> <span class="fu">paste0</span>(<span class="st">"Q3 mutual timing early term | "</span>, <span class="fu">visit_label</span>(visit))),</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>  mutual_late_all <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">component =</span> <span class="fu">paste0</span>(<span class="st">"Q3 mutual timing late term | "</span>, <span class="fu">visit_label</span>(visit)))</span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>) <span class="sc">%&gt;%</span></span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(q.value <span class="sc">&lt;</span> <span class="fl">0.10</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">transmute</span>(</span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>    component,</span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">exposure =</span> <span class="fu">pretty_var</span>(exposure_pair),</span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>    feature,</span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>    n,</span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">beta =</span> estimate,</span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>    <span class="at">conf_low =</span> conf.low,</span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>    <span class="at">conf_high =</span> conf.high,</span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a>    <span class="at">p_value =</span> p.value,</span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>    <span class="at">q_value =</span> q.value</span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a>candidate_tbl <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(candidate_age_specific, candidate_mutual) <span class="sc">%&gt;%</span></span>
+<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(q_value, p_value)</span>
+<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a><span class="fu">make_table</span>(candidate_tbl, <span class="at">caption =</span> <span class="st">"Supplementary Table S5. Candidate associations meeting q &lt; 0.10"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div class="dt-wrap dt-wrap-wide">
+<div class="datatables html-widget html-fill-item" id="htmlwidget-941dd8c0eb2cf2cb8026" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-941dd8c0eb2cf2cb8026">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"integer\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"174\" data-max=\"186\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"-0.332952151308072\" data-max=\"0.810447153883902\" data-scale=\"15\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"-0.566219248304581\" data-max=\"0.424367382346759\" data-scale=\"15\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"-0.099685054311562\" data-max=\"1.19652692542104\" data-scale=\"15\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"3.9110159627e-05\" data-max=\"0.030789214616506\" data-scale=\"15\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"0.008316378581432\" data-max=\"0.099867506772583\" data-scale=\"15\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","extensions":["Buttons"],"caption":"<caption>Supplementary Table S5. Candidate associations meeting q &lt; 0.10<\/caption>","data":[["Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing early term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q2 late pregnancy | 6 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q2 late pregnancy | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 6 Months","Q3 mutual timing late term | 6 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q3 mutual timing late term | 12 Months","Q2 late pregnancy | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q3 mutual timing late term | 12 Months","Q3 mutual timing late term | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months","Q2 late pregnancy | 12 Months"],["Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Percent n-3 Fatty Acidsdiet","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Percent Fibre Diet","Percent Fibre Diet","Percent Fibre Diet","Percent Fibre Diet","Percent Fibre Diet","Percent Fibre Diet","Percent Fibre Diet","Percent Fibre Diet","Percent Fibre Diet","Percent Fibre Diet","Percent Fibre Diet","Percent Fibre Diet","Percent Fibre Diet","Percent Fibre Diet","Percent Fibre Diet","Percent Fibre Diet","Percent Fibre Diet","Percent Fibre Diet","Percent Fibre Diet","Percent Fibre Diet","Percent Fibre Diet","Percent Fibre Diet","Percent Fibre Diet","Percent Fibre Diet","Percent Fibre Diet","Percent Fibre Diet","Percent Fibre Diet","Percent Fibre Diet","Dietary Inflammatory Index Density","Dietary Inflammatory Index","Percent Fibre Diet","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Percent n-3 Fatty Acidsdiet","Percent n-3 Fatty Acidsdiet","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Percent Fibre Diet","Percent Fibre Diet","Percent Fibre Diet","Percent Fibre Diet","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density","Dietary Inflammatory Index Density"],["S-HDL-FC","Total-P","S-HDL-C","HDL-P","XXL-VLDL-FC-ratio","S-HDL-CE","S-HDL-P","M-HDL-C","M-HDL-CE","ApoA1","M-HDL-FC","S-HDL-L","Total-CE","Sphingomyelins","Cholines","M-HDL-P","HDL-CE","HDL-C","M-HDL-L","Total-C","S-HDL-PL","M-HDL-FC-ratio","S-LDL-C-ratio","HDL-L","Total-PL","HDL-FC","Phosphoglyc","S-LDL-CE-ratio","Phosphatidylc","HDL-PL","M-HDL-PL","IDL-CE","IDL-C","L-LDL-FC","M-HDL-PL-ratio","IDL-L","XL-HDL-CE-ratio","S-LDL-C-ratio","IDL-C-ratio","L-LDL-FC-ratio","IDL-CE-ratio","S-VLDL-PL-ratio","IDL-FC","Total-FC","L-LDL-PL","IDL-TG-ratio","S-VLDL-FC-ratio","LDL-FC","L-LDL-L","IDL-CE-ratio","IDL-C-ratio","L-LDL-C","M-HDL-PL-ratio","L-LDL-FC","M-VLDL-PL-ratio","IDL-CE","IDL-C","LDL-FC","S-LDL-TG-ratio","XL-HDL-CE-ratio","M-LDL-TG-ratio","M-VLDL-PL-ratio","S-VLDL-TG-ratio","L-LDL-PL","M-HDL-C-ratio","IDL-FC","M-LDL-FC","Total-CE","Omega-6/Omega-3","M-VLDL-TG-ratio","M-VLDL-FC-ratio","Clinical LDL-C","S-HDL-C-ratio","S-VLDL-PL-ratio","IDL-L","M-VLDL-C-ratio","Total-C","M-VLDL-CE-ratio","Clinical LDL-C","M-HDL-FC-ratio","M-LDL-FC","L-LDL-CE","IDL-PL","LDL-PL","LDL-L","LDL-C","S-VLDL-FC-ratio","L-LDL-TG-ratio","GlycA","DHA","XS-VLDL-C-ratio","S-LDL-PL-ratio","S-HDL-TG-ratio","S-VLDL-C-ratio","LDL-PL","XS-VLDL-CE-ratio","L-LDL-L","L-LDL-C","LDL-CE","Albumin","S-LDL-FC","LDL-C","M-HDL-CE-ratio","M-HDL-TG-ratio","XL-VLDL-TG-ratio","Total-L","non-HDL-C","Sphingomyelins","M-VLDL-FC-ratio","S-LDL-CE","M-HDL-C-ratio","M-LDL-PL","L-HDL-PL","M-VLDL-TG-ratio","IDL-PL","LDL-L","XS-VLDL-TG-ratio","S-LDL-C","S-HDL-C","Total-FC","S-LDL-CE-ratio","IDL-TG-ratio","L-HDL-CE","S-HDL-CE","IDL-P","L-HDL-L","L-HDL-P","L-HDL-C","S-LDL-C","Total-P","L-LDL-CE","Total-CE","M-LDL-C","Total-C","S-HDL-P","L-LDL-FC","S-HDL-C","LDL-FC","LDL-C","M-LDL-CE","M-LDL-FC","Clinical LDL-C","M-LDL-L","LDL-CE","S-LDL-C","S-HDL-CE","L-LDL-PL","Total-FC","LDL-L","S-LDL-CE","L-LDL-C","IDL-CE","S-HDL-FC","LDL-PL","non-HDL-C","L-LDL-L","M-LDL-PL","L-LDL-CE","IDL-C","S-HDL-FC-ratio","L-LDL-FC-ratio","S-LDL-FC","M-LDL-C-ratio","S-HDL-CE-ratio","L-HDL-TG-ratio","L-HDL-CE-ratio","L-HDL-C-ratio","LDL-CE","S-LDL-CE","non-HDL-C","bOHbutyrate","Acetone","L-LDL-FC","LDL-FC","IDL-CE","M-LDL-FC","L-LDL-PL","IDL-C","Clinical LDL-C","Total-CE","Omega-6/Omega-3","IDL-FC","Total-C","LDL-PL","IDL-L","S-LDL-FC","S-LDL-C","LDL-C","L-LDL-L","Sphingomyelins","L-LDL-C","M-VLDL-C-ratio","LDL-L","XL-VLDL-C-ratio","S-HDL-FC","HDL-CE","M-LDL-PL","HDL-P","Total-P","Total-L","S-HDL-L","S-LDL-L","S-LDL-CE","M-LDL-C","HDL-C","Omega-6","S-HDL-FC-ratio","L-HDL-FC","S-VLDL-TG-ratio","XL-HDL-FC-ratio","S-HDL-TG-ratio","M-VLDL-CE-ratio","IDL-P","M-LDL-L","S-HDL-P","S-HDL-C","S-HDL-CE","LDL-CE","Total-FC","M-LDL-L","M-LDL-C","M-VLDL-CE","M-LDL-PL","L-LDL-CE","IDL-PL"],[182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,181,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,182,182,186,182,182,182,182,182,182,182,182,174,174,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,182,186,182,182,182,182,182,186,186,186,186,186,186,182,182,182,182,182,182,182,182,182,182,182,186,186,186,186,186,182,182,186,186,186],[0.2063098098619418,0.1996383135381907,0.1988906636957467,0.195110370069633,0.8104471538839012,0.187923528961504,0.1871569375660593,0.1803042039634935,0.1800495878667302,0.1775229720055768,0.1766633147264639,0.1765906637442143,0.1753255520741403,0.1745991606231581,0.1733184253993806,0.1727339664478263,0.1704203742107021,0.1698759021098755,0.1686440424697125,0.1684353459061407,0.167642950161469,0.166865485672731,0.1651286525963307,0.1642840879715483,0.1636840289599377,0.1625753950721348,0.1620018880209728,0.1606382787193643,0.1589011713192181,0.1585799879734696,0.1569012409858662,0.1558972736681144,0.154750669823694,0.1521715299964419,-0.1515083659679348,0.1505787511546873,0.1494450815804323,0.1921952313513424,0.1889622507423925,0.1868637364464419,0.1858130386801004,0.1849556564283184,0.1475438376082906,0.1469398972209683,0.1439692985461467,-0.1789792250988615,0.1763273490999724,0.142673631177178,0.1418262677070883,0.1414314744552367,0.1406230374811592,0.1393881283281742,-0.1704663476371218,0.1699337726424802,0.1379491209634864,0.1662626603257684,0.1644389738624195,0.1640017728079666,-0.1611886308643186,0.1606080691879345,-0.1584754164656454,0.1577908502018403,-0.1554648352697063,0.1553497180870684,0.1550500796613956,0.1549156666440565,0.1547109408097758,0.1545493898276022,0.1538624114733139,-0.1533155993648299,0.1523824935804095,0.1518880239221441,0.1514357710158521,0.1368183552059584,0.1503058695736813,0.1500822106434861,0.1486566814588465,0.1471752014184234,0.1344075916909293,0.1463319712223126,0.133903646040628,0.1333735657070819,0.1328465267356683,0.1322326232279674,0.1317071820046641,0.1314400746103991,0.1311583522774424,-0.1449196115456985,0.1535746127726724,0.1300415350634572,0.1435812842789528,-0.1290272888710459,-0.1418327092501365,0.1416512062985735,0.1406047742480094,0.1406015701208495,0.1397075478940502,0.1393904759666654,0.1251694343721346,0.1248704234910863,0.1356708190217077,0.1354400043435977,0.1346461120049444,-0.1345110850787538,-0.1343462209819902,0.1241077896825636,0.1237772779324132,0.1332203680500329,0.1222981259761644,0.1221920316237265,0.1221527664398994,0.1216920933418384,0.1216306487473326,-0.1215939374480633,0.1322465357678568,0.1319899064954783,-0.1317499731216341,0.1306667071054837,0.1306135458443039,0.130186127497829,0.1297117637992696,-0.1204709687896356,0.1201630313948476,0.1285601648850513,0.1284833907589275,0.1194492051680247,0.1190249656892941,0.1187628396652078,0.1181549946091297,0.1271192708437101,0.1269948012429043,-0.3329521513080715,-0.3323237790916493,-0.3293973663546945,-0.3264034691807697,-0.3243846170619539,-0.3242284903483251,-0.3237961790226017,-0.3235859261958008,-0.3217541136314883,-0.3200715140412255,-0.3193976188022131,-0.3187418265769286,-0.318310790279724,-0.3174884235412027,-0.3168138060662274,-0.315749070346024,-0.3137614077885963,-0.3113756799109393,-0.3110544633320714,-0.3088119162123593,-0.3074467721444514,-0.3061802953220887,-0.3060925235268837,-0.3049987454071693,-0.3024104054742458,-0.301861439128756,-0.3001508673676356,-0.2992310042279472,0.1264868863311921,0.1174716077660191,-0.2973300954727975,0.124504085683684,0.1236319560153941,-0.1232419985177057,0.1229222384084952,0.1228406808714431,0.1227846868709301,0.1225506237662288,0.1224663522404615,0.6994153688213445,0.6774017642618388,0.1466403382058794,0.1434290691530986,0.1385689695553845,0.1375608725281816,0.1371517922944328,0.1370423323123262,0.1345664402063328,0.1332105357280212,0.1308073732787716,0.1291252459620355,0.1285325825262688,0.1267231859060478,0.1254770818049291,0.125032384299419,0.12447690282107,0.1239404695306884,0.1228407470704876,0.1225043668684984,0.1218992638905817,0.1154885842847094,0.120991283842653,0.1214862159392585,0.1205651093403078,0.1203435109972111,0.1201519474007875,0.1193236662659773,-0.2885381462334653,-0.2873650214873233,-0.2850551879761645,-0.284862115191951,0.1185782957372104,0.1181319173499167,0.1185388949458728,0.1130341894372632,0.1123751656040077,0.1122605629487578,-0.11196813170502,-0.1118101159584508,-0.1117666128395685,0.1114674346006482,0.1111801197600405,0.1103922805784858,0.1173711298288227,0.1160522274997835,0.1149171845301355,0.1148508310056675,0.1137109357698685,0.1135133970167271,0.1165867951319473,0.1160642580390355,0.1124939195569095,0.111810666013661,0.1108174354637731],[0.106196722867757,0.09950764572446834,0.09874227347377873,0.0949722226161412,0.4243673823467584,0.08775906560716974,0.08699767879269854,0.08015776869694399,0.07990260854154052,0.07737676230014973,0.0765152429793596,0.0764212107279508,0.07519104901032632,0.07447984676672589,0.07316983706928851,0.07257833116245913,0.07027851668297026,0.06973446846011691,0.06848150922707388,0.0682966460505281,0.06746410978610648,0.0667160476893021,0.06494552579142984,0.06413256443950696,0.06353491768880645,0.06243163299049377,0.06184127747623151,0.06045942416081129,0.05873999243180865,0.05841948572894719,0.05672561393025564,0.05576621802607264,0.05461592953923727,0.05201697474520497,-0.2516675249333032,0.05044909754419984,0.04925242069828438,0.08816799181178209,0.08495159561882251,0.08285536872243934,0.08180698675014356,0.08092369568285857,0.04739571386859454,0.0467881080927864,0.04381753968295603,-0.2830117907453645,0.07228739401410546,0.04251427751329576,0.04167161520753374,0.04126310605694718,0.04044687090004008,0.03922321204347912,-0.2744795279393883,0.06592494882279232,0.03778566940259932,0.06226841154239467,0.06044092224863942,0.0599904545485446,-0.265237353598468,0.0565583374930759,-0.2625259315619792,0.05376666870253531,-0.2595182797453832,0.05133998601863064,0.05101621753405534,0.05090391714382045,0.05069466098228345,0.05053105148149827,0.04985498611355429,-0.2573600963046641,0.04833832558832427,0.04786903101864748,0.04738509298472879,0.036624036896486,0.04630695605143641,0.04603224624977503,0.04463613478895809,0.04312190263980707,0.0342426946129069,0.04229462868994645,0.03373945184850825,0.0332039483435171,0.03269773669529029,0.03207781373426769,0.03154692041224819,0.03127130133705831,0.03095745757617449,-0.2489733020522996,0.07064827379234762,0.02988094813519926,0.03951461726793357,-0.2292218465266574,-0.2458756564355244,0.03759001520180494,0.03659050797794978,0.0365328396921472,0.03568589208166985,0.03535952440726883,0.02499543631898309,0.02467640924417765,0.03164526316999942,0.03140924920821536,0.03059680346362842,-0.2385629198853518,-0.2384026474210832,0.02392346886058994,0.02360522796900091,0.02920515136176521,0.02210813286352112,0.02201757993323421,0.02196628939975259,0.02152839624592745,0.02146159533252498,-0.2217814376448819,0.02822977338928769,0.02796570205605389,-0.2358177467070737,0.02663851412083579,0.02654936426534493,0.026157910848101,0.0256358195740742,-0.2206728604362143,0.02000020025303723,0.02448846717701605,0.02446746490623034,0.01928244390970639,0.0188615611981743,0.01859874552199352,0.01798214658146646,0.0230663646961895,0.02295583282467797,-0.566219248304581,-0.5656016351408094,-0.5626618892620882,-0.5597539239161213,-0.5576637876216839,-0.5575808664535162,-0.5570726064319964,-0.5568631390594065,-0.5550486598253735,-0.5533491868776214,-0.5526736181497349,-0.5520117773871308,-0.5515939567332733,-0.55075938341417,-0.5501854802137303,-0.5490114433865217,-0.5470253902397624,-0.5446404548233472,-0.544338194582664,-0.5421031428338541,-0.5406944600155534,-0.5394751935066149,-0.5393498884170008,-0.538281864188234,-0.535684253120629,-0.5351271314426006,-0.5334489848346169,-0.5324883260706172,0.02249735975623643,0.017282703628152,-0.5306155065502124,0.02043671879322065,0.01956508630017433,-0.2273030538439515,0.01887567346754211,0.01878790185087807,0.01874552385239742,0.01851372710700801,0.01842891880759556,0.310594362667498,0.28852875090477,0.05538696406872308,0.05217455791419756,0.04732624127929501,0.04630262815265018,0.04590031866194375,0.04579670003456725,0.04330695457923588,0.04195018648661311,0.03955149405145598,0.03786894693042574,0.03727105342768411,0.03546903269506378,0.03423247629795455,0.03376822476442524,0.03321324313896148,0.03267250898183606,0.0315785569504317,0.03124799510511941,0.0306281701588758,0.01529496695848943,0.0297293693144117,0.01742047739917885,0.01652391097117575,0.01629635145641745,0.0161243483384427,0.01526304721195144,-0.5218836079753479,-0.5206845462765599,-0.5184327948392302,-0.5181339955706302,0.02730757486572138,0.02685792255017577,0.0144916317468361,0.01283295955286119,0.01224251673813387,0.01209095161365374,-0.2121784522137334,-0.2119989466727574,-0.2119572392944999,0.0112716212630259,0.01102092959958062,0.01021591982428566,0.01329931052310518,0.02474989263135167,0.02360847501299429,0.02357635738190678,0.02244442635812874,0.02224321635228263,0.01254543075190956,0.01201094649143676,0.02122888461512729,0.02053295037117803,0.01955826820632961],[0.3064228968561265,0.2997689813519131,0.2990390539177147,0.2952485175231248,1.196526925421044,0.2880879923158382,0.28731619633942,0.280450639230043,0.2801965671919199,0.2776691817110039,0.2768113864735682,0.2767601167604777,0.2754600551379544,0.2747184744795903,0.2734670137294727,0.2728896017331935,0.2705622317384339,0.270017335759634,0.268806575712351,0.2685740457617533,0.2678217905368315,0.2670149236561599,0.2653117794012316,0.2644356115035896,0.2638331402310691,0.2627191571537758,0.2621624985657141,0.2608171332779172,0.2590623502066276,0.2587404902179921,0.2570768680414768,0.2560283293101561,0.2548854101081508,0.2523260852476789,-0.05134920700256648,0.2507084047651748,0.2496377424625801,0.2962224708909028,0.2929729058659624,0.2908721041704444,0.2898190906100573,0.2889876171737782,0.2476919613479867,0.2470916863491502,0.2441210574093374,-0.07494665945235855,0.2803673041858393,0.2428329848410603,0.2419809202066428,0.2415998428535261,0.2407992040622784,0.2395530446128694,-0.06645316733485533,0.2739425964621681,0.2381125725243735,0.2702569091091421,0.2684370254761996,0.2680130910673886,-0.05713990813016931,0.2646578008827931,-0.05442490136931158,0.2618150317011452,-0.05141139079402926,0.259359450155506,0.2590839417887359,0.2589274161442925,0.2587272206372681,0.258567728173706,0.2578698368330734,-0.04927110242499573,0.2564266615724947,0.2559070168256408,0.2554864490469755,0.2370126735154308,0.2543047830959261,0.2541321750371973,0.2526772281287349,0.2512285001970396,0.2345724887689516,0.2503693137546789,0.2340678402327478,0.2335431830706468,0.2329953167760462,0.232387432721667,0.23186744359708,0.23160884788374,0.2313592469787104,-0.04086592103909735,0.2365009517529971,0.2302021219917152,0.2476479512899719,-0.02883273121543445,-0.03778976206474857,0.245712397395342,0.2446190405180691,0.2446703005495517,0.2437292037064306,0.243421427526062,0.2253434324252861,0.225064437737995,0.2396963748734159,0.2394707594789801,0.2386954205462603,-0.03045925027215574,-0.03028979454289718,0.2242921105045373,0.2239493278958254,0.2372355847383006,0.2224881190888078,0.2223664833142188,0.2223392434800463,0.2218557904377493,0.2217997021621401,-0.02140643725124478,0.236263298146426,0.2360141109349028,-0.02768219953619443,0.2346949000901317,0.2346777274232629,0.2342143441475569,0.233787708024465,-0.02026907714305687,0.220325862536658,0.2326318625930865,0.2324993166116246,0.2196159664263431,0.2191883701804139,0.2189269338084221,0.2183278426367929,0.2311721769912307,0.2310337696611307,-0.09968505431156194,-0.09904592304248916,-0.09613284344730078,-0.09305301444541808,-0.09110544650222382,-0.09087611424313408,-0.09051975161320694,-0.09030871333219517,-0.08845956743760308,-0.08679384120482972,-0.08612161945469127,-0.08547187576672632,-0.08502762382617471,-0.0842174636682354,-0.08344213191872457,-0.08248669730552616,-0.08049742533743026,-0.07811090499853149,-0.07777073208147881,-0.0755206895908645,-0.07419908427334937,-0.07288539713756242,-0.07283515863676651,-0.07171562662610464,-0.0691365578278626,-0.06859574681491135,-0.06685274990065435,-0.06597368238527726,0.2304764129061479,0.2176605119038863,-0.06404468439538269,0.2285714525741474,0.2276988257306139,-0.01918094319145991,0.2269688033494482,0.226893459892008,0.2268238498894629,0.2265875204254496,0.2265037856733274,1.088236374975191,1.066274777618908,0.2378937123430357,0.2346835803919997,0.2298116978314739,0.2288191169037131,0.2284032659269219,0.228287964590085,0.2258259258334296,0.2244708849694292,0.2220632525060873,0.2203815449936453,0.2197941116248535,0.2179773391170318,0.2167216873119036,0.2162965438344128,0.2157405625031784,0.2152084300795408,0.2141029371905435,0.2137607386318773,0.2131703576222875,0.2156822016109294,0.2122531983708943,0.2255519544793382,0.2246063077094399,0.2243906705380047,0.2241795464631322,0.2233842853200032,-0.05519268449158268,-0.05404549669808681,-0.05167758111309886,-0.05159023481327177,0.2098490166086995,0.2094059121496575,0.2225861581449096,0.2132354193216651,0.2125078144698815,0.2124301742838618,-0.01175781119630656,-0.01162128524414408,-0.01157598638463721,0.2116632479382705,0.2113393099205003,0.210568641332686,0.2214429491345403,0.2073545623682154,0.2062258940472767,0.2061253046294282,0.2049774451816083,0.2047835776811716,0.220628159511985,0.2201175695866342,0.2037589544986918,0.2030883816561439,0.2020766027212167],[5.402016026799704e-05,9.368516429435702e-05,9.979654297719419e-05,0.0001347648513008512,3.911015962749879e-05,0.0002368122265316167,0.0002509172145132737,0.0004190024270589993,0.0004269822805358001,0.0005138191638232194,0.0005470879348908898,0.000551483786253459,0.0006016197924061969,0.000632695729032706,0.0006959821647503748,0.0007262000157506219,0.0008538661374161793,0.0008870980230929841,0.0009692646296728835,0.0009807097207892317,0.001041042068002548,0.001094821203439822,0.001238311749272903,0.001307131336792688,0.001361206985219468,0.001466441996128562,0.001527039122425878,0.001676486221319069,0.00187817577087228,0.001918352684681465,0.002145602868777346,0.002280584120973146,0.002457789617576909,0.00290652786317002,0.003033236442047457,0.003208335692772971,0.003466500593392219,0.0002944704095074167,0.0003710876184892842,0.000430882556743429,0.0004640265735040911,0.000494536961302773,0.003887630984617569,0.004037444453632052,0.004845589249505177,0.0007484454730339181,0.000896837564673345,0.005245287810039101,0.005517980016915705,0.005656973396302215,0.005941265237892886,0.006388128893113131,0.001320240891773956,0.001366429612380091,0.006953537367528899,0.00173050617592346,0.001944988779839153,0.002002381188014909,0.002398854111469697,0.002487492089543534,0.002838638998907872,0.002953295043897809,0.003412174284333198,0.00342248172038577,0.003492675805030669,0.003514152492041475,0.003559302662622138,0.003594811903452366,0.003742877310776882,0.003880331550184667,0.004102482054834221,0.004215677629869779,0.00434217557114997,0.007447944506882325,0.004621320381277074,0.004702899699754327,0.00509975090709702,0.005573113059688356,0.008544509191997878,0.005843385062256855,0.008794968185844939,0.009069733529017732,0.009331955504592794,0.009667980632036506,0.009964298108866324,0.01012230406764265,0.0103089295424151,0.006344555486173202,0.000284832955384257,0.01094408251027071,0.006853308168094583,0.01160986480501838,0.007549426477546211,0.007637272168440189,0.008068404852661758,0.008102999205840816,0.008485664970070724,0.008641939569286062,0.01433108295569431,0.01458512019710348,0.0105885866768274,0.01072551748299651,0.01120900817615233,0.01129262939706396,0.01139666386213856,0.01518892987624434,0.01544912271508022,0.01206995848173387,0.01674231778410879,0.01682021172914692,0.01686858527041111,0.01726139044698943,0.01732376897451156,0.01737818163364613,0.01271284931692489,0.01289332366377251,0.01309611564100502,0.01382849442744299,0.01390004946230085,0.01418134583095677,0.01458257660695702,0.0184575640181933,0.01871276605885716,0.01547771444943923,0.01548403417564328,0.0194313987198881,0.01986278515848077,0.0201369386078264,0.02079450163484789,0.01665162493743842,0.01674371211866123,0.005154669957516462,0.005241567811729534,0.005650788599911695,0.006120875557233394,0.006427821168492081,0.006470098743074058,0.006524040968782648,0.006559142187084171,0.006874721723084655,0.007168386658328839,0.007290413196925019,0.007409827883264336,0.007493673142738578,0.007646241536385153,0.007802684460318108,0.007982826633073739,0.008386882186609055,0.008895609628581273,0.008971709751952977,0.009480711241794984,0.009787899919008648,0.01010906001706024,0.01011850870102621,0.01039862667137257,0.01106470036300916,0.01120860266712062,0.01168853300964682,0.01193278459106245,0.0171323278096189,0.02156403448775346,0.01249455912730033,0.01904013454516303,0.01989425725355665,0.02028013848777475,0.02058961917035433,0.02068131371546044,0.02072260966170933,0.02096340094072075,0.02105236413733584,0.0004239742104552737,0.0006416278019464154,0.001638277372581839,0.002069686845009513,0.002919215098268635,0.003137074283088379,0.003225213467557367,0.003247816114630798,0.00385648892717686,0.004229218574506708,0.004968084263603925,0.005554618406920227,0.005778430363181641,0.006499053537463985,0.007038621648356422,0.007255385808576056,0.00751805549533906,0.007783005956336374,0.008342026351893945,0.008517139402755005,0.008859225659832803,0.02387873609309994,0.009371058922225723,0.02213963946008001,0.02313746770009658,0.02339913403042736,0.02359427447419189,0.02461708694061614,0.01537590725606278,0.01578623416960711,0.01667350465839906,0.01669792907238778,0.01089122879633375,0.01119675669681106,0.02555754859825317,0.02704202764817065,0.02784032381439253,0.0280578881363827,0.02853393368409657,0.02872459574606809,0.02878959139820508,0.02922841117131143,0.02958753740639995,0.03078921461650566,0.02708033937364206,0.01273531063405981,0.01364181103102546,0.01366084498986041,0.01461399184886286,0.01479053412422871,0.02807520905500314,0.02880519576592792,0.01570411482480846,0.01636286431085661,0.01731806475825128],[0.008316378581432849,0.008316378581432849,0.008316378581432849,0.008422803206303198,0.009777539906874697,0.01045488393805307,0.01045488393805307,0.0121033335958437,0.0121033335958437,0.0121033335958437,0.0121033335958437,0.0121033335958437,0.0121033335958437,0.0121033335958437,0.0121033335958437,0.0121033335958437,0.01290407527354252,0.01290407527354252,0.01290407527354252,0.01290407527354252,0.01301302585003185,0.01303358575523598,0.01407172442355571,0.01417923942936946,0.01417923942936946,0.01466441996128562,0.01468306848486421,0.01552302056776916,0.01653752314380574,0.01653752314380574,0.01788002390647789,0.01839180742720279,0.0192014813873196,0.02201915047856076,0.02230320913270189,0.02291668351980693,0.02407292078744597,0.02472684806513865,0.02472684806513865,0.02472684806513865,0.02472684806513865,0.02472684806513865,0.02626777692309169,0.02656213456336876,0.03106146954811011,0.03118522804307992,0.03202991302404803,0.03278304881274438,0.03364621961533966,0.03367246069227509,0.0345422397551912,0.03629618689268824,0.03795637812166919,0.03795637812166919,0.03863076315293833,0.04020532936249973,0.04020532936249973,0.04020532936249973,0.04020532936249973,0.04020532936249973,0.04020532936249973,0.04020532936249973,0.04020532936249973,0.04020532936249973,0.04020532936249973,0.04020532936249973,0.04020532936249973,0.04020532936249973,0.04020532936249973,0.04020532936249973,0.04020532936249973,0.04020532936249973,0.04020532936249973,0.04047795927653437,0.04054223879098558,0.04054223879098558,0.0424979242258085,0.04494446015877707,0.04544951697871211,0.04565144579888167,0.04580712596794238,0.04627415065825374,0.04665977752296397,0.04739206192174758,0.04772652565932917,0.04772652565932917,0.04772652565932917,0.04806481428919093,0.04927610128147646,0.04974582959213958,0.05039197182422488,0.05182975359383207,0.05303661228083465,0.05303661228083465,0.05330920530158431,0.05330920530158431,0.05401212230803789,0.05401212230803789,0.06285562699865925,0.06286689740130812,0.0633147992341031,0.0633147992341031,0.0633147992341031,0.0633147992341031,0.0633147992341031,0.06435987235696752,0.06437134464616757,0.0655976004442058,0.06582644558199292,0.06582644558199292,0.06582644558199292,0.06582644558199292,0.06582644558199292,0.06582644558199292,0.06681691653573989,0.06681691653573989,0.06681691653573989,0.06813749736421985,0.06813749736421985,0.06817954726421523,0.0687857387120614,0.06879693403991602,0.06879693403991602,0.07038197352565126,0.07038197352565126,0.07040361855031921,0.07090471340783942,0.07090471340783942,0.07220313067655518,0.07343733385377732,0.07343733385377732,0.07372756193763587,0.07372756193763587,0.07372756193763587,0.07372756193763587,0.07372756193763587,0.07372756193763587,0.07372756193763587,0.07372756193763587,0.07372756193763587,0.07372756193763587,0.07372756193763587,0.07372756193763587,0.07372756193763587,0.07372756193763587,0.07372756193763587,0.07372756193763587,0.07372756193763587,0.07372756193763587,0.07372756193763587,0.07372756193763587,0.07372756193763587,0.07372756193763587,0.07372756193763587,0.07372756193763587,0.07372756193763587,0.07372756193763587,0.07372756193763587,0.07372756193763587,0.07384624055870216,0.07384943317723788,0.07453650789734334,0.07974380355051454,0.07974380355051454,0.07974380355051454,0.07974380355051454,0.07974380355051454,0.07974380355051454,0.07974380355051454,0.07974380355051454,0.08020347524330193,0.08020347524330193,0.08066558100795131,0.08066558100795131,0.08066558100795131,0.08066558100795131,0.08066558100795131,0.08066558100795131,0.08066558100795131,0.08066558100795131,0.08066558100795131,0.08066558100795131,0.08066558100795131,0.08066558100795131,0.08066558100795131,0.08066558100795131,0.08066558100795131,0.08066558100795131,0.08066558100795131,0.08066558100795131,0.08066558100795131,0.08067140571993224,0.08105965967725251,0.08261059500029856,0.08426526597925676,0.08426526597925676,0.08426526597925676,0.0866798835937188,0.08753762816736625,0.08753762816736625,0.08753762816736625,0.08753762816736625,0.08804722311583242,0.08804722311583242,0.08874148818837906,0.08996747311939086,0.08996747311939086,0.08996747311939086,0.08996747311939086,0.08996747311939086,0.08996747311939086,0.0902059067268291,0.0902059067268291,0.09273859824248695,0.09274088826589745,0.09453304732983407,0.09453304732983407,0.09453304732983407,0.09476897790709504,0.09476897790709504,0.09484867923987549,0.09601731921975973,0.09702899516756654,0.09761294916476528,0.0998675067725824]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>component<\/th>\n      <th>exposure<\/th>\n      <th>feature<\/th>\n      <th>n<\/th>\n      <th>beta<\/th>\n      <th>conf_low<\/th>\n      <th>conf_high<\/th>\n      <th>p_value<\/th>\n      <th>q_value<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"scrollX":false,"autoWidth":false,"dom":"Blfrtip","buttons":["copy","csv","excel"],"columnDefs":[{"targets":4,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 3, 3, \",\", \".\", null);\n  }"},{"targets":5,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 3, 3, \",\", \".\", null);\n  }"},{"targets":6,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 3, 3, \",\", \".\", null);\n  }"},{"targets":7,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 3, 3, \",\", \".\", null);\n  }"},{"targets":8,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 3, 3, \",\", \".\", null);\n  }"},{"targets":3,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 0, 3, \",\", \".\", null);\n  }"},{"className":"dt-right","targets":[3,4,5,6,7,8]},{"name":"component","targets":0},{"name":"exposure","targets":1},{"name":"feature","targets":2},{"name":"n","targets":3},{"name":"beta","targets":4},{"name":"conf_low","targets":5},{"name":"conf_high","targets":6},{"name":"p_value","targets":7},{"name":"q_value","targets":8}],"order":[],"orderClasses":false,"orderCellsTop":true}},"evals":["options.columnDefs.0.render","options.columnDefs.1.render","options.columnDefs.2.render","options.columnDefs.3.render","options.columnDefs.4.render","options.columnDefs.5.render"],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+</section>
+<section id="supplementary-table-s6.-primary-vs-sensitivity-stability-summary" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="supplementary-table-s6.-primary-vs-sensitivity-stability-summary"><span class="header-section-number">6</span> Supplementary Table S6. Primary-vs-sensitivity stability summary</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>long_coef_primary <span class="ot">&lt;-</span> long_res <span class="sc">%&gt;%</span> <span class="fu">filter</span>(<span class="st">"feature"</span> <span class="sc">%in%</span> <span class="fu">names</span>(long_res))</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>long_coef_sens <span class="ot">&lt;-</span> long_res_sens <span class="sc">%&gt;%</span> <span class="fu">filter</span>(<span class="st">"feature"</span> <span class="sc">%in%</span> <span class="fu">names</span>(long_res_sens))</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>stability_tbl <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">compare_primary_sensitivity</span>(early_all, early_all_sens, <span class="fu">c</span>(<span class="st">"exposure"</span>, <span class="st">"feature"</span>, <span class="st">"visit"</span>)) <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">component =</span> <span class="st">"Q1: Early-Pregnancy Age-Specific Models"</span>),</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">compare_primary_sensitivity</span>(late_all, late_all_sens, <span class="fu">c</span>(<span class="st">"exposure"</span>, <span class="st">"feature"</span>, <span class="st">"visit"</span>)) <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">component =</span> <span class="st">"Q2: Late-Pregnancy Age-Specific Models"</span>),</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">compare_primary_sensitivity</span>(mutual_early_all, mutual_early_all_sens, <span class="fu">c</span>(<span class="st">"exposure_pair"</span>, <span class="st">"feature"</span>, <span class="st">"visit"</span>)) <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">component =</span> <span class="st">"Q3: Mutual Timing: Early-Pregnancy Term"</span>),</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">compare_primary_sensitivity</span>(mutual_late_all, mutual_late_all_sens, <span class="fu">c</span>(<span class="st">"exposure_pair"</span>, <span class="st">"feature"</span>, <span class="st">"visit"</span>)) <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">component =</span> <span class="st">"Q3: Mutual Timing: Late-Pregnancy Term"</span>),</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">compare_primary_sensitivity</span>(long_coef_primary, long_coef_sens, <span class="fu">c</span>(<span class="st">"exposure"</span>, <span class="st">"feature"</span>, <span class="st">"term"</span>)) <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">component =</span> <span class="st">"Q4: Longitudinal Interaction Model"</span>)</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>) <span class="sc">%&gt;%</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(component) <span class="sc">%&gt;%</span></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">matched_rows =</span> <span class="fu">n</span>(),</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">median_abs_beta_change =</span> <span class="fu">median</span>(abs_delta, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">p90_abs_beta_change =</span> <span class="fu">quantile</span>(abs_delta, <span class="fl">0.90</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">direction_flip_fraction =</span> <span class="fu">mean</span>(direction_flip, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">q_reclassification_fraction =</span> <span class="fu">mean</span>(q_reclassified, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a><span class="fu">make_table</span>(stability_tbl, <span class="at">caption =</span> <span class="st">"Supplementary Table S6. Primary-vs-sensitivity stability summary"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div class="dt-wrap dt-wrap-compact">
+<div class="datatables html-widget html-fill-item" id="htmlwidget-16247534b2bfd563de48" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-16247534b2bfd563de48">{"x":{"filter":"none","vertical":false,"extensions":["Buttons"],"caption":"<caption>Supplementary Table S6. Primary-vs-sensitivity stability summary<\/caption>","data":[["Q1: Early-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q3: Mutual Timing: Early-Pregnancy Term","Q3: Mutual Timing: Late-Pregnancy Term","Q4: Longitudinal Interaction Model"],[8996,8996,13000,13000,8996],[0.03358383149869564,0.02799670702812887,0.03652246962610246,0.02978459522274413,0.0225952280322394],[0.1552464953742552,0.1234744197414806,0.1609118007314333,0.1470558423698214,0.1845305479397502],[0.32792352156514,0.2625611382836817,0.3026153846153846,0.2286153846153846,0.2456647398843931],[0.0002223210315695865,0.007114273010226767,0.006923076923076923,0.01130769230769231,0.05080035571365051]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>component<\/th>\n      <th>matched_rows<\/th>\n      <th>median_abs_beta_change<\/th>\n      <th>p90_abs_beta_change<\/th>\n      <th>direction_flip_fraction<\/th>\n      <th>q_reclassification_fraction<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"scrollX":false,"autoWidth":false,"dom":"Blfrtip","buttons":["copy","csv","excel"],"columnDefs":[{"targets":2,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 3, 3, \",\", \".\", null);\n  }"},{"targets":3,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 3, 3, \",\", \".\", null);\n  }"},{"targets":4,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 3, 3, \",\", \".\", null);\n  }"},{"targets":5,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 3, 3, \",\", \".\", null);\n  }"},{"targets":1,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 0, 3, \",\", \".\", null);\n  }"},{"className":"dt-right","targets":[1,2,3,4,5]},{"name":"component","targets":0},{"name":"matched_rows","targets":1},{"name":"median_abs_beta_change","targets":2},{"name":"p90_abs_beta_change","targets":3},{"name":"direction_flip_fraction","targets":4},{"name":"q_reclassification_fraction","targets":5}],"order":[],"orderClasses":false}},"evals":["options.columnDefs.0.render","options.columnDefs.1.render","options.columnDefs.2.render","options.columnDefs.3.render","options.columnDefs.4.render"],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+</section>
+<section id="supplementary-table-s7.-longitudinal-execution-status-inventory" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="supplementary-table-s7.-longitudinal-execution-status-inventory"><span class="header-section-number">7</span> Supplementary Table S7. Longitudinal execution status inventory</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>status_tbl <span class="ot">&lt;-</span> model_status <span class="sc">%&gt;%</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">component =</span> <span class="fu">case_when</span>(</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>      question <span class="sc">==</span> <span class="st">"Q4"</span> <span class="sc">~</span> <span class="st">"Q1: Early-Pregnancy Age-Specific Models"</span>,</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>      question <span class="sc">==</span> <span class="st">"Q5"</span> <span class="sc">~</span> <span class="st">"Q2: Late-Pregnancy Age-Specific Models"</span>,</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>      question <span class="sc">==</span> <span class="st">"Q6"</span> <span class="sc">~</span> <span class="st">"Q3: Mutual Timing Model"</span>,</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>      question <span class="sc">==</span> <span class="st">"Q7"</span> <span class="sc">~</span> <span class="st">"Q4: Longitudinal Interaction Model"</span>,</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>      <span class="cn">TRUE</span> <span class="sc">~</span> question</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">child_age =</span> <span class="fu">ifelse</span>(<span class="fu">is.na</span>(visit), <span class="cn">NA_character_</span>, <span class="fu">visit_label</span>(<span class="fu">as.integer</span>(visit))),</span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">exposure =</span> <span class="fu">pretty_var</span>(exposure),</span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">complete_case_n =</span> <span class="fu">ifelse</span>(</span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>      <span class="fu">is.na</span>(n_complete_min) <span class="sc">|</span> <span class="sc">!</span><span class="fu">is.finite</span>(n_complete_min),</span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>      <span class="cn">NA_character_</span>,</span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>      <span class="fu">ifelse</span>(n_complete_min <span class="sc">==</span> n_complete_max, <span class="fu">as.character</span>(n_complete_min), <span class="fu">paste0</span>(n_complete_min, <span class="st">"-"</span>, n_complete_max))</span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(component, analysis, child_age, timing, exposure, term_family, status, reason, complete_case_n, n_features_tested)</span>
+<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a><span class="fu">make_table</span>(status_tbl, <span class="at">caption =</span> <span class="st">"Supplementary Table S7. Saved execution-status inventory"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div class="dt-wrap dt-wrap-wide">
+<div class="datatables html-widget html-fill-item" id="htmlwidget-0b579fe636436a4d7736" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-0b579fe636436a4d7736">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\" disabled=\"\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\" disabled=\"\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"integer\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"173\" data-max=\"250\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","extensions":["Buttons"],"caption":"<caption>Supplementary Table S7. Saved execution-status inventory<\/caption>","data":[["Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q1: Early-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q2: Late-Pregnancy Age-Specific Models","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q3: Mutual Timing Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model","Q4: Longitudinal Interaction Model"],["Q4","Q4","Q4","Q4","Q4","Q4","Q4","Q4","Q4","Q4","Q4","Q4","Q4","Q5","Q5","Q5","Q5","Q5","Q5","Q5","Q5","Q5","Q5","Q5","Q5","Q5","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q4","Q4","Q4","Q4","Q4","Q4","Q4","Q4","Q4","Q4","Q4","Q4","Q4","Q5","Q5","Q5","Q5","Q5","Q5","Q5","Q5","Q5","Q5","Q5","Q5","Q5","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q4","Q4","Q4","Q4","Q4","Q4","Q4","Q4","Q4","Q4","Q4","Q4","Q4","Q5","Q5","Q5","Q5","Q5","Q5","Q5","Q5","Q5","Q5","Q5","Q5","Q5","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q4","Q4","Q4","Q4","Q4","Q4","Q4","Q4","Q4","Q4","Q4","Q4","Q4","Q5","Q5","Q5","Q5","Q5","Q5","Q5","Q5","Q5","Q5","Q5","Q5","Q5","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q6_Mutual","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q4_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q5_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q6_Mutual_sensitivity","Q7_Interaction","Q7_Interaction","Q7_Interaction","Q7_Interaction","Q7_Interaction","Q7_Interaction","Q7_Interaction","Q7_Interaction","Q7_Interaction","Q7_Interaction","Q7_Interaction","Q7_Interaction","Q7_Interaction","Q7_Interaction","Q7_Interaction","Q7_Interaction","Q7_Interaction","Q7_Interaction","Q7_Interaction","Q7_Interaction","Q7_Interaction","Q7_Interaction","Q7_Interaction","Q7_Interaction","Q7_Interaction","Q7_Interaction","Q7_Interaction_sensitivity","Q7_Interaction_sensitivity","Q7_Interaction_sensitivity","Q7_Interaction_sensitivity","Q7_Interaction_sensitivity","Q7_Interaction_sensitivity","Q7_Interaction_sensitivity","Q7_Interaction_sensitivity","Q7_Interaction_sensitivity","Q7_Interaction_sensitivity","Q7_Interaction_sensitivity","Q7_Interaction_sensitivity","Q7_Interaction_sensitivity","Q7_Interaction_sensitivity","Q7_Interaction_sensitivity","Q7_Interaction_sensitivity","Q7_Interaction_sensitivity","Q7_Interaction_sensitivity","Q7_Interaction_sensitivity","Q7_Interaction_sensitivity","Q7_Interaction_sensitivity","Q7_Interaction_sensitivity","Q7_Interaction_sensitivity","Q7_Interaction_sensitivity","Q7_Interaction_sensitivity","Q7_Interaction_sensitivity"],["6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","6 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","12 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","24 Months","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years","5-6 Years",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],["Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Mutual","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Early","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late","Late"],["Dietary Patterns","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Idq","Percent Proteindiet","Percent Carbohydratediet","Percent Fatdiet","Percent Pufadiet","Percent Mufadiet","Percent Sfadiet","Percent n-3 Fatty Acidsdiet","Percent n-6 Fatty Acidsdiet","Percent Fibre Diet","Dietary Patterns","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Idq","Percent Proteindiet","Percent Carbohydratediet","Percent Fatdiet","Percent Pufadiet","Percent Mufadiet","Percent Sfadiet","Percent n-3 Fatty Acidsdiet","Percent n-6 Fatty Acidsdiet","Percent Fibre Diet","Dietary Patterns","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Idq","Percent Proteindiet","Percent Carbohydratediet","Percent Fatdiet","Percent Pufadiet","Percent Mufadiet","Percent Sfadiet","Percent n-3 Fatty Acidsdiet","Percent n-6 Fatty Acidsdiet","Percent Fibre Diet","Dietary Patterns","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Idq","Percent Proteindiet","Percent Carbohydratediet","Percent Fatdiet","Percent Pufadiet","Percent Mufadiet","Percent Sfadiet","Percent n-3 Fatty Acidsdiet","Percent n-6 Fatty Acidsdiet","Percent Fibre Diet","Dietary Patterns","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Idq","Percent Proteindiet","Percent Carbohydratediet","Percent Fatdiet","Percent Pufadiet","Percent Mufadiet","Percent Sfadiet","Percent n-3 Fatty Acidsdiet","Percent n-6 Fatty Acidsdiet","Percent Fibre Diet","Dietary Patterns","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Idq","Percent Proteindiet","Percent Carbohydratediet","Percent Fatdiet","Percent Pufadiet","Percent Mufadiet","Percent Sfadiet","Percent n-3 Fatty Acidsdiet","Percent n-6 Fatty Acidsdiet","Percent Fibre Diet","Dietary Patterns","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Idq","Percent Proteindiet","Percent Carbohydratediet","Percent Fatdiet","Percent Pufadiet","Percent Mufadiet","Percent Sfadiet","Percent n-3 Fatty Acidsdiet","Percent n-6 Fatty Acidsdiet","Percent Fibre Diet","Dietary Patterns","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Idq","Percent Proteindiet","Percent Carbohydratediet","Percent Fatdiet","Percent Pufadiet","Percent Mufadiet","Percent Sfadiet","Percent n-3 Fatty Acidsdiet","Percent n-6 Fatty Acidsdiet","Percent Fibre Diet","Dietary Patterns","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Idq","Percent Proteindiet","Percent Carbohydratediet","Percent Fatdiet","Percent Pufadiet","Percent Mufadiet","Percent Sfadiet","Percent n-3 Fatty Acidsdiet","Percent n-6 Fatty Acidsdiet","Percent Fibre Diet","Dietary Patterns","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Idq","Percent Proteindiet","Percent Carbohydratediet","Percent Fatdiet","Percent Pufadiet","Percent Mufadiet","Percent Sfadiet","Percent n-3 Fatty Acidsdiet","Percent n-6 Fatty Acidsdiet","Percent Fibre Diet","Dietary Patterns","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Idq","Percent Proteindiet","Percent Carbohydratediet","Percent Fatdiet","Percent Pufadiet","Percent Mufadiet","Percent Sfadiet","Percent n-3 Fatty Acidsdiet","Percent n-6 Fatty Acidsdiet","Percent Fibre Diet","Dietary Patterns","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Idq","Percent Proteindiet","Percent Carbohydratediet","Percent Fatdiet","Percent Pufadiet","Percent Mufadiet","Percent Sfadiet","Percent n-3 Fatty Acidsdiet","Percent n-6 Fatty Acidsdiet","Percent Fibre Diet","Dietary Patterns","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Idq","Percent Proteindiet","Percent Carbohydratediet","Percent Fatdiet","Percent Pufadiet","Percent Mufadiet","Percent Sfadiet","Percent n-3 Fatty Acidsdiet","Percent n-6 Fatty Acidsdiet","Percent Fibre Diet","Dietary Patterns","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Idq","Percent Proteindiet","Percent Carbohydratediet","Percent Fatdiet","Percent Pufadiet","Percent Mufadiet","Percent Sfadiet","Percent n-3 Fatty Acidsdiet","Percent n-6 Fatty Acidsdiet","Percent Fibre Diet","Dietary Patterns","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Idq","Percent Proteindiet","Percent Carbohydratediet","Percent Fatdiet","Percent Pufadiet","Percent Mufadiet","Percent Sfadiet","Percent n-3 Fatty Acidsdiet","Percent n-6 Fatty Acidsdiet","Percent Fibre Diet","Dietary Patterns","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Idq","Percent Proteindiet","Percent Carbohydratediet","Percent Fatdiet","Percent Pufadiet","Percent Mufadiet","Percent Sfadiet","Percent n-3 Fatty Acidsdiet","Percent n-6 Fatty Acidsdiet","Percent Fibre Diet","Dietary Patterns","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Idq","Percent Proteindiet","Percent Carbohydratediet","Percent Fatdiet","Percent Pufadiet","Percent Mufadiet","Percent Sfadiet","Percent n-3 Fatty Acidsdiet","Percent n-6 Fatty Acidsdiet","Percent Fibre Diet","Dietary Patterns","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Idq","Percent Proteindiet","Percent Carbohydratediet","Percent Fatdiet","Percent Pufadiet","Percent Mufadiet","Percent Sfadiet","Percent n-3 Fatty Acidsdiet","Percent n-6 Fatty Acidsdiet","Percent Fibre Diet","Dietary Patterns","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Idq","Percent Proteindiet","Percent Carbohydratediet","Percent Fatdiet","Percent Pufadiet","Percent Mufadiet","Percent Sfadiet","Percent n-3 Fatty Acidsdiet","Percent n-6 Fatty Acidsdiet","Percent Fibre Diet","Dietary Patterns","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Idq","Percent Proteindiet","Percent Carbohydratediet","Percent Fatdiet","Percent Pufadiet","Percent Mufadiet","Percent Sfadiet","Percent n-3 Fatty Acidsdiet","Percent n-6 Fatty Acidsdiet","Percent Fibre Diet","Dietary Patterns","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Idq","Percent Proteindiet","Percent Carbohydratediet","Percent Fatdiet","Percent Pufadiet","Percent Mufadiet","Percent Sfadiet","Percent n-3 Fatty Acidsdiet","Percent n-6 Fatty Acidsdiet","Percent Fibre Diet","Dietary Patterns","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Idq","Percent Proteindiet","Percent Carbohydratediet","Percent Fatdiet","Percent Pufadiet","Percent Mufadiet","Percent Sfadiet","Percent n-3 Fatty Acidsdiet","Percent n-6 Fatty Acidsdiet","Percent Fibre Diet","Dietary Patterns","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Idq","Percent Proteindiet","Percent Carbohydratediet","Percent Fatdiet","Percent Pufadiet","Percent Mufadiet","Percent Sfadiet","Percent n-3 Fatty Acidsdiet","Percent n-6 Fatty Acidsdiet","Percent Fibre Diet","Dietary Patterns","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Idq","Percent Proteindiet","Percent Carbohydratediet","Percent Fatdiet","Percent Pufadiet","Percent Mufadiet","Percent Sfadiet","Percent n-3 Fatty Acidsdiet","Percent n-6 Fatty Acidsdiet","Percent Fibre Diet","Dietary Patterns","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Idq","Percent Proteindiet","Percent Carbohydratediet","Percent Fatdiet","Percent Pufadiet","Percent Mufadiet","Percent Sfadiet","Percent n-3 Fatty Acidsdiet","Percent n-6 Fatty Acidsdiet","Percent Fibre Diet","Dietary Patterns","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Idq","Percent Proteindiet","Percent Carbohydratediet","Percent Fatdiet","Percent Pufadiet","Percent Mufadiet","Percent Sfadiet","Percent n-3 Fatty Acidsdiet","Percent n-6 Fatty Acidsdiet","Percent Fibre Diet","Dietary Patterns","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Idq","Percent Proteindiet","Percent Carbohydratediet","Percent Fatdiet","Percent Pufadiet","Percent Mufadiet","Percent Sfadiet","Percent n-3 Fatty Acidsdiet","Percent n-6 Fatty Acidsdiet","Percent Fibre Diet","Dietary Patterns","Dietary Inflammatory Index","Dietary Inflammatory Index Density","Idq","Percent Proteindiet","Percent Carbohydratediet","Percent Fatdiet","Percent Pufadiet","Percent Mufadiet","Percent Sfadiet","Percent n-3 Fatty Acidsdiet","Percent n-6 Fatty Acidsdiet","Percent Fibre Diet"],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","early_and_late","MDietaryPatterns_1|MDietaryPatterns_1:visit_num","MDIINormalDiet1|MDIINormalDiet1:visit_num","MDIIDensityDiet1|MDIIDensityDiet1:visit_num","MIDQ1|MIDQ1:visit_num","MEPercentProDiet1|MEPercentProDiet1:visit_num","MEPercentCHODiet1|MEPercentCHODiet1:visit_num","MEPercentFatDiet1|MEPercentFatDiet1:visit_num","MEPercentPUFADiet1|MEPercentPUFADiet1:visit_num","MEPercentMUFADiet1|MEPercentMUFADiet1:visit_num","MEPercentSFADiet1|MEPercentSFADiet1:visit_num","MEPercentFAn3Diet1|MEPercentFAn3Diet1:visit_num","MEPercentFAn6Diet1|MEPercentFAn6Diet1:visit_num","MEPercentFiballDiet1|MEPercentFiballDiet1:visit_num","MDietaryPatterns_2|MDietaryPatterns_2:visit_num","MDIINormalDiet2|MDIINormalDiet2:visit_num","MDIIDensityDiet2|MDIIDensityDiet2:visit_num","MIDQ2|MIDQ2:visit_num","MEPercentProDiet2|MEPercentProDiet2:visit_num","MEPercentCHODiet2|MEPercentCHODiet2:visit_num","MEPercentFatDiet2|MEPercentFatDiet2:visit_num","MEPercentPUFADiet2|MEPercentPUFADiet2:visit_num","MEPercentMUFADiet2|MEPercentMUFADiet2:visit_num","MEPercentSFADiet2|MEPercentSFADiet2:visit_num","MEPercentFAn3Diet2|MEPercentFAn3Diet2:visit_num","MEPercentFAn6Diet2|MEPercentFAn6Diet2:visit_num","MEPercentFiballDiet2|MEPercentFiballDiet2:visit_num","MDietaryPatterns_1|MDietaryPatterns_1:visit_num","MDIINormalDiet1|MDIINormalDiet1:visit_num","MDIIDensityDiet1|MDIIDensityDiet1:visit_num","MIDQ1|MIDQ1:visit_num","MEPercentProDiet1|MEPercentProDiet1:visit_num","MEPercentCHODiet1|MEPercentCHODiet1:visit_num","MEPercentFatDiet1|MEPercentFatDiet1:visit_num","MEPercentPUFADiet1|MEPercentPUFADiet1:visit_num","MEPercentMUFADiet1|MEPercentMUFADiet1:visit_num","MEPercentSFADiet1|MEPercentSFADiet1:visit_num","MEPercentFAn3Diet1|MEPercentFAn3Diet1:visit_num","MEPercentFAn6Diet1|MEPercentFAn6Diet1:visit_num","MEPercentFiballDiet1|MEPercentFiballDiet1:visit_num","MDietaryPatterns_2|MDietaryPatterns_2:visit_num","MDIINormalDiet2|MDIINormalDiet2:visit_num","MDIIDensityDiet2|MDIIDensityDiet2:visit_num","MIDQ2|MIDQ2:visit_num","MEPercentProDiet2|MEPercentProDiet2:visit_num","MEPercentCHODiet2|MEPercentCHODiet2:visit_num","MEPercentFatDiet2|MEPercentFatDiet2:visit_num","MEPercentPUFADiet2|MEPercentPUFADiet2:visit_num","MEPercentMUFADiet2|MEPercentMUFADiet2:visit_num","MEPercentSFADiet2|MEPercentSFADiet2:visit_num","MEPercentFAn3Diet2|MEPercentFAn3Diet2:visit_num","MEPercentFAn6Diet2|MEPercentFAn6Diet2:visit_num","MEPercentFiballDiet2|MEPercentFiballDiet2:visit_num"],["ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok"],["ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok","ok"],["197","197","197","206","197","197","197","197","197","197","197","197","197","181","181","181","178","181","181","181","181","181","181","181","181","181","174","174","174","177","174","174","174","174","174","174","174","174","174","90","90","90","95","90","90","90","90","90","90","90","90","90","92","92","92","87","92","92","92","92","92","92","92","92","92","88","88","88","87","88","88","88","88","88","88","88","88","88","203","203","203","208","203","203","203","203","203","203","203","203","203","186","186","186","178","186","186","186","186","186","186","186","186","186","182","182","182","176","182","182","182","182","182","182","182","182","182","92","92","92","94","92","92","92","92","92","92","92","92","92","92","92","92","83","92","92","92","92","92","92","92","92","92","90","90","90","82","90","90","90","90","90","90","90","90","90","188","188","188","195","188","188","188","188","188","188","188","188","188","174","174","174","168","174","174","174","174","174","174","174","174","174","168","168","168","166","168","168","168","168","168","168","168","168","168","85","85","85","87","85","85","85","85","85","85","85","85","85","86","86","86","77","86","86","86","86","86","86","86","86","86","84","84","84","76","84","84","84","84","84","84","84","84","84","113","113","113","118","113","113","113","113","113","113","113","113","113","108","108","108","102","108","108","108","108","108","108","108","108","108","103","103","103","100","103","103","103","103","103","103","103","103","103","49","49","49","50","49","49","49","49","49","49","49","49","49","51","51","51","46","51","51","51","51","51","51","51","51","51","49","49","49","45","49","49","49","49","49","49","49","49","49","598-783","598-783","598-783","613-810","598-783","598-783","598-783","598-783","598-783","598-783","598-783","598-783","598-783","553-723","553-723","553-723","538-707","553-723","553-723","553-723","553-723","553-723","553-723","553-723","553-723","553-723","282-358","282-358","282-358","287-368","282-358","282-358","282-358","282-358","282-358","282-358","282-358","282-358","282-358","281-360","281-360","281-360","259-334","281-360","281-360","281-360","281-360","281-360","281-360","281-360","281-360","281-360"],[173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,250,250,250,250,250,250,250,250,250,250,250,250,250,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,250,250,250,250,250,250,250,250,250,250,250,250,250,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,250,250,250,250,250,250,250,250,250,250,250,250,250,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,250,250,250,250,250,250,250,250,250,250,250,250,250,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,250,250,250,250,250,250,250,250,250,250,250,250,250,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,250,250,250,250,250,250,250,250,250,250,250,250,250,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,250,250,250,250,250,250,250,250,250,250,250,250,250,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,250,250,250,250,250,250,250,250,250,250,250,250,250,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173,173]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>component<\/th>\n      <th>analysis<\/th>\n      <th>child_age<\/th>\n      <th>timing<\/th>\n      <th>exposure<\/th>\n      <th>term_family<\/th>\n      <th>status<\/th>\n      <th>reason<\/th>\n      <th>complete_case_n<\/th>\n      <th>n_features_tested<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"scrollX":false,"autoWidth":false,"dom":"Blfrtip","buttons":["copy","csv","excel"],"columnDefs":[{"targets":9,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 0, 3, \",\", \".\", null);\n  }"},{"className":"dt-right","targets":9},{"name":"component","targets":0},{"name":"analysis","targets":1},{"name":"child_age","targets":2},{"name":"timing","targets":3},{"name":"exposure","targets":4},{"name":"term_family","targets":5},{"name":"status","targets":6},{"name":"reason","targets":7},{"name":"complete_case_n","targets":8},{"name":"n_features_tested","targets":9}],"order":[],"orderClasses":false,"orderCellsTop":true}},"evals":["options.columnDefs.0.render"],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<script src="toc-toggle.js"></script>
+
+
+
+
+</body></html>
