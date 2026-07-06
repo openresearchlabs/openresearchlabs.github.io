@@ -1,5 +1,64 @@
 [
   {
+    "DOI": "10.1016/j.tjnut.2026.101690",
+    "ISSN": "0022-3166",
+    "author": [
+      {
+        "family": "Mannila",
+        "given": "Enni"
+      },
+      {
+        "family": "Gómez-Gallego",
+        "given": "Carlos"
+      },
+      {
+        "family": "Muluh",
+        "given": "Geraldson"
+      },
+      {
+        "family": "Nuotio",
+        "given": "Petrus"
+      },
+      {
+        "family": "Koistinen",
+        "given": "Ville"
+      },
+      {
+        "family": "Erawijantari",
+        "given": "Pande"
+      },
+      {
+        "family": "Salminen",
+        "given": "Seppo"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Kolehmainen",
+        "given": "Marjukka"
+      },
+      {
+        "family": "Linderborg",
+        "given": "Kaisa M."
+      }
+    ],
+    "container-title": "The Journal of Nutrition",
+    "id": "Mannila2026",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "101690",
+    "title": "Oat-rich low-gluten diet modulates plasma short-chain fatty acids without significant changes in fecal microbiome or inflammatory markers – a randomized clinical trial in people with cardiometabolic risk",
+    "type": "article-journal"
+  },
+  {
     "author": [
       {
         "family": "Karikka",
@@ -94,31 +153,6 @@
     "keyword": "bioscience",
     "note": "In press.",
     "title": "Gut microbiota-derived extracellular vesicles in parkinson’s disease",
-    "type": "article-journal"
-  },
-  {
-    "author": [
-      {
-        "family": "Linderborg",
-        "given": "Kristiina"
-      },
-      {
-        "literal": "others"
-      }
-    ],
-    "container-title": "The Journal of Nutrition",
-    "id": "Linderborg2026",
-    "issued": {
-      "date-parts": [
-        [
-          2026
-        ]
-      ]
-    },
-    "keyword": "bioscience",
-    "note": "In press.",
-    "title": "Oat-rich low-gluten diet modulates plasma short-chain fatty acids without significant changes in fecal microbiome or inflammatory markers: A randomized clinical trial in people with cardiometabolic risk",
-    "title-short": "Oat-rich low-gluten diet modulates plasma short-chain fatty acids without significant changes in fecal microbiome or inflammatory markers",
     "type": "article-journal"
   },
   {
