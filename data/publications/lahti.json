@@ -1,5 +1,35 @@
 [
   {
+    "author": [
+      {
+        "family": "Jeba",
+        "given": "Akewak"
+      },
+      {
+        "family": "Matveeva",
+        "given": "Julia"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "Data Science Journal",
+    "id": "Jeba2025",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          11
+        ]
+      ]
+    },
+    "keyword": "datascience",
+    "note": "In press.",
+    "title": "Automated retrieval and analysis of finnish cultural metadata",
+    "type": "article-journal"
+  },
+  {
     "DOI": "10.1016/j.tjnut.2026.101690",
     "ISSN": "0022-3166",
     "author": [
@@ -1108,36 +1138,6 @@
     "title": "The relationship between gut microbiota during pregnancy and the level of postpartum adiposity",
     "type": "article-journal",
     "volume": "14"
-  },
-  {
-    "author": [
-      {
-        "family": "Jeba",
-        "given": "Akewak"
-      },
-      {
-        "family": "Matveeva",
-        "given": "Julia"
-      },
-      {
-        "family": "Lahti",
-        "given": "Leo"
-      }
-    ],
-    "container-title": "Data Science Journal",
-    "id": "Jeba2025",
-    "issued": {
-      "date-parts": [
-        [
-          2025,
-          11
-        ]
-      ]
-    },
-    "keyword": "datascience",
-    "note": "Submitted",
-    "title": "Automated retrieval and analysis of finnish cultural metadata",
-    "type": "article-journal"
   },
   {
     "DOI": "10.1093/bioinformatics/btaf605",
