@@ -1,5 +1,77 @@
 [
   {
+    "DOI": "10.1111/jcpe.70184",
+    "author": [
+      {
+        "family": "Manzoor",
+        "given": "Muhammed"
+      },
+      {
+        "family": "Leskelä",
+        "given": "Jaakko"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Pussinen",
+        "given": "Pirkko J."
+      },
+      {
+        "family": "Könönen",
+        "given": "Eija"
+      },
+      {
+        "family": "Paju",
+        "given": "Susanna"
+      },
+      {
+        "family": "Putaala",
+        "given": "Jukka"
+      }
+    ],
+    "container-title": "Journal of Clinical Periodontology",
+    "id": "Manzoor2026",
+    "keyword": "bioscience",
+    "note": "In press.",
+    "title": "Shotgun metagenomic analysis reveals taxonomic and functional transitions in the salivary microbiome during periodontal disease progression",
+    "type": "article-journal"
+  },
+  {
+    "DOI": "10.5334/dsj-2026-027",
+    "author": [
+      {
+        "family": "Jeba",
+        "given": "Akewak"
+      },
+      {
+        "family": "Matveeva",
+        "given": "Julia"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "Data Science Journal",
+    "id": "Jeba2026",
+    "issue": "27",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7
+        ]
+      ]
+    },
+    "keyword": "datascience",
+    "page": "1-16",
+    "title": "Automated retrieval and analysis of finnish cultural metadata",
+    "type": "article-journal",
+    "volume": "25"
+  },
+  {
     "author": [
       {
         "family": "Karikka",
@@ -92,7 +164,7 @@
         ]
       ]
     },
-    "keyword": "datascience",
+    "keyword": "bioscience",
     "note": "In press.",
     "title": "Gut microbiota-derived extracellular vesicles in parkinson’s disease",
     "type": "article-journal"
@@ -142,39 +214,9 @@
         ]
       ]
     },
-    "keyword": "datascience",
+    "keyword": "bioscience",
     "note": "In press.",
     "title": "Population scale analysis reveals gut microbiome diversity and functional shifts linked to obesity",
-    "type": "article-journal"
-  },
-  {
-    "author": [
-      {
-        "family": "Jeba",
-        "given": "Akewak"
-      },
-      {
-        "family": "Matveeva",
-        "given": "Julia"
-      },
-      {
-        "family": "Lahti",
-        "given": "Leo"
-      }
-    ],
-    "container-title": "Data Science Journal",
-    "id": "Jeba2026",
-    "issued": {
-      "date-parts": [
-        [
-          2026,
-          7
-        ]
-      ]
-    },
-    "keyword": "datascience",
-    "note": "In press.",
-    "title": "Automated retrieval and analysis of finnish cultural metadata",
     "type": "article-journal"
   },
   {
