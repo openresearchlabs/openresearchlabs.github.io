@@ -1,6 +1,6 @@
 [
   {
-    "DOI": "10.1111/jcpe.70184",
+    "ISSN": "0303-6979",
     "author": [
       {
         "family": "Manzoor",
@@ -11,24 +11,24 @@
         "given": "Jaakko"
       },
       {
-        "family": "Lahti",
-        "given": "Leo"
-      },
-      {
-        "family": "Pussinen",
-        "given": "Pirkko J."
-      },
-      {
         "family": "Könönen",
         "given": "Eija"
       },
       {
-        "family": "Paju",
-        "given": "Susanna"
+        "family": "Lahti",
+        "given": "Leo"
       },
       {
         "family": "Putaala",
         "given": "Jukka"
+      },
+      {
+        "family": "Pussinen",
+        "given": "Pirkko"
+      },
+      {
+        "family": "Paju",
+        "given": "Susanna"
       }
     ],
     "container-title": "Journal of Clinical Periodontology",
@@ -1059,7 +1059,7 @@
     },
     "keyword": "bioscience",
     "status": "preprint",
-    "title": "A bayesian approach to differential prevalence analysis with applications in microbiome studies",
+    "title": "A Bayesian approach to differential prevalence analysis with applications in microbiome studies",
     "type": "article-journal"
   },
   {
@@ -1390,7 +1390,7 @@
     },
     "keyword": "bioscience",
     "status": "preprint",
-    "title": "Orchestrating microbiome analysis with bioconductor",
+    "title": "Orchestrating microbiome analysis with Bioconductor",
     "type": "article-journal"
   },
   {
@@ -1522,11 +1522,12 @@
     ],
     "container-title": "Bioinformatics",
     "id": "Mostafa2025",
+    "issue": "12",
     "issued": {
       "date-parts": [
         [
           2025,
-          10
+          12
         ]
       ]
     },
@@ -1534,7 +1535,8 @@
     "page": "btaf570",
     "title": "LimROTS: A hybrid method integrating empirical bayes and reproducibility-optimized statistics for robust analysis of proteomics data",
     "title-short": "LimROTS",
-    "type": "article-journal"
+    "type": "article-journal",
+    "volume": "41"
   },
   {
     "DOI": "10.1093/bib/bbaf502",
@@ -2274,7 +2276,7 @@
     },
     "keyword": "datascience",
     "page": "4-14",
-    "title": "Validating and extracting information from national identification numbers in R: The case of finland and sweden",
+    "title": "Validating and extracting information from national identification numbers in R: The case of Finland and Sweden",
     "title-short": "Validating and extracting information from national identification numbers in R",
     "type": "article-journal",
     "volume": "16"
@@ -2735,7 +2737,7 @@
     },
     "keyword": "bioscience",
     "page": "e1012925",
-    "title": "Learning and teaching biological data science in the bioconductor community",
+    "title": "Learning and teaching biological data science in the Bioconductor community",
     "type": "article-journal",
     "volume": "21"
   },
