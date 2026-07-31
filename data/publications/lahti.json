@@ -67,7 +67,7 @@
     },
     "keyword": "datascience",
     "page": "1-16",
-    "title": "Automated retrieval and analysis of finnish cultural metadata with <i>finna</i>",
+    "title": "Automated retrieval and analysis of finnish cultural metadata with <b><i>finna</i></b>",
     "type": "article-journal",
     "volume": "25"
   },
@@ -266,17 +266,20 @@
     ],
     "container-title": "The Journal of Nutrition",
     "id": "Mannila2026",
+    "issue": "9",
     "issued": {
       "date-parts": [
         [
-          2026
+          2026,
+          9
         ]
       ]
     },
     "keyword": "bioscience",
     "page": "101690",
     "title": "Oat-rich low-gluten diet modulates plasma short-chain fatty acids without significant changes in fecal microbiome or inflammatory markers – a randomized clinical trial in people with cardiometabolic risk",
-    "type": "article-journal"
+    "type": "article-journal",
+    "volume": "156"
   },
   {
     "author": [
