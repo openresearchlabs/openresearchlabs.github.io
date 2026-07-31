@@ -5445,7 +5445,7 @@
     },
     "keyword": "bioscience",
     "page": "477-487",
-    "title": "Role of Gut Microbiota in Statin-Associated New-Onset Diabetes—a Cross-Sectional and Prospective Analysis of the FINRISK 2002 Cohort",
+    "title": "Role of gut microbiota in statin-associated new-onset diabetes—a cross-sectional and prospective analysis of the FINRISK 2002 cohort",
     "type": "article-journal",
     "volume": "44"
   },
@@ -5972,7 +5972,8 @@
       ]
     },
     "keyword": "bioscience",
-    "title": "Advancing microbiome research with machine learning: key findings from the ML4Microbiome COST action",
+    "title": "Advancing microbiome research with machine learning: Key findings from the ML4Microbiome COST action",
+    "title-short": "Advancing microbiome research with machine learning",
     "type": "article-journal",
     "volume": "14"
   },
