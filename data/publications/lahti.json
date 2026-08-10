@@ -1,5 +1,6 @@
 [
   {
+    "DOI": "10.1111/jcpe.70184",
     "ISSN": "0303-6979",
     "author": [
       {
@@ -34,7 +35,6 @@
     "container-title": "Journal of Clinical Periodontology",
     "id": "Manzoor2026",
     "keyword": "bioscience",
-    "note": "In press.",
     "title": "Shotgun metagenomic analysis reveals taxonomic and functional transitions in the salivary microbiome during periodontal disease progression",
     "type": "article-journal"
   },
