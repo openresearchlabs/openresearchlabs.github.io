@@ -1,77 +1,7 @@
 [
   {
-    "DOI": "10.1111/jcpe.70184",
-    "ISSN": "0303-6979",
-    "author": [
-      {
-        "family": "Manzoor",
-        "given": "Muhammed"
-      },
-      {
-        "family": "Leskelä",
-        "given": "Jaakko"
-      },
-      {
-        "family": "Könönen",
-        "given": "Eija"
-      },
-      {
-        "family": "Lahti",
-        "given": "Leo"
-      },
-      {
-        "family": "Putaala",
-        "given": "Jukka"
-      },
-      {
-        "family": "Pussinen",
-        "given": "Pirkko"
-      },
-      {
-        "family": "Paju",
-        "given": "Susanna"
-      }
-    ],
-    "container-title": "Journal of Clinical Periodontology",
-    "id": "Manzoor2026",
-    "keyword": "bioscience",
-    "title": "Shotgun metagenomic analysis reveals taxonomic and functional transitions in the salivary microbiome during periodontal disease progression",
-    "type": "article-journal"
-  },
-  {
-    "DOI": "10.5334/dsj-2026-027",
-    "author": [
-      {
-        "family": "Jeba",
-        "given": "Akewak"
-      },
-      {
-        "family": "Matveeva",
-        "given": "Julia"
-      },
-      {
-        "family": "Lahti",
-        "given": "Leo"
-      }
-    ],
-    "container-title": "Data Science Journal",
-    "id": "Jeba2026",
-    "issue": "27",
-    "issued": {
-      "date-parts": [
-        [
-          2026,
-          7
-        ]
-      ]
-    },
-    "keyword": "datascience",
-    "page": "1-16",
-    "title": "Automated retrieval and analysis of finnish cultural metadata with <b><i>finna</i></b>",
-    "type": "article-journal",
-    "volume": "25"
-  },
-  {
+    "DOI": "10.1016/j.isci.2026.117057",
+    "ISSN": "2589-0042",
     "author": [
       {
         "family": "Karikka",
@@ -156,6 +86,87 @@
     ],
     "container-title": "iScience",
     "id": "Karikka2026",
+    "issue": "8",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "117057",
+    "title": "Gut microbiota-derived extracellular vesicles in parkinson’s disease",
+    "type": "article-journal",
+    "volume": "29"
+  },
+  {
+    "DOI": "10.1111/jcpe.70184",
+    "ISSN": "0303-6979",
+    "author": [
+      {
+        "family": "Manzoor",
+        "given": "Muhammed"
+      },
+      {
+        "family": "Leskelä",
+        "given": "Jaakko"
+      },
+      {
+        "family": "Könönen",
+        "given": "Eija"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Putaala",
+        "given": "Jukka"
+      },
+      {
+        "family": "Pussinen",
+        "given": "Pirkko"
+      },
+      {
+        "family": "Paju",
+        "given": "Susanna"
+      }
+    ],
+    "container-title": "Journal of Clinical Periodontology",
+    "id": "Manzoor2026",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "title": "Shotgun metagenomic analysis reveals taxonomic and functional transitions in the salivary microbiome during periodontal disease progression",
+    "type": "article-journal"
+  },
+  {
+    "DOI": "10.5334/dsj-2026-027",
+    "author": [
+      {
+        "family": "Jeba",
+        "given": "Akewak"
+      },
+      {
+        "family": "Matveeva",
+        "given": "Julia"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "Data Science Journal",
+    "id": "Jeba2026",
+    "issue": "27",
     "issued": {
       "date-parts": [
         [
@@ -164,10 +175,11 @@
         ]
       ]
     },
-    "keyword": "bioscience",
-    "note": "In press.",
-    "title": "Gut microbiota-derived extracellular vesicles in parkinson’s disease",
-    "type": "article-journal"
+    "keyword": "datascience",
+    "page": "1-16",
+    "title": "Automated retrieval and analysis of finnish cultural metadata with <b><i>finna</i></b>",
+    "type": "article-journal",
+    "volume": "25"
   },
   {
     "author": [
