@@ -182,6 +182,63 @@
     "volume": "25"
   },
   {
+    "DOI": "10.1093/rheumatology/keag371",
+    "author": [
+      {
+        "family": "Diab",
+        "given": "Hassan"
+      },
+      {
+        "family": "Yeo",
+        "given": "Li-Fang"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Pärnänen",
+        "given": "Katariina"
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      },
+      {
+        "family": "Palmu",
+        "given": "Joonatan"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      }
+    ],
+    "container-title": "Rheumatology",
+    "id": "Diab2026Rheumatology",
+    "issue": "7",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "keag371",
+    "title": "Prospective analysis on the gut microbiome and the risk of autoimmune rheumatic diseases in the population-based FINRISK 2002 cohort",
+    "type": "article-journal",
+    "volume": "65"
+  },
+  {
     "author": [
       {
         "family": "Yeo",
@@ -292,30 +349,6 @@
     "title": "Oat-rich low-gluten diet modulates plasma short-chain fatty acids without significant changes in fecal microbiome or inflammatory markers – a randomized clinical trial in people with cardiometabolic risk",
     "type": "article-journal",
     "volume": "156"
-  },
-  {
-    "author": [
-      {
-        "family": "Diab",
-        "given": "Hassan"
-      },
-      {
-        "literal": "others"
-      }
-    ],
-    "container-title": "Rheumatology",
-    "id": "Diab2026Rheumatology",
-    "issued": {
-      "date-parts": [
-        [
-          2026
-        ]
-      ]
-    },
-    "keyword": "bioscience",
-    "note": "In press.",
-    "title": "Prospective analysis on the gut microbiome and the risk of autoimmune rheumatic diseases in the population-based FINRISK 2002 cohort",
-    "type": "article-journal"
   },
   {
     "author": [
