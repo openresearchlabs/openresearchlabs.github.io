@@ -239,6 +239,85 @@
     "volume": "65"
   },
   {
+    "DOI": "10.1128/msystems.00645-26",
+    "author": [
+      {
+        "family": "Diab",
+        "given": "Hassan"
+      },
+      {
+        "family": "Kullberg",
+        "given": "Robert F. J."
+      },
+      {
+        "family": "Yeo",
+        "given": "Li-Fang"
+      },
+      {
+        "family": "Wikki",
+        "given": "Irina"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Pärnänen",
+        "given": "Katariina"
+      },
+      {
+        "family": "Jalkanen",
+        "given": "Sirpa"
+      },
+      {
+        "family": "Salmi",
+        "given": "Marko"
+      },
+      {
+        "family": "Nieuwdorp",
+        "given": "Max"
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      },
+      {
+        "family": "Wiersinga",
+        "given": "W. Joost"
+      },
+      {
+        "family": "Palmu",
+        "given": "Joonatan"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      }
+    ],
+    "container-title": "mSystems",
+    "id": "Diab2026mSystems",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "e00645-26",
+    "title": "Higher abundance of <i>faecalibacterium prausnitzii</i> in the gut microbiome is associated with a lower risk of sepsis development among 6,372 individuals followed for 20 years",
+    "type": "article-journal"
+  },
+  {
     "author": [
       {
         "family": "Yeo",
@@ -349,83 +428,6 @@
     "title": "Oat-rich low-gluten diet modulates plasma short-chain fatty acids without significant changes in fecal microbiome or inflammatory markers – a randomized clinical trial in people with cardiometabolic risk",
     "type": "article-journal",
     "volume": "156"
-  },
-  {
-    "author": [
-      {
-        "family": "Diab",
-        "given": "Hassan"
-      },
-      {
-        "family": "Kullberg",
-        "given": "Robert"
-      },
-      {
-        "family": "Yeo",
-        "given": "Li-Fang"
-      },
-      {
-        "family": "Wikki",
-        "given": "Irina"
-      },
-      {
-        "family": "Salomaa",
-        "given": "Veikko"
-      },
-      {
-        "family": "Havulinna",
-        "given": "Aki"
-      },
-      {
-        "family": "Lahti",
-        "given": "Leo"
-      },
-      {
-        "family": "Pärnänen",
-        "given": "Katariina"
-      },
-      {
-        "family": "Jalkanen",
-        "given": "Sirpa"
-      },
-      {
-        "family": "Salmi",
-        "given": "Marko"
-      },
-      {
-        "family": "Nieuwdorp",
-        "given": "Max"
-      },
-      {
-        "family": "Knight",
-        "given": "Rob"
-      },
-      {
-        "family": "Wiersinga",
-        "given": "Willem"
-      },
-      {
-        "family": "Palmu",
-        "given": "Joonatan"
-      },
-      {
-        "family": "Niiranen",
-        "given": "Teemu"
-      }
-    ],
-    "container-title": "mSystems",
-    "id": "Diab2026",
-    "issued": {
-      "date-parts": [
-        [
-          2026
-        ]
-      ]
-    },
-    "keyword": "bioscience",
-    "note": "In press.",
-    "title": "Faecalibacterium prausnitzii is associated with a lower risk of incident sepsis in a population cohort of 6,372 individuals",
-    "type": "article-journal"
   },
   {
     "DOI": "10.1016/j.gutmic.2026.100013",
@@ -1028,6 +1030,8 @@
     "volume": "125"
   },
   {
+    "DOI": "10.1021/acsomega.5c10792",
+    "ISSN": "2470-1343",
     "author": [
       {
         "family": "Kuukkanen",
@@ -1064,17 +1068,20 @@
     ],
     "container-title": "ACS Omega",
     "id": "Kuukkanen2026",
+    "issue": "11",
     "issued": {
       "date-parts": [
         [
-          2026
+          2026,
+          3
         ]
       ]
     },
     "keyword": "bioscience",
-    "note": "In press.",
+    "page": "17521-17529",
     "title": "Application of mass spectrometry-based metabolomics and machine learning in the diagnostics of lyme neuroborreliosis",
-    "type": "article-journal"
+    "type": "article-journal",
+    "volume": "11"
   },
   {
     "DOI": "10.48550/arXiv.2602.05938",
