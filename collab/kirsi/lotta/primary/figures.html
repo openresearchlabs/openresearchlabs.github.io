@@ -253,7 +253,13 @@ window.Quarto = {
   <li><a href="#model-status" id="toc-model-status" class="nav-link" data-scroll-target="#model-status"><span class="header-section-number">8</span> Model status</a></li>
   <li><a href="#prospective-overlap-and-concordance" id="toc-prospective-overlap-and-concordance" class="nav-link" data-scroll-target="#prospective-overlap-and-concordance"><span class="header-section-number">9</span> Prospective overlap and concordance</a></li>
   <li><a href="#forest-plots-diet-quality-idq" id="toc-forest-plots-diet-quality-idq" class="nav-link" data-scroll-target="#forest-plots-diet-quality-idq"><span class="header-section-number">10</span> Forest plots: diet quality (IDQ)</a></li>
-  <li><a href="#forest-plots-dietary-nutrients" id="toc-forest-plots-dietary-nutrients" class="nav-link" data-scroll-target="#forest-plots-dietary-nutrients"><span class="header-section-number">11</span> Forest plots: dietary nutrients</a></li>
+  <li><a href="#forest-plots-dietary-nutrients" id="toc-forest-plots-dietary-nutrients" class="nav-link" data-scroll-target="#forest-plots-dietary-nutrients"><span class="header-section-number">11</span> Forest plots: dietary nutrients</a>
+  <ul class="collapse">
+  <li><a href="#dietary-protein-protein-e" id="toc-dietary-protein-protein-e" class="nav-link" data-scroll-target="#dietary-protein-protein-e"><span class="header-section-number">11.1</span> Dietary protein (Protein E%)</a></li>
+  <li><a href="#dietary-fiber-gday" id="toc-dietary-fiber-gday" class="nav-link" data-scroll-target="#dietary-fiber-gday"><span class="header-section-number">11.2</span> Dietary fiber (g/day)</a></li>
+  <li><a href="#polyunsaturated-fatty-acids-pufa-e" id="toc-polyunsaturated-fatty-acids-pufa-e" class="nav-link" data-scroll-target="#polyunsaturated-fatty-acids-pufa-e"><span class="header-section-number">11.3</span> Polyunsaturated fatty acids (PUFA E%)</a></li>
+  <li><a href="#omega-3-fatty-acids-n-3-fa-e" id="toc-omega-3-fatty-acids-n-3-fa-e" class="nav-link" data-scroll-target="#omega-3-fatty-acids-n-3-fa-e"><span class="header-section-number">11.4</span> Omega-3 fatty acids (n-3 FA E%)</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -646,148 +652,534 @@ Figure&nbsp;9: Overlap of significantly associated metabolites across the 2-year
 </section>
 <section id="forest-plots-diet-quality-idq" class="level2" data-number="10">
 <h2 data-number="10" class="anchored" data-anchor-id="forest-plots-diet-quality-idq"><span class="header-section-number">10</span> Forest plots: diet quality (IDQ)</h2>
-<p>This forest plot presents standardized effect estimates (<span class="math inline">\(\beta\)</span> and 95% CIs per 1-SD higher IDQ score) for all circulating metabolites associated with continuous child IDQ at <span class="math inline">\(p &lt; 0.05\)</span> in at least one analysis component. Results are presented side-by-side for <strong>2 Years (Visit 6)</strong>, <strong>5–6 Years (Visit 7)</strong>, and <strong>Prospective (2y diet <span class="math inline">\(\to\)</span> 5–6y metabolites)</strong>, organized by Nightingale biological group.</p>
+<p>This section presents standardized effect estimates (<span class="math inline">\(\beta\)</span> and 95% CIs per 1-SD higher IDQ score) for circulating metabolites associated with continuous child IDQ at <span class="math inline">\(p &lt; 0.05\)</span>. Results are separated into <strong>Panel A (2 Years concurrent)</strong>, <strong>Panel B (5–6 Years concurrent)</strong>, and <strong>Panel C (Prospective: 2y diet <span class="math inline">\(\to\)</span> 5–6y metabolites)</strong>, organized by Nightingale biological group.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Combined (Panels A, B, C)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Panel A: 2 Years (Visit 6)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Panel B: 5–6 Years (Visit 7)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Panel C: Prospective (2y → 5–6y)</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <div class="cell fig-wide">
 <details class="code-fold">
 <summary>Show code</summary>
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>p_forest_idq <span class="ot">&lt;-</span> <span class="fu">plot_multitimepoint_forest</span>(</span>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>p_forest_idq_abc <span class="ot">&lt;-</span> <span class="fu">plot_combined_abc_forest</span>(</span>
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">q1_df =</span> q1,</span>
 <span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">q2_df =</span> q2,</span>
 <span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">q3_df =</span> q3,</span>
 <span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">target_base_exposure =</span> <span class="st">"C_DietQuality_points"</span>,</span>
-<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">title =</span> <span class="st">"Child Diet Quality Score (IDQ) and Circulating Metabolites"</span>,</span>
-<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">subtitle =</span> <span class="st">"Estimates across 2-Year concurrent, 5–6-Year concurrent, and Prospective (2y → 5–6y) models"</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">title =</span> <span class="st">"Figure 1: Child Diet Quality Score (IDQ) and Circulating Metabolites"</span>,</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">subtitle =</span> <span class="st">"Panel A: 2-Year concurrent | Panel B: 5–6-Year concurrent | Panel C: Prospective (2y → 5–6y)"</span></span>
 <span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>)</span>
 <span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p_forest_idq)) p_forest_idq</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p_forest_idq_abc)) p_forest_idq_abc</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<div id="fig-forest-idq" class="quarto-float quarto-figure quarto-figure-center anchored">
+<div id="fig-forest-idq-combined" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-forest-idq-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="figures_files/figure-html/fig-forest-idq-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="Figure&nbsp;10: Standardized beta coefficients (95% CI) per 1-SD change in continuous Index of Diet Quality (IDQ) across 2 years, 5–6 years, and prospective follow-up, grouped by biological class. Point shapes denote significance tiers (strict FDR q < 0.05, exploratory FDR q < 0.10, nominal p < 0.05, and p ≥ 0.05)."><img src="figures_files/figure-html/fig-forest-idq-1.png" class="img-fluid figure-img" width="4200"></a>
+<div aria-describedby="fig-forest-idq-combined-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="figures_files/figure-html/fig-forest-idq-combined-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="Figure&nbsp;10: Standardized beta coefficients (95% CI) per 1-SD change in continuous Index of Diet Quality (IDQ) organized as Panel A (2 Years), Panel B (5–6 Years), and Panel C (Prospective 2y → 5–6y), grouped by biological class. Point shapes denote significance tiers (strict FDR q < 0.05, exploratory FDR q < 0.10, nominal p < 0.05, and p ≥ 0.05)."><img src="figures_files/figure-html/fig-forest-idq-combined-1.png" class="img-fluid figure-img" width="4800"></a>
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-idq-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;10: Standardized beta coefficients (95% CI) per 1-SD change in continuous Index of Diet Quality (IDQ) across 2 years, 5–6 years, and prospective follow-up, grouped by biological class. Point shapes denote significance tiers (strict FDR q &lt; 0.05, exploratory FDR q &lt; 0.10, nominal p &lt; 0.05, and p ≥ 0.05).
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-idq-combined-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;10: Standardized beta coefficients (95% CI) per 1-SD change in continuous Index of Diet Quality (IDQ) organized as Panel A (2 Years), Panel B (5–6 Years), and Panel C (Prospective 2y → 5–6y), grouped by biological class. Point shapes denote significance tiers (strict FDR q &lt; 0.05, exploratory FDR q &lt; 0.10, nominal p &lt; 0.05, and p ≥ 0.05).
 </figcaption>
 </figure>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div class="cell fig-medium">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>p_idq_2y <span class="ot">&lt;-</span> <span class="fu">plot_single_timepoint_forest</span>(</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">df =</span> q1,</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">target_base_exposure =</span> <span class="st">"C_DietQuality_points"</span>,</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">timepoint_label =</span> <span class="st">"2 Years (Visit 6)"</span>,</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">panel_tag =</span> <span class="st">"A"</span>,</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">color =</span> <span class="st">"#2b5c8f"</span>,</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">title =</span> <span class="st">"Panel A: 2 Years (Visit 6) — IDQ &amp; Metabolites"</span></span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p_idq_2y)) p_idq_2y</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-forest-idq-2y" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-forest-idq-2y-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="figures_files/figure-html/fig-forest-idq-2y-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="Figure&nbsp;11: Panel A: 2-Year concurrent associations between child IDQ score and circulating metabolites."><img src="figures_files/figure-html/fig-forest-idq-2y-1.png" class="img-fluid figure-img" width="3000"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-idq-2y-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;11: Panel A: 2-Year concurrent associations between child IDQ score and circulating metabolites.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<div class="cell fig-medium">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>p_idq_56y <span class="ot">&lt;-</span> <span class="fu">plot_single_timepoint_forest</span>(</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">df =</span> q2,</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">target_base_exposure =</span> <span class="st">"C_DietQuality_points"</span>,</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">timepoint_label =</span> <span class="st">"5-6 Years (Visit 7)"</span>,</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">panel_tag =</span> <span class="st">"B"</span>,</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">color =</span> <span class="st">"#2a9d8f"</span>,</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">title =</span> <span class="st">"Panel B: 5–6 Years (Visit 7) — IDQ &amp; Metabolites"</span></span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p_idq_56y)) p_idq_56y</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-forest-idq-56y" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-forest-idq-56y-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="figures_files/figure-html/fig-forest-idq-56y-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-12" title="Figure&nbsp;12: Panel B: 5–6-Year concurrent associations between child IDQ score and circulating metabolites."><img src="figures_files/figure-html/fig-forest-idq-56y-1.png" class="img-fluid figure-img" width="3000"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-idq-56y-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;12: Panel B: 5–6-Year concurrent associations between child IDQ score and circulating metabolites.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<div class="cell fig-medium">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>p_idq_prosp <span class="ot">&lt;-</span> <span class="fu">plot_single_timepoint_forest</span>(</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">df =</span> q3,</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">target_base_exposure =</span> <span class="st">"C_DietQuality_points"</span>,</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">timepoint_label =</span> <span class="st">"Prospective (2y → 5-6y)"</span>,</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">panel_tag =</span> <span class="st">"C"</span>,</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">color =</span> <span class="st">"#e76f51"</span>,</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">title =</span> <span class="st">"Panel C: Prospective (2y → 5–6y) — IDQ &amp; Metabolites"</span></span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p_idq_prosp)) p_idq_prosp</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-forest-idq-prosp" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-forest-idq-prosp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="figures_files/figure-html/fig-forest-idq-prosp-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-13" title="Figure&nbsp;13: Panel C: Prospective associations between 2-year child IDQ score and 5–6-year circulating metabolites."><img src="figures_files/figure-html/fig-forest-idq-prosp-1.png" class="img-fluid figure-img" width="3000"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-idq-prosp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;13: Panel C: Prospective associations between 2-year child IDQ score and 5–6-year circulating metabolites.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>
 </section>
 <section id="forest-plots-dietary-nutrients" class="level2" data-number="11">
 <h2 data-number="11" class="anchored" data-anchor-id="forest-plots-dietary-nutrients"><span class="header-section-number">11</span> Forest plots: dietary nutrients</h2>
-<p>Standardized effect estimates (<span class="math inline">\(\beta\)</span> and 95% CIs) for child dietary nutrient intakes (fatty acids, macronutrients, and fiber) across the 2-Year, 5–6-Year, and Prospective models, grouped by Nightingale biological class.</p>
+<p>Standardized effect estimates (<span class="math inline">\(\beta\)</span> and 95% CIs) for child dietary nutrient intakes (dietary protein, fiber, PUFA, and <span class="math inline">\(n-3\)</span> fatty acids) across study timepoints, grouped by Nightingale biological class. Each nutrient is presented with a combined 3-panel figure (<strong>Panel A: 2 Years</strong>, <strong>Panel B: 5–6 Years</strong>, and <strong>Panel C: Prospective</strong>) alongside dedicated individual timepoint tabs for detailed inspection.</p>
+<section id="dietary-protein-protein-e" class="level3" data-number="11.1">
+<h3 data-number="11.1" class="anchored" data-anchor-id="dietary-protein-protein-e"><span class="header-section-number">11.1</span> Dietary protein (Protein E%)</h3>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Combined (Panels A, B, C)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Panel A: 2 Years</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false">Panel B: 5–6 Years</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-4" role="tab" aria-controls="tabset-2-4" aria-selected="false">Panel C: Prospective</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
 <div class="cell fig-wide">
 <details class="code-fold">
 <summary>Show code</summary>
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>p_forest_pufa <span class="ot">&lt;-</span> <span class="fu">plot_multitimepoint_forest</span>(</span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">q1_df =</span> q1,</span>
-<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">q2_df =</span> q2,</span>
-<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">q3_df =</span> q3,</span>
-<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">target_base_exposure =</span> <span class="st">"CEPercentPUFADiet"</span>,</span>
-<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">title =</span> <span class="st">"Dietary Polyunsaturated Fatty Acids (PUFA E%) and Circulating Metabolites"</span>,</span>
-<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">subtitle =</span> <span class="st">"Estimates across 2-Year concurrent, 5–6-Year concurrent, and Prospective (2y → 5–6y) models"</span></span>
-<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p_forest_pufa)) p_forest_pufa</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output-display">
-<div id="fig-forest-nutrients-pufa" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-forest-nutrients-pufa-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="figures_files/figure-html/fig-forest-nutrients-pufa-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="Figure&nbsp;11: Associations of dietary polyunsaturated fatty acids (PUFA E%) with circulating metabolites across study timepoints."><img src="figures_files/figure-html/fig-forest-nutrients-pufa-1.png" class="img-fluid figure-img" width="4200"></a>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-nutrients-pufa-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;11: Associations of dietary polyunsaturated fatty acids (PUFA E%) with circulating metabolites across study timepoints.
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
-<div class="cell fig-wide">
-<details class="code-fold">
-<summary>Show code</summary>
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>p_forest_n3 <span class="ot">&lt;-</span> <span class="fu">plot_multitimepoint_forest</span>(</span>
-<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">q1_df =</span> q1,</span>
-<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">q2_df =</span> q2,</span>
-<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">q3_df =</span> q3,</span>
-<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">target_base_exposure =</span> <span class="st">"CEPercentFAn3Diet"</span>,</span>
-<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">title =</span> <span class="st">"Dietary n-3 Fatty Acids (E%) and Circulating Metabolites"</span>,</span>
-<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">subtitle =</span> <span class="st">"Estimates across 2-Year concurrent, 5–6-Year concurrent, and Prospective (2y → 5–6y) models"</span></span>
-<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p_forest_n3)) p_forest_n3</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output-display">
-<div id="fig-forest-nutrients-n3" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-forest-nutrients-n3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="figures_files/figure-html/fig-forest-nutrients-n3-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-12" title="Figure&nbsp;12: Associations of dietary n-3 fatty acids (n-3 E%) with circulating metabolites across study timepoints."><img src="figures_files/figure-html/fig-forest-nutrients-n3-1.png" class="img-fluid figure-img" width="4200"></a>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-nutrients-n3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;12: Associations of dietary n-3 fatty acids (n-3 E%) with circulating metabolites across study timepoints.
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
-<div class="cell fig-wide">
-<details class="code-fold">
-<summary>Show code</summary>
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>p_forest_fiber <span class="ot">&lt;-</span> <span class="fu">plot_multitimepoint_forest</span>(</span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">q1_df =</span> q1,</span>
-<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">q2_df =</span> q2,</span>
-<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">q3_df =</span> q3,</span>
-<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">target_base_exposure =</span> <span class="st">"CFiballDiet"</span>,</span>
-<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">title =</span> <span class="st">"Dietary Fiber Intake and Circulating Metabolites"</span>,</span>
-<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">subtitle =</span> <span class="st">"Estimates across 2-Year concurrent, 5–6-Year concurrent, and Prospective (2y → 5–6y) models"</span></span>
-<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p_forest_fiber)) p_forest_fiber</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output-display">
-<div id="fig-forest-nutrients-fiber" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-forest-nutrients-fiber-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="figures_files/figure-html/fig-forest-nutrients-fiber-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-13" title="Figure&nbsp;13: Associations of dietary fiber intake (g/day) with circulating metabolites across study timepoints."><img src="figures_files/figure-html/fig-forest-nutrients-fiber-1.png" class="img-fluid figure-img" width="4200"></a>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-nutrients-fiber-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;13: Associations of dietary fiber intake (g/day) with circulating metabolites across study timepoints.
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
-<div class="cell fig-wide">
-<details class="code-fold">
-<summary>Show code</summary>
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>p_forest_pro <span class="ot">&lt;-</span> <span class="fu">plot_multitimepoint_forest</span>(</span>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>p_forest_pro_abc <span class="ot">&lt;-</span> <span class="fu">plot_combined_abc_forest</span>(</span>
 <span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">q1_df =</span> q1,</span>
 <span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">q2_df =</span> q2,</span>
 <span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">q3_df =</span> q3,</span>
 <span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">target_base_exposure =</span> <span class="st">"CEPercentProDiet"</span>,</span>
-<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">title =</span> <span class="st">"Dietary Protein Intake (Protein E%) and Circulating Metabolites"</span>,</span>
-<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">subtitle =</span> <span class="st">"Estimates across 2-Year concurrent, 5–6-Year concurrent, and Prospective (2y → 5–6y) models"</span></span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">title =</span> <span class="st">"Figure 2A: Dietary Protein Intake (E%) and Circulating Metabolites"</span>,</span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">subtitle =</span> <span class="st">"Panel A: 2-Year concurrent | Panel B: 5–6-Year concurrent | Panel C: Prospective (2y → 5–6y)"</span></span>
 <span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>)</span>
 <span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p_forest_pro)) p_forest_pro</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p_forest_pro_abc)) p_forest_pro_abc</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<div id="fig-forest-nutrients-protein" class="quarto-float quarto-figure quarto-figure-center anchored">
+<div id="fig-forest-nutrients-protein-combined" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-forest-nutrients-protein-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="figures_files/figure-html/fig-forest-nutrients-protein-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-14" title="Figure&nbsp;14: Associations of dietary protein intake (Protein E%) with circulating metabolites across study timepoints."><img src="figures_files/figure-html/fig-forest-nutrients-protein-1.png" class="img-fluid figure-img" width="4200"></a>
+<div aria-describedby="fig-forest-nutrients-protein-combined-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="figures_files/figure-html/fig-forest-nutrients-protein-combined-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-14" title="Figure&nbsp;14: Dietary protein intake (Protein E%) and circulating metabolites across Panel A (2 Years), Panel B (5–6 Years), and Panel C (Prospective 2y → 5–6y)."><img src="figures_files/figure-html/fig-forest-nutrients-protein-combined-1.png" class="img-fluid figure-img" width="4800"></a>
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-nutrients-protein-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;14: Associations of dietary protein intake (Protein E%) with circulating metabolites across study timepoints.
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-nutrients-protein-combined-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;14: Dietary protein intake (Protein E%) and circulating metabolites across Panel A (2 Years), Panel B (5–6 Years), and Panel C (Prospective 2y → 5–6y).
 </figcaption>
 </figure>
 </div>
 </div>
 </div>
+</div>
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
+<div class="cell fig-medium">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>p_pro_2y <span class="ot">&lt;-</span> <span class="fu">plot_single_timepoint_forest</span>(q1, <span class="st">"CEPercentProDiet"</span>, <span class="st">"2 Years"</span>, <span class="at">panel_tag =</span> <span class="st">"A"</span>, <span class="at">color =</span> <span class="st">"#2b5c8f"</span>, <span class="at">title =</span> <span class="st">"Panel A: 2 Years — Protein (E%) &amp; Metabolites"</span>)</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p_pro_2y)) p_pro_2y</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-forest-pro-2y" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-forest-pro-2y-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="figures_files/figure-html/fig-forest-pro-2y-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-15" title="Figure&nbsp;15: Panel A: 2-Year concurrent associations between dietary protein (E%) and circulating metabolites."><img src="figures_files/figure-html/fig-forest-pro-2y-1.png" class="img-fluid figure-img" width="3000"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-pro-2y-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;15: Panel A: 2-Year concurrent associations between dietary protein (E%) and circulating metabolites.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-2-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-3-tab">
+<div class="cell fig-medium">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>p_pro_56y <span class="ot">&lt;-</span> <span class="fu">plot_single_timepoint_forest</span>(q2, <span class="st">"CEPercentProDiet"</span>, <span class="st">"5-6 Years"</span>, <span class="at">panel_tag =</span> <span class="st">"B"</span>, <span class="at">color =</span> <span class="st">"#2a9d8f"</span>, <span class="at">title =</span> <span class="st">"Panel B: 5–6 Years — Protein (E%) &amp; Metabolites"</span>)</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p_pro_56y)) p_pro_56y</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-forest-pro-56y" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-forest-pro-56y-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="figures_files/figure-html/fig-forest-pro-56y-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-16" title="Figure&nbsp;16: Panel B: 5–6-Year concurrent associations between dietary protein (E%) and circulating metabolites."><img src="figures_files/figure-html/fig-forest-pro-56y-1.png" class="img-fluid figure-img" width="3000"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-pro-56y-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;16: Panel B: 5–6-Year concurrent associations between dietary protein (E%) and circulating metabolites.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-2-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-4-tab">
+<div class="cell fig-medium">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>p_pro_prosp <span class="ot">&lt;-</span> <span class="fu">plot_single_timepoint_forest</span>(q3, <span class="st">"CEPercentProDiet"</span>, <span class="st">"Prospective (2y → 5-6y)"</span>, <span class="at">panel_tag =</span> <span class="st">"C"</span>, <span class="at">color =</span> <span class="st">"#e76f51"</span>, <span class="at">title =</span> <span class="st">"Panel C: Prospective — Protein (E%) &amp; Metabolites"</span>)</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p_pro_prosp)) p_pro_prosp</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-forest-pro-prosp" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-forest-pro-prosp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="figures_files/figure-html/fig-forest-pro-prosp-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-17" title="Figure&nbsp;17: Panel C: Prospective associations between 2-year dietary protein (E%) and 5–6-year circulating metabolites."><img src="figures_files/figure-html/fig-forest-pro-prosp-1.png" class="img-fluid figure-img" width="3000"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-pro-prosp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;17: Panel C: Prospective associations between 2-year dietary protein (E%) and 5–6-year circulating metabolites.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="dietary-fiber-gday" class="level3" data-number="11.2">
+<h3 data-number="11.2" class="anchored" data-anchor-id="dietary-fiber-gday"><span class="header-section-number">11.2</span> Dietary fiber (g/day)</h3>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true">Combined (Panels A, B, C)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false">Panel A: 2 Years</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-3" role="tab" aria-controls="tabset-3-3" aria-selected="false">Panel B: 5–6 Years</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-4" role="tab" aria-controls="tabset-3-4" aria-selected="false">Panel C: Prospective</a></li></ul>
+<div class="tab-content">
+<div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
+<div class="cell fig-wide">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>p_forest_fiber_abc <span class="ot">&lt;-</span> <span class="fu">plot_combined_abc_forest</span>(</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">q1_df =</span> q1,</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">q2_df =</span> q2,</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">q3_df =</span> q3,</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">target_base_exposure =</span> <span class="st">"CFiballDiet"</span>,</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">title =</span> <span class="st">"Figure 2B: Dietary Fiber Intake and Circulating Metabolites"</span>,</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">subtitle =</span> <span class="st">"Panel A: 2-Year concurrent | Panel B: 5–6-Year concurrent | Panel C: Prospective (2y → 5–6y)"</span></span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p_forest_fiber_abc)) p_forest_fiber_abc</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-forest-nutrients-fiber-combined" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-forest-nutrients-fiber-combined-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="figures_files/figure-html/fig-forest-nutrients-fiber-combined-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-18" title="Figure&nbsp;18: Dietary fiber intake (g/day) and circulating metabolites across Panel A (2 Years), Panel B (5–6 Years), and Panel C (Prospective 2y → 5–6y)."><img src="figures_files/figure-html/fig-forest-nutrients-fiber-combined-1.png" class="img-fluid figure-img" width="4800"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-nutrients-fiber-combined-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;18: Dietary fiber intake (g/day) and circulating metabolites across Panel A (2 Years), Panel B (5–6 Years), and Panel C (Prospective 2y → 5–6y).
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-3-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-2-tab">
+<div class="cell fig-medium">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>p_fiber_2y <span class="ot">&lt;-</span> <span class="fu">plot_single_timepoint_forest</span>(q1, <span class="st">"CFiballDiet"</span>, <span class="st">"2 Years"</span>, <span class="at">panel_tag =</span> <span class="st">"A"</span>, <span class="at">color =</span> <span class="st">"#2b5c8f"</span>, <span class="at">title =</span> <span class="st">"Panel A: 2 Years — Fiber &amp; Metabolites"</span>)</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p_fiber_2y)) p_fiber_2y</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-forest-fiber-2y" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-forest-fiber-2y-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="figures_files/figure-html/fig-forest-fiber-2y-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-19" title="Figure&nbsp;19: Panel A: 2-Year concurrent associations between dietary fiber and circulating metabolites."><img src="figures_files/figure-html/fig-forest-fiber-2y-1.png" class="img-fluid figure-img" width="3000"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-fiber-2y-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;19: Panel A: 2-Year concurrent associations between dietary fiber and circulating metabolites.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-3-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-3-tab">
+<div class="cell fig-medium">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>p_fiber_56y <span class="ot">&lt;-</span> <span class="fu">plot_single_timepoint_forest</span>(q2, <span class="st">"CFiballDiet"</span>, <span class="st">"5-6 Years"</span>, <span class="at">panel_tag =</span> <span class="st">"B"</span>, <span class="at">color =</span> <span class="st">"#2a9d8f"</span>, <span class="at">title =</span> <span class="st">"Panel B: 5–6 Years — Fiber &amp; Metabolites"</span>)</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p_fiber_56y)) p_fiber_56y</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-forest-fiber-56y" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-forest-fiber-56y-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="figures_files/figure-html/fig-forest-fiber-56y-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-20" title="Figure&nbsp;20: Panel B: 5–6-Year concurrent associations between dietary fiber and circulating metabolites."><img src="figures_files/figure-html/fig-forest-fiber-56y-1.png" class="img-fluid figure-img" width="3000"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-fiber-56y-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;20: Panel B: 5–6-Year concurrent associations between dietary fiber and circulating metabolites.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-3-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-4-tab">
+<div class="cell fig-medium">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>p_fiber_prosp <span class="ot">&lt;-</span> <span class="fu">plot_single_timepoint_forest</span>(q3, <span class="st">"CFiballDiet"</span>, <span class="st">"Prospective (2y → 5-6y)"</span>, <span class="at">panel_tag =</span> <span class="st">"C"</span>, <span class="at">color =</span> <span class="st">"#e76f51"</span>, <span class="at">title =</span> <span class="st">"Panel C: Prospective — Fiber &amp; Metabolites"</span>)</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p_fiber_prosp)) p_fiber_prosp</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-forest-fiber-prosp" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-forest-fiber-prosp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="figures_files/figure-html/fig-forest-fiber-prosp-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-21" title="Figure&nbsp;21: Panel C: Prospective associations between 2-year dietary fiber and 5–6-year circulating metabolites."><img src="figures_files/figure-html/fig-forest-fiber-prosp-1.png" class="img-fluid figure-img" width="3000"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-fiber-prosp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;21: Panel C: Prospective associations between 2-year dietary fiber and 5–6-year circulating metabolites.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="polyunsaturated-fatty-acids-pufa-e" class="level3" data-number="11.3">
+<h3 data-number="11.3" class="anchored" data-anchor-id="polyunsaturated-fatty-acids-pufa-e"><span class="header-section-number">11.3</span> Polyunsaturated fatty acids (PUFA E%)</h3>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-4-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-1" role="tab" aria-controls="tabset-4-1" aria-selected="true">Combined (Panels A, B, C)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-2" role="tab" aria-controls="tabset-4-2" aria-selected="false">Panel A: 2 Years</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-3" role="tab" aria-controls="tabset-4-3" aria-selected="false">Panel B: 5–6 Years</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-4" role="tab" aria-controls="tabset-4-4" aria-selected="false">Panel C: Prospective</a></li></ul>
+<div class="tab-content">
+<div id="tabset-4-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-4-1-tab">
+<div class="cell fig-wide">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>p_forest_pufa_abc <span class="ot">&lt;-</span> <span class="fu">plot_combined_abc_forest</span>(</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">q1_df =</span> q1,</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">q2_df =</span> q2,</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">q3_df =</span> q3,</span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">target_base_exposure =</span> <span class="st">"CEPercentPUFADiet"</span>,</span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">title =</span> <span class="st">"Figure 2C: Dietary PUFA Intake (E%) and Circulating Metabolites"</span>,</span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">subtitle =</span> <span class="st">"Panel A: 2-Year concurrent | Panel B: 5–6-Year concurrent | Panel C: Prospective (2y → 5–6y)"</span></span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p_forest_pufa_abc)) p_forest_pufa_abc</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-forest-nutrients-pufa-combined" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-forest-nutrients-pufa-combined-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="figures_files/figure-html/fig-forest-nutrients-pufa-combined-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-22" title="Figure&nbsp;22: Dietary PUFA intake (PUFA E%) and circulating metabolites across Panel A (2 Years), Panel B (5–6 Years), and Panel C (Prospective 2y → 5–6y)."><img src="figures_files/figure-html/fig-forest-nutrients-pufa-combined-1.png" class="img-fluid figure-img" width="4800"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-nutrients-pufa-combined-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;22: Dietary PUFA intake (PUFA E%) and circulating metabolites across Panel A (2 Years), Panel B (5–6 Years), and Panel C (Prospective 2y → 5–6y).
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-4-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-2-tab">
+<div class="cell fig-medium">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>p_pufa_2y <span class="ot">&lt;-</span> <span class="fu">plot_single_timepoint_forest</span>(q1, <span class="st">"CEPercentPUFADiet"</span>, <span class="st">"2 Years"</span>, <span class="at">panel_tag =</span> <span class="st">"A"</span>, <span class="at">color =</span> <span class="st">"#2b5c8f"</span>, <span class="at">title =</span> <span class="st">"Panel A: 2 Years — PUFA (E%) &amp; Metabolites"</span>)</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p_pufa_2y)) p_pufa_2y</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-forest-pufa-2y" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-forest-pufa-2y-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="figures_files/figure-html/fig-forest-pufa-2y-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-23" title="Figure&nbsp;23: Panel A: 2-Year concurrent associations between dietary PUFA and circulating metabolites."><img src="figures_files/figure-html/fig-forest-pufa-2y-1.png" class="img-fluid figure-img" width="3000"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-pufa-2y-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;23: Panel A: 2-Year concurrent associations between dietary PUFA and circulating metabolites.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-4-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-3-tab">
+<div class="cell fig-medium">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>p_pufa_56y <span class="ot">&lt;-</span> <span class="fu">plot_single_timepoint_forest</span>(q2, <span class="st">"CEPercentPUFADiet"</span>, <span class="st">"5-6 Years"</span>, <span class="at">panel_tag =</span> <span class="st">"B"</span>, <span class="at">color =</span> <span class="st">"#2a9d8f"</span>, <span class="at">title =</span> <span class="st">"Panel B: 5–6 Years — PUFA (E%) &amp; Metabolites"</span>)</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p_pufa_56y)) p_pufa_56y</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-forest-pufa-56y" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-forest-pufa-56y-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="figures_files/figure-html/fig-forest-pufa-56y-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-24" title="Figure&nbsp;24: Panel B: 5–6-Year concurrent associations between dietary PUFA and circulating metabolites."><img src="figures_files/figure-html/fig-forest-pufa-56y-1.png" class="img-fluid figure-img" width="3000"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-pufa-56y-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;24: Panel B: 5–6-Year concurrent associations between dietary PUFA and circulating metabolites.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-4-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-4-tab">
+<div class="cell fig-medium">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>p_pufa_prosp <span class="ot">&lt;-</span> <span class="fu">plot_single_timepoint_forest</span>(q3, <span class="st">"CEPercentPUFADiet"</span>, <span class="st">"Prospective (2y → 5-6y)"</span>, <span class="at">panel_tag =</span> <span class="st">"C"</span>, <span class="at">color =</span> <span class="st">"#e76f51"</span>, <span class="at">title =</span> <span class="st">"Panel C: Prospective — PUFA (E%) &amp; Metabolites"</span>)</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p_pufa_prosp)) p_pufa_prosp</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-forest-pufa-prosp" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-forest-pufa-prosp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="figures_files/figure-html/fig-forest-pufa-prosp-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-25" title="Figure&nbsp;25: Panel C: Prospective associations between 2-year dietary PUFA and 5–6-year circulating metabolites."><img src="figures_files/figure-html/fig-forest-pufa-prosp-1.png" class="img-fluid figure-img" width="3000"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-pufa-prosp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;25: Panel C: Prospective associations between 2-year dietary PUFA and 5–6-year circulating metabolites.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="omega-3-fatty-acids-n-3-fa-e" class="level3" data-number="11.4">
+<h3 data-number="11.4" class="anchored" data-anchor-id="omega-3-fatty-acids-n-3-fa-e"><span class="header-section-number">11.4</span> Omega-3 fatty acids (n-3 FA E%)</h3>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-5-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-1" role="tab" aria-controls="tabset-5-1" aria-selected="true">Combined (Panels A, B, C)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-2" role="tab" aria-controls="tabset-5-2" aria-selected="false">Panel A: 2 Years</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-3" role="tab" aria-controls="tabset-5-3" aria-selected="false">Panel B: 5–6 Years</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-4" role="tab" aria-controls="tabset-5-4" aria-selected="false">Panel C: Prospective</a></li></ul>
+<div class="tab-content">
+<div id="tabset-5-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-5-1-tab">
+<div class="cell fig-wide">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>p_forest_n3_abc <span class="ot">&lt;-</span> <span class="fu">plot_combined_abc_forest</span>(</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">q1_df =</span> q1,</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">q2_df =</span> q2,</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">q3_df =</span> q3,</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">target_base_exposure =</span> <span class="st">"CEPercentFAn3Diet"</span>,</span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">title =</span> <span class="st">"Figure 2D: Dietary n-3 Fatty Acids (E%) and Circulating Metabolites"</span>,</span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">subtitle =</span> <span class="st">"Panel A: 2-Year concurrent | Panel B: 5–6-Year concurrent | Panel C: Prospective (2y → 5–6y)"</span></span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-10"><a href="#cb26-10" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p_forest_n3_abc)) p_forest_n3_abc</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-forest-nutrients-n3-combined" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-forest-nutrients-n3-combined-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="figures_files/figure-html/fig-forest-nutrients-n3-combined-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-26" title="Figure&nbsp;26: Dietary n-3 fatty acid intake (n-3 E%) and circulating metabolites across Panel A (2 Years), Panel B (5–6 Years), and Panel C (Prospective 2y → 5–6y)."><img src="figures_files/figure-html/fig-forest-nutrients-n3-combined-1.png" class="img-fluid figure-img" width="4800"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-nutrients-n3-combined-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;26: Dietary n-3 fatty acid intake (n-3 E%) and circulating metabolites across Panel A (2 Years), Panel B (5–6 Years), and Panel C (Prospective 2y → 5–6y).
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-5-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-2-tab">
+<div class="cell fig-medium">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>p_n3_2y <span class="ot">&lt;-</span> <span class="fu">plot_single_timepoint_forest</span>(q1, <span class="st">"CEPercentFAn3Diet"</span>, <span class="st">"2 Years"</span>, <span class="at">panel_tag =</span> <span class="st">"A"</span>, <span class="at">color =</span> <span class="st">"#2b5c8f"</span>, <span class="at">title =</span> <span class="st">"Panel A: 2 Years — n-3 FA (E%) &amp; Metabolites"</span>)</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p_n3_2y)) p_n3_2y</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-forest-n3-2y" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-forest-n3-2y-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="figures_files/figure-html/fig-forest-n3-2y-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-27" title="Figure&nbsp;27: Panel A: 2-Year concurrent associations between dietary n-3 fatty acids and circulating metabolites."><img src="figures_files/figure-html/fig-forest-n3-2y-1.png" class="img-fluid figure-img" width="3000"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-n3-2y-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;27: Panel A: 2-Year concurrent associations between dietary n-3 fatty acids and circulating metabolites.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-5-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-3-tab">
+<div class="cell fig-medium">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>p_n3_56y <span class="ot">&lt;-</span> <span class="fu">plot_single_timepoint_forest</span>(q2, <span class="st">"CEPercentFAn3Diet"</span>, <span class="st">"5-6 Years"</span>, <span class="at">panel_tag =</span> <span class="st">"B"</span>, <span class="at">color =</span> <span class="st">"#2a9d8f"</span>, <span class="at">title =</span> <span class="st">"Panel B: 5–6 Years — n-3 FA (E%) &amp; Metabolites"</span>)</span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p_n3_56y)) p_n3_56y</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-forest-n3-56y" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-forest-n3-56y-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="figures_files/figure-html/fig-forest-n3-56y-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-28" title="Figure&nbsp;28: Panel B: 5–6-Year concurrent associations between dietary n-3 fatty acids and circulating metabolites."><img src="figures_files/figure-html/fig-forest-n3-56y-1.png" class="img-fluid figure-img" width="3000"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-n3-56y-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;28: Panel B: 5–6-Year concurrent associations between dietary n-3 fatty acids and circulating metabolites.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-5-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-4-tab">
+<div class="cell fig-medium">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>p_n3_prosp <span class="ot">&lt;-</span> <span class="fu">plot_single_timepoint_forest</span>(q3, <span class="st">"CEPercentFAn3Diet"</span>, <span class="st">"Prospective (2y → 5-6y)"</span>, <span class="at">panel_tag =</span> <span class="st">"C"</span>, <span class="at">color =</span> <span class="st">"#e76f51"</span>, <span class="at">title =</span> <span class="st">"Panel C: Prospective — n-3 FA (E%) &amp; Metabolites"</span>)</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p_n3_prosp)) p_n3_prosp</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-forest-n3-prosp" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-forest-n3-prosp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="figures_files/figure-html/fig-forest-n3-prosp-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-29" title="Figure&nbsp;29: Panel C: Prospective associations between 2-year dietary n-3 fatty acids and 5–6-year circulating metabolites."><img src="figures_files/figure-html/fig-forest-n3-prosp-1.png" class="img-fluid figure-img" width="3000"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-n3-prosp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;29: Panel C: Prospective associations between 2-year dietary n-3 fatty acids and 5–6-year circulating metabolites.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
