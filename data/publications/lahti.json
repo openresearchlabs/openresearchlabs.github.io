@@ -1,5 +1,113 @@
 [
   {
+    "DOI": "10.1038/s44320-026-00236-3",
+    "ISSN": "1744-4292",
+    "author": [
+      {
+        "family": "Vargas",
+        "given": "Bianca Cordazzo"
+      },
+      {
+        "family": "Martino",
+        "given": "Cameron"
+      },
+      {
+        "family": "Dilmore",
+        "given": "Amanda Hazel"
+      },
+      {
+        "family": "Metcalf",
+        "given": "Jessica L."
+      },
+      {
+        "family": "Burcham",
+        "given": "Zachary M."
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Bektanov",
+        "given": "Aituar"
+      },
+      {
+        "family": "Borman",
+        "given": "Tuomas"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki S."
+      },
+      {
+        "family": "Gregor",
+        "given": "Rachel"
+      },
+      {
+        "family": "Eyal",
+        "given": "Stav"
+      },
+      {
+        "family": "Meijler",
+        "given": "Michael M."
+      },
+      {
+        "family": "Mizrahi",
+        "given": "Itzhak"
+      },
+      {
+        "family": "Song",
+        "given": "Se Jin"
+      },
+      {
+        "family": "Bartko",
+        "given": "Andrew"
+      },
+      {
+        "family": "Dorrestein",
+        "given": "Pieter C."
+      },
+      {
+        "family": "Morton",
+        "given": "James T."
+      },
+      {
+        "family": "McDonald",
+        "given": "Daniel"
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      },
+      {
+        "family": "Shenhav",
+        "given": "Liat"
+      }
+    ],
+    "container-title": "Molecular Systems Biology",
+    "id": "Vargas2026",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "title": "Joint-RPCA: Domain-aware multi-omics integration for systems microbiology",
+    "title-short": "Joint-RPCA",
+    "type": "article-journal"
+  },
+  {
     "DOI": "10.1016/j.isci.2026.117057",
     "ISSN": "2589-0042",
     "author": [
