@@ -1,5 +1,59 @@
 [
   {
+    "DOI": "10.1093/bioinformatics/btag484",
+    "ISSN": "1367-4811",
+    "author": [
+      {
+        "family": "Lindgren",
+        "given": "Himmi"
+      },
+      {
+        "family": "Ross",
+        "given": "Chandler"
+      },
+      {
+        "family": "Ruuskanen",
+        "given": "Matti"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "Bioinformatics",
+    "id": "Lindgren2026",
+    "issue": "Supplement_2",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "btag484",
+    "title": "A spectrum of gut microbiota signatures predicts long-term health status",
+    "type": "article-journal",
+    "volume": "42"
+  },
+  {
     "DOI": "10.1038/s44320-026-00236-3",
     "ISSN": "1744-4292",
     "author": [
@@ -285,7 +339,7 @@
     },
     "keyword": "datascience",
     "page": "1-16",
-    "title": "Automated retrieval and analysis of finnish cultural metadata with <b><i>finna</i></b>",
+    "title": "Automated retrieval and analysis of Finnish cultural metadata with <b><i>finna</i></b>",
     "type": "article-journal",
     "volume": "25"
   },
@@ -949,7 +1003,7 @@
     },
     "keyword": "bioscience",
     "page": "106285",
-    "title": "Roadmap for integrated one health AMR surveillance in nordic countries",
+    "title": "Roadmap for integrated one health AMR surveillance in Nordic countries",
     "type": "article-journal",
     "volume": "255"
   },
@@ -7067,7 +7121,7 @@
     },
     "keyword": "bioscience",
     "page": "579-587",
-    "title": "Comprehensive biomarker profiling of hypertension in 36 985 finnish individuals",
+    "title": "Comprehensive biomarker profiling of hypertension in 36 985 Finnish individuals",
     "type": "article-journal",
     "volume": "40"
   },
@@ -7899,7 +7953,7 @@
     },
     "keyword": "bioscience",
     "page": "811-818",
-    "title": "Gut microbiome composition is predictive of incident type 2 diabetes in a population cohort of 5 572 finnish adults",
+    "title": "Gut microbiome composition is predictive of incident type 2 diabetes in a population cohort of 5 572 Finnish adults",
     "type": "article-journal",
     "volume": "45"
   },
@@ -9988,7 +10042,7 @@
     },
     "keyword": "bioscience",
     "page": "1325-1334",
-    "title": "Gut microbiota and host gene mutations in colorectal cancer patients and controls of iranian and finnish origin",
+    "title": "Gut microbiota and host gene mutations in colorectal cancer patients and controls of iranian and Finnish origin",
     "type": "article-journal",
     "volume": "40"
   },
@@ -11591,7 +11645,7 @@
     "page": "383-385",
     "publisher": "Jagiellonian University & Pedagogical University, Kraków",
     "publisher-place": "Krakow, Poland",
-    "title": "Printing in a periphery: A quantitative study of finnish knowledge production, 1640-1828",
+    "title": "Printing in a periphery: A quantitative study of Finnish knowledge production, 1640-1828",
     "title-short": "Printing in a periphery",
     "type": "paper-conference"
   },
