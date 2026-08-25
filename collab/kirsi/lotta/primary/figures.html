@@ -259,6 +259,8 @@ window.Quarto = {
   <li><a href="#dietary-fiber-gday" id="toc-dietary-fiber-gday" class="nav-link" data-scroll-target="#dietary-fiber-gday"><span class="header-section-number">11.2</span> Dietary fiber (g/day)</a></li>
   <li><a href="#polyunsaturated-fatty-acids-pufa-e" id="toc-polyunsaturated-fatty-acids-pufa-e" class="nav-link" data-scroll-target="#polyunsaturated-fatty-acids-pufa-e"><span class="header-section-number">11.3</span> Polyunsaturated fatty acids (PUFA E%)</a></li>
   <li><a href="#omega-3-fatty-acids-n-3-fa-e" id="toc-omega-3-fatty-acids-n-3-fa-e" class="nav-link" data-scroll-target="#omega-3-fatty-acids-n-3-fa-e"><span class="header-section-number">11.4</span> Omega-3 fatty acids (n-3 FA E%)</a></li>
+  <li><a href="#carbohydrates-carbohydrate-e" id="toc-carbohydrates-carbohydrate-e" class="nav-link" data-scroll-target="#carbohydrates-carbohydrate-e"><span class="header-section-number">11.5</span> Carbohydrates (Carbohydrate E%)</a></li>
+  <li><a href="#saturated-fatty-acids-sfa-e" id="toc-saturated-fatty-acids-sfa-e" class="nav-link" data-scroll-target="#saturated-fatty-acids-sfa-e"><span class="header-section-number">11.6</span> Saturated fatty acids (SFA E%)</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -777,7 +779,7 @@ Figure&nbsp;13: Panel C: Prospective associations between 2-year child IDQ score
 </section>
 <section id="forest-plots-dietary-nutrients" class="level2" data-number="11">
 <h2 data-number="11" class="anchored" data-anchor-id="forest-plots-dietary-nutrients"><span class="header-section-number">11</span> Forest plots: dietary nutrients</h2>
-<p>Standardized effect estimates (<span class="math inline">\(\beta\)</span> and 95% CIs) for child dietary nutrient intakes (dietary protein, fiber, PUFA, and <span class="math inline">\(n-3\)</span> fatty acids) across study timepoints, grouped by Nightingale biological class. Each nutrient is presented with a combined 3-panel figure (<strong>Panel A: 2 Years</strong>, <strong>Panel B: 5–6 Years</strong>, and <strong>Panel C: Prospective</strong>) alongside dedicated individual timepoint tabs for detailed inspection.</p>
+<p>Standardized effect estimates (<span class="math inline">\(\beta\)</span> and 95% CIs) for child dietary nutrient intakes (dietary protein, fiber, PUFA, <span class="math inline">\(n-3\)</span> fatty acids, carbohydrates, and saturated fatty acids) across study timepoints, grouped by Nightingale biological class. Each nutrient is presented with a combined 3-panel figure (<strong>Panel A: 2 Years</strong>, <strong>Panel B: 5–6 Years</strong>, and <strong>Panel C: Prospective</strong>) alongside dedicated individual timepoint tabs for detailed inspection.</p>
 <section id="dietary-protein-protein-e" class="level3" data-number="11.1">
 <h3 data-number="11.1" class="anchored" data-anchor-id="dietary-protein-protein-e"><span class="header-section-number">11.1</span> Dietary protein (Protein E%)</h3>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
@@ -1169,6 +1171,206 @@ Figure&nbsp;28: Panel B: 5–6-Year concurrent associations between dietary n-3 
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-n3-prosp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;29: Panel C: Prospective associations between 2-year dietary n-3 fatty acids and 5–6-year circulating metabolites.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="carbohydrates-carbohydrate-e" class="level3" data-number="11.5">
+<h3 data-number="11.5" class="anchored" data-anchor-id="carbohydrates-carbohydrate-e"><span class="header-section-number">11.5</span> Carbohydrates (Carbohydrate E%)</h3>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-6-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-1" role="tab" aria-controls="tabset-6-1" aria-selected="true">Combined (Panels A, B, C)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-2" role="tab" aria-controls="tabset-6-2" aria-selected="false">Panel A: 2 Years</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-3" role="tab" aria-controls="tabset-6-3" aria-selected="false">Panel B: 5–6 Years</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-4" role="tab" aria-controls="tabset-6-4" aria-selected="false">Panel C: Prospective</a></li></ul>
+<div class="tab-content">
+<div id="tabset-6-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-6-1-tab">
+<div class="cell fig-wide">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>p_forest_cho_abc <span class="ot">&lt;-</span> <span class="fu">plot_combined_abc_forest</span>(</span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">q1_df =</span> q1,</span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">q2_df =</span> q2,</span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">q3_df =</span> q3,</span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">target_base_exposure =</span> <span class="st">"CEPercentCHODiet"</span>,</span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">title =</span> <span class="st">"Figure 2E: Dietary Carbohydrate Intake (E%) and Circulating Metabolites"</span>,</span>
+<span id="cb30-7"><a href="#cb30-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">subtitle =</span> <span class="st">"Panel A: 2-Year concurrent | Panel B: 5–6-Year concurrent | Panel C: Prospective (2y → 5–6y)"</span></span>
+<span id="cb30-8"><a href="#cb30-8" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb30-9"><a href="#cb30-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-10"><a href="#cb30-10" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p_forest_cho_abc)) p_forest_cho_abc</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-forest-nutrients-cho-combined" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-forest-nutrients-cho-combined-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="figures_files/figure-html/fig-forest-nutrients-cho-combined-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-30" title="Figure&nbsp;30: Dietary carbohydrate intake (Carbohydrate E%) and circulating metabolites across Panel A (2 Years), Panel B (5–6 Years), and Panel C (Prospective 2y → 5–6y)."><img src="figures_files/figure-html/fig-forest-nutrients-cho-combined-1.png" class="img-fluid figure-img" width="4800"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-nutrients-cho-combined-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;30: Dietary carbohydrate intake (Carbohydrate E%) and circulating metabolites across Panel A (2 Years), Panel B (5–6 Years), and Panel C (Prospective 2y → 5–6y).
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-6-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-6-2-tab">
+<div class="cell fig-medium">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>p_cho_2y <span class="ot">&lt;-</span> <span class="fu">plot_single_timepoint_forest</span>(q1, <span class="st">"CEPercentCHODiet"</span>, <span class="st">"2 Years"</span>, <span class="at">panel_tag =</span> <span class="st">"A"</span>, <span class="at">color =</span> <span class="st">"#2b5c8f"</span>, <span class="at">title =</span> <span class="st">"Panel A: 2 Years — Carbohydrates (E%) &amp; Metabolites"</span>)</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p_cho_2y)) p_cho_2y</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-forest-cho-2y" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-forest-cho-2y-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="figures_files/figure-html/fig-forest-cho-2y-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-31" title="Figure&nbsp;31: Panel A: 2-Year concurrent associations between dietary carbohydrates and circulating metabolites."><img src="figures_files/figure-html/fig-forest-cho-2y-1.png" class="img-fluid figure-img" width="3000"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-cho-2y-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;31: Panel A: 2-Year concurrent associations between dietary carbohydrates and circulating metabolites.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-6-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-6-3-tab">
+<div class="cell fig-medium">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>p_cho_56y <span class="ot">&lt;-</span> <span class="fu">plot_single_timepoint_forest</span>(q2, <span class="st">"CEPercentCHODiet"</span>, <span class="st">"5-6 Years"</span>, <span class="at">panel_tag =</span> <span class="st">"B"</span>, <span class="at">color =</span> <span class="st">"#2a9d8f"</span>, <span class="at">title =</span> <span class="st">"Panel B: 5–6 Years — Carbohydrates (E%) &amp; Metabolites"</span>)</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p_cho_56y)) p_cho_56y</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-forest-cho-56y" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-forest-cho-56y-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="figures_files/figure-html/fig-forest-cho-56y-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-32" title="Figure&nbsp;32: Panel B: 5–6-Year concurrent associations between dietary carbohydrates and circulating metabolites."><img src="figures_files/figure-html/fig-forest-cho-56y-1.png" class="img-fluid figure-img" width="3000"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-cho-56y-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;32: Panel B: 5–6-Year concurrent associations between dietary carbohydrates and circulating metabolites.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-6-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-6-4-tab">
+<div class="cell fig-medium">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>p_cho_prosp <span class="ot">&lt;-</span> <span class="fu">plot_single_timepoint_forest</span>(q3, <span class="st">"CEPercentCHODiet"</span>, <span class="st">"Prospective (2y → 5-6y)"</span>, <span class="at">panel_tag =</span> <span class="st">"C"</span>, <span class="at">color =</span> <span class="st">"#e76f51"</span>, <span class="at">title =</span> <span class="st">"Panel C: Prospective — Carbohydrates (E%) &amp; Metabolites"</span>)</span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p_cho_prosp)) p_cho_prosp</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-forest-cho-prosp" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-forest-cho-prosp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="figures_files/figure-html/fig-forest-cho-prosp-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-33" title="Figure&nbsp;33: Panel C: Prospective associations between 2-year dietary carbohydrates and 5–6-year circulating metabolites."><img src="figures_files/figure-html/fig-forest-cho-prosp-1.png" class="img-fluid figure-img" width="3000"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-cho-prosp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;33: Panel C: Prospective associations between 2-year dietary carbohydrates and 5–6-year circulating metabolites.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="saturated-fatty-acids-sfa-e" class="level3" data-number="11.6">
+<h3 data-number="11.6" class="anchored" data-anchor-id="saturated-fatty-acids-sfa-e"><span class="header-section-number">11.6</span> Saturated fatty acids (SFA E%)</h3>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-7-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-1" role="tab" aria-controls="tabset-7-1" aria-selected="true">Combined (Panels A, B, C)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-7-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-2" role="tab" aria-controls="tabset-7-2" aria-selected="false">Panel A: 2 Years</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-7-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-3" role="tab" aria-controls="tabset-7-3" aria-selected="false">Panel B: 5–6 Years</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-7-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-4" role="tab" aria-controls="tabset-7-4" aria-selected="false">Panel C: Prospective</a></li></ul>
+<div class="tab-content">
+<div id="tabset-7-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-7-1-tab">
+<div class="cell fig-wide">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb34"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>p_forest_sfa_abc <span class="ot">&lt;-</span> <span class="fu">plot_combined_abc_forest</span>(</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">q1_df =</span> q1,</span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">q2_df =</span> q2,</span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">q3_df =</span> q3,</span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">target_base_exposure =</span> <span class="st">"CEPercentSFADiet"</span>,</span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">title =</span> <span class="st">"Figure 2F: Dietary Saturated Fatty Acids (E%) and Circulating Metabolites"</span>,</span>
+<span id="cb34-7"><a href="#cb34-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">subtitle =</span> <span class="st">"Panel A: 2-Year concurrent | Panel B: 5–6-Year concurrent | Panel C: Prospective (2y → 5–6y)"</span></span>
+<span id="cb34-8"><a href="#cb34-8" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb34-9"><a href="#cb34-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-10"><a href="#cb34-10" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p_forest_sfa_abc)) p_forest_sfa_abc</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-forest-nutrients-sfa-combined" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-forest-nutrients-sfa-combined-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="figures_files/figure-html/fig-forest-nutrients-sfa-combined-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-34" title="Figure&nbsp;34: Dietary saturated fatty acid intake (SFA E%) and circulating metabolites across Panel A (2 Years), Panel B (5–6 Years), and Panel C (Prospective 2y → 5–6y)."><img src="figures_files/figure-html/fig-forest-nutrients-sfa-combined-1.png" class="img-fluid figure-img" width="4800"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-nutrients-sfa-combined-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;34: Dietary saturated fatty acid intake (SFA E%) and circulating metabolites across Panel A (2 Years), Panel B (5–6 Years), and Panel C (Prospective 2y → 5–6y).
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-7-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-7-2-tab">
+<div class="cell fig-medium">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>p_sfa_2y <span class="ot">&lt;-</span> <span class="fu">plot_single_timepoint_forest</span>(q1, <span class="st">"CEPercentSFADiet"</span>, <span class="st">"2 Years"</span>, <span class="at">panel_tag =</span> <span class="st">"A"</span>, <span class="at">color =</span> <span class="st">"#2b5c8f"</span>, <span class="at">title =</span> <span class="st">"Panel A: 2 Years — SFA (E%) &amp; Metabolites"</span>)</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p_sfa_2y)) p_sfa_2y</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-forest-sfa-2y" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-forest-sfa-2y-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="figures_files/figure-html/fig-forest-sfa-2y-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-35" title="Figure&nbsp;35: Panel A: 2-Year concurrent associations between dietary saturated fatty acids and circulating metabolites."><img src="figures_files/figure-html/fig-forest-sfa-2y-1.png" class="img-fluid figure-img" width="3000"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-sfa-2y-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;35: Panel A: 2-Year concurrent associations between dietary saturated fatty acids and circulating metabolites.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-7-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-7-3-tab">
+<div class="cell fig-medium">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb36"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>p_sfa_56y <span class="ot">&lt;-</span> <span class="fu">plot_single_timepoint_forest</span>(q2, <span class="st">"CEPercentSFADiet"</span>, <span class="st">"5-6 Years"</span>, <span class="at">panel_tag =</span> <span class="st">"B"</span>, <span class="at">color =</span> <span class="st">"#2a9d8f"</span>, <span class="at">title =</span> <span class="st">"Panel B: 5–6 Years — SFA (E%) &amp; Metabolites"</span>)</span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p_sfa_56y)) p_sfa_56y</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-forest-sfa-56y" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-forest-sfa-56y-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="figures_files/figure-html/fig-forest-sfa-56y-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-36" title="Figure&nbsp;36: Panel B: 5–6-Year concurrent associations between dietary saturated fatty acids and circulating metabolites."><img src="figures_files/figure-html/fig-forest-sfa-56y-1.png" class="img-fluid figure-img" width="3000"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-sfa-56y-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;36: Panel B: 5–6-Year concurrent associations between dietary saturated fatty acids and circulating metabolites.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-7-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-7-4-tab">
+<div class="cell fig-medium">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>p_sfa_prosp <span class="ot">&lt;-</span> <span class="fu">plot_single_timepoint_forest</span>(q3, <span class="st">"CEPercentSFADiet"</span>, <span class="st">"Prospective (2y → 5-6y)"</span>, <span class="at">panel_tag =</span> <span class="st">"C"</span>, <span class="at">color =</span> <span class="st">"#e76f51"</span>, <span class="at">title =</span> <span class="st">"Panel C: Prospective — SFA (E%) &amp; Metabolites"</span>)</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(p_sfa_prosp)) p_sfa_prosp</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-forest-sfa-prosp" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-forest-sfa-prosp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="figures_files/figure-html/fig-forest-sfa-prosp-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-37" title="Figure&nbsp;37: Panel C: Prospective associations between 2-year dietary saturated fatty acids and 5–6-year circulating metabolites."><img src="figures_files/figure-html/fig-forest-sfa-prosp-1.png" class="img-fluid figure-img" width="3000"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-sfa-prosp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;37: Panel C: Prospective associations between 2-year dietary saturated fatty acids and 5–6-year circulating metabolites.
 </figcaption>
 </figure>
 </div>
