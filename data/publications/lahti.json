@@ -1,5 +1,56 @@
 [
   {
+    "DOI": "10.1186/s40168-026-02449-y",
+    "ISSN": "2049-2618",
+    "author": [
+      {
+        "family": "Ross",
+        "given": "Chandler"
+      },
+      {
+        "family": "Laitinen",
+        "given": "Ville"
+      },
+      {
+        "family": "Khalighi",
+        "given": "Moein"
+      },
+      {
+        "family": "Salojärvi",
+        "given": "Jarkko"
+      },
+      {
+        "dropping-particle": "de",
+        "family": "Vos",
+        "given": "Willem M."
+      },
+      {
+        "family": "Sommeria-Klein",
+        "given": "Guilhem"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "Microbiome",
+    "id": "Ross2026",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          6
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "209",
+    "title": "Reconstructing community dynamics from limited observations",
+    "type": "article-journal",
+    "volume": "14"
+  },
+  {
     "DOI": "10.1093/bioinformatics/btag484",
     "ISSN": "1367-4811",
     "author": [
