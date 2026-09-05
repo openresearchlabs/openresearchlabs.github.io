@@ -222,7 +222,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#volcano-plots-representative-early-and-late-exposures" id="toc-volcano-plots-representative-early-and-late-exposures" class="nav-link" data-scroll-target="#volcano-plots-representative-early-and-late-exposures"><span class="header-section-number">6</span> Volcano plots (representative early and late exposures)</a></li>
   <li><a href="#age-specific-heatmaps" id="toc-age-specific-heatmaps" class="nav-link" data-scroll-target="#age-specific-heatmaps"><span class="header-section-number">7</span> Age-specific heatmaps</a></li>
   <li><a href="#timing-comparison-early-vs-late-window" id="toc-timing-comparison-early-vs-late-window" class="nav-link" data-scroll-target="#timing-comparison-early-vs-late-window"><span class="header-section-number">8</span> Timing comparison: early vs late window</a></li>
-  <li><a href="#q4-longitudinal-model-status-and-descriptive-support" id="toc-q4-longitudinal-model-status-and-descriptive-support" class="nav-link" data-scroll-target="#q4-longitudinal-model-status-and-descriptive-support"><span class="header-section-number">9</span> Q4 Longitudinal model status and descriptive support</a></li>
+  <li><a href="#q4-longitudinal-model-status-and-descriptive-support" id="toc-q4-longitudinal-model-status-and-descriptive-support" class="nav-link" data-scroll-target="#q4-longitudinal-model-status-and-descriptive-support"><span class="header-section-number">9</span> Q4 Longitudinal model status and descriptive support</a>
+  <ul class="collapse">
+  <li><a href="#q4-longitudinal-interaction-forest-plots-diet-age" id="toc-q4-longitudinal-interaction-forest-plots-diet-age" class="nav-link" data-scroll-target="#q4-longitudinal-interaction-forest-plots-diet-age"><span class="header-section-number">9.1</span> Q4 Longitudinal interaction forest plots (Diet × Age)</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -508,7 +511,7 @@ Figure&nbsp;6: Count of reported result rows by analysis component. This avoids 
 <span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="fu">nrow</span>(long_coef_res) <span class="sc">&gt;</span> <span class="dv">0</span>) {</span>
 <span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>    long_coef_res <span class="sc">%&gt;%</span></span>
 <span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>      <span class="fu">group_by</span>(timing) <span class="sc">%&gt;%</span></span>
-<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>      <span class="fu">summarise</span>(<span class="at">component =</span> <span class="fu">paste0</span>(<span class="st">"Q4 longitudinal | "</span>, timing), <span class="at">significant_rows =</span> <span class="fu">sum</span>(q.value <span class="sc">&lt;</span> <span class="fl">0.1</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>), <span class="at">total_rows =</span> <span class="fu">n</span>(), <span class="at">.groups =</span> <span class="st">"drop"</span>)</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>      <span class="fu">summarise</span>(<span class="at">component =</span> <span class="fu">paste0</span>(<span class="st">"Q4 longitudinal | "</span>, dplyr<span class="sc">::</span><span class="fu">first</span>(timing)), <span class="at">significant_rows =</span> <span class="fu">sum</span>(q.value <span class="sc">&lt;</span> <span class="fl">0.1</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>), <span class="at">total_rows =</span> <span class="fu">n</span>(), <span class="at">.groups =</span> <span class="st">"drop"</span>)</span>
 <span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> {</span>
 <span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>    <span class="fu">data.frame</span>(<span class="at">component =</span> <span class="st">"Q4 longitudinal | no coefficient rows"</span>, <span class="at">significant_rows =</span> <span class="dv">0</span>L, <span class="at">total_rows =</span> <span class="dv">0</span>L, <span class="at">stringsAsFactors =</span> <span class="cn">FALSE</span>)</span>
 <span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>  }</span>
@@ -987,8 +990,67 @@ Figure&nbsp;21: Descriptive trajectories for the top age-specific association, s
 </div>
 </div>
 </div>
+<section id="q4-longitudinal-interaction-forest-plots-diet-age" class="level3" data-number="9.1">
+<h3 data-number="9.1" class="anchored" data-anchor-id="q4-longitudinal-interaction-forest-plots-diet-age"><span class="header-section-number">9.1</span> Q4 Longitudinal interaction forest plots (Diet × Age)</h3>
+<div class="cell fig-wide">
+<details class="code-fold">
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="fu">nrow</span>(long_coef_res) <span class="sc">&gt;</span> <span class="dv">0</span> <span class="sc">&amp;&amp;</span> <span class="st">"term"</span> <span class="sc">%in%</span> <span class="fu">names</span>(long_coef_res)) {</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>  int_forest_df <span class="ot">&lt;-</span> long_coef_res <span class="sc">%&gt;%</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">filter</span>(<span class="fu">grepl</span>(<span class="st">":"</span>, term)) <span class="sc">%&gt;%</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>      <span class="at">conf.low =</span> estimate <span class="sc">-</span> <span class="fl">1.96</span> <span class="sc">*</span> std.error,</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>      <span class="at">conf.high =</span> estimate <span class="sc">+</span> <span class="fl">1.96</span> <span class="sc">*</span> std.error,</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>      <span class="at">timing_label =</span> <span class="fu">ifelse</span>(timing <span class="sc">==</span> <span class="st">"Early"</span>, <span class="st">"Early Pregnancy"</span>, <span class="st">"Late Pregnancy"</span>)</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>    ) <span class="sc">%&gt;%</span></span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>    <span class="fu">add_feature_meta</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(</span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>      <span class="at">exposure_lbl =</span> <span class="fu">pretty_var</span>(exposure),</span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a>      <span class="at">pair_label =</span> <span class="fu">paste0</span>(exposure_lbl, <span class="st">" → "</span>, metabolite_label)</span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a>    ) <span class="sc">%&gt;%</span></span>
+<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a>    <span class="fu">filter</span>(p.value <span class="sc">&lt;</span> <span class="fl">0.05</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a>    <span class="fu">group_by</span>(timing_label) <span class="sc">%&gt;%</span></span>
+<span id="cb15-16"><a href="#cb15-16" aria-hidden="true" tabindex="-1"></a>    <span class="fu">slice_min</span>(p.value, <span class="at">n =</span> <span class="dv">15</span>, <span class="at">with_ties =</span> <span class="cn">FALSE</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb15-17"><a href="#cb15-17" aria-hidden="true" tabindex="-1"></a>    <span class="fu">ungroup</span>()</span>
+<span id="cb15-18"><a href="#cb15-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-19"><a href="#cb15-19" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="fu">nrow</span>(int_forest_df) <span class="sc">&gt;</span> <span class="dv">0</span>) {</span>
+<span id="cb15-20"><a href="#cb15-20" aria-hidden="true" tabindex="-1"></a>    <span class="fu">ggplot</span>(int_forest_df, <span class="fu">aes</span>(<span class="at">x =</span> estimate, <span class="at">y =</span> <span class="fu">fct_reorder</span>(pair_label, estimate), <span class="at">color =</span> feature_group)) <span class="sc">+</span></span>
+<span id="cb15-21"><a href="#cb15-21" aria-hidden="true" tabindex="-1"></a>      <span class="fu">geom_vline</span>(<span class="at">xintercept =</span> <span class="dv">0</span>, <span class="at">linetype =</span> <span class="st">"dashed"</span>, <span class="at">color =</span> <span class="st">"grey50"</span>) <span class="sc">+</span></span>
+<span id="cb15-22"><a href="#cb15-22" aria-hidden="true" tabindex="-1"></a>      <span class="fu">geom_errorbar</span>(<span class="fu">aes</span>(<span class="at">xmin =</span> conf.low, <span class="at">xmax =</span> conf.high), <span class="at">orientation =</span> <span class="st">"y"</span>, <span class="at">width =</span> <span class="fl">0.25</span>, <span class="at">linewidth =</span> <span class="fl">0.6</span>) <span class="sc">+</span></span>
+<span id="cb15-23"><a href="#cb15-23" aria-hidden="true" tabindex="-1"></a>      <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="fl">2.2</span>) <span class="sc">+</span></span>
+<span id="cb15-24"><a href="#cb15-24" aria-hidden="true" tabindex="-1"></a>      <span class="fu">facet_wrap</span>(<span class="sc">~</span> timing_label, <span class="at">scales =</span> <span class="st">"free_y"</span>, <span class="at">ncol =</span> <span class="dv">2</span>) <span class="sc">+</span></span>
+<span id="cb15-25"><a href="#cb15-25" aria-hidden="true" tabindex="-1"></a>      <span class="fu">labs</span>(</span>
+<span id="cb15-26"><a href="#cb15-26" aria-hidden="true" tabindex="-1"></a>        <span class="at">x =</span> <span class="st">"Interaction Estimate (β per year of child age, 95% CI)"</span>,</span>
+<span id="cb15-27"><a href="#cb15-27" aria-hidden="true" tabindex="-1"></a>        <span class="at">y =</span> <span class="cn">NULL</span>,</span>
+<span id="cb15-28"><a href="#cb15-28" aria-hidden="true" tabindex="-1"></a>        <span class="at">color =</span> <span class="st">"Metabolite group"</span>,</span>
+<span id="cb15-29"><a href="#cb15-29" aria-hidden="true" tabindex="-1"></a>        <span class="at">title =</span> <span class="st">"Longitudinal Diet × Age Interaction Effects Across Childhood"</span>,</span>
+<span id="cb15-30"><a href="#cb15-30" aria-hidden="true" tabindex="-1"></a>        <span class="at">subtitle =</span> <span class="st">"Top nominal associations (p &lt; 0.05) indicating child metabolite trajectory divergence"</span></span>
+<span id="cb15-31"><a href="#cb15-31" aria-hidden="true" tabindex="-1"></a>      ) <span class="sc">+</span></span>
+<span id="cb15-32"><a href="#cb15-32" aria-hidden="true" tabindex="-1"></a>      <span class="fu">theme_minimal</span>(<span class="at">base_size =</span> <span class="dv">14</span>) <span class="sc">+</span></span>
+<span id="cb15-33"><a href="#cb15-33" aria-hidden="true" tabindex="-1"></a>      <span class="fu">theme</span>(</span>
+<span id="cb15-34"><a href="#cb15-34" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.position =</span> <span class="st">"bottom"</span>,</span>
+<span id="cb15-35"><a href="#cb15-35" aria-hidden="true" tabindex="-1"></a>        <span class="at">strip.text =</span> <span class="fu">element_text</span>(<span class="at">face =</span> <span class="st">"bold"</span>, <span class="at">size =</span> <span class="dv">12</span>),</span>
+<span id="cb15-36"><a href="#cb15-36" aria-hidden="true" tabindex="-1"></a>        <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">face =</span> <span class="st">"bold"</span>, <span class="at">size =</span> <span class="dv">15</span>)</span>
+<span id="cb15-37"><a href="#cb15-37" aria-hidden="true" tabindex="-1"></a>      )</span>
+<span id="cb15-38"><a href="#cb15-38" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb15-39"><a href="#cb15-39" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-longitudinal-forest" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-longitudinal-forest-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="figures_files/figure-html/fig-longitudinal-forest-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-22" title="Figure&nbsp;22: Longitudinal Diet × Age interaction forest plots. Standardized interaction beta coefficients (95% CI) represent the annual rate of change in child metabolite levels associated with maternal dietary intake during pregnancy. Shown for top nominal associations (p < 0.05) by timing window and colored by metabolite biological group."><img src="figures_files/figure-html/fig-longitudinal-forest-1.png" class="img-fluid figure-img" width="4200"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-longitudinal-forest-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;22: Longitudinal Diet × Age interaction forest plots. Standardized interaction beta coefficients (95% CI) represent the annual rate of change in child metabolite levels associated with maternal dietary intake during pregnancy. Shown for top nominal associations (p &lt; 0.05) by timing window and colored by metabolite biological group.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
