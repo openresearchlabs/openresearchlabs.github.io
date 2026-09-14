@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Lotta Collaboration"
-AuthUserFile /home/hoster/.htpasswd-lotta
-Require valid-user
