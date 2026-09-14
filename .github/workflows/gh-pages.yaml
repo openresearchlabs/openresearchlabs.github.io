@@ -24,44 +24,6 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Checkout Husna output
-        uses: actions/checkout@v4
-        with:
-          repository: 0xMuluh/fopp-husna
-          token: ${{ secrets.PRIVATE_REPO_TOKEN }}
-          path: _collab/husna
-          sparse-checkout: |
-            output
-          lfs: true
-
-      - name: Checkout Lotta output
-        uses: actions/checkout@v4
-        with:
-          repository: 0xMuluh/fopp-lotta
-          token: ${{ secrets.PRIVATE_REPO_TOKEN }}
-          path: _collab/lotta
-          sparse-checkout: |
-            output
-          lfs: true
-
-      - name: Copy collab sites
-        run: |
-          mkdir -p public/collab/kirsi/husna public/collab/kirsi/lotta
-          rsync -a --delete _collab/husna/output/ public/collab/kirsi/husna/
-          rsync -a --delete _collab/lotta/output/ public/collab/kirsi/lotta/
-          printf '%s\n' \
-            'AuthType Basic' \
-            'AuthName "Husna Collaboration"' \
-            'AuthUserFile /home/hoster/.htpasswd-husna' \
-            'Require valid-user' \
-            > public/collab/kirsi/husna/.htaccess
-          printf '%s\n' \
-            'AuthType Basic' \
-            'AuthName "Lotta Collaboration"' \
-            'AuthUserFile /home/hoster/.htpasswd-lotta' \
-            'Require valid-user' \
-            > public/collab/kirsi/lotta/.htaccess
-
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         if: github.ref == 'refs/heads/master'
