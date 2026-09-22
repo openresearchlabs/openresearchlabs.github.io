@@ -5335,7 +5335,8 @@
     "URL": "https://edition.fi/tsv/catalog/view/669/702/2461-1",
     "author": [
       {
-        "family": "Open Science Coordination in Finland",
+        "dropping-particle": "Open Science Coordination in",
+        "family": "Finland",
         "given": "Federation of Finnish Learned Societies"
       }
     ],
@@ -8558,7 +8559,8 @@
         "given": "Ioannis"
       },
       {
-        "family": "Carrillo de Santa Pau",
+        "dropping-particle": "Carrillo de",
+        "family": "Santa Pau",
         "given": "Enrique"
       },
       {
@@ -10152,8 +10154,8 @@
   {
     "author": [
       {
-        "dropping-particle": "in",
-        "family": "Open Education (Open Science Coordination in Finland)",
+        "dropping-particle": "in Open Education (Open Science Coordination in",
+        "family": "Finland)",
         "given": "Expert Panel"
       }
     ],
@@ -12851,8 +12853,8 @@
         "given": "Leo"
       },
       {
-        "dropping-particle": "and",
-        "family": "Willem M. de Vos"
+        "dropping-particle": "and Willem M. de",
+        "family": "Vos"
       }
     ],
     "container-title": "Clinical Microbiology and Infection",
