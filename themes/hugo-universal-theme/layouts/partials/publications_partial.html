@@ -11,52 +11,34 @@
 <!-- if there are no authors, this will not run -->
 <!-- institution authors are printed (for some reason) in publisher field -->
 {{- if .author -}}
-<!-- number of authors in paper -->
-{{ $len := len .author }}
-<!-- when there is only 1 author: no need for delimiter -->
-
-{{ if eq $len 1 }}
-
-{{ range .author }}
-  {{ .family }}
-  {{ if .given }} {{ substr .given 0 1 }}{{ end }}
-{{ end }}
-
-
-<!-- when there are 2 authors: only delimiter is ampersand -->
-{{ else if eq $len 2 }}
-
-{{ range first 1 .author }}
-  {{ .family }}
-  {{ if .given }} {{ substr .given 0 1 }}{{ end }}&#32;&amp;&#32;
-{{ end }}
-{{ range last 1 .author }}
-  {{ .family }}
-  {{ if .given }} {{ substr .given 0 1 }}{{ end }}
-  {{- if .literal -}} {{ .literal }} {{- end -}}.
-{{ end }}
-
-{{ else if gt $len 2 }}
-
-<!-- when there are 3 or more authors -->
-<!-- make all but last and 2nd last author have "," as delimiter -->
-  {{ $len := sub $len 2 }}
-  
-  {{ range $index, $element := .author }}
-    {{ if (lt $index $len) }}{{/* for indexes 0...n-2 in 0...n */ -}}
-      {{ .family }}
-      {{ if .given }} {{ substr .given 0 1 }}{{ end }},
-    {{ else if (eq $index $len) }}{{/* for index n-1 in 0...n */ -}}
-      {{ .family }}
-      {{ if .given }} {{ substr .given 0 1 }}{{ end }}&#32;&amp;&#32;
-    {{ else }}{{/* for index n in 0...n */ -}}
-      {{ .family }}
-      {{ if .given }} {{ substr .given 0 1 }}{{ end }}
-      {{- if .literal -}} {{ .literal }} {{- end -}}.
-  {{ end }}
-  
-  {{ end }}
-{{ end }}
+<!-- Build the display names first. pandoc renders a BibTeX `and others`
+     as a literal author called "others"; that becomes "et al." and
+     suppresses the ampersand before it. -->
+{{- $names := slice -}}
+{{- $etal := false -}}
+{{- range .author -}}
+  {{- if .literal -}}
+    {{- if eq (lower .literal) "others" -}}
+      {{- $etal = true -}}
+    {{- else -}}
+      {{- $names = $names | append .literal -}}
+    {{- end -}}
+  {{- else -}}
+    {{- $n := .family -}}
+    {{- if .given -}}
+      {{- $n = printf "%s %s" .family (substr .given 0 1) -}}
+    {{- end -}}
+    {{- $names = $names | append $n -}}
+  {{- end -}}
+{{- end -}}
+{{- $count := len $names -}}
+{{- if $etal -}}
+  {{ delimit $names ", " }}, <em>et al.</em>
+{{- else if eq $count 1 -}}
+  {{ index $names 0 }}
+{{- else if gt $count 1 -}}
+  {{ delimit (first (sub $count 1) $names) ", " }}&#32;&amp;&#32;{{ index $names (sub $count 1) }}.
+{{- end -}}
 <br>
 {{- end -}}
 
