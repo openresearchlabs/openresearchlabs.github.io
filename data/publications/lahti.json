@@ -2508,6 +2508,7 @@
       ]
     },
     "keyword": "bioscience",
+    "status": "preprint",
     "title": "Biome-specific genome catalogues reveal functional potential of shallow sequencing",
     "type": "article-journal"
   },
@@ -5334,8 +5335,7 @@
     "URL": "https://edition.fi/tsv/catalog/view/669/702/2461-1",
     "author": [
       {
-        "dropping-particle": "Open Science Coordination in",
-        "family": "Finland",
+        "family": "Open Science Coordination in Finland",
         "given": "Federation of Finnish Learned Societies"
       }
     ],
@@ -6009,6 +6009,7 @@
       ]
     },
     "keyword": "bioscience",
+    "status": "preprint",
     "title": "Microbiome-based risk prediction in incident heart failure: A community challenge",
     "title-short": "Microbiome-based risk prediction in incident heart failure",
     "type": "article-journal"
@@ -6494,6 +6495,7 @@
       ]
     },
     "keyword": "bioscience",
+    "status": "preprint",
     "title": "Infant left amygdala volume is negatively associated with fecal microbiota diversity",
     "type": "article-journal"
   },
@@ -8556,8 +8558,7 @@
         "given": "Ioannis"
       },
       {
-        "dropping-particle": "Carrillo de",
-        "family": "Santa Pau",
+        "family": "Carrillo de Santa Pau",
         "given": "Enrique"
       },
       {
@@ -10151,8 +10152,8 @@
   {
     "author": [
       {
-        "dropping-particle": "in Open Education (Open Science Coordination in",
-        "family": "Finland)",
+        "dropping-particle": "in",
+        "family": "Open Education (Open Science Coordination in Finland)",
         "given": "Expert Panel"
       }
     ],
@@ -10428,7 +10429,7 @@
     "type": "paper-conference"
   },
   {
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2019-Makela-DHN.pdf",
+    "URL": "http://ceur-ws.org/Vol-2365/07-TwinTalks-DHN2019_paper_7.pdf",
     "author": [
       {
         "family": "Mäkelä",
@@ -10478,14 +10479,13 @@
     "keyword": "dh",
     "page": "55-66",
     "publisher-place": "Copenhagen",
-    "status": "dh",
     "title": "Interdisciplinary collaboration in studying newspaper materiality",
     "type": "paper-conference",
     "volume": "2365"
   },
   {
     "DOI": "10.21825/jeps.v4i1.10483",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2019-Marjanen-JEPS.pdf",
+    "URL": "https://ojs.ugent.be/jeps/article/view/10483",
     "author": [
       {
         "family": "Marjanen",
@@ -10528,7 +10528,6 @@
     },
     "keyword": "dh",
     "note": "Special issue: Digital Approaches Towards Serial Publications",
-    "status": "dh",
     "title": "A national public sphere? Analyzing the language, location, and form of newspapers in finland, 1771–1917",
     "type": "article-journal",
     "volume": "4"
@@ -10645,7 +10644,6 @@
     },
     "keyword": "dh",
     "publisher-place": "Copenhagen",
-    "status": "dh",
     "title": "Scaling up bibliographic data science",
     "type": "paper-conference"
   },
@@ -10935,7 +10933,7 @@
   {
     "DOI": "10.1103/PhysRevE.97.062407",
     "ISSN": "2470-0045",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2018-Arani-PhysRevE.pdf",
+    "URL": "https://link.aps.org/doi/10.1103/PhysRevE.97.062407",
     "author": [
       {
         "family": "Arani",
@@ -10977,7 +10975,7 @@
     "volume": "97"
   },
   {
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2018-Bjork-ATT.pdf",
+    "URL": "http://urn.fi/URN:NBN:fi-fe201802123334",
     "author": [
       {
         "family": "Björk",
@@ -11011,7 +11009,6 @@
     "keyword": "openscience",
     "note": "Report on the openness of major scientific publishers commissioned by Finnish Ministry of Education and Culture",
     "publisher": "unknown; Open Science and Research Initiative (ATT)",
-    "status": "openscience",
     "title": "Opening academic publishing: Development and application of systematic evaluation criteria",
     "title-short": "Opening academic publishing",
     "type": "report"
@@ -11513,7 +11510,7 @@
     "volume": "105"
   },
   {
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2017-Lahti-RJournal.pdf",
+    "URL": "https://journal.r-project.org/archive/2017/RJ-2017-019/index.html",
     "annote": "R package homepage URL: http://ropengov.github.io/eurostat/",
     "author": [
       {
@@ -11585,10 +11582,9 @@
         ]
       ]
     },
-    "keyword": "dh",
+    "keyword": "dh, openscience",
     "note": "Review of the international conference, including electronic material (video interviews, lectures and podcasts.",
     "page": "e13593",
-    "status": "openscience",
     "title": "Alchemy & algorithms: Perspectives on the philosophy and history of open science",
     "title-short": "Alchemy & algorithms",
     "type": "article-journal",
@@ -11634,7 +11630,6 @@
       ]
     },
     "keyword": "bioscience",
-    "note": "review",
     "page": "182-199",
     "title": "Intestinal microbiome landscaping: Insight in community assemblage and implications for microbial modulation strategies",
     "title-short": "Intestinal microbiome landscaping",
@@ -11868,14 +11863,13 @@
     },
     "keyword": "dh",
     "page": "87-116",
-    "status": "dh",
     "title": "A quantitative study of history in the english short-title catalogue (ESTC) 1470-1800",
     "type": "article-journal",
     "volume": "25"
   },
   {
     "ISBN": "978-1-4503-3948-3",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2015-Laine-Mindtrek.pdf",
+    "URL": "http://dl.acm.org/citation.cfm?id=2818187",
     "author": [
       {
         "family": "Laine",
@@ -12022,7 +12016,7 @@
         ]
       ]
     },
-    "keyword": "bioscience",
+    "keyword": "bioscience, gut",
     "note": "Top science article in Guardian on the release day.",
     "page": "6342",
     "title": "Fat, fiber and cancer risk in african, americans and rural africans",
@@ -12555,7 +12549,7 @@
         ]
       ]
     },
-    "keyword": "datascience",
+    "keyword": "datascience, dh",
     "note": "ICML/MLOSS workshop (Int’l Conf. on Machine Learning - Open Source Software workshop).",
     "publisher": "software",
     "title": "rOpenGov: Open source ecosystem for computational social sciences and digital humanities",
@@ -12857,8 +12851,8 @@
         "given": "Leo"
       },
       {
-        "dropping-particle": "and Willem M. de",
-        "family": "Vos"
+        "dropping-particle": "and",
+        "family": "Willem M. de Vos"
       }
     ],
     "container-title": "Clinical Microbiology and Infection",
@@ -13146,6 +13140,7 @@
     "type": "paper-conference"
   },
   {
+    "DOI": "10.1371/journal.pone.0023035",
     "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2011-JalankaTuovinen-PLoS.pdf",
     "author": [
       {
@@ -13427,7 +13422,7 @@
   },
   {
     "DOI": "10.1093/bioinformatics/btq500",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2010-Bioinformatics-Lahti-NetResponse.pdf",
+    "URL": "http://bioinformatics.oxfordjournals.org/content/early/2010/09/02/bioinformatics.btq500.abstract.html?ijkey=N1zzjtUBRng3wCM&keytype=ref",
     "annote": "ArXiv: http://arxiv.org/abs/1202.0501; R/Matlab source code http://netpro.r-forge.r-project.org",
     "author": [
       {
@@ -13550,7 +13545,7 @@
   },
   {
     "ISSN": "1797-5069",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2010-Lahti-thesis.pdf",
+    "URL": "http://lib.tkk.fi/Diss/2010/isbn9789526033686/",
     "abstract": "Recent advances in high-throughput measurement technologies and efficient sharing of biomedical data through community databases have made it possible to investigate the complete collection of genetic material, the genome, which encodes the heritable genetic program of an organism. This has opened up new views to the study of living organisms with a profound impact on biological research. Functional genomics is a subdiscipline of molecular biology that investigates the functional organization of genetic information. This thesis develops computational strategies to investigate a key functional layer of the genome, the transcriptome. The time- and context-specific transcriptional activity of the genes regulates the function of living cells through protein synthesis. Efficient computational techniques are needed in order to extract useful information from high-dimensional genomic observations that are associated with high levels of complex variation. Statistical learning and probabilistic models provide the theoretical framework for combining statistical evidence across multiple observations and the wealth of background information in genomic data repositories. This thesis addresses three key challenges in transcriptome analysis. First, new preprocessing techniques that utilize side information in genomic sequence databases and microarray collections are developed to improve the accuracy of high-throughput microarray measurements. Second, a novel exploratory approach is proposed in order to construct a global view of cell-biological network activation patterns and functional relatedness between tissues across normal human body. Information in genomic interaction databases is used to derive constraints that help to focus the modeling in those parts of the data that are supported by known or potential interactions between the genes, and to scale up the analysis. The third contribution is to develop novel approaches to model dependency between co-occurring measurement sources. The methods are used to study cancer mechanisms and transcriptome evolution; integrative analysis of the human transcriptome and other layers of genomic information allows the identification of functional mechanisms and interactions that could not be detected based on the individual measurement sources. Open source implementations of the key methodological contributions have been released to facilitat e their further adoption by the research community.",
     "author": [
       {
@@ -13701,7 +13696,7 @@
     "type": ""
   },
   {
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2009-MLSP-Lahti-SimCCA.pdf",
+    "URL": "http://arxiv.org/abs/1101.5919",
     "author": [
       {
         "family": "Lahti",
@@ -13773,6 +13768,7 @@
     "type": ""
   },
   {
+    "DOI": "10.48550/arXiv.1109.4919",
     "URL": "https://arxiv.org/abs/1109.4919",
     "author": [
       {
@@ -13789,7 +13785,7 @@
       ]
     },
     "keyword": "bioscience",
-    "note": "(in Finnish)",
+    "note": "Overview of machine-readable representations of biological processes (in Finnish).",
     "publisher": "arXiv",
     "title": "A brief overview on the BioPAX and SBML standards",
     "type": ""
@@ -13985,7 +13981,7 @@
     "type": "report"
   },
   {
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2004-ECML-Sinkkonen-AC.pdf",
+    "URL": "http://www.cis.hut.fi/projects/mi/abstracts/ecml04.html",
     "author": [
       {
         "family": "Sinkkonen",
@@ -14035,7 +14031,7 @@
     "type": "chapter"
   },
   {
-    "URL": "https://github.com/antagomir/thesis/blob/master/msc03/dtyo.pdf",
+    "URL": "https://github.com/antagomir/thesis/tree/master/msc03",
     "author": [
       {
         "family": "Lahti",
