@@ -728,7 +728,8 @@
     "issued": {
       "date-parts": [
         [
-          2026
+          2026,
+          12
         ]
       ]
     },
@@ -761,7 +762,8 @@
     "issued": {
       "date-parts": [
         [
-          2026
+          2026,
+          6
         ]
       ]
     },
@@ -797,7 +799,8 @@
     "issued": {
       "date-parts": [
         [
-          2026
+          2026,
+          5
         ]
       ]
     },
@@ -1433,7 +1436,8 @@
     "issued": {
       "date-parts": [
         [
-          2025
+          2025,
+          11
         ]
       ]
     },
@@ -2234,7 +2238,8 @@
     "issued": {
       "date-parts": [
         [
-          2025
+          2025,
+          8
         ]
       ]
     },
@@ -3447,7 +3452,8 @@
     "issued": {
       "date-parts": [
         [
-          2025
+          2025,
+          2
         ]
       ]
     },
@@ -3972,7 +3978,8 @@
     "issued": {
       "date-parts": [
         [
-          2024
+          2024,
+          8
         ]
       ]
     },
@@ -4157,7 +4164,8 @@
     "issued": {
       "date-parts": [
         [
-          2024
+          2024,
+          9
         ]
       ]
     },
@@ -4696,6 +4704,7 @@
   },
   {
     "DOI": "10.5281/zenodo.10663903",
+    "annote": "Project leaders: Anna Mette Morthorst, Jean-Francois Nominé, Karsten Kryger Hansen,Laurents Sesink WG experts: Birgit Schmidt, Birte Christensen-Dalsgaard, Daniel Roewenstrunk,Egon Heuson, Leo Lahti, Loek Brinkman, Matt Jaquiery, Olivier Rouchon and Stefanie Mewes and Toumas Alatera",
     "author": [
       {
         "family": "Barker",
@@ -5718,6 +5727,7 @@
       ]
     },
     "keyword": "bioscience",
+    "note": "Selected as \"Featured article\" of the February 2024 issue.",
     "page": "477-487",
     "title": "Role of gut microbiota in statin-associated new-onset diabetes—a cross-sectional and prospective analysis of the FINRISK 2002 cohort",
     "type": "article-journal",
@@ -6816,7 +6826,8 @@
     "issued": {
       "date-parts": [
         [
-          2023
+          2023,
+          3
         ]
       ]
     },
@@ -6846,7 +6857,8 @@
     "issued": {
       "date-parts": [
         [
-          2023
+          2023,
+          5
         ]
       ]
     },
@@ -6968,7 +6980,8 @@
     "issued": {
       "date-parts": [
         [
-          2022
+          2022,
+          9
         ]
       ]
     },
@@ -7001,7 +7014,8 @@
     "issued": {
       "date-parts": [
         [
-          2022
+          2022,
+          9
         ]
       ]
     },
@@ -7049,7 +7063,8 @@
     "issued": {
       "date-parts": [
         [
-          2022
+          2022,
+          8
         ]
       ]
     },
@@ -7175,7 +7190,8 @@
     "issued": {
       "date-parts": [
         [
-          2022
+          2022,
+          3
         ]
       ]
     },
@@ -7215,7 +7231,8 @@
     "issued": {
       "date-parts": [
         [
-          2022
+          2022,
+          6
         ]
       ]
     },
@@ -7238,6 +7255,7 @@
         "given": "Leo"
       }
     ],
+    "container-title": "Proc. 20th international conference on computational methods in systems biology (CMSB). Lecture notes in computer science.",
     "editor": [
       {
         "family": "Petre",
@@ -7261,7 +7279,7 @@
     "publisher": "Springer Cham.",
     "publisher-place": "Bucharest, Romania, September 14–16",
     "title": "Probabilistic multivariate early warning signals",
-    "type": ""
+    "type": "paper-conference"
   },
   {
     "DOI": "10.3390/nu14132667",
@@ -7341,7 +7359,8 @@
     "issued": {
       "date-parts": [
         [
-          2022
+          2022,
+          6
         ]
       ]
     },
@@ -7574,7 +7593,8 @@
     "issued": {
       "date-parts": [
         [
-          2022
+          2022,
+          5
         ]
       ]
     },
@@ -7613,7 +7633,8 @@
     "issued": {
       "date-parts": [
         [
-          2022
+          2022,
+          3
         ]
       ]
     },
@@ -7773,7 +7794,8 @@
     "issued": {
       "date-parts": [
         [
-          2022
+          2022,
+          4
         ]
       ]
     },
@@ -7829,7 +7851,8 @@
     "issued": {
       "date-parts": [
         [
-          2022
+          2022,
+          4
         ]
       ]
     },
@@ -8007,7 +8030,8 @@
     "issued": {
       "date-parts": [
         [
-          2022
+          2022,
+          1
         ]
       ]
     },
@@ -8118,7 +8142,8 @@
     "issued": {
       "date-parts": [
         [
-          2021
+          2021,
+          9
         ]
       ]
     },
@@ -8409,7 +8434,8 @@
     "issued": {
       "date-parts": [
         [
-          2021
+          2021,
+          8
         ]
       ]
     },
@@ -8581,7 +8607,8 @@
     "issued": {
       "date-parts": [
         [
-          2021
+          2021,
+          2
         ]
       ]
     },
@@ -9029,7 +9056,8 @@
     "issued": {
       "date-parts": [
         [
-          2021
+          2021,
+          5
         ]
       ]
     },
@@ -9084,7 +9112,8 @@
     "issued": {
       "date-parts": [
         [
-          2021
+          2021,
+          2
         ]
       ]
     },
@@ -9297,7 +9326,8 @@
     "issued": {
       "date-parts": [
         [
-          2021
+          2021,
+          2
         ]
       ]
     },
@@ -9397,7 +9427,8 @@
     "issued": {
       "date-parts": [
         [
-          2022
+          2022,
+          5
         ]
       ]
     },
@@ -9468,7 +9499,8 @@
     "issued": {
       "date-parts": [
         [
-          2020
+          2020,
+          9
         ]
       ]
     },
@@ -9555,7 +9587,8 @@
     "issued": {
       "date-parts": [
         [
-          2020
+          2020,
+          11
         ]
       ]
     },
@@ -9803,6 +9836,7 @@
       ]
     },
     "keyword": "dh",
+    "note": "Selected as the best long paper in DHN2020.",
     "page": "81-96",
     "title": "Wrangling with non-standard data",
     "type": "paper-conference",
@@ -9961,7 +9995,8 @@
     "issued": {
       "date-parts": [
         [
-          2020
+          2020,
+          10
         ]
       ]
     },
@@ -10042,7 +10077,6 @@
   },
   {
     "DOI": "10.21873/anticanres.14074",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2020-Sarhadi-Anticanc.pdf",
     "author": [
       {
         "family": "Sarhadi",
@@ -10178,7 +10212,6 @@
   },
   {
     "DOI": "10.1016/j.bbi.2019.05.035",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2019-Aatsinki.pdf",
     "author": [
       {
         "family": "Aatsinki",
@@ -10359,7 +10392,6 @@
   },
   {
     "DOI": "10.1080/01639374.2018.1543747",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2019-Lahti-CCQ.pdf",
     "author": [
       {
         "family": "Lahti",
@@ -10536,7 +10568,6 @@
   },
   {
     "DOI": "10.1007/s12038-019-9930-2",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2019-Shetty-MDS.pdf",
     "author": [
       {
         "family": "Shetty",
@@ -10695,7 +10726,6 @@
   },
   {
     "DOI": "10.1093/femsec/fiz096",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2019-Stolaki-FEMS.pdf",
     "author": [
       {
         "family": "Stolaki",
@@ -10739,11 +10769,11 @@
     "keyword": "bioscience",
     "page": "fiz096",
     "title": "Microbial communities in a dynamic it in vitro model for the human ileum resemble the human ileal microbiota",
-    "type": "article-journal"
+    "type": "article-journal",
+    "volume": "95"
   },
   {
     "DOI": "10.1080/01615440.2018.1526657",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2019-Tolonen.pdf",
     "author": [
       {
         "family": "Tolonen",
@@ -10767,7 +10797,8 @@
     "issued": {
       "date-parts": [
         [
-          2019
+          2019,
+          1
         ]
       ]
     },
@@ -10874,7 +10905,6 @@
   },
   {
     "DOI": "10.1089/jwh.2017.6488",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2018-Aatsinki.pdf",
     "author": [
       {
         "family": "Aatsinki",
@@ -11017,7 +11047,6 @@
   },
   {
     "DOI": "10.1186/s40168-018-0496-2",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2018-Faust-Microbiome.pdf",
     "author": [
       {
         "family": "Faust",
@@ -11070,7 +11099,6 @@
   },
   {
     "DOI": "10.1016/j.mib.2018.07.004",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2018-Gonze.pdf",
     "author": [
       {
         "family": "Gonze",
@@ -11247,7 +11275,6 @@
   },
   {
     "DOI": "10.1007/s10620-018-5190-5",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2018-Youssef.pdf",
     "author": [
       {
         "family": "Youssef",
@@ -11326,7 +11353,6 @@
         "literal": "OpenUTU work group"
       }
     ],
-    "container-title": "unknown",
     "id": "openutu2018",
     "issued": {
       "date-parts": [
@@ -11344,7 +11370,6 @@
   },
   {
     "DOI": "10.1186/s40168-017-0309-z",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2017-Buelow-Microbiome.pdf",
     "author": [
       {
         "family": "Buelow",
@@ -11430,7 +11455,6 @@
   },
   {
     "DOI": "10.1038/ismej.2017.60",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2017-Faust-ISME.pdf",
     "author": [
       {
         "family": "Gonze",
@@ -11467,7 +11491,6 @@
   },
   {
     "DOI": "10.1109/JPROC.2015.2428213",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2017-Harris-IEEE.pdf",
     "author": [
       {
         "family": "Harris",
@@ -11550,7 +11573,6 @@
   },
   {
     "DOI": "10.3897/rio.3.e13593",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2017-Lahti-PHOS.pdf",
     "author": [
       {
         "family": "Lahti",
@@ -11594,7 +11616,6 @@
   },
   {
     "DOI": "10.1093/femsre/fuw045",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2017-Shetty-FEMS.pdf",
     "author": [
       {
         "family": "Shetty",
@@ -11699,7 +11720,6 @@
   },
   {
     "DOI": "10.12688/f1000research.5686.2",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2014-Aleksic.pdf",
     "author": [
       {
         "family": "Aleksic",
@@ -11793,7 +11813,6 @@
   },
   {
     "DOI": "10.1016/j.mib.2015.04.004",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2015-Faust-CurrOpMicrob.pdf",
     "author": [
       {
         "family": "Faust",
@@ -11837,7 +11856,6 @@
   {
     "DOI": "10.18352/lq.10112",
     "ISSN": "2213-056X",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2015-Lahti-LIBERQuarterly.pdf",
     "author": [
       {
         "family": "Lahti",
@@ -11911,7 +11929,6 @@
   },
   {
     "DOI": "10.1038/ncomms7342",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2015-OKeefe-NComms.pdf",
     "annote": "Guardian: http://www.theguardian.com/science/2015/apr/28/bowel-cancer-risk-may-be-reduced-by-rural-african-diet-study-finds",
     "author": [
       {
@@ -12027,7 +12044,6 @@
   },
   {
     "DOI": "10.1186/s12864-015-2265-y",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2015-Ritari-BMCGenomics.pdf",
     "author": [
       {
         "family": "Ritari",
@@ -12065,7 +12081,6 @@
   },
   {
     "DOI": "10.1038/srep17284",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2015-Atagashi.pdf",
     "author": [
       {
         "family": "Atashgahi",
@@ -12130,7 +12145,6 @@
   },
   {
     "DOI": "10.1186/s13395-015-0059-1",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2015-Su-SkeletalMuscle.pdf",
     "author": [
       {
         "family": "Su",
@@ -12214,7 +12228,6 @@
   },
   {
     "DOI": "10.1038/nmeth.3103",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2014-Alneberg-NatMeth.pdf",
     "author": [
       {
         "family": "Alneberg",
@@ -12264,7 +12277,8 @@
     "issued": {
       "date-parts": [
         [
-          2014
+          2014,
+          9
         ]
       ]
     },
@@ -12276,7 +12290,6 @@
   },
   {
     "DOI": "10.4161/sysb.28904",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2014-Louhimo.pdf",
     "author": [
       {
         "family": "Louhimo",
@@ -12342,7 +12355,6 @@
   },
   {
     "DOI": "10.1038/ncomms5344",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2014-Lahti-NatComm.pdf",
     "author": [
       {
         "family": "Lahti",
@@ -12384,7 +12396,6 @@
   },
   {
     "DOI": "10.1038/ismej.2014.63",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2014-Salonen-ISME.pdf",
     "author": [
       {
         "family": "Salonen",
@@ -12441,7 +12452,8 @@
     "issued": {
       "date-parts": [
         [
-          2014
+          2014,
+          4
         ]
       ]
     },
@@ -12560,7 +12572,6 @@
   },
   {
     "DOI": "10.1093/nar/gkt229",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2013-Lahti-NAR.pdf",
     "author": [
       {
         "family": "Lahti",
@@ -12589,7 +12600,8 @@
     "issued": {
       "date-parts": [
         [
-          2013
+          2013,
+          4
         ]
       ]
     },
@@ -12603,7 +12615,6 @@
   {
     "DOI": "10.7717/peerj.32",
     "PMID": "23638368",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2013-Lahti-PeerJ.pdf",
     "author": [
       {
         "family": "Lahti",
@@ -12644,7 +12655,8 @@
     "issued": {
       "date-parts": [
         [
-          2013
+          2013,
+          2
         ]
       ]
     },
@@ -12657,7 +12669,6 @@
   },
   {
     "DOI": "10.1093/bib/bbs005",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2013-Lahti-BriefBioinf.pdf",
     "author": [
       {
         "family": "Lahti",
@@ -12700,7 +12711,6 @@
   },
   {
     "DOI": "10.1016/j.ygeno.2013.01.001",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2013-Sarhadi-Genomics.pdf",
     "author": [
       {
         "family": "Sarhadi",
@@ -12838,7 +12848,6 @@
   },
   {
     "DOI": "10.1111/j.1469-0691.2012.03855.x",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2012-Salonen-CMI.pdf",
     "author": [
       {
         "family": "Salonen",
@@ -12863,7 +12872,8 @@
     "issued": {
       "date-parts": [
         [
-          2012
+          2012,
+          7
         ]
       ]
     },
@@ -12875,7 +12885,6 @@
   },
   {
     "DOI": "10.1016/j.cancergen.2012.08.003",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2012-Mosakhani-CG.pdf",
     "author": [
       {
         "family": "Mosakhani",
@@ -12933,7 +12942,6 @@
   },
   {
     "DOI": "10.3109/10428194.2012.685731",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2012-Mosakhani-LL.pdf",
     "author": [
       {
         "family": "Mosakhani",
@@ -13143,7 +13151,6 @@
   },
   {
     "DOI": "10.1371/journal.pone.0023035",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2011-JalankaTuovinen-PLoS.pdf",
     "author": [
       {
         "family": "Jalanka-Tuovinen",
@@ -13264,7 +13271,6 @@
   },
   {
     "DOI": "10.1109/TCBB.2009.38",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2011-Lahti-TCBB.pdf",
     "annote": "R/Bioconductor: RPA",
     "author": [
       {
@@ -13304,7 +13310,6 @@
   },
   {
     "DOI": "10.1002/gcc.20851",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2011-Niini-GCC.pdf",
     "author": [
       {
         "family": "Niini",
@@ -13366,7 +13371,6 @@
   },
   {
     "DOI": "10.1002/gcc.20880",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2011-Nymark-GCC.pdf",
     "author": [
       {
         "family": "Nymark",
@@ -13576,7 +13580,6 @@
   },
   {
     "DOI": "10.1038/modpathol.2010.146",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2010-ModernPathology-Mosakhani-Dupuytre.pdf",
     "author": [
       {
         "family": "Mosakhani",
@@ -13626,7 +13629,6 @@
   },
   {
     "DOI": "10.1002/gcc.20669",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2009-GCC-Guled-miRNA.pdf",
     "author": [
       {
         "family": "Guled",
@@ -13789,6 +13791,7 @@
     "keyword": "bioscience",
     "note": "Overview of machine-readable representations of biological processes (in Finnish).",
     "publisher": "arXiv",
+    "status": "preprint",
     "title": "A brief overview on the BioPAX and SBML standards",
     "type": ""
   },
@@ -13855,7 +13858,6 @@
   },
   {
     "DOI": "10.1093/nar/gni193",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2005-Elo-NAR.pdf",
     "author": [
       {
         "family": "Elo",
@@ -13901,7 +13903,6 @@
   },
   {
     "DOI": "10.1109/TCBB.2005.32",
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2005-TCBB–Kaski-AC.pdf",
     "author": [
       {
         "family": "Kaski",

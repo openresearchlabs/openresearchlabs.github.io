@@ -6,16 +6,21 @@
       {{ partial "publications_partial" . }}
     {{ end }}
   {{ else if (isset .Params "keyword") }}
-    <!-- An entry belongs to the topic named by its FIRST keyword. Any further
-         keywords are secondary tags and do not place it on a topic page, so
-         `keywords = {bioscience, gut}` appears under bioscience only. -->
+    <!-- An entry belongs to every topic named in its `keywords` field, so
+         `keywords = {dh, openscience}` appears on both of those pages.
+         Each keyword is compared whole, and an entry is rendered once
+         however many of its keywords match. -->
     {{ range $path }}
       {{ $ref := . }}
-      {{ $primary := "" }}
+      {{ $hit := false }}
       {{ with .keyword }}
-        {{ $primary = trim (index (split . ",") 0) " " }}
+        {{ range split . "," }}
+          {{ if eq (trim . " ") $.Params.keyword }}
+            {{ $hit = true }}
+          {{ end }}
+        {{ end }}
       {{ end }}
-      {{ if eq $primary $.Params.keyword }}
+      {{ if $hit }}
         {{ partial "publications_partial" $ref }}
       {{ end }}
     {{ end }}
