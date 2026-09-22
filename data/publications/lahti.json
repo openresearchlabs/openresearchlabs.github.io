@@ -531,6 +531,8 @@
     "type": "article-journal"
   },
   {
+    "DOI": "10.1016/j.isci.2026.117043",
+    "ISSN": "2589-0042",
     "author": [
       {
         "family": "Yeo",
@@ -563,22 +565,28 @@
       {
         "family": "Knight",
         "given": "Rob"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
       }
     ],
     "container-title": "iScience",
     "id": "Yeo2026",
+    "issue": "10",
     "issued": {
       "date-parts": [
         [
           2026,
-          7
+          10
         ]
       ]
     },
     "keyword": "bioscience",
-    "note": "In press.",
+    "page": "117043",
     "title": "Population scale analysis reveals gut microbiome diversity and functional shifts linked to obesity",
-    "type": "article-journal"
+    "type": "article-journal",
+    "volume": "29"
   },
   {
     "DOI": "10.1016/j.tjnut.2026.101690",
@@ -827,6 +835,7 @@
         ]
       ]
     },
+    "keyword": "datascience",
     "title": "Introduction to probabilistic programming in r",
     "type": ""
   },
@@ -1595,8 +1604,7 @@
         "given": "Rasmus"
       },
       {
-        "family": "OMA_consortium",
-        "given": "OMA"
+        "literal": "OMA consortium"
       },
       {
         "family": "Pärnänen",
@@ -4167,7 +4175,7 @@
         "given": "Shivang"
       },
       {
-        "family": "Parnanen",
+        "family": "Pärnänen",
         "given": "Katariina"
       },
       {
@@ -4669,7 +4677,7 @@
       }
     ],
     "container-title": "PLoS One",
-    "id": "König2024",
+    "id": "König2024pone",
     "issue": "5",
     "issued": {
       "date-parts": [
@@ -4707,7 +4715,7 @@
         ]
       ]
     },
-    "keyword": "KE",
+    "keyword": "openscience",
     "title": "Approaches to scaling up reproducibility in research organisations",
     "type": "article-journal"
   },
@@ -5304,7 +5312,7 @@
       }
     ],
     "container-title": "Scientific Reports",
-    "id": "König2024",
+    "id": "König2024srep",
     "issue": "132",
     "issued": {
       "date-parts": [
@@ -5326,8 +5334,7 @@
     "URL": "https://edition.fi/tsv/catalog/view/669/702/2461-1",
     "author": [
       {
-        "dropping-particle": "Open Science Coordination in",
-        "family": "Finland",
+        "family": "Open Science Coordination in Finland",
         "given": "Federation of Finnish Learned Societies"
       }
     ],
@@ -5922,11 +5929,8 @@
         "given": "Rajesh"
       },
       {
-        "family": "Marcus"
-      },
-      {
         "family": "Claesson",
-        "given": "Joakim"
+        "given": "Marcus Joakim"
       },
       {
         "family": "Bertelsen",
@@ -6997,6 +7001,7 @@
         ]
       ]
     },
+    "keyword": "dh",
     "page": "95-123",
     "publisher": "dh",
     "title": "The anatomy of eighteenth century collections online (ECCO)",
@@ -8550,8 +8555,7 @@
         "given": "Ioannis"
       },
       {
-        "dropping-particle": "Carrillo de",
-        "family": "Santa Pau",
+        "family": "Carrillo de Santa Pau",
         "given": "Enrique"
       },
       {
@@ -10145,8 +10149,8 @@
   {
     "author": [
       {
-        "dropping-particle": "in Open Education (Open Science Coordination in",
-        "family": "Finland)",
+        "dropping-particle": "in",
+        "family": "Open Education (Open Science Coordination in Finland)",
         "given": "Expert Panel"
       }
     ],
@@ -10589,7 +10593,7 @@
         ]
       ]
     },
-    "keyword": "misc",
+    "keyword": "bioscience",
     "title": "Microbiome yarns: The global phenotype-genotype survey. Episode III: Importance of microbiota diversification for microbiome function and biome health",
     "title-short": "Microbiome yarns",
     "type": "article-journal"
@@ -10825,33 +10829,6 @@
     "type": ""
   },
   {
-    "URL": "https://github.com/velait/OU",
-    "author": [
-      {
-        "family": "Laitinen",
-        "given": "Ville"
-      },
-      {
-        "family": "Lahti",
-        "given": "Leo"
-      }
-    ],
-    "container-title": "StanCon 2018",
-    "id": "Laitinen2018StanCon",
-    "issued": {
-      "date-parts": [
-        [
-          2018
-        ]
-      ]
-    },
-    "keyword": "datascience",
-    "note": "Reviewed reproducible notebook and conference paper",
-    "publisher-place": "Helsinki, Finland",
-    "title": "A hierarchical ornstein-uhlenbeck model for stochastic time series analysis",
-    "type": "paper-conference"
-  },
-  {
     "DOI": "10.1111/1751-7915.13037",
     "author": [
       {
@@ -10885,7 +10862,7 @@
         ]
       ]
     },
-    "keyword": "misc",
+    "keyword": "bioscience",
     "note": "Comics piece for the popularization of microbiome research",
     "page": "149-159",
     "title": "Microbiome yarns: Human biome reproduction, evolution and visual acuity",
@@ -11198,7 +11175,7 @@
     "volume": "11191"
   },
   {
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2018-Laitinen-IDA.pdf",
+    "URL": "https://github.com/velait/OUP",
     "author": [
       {
         "family": "Laitinen",
@@ -12548,6 +12525,7 @@
         ]
       ]
     },
+    "keyword": "datascience",
     "note": "Blog",
     "publisher": "Helsinki Region Infoshare",
     "title": "Sotkanet-indikaattorit sorvi-työkalupakkiin",
@@ -12877,8 +12855,8 @@
         "given": "Leo"
       },
       {
-        "dropping-particle": "and Willem M. de",
-        "family": "Vos"
+        "dropping-particle": "and",
+        "family": "Willem M. de Vos"
       }
     ],
     "container-title": "Clinical Microbiology and Infection",
@@ -14221,6 +14199,1276 @@
     "keyword": "blog",
     "note": "Open government data analytics blog",
     "title": "rOpenGov blog",
+    "type": ""
+  },
+  {
+    "author": [
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "id": "Lahti2019plans",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          1
+        ]
+      ]
+    },
+    "keyword": "openscience",
+    "publisher": "University of Turku",
+    "title": "Plan s and open science",
+    "type": ""
+  },
+  {
+    "author": [
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "id": "Lahti2017aka",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          2
+        ]
+      ]
+    },
+    "keyword": "openscience",
+    "publisher": "Academy of Finland video blog",
+    "title": "Research interview in academy of finland video blog",
+    "type": ""
+  },
+  {
+    "URL": "http://blogs.helsinki.fi/tiedeviestinta/2014/02/26/leo-lahti",
+    "author": [
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "id": "Lahti2014hy",
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          2
+        ]
+      ]
+    },
+    "keyword": "openscience",
+    "publisher": "University of Helsinki web portal, Finland",
+    "title": "Open science interview",
+    "type": ""
+  },
+  {
+    "URL": "http://vimeo.com/49912227",
+    "author": [
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "id": "Lahti2012apps4finland",
+    "issued": {
+      "date-parts": [
+        [
+          2012,
+          9
+        ]
+      ]
+    },
+    "keyword": "openscience",
+    "publisher": "Helsinki, Finland",
+    "title": "Apps4Finland award interview",
+    "type": ""
+  },
+  {
+    "URL": "http://www.hri.fi/fi/ajankohtaista/visualisointiblogi/leo-lahti-esittelee-sorvi-ympariston/",
+    "author": [
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "id": "Lahti2012hri",
+    "issued": {
+      "date-parts": [
+        [
+          2012,
+          3
+        ]
+      ]
+    },
+    "keyword": "openscience",
+    "publisher": "Video interview by Helsinki Region Infoshare (HRI)",
+    "title": "Algorithms for open data",
+    "type": ""
+  },
+  {
+    "URL": "https://www.iki.fi/Leo.Lahti",
+    "author": [
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "id": "Lahti-lectures",
+    "keyword": "openscience",
+    "publisher": "Linked at the research homepage",
+    "title": "Various lectures broadcasted online",
+    "type": ""
+  },
+  {
+    "URL": "http://urn.fi/URN:ISBN:978-952-400-005-5",
+    "author": [
+      {
+        "family": "Leppävirta",
+        "given": "Laura"
+      },
+      {
+        "family": "Mäntylä",
+        "given": "Heidi"
+      },
+      {
+        "family": "Jartti",
+        "given": "Petra"
+      }
+    ],
+    "collection-title": "Oikeusministeriön julkaisuja, mietintöjä ja lausuntoja 2023:32",
+    "id": "Leppavirta2023",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          12
+        ]
+      ]
+    },
+    "keyword": "openscience",
+    "note": "Updating the law on public information; report from the working group. Work group member",
+    "publisher": "Ministry of Justice, Finland",
+    "title": "Julkisuuslain ajantasaistaminen. Työryhmän mietintö",
+    "type": "report"
+  },
+  {
+    "author": [
+      {
+        "literal": "International Campaign to Abolish Nuclear Weapons (ICAN)"
+      }
+    ],
+    "id": "ICAN2021",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          1
+        ]
+      ]
+    },
+    "keyword": "opinion",
+    "note": "Signed together with 121 Finnish influencers in research, culture and politics",
+    "title": "Public appeal to the finnish parliament to join the united nations international agreement to ban nuclear weapons",
+    "type": ""
+  },
+  {
+    "URL": "https://juliahub.com/ui/Packages/FdeSolver/KDuOy/1.0.3",
+    "author": [
+      {
+        "family": "Khalighi",
+        "given": "Moein"
+      },
+      {
+        "family": "Benedetti",
+        "given": "Giulio"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "id": "Khalighi2021fdesolver",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "keyword": "datascience",
+    "publisher": "Julia package",
+    "title": "FdeSolver: Simulation of memory effects with fractional differential equations",
+    "title-short": "FdeSolver",
+    "type": ""
+  },
+  {
+    "URL": "https://juliahub.com/ui/Packages/MicrobiomeAnalysis/paoOp/0.4.0",
+    "author": [
+      {
+        "family": "Benedetti",
+        "given": "Giulio"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "id": "Benedetti2021microbiomeanalysis",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "publisher": "Julia package",
+    "title": "MicrobiomeAnalysis: Microbiome data science framework for julia",
+    "title-short": "MicrobiomeAnalysis",
+    "type": ""
+  },
+  {
+    "URL": "https://www.early-warning-signals.org/",
+    "author": [
+      {
+        "family": "Dakos",
+        "given": "Vasilis"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "id": "Dakos-earlywarnings",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          10
+        ]
+      ]
+    },
+    "keyword": "datascience",
+    "note": "R package version 1.1.29 (CRAN archive). WICI Data Challenge contest 2013 runner-up",
+    "publisher": "CRAN",
+    "title": "Earlywarnings: Analysis of alternative stable states in ecological time series",
+    "title-short": "Earlywarnings",
+    "type": ""
+  },
+  {
+    "DOI": "10.6084/m9.figshare.7577654.v1",
+    "author": [
+      {
+        "family": "Stolaki",
+        "given": "Maria"
+      },
+      {
+        "family": "Minekus",
+        "given": "Mans"
+      },
+      {
+        "family": "Venema",
+        "given": "Koen"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Smid",
+        "given": "Eddy J."
+      },
+      {
+        "family": "Kleerebezem",
+        "given": "Michiel"
+      },
+      {
+        "family": "Zoetendal",
+        "given": "Erwin G."
+      }
+    ],
+    "id": "Stolaki2019data",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          8
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "Dataset",
+    "publisher": "Figshare",
+    "title": "Data for: Microbial communities in a dynamic in vitro model for the human ileum resemble the human ileal microbiota",
+    "title-short": "Data for",
+    "type": ""
+  },
+  {
+    "DOI": "10.5061/dryad.1mn1n",
+    "author": [
+      {
+        "family": "O’Keefe",
+        "given": "SJD"
+      },
+      {
+        "family": "Li",
+        "given": "JV"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Ou",
+        "given": "J"
+      },
+      {
+        "family": "Carbonero",
+        "given": "F"
+      },
+      {
+        "family": "Khaled",
+        "given": "M"
+      },
+      {
+        "family": "Posma",
+        "given": "JM"
+      },
+      {
+        "family": "Kinross",
+        "given": "J"
+      },
+      {
+        "family": "Wahl",
+        "given": "E"
+      },
+      {
+        "family": "Ruder",
+        "given": "E"
+      },
+      {
+        "family": "Vipperla",
+        "given": "K"
+      },
+      {
+        "family": "Naidoo",
+        "given": "V"
+      },
+      {
+        "family": "Mtshali",
+        "given": "L"
+      },
+      {
+        "family": "Tims",
+        "given": "S"
+      },
+      {
+        "family": "Puylaert",
+        "given": "PGB"
+      },
+      {
+        "family": "DeLany",
+        "given": "J"
+      },
+      {
+        "family": "Krasinskas",
+        "given": "A"
+      },
+      {
+        "family": "Benefiel",
+        "given": "AC"
+      },
+      {
+        "family": "Kaseb",
+        "given": "HO"
+      },
+      {
+        "family": "Newton",
+        "given": "K"
+      },
+      {
+        "family": "Nicholson",
+        "given": "JK"
+      },
+      {
+        "dropping-particle": "de",
+        "family": "Vos",
+        "given": "WM"
+      },
+      {
+        "family": "Gaskins",
+        "given": "HR"
+      },
+      {
+        "family": "Zoetendal",
+        "given": "EG"
+      }
+    ],
+    "id": "OKeefe2015data",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "Dataset",
+    "publisher": "Dryad Digital Repository",
+    "title": "Data for: Fat, fibre and cancer risk in african americans and rural africans",
+    "title-short": "Data for",
+    "type": ""
+  },
+  {
+    "DOI": "10.5061/dryad.pk75d",
+    "author": [
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Salojärvi",
+        "given": "Jarkko"
+      },
+      {
+        "family": "Salonen",
+        "given": "Anne"
+      },
+      {
+        "family": "Scheffer",
+        "given": "Marten"
+      },
+      {
+        "dropping-particle": "de",
+        "family": "Vos",
+        "given": "Willem M."
+      }
+    ],
+    "id": "Lahti2014data",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "Dataset",
+    "publisher": "Dryad Digital Repository",
+    "title": "Data for: Tipping elements in the human intestinal ecosystem",
+    "title-short": "Data for",
+    "type": ""
+  },
+  {
+    "URL": "https://peerj.com/articles/32/",
+    "author": [
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Salonen",
+        "given": "Anne"
+      },
+      {
+        "family": "Kekkonen",
+        "given": "Riina A."
+      },
+      {
+        "family": "Salojärvi",
+        "given": "Jarkko"
+      },
+      {
+        "family": "Jalanka-Tuovinen",
+        "given": "Jonna"
+      },
+      {
+        "family": "Palva",
+        "given": "Airi"
+      },
+      {
+        "family": "Oresic",
+        "given": "Matej"
+      },
+      {
+        "dropping-particle": "de",
+        "family": "Vos",
+        "given": "Willem M."
+      }
+    ],
+    "id": "Lahti2013data",
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "Dataset",
+    "publisher": "PeerJ",
+    "title": "Data for: Associations between the human intestinal microbiota, lactobacillus rhamnosus GG and serum lipids indicated by integrated analysis of high-throughput profiling data",
+    "title-short": "Data for",
+    "type": ""
+  },
+  {
+    "URL": "https://ega-archive.org/datasets/EGAD00001007035",
+    "author": [
+      {
+        "family": "Salosensaari",
+        "given": "Aaro"
+      },
+      {
+        "family": "Laitinen",
+        "given": "Ville"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki"
+      },
+      {
+        "family": "Meric",
+        "given": "Guillaume"
+      },
+      {
+        "family": "Cheng",
+        "given": "Susan"
+      },
+      {
+        "family": "Perola",
+        "given": "Markus"
+      },
+      {
+        "family": "Valsta",
+        "given": "Liisa"
+      },
+      {
+        "family": "Alfthan",
+        "given": "Georg"
+      },
+      {
+        "family": "Inouye",
+        "given": "Michael"
+      },
+      {
+        "family": "Watrous",
+        "given": "Jeramie D."
+      },
+      {
+        "family": "Long",
+        "given": "Tao"
+      },
+      {
+        "family": "Salido",
+        "given": "Rodolfo"
+      },
+      {
+        "family": "Sanders",
+        "given": "Karenina"
+      },
+      {
+        "family": "Brennan",
+        "given": "Caitriona"
+      },
+      {
+        "family": "Humphrey",
+        "given": "Gregory C."
+      },
+      {
+        "family": "Sanders",
+        "given": "Jon G."
+      },
+      {
+        "family": "Jain",
+        "given": "Mohit"
+      },
+      {
+        "family": "Jousilahti",
+        "given": "Pekka"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      }
+    ],
+    "id": "Salosensaari2021data",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "Dataset",
+    "publisher": "European Genome-phenome Archive",
+    "title": "Data for: Taxonomic signatures of cause-specific mortality risk in human gut microbiome",
+    "title-short": "Data for",
+    "type": ""
+  },
+  {
+    "URL": "https://doi.org/10.3897/rio.3.e13593",
+    "author": [
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "id": "Lahti2017phos",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          5
+        ]
+      ]
+    },
+    "keyword": "openscience",
+    "note": "Accompanies the conference report DOI:10.3897/rio.3.e13593",
+    "publisher": "Edited material covering 14 international conference speakers and panelists: livestream, edited lectures, audio podcasts, and speaker interviews",
+    "title": "Conference on philosophy and history of open science 12/2016",
+    "type": ""
+  },
+  {
+    "URL": "https://ropengov.github.io/eurostat/",
+    "author": [
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Huovari",
+        "given": "Janne"
+      },
+      {
+        "family": "Kainu",
+        "given": "Markus"
+      },
+      {
+        "family": "Biecek",
+        "given": "Przemyslaw"
+      }
+    ],
+    "id": "Rpkg-eurostat",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "keyword": "datascience",
+    "note": "R package version 4.0.0. rOpenGov",
+    "publisher": "CRAN",
+    "title": "Eurostat: Tools for eurostat open data",
+    "title-short": "Eurostat",
+    "type": ""
+  },
+  {
+    "URL": "https://github.com/rOpenGov/pxweb/",
+    "author": [
+      {
+        "family": "Magnusson",
+        "given": "Mans"
+      },
+      {
+        "family": "Kainu",
+        "given": "Markus"
+      },
+      {
+        "family": "Huovari",
+        "given": "Janne"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "id": "Rpkg-pxweb",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "keyword": "datascience",
+    "note": "R package version 0.19.2. rOpenGov",
+    "publisher": "CRAN",
+    "title": "Pxweb: R interface to PXWEB APIs",
+    "title-short": "Pxweb",
+    "type": ""
+  },
+  {
+    "URL": "https://ropengov.github.io/hetu/",
+    "author": [
+      {
+        "family": "Kantanen",
+        "given": "Pyry"
+      },
+      {
+        "family": "Magnusson",
+        "given": "Mans"
+      },
+      {
+        "family": "Paananen",
+        "given": "Jussi"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "id": "Rpkg-hetu",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "keyword": "datascience",
+    "note": "R package version 1.1.0. rOpenGov",
+    "publisher": "CRAN",
+    "title": "Hetu: Structural handling of finnish personal identity codes",
+    "title-short": "Hetu",
+    "type": ""
+  },
+  {
+    "URL": "https://ropengov.github.io/sotkanet/",
+    "author": [
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Happonen",
+        "given": "Einari"
+      },
+      {
+        "family": "Kantanen",
+        "given": "Pyry"
+      },
+      {
+        "family": "Lahtinen",
+        "given": "Aleksi"
+      }
+    ],
+    "id": "Rpkg-sotkanet",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "keyword": "datascience",
+    "note": "R package version 0.10.1. rOpenGov",
+    "publisher": "CRAN",
+    "title": "Sotkanet: Sotkanet open data access and analysis",
+    "title-short": "Sotkanet",
+    "type": ""
+  },
+  {
+    "URL": "https://ropengov.github.io/geofi/",
+    "author": [
+      {
+        "family": "Kainu",
+        "given": "Markus"
+      },
+      {
+        "family": "Lehtomäki",
+        "given": "Joona"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "id": "Rpkg-geofi",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "keyword": "datascience",
+    "note": "R package version 1.2.1. rOpenGov",
+    "publisher": "CRAN",
+    "title": "Geofi: Access finnish geospatial data",
+    "title-short": "Geofi",
+    "type": ""
+  },
+  {
+    "DOI": "10.18129/B9.bioc.mia",
+    "URL": "https://bioconductor.org/packages/mia",
+    "author": [
+      {
+        "family": "Borman",
+        "given": "Tuomas"
+      },
+      {
+        "family": "Ernst",
+        "given": "Felix G. M."
+      },
+      {
+        "family": "Shetty",
+        "given": "Sudarshan A."
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "id": "Rpkg-mia",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "R package version 1.20.0. miaverse",
+    "publisher": "Bioconductor",
+    "title": "Mia: Microbiome analysis",
+    "title-short": "Mia",
+    "type": ""
+  },
+  {
+    "DOI": "10.18129/B9.bioc.miaViz",
+    "URL": "https://bioconductor.org/packages/miaViz",
+    "author": [
+      {
+        "family": "Borman",
+        "given": "Tuomas"
+      },
+      {
+        "family": "Ernst",
+        "given": "Felix G. M."
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "id": "Rpkg-miaViz",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "R package version 1.20.0. miaverse",
+    "publisher": "Bioconductor",
+    "title": "miaViz: Microbiome analysis plotting and visualization",
+    "title-short": "miaViz",
+    "type": ""
+  },
+  {
+    "DOI": "10.18129/B9.bioc.miaTime",
+    "URL": "https://bioconductor.org/packages/miaTime",
+    "author": [
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Borman",
+        "given": "Tuomas"
+      },
+      {
+        "family": "Simsek",
+        "given": "Yagmur"
+      }
+    ],
+    "id": "Rpkg-miaTime",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "R package version 1.2.0. miaverse",
+    "publisher": "Bioconductor",
+    "title": "miaTime: Microbiome time series analysis",
+    "title-short": "miaTime",
+    "type": ""
+  },
+  {
+    "DOI": "10.18129/B9.bioc.miaSim",
+    "URL": "https://bioconductor.org/packages/miaSim",
+    "author": [
+      {
+        "family": "Simsek",
+        "given": "Yagmur"
+      },
+      {
+        "family": "Faust",
+        "given": "Karoline"
+      },
+      {
+        "family": "Gao",
+        "given": "Yu"
+      },
+      {
+        "family": "Gheysen",
+        "given": "Emma"
+      },
+      {
+        "family": "Garza",
+        "given": "Daniel Rios"
+      },
+      {
+        "family": "Borman",
+        "given": "Tuomas"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "id": "Rpkg-miaSim",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "R package version 1.18.0. miaverse",
+    "publisher": "Bioconductor",
+    "title": "miaSim: Microbiome data simulation",
+    "title-short": "miaSim",
+    "type": ""
+  },
+  {
+    "DOI": "10.18129/B9.bioc.microbiome",
+    "URL": "https://bioconductor.org/packages/microbiome",
+    "author": [
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Shetty",
+        "given": "Sudarshan"
+      }
+    ],
+    "id": "Rpkg-microbiome",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "R package version 1.34.0. miaverse",
+    "publisher": "Bioconductor",
+    "title": "Microbiome: Microbiome analytics",
+    "title-short": "Microbiome",
+    "type": ""
+  },
+  {
+    "DOI": "10.18129/B9.bioc.microbiomeDataSets",
+    "URL": "https://bioconductor.org/packages/microbiomeDataSets",
+    "author": [
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Ernst",
+        "given": "Felix G. M."
+      },
+      {
+        "family": "Shetty",
+        "given": "Sudarshan"
+      }
+    ],
+    "id": "Rpkg-microbiomeDataSets",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "R package version 1.20.0. Open microbiome data sharing",
+    "publisher": "Bioconductor",
+    "title": "microbiomeDataSets: Experiment hub based microbiome datasets",
+    "title-short": "microbiomeDataSets",
+    "type": ""
+  },
+  {
+    "DOI": "10.18129/B9.bioc.LimROTS",
+    "URL": "https://bioconductor.org/packages/LimROTS",
+    "author": [
+      {
+        "family": "Anwar",
+        "given": "Ali Mostafa"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Jeba",
+        "given": "Akewak"
+      },
+      {
+        "family": "Coffey",
+        "given": "Eleanor"
+      }
+    ],
+    "id": "Rpkg-LimROTS",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          12
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "R package version 1.4.0; first Bioconductor release December 2024",
+    "publisher": "Bioconductor",
+    "title": "LimROTS: A hybrid method integrating empirical bayes and reproducibility-optimized statistics for robust differential expression analysis",
+    "title-short": "LimROTS",
+    "type": ""
+  },
+  {
+    "ISBN": "978-1-78330-658-9",
+    "author": [
+      {
+        "family": "Király",
+        "given": "Péter"
+      },
+      {
+        "family": "Umerle",
+        "given": "Tomasz"
+      },
+      {
+        "family": "Malínek",
+        "given": "Vojtěch"
+      },
+      {
+        "family": "Herden",
+        "given": "Elżbieta"
+      },
+      {
+        "family": "Koper",
+        "given": "Beata"
+      },
+      {
+        "family": "Colavizza",
+        "given": "Giovanni"
+      },
+      {
+        "family": "Jagersma",
+        "given": "Rindert"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Lindemann",
+        "given": "David"
+      },
+      {
+        "family": "Łubocki",
+        "given": "Jakub Maciej"
+      },
+      {
+        "family": "Milanova",
+        "given": "Alexandra"
+      },
+      {
+        "family": "Péter",
+        "given": "Róbert"
+      },
+      {
+        "family": "Rißler-Pipka",
+        "given": "Nanette"
+      },
+      {
+        "family": "Siwecka",
+        "given": "Dorota"
+      },
+      {
+        "family": "Romanello",
+        "given": "Matteo"
+      },
+      {
+        "family": "Roszkowski",
+        "given": "Marcin"
+      },
+      {
+        "family": "Tolonen",
+        "given": "Mikko"
+      },
+      {
+        "family": "Vimr",
+        "given": "Ondřej"
+      }
+    ],
+    "container-title": "Library catalogues as data: Research, practice and usage",
+    "editor": [
+      {
+        "family": "Gooding",
+        "given": "Paul"
+      },
+      {
+        "family": "Terras",
+        "given": "Melissa"
+      },
+      {
+        "family": "Ames",
+        "given": "Sarah"
+      }
+    ],
+    "id": "Kiraly2025",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          6
+        ]
+      ]
+    },
+    "keyword": "dh",
+    "note": "Chapter 2. DARIAH Bibliographical Data Working Group",
+    "publisher": "Facet Publishing",
+    "publisher-place": "London",
+    "title": "Effects of open science and the digital transformation on the bibliographical data landscape",
+    "type": "chapter"
+  },
+  {
+    "URL": "https://github.com/BinPro/CONCOCT",
+    "author": [
+      {
+        "family": "Alneberg",
+        "given": "Johannes"
+      },
+      {
+        "family": "Bjarnason",
+        "given": "Brynjar Smári"
+      },
+      {
+        "dropping-particle": "de",
+        "family": "Bruijn",
+        "given": "Ino"
+      },
+      {
+        "family": "Schirmer",
+        "given": "Melanie"
+      },
+      {
+        "family": "Quick",
+        "given": "Joshua"
+      },
+      {
+        "family": "Ijaz",
+        "given": "Umer Z."
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Loman",
+        "given": "Nicholas J."
+      },
+      {
+        "family": "Andersson",
+        "given": "Anders F."
+      },
+      {
+        "family": "Quince",
+        "given": "Christopher"
+      }
+    ],
+    "id": "SW-CONCOCT",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "Metagenomic contig binning; published in Alneberg et al. Nature Methods 2014, DOI:10.1038/nmeth.3103",
+    "publisher": "Open source software",
+    "title": "CONCOCT: Clustering contigs on coverage and composition",
+    "title-short": "CONCOCT",
+    "type": ""
+  },
+  {
+    "URL": "https://github.com/microbiome/NMGS",
+    "author": [
+      {
+        "family": "Harris",
+        "given": "Keith"
+      },
+      {
+        "family": "Parsons",
+        "given": "Todd L."
+      },
+      {
+        "family": "Ijaz",
+        "given": "Umer Z."
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Holmes",
+        "given": "Ian"
+      },
+      {
+        "family": "Quince",
+        "given": "Christopher"
+      }
+    ],
+    "id": "SW-NMGS",
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "Published in Harris et al. Proceedings of the IEEE 2017, DOI:10.1109/JPROC.2015.2428213",
+    "publisher": "Open source software",
+    "title": "NMGS: Neutral models for microbial metagenomics",
+    "title-short": "NMGS",
     "type": ""
   }
 ]
