@@ -71,11 +71,13 @@
 <!-- publication date: year -->
 <!-- courtesy of loup-brun's hugo-cite project: https://github.com/loup-brun/hugo-cite -->
 {{- if .issued -}}{{/* if .issued exists, so does "date-parts" */}}
-{{- range $index, $dateParts := (index .issued "date-parts") -}}{{/* range of dates */}}
-{{- range first 1 $dateParts -}}{{/* First element in date-part is the year */ -}}
-{{- . -}}
+{{- $years := slice -}}
+{{- range (index .issued "date-parts") -}}{{/* one entry per date; two means a range */}}
+{{- range first 1 . -}}{{/* first element of a date-part is the year */ -}}
+{{- $years = $years | append . -}}
 {{- end -}}
 {{- end -}}
+{{- delimit $years "&ndash;" -}}
 {{- end -}}
 
 {{- if or .volume .issue .publisher $publication -}}{{/* break only if something exists */ -}}

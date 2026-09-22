@@ -79,7 +79,8 @@ def parse(path):
         for f in ("title", "author", "journal", "booktitle", "year", "doi",
                   "url", "note", "volume", "number", "issue", "pages", "month",
                   "issn", "publisher", "series", "editor", "howpublished",
-                  "school", "institution", "address", "pubclass", "authorship"):
+                  "school", "institution", "address", "pubclass", "authorship",
+                  "date"):
             e[f] = tidy(getfield(e["body"], f))
         # author needs its braces intact: they mark corporate names
         e["author_raw"] = getfield(e["body"], "author")
@@ -223,6 +224,11 @@ def locator(e):
 
 
 def when(e):
+    """`2011/2015` in `date` means an ongoing work: print the span."""
+    if e.get("date") and "/" in e["date"]:
+        a, b = (x.strip() for x in e["date"].split("/", 1))
+        if a and b:
+            return "%s\u2013%s" % (a, b)
     mn, yr = month_name(e["month"]), e["year"]
     return " ".join(x for x in (mn, yr) if x)
 
@@ -245,7 +251,7 @@ def render(e, title_first):
     au, ti, ve, lo = author_list(e["author_raw"]), e["title"], venue(e), locator(e)
     if title_first:
         head = "**%s**" % ti
-        rest = [au + "."] if au else []
+        rest = [au if au.endswith("*et al.*") else au + "."] if au else []
         if ve:
             rest.append("*%s.*" % ve + ((" " + lo + ".") if lo else ""))
         rest.append(tail(e))
@@ -254,7 +260,7 @@ def render(e, title_first):
 
     parts = []
     if au:
-        parts.append(au + ".")
+        parts.append(au if au.endswith("*et al.*") else au + ".")
     parts.append(ti.rstrip(".") + ".")
     if ve:
         parts.append("*%s*%s." % (ve, (" " + lo) if lo else ""))

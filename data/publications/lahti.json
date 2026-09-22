@@ -934,6 +934,7 @@
     "volume": "26"
   },
   {
+    "URL": "https://www.julkari.fi/handle/10024/149299",
     "author": [
       {
         "family": "Hakkarainen",
@@ -5350,6 +5351,13 @@
       }
     ],
     "id": "openedu2023",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
     "keyword": "openscience",
     "publisher": "The Committee for Public Information (TJNK) and Federation of Finnish Learned Societies (TSV)",
     "title": "Open research data and methods. National policy and executive plan by the higher education and research community for 2021–2025: Policy component 1 (open access to research data) and 2 (open access to research methods and infrastructures)",
@@ -9967,7 +9975,7 @@
       }
     ],
     "container-title": "Journal of the American Heart Association",
-    "id": "Palmu2020",
+    "id": "Palmu2020JAHA1",
     "issued": {
       "date-parts": [
         [
@@ -10055,7 +10063,7 @@
       }
     ],
     "container-title": "Journal of the American Heart Association",
-    "id": "Palmu2020JAHA",
+    "id": "Palmu2020JAHA2",
     "issued": {
       "date-parts": [
         [
@@ -11011,20 +11019,22 @@
         "given": "Hasse"
       }
     ],
-    "container-title": "Journal of Womens Health",
+    "container-title": "Journal of Women’s Health",
     "id": "Aatsinki2018",
+    "issue": "10",
     "issued": {
       "date-parts": [
         [
           2018,
-          5
+          10
         ]
       ]
     },
     "keyword": "bioscience",
-    "note": "Epub ahead of print.",
+    "page": "1293-1301",
     "title": "Gut microbiota composition in mid-pregnancy is associated with gestational weight gain but not prepregnancy body mass index",
-    "type": "article-journal"
+    "type": "article-journal",
+    "volume": "27"
   },
   {
     "DOI": "10.1103/PhysRevE.97.062407",
@@ -12264,7 +12274,7 @@
     "volume": "5"
   },
   {
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/papers/2015-EnnenNyt-Tolonen.pdf",
+    "URL": "https://journal.fi/ennenjanyt/article/view/108626",
     "author": [
       {
         "family": "Tolonen",
@@ -12275,7 +12285,7 @@
         "given": "Leo"
       }
     ],
-    "container-title": "Ennen & Nyt 2",
+    "container-title": "Ennen & Nyt",
     "id": "Tolonen15EnnenNyt",
     "issued": {
       "date-parts": [
@@ -14208,6 +14218,13 @@
       }
     ],
     "id": "Lahti10blog",
+    "issued": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
+    },
     "keyword": "blog",
     "title": "Opencomp blog",
     "type": ""
@@ -14232,6 +14249,16 @@
       }
     ],
     "id": "Lahti11-louhos",
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ],
+        [
+          2015
+        ]
+      ]
+    },
     "keyword": "blog",
     "note": "Open government data analytics blog (in Finnish)",
     "title": "Louhos blog",
@@ -14261,6 +14288,16 @@
       }
     ],
     "id": "Lahti13-ropengov",
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ],
+        [
+          2020
+        ]
+      ]
+    },
     "keyword": "blog",
     "note": "Open government data analytics blog",
     "title": "rOpenGov blog",
