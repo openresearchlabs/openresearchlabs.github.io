@@ -6,19 +6,17 @@
       {{ partial "publications_partial" . }}
     {{ end }}
   {{ else if (isset .Params "keyword") }}
-    <!-- Get items where keyword is exact match -->
-    {{ range where $path "keyword" $.Params.keyword }}
-      {{ partial "publications_partial" . }}
-    {{ end }}
-    <!-- Get items that contain more than 1 keyword -->
+    <!-- An entry belongs to the topic named by its FIRST keyword. Any further
+         keywords are secondary tags and do not place it on a topic page, so
+         `keywords = {bioscience, gut}` appears under bioscience only. -->
     {{ range $path }}
-      {{ $keywords := split .keyword "," }}
-      {{ $keyword_array_length := len $keywords }}
-      {{ if gt $keyword_array_length 1 }}
-      {{ $keywords_delimit := delimit $keywords "," }}
-        {{ if in $keywords_delimit $.Params.keyword }}
-          {{ partial "publications_partial" . }}
-        {{ end }}
+      {{ $ref := . }}
+      {{ $primary := "" }}
+      {{ with .keyword }}
+        {{ $primary = trim (index (split . ",") 0) " " }}
+      {{ end }}
+      {{ if eq $primary $.Params.keyword }}
+        {{ partial "publications_partial" $ref }}
       {{ end }}
     {{ end }}
   {{ else if (isset .Params "status") }}
