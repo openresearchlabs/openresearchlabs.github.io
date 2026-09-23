@@ -2260,8 +2260,12 @@
         "given": "Tyler"
       },
       {
-        "family": "Se Jin Song",
-        "given": "Yang Chen"
+        "family": "Song",
+        "given": "Se Jin"
+      },
+      {
+        "family": "Chen",
+        "given": "Yang"
       },
       {
         "family": "Pessemier",
@@ -3361,8 +3365,8 @@
         "given": "Hauke"
       },
       {
-        "dropping-particle": "and",
-        "family": "Erwin Zoetendal"
+        "family": "Zoetendal",
+        "given": "Erwin"
       }
     ],
     "container-title": "Nature Communications",
@@ -5345,9 +5349,7 @@
     "URL": "https://edition.fi/tsv/catalog/view/669/702/2461-1",
     "author": [
       {
-        "dropping-particle": "Open Science Coordination in",
-        "family": "Finland",
-        "given": "Federation of Finnish Learned Societies"
+        "literal": "Open Science Coordination in Finland, Federation of Finnish Learned Societies"
       }
     ],
     "id": "openedu2023",
@@ -5639,9 +5641,8 @@
         "given": "Jaak"
       },
       {
-        "dropping-particle": "de",
-        "family": "Santa Pau",
-        "given": "Enrique Carrillo"
+        "family": "Carrillo-de Santa Pau",
+        "given": "Enrique"
       }
     ],
     "container-title": "Frontiers in Microbiology",
@@ -6141,9 +6142,12 @@
         "given": "Marcus"
       },
       {
-        "dropping-particle": "andEnrique",
+        "family": "Klammsteiner",
+        "given": "Thomas"
+      },
+      {
         "family": "Carrillo-de Santa Pau",
-        "given": "Thomas Klammsteiner"
+        "given": "Enrique"
       },
       {
         "family": "Marcos-Zambrano",
@@ -6246,9 +6250,12 @@
         "given": "Christian"
       },
       {
-        "dropping-particle": "andMarcus",
+        "family": "Bertelsen",
+        "given": "Randi"
+      },
+      {
         "family": "Claesson",
-        "given": "Randi Bertelsen"
+        "given": "Marcus"
       }
     ],
     "container-title": "Frontiers in Microbiology",
@@ -7118,8 +7125,11 @@
         "given": "Maria"
       },
       {
-        "family": "Seliina Päällysaho",
-        "given": "National Open Science & Research Coordination 2022"
+        "family": "Päällysaho",
+        "given": "Seliina"
+      },
+      {
+        "literal": "National Open Science & Research Coordination 2022"
       }
     ],
     "container-title": "Vastuullisen tieteen julkaisusarja, Tieteellisten seurain valtuuskunta",
@@ -8141,8 +8151,8 @@
         "given": "Yoshiki"
       },
       {
-        "dropping-particle": "and",
-        "family": "Rob Knight"
+        "family": "Knight",
+        "given": "Rob"
       }
     ],
     "container-title": "Genome Research",
@@ -8593,8 +8603,7 @@
         "given": "Ioannis"
       },
       {
-        "dropping-particle": "Carrillo de",
-        "family": "Santa Pau",
+        "family": "Carrillo de Santa Pau",
         "given": "Enrique"
       },
       {
@@ -8663,8 +8672,8 @@
         "given": "Burcu"
       },
       {
-        "family": "Pau",
-        "given": "Enrique Carrillo-de Santa"
+        "family": "Carrillo-de Santa Pau",
+        "given": "Enrique"
       },
       {
         "family": "D’Elia",
@@ -10260,9 +10269,7 @@
   {
     "author": [
       {
-        "dropping-particle": "in Open Education (Open Science Coordination in",
-        "family": "Finland)",
-        "given": "Expert Panel"
+        "literal": "Expert Panel in Open Education (Open Science Coordination in Finland)"
       }
     ],
     "container-title": "Responsible Research Series",
@@ -10302,8 +10309,12 @@
         "given": "Eveliina"
       },
       {
-        "family": "Anniina Keskitalo",
-        "given": "Saara Nolvi"
+        "family": "Keskitalo",
+        "given": "Anniina"
+      },
+      {
+        "family": "Nolvi",
+        "given": "Saara"
       },
       {
         "family": "O’Mahony",
@@ -12062,8 +12073,12 @@
         "given": "S"
       },
       {
-        "family": "PGB Puylaert",
-        "given": "J DeLany"
+        "family": "Puylaert",
+        "given": "PGB"
+      },
+      {
+        "family": "DeLany",
+        "given": "J"
       },
       {
         "family": "Krasinskas",
@@ -12193,8 +12208,12 @@
         "given": "Edoardo"
       },
       {
-        "family": "Dirk Springael",
-        "given": "Winnie Dejonghe"
+        "family": "Springael",
+        "given": "Dirk"
+      },
+      {
+        "family": "Dejonghe",
+        "given": "Winnie"
       },
       {
         "family": "Smidt",
@@ -12253,8 +12272,8 @@
         "given": "Johan"
       },
       {
-        "dropping-particle": "and",
-        "family": "Ola Hansson"
+        "family": "Hansson",
+        "given": "Ola"
       }
     ],
     "container-title": "Skeletal Muscle",
@@ -12619,9 +12638,16 @@
     "URL": "http://ropengov.github.io",
     "author": [
       {
-        "family": "Leo Lahti",
-        "given": "Joona Lehtomäki",
-        "suffix": "Juuso Parkkinen"
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Parkkinen",
+        "given": "Juuso"
+      },
+      {
+        "family": "Lehtomäki",
+        "given": "Joona"
       },
       {
         "family": "Kainu",
@@ -12936,8 +12962,9 @@
         "given": "Leo"
       },
       {
-        "dropping-particle": "and Willem M. de",
-        "family": "Vos"
+        "dropping-particle": "de",
+        "family": "Vos",
+        "given": "Willem M."
       }
     ],
     "container-title": "Clinical Microbiology and Infection",
@@ -12993,8 +13020,8 @@
         "given": "Sakari"
       },
       {
-        "dropping-particle": "and",
-        "family": "Virinder Kaur Sarhadi"
+        "family": "Sarhadi",
+        "given": "Virinder Kaur"
       }
     ],
     "container-title": "Cancer Genetics",

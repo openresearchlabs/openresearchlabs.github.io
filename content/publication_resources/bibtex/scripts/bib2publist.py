@@ -155,15 +155,16 @@ def is_corporate(name):
 
 
 def initials(given):
+    """`Willem M.` -> `W.M.`"""
     out = []
     for chunk in re.split(r"[\s.-]+", given):
         if chunk:
-            out.append(chunk[0].upper())
+            out.append(chunk[0].upper() + ".")
     return "".join(out)
 
 
 def format_author(name):
-    """`Willem M. de Vos` / `Vos, Willem M. de` -> `de Vos WM`."""
+    """`de Vos, Willem M.` / `Willem M. de Vos` -> `de Vos, W.M.`"""
     if is_corporate(name):
         return tidy(name)
     name = tidy(name)
@@ -179,7 +180,7 @@ def format_author(name):
     if not given:                      # corporate author, e.g. {OpenUTU work group}
         return family
     ini = initials(given)
-    label = ("%s %s" % (family, ini)).strip()
+    label = ("%s, %s" % (family, ini)).strip()
     return "**%s**" % label if family.split()[-1] == ME else label
 
 
@@ -251,7 +252,7 @@ def render(e, title_first):
     au, ti, ve, lo = author_list(e["author_raw"]), e["title"], venue(e), locator(e)
     if title_first:
         head = "**%s**" % ti
-        rest = [au if au.endswith("*et al.*") else au + "."] if au else []
+        rest = [au if au.rstrip("*").endswith(".") else au + "."] if au else []
         if ve:
             rest.append("*%s.*" % ve + ((" " + lo + ".") if lo else ""))
         rest.append(tail(e))
@@ -260,7 +261,7 @@ def render(e, title_first):
 
     parts = []
     if au:
-        parts.append(au if au.endswith("*et al.*") else au + ".")
+        parts.append(au if au.rstrip("*").endswith(".") else au + ".")
     parts.append(ti.rstrip(".") + ".")
     if ve:
         parts.append("*%s*%s." % (ve, (" " + lo) if lo else ""))

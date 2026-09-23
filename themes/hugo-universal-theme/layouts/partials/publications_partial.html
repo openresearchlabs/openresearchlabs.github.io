@@ -24,9 +24,18 @@
       {{- $names = $names | append .literal -}}
     {{- end -}}
   {{- else -}}
-    {{- $n := .family -}}
+    {{- $fam := .family -}}
+    {{- $dp := index . "dropping-particle" -}}
+    {{- with $dp -}}{{- $fam = printf "%s %s" . $fam -}}{{- end -}}
+    {{- $ndp := index . "non-dropping-particle" -}}
+    {{- with $ndp -}}{{- $fam = printf "%s %s" . $fam -}}{{- end -}}
+    {{- $n := $fam -}}
     {{- if .given -}}
-      {{- $n = printf "%s %s" .family (substr .given 0 1) -}}
+      {{- $ini := "" -}}
+      {{- range (split (replaceRE `[.\-]+` " " .given) " ") -}}
+        {{- with (trim . " ") -}}{{- $ini = printf "%s%s." $ini (substr . 0 1 | upper) -}}{{- end -}}
+      {{- end -}}
+      {{- $n = printf "%s, %s" $fam $ini -}}
     {{- end -}}
     {{- $names = $names | append $n -}}
   {{- end -}}
@@ -37,7 +46,8 @@
 {{- else if eq $count 1 -}}
   {{ index $names 0 }}
 {{- else if gt $count 1 -}}
-  {{ delimit (first (sub $count 1) $names) ", " }}&#32;&amp;&#32;{{ index $names (sub $count 1) }}.
+  {{- $last := index $names (sub $count 1) -}}
+  {{ delimit (first (sub $count 1) $names) ", " }}&#32;&amp;&#32;{{ $last }}{{ if not (findRE "[.]$" $last) }}.{{ end }}
 {{- end -}}
 <br>
 {{- end -}}
