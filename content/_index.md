@@ -19,7 +19,7 @@ Recent publications below. See [ORCID](http://orcid.org/0000-0001-5537-637X) for
 
 {{< articles id = "Arani2021" >}}
 
-{{< articles id = "Laitinen2021ews" >}}
+{{< articles id = "Laitinen2021" >}}
 
 {{< articles id = "Armstrong2021" >}}
 
@@ -29,13 +29,13 @@ Recent publications below. See [ORCID](http://orcid.org/0000-0001-5537-637X) for
 
 {{< articles id = "Qin2022" >}}
 
-{{< articles id = "Salosensaari2021" >}}
+{{< articles id = "Salosensaari2021taxonomic" >}}
 
 {{< articles id = "MorenoIndias2021" >}}
 
 ## Computational humanities
 
-{{< articles id = "Tiihonen2021chr" >}}
+{{< articles id = "Tiihonen2021" >}}
 
 {{< articles id = "Lahti2020chr" >}}
 
@@ -43,9 +43,9 @@ Recent publications below. See [ORCID](http://orcid.org/0000-0001-5537-637X) for
 
 ## Open science
 
-{{< articles id = "Lahti17phos" >}}
+{{< articles id = "Lahti2017phos" >}}
 
-{{< articles id = "openedu2020" >}}
+{{< articles id = "InFinland2020" >}}
 
 {{< articles id = "Bjork2018" >}}
 
@@ -53,6 +53,6 @@ Recent publications below. See [ORCID](http://orcid.org/0000-0001-5537-637X) for
 
 {{< articles id = "Lahti2020thinkopen" >}}
 
-{{< articles id = "Tolonen15EnnenNyt" >}}
+{{< articles id = "Tolonen2015" >}}
 
 </div>

@@ -9,21 +9,21 @@ keywords: microbiome
 
 ### Microbiome data science: selected examples
 
-{{< articles id = "Salosensaari2021" >}}
+{{< articles id = "Salosensaari2021taxonomic" >}}
 
 {{< articles id = "MorenoIndias2021" >}}
 
-{{< articles id = "Lahti2021bioc" >}}
+{{< articles id = "Lahti2021" >}}
 
-{{< articles id = "Ruuskanen2021" >}}
+{{< articles id = "Ruuskanen2021modeling" >}}
 
 {{< articles id = "Gonze2018" >}}
 
-{{< articles id = "Faust2017" >}}
+{{< articles id = "Gonze2017" >}}
 
 {{< articles id = "Faust2018" >}}
 
-{{< articles id = "Harris17" >}}
+{{< articles id = "Harris2017" >}}
 
 
 
