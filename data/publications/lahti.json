@@ -2507,7 +2507,7 @@
         "given": "Leo"
       }
     ],
-    "container-title": "bioRXiv",
+    "container-title": "bioRxiv",
     "id": "Escobarzepeda2025",
     "issued": {
       "date-parts": [
@@ -2553,6 +2553,7 @@
     ],
     "container-title": "The R Journal",
     "id": "kantanen2025",
+    "issue": "3",
     "issued": {
       "date-parts": [
         [
@@ -3746,6 +3747,7 @@
     ],
     "container-title": "Nutrients",
     "id": "Lietzén2024nut",
+    "issue": "10",
     "issued": {
       "date-parts": [
         [
@@ -5100,6 +5102,7 @@
     ],
     "container-title": "The Journal of Nutrition",
     "id": "Heiskanen2024",
+    "issue": "2",
     "issued": {
       "date-parts": [
         [
@@ -5205,6 +5208,7 @@
     ],
     "container-title": "Diabetes, Obesity and Metabolism",
     "id": "Ojala2024",
+    "issue": "1",
     "issued": {
       "date-parts": [
         [
@@ -5784,6 +5788,7 @@
     ],
     "container-title": "The Royal Society of Open Science",
     "id": "Raulo2023",
+    "issue": "11",
     "issued": {
       "date-parts": [
         [
@@ -6432,6 +6437,7 @@
     ],
     "container-title": "Methods in Ecology and Evolution",
     "id": "Gao2023",
+    "issue": "8",
     "issued": {
       "date-parts": [
         [
@@ -6789,6 +6795,7 @@
     ],
     "container-title": "Journal of Allergy and Clinical Immunology",
     "id": "Liu2023",
+    "issue": "4",
     "issued": {
       "date-parts": [
         [
@@ -7243,7 +7250,7 @@
         "given": "Leo"
       }
     ],
-    "container-title": "PLoS Computational Biology",
+    "container-title": "PLOS Computational Biology",
     "id": "Khalighi2022",
     "issue": "6",
     "issued": {
@@ -7809,6 +7816,7 @@
     ],
     "container-title": "mSystems",
     "id": "Zhu2022",
+    "issue": "22",
     "issued": {
       "date-parts": [
         [
@@ -7866,6 +7874,7 @@
     ],
     "container-title": "Microbiology Spectrum",
     "id": "Lotankar2022",
+    "issue": "2",
     "issued": {
       "date-parts": [
         [
@@ -8199,7 +8208,7 @@
         "given": "Kirsi"
       }
     ],
-    "container-title": "EbioMedicine",
+    "container-title": "eBioMedicine",
     "id": "Mokkala2021",
     "issued": {
       "date-parts": [
@@ -8962,6 +8971,7 @@
     ],
     "container-title": "Gut Microbes",
     "id": "Ruuskanen2021gutmicrobes",
+    "issue": "1",
     "issued": {
       "date-parts": [
         [
@@ -9126,6 +9136,7 @@
     ],
     "container-title": "Gut Pathogens",
     "id": "Sarhadi2021",
+    "issue": "11",
     "issued": {
       "date-parts": [
         [
@@ -9441,6 +9452,7 @@
     ],
     "container-title": "Cell Metabolism",
     "id": "Liu2022liver",
+    "issue": "5",
     "issued": {
       "date-parts": [
         [
@@ -9549,6 +9561,7 @@
     ],
     "container-title": "Symmetry",
     "id": "Khalighi2021",
+    "issue": "3",
     "issued": {
       "date-parts": [
         [
@@ -9893,6 +9906,7 @@
     ],
     "container-title": "Nutrients",
     "id": "Nylund2020",
+    "issue": "9",
     "issued": {
       "date-parts": [
         [
@@ -9985,6 +9999,7 @@
     ],
     "container-title": "Journal of the American Heart Association",
     "id": "Palmu2020JAHA1",
+    "issue": "15",
     "issued": {
       "date-parts": [
         [
@@ -10073,6 +10088,7 @@
     ],
     "container-title": "Journal of the American Heart Association",
     "id": "Palmu2020JAHA2",
+    "issue": "19",
     "issued": {
       "date-parts": [
         [
@@ -10877,6 +10893,7 @@
     ],
     "container-title": "Historical Methods: A Journal of Quantitative and Interdisciplinary History",
     "id": "tolonen2019",
+    "issue": "1",
     "issued": {
       "date-parts": [
         [
@@ -11730,6 +11747,7 @@
     ],
     "container-title": "FEMS Microbiology Reviews",
     "id": "Shetty2017",
+    "issue": "2",
     "issued": {
       "date-parts": [
         [
@@ -12431,6 +12449,7 @@
     ],
     "container-title": "Systems Biomedicine (special issue)",
     "id": "Louhimo14",
+    "issue": "2",
     "issued": {
       "date-parts": [
         [
@@ -13199,6 +13218,7 @@
     ],
     "container-title": "Leukemia Research",
     "id": "Borze11",
+    "issue": "2",
     "issued": {
       "date-parts": [
         [
@@ -13547,6 +13567,7 @@
     ],
     "container-title": "Bioinformatics",
     "id": "Lahti10bioinf",
+    "issue": "21",
     "issued": {
       "date-parts": [
         [
@@ -13594,7 +13615,7 @@
     "type": ""
   },
   {
-    "DOI": "10.18129/B9.BIOC.NETRESPONSE",
+    "DOI": "10.18129/B9.bioc.netresponse",
     "URL": "http://www.bioconductor.org/help/bioc-views/devel/bioc/html/netresponse.html",
     "author": [
       {
@@ -13849,7 +13870,7 @@
     "type": "paper-conference"
   },
   {
-    "DOI": "10.18129/B9.BIOC.RPA",
+    "DOI": "10.18129/B9.bioc.RPA",
     "URL": "http://bioconductor.org/packages/release/bioc/html/RPA.html",
     "author": [
       {
