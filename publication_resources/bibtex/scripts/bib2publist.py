@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate the manual "List of publications" from lahti.bib.
 
-    python3 bib2publist.py [-o OUTPUT.md] [--pdf [OUTPUT.pdf]]
+    python3 bib2publist.py [-o OUTPUT.md] [--pdf [OUT.pdf]] [--docx [OUT.docx]]
 
 Sections and their order come from the `pubclass` field of each entry (see
 add_pubclass.py).  Within a section, entries are ordered newest first.
@@ -10,7 +10,8 @@ A section can carry hand-written introductory prose: put it in
 `preambles/<pubclass>.md` next to this script (e.g. `preambles/I2.md`) and it
 is inserted between the section heading and its entries.
 
-`--pdf` additionally renders the markdown through pandoc + xelatex.
+`--pdf` and `--docx` additionally render the markdown through pandoc;
+the PDF goes via xelatex, which the Unicode in the author names needs.
 """
 import argparse, os, re, shutil, subprocess, sys, unicodedata
 from datetime import date
@@ -347,7 +348,7 @@ def build(entries, today):
     return "\n".join(lines).rstrip() + "\n"
 
 
-PANDOC_OPTS = [
+PDF_OPTS = [
     "--pdf-engine=xelatex",
     "-V", "papersize=a4",
     "-V", "geometry:margin=2cm",
@@ -358,50 +359,63 @@ PANDOC_OPTS = [
     "-V", "mainfont=DejaVu Serif",
     "-V", "monofont=DejaVu Sans Mono",
 ]
+# pandoc's built-in reference styles already give a clean Word document;
+# drop a reference.docx next to this script to override them.
+DOCX_OPTS = []
+REFERENCE_DOCX = os.path.join(HERE, "reference.docx")
 
 
-def render_pdf(md_text, pdf_path):
-    """Render the markdown to PDF via pandoc + xelatex."""
+def render_file(md_text, out_path, opts):
+    """Hand the markdown to pandoc and let it produce PDF or .docx."""
     if not shutil.which("pandoc"):
-        sys.exit("error: pandoc is required for --pdf")
-    tmp = pdf_path + ".md"
+        sys.exit("error: pandoc is required to render %s" % out_path)
+    if out_path.endswith(".docx") and os.path.exists(REFERENCE_DOCX):
+        opts = opts + ["--reference-doc=" + REFERENCE_DOCX]
+    tmp = out_path + ".md"
     open(tmp, "w", encoding="utf-8").write(md_text)
     try:
-        proc = subprocess.run(["pandoc", tmp, "-o", pdf_path] + PANDOC_OPTS,
+        proc = subprocess.run(["pandoc", tmp, "-o", out_path] + opts,
                               capture_output=True, text=True)
         if proc.returncode != 0:
             sys.stderr.write(proc.stderr)
-            sys.exit("error: pandoc failed to build %s" % pdf_path)
+            sys.exit("error: pandoc failed to build %s" % out_path)
     finally:
         os.remove(tmp)
-    sys.stderr.write("wrote %s\n" % pdf_path)
+    sys.stderr.write("wrote %s\n" % out_path)
+
+
+def derive(flag, output, suffix):
+    """Work out where a rendered file goes."""
+    if flag is not True:
+        return flag
+    if not output:
+        sys.exit("error: --%s needs a path, or -o to derive one from" % suffix)
+    return re.sub(r"\.md$", "", output) + "." + suffix
 
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("-b", "--bib", default=BIB)
     ap.add_argument("-o", "--output", help="markdown output path")
-    ap.add_argument("--pdf", nargs="?", const=True, default=None,
-                    metavar="PDF",
+    ap.add_argument("--pdf", nargs="?", const=True, default=None, metavar="PDF",
                     help="also render a PDF; defaults to OUTPUT with a .pdf "
                          "suffix when -o is given")
+    ap.add_argument("--docx", nargs="?", const=True, default=None, metavar="DOCX",
+                    help="also render a Word document; defaults to OUTPUT with "
+                         "a .docx suffix when -o is given")
     args = ap.parse_args()
 
     text = build(parse(args.bib), date.today())
     if args.output:
         open(args.output, "w", encoding="utf-8").write(text)
         sys.stderr.write("wrote %s\n" % args.output)
-    elif args.pdf is None:
+    elif args.pdf is None and args.docx is None:
         sys.stdout.write(text)
 
     if args.pdf is not None:
-        if args.pdf is True:
-            if not args.output:
-                sys.exit("error: --pdf needs a path, or -o to derive one from")
-            pdf_path = re.sub(r"\.md$", "", args.output) + ".pdf"
-        else:
-            pdf_path = args.pdf
-        render_pdf(text, pdf_path)
+        render_file(text, derive(args.pdf, args.output, "pdf"), PDF_OPTS)
+    if args.docx is not None:
+        render_file(text, derive(args.docx, args.output, "docx"), DOCX_OPTS)
 
 
 if __name__ == "__main__":
