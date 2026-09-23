@@ -45,6 +45,21 @@ LAYOUT = [
     ("I1",        "I1 Audiovisual materials", None),
     ("I2",        "I2 ICT programs or applications", None),
 ]
+# Sections that are split further. Each row is (category, group, subtitle);
+# a group of None takes every entry of that category. Entries are matched in
+# this order, and a subtitle with nothing under it is skipped like any other.
+SUBSECTIONS = {
+    "I2": [
+        ("software", "Methods and modeling",         "Software: methods and modeling"),
+        ("software", "Microbiome data science",      "Software: microbiome data science"),
+        ("software", "Computational social science", "Software: computational social science"),
+        ("software", "Computational humanities",     "Software: computational humanities"),
+        ("software", None,                           "Software: other"),
+        ("dataset",  None,                           "Research data"),
+        (None,       None,                           "Other outputs"),
+    ],
+}
+
 # Sections presented as bullets with the title first; the rest are numbered
 # with the authors first.
 TITLE_FIRST = {"preprint", "submitted", "inpress"}
@@ -83,7 +98,7 @@ def parse(path):
                   "url", "note", "volume", "number", "issue", "pages", "month",
                   "issn", "publisher", "series", "editor", "howpublished",
                   "school", "institution", "address", "pubclass", "authorship",
-                  "date"):
+                  "date", "category", "group"):
             e[f] = tidy(getfield(e["body"], f))
         # author needs its braces intact: they mark corporate names
         e["author_raw"] = getfield(e["body"], "author")
@@ -341,6 +356,24 @@ def preamble(cls):
     return [text, ""] if text else []
 
 
+def split_section(cls, entries):
+    """[(subtitle, entries)] for a section, or one unlabelled block."""
+    rules = SUBSECTIONS.get(cls)
+    if not rules:
+        return [(None, entries)]
+    left, out = list(entries), []
+    for cat, grp, subtitle in rules:
+        take = [e for e in left
+                if (cat is None or (e["category"] or "") == cat)
+                and (grp is None or (e["group"] or "") == grp)]
+        if take:
+            out.append((subtitle, take))
+            left = [e for e in left if e not in take]
+    if left:                       # nothing should fall through, but say so if it does
+        out.append(("Other outputs", left))
+    return out
+
+
 def build(entries, today):
     by_class = {}
     for e in entries:
@@ -361,11 +394,14 @@ def build(entries, today):
             continue
         lines += ["**%s**" % heading, ""]
         lines += preamble(cls)
-        group = sorted(by_class.get(cls, []), key=sort_key)
+        entries_here = sorted(by_class.get(cls, []), key=sort_key)
         bullet = cls in BULLETED
-        for n, e in enumerate(group, 1):
-            marker = "*" if bullet else "%d." % n
-            lines += ["%s %s" % (marker, render(e, cls in TITLE_FIRST)), ""]
+        for subtitle, block in split_section(cls, entries_here):
+            if subtitle:
+                lines += ["*%s*" % subtitle, ""]
+            for n, e in enumerate(block, 1):
+                marker = "*" if bullet else "%d." % n
+                lines += ["%s %s" % (marker, render(e, cls in TITLE_FIRST)), ""]
 
     unclassified = by_class.get("?", [])
     if unclassified:
