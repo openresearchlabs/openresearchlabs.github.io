@@ -50,8 +50,10 @@ LAYOUT = [
 TITLE_FIRST = {"preprint", "submitted", "inpress"}
 BULLETED = TITLE_FIRST | {"D", "E1", "G", "I1", "I2"}
 
-MONTHS = ["January", "February", "March", "April", "May", "June", "July",
-          "August", "September", "October", "November", "December"]
+# Rendered month names. `month_name` matches on the first three letters, so a
+# .bib may spell the month out, abbreviate it, or give a number.
+MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+          "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
 
 # --------------------------------------------------------------------- bibtex
@@ -110,12 +112,37 @@ def getfield(body, name):
     return m2.group(0).strip() if m2 else None
 
 
+# LaTeX accent commands -> the matching Unicode combining mark.
+ACCENTS = {'"': "\u0308", "'": "\u0301", "`": "\u0300", "^": "\u0302",
+           "~": "\u0303", "=": "\u0304", ".": "\u0307"}
+BRACED_ACCENTS = {"v": "\u030C", "u": "\u0306", "H": "\u030B", "c": "\u0327",
+                  "k": "\u0328", "r": "\u030A", "d": "\u0323", "b": "\u0331"}
+LIGATURES = [("\\ss", "ß"), ("\\AA", "Å"), ("\\aa", "å"), ("\\AE", "Æ"),
+             ("\\ae", "æ"), ("\\OE", "Œ"), ("\\oe", "œ"), ("\\O", "Ø"),
+             ("\\o", "ø"), ("\\L", "Ł"), ("\\l", "ł")]
+
+
+def detex(s):
+    """`Nikkil{\"a}` -> `Nikkilä`. Applies the accent instead of dropping it."""
+    def accent(m):
+        mark = ACCENTS.get(m.group(1)) or BRACED_ACCENTS.get(m.group(1))
+        return unicodedata.normalize("NFC", m.group(2) + mark) if mark else m.group(2)
+    # \"{a} and \"a
+    s = re.sub(r'\\(["\'`^~=.])\s*\{([A-Za-z])\}', accent, s)
+    s = re.sub(r'\\(["\'`^~=.])\s*([A-Za-z])', accent, s)
+    # \v{s}, \c{c}, ... only in the braced form, so \version is left alone
+    s = re.sub(r"\\([vuHkrdb])\s*\{([A-Za-z])\}", accent, s)
+    for tex, ch in LIGATURES:
+        s = re.sub(re.escape(tex) + r"(?![A-Za-z])", ch, s)
+    return s
+
+
 def tidy(s):
     """Strip TeX braces and escapes, collapse whitespace."""
     if s is None:
         return None
     s = re.sub(r"\\&", "&", s)
-    s = re.sub(r'\\["\'`^~=.]\{?(\w)\}?', r"\1", s)   # \"{o} -> o (accents)
+    s = detex(s)
     s = s.replace("{", "").replace("}", "").replace("\\", "")
     return " ".join(s.split())
 
@@ -245,7 +272,7 @@ def tail(e):
     if e["doi"]:
         out.append("DOI:%s" % e["doi"])
     elif e["url"]:
-        out.append("URL: `%s`" % e["url"])
+        out.append("URL: <%s>" % e["url"])
     return " ".join(out)
 
 
@@ -348,8 +375,10 @@ def build(entries, today):
     return "\n".join(lines).rstrip() + "\n"
 
 
+PDF_HEADER = os.path.join(HERE, "pdf-header.tex")
 PDF_OPTS = [
     "--pdf-engine=xelatex",
+    "--include-in-header=" + PDF_HEADER,
     "-V", "papersize=a4",
     "-V", "geometry:margin=2cm",
     "-V", "fontsize=10pt",
