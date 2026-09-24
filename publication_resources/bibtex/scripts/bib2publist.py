@@ -108,7 +108,7 @@ def parse(path):
                   "url", "note", "volume", "number", "issue", "pages", "month",
                   "issn", "publisher", "series", "editor", "howpublished",
                   "school", "institution", "address", "pubclass", "authorship",
-                  "date", "entrysubtype", "group", "related"):
+                  "date", "entrysubtype", "group", "related", "pubstate"):
             e[f] = tidy(getfield(e["body"], f))
         # author needs its braces intact: they mark corporate names
         e["author_raw"] = getfield(e["body"], "author")
@@ -272,8 +272,13 @@ def month_name(m):
 
 
 def venue(e):
-    return e["journal"] or e["booktitle"] or e["series"] or e["school"] \
+    """Where it appeared. A preprint says so, whichever server it is on."""
+    name = e["journal"] or e["booktitle"] or e["series"] or e["school"] \
         or e["institution"] or e["publisher"] or e["howpublished"]
+    if name and (e.get("pubstate") or "").strip().lower() == "preprint":
+        if "preprint" not in name.lower():
+            name += " preprint"
+    return name
 
 
 def locator(e):
