@@ -15314,7 +15314,7 @@
       ]
     },
     "keyword": "bioscience",
-    "note": "R package version 1.20.0. miaverse",
+    "note": "R package version 1.20.0",
     "publisher": "Bioconductor",
     "title": "Mia: Microbiome analysis",
     "title-short": "Mia",
@@ -15346,7 +15346,7 @@
       ]
     },
     "keyword": "bioscience",
-    "note": "R package version 1.20.0. miaverse",
+    "note": "R package version 1.20.0",
     "publisher": "Bioconductor",
     "title": "miaViz: Microbiome analysis plotting and visualization",
     "title-short": "miaViz",
@@ -15378,7 +15378,7 @@
       ]
     },
     "keyword": "bioscience",
-    "note": "R package version 1.2.0. miaverse",
+    "note": "R package version 1.2.0",
     "publisher": "Bioconductor",
     "title": "miaTime: Microbiome time series analysis",
     "title-short": "miaTime",
@@ -15426,7 +15426,7 @@
       ]
     },
     "keyword": "bioscience",
-    "note": "R package version 1.18.0. miaverse",
+    "note": "R package version 1.18.0",
     "publisher": "Bioconductor",
     "title": "miaSim: Microbiome data simulation",
     "title-short": "miaSim",
@@ -15454,7 +15454,7 @@
       ]
     },
     "keyword": "bioscience",
-    "note": "R package version 1.34.0. miaverse",
+    "note": "R package version 1.34.0",
     "publisher": "Bioconductor",
     "title": "Microbiome: Microbiome analytics",
     "title-short": "Microbiome",
@@ -15981,7 +15981,7 @@
       ]
     },
     "keyword": "bioscience",
-    "note": "R package version 1.4.0. miaverse",
+    "note": "R package version 1.4.0",
     "publisher": "Bioconductor",
     "title": "miaDash: Dashboard for the interactive analysis and exploration of microbiome data",
     "title-short": "miaDash",
