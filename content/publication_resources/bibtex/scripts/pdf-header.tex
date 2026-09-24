@@ -13,3 +13,11 @@
 % and let the paragraph stretch rather than overflow when nothing else fits
 \emergencystretch=3em
 \sloppy
+
+% pandoc renders [x]{.underline} as \ul, which it takes from soul. soul sets
+% text character by character and mis-tracks around the markup in these
+% entries, underlining neighbouring words. ulem's \uline is robust and breaks
+% across lines, so point \ul at it. This must come after the template's own
+% \usepackage{soul}, which it does: header-includes land later in the preamble.
+\usepackage[normalem]{ulem}
+\let\ul\uline

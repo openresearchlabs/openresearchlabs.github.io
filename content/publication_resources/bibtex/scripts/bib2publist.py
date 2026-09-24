@@ -19,6 +19,9 @@ from datetime import date
 HERE = os.path.dirname(os.path.abspath(__file__))
 BIB = os.path.join(HERE, os.pardir, "lahti.bib")
 ME = "Lahti"                      # surname to emphasise in the author lists
+# pandoc turns a bracketed span into a real underline in PDF and .docx;
+# markdown has no underline of its own.
+MARK = "[%s]{.underline}"
 PREAMBLES = os.path.join(HERE, "preambles")
 
 # (pubclass, heading, members).  A pubclass of None makes the row a group
@@ -64,8 +67,12 @@ SUBSECTIONS = {
 
 # Sections presented as bullets with the title first; the rest are numbered
 # with the authors first.
-TITLE_FIRST = {"preprint", "submitted", "inpress"}
-BULLETED = TITLE_FIRST | {"D", "E1", "G", "I1", "I2"}
+# Every section leads with the title, then the authors and the rest.
+TITLE_FIRST = {"preprint", "submitted", "inpress", "A1", "A2", "A3", "A5",
+               "B", "D", "E1", "G", "I1", "I2"}
+# Which sections are numbered is a separate question from how an entry is
+# laid out, so this is spelled out rather than derived from TITLE_FIRST.
+BULLETED = {"preprint", "submitted", "inpress", "D", "E1", "G", "I1", "I2"}
 
 # Rendered month names. `month_name` matches on the first three letters, so a
 # .bib may spell the month out, abbreviate it, or give a number.
@@ -141,11 +148,18 @@ LIGATURES = [("\\ss", "ß"), ("\\AA", "Å"), ("\\aa", "å"), ("\\AE", "Æ"),
 
 # font switches carry no text of their own; \it would otherwise leave "it"
 FONT_CMDS = re.compile(r"\\(it|bf|em|tt|sc|rm|sf|sl|upshape|itshape|bfseries)\b\s*")
+# \textbf{x}, \emph{x}: keep the argument, drop the command
+TEXT_CMDS = re.compile(r"\\(textbf|textit|textrm|texttt|textsc|textsf|textsl|"
+                       r"emph|underline|mbox|text)\s*(?=\{)")
 
 
 def detex(s):
     """`Nikkil{\"a}` -> `Nikkilä`. Applies the accent instead of dropping it."""
     s = FONT_CMDS.sub("", s)
+    for _ in range(4):                       # \textbf{\emph{x}} nests
+        s, n = TEXT_CMDS.subn("", s)
+        if not n:
+            break
     def accent(m):
         mark = ACCENTS.get(m.group(1)) or BRACED_ACCENTS.get(m.group(1))
         return unicodedata.normalize("NFC", m.group(2) + mark) if mark else m.group(2)
@@ -205,11 +219,11 @@ def is_corporate(name):
 
 
 def initials(given):
-    """`Willem M.` -> `W.M.`"""
+    """`Willem M.` -> `WM`"""
     out = []
     for chunk in re.split(r"[\s.-]+", given):
         if chunk:
-            out.append(chunk[0].upper() + ".")
+            out.append(chunk[0].upper())
     return "".join(out)
 
 
@@ -231,7 +245,7 @@ def format_author(name):
         return family
     ini = initials(given)
     label = ("%s, %s" % (family, ini)).strip()
-    return "**%s**" % label if family.split()[-1] == ME else label
+    return MARK % label if family.split()[-1] == ME else label
 
 
 def author_list(field):
@@ -298,34 +312,9 @@ def tail(e):
     return " ".join(out)
 
 
-def render(e, title_first):
-    au, ti, ve, lo = author_list(e["author_raw"]), e["title"], venue(e), locator(e)
-    if title_first:
-        head = "**%s**" % ti
-        rest = [au if au.rstrip("*").endswith(".") else au + "."] if au else []
-        if ve:
-            rest.append("*%s.*" % ve + ((" " + lo + ".") if lo else ""))
-        rest.append(tail(e))
-        body = " ".join(x for x in rest if x)
-        return "%s\n  %s" % (head, body)
-
-    parts = []
-    if au:
-        parts.append(au if au.rstrip("*").endswith(".") else au + ".")
-    parts.append(ti.rstrip(".") + ".")
-    if ve:
-        parts.append("*%s*%s." % (ve, (" " + lo) if lo else ""))
-    elif lo:
-        parts.append(lo + ".")
-    parts.append(tail(e))
-    if e["note"]:
-        parts.append("*%s*." % e["note"].rstrip("."))
-    note = authorship_note(e["authorship"])
-    if note:
-        parts.append("*%s*." % note)
-    if e.get("related_cites"):
-        parts.append("Associated publication: %s." % "; ".join(e["related_cites"]))
-    return " ".join(x for x in parts if x)
+def unmarked(text):
+    """Strip emphasis markup so punctuation can be checked underneath it."""
+    return re.sub(r"\[|\]\{\.underline\}|\*", "", text)
 
 
 def authorship_note(value):
@@ -343,6 +332,41 @@ def authorship_note(value):
     if "corresponding" in v:
         labels.append("Corresponding author")
     return ". ".join(labels) or None
+
+
+def render(e, title_first):
+    au, ti, ve, lo = author_list(e["author_raw"]), e["title"], venue(e), locator(e)
+
+    # Remarks close every entry, whichever way round it is laid out.
+    trailing = []
+    if e["note"]:
+        trailing.append("*%s*." % e["note"].rstrip("."))
+    mark = authorship_note(e["authorship"])
+    if mark:
+        trailing.append("*%s*." % mark)
+    if e.get("related_cites"):
+        trailing.append("Associated publication: %s." % "; ".join(e["related_cites"]))
+
+    if title_first:
+        rest = [au if unmarked(au).endswith(".") else au + "."] if au else []
+        if ve:
+            rest.append("*%s.*" % ve + ((" " + lo + ".") if lo else ""))
+        rest.append(tail(e))
+        rest += trailing
+        body = " ".join(x for x in rest if x)
+        return "**%s**\n  %s" % (ti, body)
+
+    parts = []
+    if au:
+        parts.append(au if unmarked(au).endswith(".") else au + ".")
+    parts.append(ti.rstrip(".") + ".")
+    if ve:
+        parts.append("*%s*%s." % (ve, (" " + lo) if lo else ""))
+    elif lo:
+        parts.append(lo + ".")
+    parts.append(tail(e))
+    parts += trailing
+    return " ".join(x for x in parts if x)
 
 
 def sort_key(e):

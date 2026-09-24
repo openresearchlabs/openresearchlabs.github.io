@@ -14667,8 +14667,8 @@
     },
     "keyword": "datascience",
     "publisher": "Julia package",
-    "title": "FdeSolver: Simulation of memory effects with fractional differential equations",
-    "title-short": "FdeSolver",
+    "title": "fdeSolver: Simulation of memory effects with fractional differential equations",
+    "title-short": "fdeSolver",
     "type": ""
   },
   {
