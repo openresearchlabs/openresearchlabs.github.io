@@ -50,8 +50,10 @@ LAYOUT = [
 # this order, and a subtitle with nothing under it is skipped like any other.
 SUBSECTIONS = {
     "I2": [
-        ("software", "Methods and modeling",         "Software: methods and modeling"),
-        ("software", "Microbiome data science",      "Software: microbiome data science"),
+        ("software", "Methods and modeling",  "Software: methods and modeling"),
+        ("software", "Microbiome data science ecosystem in R/Bioconductor",
+                     "Software: microbiome data science ecosystem in R/Bioconductor"),
+        ("software", "Statistical ecology",   "Software: statistical ecology"),
         ("software", "Computational social science", "Software: computational social science"),
         ("software", "Computational humanities",     "Software: computational humanities"),
         ("software", None,                           "Software: other"),
