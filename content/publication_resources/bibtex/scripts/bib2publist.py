@@ -54,10 +54,10 @@ LAYOUT = [
 SUBSECTIONS = {
     "I2": [
         ("software", "Methods and modeling",  "Software: methods and modeling"),
-        ("software", "Bioinformatics",        "Software: bioinformatics"),
         ("software", "Microbiome data science ecosystem in R/Bioconductor",
                      "Software: microbiome data science ecosystem in R/Bioconductor"),
         ("software", "Statistical ecology",   "Software: statistical ecology"),
+        ("software", "Bioinformatics",        "Software: bioinformatics"),
         ("software", "Computational social science", "Software: computational social science"),
         ("software", "Computational humanities",     "Software: computational humanities"),
         ("software", None,                           "Software: other"),
