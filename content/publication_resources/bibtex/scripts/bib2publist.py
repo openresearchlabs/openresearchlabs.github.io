@@ -98,7 +98,7 @@ def parse(path):
                   "url", "note", "volume", "number", "issue", "pages", "month",
                   "issn", "publisher", "series", "editor", "howpublished",
                   "school", "institution", "address", "pubclass", "authorship",
-                  "date", "category", "group"):
+                  "date", "entrysubtype", "group", "related"):
             e[f] = tidy(getfield(e["body"], f))
         # author needs its braces intact: they mark corporate names
         e["author_raw"] = getfield(e["body"], "author")
@@ -316,6 +316,8 @@ def render(e, title_first):
     note = authorship_note(e["authorship"])
     if note:
         parts.append("*%s*." % note)
+    if e.get("related_cites"):
+        parts.append("Associated publication: %s." % "; ".join(e["related_cites"]))
     return " ".join(x for x in parts if x)
 
 
@@ -356,6 +358,19 @@ def preamble(cls):
     return [text, ""] if text else []
 
 
+def short_cite(e):
+    """`Alneberg J et al. Nature Methods 2014. DOI:...` for a cross-reference."""
+    names = split_authors(e["author_raw"])
+    who = format_author(names[0]).replace("*", "") if names else ""
+    if len(names) > 1:
+        who += " et al."
+    bits = [b for b in (who, venue(e), e["year"]) if b]
+    out = " ".join(bits[:1]) + (" " + ", ".join(bits[1:]) if len(bits) > 1 else "")
+    if e["doi"]:
+        out += ". DOI:%s" % e["doi"]
+    return out
+
+
 def split_section(cls, entries):
     """[(subtitle, entries)] for a section, or one unlabelled block."""
     rules = SUBSECTIONS.get(cls)
@@ -364,7 +379,7 @@ def split_section(cls, entries):
     left, out = list(entries), []
     for cat, grp, subtitle in rules:
         take = [e for e in left
-                if (cat is None or (e["category"] or "") == cat)
+                if (cat is None or (e["entrysubtype"] or "") == cat)
                 and (grp is None or (e["group"] or "") == grp)]
         if take:
             out.append((subtitle, take))
@@ -375,6 +390,17 @@ def split_section(cls, entries):
 
 
 def build(entries, today):
+    by_key = {e["key"]: e for e in entries}
+    for e in entries:
+        e["related_cites"] = []
+        for ref in re.split(r"[,\s]+", e["related"] or ""):
+            target = by_key.get(ref.strip())
+            if target is not None:
+                e["related_cites"].append(short_cite(target))
+            elif ref.strip():
+                sys.stderr.write("warning: %s has related = {%s}, which is not a "
+                                 "key in this file\n" % (e["key"], ref.strip()))
+
     by_class = {}
     for e in entries:
         by_class.setdefault(e["pubclass"] or "?", []).append(e)

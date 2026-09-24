@@ -12786,7 +12786,6 @@
     },
     "keyword": "datascience, dh",
     "note": "ICML/MLOSS workshop (Int’l Conf. on Machine Learning - Open Source Software workshop).",
-    "publisher": "software",
     "title": "rOpenGov: Open source ecosystem for computational social sciences and digital humanities",
     "title-short": "rOpenGov",
     "type": ""
@@ -13471,8 +13470,8 @@
       ]
     },
     "keyword": "bioscience",
-    "note": "R-forge",
-    "publisher": "software",
+    "note": "R package intcomp",
+    "publisher": "R-Forge",
     "title": "Intcomp: A benchmarking pipeline for integrative cancer gene detection algorithms",
     "title-short": "Intcomp",
     "type": ""
@@ -13725,8 +13724,8 @@
       ]
     },
     "keyword": "datascience",
-    "note": "CRAN: dmt",
-    "publisher": "software; ICML workshop",
+    "note": "R package dmt. Presented at the ICML/MLOSS workshop",
+    "publisher": "CRAN",
     "title": "Dependency modeling toolkit",
     "type": ""
   },
@@ -13756,8 +13755,8 @@
       ]
     },
     "keyword": "datascience",
-    "note": "R/Bioconductor: netresponse",
-    "publisher": "software",
+    "note": "R package netresponse",
+    "publisher": "Bioconductor",
     "title": "NetResponse (functional network analysis)",
     "type": ""
   },
@@ -13782,8 +13781,8 @@
       ]
     },
     "keyword": "datascience",
-    "note": "R/BioConductor: pint",
-    "publisher": "software",
+    "note": "R package pint",
+    "publisher": "Bioconductor",
     "title": "Pairwise integration of functional genomics data",
     "type": ""
   },
@@ -13980,9 +13979,7 @@
       ]
     },
     "keyword": "datascience",
-    "note": "R/Bioconductor: pint",
     "page": "198-203",
-    "publisher": "software",
     "publisher-place": "Piscataway, NJ",
     "title": "Dependency detection with similarity constraints",
     "type": "paper-conference"
@@ -14005,8 +14002,8 @@
       ]
     },
     "keyword": "bioscience",
-    "note": "R/Bioconductor: RPA",
-    "publisher": "software",
+    "note": "R package RPA",
+    "publisher": "Bioconductor",
     "title": "RPA: Probe reliability and differential gene expression analysis",
     "title-short": "RPA",
     "type": ""
@@ -15693,8 +15690,8 @@
       ]
     },
     "keyword": "bioscience",
-    "note": "Metagenomic contig binning; published in Alneberg et al. Nature Methods 2014, DOI:10.1038/nmeth.3103",
-    "publisher": "Open source software",
+    "note": "Metagenomic contig binning",
+    "publisher": "GitHub",
     "title": "CONCOCT: Clustering contigs on coverage and composition",
     "title-short": "CONCOCT",
     "type": ""
@@ -15736,8 +15733,8 @@
       ]
     },
     "keyword": "bioscience",
-    "note": "Published in Harris et al. Proceedings of the IEEE 2017, DOI:10.1109/JPROC.2015.2428213",
-    "publisher": "Open source software",
+    "note": "Neutral models for microbial metagenomics",
+    "publisher": "GitHub",
     "title": "NMGS: Neutral models for microbial metagenomics",
     "title-short": "NMGS",
     "type": ""
