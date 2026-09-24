@@ -349,8 +349,17 @@ def sort_key(e):
 
 # -------------------------------------------------------------------- output
 
+def slug(text):
+    """`Research data` -> `research-data`, for a preamble filename."""
+    return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
+
+
 def preamble(cls):
-    """Hand-written prose for a section, if preambles/<cls>.md exists."""
+    """Hand-written prose, if preambles/<cls>.md exists.
+
+    A section takes its pubclass as the name; a subsection takes
+    <pubclass>-<subtitle>, e.g. preambles/I2-research-data.md.
+    """
     path = os.path.join(PREAMBLES, "%s.md" % cls)
     if not os.path.exists(path):
         return []
@@ -425,6 +434,7 @@ def build(entries, today):
         for subtitle, block in split_section(cls, entries_here):
             if subtitle:
                 lines += ["*%s*" % subtitle, ""]
+                lines += preamble("%s-%s" % (cls, slug(subtitle)))
             for n, e in enumerate(block, 1):
                 marker = "*" if bullet else "%d." % n
                 lines += ["%s %s" % (marker, render(e, cls in TITLE_FIRST)), ""]
