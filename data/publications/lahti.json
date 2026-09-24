@@ -13751,6 +13751,9 @@
       "date-parts": [
         [
           2010
+        ],
+        [
+          2026
         ]
       ]
     },
@@ -13777,6 +13780,9 @@
       "date-parts": [
         [
           2010
+        ],
+        [
+          2020
         ]
       ]
     },
@@ -13998,6 +14004,9 @@
       "date-parts": [
         [
           2009
+        ],
+        [
+          2026
         ]
       ]
     },
@@ -15326,6 +15335,9 @@
     "issued": {
       "date-parts": [
         [
+          2021
+        ],
+        [
           2026
         ]
       ]
@@ -15358,6 +15370,9 @@
     "issued": {
       "date-parts": [
         [
+          2021
+        ],
+        [
           2026
         ]
       ]
@@ -15389,6 +15404,9 @@
     "id": "Lahti2026miatime",
     "issued": {
       "date-parts": [
+        [
+          2025
+        ],
         [
           2026
         ]
@@ -15438,6 +15456,9 @@
     "issued": {
       "date-parts": [
         [
+          2021
+        ],
+        [
           2026
         ]
       ]
@@ -15465,6 +15486,9 @@
     "id": "Lahti2026microbiome",
     "issued": {
       "date-parts": [
+        [
+          2017
+        ],
         [
           2026
         ]
@@ -15497,6 +15521,9 @@
     "id": "Lahti2026microbiomeda",
     "issued": {
       "date-parts": [
+        [
+          2021
+        ],
         [
           2026
         ]
@@ -15534,13 +15561,15 @@
     "issued": {
       "date-parts": [
         [
-          2024,
-          12
+          2025
+        ],
+        [
+          2026
         ]
       ]
     },
     "keyword": "bioscience",
-    "note": "R package version 1.4.0; first Bioconductor release December 2024",
+    "note": "R package version 1.4.0. Accepted to Bioconductor in December 2024",
     "publisher": "Bioconductor",
     "title": "LimROTS: A hybrid method integrating empirical Bayes and reproducibility-optimized statistics for robust differential expression analysis",
     "title-short": "LimROTS",
@@ -16001,6 +16030,9 @@
     "issued": {
       "date-parts": [
         [
+          2025
+        ],
+        [
           2026
         ]
       ]
@@ -16032,6 +16064,9 @@
     "id": "Borman2026holofoodr",
     "issued": {
       "date-parts": [
+        [
+          2024
+        ],
         [
           2026
         ]
@@ -16065,6 +16100,9 @@
     "issued": {
       "date-parts": [
         [
+          2024
+        ],
+        [
           2026
         ]
       ]
@@ -16092,6 +16130,9 @@
     "id": "Benedetti2026iseetree",
     "issued": {
       "date-parts": [
+        [
+          2024
+        ],
         [
           2026
         ]
@@ -16169,7 +16210,7 @@
       ]
     },
     "keyword": "datascience",
-    "note": "R package version 2.7-6",
+    "note": "R package version 2.7-6. Contributor since 2023",
     "publisher": "CRAN",
     "title": "Vegan: Community ecology package",
     "title-short": "Vegan",
