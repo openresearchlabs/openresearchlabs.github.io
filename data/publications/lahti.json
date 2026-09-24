@@ -15958,5 +15958,196 @@
     "title": "Finto: Access the finto API",
     "title-short": "Finto",
     "type": ""
+  },
+  {
+    "DOI": "10.18129/B9.bioc.miaDash",
+    "URL": "https://bioconductor.org/packages/miaDash",
+    "author": [
+      {
+        "family": "Benedetti",
+        "given": "Giulio"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "id": "Benedetti2026miadash",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "R package version 1.4.0. miaverse",
+    "publisher": "Bioconductor",
+    "title": "miaDash: Dashboard for the interactive analysis and exploration of microbiome data",
+    "title-short": "miaDash",
+    "type": ""
+  },
+  {
+    "DOI": "10.18129/B9.bioc.HoloFoodR",
+    "URL": "https://bioconductor.org/packages/HoloFoodR",
+    "author": [
+      {
+        "family": "Borman",
+        "given": "Tuomas"
+      },
+      {
+        "family": "Sannikov",
+        "given": "Artur"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "id": "Borman2026holofoodr",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "R package version 1.6.0",
+    "publisher": "Bioconductor",
+    "title": "HoloFoodR: R interface to the EBI HoloFood resource",
+    "title-short": "HoloFoodR",
+    "type": ""
+  },
+  {
+    "DOI": "10.18129/B9.bioc.MGnifyR",
+    "URL": "https://bioconductor.org/packages/MGnifyR",
+    "author": [
+      {
+        "family": "Borman",
+        "given": "Tuomas"
+      },
+      {
+        "family": "Allen",
+        "given": "Ben"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "id": "Borman2026mgnifyr",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "R package version 1.8.0",
+    "publisher": "Bioconductor",
+    "title": "MGnifyR: R interface to the EBI MGnify metagenomics resource",
+    "title-short": "MGnifyR",
+    "type": ""
+  },
+  {
+    "DOI": "10.18129/B9.bioc.iSEEtree",
+    "URL": "https://bioconductor.org/packages/iSEEtree",
+    "author": [
+      {
+        "family": "Benedetti",
+        "given": "Giulio"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "id": "Benedetti2026iseetree",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "R package version 1.6.0",
+    "publisher": "Bioconductor",
+    "title": "iSEEtree: Interactive visualisation for microbiome data",
+    "title-short": "iSEEtree",
+    "type": ""
+  },
+  {
+    "URL": "https://vegandevs.github.io/vegan/",
+    "author": [
+      {
+        "family": "Oksanen",
+        "given": "Jari"
+      },
+      {
+        "family": "Simpson",
+        "given": "Gavin L."
+      },
+      {
+        "family": "Blanchet",
+        "given": "F. Guillaume"
+      },
+      {
+        "family": "Kindt",
+        "given": "Roeland"
+      },
+      {
+        "family": "Legendre",
+        "given": "Pierre"
+      },
+      {
+        "family": "Minchin",
+        "given": "Peter R."
+      },
+      {
+        "family": "O’Hara",
+        "given": "R. B."
+      },
+      {
+        "family": "Solymos",
+        "given": "Peter"
+      },
+      {
+        "family": "Stevens",
+        "given": "M. Henry H."
+      },
+      {
+        "family": "Szoecs",
+        "given": "Eduard"
+      },
+      {
+        "family": "Wagner",
+        "given": "Helene"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "id": "Oksanen2026vegan",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8
+        ]
+      ]
+    },
+    "keyword": "datascience",
+    "note": "R package version 2.7-6",
+    "publisher": "CRAN",
+    "title": "Vegan: Community ecology package",
+    "title-short": "Vegan",
+    "type": ""
   }
 ]
