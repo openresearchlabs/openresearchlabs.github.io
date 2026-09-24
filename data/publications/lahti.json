@@ -8506,9 +8506,7 @@
         "given": "Hector"
       },
       {
-        "dropping-particle": "miaverse",
-        "family": "Collective",
-        "given": "The"
+        "literal": "The miaverse Collective"
       }
     ],
     "container-title": "F1000Research",
