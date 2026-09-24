@@ -139,8 +139,13 @@ LIGATURES = [("\\ss", "ß"), ("\\AA", "Å"), ("\\aa", "å"), ("\\AE", "Æ"),
              ("\\o", "ø"), ("\\L", "Ł"), ("\\l", "ł")]
 
 
+# font switches carry no text of their own; \it would otherwise leave "it"
+FONT_CMDS = re.compile(r"\\(it|bf|em|tt|sc|rm|sf|sl|upshape|itshape|bfseries)\b\s*")
+
+
 def detex(s):
     """`Nikkil{\"a}` -> `Nikkilä`. Applies the accent instead of dropping it."""
+    s = FONT_CMDS.sub("", s)
     def accent(m):
         mark = ACCENTS.get(m.group(1)) or BRACED_ACCENTS.get(m.group(1))
         return unicodedata.normalize("NFC", m.group(2) + mark) if mark else m.group(2)
