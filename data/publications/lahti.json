@@ -16383,5 +16383,504 @@
     "title": "notameViz: Visualizations for non-targeted LC-MS metabolic profiling",
     "title-short": "notameViz",
     "type": ""
+  },
+  {
+    "DOI": "10.1016/j.clnesp.2026.105108",
+    "ISSN": "2405-4577",
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Chunpeng"
+      },
+      {
+        "family": "Houttu",
+        "given": "Veera"
+      },
+      {
+        "family": "Mongad",
+        "given": "Dattatray"
+      },
+      {
+        "family": "Houttu",
+        "given": "Noora"
+      },
+      {
+        "family": "Lotankar",
+        "given": "Mrunalini"
+      },
+      {
+        "family": "Viitaharju",
+        "given": "Jenni"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Laitinen",
+        "given": "Kirsi"
+      }
+    ],
+    "container-title": "Clinical Nutrition ESPEN",
+    "id": "Zhang2026",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          12
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "105108",
+    "title": "Influence of maternal obesity, gestational weight gain and gestational diabetes on child metabolic profile: A prospective study from the intrauterine period until early childhood",
+    "title-short": "Influence of maternal obesity, gestational weight gain and gestational diabetes on child metabolic profile",
+    "type": "article-journal",
+    "volume": "76"
+  },
+  {
+    "DOI": "10.1017/S0954579426101527",
+    "ISSN": "0954-5794",
+    "author": [
+      {
+        "family": "Huovinen",
+        "given": "Venla"
+      },
+      {
+        "family": "Aatsinki",
+        "given": "Anna-Katariina"
+      },
+      {
+        "family": "Eskola",
+        "given": "Eeva"
+      },
+      {
+        "family": "Benedetti",
+        "given": "Giulio"
+      },
+      {
+        "family": "Isokääntä",
+        "given": "Heidi"
+      },
+      {
+        "family": "Nordenswan",
+        "given": "Elisabeth"
+      },
+      {
+        "family": "Munukka",
+        "given": "Eveliina"
+      },
+      {
+        "family": "Lamichhane",
+        "given": "Santosh"
+      },
+      {
+        "family": "Yada",
+        "given": "Akie"
+      },
+      {
+        "family": "O’Mahony",
+        "given": "Siobhain M."
+      },
+      {
+        "family": "Dickens",
+        "given": "Alex"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Karlsson",
+        "given": "Hasse"
+      },
+      {
+        "family": "Korja",
+        "given": "Riikka"
+      },
+      {
+        "family": "Nolvi",
+        "given": "Saara"
+      },
+      {
+        "family": "Karlsson",
+        "given": "Linnea"
+      }
+    ],
+    "container-title": "Development and Psychopathology",
+    "id": "Huovinen2026",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "1-15",
+    "title": "Association between infant and toddler gut microbiota composition and later executive functioning",
+    "type": "article-journal"
+  },
+  {
+    "DOI": "10.3389/fmicb.2023.1261889",
+    "ISSN": "1664-302X",
+    "author": [
+      {
+        "family": "Papoutsoglou",
+        "given": "Georgios"
+      },
+      {
+        "family": "Tarazona",
+        "given": "Sonia"
+      },
+      {
+        "family": "Lopes",
+        "given": "Marta B."
+      },
+      {
+        "family": "Klammsteiner",
+        "given": "Thomas"
+      },
+      {
+        "family": "Ibrahimi",
+        "given": "Eliana"
+      },
+      {
+        "family": "Eckenberger",
+        "given": "Julia"
+      },
+      {
+        "family": "Novielli",
+        "given": "Pierfrancesco"
+      },
+      {
+        "family": "Tonda",
+        "given": "Alberto"
+      },
+      {
+        "family": "Simeon",
+        "given": "Andrea"
+      },
+      {
+        "family": "Shigdel",
+        "given": "Rajesh"
+      },
+      {
+        "family": "Béreux",
+        "given": "Stéphane"
+      },
+      {
+        "family": "Vitali",
+        "given": "Giacomo"
+      },
+      {
+        "family": "Tangaro",
+        "given": "Sabina"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Temko",
+        "given": "Andriy"
+      },
+      {
+        "family": "Claesson",
+        "given": "Marcus J."
+      },
+      {
+        "family": "Berland",
+        "given": "Magali"
+      }
+    ],
+    "container-title": "Frontiers in Microbiology",
+    "id": "Papoutsoglou2023",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          9
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "title": "Machine learning approaches in microbiome research: Challenges and best practices",
+    "title-short": "Machine learning approaches in microbiome research",
+    "type": "article-journal",
+    "volume": "14"
+  },
+  {
+    "DOI": "10.1161/HYPERTENSIONAHA.125.25358",
+    "ISSN": "0194-911X",
+    "author": [
+      {
+        "family": "Vuori",
+        "given": "Matti"
+      },
+      {
+        "family": "Ruuskanen",
+        "given": "Matti O."
+      },
+      {
+        "family": "Jousilahti",
+        "given": "Pekka"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Yeo",
+        "given": "Li-Fang"
+      },
+      {
+        "family": "Kauko",
+        "given": "Anni"
+      },
+      {
+        "family": "Vaura",
+        "given": "Felix"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki"
+      },
+      {
+        "family": "Liu",
+        "given": "Yang"
+      },
+      {
+        "family": "Méric",
+        "given": "Guillaume"
+      },
+      {
+        "family": "Inouye",
+        "given": "Michael"
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      }
+    ],
+    "container-title": "Hypertension",
+    "id": "Vuori2026",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          2
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "title": "Value of multiomics over clinical risk factors in hypertension prediction",
+    "type": "article-journal",
+    "volume": "83"
+  },
+  {
+    "DOI": "10.1097/HJH.0000000000004254",
+    "ISSN": "0263-6352",
+    "author": [
+      {
+        "family": "Yeo",
+        "given": "Li-Fang"
+      },
+      {
+        "family": "Palmu",
+        "given": "Joonatan"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki S."
+      },
+      {
+        "family": "Pärnänen",
+        "given": "Katariina"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      }
+    ],
+    "container-title": "Journal of Hypertension",
+    "id": "Yeo2026hypertension",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          4
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "673-681",
+    "title": "Prospective association between the gut microbiome and incident hypertension: A 20-year cohort study",
+    "title-short": "Prospective association between the gut microbiome and incident hypertension",
+    "type": "article-journal",
+    "volume": "44"
+  },
+  {
+    "DOI": "10.1007/978-1-0716-5452-1_14",
+    "ISSN": "1064-3745",
+    "author": [
+      {
+        "family": "Koistinen",
+        "given": "Ville"
+      },
+      {
+        "family": "Haikonen",
+        "given": "Retu"
+      },
+      {
+        "family": "Lihtamo",
+        "given": "Atte"
+      },
+      {
+        "family": "Suksi",
+        "given": "Vilhelm"
+      },
+      {
+        "family": "Kärkkäinen",
+        "given": "Olli"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Hanhineva",
+        "given": "Kati"
+      }
+    ],
+    "container-title": "Methods in molecular biology",
+    "id": "Koistinen2026",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "243-272",
+    "title": "Comprehensive LC–MS metabolomics data processing with the notame R/Bioconductor package",
+    "type": "chapter"
+  },
+  {
+    "DOI": "10.1186/s12931-025-03453-w",
+    "ISSN": "1465-993X",
+    "author": [
+      {
+        "family": "Wikki",
+        "given": "Irina"
+      },
+      {
+        "family": "Palmu",
+        "given": "Joonatan"
+      },
+      {
+        "family": "Kauko",
+        "given": "Anni"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki"
+      },
+      {
+        "family": "Jousilahti",
+        "given": "Pekka"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      }
+    ],
+    "container-title": "Respiratory Research",
+    "id": "Wikki2025",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "title": "Prospective association between the gut microbiota and incident pneumonia: A cohort study of 6419 individuals",
+    "title-short": "Prospective association between the gut microbiota and incident pneumonia",
+    "type": "article-journal",
+    "volume": "26"
+  },
+  {
+    "DOI": "10.64898/2026.05.19.726178",
+    "author": [
+      {
+        "family": "Anwar",
+        "given": "Ali Mostafa"
+      },
+      {
+        "family": "Bayoumi",
+        "given": "Salma"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Coffey",
+        "given": "Eleanor"
+      }
+    ],
+    "container-title": "bioRxiv",
+    "id": "Anwar2026",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "status": "preprint",
+    "title": "A unified framework for batch correction and missing data handling in large-scale and single-cell mass spectrometry proteomics",
+    "type": "article-journal"
   }
 ]
