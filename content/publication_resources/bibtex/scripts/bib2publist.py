@@ -435,6 +435,55 @@ def split_section(cls, entries):
     return out
 
 
+def author_position(e):
+    """(first, last) for LL on this entry, counting shared positions."""
+    names = split_authors(e["author_raw"])
+    if not names:
+        return False, False
+    def family(n):
+        n = tidy(n)
+        if n.startswith("{"):
+            return ""
+        if "," in n:
+            return n.split(",")[0].strip()
+        w = n.split()
+        cut = len(w) - 1
+        while cut > 0 and w[cut - 1][:1].islower():
+            cut -= 1
+        return " ".join(w[cut:])
+    mine = [i for i, n in enumerate(names) if family(n).split()[-1:] == [ME]]
+    if not mine:
+        return False, False
+    shared = "shared first" in (e["authorship"] or "").lower()
+    return (mine[0] == 0 or shared), (mine[-1] == len(names) - 1)
+
+
+def summary(entries, by_class):
+    """A table of how many entries each section holds, and LL's position."""
+    rows, tot = [], [0, 0, 0, 0]
+    for cls, heading, _ in LAYOUT:
+        group = by_class.get(cls) if cls else None
+        if not group:
+            continue
+        first = sum(1 for e in group if author_position(e)[0])
+        last = sum(1 for e in group if author_position(e)[1])
+        shared = sum(1 for e in group
+                     if "shared first" in (e["authorship"] or "").lower())
+        rows.append((heading, len(group), first, last, shared))
+        tot = [tot[0] + len(group), tot[1] + first, tot[2] + last, tot[3] + shared]
+    out = ["**Summary**", "",
+           "| Section | Entries | First author | Last author |",
+           "|:---|---:|---:|---:|"]
+    for heading, n, first, last, shared in rows:
+        f = "%d" % first + (" (%d shared)" % shared if shared else "")
+        out.append("| %s | %d | %s | %d |" % (heading, n, f, last))
+    f = "%d" % tot[1] + (" (%d shared)" % tot[3] if tot[3] else "")
+    out.append("| **Total** | **%d** | **%s** | **%d** |" % (tot[0], f, tot[2]))
+    out += ["", "First and last author positions count shared first authorships,",
+            "which are listed separately.", ""]
+    return out
+
+
 def build(entries, today):
     by_key = {e["key"]: e for e in entries}
     for e in entries:
@@ -457,6 +506,7 @@ def build(entries, today):
 
     lines = ["#### List of publications", "",
              "Leo Lahti %s" % today.strftime("%-d.%-m.%Y"), ""]
+    lines += summary(entries, by_class)
     for cls, heading, members in LAYOUT:
         if cls is None:
             if any(has_content(m) for m in members):
