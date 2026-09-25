@@ -478,20 +478,18 @@ def summary(entries, by_class):
     def cell(first, shared):
         return "%d%s" % (first, " (%d shared)" % shared if shared else "")
 
-    # A group closes after its last member, not when the next group heading
-    # arrives: B and D sit between A5 and the E heading without belonging to A.
-    rows, group, members = [], None, []
+    # The combined row introduces its sections, so it is emitted at the group
+    # heading, before them.
+    rows = []
     for cls, heading, group_members in LAYOUT:
         if cls is None:
-            group, members = heading, [m for m in (group_members or ())
-                                       if by_class.get(m)]
+            present = [m for m in (group_members or ()) if by_class.get(m)]
+            if len(present) > 1:
+                rows.append(("subtotal", SUBTOTAL_LABEL.get(heading, heading),
+                             tally(present)))
             continue
-        if not by_class.get(cls):
-            continue
-        rows.append(("section", heading, tally([cls])))
-        if group and members and cls == members[-1] and len(members) > 1:
-            rows.append(("subtotal", SUBTOTAL_LABEL.get(group, group), tally(members)))
-            group, members = None, []
+        if by_class.get(cls):
+            rows.append(("section", heading, tally([cls])))
 
     out = ["**Summary**", "",
            "| Section | Entries | First author | Last author |",
