@@ -458,29 +458,55 @@ def author_position(e):
     return (mine[0] == 0 or shared), (mine[-1] == len(names) - 1)
 
 
+# Some group headings are too long to sit in a table cell.
+SUBTOTAL_LABEL = {
+    "I Audiovisual materials and programs in information and "
+    "communication technology (ICT)": "I Audiovisual materials and ICT programs",
+}
+
+
 def summary(entries, by_class):
-    """A table of how many entries each section holds, and LL's position."""
-    rows, tot = [], [0, 0, 0, 0]
-    for cls, heading, _ in LAYOUT:
-        group = by_class.get(cls) if cls else None
-        if not group:
+    """Entries per section and LL's position, with a subtotal per group."""
+    def tally(classes):
+        got = [e for cls in classes for e in by_class.get(cls, [])]
+        return (len(got),
+                sum(1 for e in got if author_position(e)[0]),
+                sum(1 for e in got if author_position(e)[1]),
+                sum(1 for e in got
+                    if "shared first" in (e["authorship"] or "").lower()))
+
+    def cell(first, shared):
+        return "%d%s" % (first, " (%d shared)" % shared if shared else "")
+
+    # A group closes after its last member, not when the next group heading
+    # arrives: B and D sit between A5 and the E heading without belonging to A.
+    rows, group, members = [], None, []
+    for cls, heading, group_members in LAYOUT:
+        if cls is None:
+            group, members = heading, [m for m in (group_members or ())
+                                       if by_class.get(m)]
             continue
-        first = sum(1 for e in group if author_position(e)[0])
-        last = sum(1 for e in group if author_position(e)[1])
-        shared = sum(1 for e in group
-                     if "shared first" in (e["authorship"] or "").lower())
-        rows.append((heading, len(group), first, last, shared))
-        tot = [tot[0] + len(group), tot[1] + first, tot[2] + last, tot[3] + shared]
+        if not by_class.get(cls):
+            continue
+        rows.append(("section", heading, tally([cls])))
+        if group and members and cls == members[-1] and len(members) > 1:
+            rows.append(("subtotal", SUBTOTAL_LABEL.get(group, group), tally(members)))
+            group, members = None, []
+
     out = ["**Summary**", "",
            "| Section | Entries | First author | Last author |",
            "|:---|---:|---:|---:|"]
-    for heading, n, first, last, shared in rows:
-        f = "%d" % first + (" (%d shared)" % shared if shared else "")
-        out.append("| %s | %d | %s | %d |" % (heading, n, f, last))
-    f = "%d" % tot[1] + (" (%d shared)" % tot[3] if tot[3] else "")
-    out.append("| **Total** | **%d** | **%s** | **%d** |" % (tot[0], f, tot[2]))
+    for kind, heading, (n, first, last, shared) in rows:
+        if kind == "subtotal":
+            out.append("| *%s, combined* | *%d* | *%s* | *%d* |"
+                       % (heading, n, cell(first, shared), last))
+        else:
+            out.append("| %s | %d | %s | %d |" % (heading, n, cell(first, shared), last))
+    n, first, last, shared = tally([c for c, _, _ in LAYOUT if c])
+    out.append("| **Total** | **%d** | **%s** | **%d** |" % (n, cell(first, shared), last))
     out += ["", "First and last author positions count shared first authorships,",
-            "which are listed separately.", ""]
+            "which are listed separately. A combined row totals the sections",
+            "above it and is not added into the total.", ""]
     return out
 
 
