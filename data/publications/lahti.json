@@ -11870,7 +11870,7 @@
         "given": "Leo"
       }
     ],
-    "container-title": "Digital humanities 2016: Conference abstracts",
+    "container-title": "Digital humanities 2016",
     "id": "Tolonen2016",
     "issued": {
       "date-parts": [
@@ -13762,7 +13762,7 @@
     "type": ""
   },
   {
-    "URL": "http://bioconductor.org/packages/devel/bioc/html/pint.html",
+    "URL": "https://bioconductor.org/packages/3.11/bioc/html/pint.html",
     "author": [
       {
         "family": "Huovilainen",
@@ -13920,7 +13920,6 @@
     "volume": "48"
   },
   {
-    "URL": "https://github.com/openresearchlabs/openresearchlabs.github.io/blob/master/content/publication_resources/theses/LeoLahti-BSc-2008.pdf",
     "author": [
       {
         "family": "Lahti",
@@ -14231,7 +14230,6 @@
     "type": "report"
   },
   {
-    "URL": "http://www.cis.hut.fi/projects/mi/abstracts/ecml04.html",
     "author": [
       {
         "family": "Sinkkonen",
@@ -14563,7 +14561,6 @@
     "type": ""
   },
   {
-    "URL": "http://www.hri.fi/fi/ajankohtaista/visualisointiblogi/leo-lahti-esittelee-sorvi-ympariston/",
     "author": [
       {
         "family": "Lahti",
