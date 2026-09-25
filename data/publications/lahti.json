@@ -16606,6 +16606,7 @@
       ]
     },
     "keyword": "bioscience",
+    "page": "1261889",
     "title": "Machine learning approaches in microbiome research: Challenges and best practices",
     "title-short": "Machine learning approaches in microbiome research",
     "type": "article-journal",
@@ -16684,6 +16685,7 @@
       ]
     },
     "keyword": "bioscience",
+    "page": "e25358",
     "title": "Value of multiomics over clinical risk factors in hypertension prediction",
     "type": "article-journal",
     "volume": "83"
@@ -16788,7 +16790,8 @@
     "keyword": "bioscience",
     "page": "243-272",
     "title": "Comprehensive LC–MS metabolomics data processing with the notame R/Bioconductor package",
-    "type": "chapter"
+    "type": "chapter",
+    "volume": "3063"
   },
   {
     "DOI": "10.1186/s12931-025-03453-w",
@@ -16843,6 +16846,7 @@
       ]
     },
     "keyword": "bioscience",
+    "page": "354",
     "title": "Prospective association between the gut microbiota and incident pneumonia: A cohort study of 6419 individuals",
     "title-short": "Prospective association between the gut microbiota and incident pneumonia",
     "type": "article-journal",

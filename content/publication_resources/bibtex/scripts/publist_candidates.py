@@ -25,6 +25,7 @@ import argparse, html, json, os, re, subprocess, sys, time, unicodedata
 HERE = os.path.dirname(os.path.abspath(__file__))
 BIB = os.path.join(HERE, os.pardir, "lahti.bib")
 ORCID = "0000-0001-5537-637X"
+DECLINED = os.path.join(HERE, "declined.txt")
 ME = "Lahti"
 UA = "publist-candidates (mailto:leo.lahti@iki.fi)"
 
@@ -125,9 +126,23 @@ def abstract_reason(c):
     return None
 
 
-def classify(c, bib_dois, bib_titles):
+def load_declined():
+    """DOIs already considered and rejected; a judgement, so it is recorded."""
+    if not os.path.exists(DECLINED):
+        return set()
+    out = set()
+    for line in open(DECLINED, encoding="utf-8"):
+        line = line.split("#")[0].strip().lower()
+        if line.startswith("10."):
+            out.add(line)
+    return out
+
+
+def classify(c, bib_dois, bib_titles, declined=frozenset()):
     """(verdict, reason). verdict is 'propose' or 'skip'."""
     doi = (c.get("DOI") or "").lower()
+    if doi in declined:
+        return "skip", "considered before and declined"
     title = c.get("title") or ""
     if doi in bib_dois:
         return "skip", "already in the file"
@@ -242,6 +257,7 @@ def main():
     sys.stderr.write("%d DOIs from the sources, %d not already recorded\n"
                      % (len(set(dois)), len(todo)))
 
+    declined = load_declined()
     proposed, skipped = [], []
     for d in todo:
         body = fetch("https://doi.org/" + d, "application/vnd.citationstyles.csl+json")
@@ -255,7 +271,7 @@ def main():
             c["title"] = c["title"][0] if c["title"] else ""
         if isinstance(c.get("container-title"), list):
             c["container-title"] = c["container-title"][0] if c["container-title"] else ""
-        verdict, reason = classify(c, bib_dois, bib_titles)
+        verdict, reason = classify(c, bib_dois, bib_titles, declined)
         (proposed if verdict == "propose" else skipped).append((d, c, reason))
         time.sleep(0.15)
 

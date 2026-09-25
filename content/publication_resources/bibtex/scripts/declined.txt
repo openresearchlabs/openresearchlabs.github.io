@@ -1,0 +1,16 @@
+# DOIs considered and deliberately not recorded, so publist_candidates.py
+# stops proposing them. One per line; the reason is for the reader.
+
+# ISPNE meeting abstracts, not articles
+10.1016/j.psyneuen.2020.104928
+10.1016/j.psyneuen.2023.106828
+
+# a reply to a letter to the editor, not counted
+10.1016/j.bbi.2019.07.006
+
+# the Swedish edition of a recommendation already recorded as tsv.441
+10.23847/tsv.440
+
+# same work, recorded under another DOI
+10.5617/dhnbpub.11096
+10.48550/arxiv.2212.12550
