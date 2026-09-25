@@ -16218,5 +16218,170 @@
     "title": "Vegan: Community ecology package",
     "title-short": "Vegan",
     "type": ""
+  },
+  {
+    "DOI": "10.18129/B9.bioc.notame",
+    "URL": "https://bioconductor.org/packages/notame",
+    "author": [
+      {
+        "family": "Klåvus",
+        "given": "Anton"
+      },
+      {
+        "family": "Paananen",
+        "given": "Jussi"
+      },
+      {
+        "family": "Timonen",
+        "given": "Oskari"
+      },
+      {
+        "family": "Lihtamo",
+        "given": "Atte"
+      },
+      {
+        "family": "Suksi",
+        "given": "Vilhelm"
+      },
+      {
+        "family": "Haikonen",
+        "given": "Retu"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Hanhineva",
+        "given": "Kati"
+      }
+    ],
+    "id": "Klavus2026notame",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ],
+        [
+          2026
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "R package version 1.2.0",
+    "publisher": "Bioconductor",
+    "title": "Notame: Workflow for non-targeted LC-MS metabolic profiling",
+    "title-short": "Notame",
+    "type": ""
+  },
+  {
+    "DOI": "10.18129/B9.bioc.notameStats",
+    "URL": "https://bioconductor.org/packages/notameStats",
+    "author": [
+      {
+        "family": "Klåvus",
+        "given": "Anton"
+      },
+      {
+        "family": "Paananen",
+        "given": "Jussi"
+      },
+      {
+        "family": "Timonen",
+        "given": "Oskari"
+      },
+      {
+        "family": "Lihtamo",
+        "given": "Atte"
+      },
+      {
+        "family": "Suksi",
+        "given": "Vilhelm"
+      },
+      {
+        "family": "Haikonen",
+        "given": "Retu"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Hanhineva",
+        "given": "Kati"
+      }
+    ],
+    "id": "Klavus2026notamestats",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ],
+        [
+          2026
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "R package version 1.2.0",
+    "publisher": "Bioconductor",
+    "title": "notameStats: Univariate and multivariate statistics for non-targeted LC-MS metabolic profiling",
+    "title-short": "notameStats",
+    "type": ""
+  },
+  {
+    "DOI": "10.18129/B9.bioc.notameViz",
+    "URL": "https://bioconductor.org/packages/notameViz",
+    "author": [
+      {
+        "family": "Klåvus",
+        "given": "Anton"
+      },
+      {
+        "family": "Paananen",
+        "given": "Jussi"
+      },
+      {
+        "family": "Timonen",
+        "given": "Oskari"
+      },
+      {
+        "family": "Lihtamo",
+        "given": "Atte"
+      },
+      {
+        "family": "Suksi",
+        "given": "Vilhelm"
+      },
+      {
+        "family": "Haikonen",
+        "given": "Retu"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Hanhineva",
+        "given": "Kati"
+      }
+    ],
+    "id": "Klavus2026notameviz",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ],
+        [
+          2026
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "note": "R package version 1.2.0",
+    "publisher": "Bioconductor",
+    "title": "notameViz: Visualizations for non-targeted LC-MS metabolic profiling",
+    "title-short": "notameViz",
+    "type": ""
   }
 ]
