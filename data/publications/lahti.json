@@ -341,7 +341,7 @@
       },
       {
         "family": "Pussinen",
-        "given": "Pirkko"
+        "given": "Pirkko J."
       },
       {
         "family": "Paju",
@@ -618,7 +618,7 @@
       },
       {
         "family": "Erawijantari",
-        "given": "Pande"
+        "given": "Pande Putu"
       },
       {
         "family": "Salminen",
@@ -1689,39 +1689,39 @@
     "author": [
       {
         "family": "Manzoor",
-        "given": "Muhammed"
+        "given": "M."
       },
       {
         "family": "Putaala",
-        "given": "Jukka"
+        "given": "J."
       },
       {
         "family": "Zaric",
-        "given": "Svetislav"
+        "given": "S."
       },
       {
         "family": "Leskelä",
-        "given": "Jaakko"
+        "given": "J."
       },
       {
         "family": "Dong",
-        "given": "Anbo"
+        "given": "A."
       },
       {
         "family": "Könönen",
-        "given": "Eija"
+        "given": "E."
       },
       {
         "family": "Lahti",
-        "given": "Leo"
+        "given": "L."
       },
       {
         "family": "Paju",
-        "given": "Susanna"
+        "given": "S."
       },
       {
         "family": "Pussinen",
-        "given": "Pirkko"
+        "given": "P. J."
       }
     ],
     "container-title": "Journal of Dental Research",
@@ -2122,7 +2122,7 @@
       },
       {
         "family": "Lietzén",
-        "given": "Martin"
+        "given": "Martin S."
       },
       {
         "family": "Virtanen",
@@ -2150,7 +2150,7 @@
       },
       {
         "family": "Pietiläinen",
-        "given": "Kirsi"
+        "given": "Kirsi H."
       },
       {
         "family": "Kaprio",
@@ -2166,11 +2166,11 @@
       },
       {
         "family": "Rinne",
-        "given": "Juha"
+        "given": "Juha O."
       },
       {
         "family": "Hannukainen",
-        "given": "Jarna"
+        "given": "Jarna C."
       }
     ],
     "container-title": "Diabetes, Obesity and Metabolism",
@@ -2880,7 +2880,7 @@
       },
       {
         "family": "Beggs",
-        "given": "John J"
+        "given": "John J."
       },
       {
         "family": "Pärnänen",
@@ -3115,7 +3115,7 @@
       },
       {
         "family": "Amatya",
-        "given": "Sajeen"
+        "given": "Sajeen Bahadur"
       },
       {
         "family": "Paalanne",
@@ -3127,7 +3127,7 @@
       },
       {
         "family": "Portaankorva",
-        "given": "Anne"
+        "given": "Anne M."
       },
       {
         "family": "Koivunen",
@@ -3183,7 +3183,7 @@
       },
       {
         "family": "Tejesvi",
-        "given": "Mysore"
+        "given": "Mysore V."
       },
       {
         "family": "Ruuska-Loewald",
@@ -3287,7 +3287,7 @@
       },
       {
         "family": "Kujala",
-        "given": "Janne"
+        "given": "Janne V."
       },
       {
         "family": "Lahti",
@@ -3370,12 +3370,12 @@
       },
       {
         "family": "Heilig",
-        "given": "Hans"
+        "given": "Hans G. H. J."
       },
       {
         "dropping-particle": "van",
         "family": "Gelder",
-        "given": "Antonie"
+        "given": "Antonie H."
       },
       {
         "dropping-particle": "de",
@@ -3388,7 +3388,7 @@
       },
       {
         "family": "Zoetendal",
-        "given": "Erwin"
+        "given": "Erwin G."
       }
     ],
     "container-title": "Nature Communications",
@@ -3791,7 +3791,7 @@
     "author": [
       {
         "family": "Lietzén",
-        "given": "Martin S"
+        "given": "Martin S."
       },
       {
         "family": "Mari",
@@ -3827,7 +3827,7 @@
       },
       {
         "family": "Kirjavainen",
-        "given": "Anna K"
+        "given": "Anna K."
       },
       {
         "family": "Rajander",
@@ -3843,11 +3843,11 @@
       },
       {
         "family": "Rinne",
-        "given": "Juha O"
+        "given": "Juha O."
       },
       {
         "family": "Pietiläinen",
-        "given": "Kirsi H"
+        "given": "Kirsi H."
       },
       {
         "family": "Iozzo",
@@ -3855,7 +3855,7 @@
       },
       {
         "family": "Hannukainen",
-        "given": "Jarna C"
+        "given": "Jarna C."
       }
     ],
     "container-title": "Biomolecules",
@@ -3885,11 +3885,11 @@
       },
       {
         "family": "Pärnänen",
-        "given": "Katariina MM"
+        "given": "Katariina Mm"
       },
       {
         "family": "Ponsero",
-        "given": "Alise J"
+        "given": "Alise J."
       },
       {
         "family": "Lahti",
@@ -4065,7 +4065,7 @@
       },
       {
         "family": "Pussinen",
-        "given": "Pirkko J"
+        "given": "Pirkko J."
       },
       {
         "family": "Paju",
@@ -4095,7 +4095,7 @@
     "author": [
       {
         "family": "Kullberg",
-        "given": "Robert F J"
+        "given": "Robert F. J."
       },
       {
         "family": "Wikki",
@@ -4103,7 +4103,7 @@
       },
       {
         "family": "Haak",
-        "given": "Bastiaan W"
+        "given": "Bastiaan W."
       },
       {
         "family": "Kauko",
@@ -4119,11 +4119,11 @@
       },
       {
         "family": "Butler",
-        "given": "Joe M"
+        "given": "Joe M."
       },
       {
         "family": "Havulinna",
-        "given": "Aki S"
+        "given": "Aki S."
       },
       {
         "family": "Palmu",
@@ -4139,7 +4139,7 @@
       },
       {
         "family": "Abdel-Aziz",
-        "given": "Mahmoud I"
+        "given": "Mahmoud I."
       },
       {
         "family": "Prins",
@@ -4147,7 +4147,7 @@
       },
       {
         "family": "Maitland van der Zee",
-        "given": "Anke H"
+        "given": "Anke H."
       },
       {
         "family": "Born",
@@ -4160,7 +4160,7 @@
       },
       {
         "family": "Vos",
-        "given": "Willem M",
+        "given": "Willem M.",
         "non-dropping-particle": "de"
       },
       {
@@ -4185,7 +4185,7 @@
       },
       {
         "family": "Wiersinga",
-        "given": "W Joost"
+        "given": "W. Joost"
       }
     ],
     "container-title": "The Lancet Microbe",
@@ -4211,23 +4211,23 @@
     "author": [
       {
         "family": "Bhanushali",
-        "given": "Shivang"
+        "given": "S."
       },
       {
         "family": "Pärnänen",
-        "given": "Katariina"
+        "given": "K."
       },
       {
         "family": "Mongad",
-        "given": "Dattatray"
+        "given": "D."
       },
       {
         "family": "Dhotre",
-        "given": "Dhiraj"
+        "given": "D."
       },
       {
         "family": "Lahti",
-        "given": "Leo"
+        "given": "L."
       }
     ],
     "container-title": "medRxiv",
@@ -4813,7 +4813,7 @@
         "given": "Susanna"
       }
     ],
-    "container-title": "Journal of Oral Microbiology (ZJOM)",
+    "container-title": "Journal of Oral Microbiology (ZJOM)",
     "id": "Manzoora2024",
     "issue": "1",
     "issued": {
@@ -5067,7 +5067,7 @@
     "author": [
       {
         "family": "Heiskanen",
-        "given": "Marja"
+        "given": "Marja A."
       },
       {
         "family": "Aatsinki",
@@ -5123,7 +5123,7 @@
       },
       {
         "family": "Rovio",
-        "given": "Suvi"
+        "given": "Suvi P."
       },
       {
         "family": "Pahkala",
@@ -5663,8 +5663,8 @@
         "given": "Paul"
       },
       {
-        "family": "Yilmaz",
-        "given": "Ercument"
+        "family": "Yılmaz",
+        "given": "Ercüment"
       },
       {
         "family": "Yousef",
@@ -6287,7 +6287,7 @@
       },
       {
         "family": "Havulinna",
-        "given": "Aki"
+        "given": "Aki S."
       },
       {
         "family": "Jansen",
@@ -6295,11 +6295,11 @@
       },
       {
         "family": "Bertelsen",
-        "given": "Randi"
+        "given": "Randi J."
       },
       {
         "family": "Claesson",
-        "given": "Marcus"
+        "given": "Marcus Joakim"
       }
     ],
     "container-title": "Frontiers in Microbiology",
@@ -6348,7 +6348,7 @@
       },
       {
         "family": "Morton",
-        "given": "James"
+        "given": "James T."
       },
       {
         "family": "Nicolaou",
@@ -6356,11 +6356,11 @@
       },
       {
         "family": "Parks",
-        "given": "Donovan"
+        "given": "Donovan H."
       },
       {
         "family": "Karst",
-        "given": "Søren"
+        "given": "Søren M."
       },
       {
         "family": "Albertsen",
@@ -6384,7 +6384,7 @@
       },
       {
         "family": "Havulinna",
-        "given": "Aki"
+        "given": "Aki S."
       },
       {
         "family": "Jousilahti",
@@ -6502,7 +6502,7 @@
       },
       {
         "family": "Tuulari",
-        "given": "Jetro"
+        "given": "Jetro J."
       },
       {
         "family": "Munukka",
@@ -6526,7 +6526,7 @@
       },
       {
         "family": "Scheinin",
-        "given": "Noora"
+        "given": "Noora M."
       },
       {
         "family": "Saunavaara",
@@ -6538,7 +6538,7 @@
       },
       {
         "family": "Lewis",
-        "given": "John"
+        "given": "John D."
       },
       {
         "family": "Hashempour",
@@ -6546,7 +6546,7 @@
       },
       {
         "family": "Shulist",
-        "given": "Satu"
+        "given": "Satu J."
       },
       {
         "family": "Karlsson",
@@ -6582,7 +6582,7 @@
       },
       {
         "family": "Börschel",
-        "given": "Christin"
+        "given": "Christin S."
       },
       {
         "family": "Ortega-Alonso",
@@ -6602,7 +6602,7 @@
       },
       {
         "family": "Salido",
-        "given": "Rodolfo"
+        "given": "Rodolfo A."
       },
       {
         "family": "Sanders",
@@ -6614,11 +6614,11 @@
       },
       {
         "family": "Humphrey",
-        "given": "Gregory"
+        "given": "Gregory C."
       },
       {
         "family": "Sanders",
-        "given": "Jon"
+        "given": "Jon G."
       },
       {
         "family": "Gutmann",
@@ -6634,11 +6634,11 @@
       },
       {
         "family": "Havulinna",
-        "given": "Aki"
+        "given": "Aki S."
       },
       {
         "family": "Forslund",
-        "given": "Sofia"
+        "given": "Sofia K."
       },
       {
         "family": "Knight",
@@ -6654,7 +6654,7 @@
       },
       {
         "family": "Schnabel",
-        "given": "Renate"
+        "given": "Renate B."
       }
     ],
     "container-title": "eBioMedicine",
@@ -6794,7 +6794,7 @@
       },
       {
         "family": "Sanders",
-        "given": "Jon G"
+        "given": "Jon G."
       },
       {
         "family": "Vázquez-Baeza",
@@ -6806,7 +6806,7 @@
       },
       {
         "family": "Vartiainen",
-        "given": "Ville A"
+        "given": "Ville A."
       },
       {
         "family": "Jousilahti",
@@ -6822,7 +6822,7 @@
       },
       {
         "family": "Havulinna",
-        "given": "Aki S"
+        "given": "Aki S."
       },
       {
         "family": "Knight",
@@ -6975,7 +6975,7 @@
       {
         "dropping-particle": "de",
         "family": "Polavieja",
-        "given": "Gonzalo G"
+        "given": "Gonzalo G."
       }
     ],
     "container-title": "Bioinformatics",
@@ -7110,7 +7110,7 @@
       },
       {
         "family": "Udler",
-        "given": "Miriam"
+        "given": "Miriam S."
       },
       {
         "literal": "FinnGen"
@@ -7216,7 +7216,7 @@
       },
       {
         "family": "Havulinna",
-        "given": "Aki"
+        "given": "Aki S."
       },
       {
         "family": "Vartiainen",
@@ -7228,7 +7228,7 @@
       },
       {
         "family": "Ruuskanen",
-        "given": "Matti"
+        "given": "Matti O."
       },
       {
         "family": "Perola",
@@ -7810,11 +7810,11 @@
       },
       {
         "family": "Sepich-Poore",
-        "given": "Gregory D"
+        "given": "Gregory D."
       },
       {
         "family": "Swafford",
-        "given": "Austin D"
+        "given": "Austin D."
       },
       {
         "family": "Das",
@@ -7822,7 +7822,7 @@
       },
       {
         "family": "Shaffer",
-        "given": "Justin P"
+        "given": "Justin P."
       },
       {
         "family": "Lejzerowicz",
@@ -7834,7 +7834,7 @@
       },
       {
         "family": "Havulinna",
-        "given": "Aki S"
+        "given": "Aki S."
       },
       {
         "family": "Méric",
@@ -7866,7 +7866,7 @@
       },
       {
         "family": "Gilbert",
-        "given": "Jack"
+        "given": "Jack A."
       },
       {
         "family": "Knight",
@@ -7917,7 +7917,7 @@
       },
       {
         "family": "Nielsen",
-        "given": "Henrik"
+        "given": "Henrik Bjørn"
       },
       {
         "family": "Munukka",
@@ -8136,7 +8136,7 @@
     "author": [
       {
         "family": "Armstrong",
-        "given": "George W"
+        "given": "George"
       },
       {
         "family": "Cantrell",
@@ -8172,7 +8172,7 @@
       },
       {
         "family": "Beck",
-        "given": "Kristen"
+        "given": "Kristen L."
       },
       {
         "family": "Hakim",
@@ -8180,7 +8180,7 @@
       },
       {
         "family": "Havulinna",
-        "given": "Aki S"
+        "given": "Aki S."
       },
       {
         "family": "Méric",
@@ -8208,7 +8208,7 @@
       },
       {
         "family": "Swafford",
-        "given": "Austin D"
+        "given": "Austin D."
       },
       {
         "family": "Kim",
@@ -8333,7 +8333,7 @@
       {
         "dropping-particle": "van",
         "family": "Nes",
-        "given": "Egbert"
+        "given": "Egbert H."
       },
       {
         "family": "Lahti",
@@ -8610,7 +8610,7 @@
         "given": "Aleksandra"
       },
       {
-        "family": "Hasic",
+        "family": "Hasić",
         "given": "Jasminka"
       },
       {
@@ -8631,7 +8631,7 @@
       },
       {
         "family": "Lopes",
-        "given": "Marta B"
+        "given": "Marta B."
       },
       {
         "family": "Moreno",
@@ -8733,7 +8733,7 @@
       },
       {
         "family": "Roshchupkin",
-        "given": "Gennady V."
+        "given": "Gennady"
       },
       {
         "family": "Adilovic",
@@ -8849,7 +8849,7 @@
       },
       {
         "family": "Vlachakis",
-        "given": "Dimitrios P."
+        "given": "Dimitrios"
       },
       {
         "family": "Yılmaz",
@@ -8861,7 +8861,7 @@
       },
       {
         "family": "Zomer",
-        "given": "Aldert"
+        "given": "Aldert L."
       },
       {
         "family": "Gómez-Cabrero",
@@ -8869,7 +8869,7 @@
       },
       {
         "family": "Claesson",
-        "given": "Marcus"
+        "given": "Marcus J."
       }
     ],
     "container-title": "Frontiers in Microbiology",
@@ -8930,7 +8930,7 @@
     "author": [
       {
         "family": "Ruuskanen",
-        "given": "Matti"
+        "given": "Matti O."
       },
       {
         "family": "Sommeria-Klein",
@@ -8938,11 +8938,11 @@
       },
       {
         "family": "Havulinna",
-        "given": "Aki"
+        "given": "Aki S."
       },
       {
         "family": "Niiranen",
-        "given": "Teemu"
+        "given": "Teemu J."
       },
       {
         "family": "Lahti",
@@ -9070,7 +9070,7 @@
       },
       {
         "family": "Havulinna",
-        "given": "Aki S"
+        "given": "Aki S."
       },
       {
         "family": "Méric",
@@ -9098,7 +9098,7 @@
       },
       {
         "family": "Watrous",
-        "given": "Jeramie D"
+        "given": "Jeramie D."
       },
       {
         "family": "Long",
@@ -9106,7 +9106,7 @@
       },
       {
         "family": "Salido",
-        "given": "Rodolfo"
+        "given": "Rodolfo A."
       },
       {
         "family": "Sanders",
@@ -9118,11 +9118,11 @@
       },
       {
         "family": "Humphrey",
-        "given": "Gregory C"
+        "given": "Gregory C."
       },
       {
         "family": "Sanders",
-        "given": "Jon G"
+        "given": "Jon G."
       },
       {
         "family": "Jain",
@@ -9315,7 +9315,7 @@
       },
       {
         "family": "Mäkelä",
-        "given": "E"
+        "given": "Eetu"
       },
       {
         "family": "Ijaz",
@@ -9356,7 +9356,7 @@
       },
       {
         "family": "Ojala",
-        "given": "Ronja A."
+        "given": "Ronja"
       },
       {
         "family": "Lautamäki",
@@ -9368,7 +9368,7 @@
       },
       {
         "family": "Lietzén",
-        "given": "Martin"
+        "given": "Martin S."
       },
       {
         "family": "Hentilä",
@@ -9674,7 +9674,7 @@
       },
       {
         "family": "Hannukainen",
-        "given": "Jarna C"
+        "given": "Jarna C."
       },
       {
         "family": "Salminen",
@@ -9883,35 +9883,35 @@
     "author": [
       {
         "family": "Mäkelä",
-        "given": "E"
+        "given": "E."
       },
       {
         "family": "Lagus",
-        "given": "K"
+        "given": "K."
       },
       {
         "family": "Lahti",
-        "given": "L"
+        "given": "L."
       },
       {
         "family": "Säily",
-        "given": "T"
+        "given": "T."
       },
       {
         "family": "Tolonen",
-        "given": "M"
+        "given": "M."
       },
       {
         "family": "Hämäläinen",
-        "given": "M"
+        "given": "M."
       },
       {
         "family": "Kaislaniemi",
-        "given": "S"
+        "given": "S."
       },
       {
         "family": "Nevalainen",
-        "given": "T"
+        "given": "T."
       }
     ],
     "collection-title": "CEUR workshop proceedings",
@@ -10263,7 +10263,7 @@
       },
       {
         "family": "Lahti",
-        "given": "L"
+        "given": "Leo"
       },
       {
         "family": "Saberi",
@@ -10394,7 +10394,7 @@
     "author": [
       {
         "family": "Aatsinki",
-        "given": "Anna"
+        "given": "Anna-Katariina"
       },
       {
         "family": "Lahti",
@@ -10402,7 +10402,7 @@
       },
       {
         "family": "Uusitupa",
-        "given": "Henna"
+        "given": "Henna-Maria"
       },
       {
         "family": "Munukka",
@@ -10426,7 +10426,7 @@
       },
       {
         "family": "Elo",
-        "given": "Laura"
+        "given": "Laura L."
       },
       {
         "family": "Eerola",
@@ -10462,7 +10462,7 @@
     "author": [
       {
         "family": "Hill",
-        "given": "Mark J"
+        "given": "Mark J."
       },
       {
         "family": "Vaara",
@@ -10757,7 +10757,7 @@
     "author": [
       {
         "family": "Shetty",
-        "given": "Sudarshan"
+        "given": "Sudarshan A."
       },
       {
         "family": "Lahti",
@@ -10941,7 +10941,7 @@
       },
       {
         "family": "Zoetendal",
-        "given": "Erwin G"
+        "given": "Erwin G."
       }
     ],
     "container-title": "FEMS Microbiology Ecology",
@@ -11266,7 +11266,7 @@
       },
       {
         "family": "Washburne",
-        "given": "Alex D"
+        "given": "Alex D."
       },
       {
         "family": "Gonze",
@@ -11302,7 +11302,7 @@
       },
       {
         "family": "Coyte",
-        "given": "Katharine Z"
+        "given": "Katharine Z."
       },
       {
         "family": "Lahti",
@@ -11332,7 +11332,7 @@
     "author": [
       {
         "family": "Hill",
-        "given": "Mark J"
+        "given": "Mark J."
       },
       {
         "family": "Kanner",
@@ -11498,7 +11498,7 @@
         "given": "Homa"
       },
       {
-        "family": "Carpelan‑Holmström",
+        "family": "Carpelan-Holmström",
         "given": "Monika"
       },
       {
@@ -11574,8 +11574,8 @@
         "given": "Elena"
       },
       {
-        "dropping-particle": "d.J.",
-        "family": "Bello González",
+        "dropping-particle": "d.",
+        "family": "J. Bello González",
         "given": "Teresita"
       },
       {
@@ -11606,7 +11606,7 @@
       {
         "dropping-particle": "van",
         "family": "Mourik",
-        "given": "Maaike S."
+        "given": "Maaike S. M."
       },
       {
         "family": "Oostdijk",
@@ -11699,11 +11699,11 @@
       },
       {
         "family": "Parsons",
-        "given": "Todd L"
+        "given": "Todd L."
       },
       {
         "family": "Ijaz",
-        "given": "Umer Z"
+        "given": "Umer Z."
       },
       {
         "family": "Lahti",
@@ -11932,7 +11932,7 @@
       },
       {
         "family": "Attwood",
-        "given": "Teresa K"
+        "given": "Teresa K."
       },
       {
         "family": "Chue Hong",
@@ -11952,7 +11952,7 @@
       },
       {
         "family": "Förstner",
-        "given": "Konrad U"
+        "given": "Konrad U."
       },
       {
         "family": "Grigorov",
@@ -11972,7 +11972,7 @@
       },
       {
         "family": "Markie",
-        "given": "Michael L"
+        "given": "Michael L."
       },
       {
         "family": "Molloy",
@@ -12467,7 +12467,7 @@
       },
       {
         "family": "Ijaz",
-        "given": "Umer Z"
+        "given": "Umer Z."
       },
       {
         "family": "Lahti",
@@ -12475,11 +12475,11 @@
       },
       {
         "family": "Loman",
-        "given": "Nicholas J"
+        "given": "Nicholas J."
       },
       {
         "family": "Andersson",
-        "given": "Anders F"
+        "given": "Anders F."
       },
       {
         "family": "Quince",
@@ -12638,7 +12638,7 @@
       },
       {
         "family": "Duncan",
-        "given": "Sylvia"
+        "given": "Sylvia H."
       },
       {
         "family": "Date",
@@ -12650,11 +12650,11 @@
       },
       {
         "family": "Johnstone",
-        "given": "Alexandra"
+        "given": "Alexandra M."
       },
       {
         "family": "Lobley",
-        "given": "Gerald"
+        "given": "Gerald E."
       },
       {
         "family": "Louis",
@@ -12662,7 +12662,7 @@
       },
       {
         "family": "Flint",
-        "given": "Harry"
+        "given": "Harry J."
       },
       {
         "dropping-particle": "de",
@@ -12692,7 +12692,7 @@
     "author": [
       {
         "family": "Sarhadi",
-        "given": "Virinder"
+        "given": "Virinder Kaur"
       },
       {
         "family": "Lahti",
@@ -12814,7 +12814,7 @@
       },
       {
         "family": "Elo",
-        "given": "Laura L"
+        "given": "Laura L."
       },
       {
         "family": "Brazma",
@@ -12984,7 +12984,7 @@
       },
       {
         "family": "Saarinen-Pihkala",
-        "given": "Ulla M"
+        "given": "Ulla M."
       },
       {
         "family": "Knuutila",
@@ -13086,20 +13086,20 @@
     "author": [
       {
         "family": "Salonen",
-        "given": "Anne"
+        "given": "A."
       },
       {
         "family": "Salojärvi",
-        "given": "Jarkko"
+        "given": "J."
       },
       {
         "family": "Lahti",
-        "given": "Leo"
+        "given": "L."
       },
       {
         "dropping-particle": "de",
         "family": "Vos",
-        "given": "Willem M."
+        "given": "W. M."
       }
     ],
     "container-title": "Clinical Microbiology and Infection",
@@ -13271,7 +13271,7 @@
       },
       {
         "family": "Nord",
-        "given": "Karolin H"
+        "given": "Karolin H."
       },
       {
         "family": "Knuutila",
@@ -14185,7 +14185,7 @@
       },
       {
         "family": "Knuuttila",
-        "given": "Juha"
+        "given": "Juha E. A."
       },
       {
         "family": "Roos",
@@ -15153,7 +15153,7 @@
       },
       {
         "family": "Biecek",
-        "given": "Przemyslaw"
+        "given": "Przemysław"
       }
     ],
     "id": "Lahti2023",
