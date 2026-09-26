@@ -3470,9 +3470,9 @@
         "given": "Leo"
       },
       {
+        "dropping-particle": "de",
         "family": "Weerth",
-        "given": "Carolina",
-        "non-dropping-particle": "de"
+        "given": "Carolina"
       }
     ],
     "container-title": "Psychoneuroendocrinology",
@@ -4150,9 +4150,9 @@
         "given": "Anke H."
       },
       {
+        "dropping-particle": "van den",
         "family": "Born",
-        "given": "Bert-Jan",
-        "non-dropping-particle": "van den"
+        "given": "Bert-Jan"
       },
       {
         "family": "Jousilahti",
@@ -11583,9 +11583,9 @@
         "given": "Susana"
       },
       {
+        "dropping-particle": "de",
         "family": "Steenhuijsen Piters",
-        "given": "Wouter A. A.",
-        "non-dropping-particle": "de"
+        "given": "Wouter A. A."
       },
       {
         "family": "Lahti",
@@ -13060,7 +13060,7 @@
     "author": [
       {
         "family": "Lehtomäki",
-        "given": "Juha"
+        "given": "Joona"
       },
       {
         "family": "Lahti",
