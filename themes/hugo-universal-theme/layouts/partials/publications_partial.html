@@ -24,7 +24,9 @@
       {{- $names = $names | append .literal -}}
     {{- end -}}
   {{- else -}}
-    {{- $fam := .family -}}
+    <!-- a trailing `*` in the bib marks shared authorship; the site has no
+         legend for it, so it is not displayed -->
+    {{- $fam := replaceRE `\*+$` "" .family -}}
     {{- $dp := index . "dropping-particle" -}}
     {{- with $dp -}}{{- $fam = printf "%s %s" . $fam -}}{{- end -}}
     {{- $ndp := index . "non-dropping-particle" -}}
