@@ -269,15 +269,23 @@ def split_name(name):
 
 
 def format_author(name):
-    """`de Vos, Willem M.` / `Willem M. de Vos` -> `de Vos, W.M.`"""
+    """`de Vos, Willem M.` / `Willem M. de Vos` -> `de Vos, W.M.`
+
+    A trailing `*` marks shared authorship; it is kept, but outside the name so
+    it cannot be read as part of the surname.
+    """
     if is_corporate(name):
         return tidy(name)
+    star = "*" if name.rstrip().endswith("*") else ""
+    name = name.rstrip().rstrip("*")
     family, given = split_name(name)
     if not given:                      # corporate author, e.g. {OpenUTU work group}
         return family
     ini = initials(given)
     label = ("%s, %s" % (family, ini)).strip()
-    return MARK % label if family.split()[-1] == ME else label
+    if family.split()[-1:] == [ME]:
+        return (MARK % label) + star
+    return label + star
 
 
 def author_list(field):
@@ -366,6 +374,8 @@ def authorship_note(value):
     labels = []
     if "shared first" in v:
         labels.append("Shared first author")
+    if "shared last" in v:
+        labels.append("Shared last author")
     if "corresponding" in v:
         labels.append("Corresponding author")
     return ". ".join(labels) or None
@@ -472,7 +482,7 @@ def author_position(e):
     if not names:
         return False, False
     def family(n):
-        n = tidy(n)
+        n = tidy(n.rstrip().rstrip("*"))
         if n.startswith("{"):
             return ""
         if "," in n:
@@ -485,8 +495,9 @@ def author_position(e):
     mine = [i for i, n in enumerate(names) if family(n).split()[-1:] == [ME]]
     if not mine:
         return False, False
-    shared = "shared first" in (e["authorship"] or "").lower()
-    return (mine[0] == 0 or shared), (mine[-1] == len(names) - 1)
+    v = (e["authorship"] or "").lower()
+    return (mine[0] == 0 or "shared first" in v), \
+           (mine[-1] == len(names) - 1 or "shared last" in v)
 
 
 # Some group headings are too long to sit in a table cell.
@@ -500,14 +511,15 @@ def summary(entries, by_class):
     """Entries per section and LL's position, with a subtotal per group."""
     def tally(classes):
         got = [e for cls in classes for e in by_class.get(cls, [])]
+        def has(word):
+            return sum(1 for e in got if word in (e["authorship"] or "").lower())
         return (len(got),
                 sum(1 for e in got if author_position(e)[0]),
                 sum(1 for e in got if author_position(e)[1]),
-                sum(1 for e in got
-                    if "shared first" in (e["authorship"] or "").lower()))
+                has("shared first"), has("shared last"))
 
-    def cell(first, shared):
-        return "%d%s" % (first, " (%d shared)" % shared if shared else "")
+    def cell(n, shared):
+        return "%d%s" % (n, " (%d shared)" % shared if shared else "")
 
     # The combined row introduces its sections, so it is emitted at the group
     # heading, before them.
@@ -525,15 +537,17 @@ def summary(entries, by_class):
     out = ["**Summary**", "",
            "| Section | Entries | First author | Last author |",
            "|:---|---:|---:|---:|"]
-    for kind, heading, (n, first, last, shared) in rows:
+    for kind, heading, (n, first, last, sfirst, slast) in rows:
         if kind == "subtotal":
-            out.append("| *%s, combined* | *%d* | *%s* | *%d* |"
-                       % (heading, n, cell(first, shared), last))
+            out.append("| *%s, combined* | *%d* | *%s* | *%s* |"
+                       % (heading, n, cell(first, sfirst), cell(last, slast)))
         else:
-            out.append("| %s | %d | %s | %d |" % (heading, n, cell(first, shared), last))
-    n, first, last, shared = tally([c for c, _, _ in LAYOUT if c])
-    out.append("| **Total** | **%d** | **%s** | **%d** |" % (n, cell(first, shared), last))
-    out += ["", "First and last author positions count shared first authorships,",
+            out.append("| %s | %d | %s | %s |"
+                       % (heading, n, cell(first, sfirst), cell(last, slast)))
+    n, first, last, sfirst, slast = tally([c for c, _, _ in LAYOUT if c])
+    out.append("| **Total** | **%d** | **%s** | **%s** |"
+               % (n, cell(first, sfirst), cell(last, slast)))
+    out += ["", "First and last author positions count shared ones,",
             "which are listed separately. A combined row totals the sections",
             "above it and is not added into the total.", ""]
     return out
