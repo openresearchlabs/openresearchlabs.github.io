@@ -261,10 +261,10 @@ def split_name(name):
         family, given = [x.strip() for x in name.split(",", 1)]
         return family, given
     words = name.split()
-    # a trailing lowercase particle run belongs to the surname
-    cut = len(words) - 1
-    while cut > 0 and words[cut - 1][:1].islower():
-        cut -= 1
+    # BibTeX reads `First von Last`: the surname starts at the first word after
+    # the first that begins in lower case, so `de Steenhuijsen Piters` stays whole
+    cut = next((i for i in range(1, len(words) - 1) if words[i][:1].islower()),
+               len(words) - 1)
     return " ".join(words[cut:]), " ".join(words[:cut])
 
 
