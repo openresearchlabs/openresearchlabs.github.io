@@ -110,8 +110,8 @@
     "ISSN": "1744-4292",
     "author": [
       {
-        "family": "Vargas",
-        "given": "Bianca Cordazzo"
+        "family": "Cordazzo Vargas",
+        "given": "Bianca"
       },
       {
         "family": "Martino",
@@ -715,7 +715,7 @@
         "given": "Linnea"
       },
       {
-        "family": "Oresic",
+        "family": "Orešič",
         "given": "Matej"
       },
       {
@@ -1700,7 +1700,7 @@
         "given": "Svetislav"
       },
       {
-        "family": "Leskela",
+        "family": "Leskelä",
         "given": "Jaakko"
       },
       {
@@ -1794,8 +1794,8 @@
     "ISSN": "1367-4811",
     "author": [
       {
-        "family": "Mostafa",
-        "given": "Ali"
+        "family": "Anwar",
+        "given": "Ali Mostafa"
       },
       {
         "family": "Jeba",
@@ -1845,8 +1845,8 @@
         "given": "Dylan"
       },
       {
-        "family": "Firbas",
-        "given": "Panos Nisantzis"
+        "family": "Nisantzis Firbas",
+        "given": "Panos"
       },
       {
         "family": "Boza",
@@ -2003,7 +2003,7 @@
         "given": "Minna"
       },
       {
-        "family": "Oresic",
+        "family": "Orešič",
         "given": "Matej"
       },
       {
@@ -2278,8 +2278,8 @@
         "given": "Yang"
       },
       {
-        "family": "Pessemier",
-        "given": "Britta De"
+        "family": "De Pessemier",
+        "given": "Britta"
       },
       {
         "family": "Khatib",
@@ -2380,8 +2380,8 @@
         "given": "Guillaume"
       },
       {
-        "family": "Volpiano",
-        "given": "Camila Gazolla"
+        "family": "Gazolla Volpiano",
+        "given": "Camila"
       },
       {
         "family": "Inouye",
@@ -2491,7 +2491,7 @@
       },
       {
         "family": "Ruuskanen",
-        "given": "Matti Olavi"
+        "given": "Matti O."
       },
       {
         "family": "Beracochea",
@@ -2875,8 +2875,8 @@
         "given": "Johan"
       },
       {
-        "family": "P",
-        "given": "Collignon"
+        "family": "Collignon",
+        "given": "Peter"
       },
       {
         "family": "Beggs",
@@ -2986,6 +2986,14 @@
       {
         "family": "Doyle",
         "given": "Maria A."
+      },
+      {
+        "family": "Geistlinger",
+        "given": "Ludwig"
+      },
+      {
+        "family": "Ghazi",
+        "given": "Andrew R."
       },
       {
         "family": "Holmes",
@@ -3216,7 +3224,7 @@
         "given": "Pekka"
       },
       {
-        "family": "Meric",
+        "family": "Méric",
         "given": "Guillaume"
       },
       {
@@ -3372,7 +3380,7 @@
       {
         "dropping-particle": "de",
         "family": "Vos",
-        "given": "Willem M"
+        "given": "Willem M."
       },
       {
         "family": "Smidt",
@@ -3409,7 +3417,7 @@
         "given": "Renuka"
       },
       {
-        "family": "Ravikumar",
+        "family": "RaviKumar",
         "given": "Ameeta"
       },
       {
@@ -3454,7 +3462,7 @@
         "given": "Hellen"
       },
       {
-        "family": "Parnanen",
+        "family": "Pärnänen",
         "given": "Katariina"
       },
       {
@@ -3520,8 +3528,8 @@
         "given": "Paul D."
       },
       {
-        "family": "Sordi",
-        "given": "Luisa De"
+        "family": "De Sordi",
+        "given": "Luisa"
       },
       {
         "family": "Dominguez-Bello",
@@ -3894,7 +3902,7 @@
       {
         "dropping-particle": "de",
         "family": "Vos",
-        "given": "Willem M"
+        "given": "Willem M."
       },
       {
         "family": "Salonen",
@@ -4335,12 +4343,16 @@
         "given": "Paola"
       },
       {
-        "family": "Lavigne",
-        "given": "Max M. Häggblomand Rob"
+        "family": "Häggblom",
+        "given": "Max M."
       },
       {
-        "family": "Roux",
-        "given": "Frédérique Le"
+        "family": "Lavigne",
+        "given": "Rob"
+      },
+      {
+        "family": "Le Roux",
+        "given": "Frédérique"
       },
       {
         "family": "Timmis",
@@ -4594,8 +4606,8 @@
         "given": "Sara"
       },
       {
-        "family": "Vázquez",
-        "given": "Marta Aguirre"
+        "family": "Aguirre Vázquez",
+        "given": "Marta"
       },
       {
         "family": "Lahti",
@@ -4734,8 +4746,8 @@
         "given": "Michelle"
       },
       {
-        "family": "Hong",
-        "given": "Neil Chue"
+        "family": "Chue Hong",
+        "given": "Neil"
       }
     ],
     "container-title": "Zenodo",
@@ -4757,7 +4769,7 @@
     "ISSN": "2000-2297",
     "author": [
       {
-        "family": "Manzoora",
+        "family": "Manzoor",
         "given": "Muhammed"
       },
       {
@@ -4976,12 +4988,12 @@
         "given": "Okko-Sakari"
       },
       {
-        "family": "Medina",
-        "given": "T. Peñate"
+        "family": "Peñate Medina",
+        "given": "T."
       },
       {
-        "family": "Medina",
-        "given": "O. Peñate"
+        "family": "Peñate Medina",
+        "given": "O."
       },
       {
         "family": "Saarnio",
@@ -5587,8 +5599,8 @@
         "given": "Aki S."
       },
       {
-        "family": "Bra",
-        "given": "Kardokh Hama Najib Kaka"
+        "family": "Kaka Bra",
+        "given": "Kardokh Hama Najib"
       },
       {
         "family": "Kalluci",
@@ -5623,7 +5635,7 @@
         "given": "Inês"
       },
       {
-        "family": "Pasic",
+        "family": "Pašić",
         "given": "Lejla"
       },
       {
@@ -5723,7 +5735,7 @@
         "given": "Mohit"
       },
       {
-        "family": "Meric",
+        "family": "Méric",
         "given": "Guillaume"
       },
       {
@@ -5988,7 +6000,7 @@
         "given": "Randi Jacobsen"
       },
       {
-        "family": "Gomez-Cabrero",
+        "family": "Gómez-Cabrero",
         "given": "David"
       },
       {
@@ -6077,8 +6089,8 @@
         "given": "Tiina"
       },
       {
-        "family": "Mikael",
-        "given": "Ville"
+        "family": "Koistinen",
+        "given": "Ville Mikael"
       },
       {
         "family": "Kärkkäinen",
@@ -6226,7 +6238,7 @@
         "given": "Rajesh"
       },
       {
-        "family": "Hasić-Telalović",
+        "family": "Hasić Telalović",
         "given": "Jasminka"
       },
       {
@@ -6577,8 +6589,8 @@
         "given": "Alfredo"
       },
       {
-        "family": "Lajos",
-        "given": "Markó"
+        "family": "Markó",
+        "given": "Lajos"
       },
       {
         "family": "Inouye",
@@ -6769,12 +6781,12 @@
         "given": "Shu Mei"
       },
       {
-        "family": "Meric",
+        "family": "Méric",
         "given": "Guillaume"
       },
       {
         "family": "Tang",
-        "given": "Howard HF"
+        "given": "Howard H. F."
       },
       {
         "family": "Zhu",
@@ -8367,7 +8379,7 @@
       },
       {
         "family": "Mäkinen",
-        "given": "E"
+        "given": "Elina"
       },
       {
         "family": "Karvinen",
@@ -8378,8 +8390,8 @@
         "given": "Marjaana"
       },
       {
-        "family": "Linden",
-        "given": "J"
+        "family": "Lindén",
+        "given": "Jere"
       },
       {
         "family": "Garrels",
@@ -8662,7 +8674,7 @@
         "given": "Eftim"
       },
       {
-        "family": "Tsamarindos",
+        "family": "Tsamardinos",
         "given": "Ioannis"
       },
       {
@@ -8729,7 +8741,7 @@
       },
       {
         "family": "Aydemir",
-        "given": "Onder"
+        "given": "Önder"
       },
       {
         "family": "Bakir-Gungor",
@@ -8745,14 +8757,14 @@
       },
       {
         "family": "Desai",
-        "given": "Magesh S."
+        "given": "Mahesh S."
       },
       {
         "family": "Falquet",
         "given": "Laurent"
       },
       {
-        "family": "Gundogdu",
+        "family": "Gündoğdu",
         "given": "Aycan"
       },
       {
@@ -8768,8 +8780,8 @@
         "given": "Marta B."
       },
       {
-        "family": "Zambrano",
-        "given": "Laura J. Marcos"
+        "family": "Marcos-Zambrano",
+        "given": "Laura Judith"
       },
       {
         "family": "Marques",
@@ -8804,7 +8816,7 @@
         "given": "Piotr"
       },
       {
-        "family": "Sáez-Rodríguez",
+        "family": "Saez-Rodriguez",
         "given": "Julio"
       },
       {
@@ -9061,7 +9073,7 @@
         "given": "Aki S"
       },
       {
-        "family": "Meric",
+        "family": "Méric",
         "given": "Guillaume"
       },
       {
@@ -9166,8 +9178,8 @@
         "given": "Binu"
       },
       {
-        "family": "A",
-        "given": "Arto Kokkola"
+        "family": "Kokkola",
+        "given": "Arto"
       },
       {
         "family": "Karla",
@@ -9671,7 +9683,7 @@
       {
         "dropping-particle": "de",
         "family": "Vos",
-        "given": "Willem"
+        "given": "Willem M."
       },
       {
         "family": "Nuutila",
@@ -10204,11 +10216,11 @@
         "given": "Maarit"
       },
       {
-        "family": "Yang",
-        "given": "Baoru"
+        "family": "Driuchina",
+        "given": "Anastasiia"
       },
       {
-        "family": "Linden",
+        "family": "Lindén",
         "given": "Jere"
       },
       {
@@ -11053,7 +11065,7 @@
       },
       {
         "family": "Molinari",
-        "given": "Giulia"
+        "given": "Gabriella"
       },
       {
         "family": "Rohde",
@@ -11241,7 +11253,7 @@
       },
       {
         "family": "Laroche",
-        "given": "Beatrice"
+        "given": "Béatrice"
       },
       {
         "dropping-particle": "de",
@@ -11562,8 +11574,9 @@
         "given": "Elena"
       },
       {
-        "family": "González",
-        "given": "Teresita d.J. Bello"
+        "dropping-particle": "d.J.",
+        "family": "Bello González",
+        "given": "Teresita"
       },
       {
         "family": "Fuentes",
@@ -11774,7 +11787,7 @@
       },
       {
         "family": "Laine",
-        "given": "Markus Petteri"
+        "given": "Markus"
       },
       {
         "family": "Lähteenoja",
@@ -11827,10 +11840,6 @@
         "dropping-particle": "de",
         "family": "Vos",
         "given": "Willem M."
-      },
-      {
-        "family": "Danchin",
-        "given": "A"
       }
     ],
     "container-title": "FEMS Microbiology Reviews",
@@ -11926,8 +11935,8 @@
         "given": "Teresa K"
       },
       {
-        "family": "Hong",
-        "given": "Neil Chue"
+        "family": "Chue Hong",
+        "given": "Neil"
       },
       {
         "family": "Dahlö",
@@ -12022,7 +12031,7 @@
       {
         "dropping-particle": "de",
         "family": "Vos",
-        "given": "Willem M"
+        "given": "Willem M."
       },
       {
         "family": "Raes",
@@ -12127,7 +12136,7 @@
     "author": [
       {
         "family": "O’Keefe",
-        "given": "SJD"
+        "given": "Stephen J. D."
       },
       {
         "family": "Li",
@@ -12636,6 +12645,10 @@
         "given": "Priya"
       },
       {
+        "family": "Farquharson",
+        "given": "Freda"
+      },
+      {
         "family": "Johnstone",
         "given": "Alexandra"
       },
@@ -12707,7 +12720,7 @@
       },
       {
         "family": "Picci",
-        "given": "Pierro"
+        "given": "Piero"
       },
       {
         "family": "Knuutila",
@@ -13127,15 +13140,15 @@
         "given": "Marja-Liisa"
       },
       {
-        "family": "Sundstrom",
+        "family": "Sundström",
         "given": "Jari"
       },
       {
-        "family": "Ristamaki",
+        "family": "Ristamäki",
         "given": "Raija"
       },
       {
-        "family": "Osterlund",
+        "family": "Österlund",
         "given": "Pia"
       },
       {
@@ -13844,6 +13857,10 @@
         "given": "Minna"
       },
       {
+        "family": "Pääkkönen",
+        "given": "Virve"
+      },
+      {
         "family": "Ryhänen",
         "given": "Jorma"
       },
@@ -14068,7 +14085,7 @@
         "given": "Samuel"
       },
       {
-        "family": "Hollmen",
+        "family": "Hollmén",
         "given": "Jaakko"
       },
       {
@@ -14786,7 +14803,7 @@
     "author": [
       {
         "family": "O’Keefe",
-        "given": "SJD"
+        "given": "Stephen J. D."
       },
       {
         "family": "Li",
@@ -14965,7 +14982,7 @@
         "given": "Airi"
       },
       {
-        "family": "Oresic",
+        "family": "Orešič",
         "given": "Matej"
       },
       {
@@ -15005,7 +15022,7 @@
         "given": "Aki"
       },
       {
-        "family": "Meric",
+        "family": "Méric",
         "given": "Guillaume"
       },
       {
@@ -15162,7 +15179,7 @@
     "author": [
       {
         "family": "Magnusson",
-        "given": "Mans"
+        "given": "Måns"
       },
       {
         "family": "Kainu",
@@ -15204,7 +15221,7 @@
       },
       {
         "family": "Magnusson",
-        "given": "Mans"
+        "given": "Måns"
       },
       {
         "family": "Paananen",
@@ -15392,8 +15409,8 @@
         "given": "Tuomas"
       },
       {
-        "family": "Simsek",
-        "given": "Yagmur"
+        "family": "Şimşek",
+        "given": "Yağmur"
       }
     ],
     "id": "Lahti2026miatime",
@@ -15419,8 +15436,8 @@
     "URL": "https://bioconductor.org/packages/miaSim",
     "author": [
       {
-        "family": "Simsek",
-        "given": "Yagmur"
+        "family": "Şimşek",
+        "given": "Yağmur"
       },
       {
         "family": "Faust",
