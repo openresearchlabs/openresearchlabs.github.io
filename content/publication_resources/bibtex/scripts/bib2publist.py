@@ -228,20 +228,38 @@ def initials(given):
     return "".join(out)
 
 
+def split_name(name):
+    """`Panos {Nisantzis Firbas}` -> (`Nisantzis Firbas`, `Panos`)
+
+    A brace group holding more than one word is an atomic surname, which is how
+    BibTeX records surnames that would otherwise be read as a middle name.
+    """
+    raw = name.strip()
+    group = None
+    for m in re.finditer(r"\{([^{}]+)\}", raw):
+        if " " in m.group(1):
+            group = m
+            break
+    if group is not None:
+        rest = (raw[:group.start()] + " " + raw[group.end():]).replace(",", " ")
+        return tidy(group.group(1)), tidy(" ".join(rest.split()))
+    name = tidy(raw)
+    if "," in name:
+        family, given = [x.strip() for x in name.split(",", 1)]
+        return family, given
+    words = name.split()
+    # a trailing lowercase particle run belongs to the surname
+    cut = len(words) - 1
+    while cut > 0 and words[cut - 1][:1].islower():
+        cut -= 1
+    return " ".join(words[cut:]), " ".join(words[:cut])
+
+
 def format_author(name):
     """`de Vos, Willem M.` / `Willem M. de Vos` -> `de Vos, W.M.`"""
     if is_corporate(name):
         return tidy(name)
-    name = tidy(name)
-    if "," in name:
-        family, given = [x.strip() for x in name.split(",", 1)]
-    else:
-        words = name.split()
-        # a trailing lowercase particle run belongs to the surname
-        cut = len(words) - 1
-        while cut > 0 and words[cut - 1][:1].islower():
-            cut -= 1
-        family, given = " ".join(words[cut:]), " ".join(words[:cut])
+    family, given = split_name(name)
     if not given:                      # corporate author, e.g. {OpenUTU work group}
         return family
     ini = initials(given)
