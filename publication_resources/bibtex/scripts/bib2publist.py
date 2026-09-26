@@ -142,9 +142,11 @@ ACCENTS = {'"': "\u0308", "'": "\u0301", "`": "\u0300", "^": "\u0302",
            "~": "\u0303", "=": "\u0304", ".": "\u0307"}
 BRACED_ACCENTS = {"v": "\u030C", "u": "\u0306", "H": "\u030B", "c": "\u0327",
                   "k": "\u0328", "r": "\u030A", "d": "\u0323", "b": "\u0331"}
+BRACED_RE = "".join(BRACED_ACCENTS)
 LIGATURES = [("\\ss", "ß"), ("\\AA", "Å"), ("\\aa", "å"), ("\\AE", "Æ"),
              ("\\ae", "æ"), ("\\OE", "Œ"), ("\\oe", "œ"), ("\\O", "Ø"),
-             ("\\o", "ø"), ("\\L", "Ł"), ("\\l", "ł")]
+             ("\\o", "ø"), ("\\L", "Ł"), ("\\l", "ł"), ("\\DJ", "Đ"),
+             ("\\dj", "đ"), ("\\i", "ı")]
 
 
 # font switches carry no text of their own; \it would otherwise leave "it"
@@ -168,7 +170,7 @@ def detex(s):
     s = re.sub(r'\\(["\'`^~=.])\s*\{([A-Za-z])\}', accent, s)
     s = re.sub(r'\\(["\'`^~=.])\s*([A-Za-z])', accent, s)
     # \v{s}, \c{c}, ... only in the braced form, so \version is left alone
-    s = re.sub(r"\\([vuHkrdb])\s*\{([A-Za-z])\}", accent, s)
+    s = re.sub(r"\\([" + BRACED_RE + r"])\s*\{([A-Za-z])\}", accent, s)
     for tex, ch in LIGATURES:
         s = re.sub(re.escape(tex) + r"(?![A-Za-z])", ch, s)
     return s
@@ -228,6 +230,21 @@ def initials(given):
     return "".join(out)
 
 
+def brace_groups(s):
+    """(open, close) of each outermost {...}, so nested accents stay inside"""
+    out, depth, start = [], 0, None
+    for i, ch in enumerate(s):
+        if ch == "{":
+            if depth == 0:
+                start = i
+            depth += 1
+        elif ch == "}" and depth:
+            depth -= 1
+            if depth == 0:
+                out.append((start, i))
+    return out
+
+
 def split_name(name):
     """`Panos {Nisantzis Firbas}` -> (`Nisantzis Firbas`, `Panos`)
 
@@ -235,14 +252,10 @@ def split_name(name):
     BibTeX records surnames that would otherwise be read as a middle name.
     """
     raw = name.strip()
-    group = None
-    for m in re.finditer(r"\{([^{}]+)\}", raw):
-        if " " in m.group(1):
-            group = m
-            break
-    if group is not None:
-        rest = (raw[:group.start()] + " " + raw[group.end():]).replace(",", " ")
-        return tidy(group.group(1)), tidy(" ".join(rest.split()))
+    for a, b in brace_groups(raw):
+        if " " in raw[a + 1:b]:
+            rest = (raw[:a] + " " + raw[b + 1:]).replace(",", " ")
+            return tidy(raw[a + 1:b]), tidy(" ".join(rest.split()))
     name = tidy(raw)
     if "," in name:
         family, given = [x.strip() for x in name.split(",", 1)]
