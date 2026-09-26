@@ -25,11 +25,11 @@
         "given": "Willem M."
       },
       {
-        "family": "Sommeria-Klein",
+        "family": "Sommeria-Klein*",
         "given": "Guilhem"
       },
       {
-        "family": "Lahti",
+        "family": "Lahti*",
         "given": "Leo"
       }
     ],
@@ -2883,11 +2883,11 @@
         "given": "John J."
       },
       {
-        "family": "Pärnänen",
+        "family": "Pärnänen*",
         "given": "Katariina"
       },
       {
-        "family": "Lahti",
+        "family": "Lahti*",
         "given": "Leo"
       }
     ],
@@ -8061,11 +8061,11 @@
     "ISSN": "0149-5992",
     "author": [
       {
-        "family": "Ruuskanen",
+        "family": "Ruuskanen*",
         "given": "Matti O."
       },
       {
-        "family": "Erawijantari",
+        "family": "Erawijantari*",
         "given": "Pande Putu"
       },
       {
@@ -8398,11 +8398,11 @@
         "given": "Tim"
       },
       {
-        "family": "Pekkala",
+        "family": "Pekkala*",
         "given": "Satu"
       },
       {
-        "family": "Lahti",
+        "family": "Lahti*",
         "given": "Leo"
       }
     ],
