@@ -16899,5 +16899,80 @@
     "status": "preprint",
     "title": "A unified framework for batch correction and missing data handling in large-scale and single-cell mass spectrometry proteomics",
     "type": "article-journal"
+  },
+  {
+    "DOI": "10.64898/2026.07.03.26357002",
+    "author": [
+      {
+        "family": "Lindgren",
+        "given": "Himmi"
+      },
+      {
+        "family": "Vartiainen",
+        "given": "Ville A."
+      },
+      {
+        "family": "Muluh",
+        "given": "Geraldson"
+      },
+      {
+        "family": "Bayal",
+        "given": "Nitin"
+      },
+      {
+        "family": "Pärnänen",
+        "given": "Katariina"
+      },
+      {
+        "family": "Méric",
+        "given": "Guillaume"
+      },
+      {
+        "family": "Jousilahti",
+        "given": "Pekka"
+      },
+      {
+        "family": "Ruuskanen",
+        "given": "Matti O."
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki S."
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Erawijantari",
+        "given": "Pande Putu"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "medRxiv",
+    "id": "Lindgren2026allergic",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "status": "preprint",
+    "title": "Gut microbiome signatures associated with self-reported allergic symptoms among Finnish adults",
+    "type": "article-journal"
   }
 ]
