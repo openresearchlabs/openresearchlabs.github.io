@@ -1,0 +1,73 @@
+name: Find new publications
+
+# Looks for LL's publications that lahti.bib does not have yet (ORCID,
+# Crossref, arXiv) and lists them in one open issue labelled bib-candidates.
+# It never edits lahti.bib: the daily Claude bib monitor reads the issue and
+# opens a pull request with finished entries, which is reviewed by hand.
+
+on:
+  schedule:
+    - cron: '30 4 * * *'   # 07:30 in Helsinki in summer, before the monitor
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  candidates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Find candidates
+        working-directory: content/publication_resources/bibtex/scripts
+        run: |
+          python3 recent_dois.py --days 60 > recent-dois.txt
+          python3 publist_candidates.py --extra-dois recent-dois.txt \
+            -o candidates.bib > report.txt
+          cat report.txt
+
+      - name: Update the bib-candidates issue
+        working-directory: content/publication_resources/bibtex/scripts
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create bib-candidates --color C5DEF5 \
+            --description "Publications missing from lahti.bib" --force
+          issue=$(gh issue list --label bib-candidates --state open \
+            --json number --jq '.[0].number')
+
+          if [ ! -s candidates.bib ]; then
+            if [ -n "$issue" ]; then
+              gh issue close "$issue" --comment "No candidates left on $(date -I)."
+            fi
+            exit 0
+          fi
+
+          {
+            echo "Publications that lahti.bib does not have yet, found on $(date -I)"
+            echo "from ORCID, Crossref and arXiv. The daily Claude bib monitor turns"
+            echo "these into a pull request; nothing here has touched lahti.bib."
+            echo
+            echo "Not yours, or not to be listed? Add the DOI to"
+            echo "\`content/publication_resources/bibtex/scripts/declined.txt\`."
+            echo
+            echo '```bibtex'
+            cat candidates.bib
+            echo '```'
+            echo
+            echo '<details><summary>Full report</summary>'
+            echo
+            echo '```text'
+            cat report.txt
+            echo '```'
+            echo '</details>'
+          } > body.md
+
+          if [ -n "$issue" ]; then
+            gh issue edit "$issue" --body-file body.md
+          else
+            gh issue create --title "Publications missing from lahti.bib" \
+              --label bib-candidates --body-file body.md
+          fi
