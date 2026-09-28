@@ -16899,5 +16899,181 @@
     "status": "preprint",
     "title": "A unified framework for batch correction and missing data handling in large-scale and single-cell mass spectrometry proteomics",
     "type": "article-journal"
+  },
+  {
+    "DOI": "10.29085/9781783306602.008",
+    "ISBN": "978-1-78330-658-9",
+    "URL": "https://researchportal.helsinki.fi/files/736605258/early_bard.pdf",
+    "author": [
+      {
+        "family": "Tolonen",
+        "given": "Mikko"
+      },
+      {
+        "family": "Marjanen",
+        "given": "Jani"
+      },
+      {
+        "family": "Hill",
+        "given": "Mark J."
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "Library catalogues as data: Research, practice and usage",
+    "editor": [
+      {
+        "family": "Gooding",
+        "given": "Paul"
+      },
+      {
+        "family": "Terras",
+        "given": "Melissa"
+      },
+      {
+        "family": "Ames",
+        "given": "Sarah"
+      }
+    ],
+    "id": "Tolonen2025",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          6
+        ]
+      ]
+    },
+    "keyword": "dh",
+    "page": "101-120",
+    "publisher": "Facet Publishing",
+    "publisher-place": "London",
+    "title": "Book formats, printing practices and reading habits in early modern Europe",
+    "type": "chapter"
+  },
+  {
+    "ISBN": "978-82-7965-587-9",
+    "URL": "https://researchportal.helsinki.fi/files/418974578/vernacular_article.pdf",
+    "author": [
+      {
+        "family": "Marjanen",
+        "given": "Jani"
+      },
+      {
+        "family": "Tahko",
+        "given": "Tuuli"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Tolonen",
+        "given": "Mikko"
+      }
+    ],
+    "collection-title": "Notabene",
+    "container-title": "The hermeneutics of bibliographic data and cultural metadata",
+    "editor": [
+      {
+        "family": "Hanssen",
+        "given": "Jens-Morten"
+      },
+      {
+        "family": "Furuseth",
+        "given": "Sissel"
+      }
+    ],
+    "id": "Marjanen2025",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "keyword": "dh",
+    "page": "27-66",
+    "publisher": "National Library of Norway",
+    "publisher-place": "Oslo",
+    "title": "Book printing in Latin and vernacular languages in Northern Europe, 1500–1800",
+    "type": "chapter",
+    "volume": "19"
+  },
+  {
+    "URL": "https://dh2020.adho.org/wp-content/uploads/2020/07/555_DatadrivenanalysisofcanonicalworksinearlymodernBritain.html",
+    "author": [
+      {
+        "family": "Tolonen",
+        "given": "Mikko"
+      },
+      {
+        "family": "Hill",
+        "given": "Mark J."
+      },
+      {
+        "family": "Ijaz",
+        "given": "Ali Zeeshan"
+      },
+      {
+        "family": "Vaara",
+        "given": "Ville"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "Proceedings of the digital humanities (DH2020)",
+    "id": "Tolonen2020dh",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          7
+        ]
+      ]
+    },
+    "keyword": "dh",
+    "publisher-place": "Ottawa",
+    "title": "Data-driven analysis of canonical works in early modern Britain",
+    "type": "paper-conference"
+  },
+  {
+    "URL": "https://dh2020.adho.org/wp-content/uploads/2020/07/585_BookprintingandtheriseofthevernacularinEurope15001820.html",
+    "author": [
+      {
+        "family": "Marjanen",
+        "given": "Jani"
+      },
+      {
+        "family": "Roivainen",
+        "given": "Hege"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Tolonen",
+        "given": "Mikko"
+      }
+    ],
+    "container-title": "Proceedings of the digital humanities (DH2020)",
+    "id": "Marjanen2020dh",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          7
+        ]
+      ]
+    },
+    "keyword": "dh",
+    "publisher-place": "Ottawa",
+    "title": "Book printing and the rise of the vernacular in Europe, 1500–1820",
+    "type": "paper-conference"
   }
 ]
