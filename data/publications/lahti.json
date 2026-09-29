@@ -12766,41 +12766,6 @@
     "type": "article-journal"
   },
   {
-    "URL": "http://ropengov.github.io",
-    "author": [
-      {
-        "family": "Lahti",
-        "given": "Leo"
-      },
-      {
-        "family": "Parkkinen",
-        "given": "Juuso"
-      },
-      {
-        "family": "Lehtomäki",
-        "given": "Joona"
-      },
-      {
-        "family": "Kainu",
-        "given": "Markus"
-      }
-    ],
-    "id": "Lahti2013icml",
-    "issued": {
-      "date-parts": [
-        [
-          2013,
-          12
-        ]
-      ]
-    },
-    "keyword": "datascience, dh",
-    "note": "ICML/MLOSS workshop (Int’l Conf. on Machine Learning - Open Source Software workshop).",
-    "title": "rOpenGov: Open source ecosystem for computational social sciences and digital humanities",
-    "title-short": "rOpenGov",
-    "type": ""
-  },
-  {
     "DOI": "10.1093/nar/gkt229",
     "ISSN": "1362-4962",
     "author": [
@@ -15829,7 +15794,7 @@
       ]
     },
     "keyword": "datascience",
-    "note": "R package version 0.8.21. rOpenGov",
+    "note": "R package version 0.8.21. rOpenGov. The rOpenGov ecosystem was first presented at the ICML 2013 workshop on machine learning open source software (MLOSS)",
     "publisher": "CRAN",
     "title": "Sorvi: Functions for finnish open data",
     "title-short": "Sorvi",
