@@ -2483,7 +2483,6 @@
     "volume": "47"
   },
   {
-    "DOI": "10.1101/2025.06.16.659887",
     "author": [
       {
         "family": "Escobar-Zepeda",
@@ -2518,19 +2517,19 @@
         "given": "Leo"
       }
     ],
-    "container-title": "bioRxiv",
+    "container-title": "Genome Biology",
     "id": "EscobarZepeda2025",
     "issued": {
       "date-parts": [
         [
-          2025,
-          6
+          2026
         ]
       ]
     },
     "keyword": "bioscience",
-    "status": "preprint",
-    "title": "Biome-specific genome catalogues reveal functional potential of shallow sequencing",
+    "status": "in press",
+    "title": "BioSIFTR: Functional inference from shallow shotgun sequencing using biome-specific genome catalogues benchmarked in gut microbiomes",
+    "title-short": "BioSIFTR",
     "type": "article-journal"
   },
   {
