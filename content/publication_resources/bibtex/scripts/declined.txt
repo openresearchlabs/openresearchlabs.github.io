@@ -14,3 +14,6 @@
 # same work, recorded under another DOI
 10.5617/dhnbpub.11096
 10.48550/arxiv.2212.12550
+
+# a namesake: another Leo Lahti, in antenna research
+10.23919/eucap68105.2026.11612514
