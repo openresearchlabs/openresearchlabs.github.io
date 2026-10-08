@@ -17040,5 +17040,192 @@
     "publisher-place": "Ottawa",
     "title": "Book printing and the rise of the vernacular in Europe, 1500–1820",
     "type": "paper-conference"
+  },
+  {
+    "DOI": "10.1016/j.lanmic.2026.101525",
+    "author": [
+      {
+        "family": "Vogtmann",
+        "given": "Emily"
+      },
+      {
+        "family": "Um",
+        "given": "Caroline Y."
+      },
+      {
+        "family": "Zouiouich",
+        "given": "Semi"
+      },
+      {
+        "family": "Absher",
+        "given": "Devin"
+      },
+      {
+        "family": "Benamouzig",
+        "given": "Robert"
+      },
+      {
+        "family": "Chan",
+        "given": "Andrew T."
+      },
+      {
+        "family": "Fu",
+        "given": "Jingyuan"
+      },
+      {
+        "family": "Garrett",
+        "given": "Wendy S."
+      },
+      {
+        "family": "Greiser",
+        "given": "Karin Halina"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki S."
+      },
+      {
+        "family": "Huttenhower",
+        "given": "Curtis"
+      },
+      {
+        "family": "Hveem",
+        "given": "Kristian"
+      },
+      {
+        "family": "Kushi",
+        "given": "Lawrence H."
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Liou",
+        "given": "Jyh-Ming"
+      },
+      {
+        "family": "Lituev",
+        "given": "Alexander"
+      },
+      {
+        "family": "Michaëlsson",
+        "given": "Karl"
+      },
+      {
+        "family": "Milne",
+        "given": "Roger L."
+      },
+      {
+        "family": "Næss",
+        "given": "Marit"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      },
+      {
+        "family": "Olsen",
+        "given": "Anja"
+      },
+      {
+        "family": "Patel",
+        "given": "Alpa V."
+      },
+      {
+        "family": "Rimm",
+        "given": "Eric B."
+      },
+      {
+        "family": "Rowell",
+        "given": "Sarah"
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Sayols-Baixeras",
+        "given": "Sergi"
+      },
+      {
+        "family": "Segal",
+        "given": "Eran"
+      },
+      {
+        "family": "Shrubsole",
+        "given": "Martha J."
+      },
+      {
+        "family": "Shu",
+        "given": "Xiao-Ou"
+      },
+      {
+        "family": "Skarbinski",
+        "given": "Jacek"
+      },
+      {
+        "family": "Song",
+        "given": "Mingyang"
+      },
+      {
+        "family": "Southey",
+        "given": "Melissa C."
+      },
+      {
+        "family": "Tjønneland",
+        "given": "Anne"
+      },
+      {
+        "family": "Veiga",
+        "given": "Patrick"
+      },
+      {
+        "family": "Weersma",
+        "given": "Rinse K."
+      },
+      {
+        "family": "Wu",
+        "given": "Ming-Shiang"
+      },
+      {
+        "family": "Zheng",
+        "given": "Wei"
+      },
+      {
+        "family": "Zhernakova",
+        "given": "Alexandra"
+      },
+      {
+        "family": "Shi",
+        "given": "Jianxin"
+      },
+      {
+        "family": "Hong",
+        "given": "Hyokyoung G."
+      },
+      {
+        "family": "Abnet",
+        "given": "Christian C."
+      },
+      {
+        "family": "Sinha",
+        "given": "Rashmi"
+      }
+    ],
+    "container-title": "The Lancet Microbe",
+    "id": "Vogtmann2026",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "page": "101525",
+    "title": "Importance of faecal sample collection in prospective cohort studies to evaluate the effect of the gut microbiome on cancer development",
+    "type": "article-journal"
   }
 ]
