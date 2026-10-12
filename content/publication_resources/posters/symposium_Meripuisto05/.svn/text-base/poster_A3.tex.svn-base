@@ -1,0 +1,306 @@
+% A3->A0 POSTER by Petteri Pajunen and Vuokko Vuori
+%See http://james.hut.fi/system/posterA0_latex.shtml
+\documentclass[12pt]{article}
+\usepackage[latin1]{inputenc}
+\usepackage{epsfig,psfig}
+% \usepackage{amsmath,amssymb}
+% \usepackage{latexsym}
+% \usepackage{calc}
+\usepackage{multicol}
+
+%%size of the paper is A3
+\setlength\paperheight{420mm}                                             
+\setlength\paperwidth{297mm}
+
+\marginparsep1mm
+\marginparwidth0mm
+\headheight0mm
+\headsep0mm
+
+%Fix the following figures so that the text is positioned in the
+%middle of the paper. No need for marginals if you use poster-program
+%to scale the size of poster from a3 to a0  
+\topmargin -2.56cm
+\setlength{\oddsidemargin}{-2.54cm}
+\addtolength{\topmargin}{-12cm}
+\textwidth  0.99\paperwidth
+\textheight 0.99\paperheight
+
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{center}
+
+  {\LARGE \bf Method for exploring dependencies in the expression of orthologous
+  man-mouse gene pairs}\\
+
+  \vspace{4ex}
+
+  {\Large L. Lahti\(^{1}\), J. Knuuttila\(^{2}\),
+  J. Nikkil{\"a}\(^{1}\) and S. Kaski\(^{3,1}\)}\\
+
+  {\large 
+    $^1$ Laboratory of Computer and Information Science,
+         Helsinki University of Technology, Finland. \\
+    $^2$ Neuroscience Center, University of Helsinki, Finland. \\
+    $^3$ Department of Computer Science, University of Helsinki,Finland.	 
+  }
+    
+\end{center}
+
+\vspace{1.5ex}
+
+\hline
+
+\begin{multicols}{3}
+
+  {\Large \textbf{Introduction}}      
+  {\large 
+
+Functions of human genes are often studied indirectly, by model
+organisms such as the mouse. An underlying assumption is that genes
+with a common evolutionary origin i.e. orthologous genes, have similar
+functional roles in both species.
+
+It is critical to know whether the function of orthologues is really
+similar. Orthologous gene groups with unexpectedly many similarly
+expressed gene pairs may highlight important physiological
+similarities between the species. Diverged gene function may refer to
+significant evolutionary changes.
+
+Here a dependency exploration tool called associative clustering (AC)
+[2] is used to identify orthologous man-mouse gene pairs with
+potentially interesting regularity in their expression (Fig.~1).
+
+}
+
+\begin{center}
+\fbox{
+\begin{minipage}{0.3\textwidth}
+\normalsize{{\it Fig. 1.} The principle of associative clustering}
+\vspace{1.5ex}\\
+\begin{minipage}{\textwidth}
+\epsfxsize=\textwidth
+\epsffile{pic/setting_bs.eps}
+\end{minipage} \\
+\begin{minipage}{\textwidth}
+\vspace{1ex} \scriptsize{Principle of AC. Two sets of gene expression
+profiles are clustered simultaneously, and the results are represented
+on a contingency table where clusters of the two data sets correspond
+to the rows and columns of the table, respectively, and are called the
+{\it margin clusters}. Table cells, i.e. {\it cross clusters} contain
+orthologous gene pairs of the two data sets. Cluster centroids are
+optimized to produce a maximally dependent table, in the sense of the
+Bayes factor of dependent vs. independent margins. Potentially
+interesting co-occurrences are revealed by cross clusters with
+significant deviation from the hypothesis of independent
+margins. Reliability of the results is enhanced by bootstrap
+i.e. repeating the clustering with slightly differing samples;
+frequent co-occurrences are selected for further analyses from a
+co-occurrence tree with a specified threshold.}
+\end{minipage}
+\end{minipage}
+}
+\end{center}
+
+  {\Large \textbf{Methods}}
+  {\large
+
+\begin{itemize}
+
+\item AC explores dependencies in paired continuous-valued
+multivariate data, clustering two sets of samples simultaneously. The
+results are represented as easily interpretable clusters.
+
+\item Cluster centroids are optimized to produce a maximally dependent
+contingency table. Significantly deviating cross clusters reveal
+potentially interesting orthologues (see Fig.~1).
+
+\item Reliability of the results is enhanced by bootstrap (repeating
+the clustering with slightly differing samples) and inspecting
+repeated co-occurrences by hierarchical clustering [1].
+
+\end{itemize}}
+
+\begin{center}
+\begin{minipage}{0.3\textwidth}
+\normalsize{{\it Fig. 2.} Contingency table of AC}\vspace{1.5ex}\\
+\begin{minipage}{\textwidth}
+\begin{center}
+\epsfxsize=\textwidth
+\epsffile{pic/ctable.eps}
+\end{center}
+\end{minipage} \\
+\begin{minipage}{\textwidth}
+\vspace{1ex} \scriptsize{Contingency table of the AC for the
+orthologous man-mouse gene expression data. Each human and mouse gene
+cluster corresponds to one of the contingency table columns and rows,
+respectively. The margin clusters imply the cross cluster for each
+orthologous man-mouse gene pair. Colors indicate the deviation of
+cross cluster size from the hypothesis of independent
+margins. Exceptionally small cross clusters are blue whereas
+exceptionally large cross cluster are yellow. The table is ordered
+using the cross cluster p-values.}
+\end{minipage}
+\end{minipage}
+\end{center}
+
+{\Large \textbf{Experiments}}      
+{\large 
+
+\begin{itemize}
+  
+\item 2818 paired expression profiles from man-mouse orthologues were
+available [3] with 46 and 45 human and mouse tissues,
+respectively. The first 21 tissues were common for the two species.
+
+\item AC was performed with 15 margin clusters for both expression
+data sets, resulting in a \(15 \times 15\) contingency table with 12
+samples per cluster on average (Fig.~2).
+
+\item AC was bootstrapped 100 times. Hierarchical clustering reveals
+frequent orthologue co-occurrences (Fig.~3).
+
+\end{itemize}}
+
+\begin{center}
+\fbox{
+\begin{minipage}{0.3\textwidth}
+\normalsize{{\it Fig. 2.} Hierarchical clustering of gene pair co-occurrences}\vspace{1ex}\\
+\begin{minipage}{\textwidth}
+{\textwidth}
+\epsfxsize=\textwidth
+\epsfysize=0.4\textwidth
+\epsffile{pic/hclus.eps}
+\end{minipage}
+\begin{minipage}{\textwidth}
+\vspace{1ex}\\
+\scriptsize{Gene pair co-occurrence in the 100 AC runs with differing
+bootstrap samples is illustrated using hierarchical clustering. Gene
+pairs that frequently \((>80\%)\) co-occur in dependent cross-clusters
+refer to regularity in the expression of orthologous genes.}
+\end{minipage}
+\end{minipage}
+\vspace{1ex}
+}
+\end{center}
+
+\begin{center}
+\begin{minipage}{0.3\textwidth}
+\normalsize{{\it Fig. 4.} Cross cluster homogeneity comparisons.}\vspace{1ex}\\ 
+%{\bf A} 
+\epsfxsize=\textwidth
+\epsfysize=0.5\textwidth 
+\epsffile{pic/hm_compClus_crosscluster_x_plot.eps}
+\vspace{1ex}\\
+%{\bf B}
+%\epsfxsize=0.8\textwidth
+%\epsfysize=0.38\textwidth
+%\epsffile{pic/hm_compClus_crosscluster_y_plot.eps}\\
+%\vspace{1ex}
+%\\
+\begin{minipage}{\textwidth}
+
+\scriptsize{Dispersion of cross clusters in mouse-man studies for
+human expression data.  AC produces clusters that are comparable to
+K-means, and K-IB produces significantly more dispersed clusters. RAND
+is a kind of an upper limit for cluster dispersion, obtained by
+randomly assigning samples to clusters. Results are similar for mouse
+data.}
+
+\vspace{1.5ex}
+\end{minipage}
+\end{minipage}
+\end{center}
+
+{\Large \textbf{Results and conclusions}} {\large \begin{itemize}
+
+\item AC produced significantly more dependent clusters than standard
+K-means. The advantage of AC in comparison with other dependency
+modeling algorithms, e.g. information bottleneck (IB) [4] is its
+ability to produce more easily interpretable localized clusters
+(Fig.~4). A generalization of IB for clustering continuous-valued data
+is used for comparisons [2].
+
+\item Ribosomal GO categories were enriched among the most frequently
+co-occurring orthologues in large cross clusters, hinting at
+exceptional level of conservation of such genes. In small cross
+clusters, secretion and signal transduction categories were common,
+suggesting differentiation between the species.
+
+\item Two examples from large and small cross clusters of AC highlight
+individual orthologues contributing significantly to data dependencies
+(Fig.~5).
+
+\end{itemize}}
+
+\begin{center}
+\begin{minipage}{0.3\textwidth}
+\normalsize{{\it Fig. 5.} Orthologue expression trends contributing to data dependencies}\vspace{1ex}\\ 
+{\bf A} 
+\epsfxsize=0.8\textwidth
+\epsfysize=0.38\textwidth 
+\epsffile{pic/cluster20.eps}
+\vspace{1ex}\\
+{\bf B}
+\epsfxsize=0.8\textwidth
+\epsfysize=0.38\textwidth
+\epsffile{pic/blue2527.eps}\\
+\vspace{1ex}
+\\
+\begin{minipage}{\textwidth}
+\scriptsize{{\bf A} Averaged expression profiles of three
+testis-specific orthologues with frequent co-occurrence in large cross
+clusters of bootstrapped AC (LocusID pairs 8852-11643, 11055-53604,
+1618-13164). Function of these genes are related to reproductive
+system but otherwise poorly known in some cases. {\bf B} The most
+strongly exceptional outlier gene, detected based on its most frequent
+occurrence in an unexpectedly small cross cluster.  LocusIDs 998 and
+12540 for human and mouse, respectively. The human gene is only
+expressed in neuronal tissues, whereas the mouse gene is more
+generally expressed }
+\vspace{1.5ex}
+\end{minipage}
+\end{minipage}
+\end{center}
+
+\noindent{\hspace{2.5ex}\normalsize{\textbf{Related articles}}}
+\noindent{\footnotesize{\begin{itemize}
+
+\item[{[1]}] J. Nikkil{\"a} et al.
+   \newblock Exploring dependencies between yeast stress genes and their regulators
+   \newblock In: Yang, Everson, Yin (eds.), IDEAL2004, pp. 92-98, Springer, 2004.
+
+\item[{[2]}] J. Sinkkonen et al.
+   \newblock Associative Clustering
+   \newblock In: Boulicaut, Esposito, Giannotti, Pedreschi (eds.):
+ECML2004, Lecture Notes in Computer Science 3201, pp. 396-406, 2004.
+
+\item[{[3]}] A.~I. Su et al. 
+   \newblock Large-scale analysis of the human and mouse transcriptomes
+   \newblock {\em PNAS}, 99:4465--4470, 2002.
+
+\item[{[4]}] N. Friedman et al.  
+   \newblock In Proc. 17th Conf. on Uncertainty in Artificial
+   Intelligence, pp. 152-161
+   \newblock Morgan Kaufmann Publishers, San Francisco, CA, 2001.
+
+\end{itemize}}}
+\vspace{1.5ex}
+
+\begin{center}
+\fbox{\fbox{
+\begin{minipage}{0.3\textwidth}
+\normalsize{\normalsize{{\bf For more information see: \\
+http://www.cis.hut.fi/projects/mi/}
+}}
+\end{minipage}}}
+\end{center}
+    
+\end{multicols}
+\end{document}
+
+
+
+

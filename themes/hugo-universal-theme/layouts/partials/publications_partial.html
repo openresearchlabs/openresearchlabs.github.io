@@ -1,0 +1,99 @@
+<!-- parameter -->
+{{ $reference := . }}
+
+<!-- Title in bold -->
+<p>
+  {{ if .title }}
+  <b>{{ .title | markdownify }}</b>
+  <br>
+  {{ end }}
+
+<!-- if there are no authors, this will not run -->
+<!-- institution authors are printed (for some reason) in publisher field -->
+{{- if .author -}}
+<!-- Build the display names first. pandoc renders a BibTeX `and others`
+     as a literal author called "others"; that becomes "et al." and
+     suppresses the ampersand before it. -->
+{{- $names := slice -}}
+{{- $etal := false -}}
+{{- range .author -}}
+  {{- if .literal -}}
+    {{- if eq (lower .literal) "others" -}}
+      {{- $etal = true -}}
+    {{- else -}}
+      {{- $names = $names | append .literal -}}
+    {{- end -}}
+  {{- else -}}
+    <!-- a trailing `*` in the bib marks shared authorship; the site has no
+         legend for it, so it is not displayed -->
+    {{- $fam := replaceRE `\*+$` "" .family -}}
+    {{- $dp := index . "dropping-particle" -}}
+    {{- with $dp -}}{{- $fam = printf "%s %s" . $fam -}}{{- end -}}
+    {{- $ndp := index . "non-dropping-particle" -}}
+    {{- with $ndp -}}{{- $fam = printf "%s %s" . $fam -}}{{- end -}}
+    {{- $n := $fam -}}
+    {{- if .given -}}
+      {{- $ini := "" -}}
+      {{- range (split (replaceRE `[.\-]+` " " .given) " ") -}}
+        {{- with (trim . " ") -}}{{- $ini = printf "%s%s." $ini (substr . 0 1 | upper) -}}{{- end -}}
+      {{- end -}}
+      {{- $n = printf "%s, %s" $fam $ini -}}
+    {{- end -}}
+    {{- $names = $names | append $n -}}
+  {{- end -}}
+{{- end -}}
+{{- $count := len $names -}}
+{{- if $etal -}}
+  {{ delimit $names ", " }}, <em>et al.</em>
+{{- else if eq $count 1 -}}
+  {{ index $names 0 }}
+{{- else if gt $count 1 -}}
+  {{- $last := index $names (sub $count 1) -}}
+  {{ delimit (first (sub $count 1) $names) ", " }}&#32;&amp;&#32;{{ $last }}{{ if not (findRE "[.]$" $last) }}.{{ end }}
+{{- end -}}
+<br>
+{{- end -}}
+
+
+<!-- title of the publication etc. -->
+{{- $publication := index . "container-title" -}}
+{{- $publication -}}
+{{ if .volume }} {{ .volume }}{{ end }}
+{{- if .issue -}}({{ .issue }}){{- end -}}
+{{ if .publisher }} {{ .publisher }}{{ end }}
+{{- if or .volume .issue .publisher -}},{{- end -}}
+<!-- publication date: year -->
+<!-- courtesy of loup-brun's hugo-cite project: https://github.com/loup-brun/hugo-cite -->
+{{- if .issued -}}{{/* if .issued exists, so does "date-parts" */}}
+{{- $years := slice -}}
+{{- range (index .issued "date-parts") -}}{{/* one entry per date; two means a range */}}
+{{- range first 1 . -}}{{/* first element of a date-part is the year */ -}}
+{{- $years = $years | append . -}}
+{{- end -}}
+{{- end -}}
+{{- delimit $years "&ndash;" -}}
+{{- end -}}
+
+{{- if or .volume .issue .publisher $publication -}}{{/* break only if something exists */ -}}
+<br>
+{{- end -}}
+
+<!-- note -->
+{{ if .note }}
+{{ .note }}
+<br>
+{{ end }}
+
+<!-- DOI or URL as a link if it exists -->
+{{ if .DOI }}
+  <a href="https://doi.org/{{ .DOI }}">{{ .DOI }}</a>
+{{ end }}
+{{ if and .DOI .URL }}|{{ end }}
+{{ if .URL }}
+  {{ if findRE "pdf$" .URL }}
+  <a href="{{ .URL }}">PDF</a>
+  {{ else }}
+  <a href="{{ .URL }}">URL</a>
+  {{ end }}
+{{ end }}
+</p>

@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="5916"
+   name=""
+   committed-date="2005-01-25T12:52:29.000000Z"
+   url="file:///share/mi/svnroot/mi/doc/sysbio/symposium_Meripuisto05/pic"
+   last-author="lmlahti"
+   kind="dir"
+   uuid="f9c44b12-5d29-0410-bd10-7368152de2ff"
+   repos="file:///share/mi/svnroot"
+   revision="14013"/>
+<entry
+   committed-rev="5916"
+   name="testistxt.fig"
+   text-time="2007-02-14T10:03:27.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="059667afbff47adfe7731921733c9efa"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="manmousebox.eps"
+   text-time="2007-02-14T10:03:27.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="a2d1f6ffcc8325bd8d95745b68961ecd"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="setting_bs.eps"
+   text-time="2007-02-14T10:03:28.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="2b95a877762e05dc7fe77a5b6d802b96"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="blue2527.eps"
+   text-time="2007-02-14T10:03:28.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="73625c7f123582622b928404a53d6fc6"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="hm_compClus_crosscluster_y_plot.eps"
+   text-time="2007-02-14T10:03:28.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="3b5fb6709697c097927e2b878f785769"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="manmousebox.fig"
+   text-time="2007-02-14T10:03:28.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="9cf29627a0e9e4623aa6c9582fe11e51"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="yellowCluster20H.dlm"
+   text-time="2007-02-14T10:03:28.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="123a25ec4c9bf1b2d4e62b0c09da63c1"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="hclus.eps"
+   text-time="2007-02-14T10:03:28.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="178b51eb8278c8fe200f48396c01a86d"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="setting_bs.fig"
+   text-time="2007-02-14T10:03:28.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="2728b522e79169aa33dcf6d12b65728a"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="blue2527H.eps"
+   text-time="2007-02-14T10:03:28.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="4c0995ea8d925a2a9441662fb2f8106b"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="blue2527.fig.bak"
+   text-time="2007-02-14T10:03:28.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="172347ec1d15b3f84701edd9112d5ce7"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="yellowCluster20M.dlm"
+   text-time="2007-02-14T10:03:28.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="bb0b4b6311b8a412ce65e1bfb5acbffa"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="voronoipic2.epsi"
+   text-time="2007-02-14T10:03:28.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="0a8601a2f87acd4a92238f4df4286b0c"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="cluster20.eps"
+   text-time="2007-02-14T10:03:28.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="c9755fc4b1a18fa4bc2a40619f4a5aab"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="blue2527M.eps"
+   text-time="2007-02-14T10:03:28.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="4b86f856a7db4f7cbd095fdc8245ed9a"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="blue2527.fig"
+   text-time="2007-02-14T10:03:28.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="56d973e00f5fe18bb9a85d760feb44b8"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="ctable.eps"
+   text-time="2007-02-14T10:03:28.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="7e07d168345c4c6be5b470f852ace56a"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="hgene2527.dlm"
+   text-time="2007-02-14T10:03:28.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="09bd3e17494b138ccdf7550400ef2339"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="hclus.fig"
+   text-time="2007-02-14T10:03:28.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="e67222fb341f082b05244a0fe83dead7"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="hclus2818.ps"
+   text-time="2007-02-14T10:03:28.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="3f973b87a6619f8a2feefbcad8d36cbb"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="cluster20.fig.bak"
+   text-time="2007-02-14T10:03:28.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="b5f00330c929e0247f41498c1c6c6a04"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="mgene2527.dlm"
+   text-time="2007-02-14T10:03:28.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="728f7b26bd222ba16640d73ee2e56dcc"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="cluster20.fig"
+   text-time="2007-02-14T10:03:28.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="172347ec1d15b3f84701edd9112d5ce7"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="drawBlue.m~"
+   text-time="2008-05-20T14:40:30.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="66bf271635a1656b6ec906465add3ad0"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="ctable.fig"
+   text-time="2007-02-14T10:03:28.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="9b535b1140f216694201afff59fc4265"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="hm_compClus_crosscluster_x_plot.eps"
+   text-time="2007-02-14T10:03:28.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="62b9fa6b2999e4c0dbb996dcbcca46ff"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="testistxt.eps"
+   text-time="2007-02-14T10:03:28.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="db75bd91662c734b9c2dcc413bebbb81"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="voronoipics.py"
+   text-time="2007-02-14T10:03:28.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="a199da207a8ca1a9822d54c8ac440cfa"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="testis20.eps"
+   text-time="2007-02-14T10:03:28.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="4fd30666823f7ec191af629802e2cfaa"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="yellow_cluster20.eps"
+   text-time="2007-02-14T10:03:28.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="5abfc366cbe07c184259d783cb245807"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="voronoipic1.epsi"
+   text-time="2007-02-14T10:03:28.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="0eb54ce20e2af0adc8418720297ec8e5"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="bluePair2527.eps"
+   text-time="2007-02-14T10:03:28.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="ce5d0fd63d1eeecbd5740a74e705f5a0"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="testistxt.fig.bak"
+   text-time="2007-02-14T10:03:28.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="75cded81bdcc5b9c9aca9a70caa4605d"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="drawClusters.m~"
+   text-time="2008-05-20T14:40:30.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="41043a19c4903eacdbe30b0554c6e308"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+<entry
+   committed-rev="5916"
+   name="drawClusters.m"
+   text-time="2007-02-14T10:03:28.000000Z"
+   committed-date="2005-01-25T12:52:29.000000Z"
+   checksum="cc16883d0aca4dae5b983beb734cd85a"
+   last-author="lmlahti"
+   kind="file"
+   prop-time="2007-02-14T10:03:27.000000Z"/>
+</wc-entries>

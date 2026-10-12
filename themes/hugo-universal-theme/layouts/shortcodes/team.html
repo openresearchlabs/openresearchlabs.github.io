@@ -1,0 +1,10 @@
+{{ if .IsNamedParams }}
+<ul class="flex-container">
+  {{ $data := index $.Site.Data.team $.Params.data }}
+  {{ range $data }}
+  <li class="flex-item">
+    {{ partial "team_partial" . }}
+  </li>
+  {{ end }}
+</ul>
+{{- end -}}

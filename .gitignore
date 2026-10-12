@@ -1,0 +1,21 @@
+.sass-cache
+_site
+*~
+.Rproj.user
+*.DS_Store
+
+# History files
+.Rhistory
+.Rapp.history
+
+# RStudio files
+.Rproj.user/
+*.Rproj
+.positai
+
+# Hugo build output; the site is built by the gh-pages workflow
+/public/
+
+# R workspace and stray Jekyll cache
+.RData
+.jekyll-cache/

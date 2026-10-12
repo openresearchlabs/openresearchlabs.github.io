@@ -1,0 +1,37 @@
+{{ $path := index $.Site.Data.publications.lahti }}
+
+{{- if .IsNamedParams -}}
+  {{- if (isset .Params "id") -}}
+    {{ range where $path "id" $.Params.id }}
+      {{ partial "publications_partial" . }}
+    {{ end }}
+  {{ else if (isset .Params "keyword") }}
+    <!-- An entry belongs to every topic named in its `keywords` field, so
+         `keywords = {dh, openscience}` appears on both of those pages.
+         Each keyword is compared whole, and an entry is rendered once
+         however many of its keywords match. -->
+    {{ range $path }}
+      {{ $ref := . }}
+      {{ $hit := false }}
+      {{ with .keyword }}
+        {{ range split . "," }}
+          {{ if eq (trim . " ") $.Params.keyword }}
+            {{ $hit = true }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      {{ if $hit }}
+        {{ partial "publications_partial" $ref }}
+      {{ end }}
+    {{ end }}
+  {{ else if (isset .Params "status") }}
+      {{ range where $path "status" $.Params.status }}
+        {{ partial "publications_partial" . }}
+      {{ end }}
+  {{ end }}
+<!-- if no named parameters, print all items -->
+{{ else }}
+  {{ range $path }}
+    {{ partial "publications_partial" . }}
+  {{ end }}
+{{- end -}}
