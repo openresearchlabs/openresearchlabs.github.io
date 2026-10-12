@@ -15,3 +15,7 @@ _site
 
 # Hugo build output; the site is built by the gh-pages workflow
 /public/
+
+# R workspace and stray Jekyll cache
+.RData
+.jekyll-cache/
