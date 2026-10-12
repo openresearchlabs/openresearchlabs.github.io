@@ -66,4 +66,4 @@ author list is dropped, with the reason printed.
 `candidates.bib` is a draft, never a commit. Every entry carries TODO lines
 for the fields metadata cannot decide: `pubclass`, `keywords`, and `group`
 for software. Move the entries you want into lahti.bib by hand, then run
-`publication-list.sh` and push.
+`~/Seafile/Team/publication-list.sh` and push.
