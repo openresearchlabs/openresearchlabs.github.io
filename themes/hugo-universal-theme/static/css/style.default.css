@@ -3046,6 +3046,9 @@ fieldset[disabled] .btn-template-primary.active {
   .navbar-nav > li > a {
     padding-top: 21px;
     padding-bottom: 21px;
+    /* narrower than the default 15px so that the seven menu items fit on one line */
+    padding-left: 11px;
+    padding-right: 11px;
   }
   .navbar-nav.navbar-right:last-child {
     margin-right: -15px;
@@ -4119,3 +4122,38 @@ a.list-group-item.active > .badge,
   .pic-code{
     max-width: 75vw;
   }
+
+} /* closes the @media (max-width: 768px) block above */
+
+/* Projects page and front-page list */
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.project-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px 20px;
+}
+
+.project-title {
+  margin-top: 0;
+  line-height: 1.3;
+}
+
+.project-meta {
+  color: #777;
+  font-size: 0.95em;
+}
+
+.project-summary {
+  margin-bottom: 0;
+}
+
+.frontpage-projects ul {
+  padding-left: 20px;
+}

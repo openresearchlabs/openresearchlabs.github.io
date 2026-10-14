@@ -1,0 +1,17 @@
+{{/* Returns the projects of data/projects.yaml whose status is "current" or
+     "past", newest first. A project is current until the end of its `end`
+     year, or indefinitely when it has no `end`. */}}
+{{ $year := now.Year }}
+{{ $list := slice }}
+{{ range site.Data.projects }}
+  {{ $current := or (not .end) (ge .end $year) }}
+  {{ if eq $current (eq $.status "current") }}
+    {{ $list = $list | append . }}
+  {{ end }}
+{{ end }}
+{{ if eq .status "current" }}
+  {{ $list = sort $list "start" "desc" }}
+{{ else }}
+  {{ $list = sort $list "end" "desc" }}
+{{ end }}
+{{ return $list }}

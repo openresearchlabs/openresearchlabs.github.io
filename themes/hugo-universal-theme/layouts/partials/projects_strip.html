@@ -1,0 +1,16 @@
+{{/* Front page: the current projects, linking to the full list. */}}
+{{ $current := partial "projects_select.html" (dict "status" "current") }}
+{{ if $current }}
+<div class="frontpage-projects">
+  <h1>Current projects</h1>
+  <ul>
+    {{ range $current }}
+    <li>
+      {{ with .url }}<a href="{{ . }}">{{ end }}{{ .title }}{{ with .url }}</a>{{ end }}
+      {{ with .funder }}<span class="project-meta"> · {{ . }}</span>{{ end }}
+    </li>
+    {{ end }}
+  </ul>
+  <p><a href="{{ "projects" | absURL }}">All current and past projects</a></p>
+</div>
+{{ end }}
