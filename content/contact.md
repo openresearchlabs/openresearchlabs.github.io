@@ -15,8 +15,6 @@ Welcome to contact us to discuss research/study positions and collaboration. <!-
 
 We are part of the [Department of Computing](https://www.utu.fi/en/university/faculty-of-technology/computing) at the Faculty of Technology, University of Turku. Reach us through the following channels:
 
-**Twitter** Turku Data Science Group [Twitter](https://twitter.com/openreslabs)
-
 **Email**  lahtilab - at - utu.fi (see the [Team](../team) page for the list)
 
 **Mail** [Department of Computing, Faculty of Technology](https://www.utu.fi/en/university/faculty-of-technology/computing), Yliopistonmäki, FI-20014, University of Turku, Finland

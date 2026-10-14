@@ -17,7 +17,7 @@ We supervise study assignments (BSc/MSc/PhD) on applied statistics / computation
 
 **July 10-14, 2023, Nijmegen, The Netherlands**
 
-- [Brain, Bacteria and Behaviour: Understanding the Gut-Brain Axis](https://twitter.com/antagomir/status/1624025116001574912?s=20&t=k2TA4i7qHnK6JMhgQR1oBg) including microbiome data science with R/Bioconductor
+- Brain, Bacteria and Behaviour: Understanding the Gut-Brain Axis including microbiome data science with R/Bioconductor
 
 **Apr 12-14 2023, Wageningen, The Netherlands**
 
