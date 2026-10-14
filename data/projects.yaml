@@ -1,0 +1,88 @@
+# The group's research projects, shown on /projects/ and on the front page.
+#
+# A project counts as current until the end of its `end` year, and as
+# current indefinitely when `end` is left out; after that it moves to
+# "Past projects" by itself.
+#
+#   title    project name (required)
+#   url      project web page
+#   funder   who funds it
+#   start    first year
+#   end      last year
+#   role     the group's role, e.g. lead
+#   area     life sciences | humanities | data science
+#   summary  one sentence
+#   grants   grant codes as used in the `funding` field of lahti.bib
+
+- title: HoloGen
+  url: https://www.hologen-network.eu/index.html
+  funder: EU
+  start: 2024
+  end: 2028
+  area: life sciences
+  summary: Computational and experimental hologenomics.
+
+- title: FindingPheno
+  url: http://www.findingpheno.eu/
+  funder: EU / Horizon 2020
+  start: 2021
+  end: 2025
+  area: life sciences
+  summary: Computational multi-omics.
+  grants: [EUH952914]
+
+- title: HAT research
+  url: https://blogs.helsinki.fi/hatresearch/
+  funder: KONE Foundation
+  start: 2022
+  end: 2024
+  area: life sciences
+  summary: Comparing evolutionary processes in nature and society.
+
+- title: Computational and Molecular Methods for Life Sciences (CompLifeSci)
+  funder: Biocity Turku
+  start: 2022
+  end: 2026
+  role: lead
+  area: life sciences
+  summary: Biocity Turku research programme.
+
+- title: Digital History for Literature in Finland
+  url: https://www.kansalliskirjasto.fi/en/projects/digital-history-literature-finland
+  funder: Academy of Finland
+  start: 2022
+  end: 2026
+  role: lead
+  area: humanities
+
+- title: OpenMuse
+  url: https://www.openmuse.eu
+  funder: EU / Horizon
+  start: 2023
+  end: 2025
+  area: humanities
+
+- title: Young Despair
+  url: https://ulosepatoivosta.fi/
+  funder: Strategic Research Council
+  start: 2022
+  end: 2025
+  area: humanities
+
+- title: FIN-CLARIAH Infrastructure for Digital Humanities
+  area: humanities
+
+- title: Eco-evolutionary mechanisms underlying critical transitions in microbial communities
+  url: https://research.fi/en/results/funding/27223
+  funder: Academy of Finland
+  start: 2020
+  end: 2024
+  area: life sciences
+
+- title: ML4microbiome COST action
+  url: https://www.ml4microbiome.eu/
+  funder: EU / COST
+  start: 2019
+  end: 2023
+  area: life sciences
+  summary: Statistical and machine learning techniques in human microbiome studies.

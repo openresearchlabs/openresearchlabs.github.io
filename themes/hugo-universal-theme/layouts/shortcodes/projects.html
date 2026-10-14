@@ -1,0 +1,7 @@
+{{/* Project cards from data/projects.yaml: {{< projects status="current" >}}
+     or {{< projects status="past" >}} */}}
+<div class="projects-grid">
+  {{ range partial "projects_select.html" (dict "status" (.Get "status")) }}
+    {{ partial "projects_partial.html" . }}
+  {{ end }}
+</div>

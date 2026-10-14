@@ -1,0 +1,14 @@
+{{/* One project card; the context is an entry of data/projects.yaml. */}}
+<div class="project-card">
+  <h4 class="project-title">
+    {{ with .url }}<a href="{{ . }}">{{ end }}{{ .title }}{{ with .url }}</a>{{ end }}
+  </h4>
+  <p class="project-meta">
+    {{ $meta := slice }}
+    {{ with .funder }}{{ $meta = $meta | append . }}{{ end }}
+    {{ if .start }}{{ $meta = $meta | append (printf "%v–%v" .start (.end | default "")) }}{{ end }}
+    {{ with .role }}{{ $meta = $meta | append . }}{{ end }}
+    {{ delimit $meta " · " }}
+  </p>
+  {{ with .summary }}<p class="project-summary">{{ . | markdownify }}</p>{{ end }}
+</div>
