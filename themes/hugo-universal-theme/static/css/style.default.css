@@ -3721,16 +3721,6 @@ a.list-group-item.active > .badge,
   margin-bottom: 20px;
 }
 
-.twitter-logo{
-  height: 4vmin;
-  width: auto;
-}
-
-.twitter-logo:hover{
-  filter: opacity(0.6);
-  -webkit-filter: opacity(0.6);
-}
-
 .github-logo{
   height: 3vmin;
   width: auto;
@@ -3896,10 +3886,6 @@ a.list-group-item.active > .badge,
   .grid-container-5{
     overflow: scroll;
   }    
-  .twitter-logo{
-    width: 60px;
-    height: auto;
-  }
   .internet-logo{
     width: 40px;
     height: auto;
@@ -3960,27 +3946,20 @@ a.list-group-item.active > .badge,
   width: 154px;
 }
 
-.post-tweets-container {
+.frontpage-container {
   display: grid;
   margin-top: 5vh;
   padding-left: 5vw;
-  grid-template-columns: 55vw 30vw;
+  grid-template-columns: 55vw;
   grid-template-rows: 1fr;
   gap: 0px 5vw;
   grid-template-areas:
-    "recent-posts twitter-feed";
+    "recent-posts";
   padding-bottom: 10vh;
 }
 
 .frontpage-recent-publications { 
   grid-area: recent-posts;
-  display: inline-block;
-}
-
-.twitter-feed { 
-  grid-area: twitter-feed;
-  vertical-align: top;
-  justify-self: right;
   display: inline-block;
 }
 
@@ -4042,14 +4021,13 @@ a.list-group-item.active > .badge,
       "box-team";
   }
 
-  .post-tweets-container {
+  .frontpage-container {
     padding-left: 5vw;
     grid-template-columns: 90vw;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     gap: 0px 5vw;
     grid-template-areas:
-      "recent-posts"
-      "twitter-feed";
+      "recent-posts";
     padding-bottom: 10vh;
   }
 }

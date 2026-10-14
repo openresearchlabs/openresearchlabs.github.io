@@ -50,10 +50,6 @@ menu:
       pre: <i class='fab fa-2x fa-github'></i>
       url: https://github.com/openresearchlabs/
       weight: 1
-    - name: Twitter
-      pre: <i class='fab fa-2x fa-twitter'></i>
-      url: https://twitter.com/openreslabs
-      weight: 3
     - name: Email
       pre: <i class='fas fa-2x fa-envelope'></i>
       url: mailto:leo.lahti@utu.fi
@@ -81,10 +77,7 @@ params:
       \     <p class=\"hidden-md hidden-lg\"><a href=\"#\" data-animate-hover=\"pulse\"><i
       class=\"fas fa-phone\"></i></a>\n      <a href=\"#\" data-animate-hover=\"pulse\"><i
       class=\"fas fa-envelope\"></i></a>\n      </p>\n      "
-  viewMorePostLink: /blog/
   widgets:
     categories: yes
     search: yes
     tags: yes
-Permalinks:
-  blog: /blog/:year/:month/:day/:filename/

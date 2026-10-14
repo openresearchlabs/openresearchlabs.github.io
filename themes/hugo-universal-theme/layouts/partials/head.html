@@ -90,15 +90,6 @@
     {{ with .Lastmod }}<meta property="article:modified_time" content="{{ .Format "2006-01-02T15:04:05Z0700" }}">{{ end }}
   {{ end }}
 
-  <!-- Twitter Card meta tags -->
-  <meta name="twitter:card" content="summary{{ if (and $is_blog (and $has_image $is_valid_image)) }}_large_image{{ end }}">
-  {{ with .Param "twitter_site" }}<meta name="twitter:site" content="@{{ . }}">{{ end }}
-  <meta name="twitter:title" content="{{ $title_plain | truncate 70 }}">
-  {{ if $is_valid_image }}
-  <meta name="twitter:image" content="{{ $image | absURL }}">
-  {{ end }}
-  <meta name="twitter:description" content="{{ $description_plain | truncate 200 }}">
-  {{ with .Param "twitter_author" }}<meta name="twitter:creator" content="@{{ . }}">{{ end }}
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-3FJ60G61DS"></script>

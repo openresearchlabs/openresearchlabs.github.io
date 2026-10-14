@@ -13,15 +13,11 @@
  
         {{ partial "boxes.html" . }}
 
-        <div class="post-tweets-container">
+        <div class="frontpage-container">
           
           <div class="frontpage-recent-publications"></div>
 
           {{ .Content }}
-
-          <div class="twitter-feed"></div>
-
-          {{ partial "twitter.html" . }}
 
         </div>
         {{ partial "testimonials.html" . }}

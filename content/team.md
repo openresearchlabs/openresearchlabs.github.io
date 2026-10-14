@@ -16,7 +16,6 @@ We are part of the [Department of Computing](https://www.utu.fi/en/university/fa
   <div class="col-sm-3 clearfix" width="400px"> 
     <img src="../img/teampic/leo_sci_crop.jpg" class="img-responsive lahti" style="float: left"/><br/>
     <div class="links-leo">
-      <a href="https://twitter.com/antagomir"><img class="twitter-logo" src="../img/twitter-logo.png"/></a>
       <a href="https://github.com/openresearchlabs/"><img class="github-logo" src="../img/logo-github.png"/></a>
       <a href="https://orcid.org/0000-0001-5537-637X"><img class="orcid-logo" src="../img/orcid-logo.png"/></a>      
       <a href="https://scholar.google.com/citations?hl=en&user=mjjV-AoAAAAJ"><img class="google-scholar-logo" src="../img/google-scholar-logo.png"/></a>     
@@ -26,7 +25,7 @@ We are part of the [Department of Computing](https://www.utu.fi/en/university/fa
     </div>
   </div>
 
-<!--  <a href="http://orcid.org/0000-0001-5537-637X"><img src='../img/orcid_qrcode_leolahti.png' title='Leo Lahti ORCID QR code 0000-0001-5537-637X' alt='ORCID: 0000-0001-5537-637X' width='33%'/></a> <a href="https://twitter.com/antagomir"><img src='../img/twitter.jpeg' title='antagomir@twitter' alt='https://twitter.com/antagomir' width='25%'/></a> -->
+<!--  <a href="http://orcid.org/0000-0001-5537-637X"><img src='../img/orcid_qrcode_leolahti.png' title='Leo Lahti ORCID QR code 0000-0001-5537-637X' alt='ORCID: 0000-0001-5537-637X' width='33%'/></a> -->
   
   <h4>Leo Lahti (Group leader)</h4>
 
