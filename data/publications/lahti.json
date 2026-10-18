@@ -2483,6 +2483,8 @@
     "volume": "47"
   },
   {
+    "DOI": "10.1101/2025.06.16.659887",
+    "annote": "DOI points to the bioRxiv preprint; replace with the journal DOI once assigned.",
     "author": [
       {
         "family": "Escobar-Zepeda",
@@ -16937,6 +16939,228 @@
     "keyword": "bioscience",
     "status": "preprint",
     "title": "Gut microbiome signatures associated with self-reported allergic symptoms among Finnish adults",
+    "type": "article-journal"
+  },
+  {
+    "DOI": "10.64898/2026.09.09.26362619",
+    "author": [
+      {
+        "family": "Oosterhout",
+        "given": "Emily"
+      },
+      {
+        "family": "Leijdesdorff",
+        "given": "Rose S."
+      },
+      {
+        "family": "Kambur",
+        "given": "Oleg"
+      },
+      {
+        "dropping-particle": "van der",
+        "family": "Vegt",
+        "given": "Bert"
+      },
+      {
+        "family": "Gacesa",
+        "given": "Ranko"
+      },
+      {
+        "family": "Bolte",
+        "given": "Laura A."
+      },
+      {
+        "family": "Klaassen",
+        "given": "Marjolein A. Y."
+      },
+      {
+        "family": "Salomaa",
+        "given": "Veikko"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      },
+      {
+        "family": "Knight",
+        "given": "Rob"
+      },
+      {
+        "family": "Dekker",
+        "given": "Evelien"
+      },
+      {
+        "family": "Fu",
+        "given": "Jingyuan"
+      },
+      {
+        "family": "Zhernakova",
+        "given": "Alexandra"
+      },
+      {
+        "family": "Havulinna",
+        "given": "Aki S."
+      },
+      {
+        "family": "Hospers",
+        "given": "Geke A. P."
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Weersma",
+        "given": "Rinse K."
+      },
+      {
+        "family": "Björk",
+        "given": "Johannes R."
+      }
+    ],
+    "container-title": "medRxiv",
+    "id": "Oosterhout2026",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "status": "preprint",
+    "title": "A gut microbiome-derived risk score is associated with future cancer development",
+    "type": "article-journal"
+  },
+  {
+    "DOI": "10.64898/2026.09.09.26362628",
+    "author": [
+      {
+        "family": "Vitali",
+        "given": "Giacomo"
+      },
+      {
+        "family": "Björk",
+        "given": "Johannes R."
+      },
+      {
+        "family": "Kambur",
+        "given": "Oleg"
+      },
+      {
+        "family": "Fidelle",
+        "given": "Marine"
+      },
+      {
+        "family": "Birkeland",
+        "given": "Einar"
+      },
+      {
+        "family": "Goulet",
+        "given": "Lindsay"
+      },
+      {
+        "family": "Le Chatelier",
+        "given": "Emmanuelle"
+      },
+      {
+        "family": "Ren",
+        "given": "Yani"
+      },
+      {
+        "family": "Benamouzig",
+        "given": "Robert"
+      },
+      {
+        "family": "Veiga",
+        "given": "Patrick"
+      },
+      {
+        "family": "Kroemer",
+        "given": "Guido"
+      },
+      {
+        "family": "Rounge",
+        "given": "Trine Ballestad"
+      },
+      {
+        "family": "Pardini",
+        "given": "Barbara"
+      },
+      {
+        "family": "Niiranen",
+        "given": "Teemu"
+      },
+      {
+        "family": "Leja",
+        "given": "Mārcis"
+      },
+      {
+        "family": "Kupčinskas",
+        "given": "Juozas"
+      },
+      {
+        "family": "Routy",
+        "given": "Bertrand"
+      },
+      {
+        "family": "Elkrief",
+        "given": "Arielle"
+      },
+      {
+        "family": "Ribeiro",
+        "given": "Joana"
+      },
+      {
+        "family": "Derosa",
+        "given": "Lisa"
+      },
+      {
+        "family": "Paragios",
+        "given": "Nikos"
+      },
+      {
+        "family": "Baumbach",
+        "given": "Jan"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "literal": "Le French Gut Consortium"
+      },
+      {
+        "family": "Almeida",
+        "given": "Mathieu"
+      },
+      {
+        "family": "Weersma",
+        "given": "Rinse K."
+      },
+      {
+        "family": "Zitvogel",
+        "given": "Laurence"
+      },
+      {
+        "family": "Ehrlich",
+        "given": "Stanislav Dusko"
+      }
+    ],
+    "container-title": "medRxiv",
+    "id": "Vitali2026",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "status": "preprint",
+    "title": "Gut microbiome alterations predictive of cancer risk",
     "type": "article-journal"
   },
   {
