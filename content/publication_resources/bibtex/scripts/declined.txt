@@ -17,3 +17,9 @@
 
 # a namesake: another Leo Lahti, in antenna research
 10.23919/eucap68105.2026.11612514
+
+# namesake: Laura Lahti (Finnish linguistics, Virittaja)
+10.23982/vir.5091
+
+# namesake: Lauri Lahti (Aalto), Molecular Neurobiology
+10.1007/s12035-025-05475-3
