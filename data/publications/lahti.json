@@ -17525,5 +17525,47 @@
     "page": "101525",
     "title": "Importance of faecal sample collection in prospective cohort studies to evaluate the effect of the gut microbiome on cancer development",
     "type": "article-journal"
+  },
+  {
+    "DOI": "10.1016/j.lisr.2026.101429",
+    "author": [
+      {
+        "family": "Matveeva",
+        "given": "Julia"
+      },
+      {
+        "family": "Pynttäri",
+        "given": "Veli-Matti"
+      },
+      {
+        "family": "Launis",
+        "given": "Kati"
+      },
+      {
+        "family": "Suominen",
+        "given": "Osma"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "Library and Information Science Research",
+    "id": "Matveeva2026",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10
+        ]
+      ]
+    },
+    "keyword": "dh",
+    "page": "101429",
+    "title": "Subset selection in bibliographic research: Exploring the boundaries of automated and manual curation",
+    "title-short": "Subset selection in bibliographic research",
+    "type": "article-journal",
+    "volume": "48"
   }
 ]
