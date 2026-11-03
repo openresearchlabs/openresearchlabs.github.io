@@ -17525,5 +17525,62 @@
     "page": "101525",
     "title": "Importance of faecal sample collection in prospective cohort studies to evaluate the effect of the gut microbiome on cancer development",
     "type": "article-journal"
+  },
+  {
+    "author": [
+      {
+        "family": "Yap",
+        "given": "Polly Soo Xi"
+      },
+      {
+        "family": "Yeo",
+        "given": "Li-Fang"
+      },
+      {
+        "family": "Loganathan",
+        "given": "Aswini Leela"
+      },
+      {
+        "family": "Lau",
+        "given": "Ji Hen"
+      },
+      {
+        "family": "Pärnänen",
+        "given": "Katariina"
+      },
+      {
+        "family": "Almeida",
+        "given": "Alexandre"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Finn",
+        "given": "Róbert D."
+      },
+      {
+        "family": "Ayub",
+        "given": "Qasim"
+      },
+      {
+        "family": "Phipps",
+        "given": "Maude E."
+      }
+    ],
+    "container-title": "Cell Reports",
+    "id": "Yap2026",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "status": "in press",
+    "title": "A framework for gut microbiome and resistome research in Indigenous Orang Asli communities of Peninsular Malaysia",
+    "type": "article-journal"
   }
 ]
