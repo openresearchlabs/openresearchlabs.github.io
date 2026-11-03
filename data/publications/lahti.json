@@ -2483,8 +2483,7 @@
     "volume": "47"
   },
   {
-    "DOI": "10.1101/2025.06.16.659887",
-    "annote": "DOI points to the bioRxiv preprint; replace with the journal DOI once assigned.",
+    "DOI": "10.1186/s13059-026-04303-8",
     "author": [
       {
         "family": "Escobar-Zepeda",
@@ -17544,6 +17543,30 @@
       {
         "family": "Suominen",
         "given": "Osma"
+    "author": [
+      {
+        "family": "Yap",
+        "given": "Polly Soo Xi"
+      },
+      {
+        "family": "Yeo",
+        "given": "Li-Fang"
+      },
+      {
+        "family": "Loganathan",
+        "given": "Aswini Leela"
+      },
+      {
+        "family": "Lau",
+        "given": "Ji Hen"
+      },
+      {
+        "family": "Pärnänen",
+        "given": "Katariina"
+      },
+      {
+        "family": "Almeida",
+        "given": "Alexandre"
       },
       {
         "family": "Lahti",
@@ -17567,5 +17590,32 @@
     "title-short": "Subset selection in bibliographic research",
     "type": "article-journal",
     "volume": "48"
+      },
+      {
+        "family": "Finn",
+        "given": "Róbert D."
+      },
+      {
+        "family": "Ayub",
+        "given": "Qasim"
+      },
+      {
+        "family": "Phipps",
+        "given": "Maude E."
+      }
+    ],
+    "container-title": "Cell Reports",
+    "id": "Yap2026",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "status": "in press",
+    "title": "A framework for gut microbiome and resistome research in Indigenous Orang Asli communities of Peninsular Malaysia",
+    "type": "article-journal"
   }
 ]
