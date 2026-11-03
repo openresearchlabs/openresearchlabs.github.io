@@ -1,0 +1,81 @@
+name: Auto-merge bib monitor PRs
+
+# Merges the pull requests that the daily Claude bib monitor opens on
+# bib-monitor/* branches, once "Convert .bib to .json" has pushed the updated
+# lahti.json to the branch and the site still builds. Other pull requests are
+# left alone. A PR that touches anything other than lahti.bib and lahti.json
+# is not merged and has to be reviewed by hand.
+
+on:
+  workflow_run:
+    workflows: ["Convert .bib to .json"]
+    types: [completed]
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+
+concurrency:
+  group: automerge-${{ github.event.workflow_run.head_branch }}
+  cancel-in-progress: true
+
+jobs:
+  automerge:
+    if: >-
+      github.event.workflow_run.conclusion == 'success' &&
+      startsWith(github.event.workflow_run.head_branch, 'bib-monitor/') &&
+      github.event.workflow_run.head_repository.full_name == github.repository
+    runs-on: ubuntu-22.04
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      BRANCH: ${{ github.event.workflow_run.head_branch }}
+    steps:
+      - name: Find the pull request and check its files
+        id: pr
+        run: |
+          pr=$(gh pr list --head "$BRANCH" --state open --json number --jq '.[0].number')
+          if [ -z "$pr" ]; then
+            echo "No open pull request for $BRANCH"; exit 0
+          fi
+          head=$(gh pr view "$pr" --json headRefOid --jq .headRefOid)
+          others=$(gh pr view "$pr" --json files --jq '.files[].path' |
+            grep -vxE 'content/publication_resources/bibtex/lahti\.bib|data/publications/lahti\.json' || true)
+          if [ -n "$others" ]; then
+            echo "::warning::PR #$pr changes other files, leaving it for review:"
+            echo "$others"
+            gh pr comment "$pr" --body "Not auto-merged: this PR changes files other than lahti.bib and lahti.json. Please review by hand."
+            exit 0
+          fi
+          echo "number=$pr" >> "$GITHUB_OUTPUT"
+          echo "head=$head" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/checkout@v4
+        if: steps.pr.outputs.number
+        with:
+          ref: ${{ steps.pr.outputs.head }}
+          submodules: true
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        if: steps.pr.outputs.number
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.143.1'
+
+      - name: Check that the site builds
+        if: steps.pr.outputs.number
+        run: hugo --minify
+
+      - name: Merge
+        if: steps.pr.outputs.number
+        run: |
+          gh pr merge "${{ steps.pr.outputs.number }}" --merge --delete-branch \
+            --match-head-commit "${{ steps.pr.outputs.head }}"
+
+      # A merge made with GITHUB_TOKEN does not start push workflows, so the
+      # site deploy has to be started explicitly.
+      - name: Deploy the site
+        if: steps.pr.outputs.number
+        run: gh workflow run gh-pages.yaml --ref master
