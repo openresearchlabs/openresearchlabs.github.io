@@ -17543,6 +17543,31 @@
       {
         "family": "Suominen",
         "given": "Osma"
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "container-title": "Library and Information Science Research",
+    "id": "Matveeva2026",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10
+        ]
+      ]
+    },
+    "keyword": "dh",
+    "page": "101429",
+    "title": "Subset selection in bibliographic research: Exploring the boundaries of automated and manual curation",
+    "title-short": "Subset selection in bibliographic research",
+    "type": "article-journal",
+    "volume": "48"
+  },
+  {
     "author": [
       {
         "family": "Yap",
@@ -17571,25 +17596,6 @@
       {
         "family": "Lahti",
         "given": "Leo"
-      }
-    ],
-    "container-title": "Library and Information Science Research",
-    "id": "Matveeva2026",
-    "issue": "4",
-    "issued": {
-      "date-parts": [
-        [
-          2026,
-          10
-        ]
-      ]
-    },
-    "keyword": "dh",
-    "page": "101429",
-    "title": "Subset selection in bibliographic research: Exploring the boundaries of automated and manual curation",
-    "title-short": "Subset selection in bibliographic research",
-    "type": "article-journal",
-    "volume": "48"
       },
       {
         "family": "Finn",
