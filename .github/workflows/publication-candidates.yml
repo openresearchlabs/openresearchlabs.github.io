@@ -3,7 +3,8 @@ name: Find new publications
 # Looks for LL's publications that lahti.bib does not have yet (ORCID,
 # Crossref, arXiv) and lists them in one open issue labelled bib-candidates.
 # It never edits lahti.bib: the daily Claude bib monitor reads the issue and
-# opens a pull request with finished entries, which is reviewed by hand.
+# opens a pull request with finished entries, which automerge-bib-monitor.yml
+# merges once the site builds.
 
 on:
   schedule:

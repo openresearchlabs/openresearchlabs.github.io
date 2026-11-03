@@ -5,6 +5,7 @@ on:
     branches:
       - master  # Set a branch to deploy
   pull_request:
+  workflow_dispatch:  # started by automerge-bib-monitor.yml after a merge
 
 jobs:
   deploy:
