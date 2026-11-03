@@ -1,0 +1,793 @@
+\documentclass[a4paper,12pt,titlepage]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+\usepackage{epsfig}
+\use
+package[dvips]{graphics}
+\usepackage{epsfig}
+\usepackage{subfigure}
+
+\setlength{\textwidth}{140mm}
+\setlength{\parindent}{0mm}
+\setlength{\parskip}{3mm plus0.5mm minus0.5mm}
+
+\title{Electron triggers on $\mathrm{h, H, A}$ \rightarrow  \tau \tau \rightarrow $\mathrm{eX}$ channels}
+\author{Leo Lahti}
+\date{31.8.2001}
+
+\begin{document}
+
+\newcommand{\mycaption}[1]{\caption{\small{#1}}}
+
+\newcommand{\Pem}{\mbox{$\mathrm{e}^-$}}             %e-%
+\newcommand{\Pep}{\mbox{$\mathrm{e}^+$}}             %e+%
+
+\newcommand{\Hpm}{\mbox{$\mathrm{H}^{\pm}$}}         %H+-%
+\newcommand{\PHz}{\mbox{$\mathrm{H}^0$}}             %H0%
+\newcommand{\Phz}{\mbox{$\mathrm{h}^0$}}             %h0%
+
+\newcommand{\Pgne}{\mbox{$\nu_e$}}                   %e-neutrino%
+\newcommand{\Pagne}{\mbox{$\overline{\nu}_e$}}       %e-anti neutrino%
+\newcommand{\Pgngt}{\mbox{$\nu_\tau$}}               %tau-neutrino%
+\newcommand{\Pagngt}{\mbox{$\overline{\nu}_\tau$}}   %tau-anti neutrino%
+
+\newcommand{\ptele}{\mbox{${p^e_T}$}}                %Pt electron%
+
+\begin{titlepage}
+  \begin{tabbing}
+    \hspace*{9cm} \= \\
+    HELSINKI UNIVERSITY OF TECHNOLOGY \> SPECIAL ASSIGNMENT \\
+    Department of Engineering Physics \> Tfy-44.198 Materials Physics \\ 
+    \> \today \\
+  \end{tabbing}
+  \vspace{4cm}
+  \begin{center}
+    {\large {\bf Electron Triggers on $\mathrm{h, H, A} \rightarrow  \tau \tau \rightarrow \mathrm{eX}$ Channels}}
+    \vspace{10cm} \\
+    Leo Lahti\linebreak
+    49791N
+    \vspace{2.5cm}
+  \end{center}
+\end{titlepage}
+
+\tableofcontents 
+\pagebreak
+\pagebreak
+
+\section{Introduction}
+The existence of Higgs boson is one of the most important predictions of the Standard Model. It has not been verified by experiment. In the future Large Hadron Collider (LHC), due to switch on in 2006, the quest for a Higgs particle is a major goal. 
+
+Detecting efficiently the properties of the particles that will be produced in the collisions demands a sophisticated triggering system.
+Designing and implementing software for the experiments is under work. The software is subject to testing with a generated data which is similar to the data that is expected to be collected by detectors.
+
+Some of the $p$-$p$ collisions produced by LHC will lead to the particles and decay schemes considered in this study. One of the possible decay channels of the Higgs boson is $\mathrm{H} \rightarrow \tau \tau$, where at least one of the $\tau$-leptons decay into electron (positron) due to the weak interaction. The aim of this study is to verify that the electrons (positrons) from this decay will pass the electron trigger in most cases, so that the amount of missed electrons is negligible when compared with the primary vertex electrons.
+
+The parity violation due to the nature of the weak interaction affects the $\tau$ decay distribution. It will be verified that these spin correlations do not play significant role in the $\mathrm{h, H, A} \rightarrow \tau \tau \rightarrow \mathrm{eX}$ decays in the energy levels of the CMS experiment. Also the distance travelled by $\tau$ before the decay may have a significant effect on the electron triggering. 
+
+This study is a part of a large CMS project. The CMS detector will be constructed to detect a number of various particles from tiny neutrinos to massive hadrons in the highest possible accuracy to reconstruct the versatile physical phenomena behind the avalanche of particles and the second or third generation decay products that are to be seen in the detectors. 
+Combined results from the detected channels will give a more accurate view on the physical phenomena and will meet the challenge to distinct the new signals from the background. 
+
+This work is organised as follows: The theoretical background for Higgs particles and polarisation phenomena is described in section 2. Technical framework is introduced in section 3. Section 4 gives the results and section 5 finally summarises this work.  
+ 
+\pagebreak
+
+\section{Theoretical background}
+\subsection{Higgs boson}
+The Standard Model (SM) \cite{SM} predicts that particles acquire their masses through an interaction with the Higgs field \cite{HHunter, HMechanism}. Higgs boson is the particle transmitting this interaction. 
+
+A problem in designing suitable experiments for Higgs searches is, that their masses are not predicted by the theory. However, the couplings to other particles are, and they are essentially proportional to the mass of the particle to which it couples \cite{MartinShaw}.
+
+There are a number of theoretical reasons to suppose that the SM itself is, in fact, merely part of a much larger structure \cite{HHunter}. Various candidates for the desired extension of the SM are suggested, usually predicting existence of several Higgs particles.
+
+In the Minimal Supersymmetric Standard Model (MSSM) \cite{MSSM}, there are five physical Higgs particles: a charged Higgs pair ($\Hpm$), two electrically neutral CP-even ($\mathrm{h}$, $\mathrm{H}$ with $m_{h}$<$m_{H}$) particles and one neutral CP-odd ($A$) particle \cite{Kane}. In this study we will consider the three neutral Higgs particles, $\mathrm{h, H}$ and $\mathrm{A}$ predicted by the MSSM. 
+
+There are five free parameters in the MSSM, of which the $m_A$ and $tan\beta$ define the Higgs sector of the theory. The remaining three will set minimal corrections on the predictions. The parameter point $m_A$=200 GeV/c$^2$, $tan\beta$=20 is chosen for this study.
+
+Within the MSSM, the mass of the lightest Higgs particle, $\mathrm{h}$, should have a mass smaller than $m_{h}\leq$130 GeV/c$^2$ \cite{hUppLimit}. A lower limit for the masses are set to $m_{h}$>91.0 and $m_{A}$>91.9 GeV/c$^2$ by recent experiments \cite{HLowLimit}. 
+
+Many physics channels are envisaged to cover the entire range of possible parameter space from the present lower mass limits to the strongly expected upper limit of approximately 1 TeV/c$^2$ for at least one of the Higgs particles predicted by different approaches \cite{HHunter}. The LHC will cover this energy range, so a Higgs particle is certainly seen in the future experiments provided that it exists.
+
+Finally, Higgs mechanism is not the only possibility for explaining the masses of fundamental fermions \cite{HHunter, L1Trigger}. 
+
+An excellent review on the Higgs particles is given in \emph{Higgs Hunter's Guide} \cite{HHunter}.
+
+\subsection{$\mathrm{h, H, A} \rightarrow \tau \tau$ decay channel}
+Higgs boson is extremely instable and can only be detected from its decay products. Here we study the $\mathrm{h, H, A} \rightarrow \tau \tau \rightarrow \mathrm{eX}$ decay channels, which are to be studied in the CMS detector \cite{TechPropCMS, CMSNote98:019andCR00009}. 
+
+In nature, 17.83$\%$ of $\tau$ leptons will decay into electrons \cite{vakiot}. 
+
+The $\tau$ decay channel is of importance in the MSSM. In the SM, the signal from the $\mathrm{H_{SM}} \rightarrow \tau \tau$ decay is not distinguishable from the background since a smaller branching ratio for this channel.   
+
+\subsection{Polarisation effects in $\tau$ decay}
+Parity conservation is violated by the weak interaction and this has been seen experimentally long time ago, for the first time in the classical $\beta$-decay experiment by Wu et al. \cite{betadecPNC}. 
+
+The $\tau \rightarrow \mathrm{e} \overline{\nu} \nu$ decay is a three-body decay \footnote[1]{Both electrons and positrons from the $\tau$ decay will be considered as an $e$ or \emph{electron} further in this text unless the charge is specified.}. Without any spin correlations the electron from this decay will scatter into a random direction from its parent $\tau$. The corresponding angular and momentum distributions are flat. 
+
+Parity violation will cause spin correlations to the angular and momentum distributions of electrons from the decay of $\tau$ with a specified polarisation \cite{TauGrotzPP}. In particular, the angular and momentum distributions of a right handed $\tau_R$ can be significantly different from those of a left handed $\tau_L$ \cite{taupolarisation}. This may have a significant effect on the triggering level. 
+
+In the case of $\tau \rightarrow \mathrm{e} \overline{\nu} \nu$ decay, $\mathrm{e^-}$ tends to scatter to the direction which is opposite to the spin of its parent $\tau$, while $\mathrm{e^+}$ prefers the spin direction. The angular correlations are small in the laboratory frame if the $\tau$ has a large energy. In such cases the $\tau$ decay products will point in the same direction as the $\tau$ before the decay.
+ 
+A particle with a large energy tends to polarise parallel to its flying direction. So the electrons from the $\tau$ decay will prefer either the $\tau$ flying direction or the opposite direction, depending on the $\tau$ polarisation.
+
+Favoured and forbidden polarisation modes for the $\tau$ decay are shown in the Figure~\ref{fig:polarisaatio}. The helicities of an $\mathrm{e^-}$ and its parent $\tau^-$ will always point to the same direction due to the features of neutrino polarisation. Neutrino is always left-handed and anti-neutrino right-handed \cite{Tsai}.
+
+\begin{figure}
+  \centering
+  
+  \begin{picture}(400,90)(0,0)
+    \put(50,45){\circle{20}}
+    \put(50,40){\vector(0,1){10}}
+    \put(50,55){\vector(0,1){30}}
+    \put(45,35){\vector(0,-1){15}}
+    \put(55,35){\vector(0,-1){15}}
+    
+    \put(150,45){\circle{20}}
+    \put(150,50){\vector(0,-1){10}}
+    \put(150,55){\vector(0,1){30}}
+    \put(145,35){\vector(0,-1){15}}
+    \put(155,35){\vector(0,-1){15}}
+    
+    \put(250,45){\circle{20}}
+    \put(250,50){\vector(0,-1){10}}
+    \put(250,55){\vector(0,1){30}}
+    \put(245,35){\vector(0,-1){15}}
+    \put(255,35){\vector(0,-1){15}}
+    
+    \put(350,45){\circle{20}}
+    \put(350,40){\vector(0,1){10}}
+    \put(350,55){\vector(0,1){30}}
+    \put(345,35){\vector(0,-1){15}}
+    \put(355,35){\vector(0,-1){15}}
+    
+    \put(55,75){$e^+$}
+    \put(65,45){$\tau^+$}
+    \put(30,25){$\Pagngt$}
+    \put(60,25){$\Pgne$}
+    \put(32,5){favoured}
+    
+    \put(155,75){$e^+$}
+    \put(165,45){$\tau^+$}
+    \put(130,25){$\Pagngt$}
+    \put(160,25){$\Pgne$}
+    \put(129,5){forbidden}
+    
+    \put(255,75){$e^-$}
+    \put(265,45){$\tau^-$}
+    \put(230,25){$\Pgngt$}
+    \put(260,25){$\Pagne$}
+    \put(232,5){favoured}
+    
+    \put(355,75){$e^-$}
+    \put(365,45){$\tau^-$}
+    \put(330,25){$\Pgngt$}
+    \put(360,25){$\Pagne$}
+    \put(329,5){forbidden}
+
+  \end{picture}
+  
+  \mycaption{Favoured and forbidden polarisation modes for the $\tau \rightarrow \mathrm{e} \overline{\nu} \nu$ decay. The picture shows the situation in which the both neutrinos scatter to the direction which is opposite to that of the electron. In a three-body decay other combinations for the particle directions are also possible. The restriction due to the nature of the weak interaction is set for electrons and parent $\tau$'s to have helicities pointing in the same direction ($e^+$) or the opposite direction ($e^-$), depending on the sign. For the particles and anti-particles, the parity violation effects are opposite.} 
+  \label{fig:polarisaatio}
+  
+\end{figure}
+
+The both $\tau$-leptons from a single Higgs decay will have the same polarisation, as shown in picture ~\ref{fig:katisyys}. This is due to the spin conservation.
+
+\begin{figure}
+  \centering
+  \begin{picture}(320,35)(0,-5)
+    
+    \put(60,0){\circle{20}}
+    \put(65,0){\vector(-1,0){10}}
+    \put(50,0){\vector(-1,0){50}}
+    
+    \put(90,0){\circle{20}}
+    \put(85,0){\vector(1,0){10}}
+    \put(100,0){\vector(1,0){50}}
+    
+    \put(230,0){\circle{20}}
+    \put(225,0){\vector(1,0){10}}
+    \put(220,0){\vector(-1,0){50}}
+    
+    \put(260,0){\circle{20}}
+    \put(265,0){\vector(-1,0){10}}
+    \put(270,0){\vector(1,0){50}}
+    
+    \put(10,7){$\tau^+_R$}
+    \put(130,7){$\tau^-_R$}
+    \put(180,7){$\tau^+_L$}
+    \put(300,7){$\tau^-_L$}
+    
+  \end{picture}
+  \mycaption{The both $\tau$'s from the Higgs decay will have the same handedness to quarantee the spin conservation.}
+  \label{fig:katisyys}
+
+\end{figure}
+
+The polarisation phenomena illustrated in the Figures~\ref{fig:polarisaatio} and~\ref{fig:katisyys} explains why the $e_R^+$ and $e_L^-$ from the $\tau$ decay tend to have larger energies than the $e_R^-$ and $e_L^+$.
+
+\section{Technical Overview}
+The Large Hadron Collider (LHC) is a particle accelerator due to switch on in 2006. It is located at CERN, Geneva and will collide proton beams at a centre of mass energy of 14 $\mathrm{TeV}$, hence achieving greater energies than any of the former accelerators. 
+
+For the nominal LHC design luminosity of $10^{34}$ cm$^{-2}$s$^{-1}$, an average of 17 events occur at the beam crossing frequency of 25 ns. This input rate is equivalent to $10^9$ interactions every second.
+
+\subsection{CMS Detector}
+The Compact Muon Solenoid (CMS) \cite{TechPropCMS} is a multi-purpose detector for identifying and precisely measuring the energies and positions of the particles produced in LHC. It is built to find experimental evidence for the theoretical predictions of the Higgs boson and supersymmetry as well as to search for possible signs of new physical phenomena.
+
+\subsubsection{Level 1 trigger}
+The trigger chain of the CMS experiment has to reduce the initial collision rate of 40 MHz down to 100 Hz which is the rate that can be recorded. The first reduction is made by the Level 1 Trigger which is the only hardware triggering system in the CMS detector. Subsequent reduction steps are done by the high level trigger (HLT) algorithms.
+
+L1 trigger will detect the avalanche of different particles that are produced in the collisions and reduce the input rate to 25 kHz. Thus its performance has a crucial effect on which kind of physical phenomena can be seen in the CMS. Level 1 decision is based on coarse measurements which do not use the full granularity. After L1 triggering, more information is carried in for the higher level triggers.
+
+L1 trigger system will have a sufficiently high and understood efficiency at a sufficiently low threshold to ensure a high yield of events in the final CMS physics plots to provide enough statistics and a high enough efficiency for the events so that the correction for this efficiency does not add appreciably to the systematic error of the measurement \cite{TechPropCMS}.
+
+It will be capable of selecting leptons over the pseudo-rapidity range |$\eta$|<2.5, with an efficiency which is very high, above a selected threshold in transverse momentum $p_T$, the momentum component in the xy-plane. For the dilepton trigger, it is required that the trigger is fully efficient (>$95\%$) in the pseudo-rapidity range |$\eta$|<2.5 with thresholds of $\ptele$>20 $GeV/c$ and $\ptele$>15 $GeV/c$ for the first and second leptons respectively \cite{L1Trigger}.
+
+Discussion on the L1 trigger and its performance in more detail is given in \cite{L1Trigger}.
+
+\subsubsection{Electro-magnetic calorimeter}
+Electro-magnetic calorimeter is constructed of crystal towers which start at radius of $\approx \mbox{1.3 m}$ from the beam line. CMS has chosen lead tungstate (PbWO$_{4}$) crystals which have high density, a small Moliere radius and a short radiation length allowing for a very compact calorimeter system. A scintillating crystal calorimeter equipped with avalanche photodiodes or vacuum phototriodes and associated electronics offers excellent performance for energy resolution since almost all of the energy of electrons and photons is deposited within the crystal volume. Energy is collected in a suitable matrix of crystals, centred on the most energetic one.
+
+The electron/photon trigger is based on the recognition of a large and isolated energy deposit in the electromagnetic calorimeter. The granularity of the lead tungstate crystals used in electron/photon trigger is $\triangle\eta \times \triangle\phi = $ 0.0175 $\times$ 0.0175. The energy distribution analysis for the cluster will set the actual position precision significantly higher.
+
+Isolation requires that the additional electromagnetic energy deposited in the surrounding trigger towers be smaller than some $E_t$ threshold. The non-isolated electron/photon identification is based on the recognition of a large energy deposit in one or two adjacent ECAL trigger cells and the lateral and longitudinal shower profiles.  
+
+The electrons can be measured with a smaller efficiency than the photons. This is explained by hard Brehmsstrahlung in the tracker material. There can be a sizeable separation of the electron and the Brehmsstrahlung photon at the calorimeter front face due to the bending of the electron in the magnetic field. \cite{TechPropCMS, ECALDesignReport}.
+
+\subsubsection{Tracker}
+The silicon pixel detector consisting of three barrel layers (in 4, 7 and 11 \mbox{cm} radius from the beam line) and two endcap layers is placed close to the beam pipe. It will assist in pattern recognition by providing two or three true space points per track over the full rapidity range of the main tracker and allowing 3-dimensional vertex reconstruction by providing a much improved z-resolution in the barrel part.
+
+Silicon strip detector is placed between the pixel detector and electromagnetic calorimeter. It will assist in the reconstruction of the entire electron track after the particle identification. The main amount of material causing Brehmsstrahlung and deviation from the expected electron track, and hence the uncertainty on the following estimates, lays in this region \cite{TechPropCMS, L1Trigger}.
+
+\subsubsection{Electron triggering process}
+After the L1 trigger decision an improved energy measurement and the pixel match are done on the first higher level trigger step.
+ 
+Electron/photon trigger starts by matching an ECAL cluster with corresponding hits in the pixel layers. Two compatible hits are required before the process will go further. Then the remaining hits in the silicon strips are matched and the entire track is reconstructed. The total number for a sufficient tracking will be 10 to 12 hits \cite{TechPropCMS, L1Trigger}. 
+
+The method proceeds as follows \cite{matching}:
+
+\begin{itemize}
+  
+  \begin{enumerate}
+
+  \item The electromagnetic cluster gives the energy and the position of the electron candidate. The expected hit positions on the pixel layers are estimated by using the cluster and vertex location information, and taking into account the electron bending in the magnetic field.
+    
+  \item If no hit is found in the search area of the innermost pixel layer, the search is repeated in the next layer. After finding a compatible hit, a better estimate of the vertex position is obtained by interpolating the line from the cluster through the corresponding hit to the beam line on z-axis.
+    
+  \item The track is then propagated from the newly estimated vertex to the next pixel layer through the compatible hit in the first layer. If another compatible hit is found, the cluster is identified as an electron.
+  \item Then the entire track is reconstructed from the remaining hits in the silicon strip detector.
+    
+  \end{enumerate}
+\end{itemize}
+  
+The search is done twice, once for each charge. The $e$ bending in the magnetic field specifies its charge.
+
+The triggering process is schematically shown in Figure~\ref{fig:trigProcess}. Figure~\ref{fig:trigger} illuminates the procedure.
+
+\begin{figure}
+  \centering
+  \begin{picture}(320,60)(30,-40)
+
+    \put(40,15){\oval(70,30)}
+    \put(12,17){Cluster at}
+    \put(15,5){ECAL}
+    
+    \put(75,15){\vector(1,0){30}}
+    
+    \put(130,15){\oval(50,30)}
+    \put(113,17){Pixel}
+    \put(113,5){match}
+    
+    \put(155,15){\vector(1,0){55}}
+    \put(225,15){\oval(25,25)}
+    \put(165,20){$\geq$2 hits}
+    \put(218,10){$e^{\pm}$}
+    
+    \put(150,5){\vector(1,-1){20}}
+    \put(188,-22){\oval(40,25)}
+    \put(176,-25){$\gamma/\pi^0$}
+    
+    \put(238,15){\vector(1,0){33}}
+    \put(303,15){\oval(60,20)}
+    \put(280,11){Tracking}
+    
+  \end{picture}
+  \mycaption{Matching electromagnetic cluster to pixel hits and reconstructing the electron track.}
+  \label{fig:trigProcess}
+
+\end{figure}
+
+\begin{figure}
+  
+  \begin{picture}(320,130)(-50,-70)
+    
+    \put(0,0){\circle*{5}}
+    \put(0,0){\circle{16}}
+    \put(0,0){\circle{28}}
+    \put(0,0){\circle{44}}
+    \put(-20,40){Silicon}
+    \put(-20,28){pixels}
+    
+    \put(115,0){\vector(1,0){20}}
+    
+    \qbezier[80](0,0)(108,30)(216,0)
+    \qbezier[80](0,0)(108,-30)(216,0)
+    \put(70,35){Silicon strips}
+    \put(80,-35){\bf $\vec{B}$}
+    
+    \put(8,2){\circle*{3}}
+    \put(13,3){\circle*{3}}
+    \put(19,5){\circle*{3}}
+    \put(40,9){\circle*{2}}
+    \put(57,12){\circle*{2}}
+    \put(76,14){\circle*{2}}
+    \put(93,15){\circle*{2}}
+    \put(110,15){\circle*{2}}
+    \put(130,15){\circle*{2}}
+    \put(150,13){\circle*{2}}
+    \put(180,9){\circle*{2}}
+    
+    \put(80,20){$e^-$}
+    \put(97,-2){($\gamma$)}
+    \put(120,-27){($e^+$)}
+    
+    \qbezier(200,50)(230,0)(200,-50)
+    
+    \put(216,-2){\framebox(60,4)}
+    \put(216,3){\framebox(10,4)}
+    \put(216,-7){\framebox(25,4)}
+    \put(235,35){ECAL}
+    \put(225,-17){Cluster}
+    
+  \end{picture}
+  
+  \mycaption{The electron/photon trigger: dots mark found hits in the tracker. In this case the particle is identified as an $e^-$. Virtual paths for photon and positron are shown by ($\gamma$) and ($e^+$). A photon would proceed on a straight line without leaving a track while a positron would bend in an opposite manner (the picture is not in scale).}
+  
+  \label{fig:trigger}
+  
+\end{figure}
+
+\begin{figure}
+  \begin{picture}(300,80)(-30,-70)
+    \put(20,0){\circle*{5}}
+    \put(20,0){\circle{16}}
+    \put(20,0){\circle{28}}
+    \put(20,0){\circle{44}}
+
+    \qbezier[50](20,0)(60,30)(120,20)
+
+    \put(-35,-40){(a) Electrons from interaction vertex}
+
+    \put(250,0){\circle*{5}}
+    \put(250,0){\circle{16}}
+    \put(250,0){\circle{28}}
+    \put(250,0){\circle{44}}
+
+    \qbezier[20](250,0)(290,30)(350,20)
+    \qbezier[50](260,5)(300,20)(350,0)
+    
+    \put(190,-40){(b) Electrons from $\tau$ decay}
+    \put(210,-52){The dots mark the}
+    \put(211,-64){extrapolated track of $\tau$}
+
+  \end{picture}
+  \mycaption{Electrons from the primary vertex and from the $\tau$ decay. Electrons can scatter into a significantly different direction from the parent $\tau$ in some cases.}
+  \label{fig:electrons}
+\end{figure}
+      
+\begin{figure}[htbp]
+  \begin{center}
+    \leavevmode
+    \subfigure{
+      \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/dxytau1all.eps,
+        width=1.0\textwidth, height=0.5\textwidth}}
+  
+    \mycaption{The $\tau^+$-$e^+$ vertex distance from the beam line (z-axis) in the xy-plane. Continuous line stands for $\mathrm{h}$ parent, dark dots for $\mathrm{H}$ and lighter dots for $\mathrm{A}$.}
+
+\label{fig:dxytau}
+
+\end{center}
+\end{figure}
+
+If the electron scatters into a significantly other direction from the trace of its parent $\tau$, the position precisions and estimates considered above will fail. This leads to hit searches in the wrong areas on the layers and the two required compatible hits will not be found. In such case the electron remains undetected. The differet curves for electrons from nominal vertex and for electrons from $\tau$ decay is illustrated in Figure~\ref{fig:electrons}.
+
+The spin correlations in the $\tau$ decay might affect such scattering. However, only electron candidates with a transverse momentum of $\ptele$>20 GeV are chosen for further analysis. It is expected, that in these relativistic energy levels the electrons can not drift out of the trigger. 
+
+There are also other reasons for the matching to be unsuccesful. The cluster widths will vary and it is difficult to accurately localise the actual $e/\gamma$. The Brehmsstrahlung photons from the electrons will broaden the clusters. Sometimes a Brehmsstrahlung photon from the electron is energetic enough to cause a larger energy deposit in an adjacent crystal and will become misidentified as the original particle. 
+
+It is assumed that the electrons have their origin on z-axis. This is not true since the parent $\tau$ will travel a few millimeters before its decay (see Figure~\ref{fig:dxytau}). In fact, a significant amount of $\tau$'s will pass the first (r = 4 cm) pixel layer, in some cases even the second or third (7 and 11 cm) layers. However, the $\tau$ will leave a track behind as a charged particle and its hits will be usable for the electron triggering in the real experiments. Such crossings of the pixel layers by $\tau$'s are not produced in the simulated data events. The $\tau$'s from the more massive $\mathrm{H}$ and $\mathrm{A}$ parents will travel a longer distance before the decay than those from $\mathrm{h}$. 
+
+The above reasons are leading to errors in the subsequent localisation estimates and to possible misidentifications of the particles. In all cases these effects will add uncertainty on the experimental data.
+
+\subsection{Software}
+\subsubsection{Pythia}
+Pythia provides a generation of high energy physics events. It contains theory and models for a number of physics aspects, including hard and soft interactions, parton distributions, initial- and final-state parton showers, multiple interactions, fragmentation and decay. The generation method is mainly based on original research and experimental data, still borrowing many formulae and other knowledge from the literature \cite{Pythia}. 
+
+The desired processes are defined in the beginning of the Pythia code. All events will be generated according to this specification. 
+
+In this study Pythia is used to generate $\mathrm{h, H, A} \rightarrow \tau \tau \rightarrow \mathrm{eX}$ events. It will not take the spin correlations that occur in the $\tau$ decay into account. In this study, the necessary correlations are included by interfacing Pythia to Tauola.
+
+\subsubsection{Tauola}
+Tauola is a dedicated $\tau$ decay package. Here it is used to add the spin correlations in $\tau \rightarrow \mathrm{eX}$ decay to Pythia. 
+
+Information of Tauola in more detail is given in Computer Physics Communication papers \cite{CPC}.
+
+\subsubsection{ORCA}
+ORCA is a framework for reconstruction and is intended to be used for final detector optimisations, trigger studies or global detector performance evaluation. It is an object oriented system for which C++ has been chosen as programming language. \cite{ORCA}. The acronym ORCA stands for Object Oriented Reconstruction for CMS Analysis.
+
+This reconstruction framework was developed to prototype reconstruction methods, initially for testbeam applications. It is still a prototype, but one that is already usable by CMS physicists. 
+
+Here the ORCA version 4.6.0 is used to compare the amount of detected electrons from the $\mathrm{H} \rightarrow \tau \tau \rightarrow \mathrm{eX}$ decay to the detected electrons from a primary vertex in the case of certain energy cuts. 
+
+\section{Results}
+The aim of this study is to verify that the electrons from $\tau$ decays will be matched succesfully with the corresponding pixel hits in most cases. 
+
+It is also verified that the spin correlations in the $\mathrm{h, H, A} \rightarrow \tau \tau \rightarrow \mathrm{eX}$ decay do not have a significant effect on the angular distribution of the electrons in the energy levels of the CMS experiment. 
+
+The event generation is made for 30 000 events in the Pythia-Tauola studies, and for 3000 events in the ORCA results. 
+
+\subsection{Studies at the generator level}
+We mainly concentrate on the $h$ decays, but compare the results with the more massive $H$ and $A$. Their decay distributions will be different from the $h$ decay distributions since the $\tau$ will acquire more energy due to the larger mass of its parent particle. This will naturally have an effect on the triggering level. 
+
+\subsubsection{Energy and pseudorapidity cuts}
+The energy restriction causes asymmetry in the $\tau$ decay distribution. This is due to the fact that the electrons scattering to the same direction with $\tau$ tend to have more energy in the laboratory frame than the electrons scattering to the opposite direction. In Figure~\ref{fig:cosrestSNS1} the asymmetry in the angular distribution is purely caused by the energy cut. \footnote[2]{Here $\alpha^{\pm}$ is used as the common symbol for the angle between the $\tau^{\pm}$ and its $e^{\pm}$, while $\alpha_R^{\pm}$ is the corresponding angle in the rest coordinates of $\tau^{\pm}$.}. 
+
+However, the asymmetry will occur without any information of the $\tau$ polarisation and disappears when the energy restriction is cancelled. This verifies that it does not arise from the nature of weak interaction (see Figure~\ref{fig:cosrestNS1}). 
+
+
+\begin{figure}[htbp]
+  \begin{center}
+    \leavevmode
+    \subfigure{
+      \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/cosrestsns1.eps,
+        width=1.0\textwidth, height=0.5\textwidth}}
+    
+\mycaption{Parent $\mathrm{h}$: Cos of the angle between $\tau$ and its electron in the rest frame of $\tau$ with $\ptele$>20 GeV/c. Continuous line stands for the $\tau$ decay without spin correlations. Dashed line stands for the spin correlations version without specifed polarisation. The asymmetry in the angular distribution is purely caused by the energy cut.}
+
+\label{fig:cosrestSNS1}
+
+\end{center}
+\end{figure}
+
+\begin{figure}[htbp]
+  \begin{center}
+    \leavevmode
+    \subfigure{
+      \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/cosrestns1.eps,
+        width=1.0\textwidth, height=0.5\textwidth}}
+  
+  \mycaption{Parent $\mathrm{h}$: Cos of the angle between $\tau$ and its electron in the rest frame of $\tau$ with and without energy restrictions. Dashed line stands for the transverse momentum cut $\ptele$>20 $GeV/c$. Without energy cuts the angular distribution is flat (continuous line). No spin correlations are included, and the asymmetry in the angular distribution is purely caused by the energy cut.}
+  
+  \label{fig:cosrestNS1}
+  
+\end{center}
+\end{figure}
+
+\begin{figure}[htbp]
+  \begin{center}
+    \leavevmode
+    \subfigure{
+      \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/etaeivaikuta1.eps,
+        width=1.0\textwidth, height=0.5\textwidth}}
+  
+  \mycaption{Parent $\mathrm{h}$: Cos of the angle between $\tau$ and its electron in the rest frame of $\tau$ with (dashed line) and without (continuous line) the pseudorapidity cut $|\eta|$<2.5 for the electron clusters. The both plots are flat. No spin correlations or energy cuts are included.}
+  
+  \label{fig:etaeivaikuta1}
+  
+\end{center}
+\end{figure}
+
+The pseudorapidity cut of |$\eta$|<2.5 for the cluster location is included in all plots in this study unless specified otherwise. This does not seem to have an effect on the $\tau$ decay distributions as can be seen from the Figure~\ref{fig:etaeivaikuta1}.
+
+\subsubsection{Spin correlations effects}
+The $\tau$ decay distributions depend on the $\tau$ polarisation as explained in the Theory section. In the nature, the choise of the $\tau$ polarisation in the $\mathrm{h, H, A} \rightarrow \tau \tau$ decay is random and the opposite polarisation effects will cancel each others. If we consider only the decays of $\tau$'s with a specified polarisation, an asymmetry in the decay distributions will be seen.
+
+If the spin correlations do not affect the $\tau$ decay distributions significantly, the results from the data which is generated including the spin correlations should match well with the results from the data generated without any spin correlations effects, unless the $\tau$ polarisation is specified. 
+
+No significant spin correlations for the angular distribution can be seen in Figure~\ref{fig:kappaNR}.
+
+\begin{figure}[htbp]
+  \begin{center}
+    \leavevmode
+    
+    \subfigure[$\alpha^+$]{
+      \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/tkappasns1nrtail.eps,
+        width=0.4\textwidth, height=0.4\textwidth}}    
+    \subfigure[$\alpha^-$]{
+      \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/tkappasns2nrtail.eps,
+        width=0.4\textwidth, height=0.4\textwidth}} \\
+    
+    \subfigure[$\alpha^+$]{
+      \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/tkappasns1nr.eps,
+        width=0.4\textwidth, height=0.4\textwidth}}
+    \subfigure[$\alpha^-$]{
+      \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/tkappasns2nr.eps,
+        width=0.4\textwidth, height=0.4\textwidth}}
+    
+    \mycaption{Parent $\mathrm{h}$: The angle between $\tau$ and its electron with and without spin correlations match well together in the scale of the figure. No energy cuts are included. Continuous line stands for no spin correlations data. Dashed line stands for spin correlations plots. The first two pictures, (a) and (b), cover the entire angular region of detected particles. Pictures (c) and (d) have a tighter scale. The $\tau$ polarisation is not specified.}
+    
+    \label{fig:kappaNR}
+    
+  \end{center}
+\end{figure}
+
+We are mainly interested in what happens when the energy cut $\ptele$>20 $GeV/c$ is present since these events are chosen for a further analysis. Figure~\ref{fig:kappaRRtail} shows this case. Spin correlations do not seem to play an important role.
+
+\begin{figure}[htbp]
+  \begin{center}
+    \leavevmode
+    \subfigure[$\alpha^+$, parent $\mathrm{h}$]{
+      \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/tkappasns1tail.eps,
+        width=0.4\textwidth, height=0.4\textwidth}}
+    \subfigure[$\alpha^-$, parent $\mathrm{h}$]{
+      \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/tkappasns2tail.eps,
+        width=0.4\textwidth, height=0.4\textwidth}} \\
+
+    \subfigure[$\alpha^+$, parent $\mathrm{H}$]{
+      \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/tkappasns1tailh.eps,
+        width=0.4\textwidth, height=0.4\textwidth}}
+    \subfigure[$\alpha^-$, parent $\mathrm{H}$]{
+      \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/tkappasns2tailh.eps,
+        width=0.4\textwidth, height=0.4\textwidth}} \\
+  
+    \subfigure[$\alpha^+$, parent $\mathrm{A}$]{
+      \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/tkappasns1taila.eps,
+        width=0.4\textwidth, height=0.4\textwidth}}
+    \subfigure[$\alpha^-$, parent $\mathrm{A}$]{
+      \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/tkappasns2taila.eps,
+        width=0.4\textwidth, height=0.4\textwidth}}
+
+  \mycaption{The angle between $\tau$ and its electron with (dashed line) and without (continuous line) spin correlations fit together well. The energy cut of $\ptele$>20 GeV/c is included. The $\tau$ polarisation is not specified.}
+  
+  \label{fig:kappaRRtail}
+  
+\end{center}
+\end{figure}
+
+The $\ptele$>20 $GeV/c$ cut seems to have a greater effect on the asymmetric decay distribution than the spin correlations. The cut will always turn the angular distribution seem to prefer the direction of the parent $\tau$, independent of its polarisation. This is not the case for $\tau^-$ and $\tau_R^+$ parents, as can be seen in Figures~\ref{fig:cuteffectswithpolh} (a) and (d) in the absence of the energy cut. For the more massive $\mathrm{H}$ and $\mathrm{A}$ parents, the cut effect is not as dominating (see Figures~\ref{fig:cuteffectswithpolH} and~\ref{fig:cuteffectswithpolA}).
+
+Comparing how many procents of the electrons will pass the cut $\ptele$>20 $GeV/c$ will give an idea of the effect of this restriction in the plots. For $e_L^-$ and $e_R^+$ the accessibility rate is higher since in these cases the electrons from the $\tau$ decay tend to scatter into the same direction than the parent $\tau$, as explained above in the Theory section.
+
+For the more massive $\mathrm{H}$ and $\mathrm{A}$ parents, the total accessibility rate is higher, and the difference between the two polarisation modes not so large. 
+
+The rate of electrons whose deviation from the expected impact point in crystals is less than one crystal width will give an idea on the triggering accuracy. For the spin version with no specified polarisation and with the cuts $\ptele$>20 $GeV/c$, |$\eta$|<2.5, the accessibility rate $\frac{n_{\alpha<0.0175}}{n_{all}}$ for the electrons from h, H and A parents is represented in the table:
+
+\begin{centre}
+  \begin{tabular}{|l||l|l|r|}
+    \hline
+    & h & H & A \\ \hline
+    The rate of $e^+$ with \alpha<0.0175 ($\%$) & 80.3 & 85.6 & 85.8 \\ \hline
+    The rate of $e^-$ with \alpha<0.0175 ($\%$) & 79.4 & 85.9 & 86.0 \\ \hline
+  \end{tabular}
+\end{centre}
+\linebreak
+
+The angle $\phi$ is not restricted since it does not affect the transverse momentum cut. This verifies that the most electrons will travel inside a crystal angle and their position precision is comparatively good. Still a noticeable amount of electrons will scatter into a larger angle, adding uncertainty to the position precision and the triggering methods. 
+
+Also the Figures~\ref{fig:kappavsEtau1} and~\ref{fig:kappavspttau1} show that the spin correlations are negligible in the energy scale of the CMS experiment. The transverse energy results do not make a significant difference to the total energy results. The energy cut of $\ptele$>20 $GeV$ is included in the plots. For the more massive $\mathrm{H}$ and $\mathrm{A}$ decays the angles tend to be smaller as can seen from Figure~\ref{fig:kappavspttau1}.
+
+\begin{figure}[htbp]
+  \begin{center}
+    \leavevmode
+
+    \subfigure[no spin correlations]{
+      \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/tkappavsetauns1.eps,
+        width=0.4\textwidth, height=0.4\textwidth}}
+  \subfigure[spin correlations without specified polarisation]{
+    \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/tkappavsetausp1.eps,
+      width=0.4\textwidth, height=0.4\textwidth}}
+  \mycaption{Energy of $\tau^+$ from \mathrm{h} decay versus the angle between $\tau$ and its electron. The results with and without spin correlations do not make a significant difference. The $\tau$ polarisation is not specified.}
+  
+  \label{fig:kappavsEtau1}
+  
+\end{center}
+\end{figure}
+
+\begin{figure}[htbp]
+  \begin{center}
+    \leavevmode
+
+    \subfigure[no spin correlations, parent \mathrm{h}]{
+      \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/tkappavspttauns1.eps,
+        width=0.4\textwidth}}
+    \subfigure[spin correlations without specified polarisation, parent \mathrm{h}]{
+      \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/tkappavspttausp1.eps,
+        width=0.4\textwidth}} \\
+
+    \subfigure[no spin correlations, parent \mathrm{H}]{
+      \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/tkappavspttauns1h.eps,
+        width=0.4\textwidth}}
+    \subfigure[spin correlations without specified polarisation, parent \mathrm{H}]{
+      \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/tkappavspttausp1h.eps,
+        width=0.4\textwidth}} \\
+
+    \subfigure[no spin correlations, parent \mathrm{A}]{
+      \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/tkappavspttauns1a.eps,
+        width=0.4\textwidth}}
+    \subfigure[spin correlations without specified polarisation, parent \mathrm{A}]{
+      \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/tkappavspttausp1a.eps,
+        width=0.4\textwidth}}
+
+  \mycaption{Transverse momentum of $\tau^+$ versus the angle between $\tau$ and its electron. The results with and without spin correlations do not make a significant difference. The $\tau$ polarisation is not specified.}
+  
+  \label{fig:kappavspttau1}
+  
+\end{center}
+\end{figure}
+
+The spin correlations should be visible in a lower energy scale. This has been verified by making the Lorentz-boost backwards and studying the angular distribution of the decay products in the rest coordinates of the $\tau$ in the Methods section. This verifies that the code is working correctly.
+
+For the purely leptonic decay process $\tau^- \rightarrow \Pem \Pagne \Pgngt$ we have the following fractional energy distribution \cite{curve}:
+
+\begin{equation}
+  \frac{1}{\Gamma_e}\frac{d\Gamma_e}{dz} = \frac{1}{3}(1-z)[(5+5z-4z^2)+P_{\tau}(1+z-8z^2)],
+  \label{eq:curve}
+\end{equation}
+
+where $z=\frac{E_e}{E_{\tau}}$ and $P_{\tau}$ is the polarisation.
+
+We can see from the Figure~\ref{fig:curves} that the generated data fits well with the predicted distribution given by the equation~\ref{eq:curve} in a fixed scale. This is an extra check for the correct results. Note that particles and antiparticles have the opposite behaviour.
+
+\begin{figure}[htbp]
+  \begin{center}
+    \leavevmode
+    \subfigure[$\frac{E_{e^+}}{E_{\tau^+}}$, left handed polarisation]{
+      \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/curve1l.eps,
+        width=0.4\textwidth, height=0.4\textwidth}}
+    \subfigure[$\frac{E_{e^-}}{E_{\tau^-}}$, left handed polarisation]{
+      \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/curve2l.eps,
+        width=0.4\textwidth, height=0.4\textwidth}} \\
+
+    \subfigure[$\frac{E_{e^+}}{E_{\tau^+}}$, right handed polarisation]{
+      \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/curve1r.eps, 
+        width = 0.4\textwidth, height=0.4\textwidth}}
+  \subfigure[$\frac{E_{e^-}}{E_{\tau^-}}$, right handed polarisation]{
+      \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/curve2r.eps, 
+        width = 0.4\textwidth, height=0.4\textwidth}}
+  
+\mycaption{Parent $\mathrm{h}$: $\frac{E_{e}}{E_{\tau}}$ from data compared with the curves (dotted lines) given by the equations 1 for the both polarisation modes.}
+
+\label{fig:curves}
+
+\end{center}
+\end{figure}
+
+In the case of $\tau$'s with spin correlations the asymmetry will occur with specified polarisation also in the case that the energy restriction is cancelled. 
+This is visible in the Figures~\ref{fig:cuteffectswithpolh} to~\ref{fig:cuteffectswithpolA}. We can also see, that by changing either the polarisation or charge, the distribution will change to opposite.
+
+\begin{figure}[htbp]
+  \begin{center}
+    \leavevmode
+    \subfigure[$\tau_L^+$, 24.1\% of the electrons pass the cuts.]{
+      \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/cosrestsplpolrrnr1.eps,
+        width=0.4\textwidth, height=0.4\textwidth}} \quad
+    \subfigure[$\tau_L^-$, 35.5\% of the electrons pass the cuts.]{
+      \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/cosrestsplpolrrnr2.eps, 
+        width = 0.4\textwidth, height=0.4\textwidth}} \\
+  
+  \subfigure[$\tau_R^+$, 35.3\% of the electrons pass the cuts.]{
+    \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/cosrestsprpolrrnr1.eps,
+      width=0.4\textwidth, height=0.4\textwidth}}\qquad
+  \subfigure[$\tau_R^-$, 24.6\% of the electrons pass the cuts.]{
+    \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/cosrestsprpolrrnr2.eps, 
+      width = 0.4\textwidth, height=0.4\textwidth}}
+
+\mycaption{Parent \mathrm{h}: Cos of the angle between $\tau$ and its electron in the rest frame of $\tau$ with different polarisation modes. Continuous line represents the data without any cuts. Dashed lines stand for transverse momentum and pseudorapidity cuts $\ptele$>20 GeV/c, $|\eta|$<2.5.}
+
+\label{fig:cuteffectswithpolh}
+
+\end{center}
+\end{figure}
+
+
+\begin{figure}[htbp]
+  \begin{center}
+    \leavevmode
+    \subfigure[$\tau_L^+$, 43.7\% of the electrons pass the cuts.]{
+      \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/cosrestsplpolrrnr1h.eps,
+        width=0.4\textwidth, height=0.4\textwidth}} \quad
+    \subfigure[$\tau_L^-$, 54.5\% of the electrons pass the cuts.]{
+      \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/cosrestsplpolrrnr2h.eps, 
+        width = 0.4\textwidth, height=0.4\textwidth}} \\
+  
+  \subfigure[$\tau_R^+$, 55.3\% of the electrons pass the cuts.]{
+    \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/cosrestsprpolrrnr1h.eps,
+      width=0.4\textwidth, height=0.4\textwidth}}\qquad
+  \subfigure[$\tau_R^-$, 43.3\% of the electrons pass the cuts.]{
+    \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/cosrestsprpolrrnr2h.eps, 
+      width = 0.4\textwidth, height=0.4\textwidth}}
+
+\mycaption{Parent $\mathrm{H}$: Cos of the angle between $\tau$ and its electron in the rest frame of $\tau$ with different polarisation modes. Continuous line represents the data without any cuts. Dashed lines stand for transverse momentum and pseudorapidity cuts $\ptele$>20 GeV/c, $|\eta|$<2.5.}
+
+\label{fig:cuteffectswithpolH}
+
+\end{center}
+\end{figure}
+
+\begin{figure}[htbp]
+  \begin{center}
+    \leavevmode
+    \subfigure[$\tau_L^+$, 49.6\% of the electrons pass the cuts.]{
+      \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/cosrestsplpolrrnr1a.eps,
+        width=0.4\textwidth, height=0.4\textwidth}} \quad
+    \subfigure[$\tau_L^-$, 53.9\% of the electrons pass the cuts.]{
+      \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/cosrestsplpolrrnr2a.eps, 
+        width = 0.4\textwidth, height=0.4\textwidth}} \\
+  
+  \subfigure[$\tau_R^+$, 54.7\% of the electrons pass the cuts.]{
+    \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/cosrestsprpolrrnr1a.eps,
+      width=0.4\textwidth, height=0.4\textwidth}}\qquad
+  \subfigure[$\tau_R^-$, 43.5\% of the electrons pass the cuts.]{
+    \epsfig{file=/afs/cern.ch/user/l/leolahti/SimTauTau/pictures/cosrestsprpolrrnr2a.eps, 
+      width = 0.4\textwidth, height=0.4\textwidth}}
+
+\mycaption{Parent $\mathrm{A}$: Cos of the angle between $\tau$ and its electron in the rest frame of $\tau$ with different polarisation modes. Continuous line represents the data without any cuts. Dashed lines stand for transverse momentum and pseudorapidity cuts $\ptele$>20 GeV/c, $|\eta|$<2.5.}
+
+\label{fig:cuteffectswithpolA}
+
+\end{center}
+\end{figure}
+
+\subsection{Studies with the simulated data}
+ORCA is used to compare the rate for the electrons from the $\mathrm{H} \rightarrow \tau \tau \rightarrow \mathrm{e} \mu \mathrm{X}$ decay and for the electrons from the primary vertex. This decay channel is complementary to other searches in the $h, H, A \rightarrow \tau \tau$ decay channels \cite{CMSCR00:009, eemyydec}. 
+
+The results are collected in the table.
+
+\begin{centre}
+  \begin{tabular}{|l||l|l|r|}
+    \hline
+    & Barrel & End caps & Total \\ \hline
+    Electrons from $\mathrm{H} \rightarrow \tau \tau \rightarrow \mathrm{e} \mu \mathrm{X} (\%)$ & 83.1 & 82.6 & 83.0 \\ \hline
+    Electrons from the nominal vertex ($\%$) & 99.2 & 88.6 & 95.1 \\ \hline
+  \end{tabular}
+\end{centre}
+\linebreak
+
+Table shows the rate of electron clusters in the $\mathrm{H} \rightarrow \tau \tau \rightarrow \mathrm{e} \mu \mathrm{X}$ decay and in the primary vertex. ECAL \emph{barrel} (|$\eta$|<1.5) and the \emph{end cap} region (1.5<|$\eta$|<2.5) are considered separately due to the differences in the triggering accuracy on these regions.
+
+The transverse energy of the electrons is restricted between 20<$E_T$<50 GeV. The lower cut is made to quarantee that only the interesting events will be taken into account. The nominal vertex electrons with $E_T$>50 GeV are not generated but for the $\tau$ decay data there exists electrons exceeding this limit. So the upper cut is made to set the two data samples comparable.
+
+A significant amount of electrons from the $\mathrm{H} \rightarrow \tau \tau \rightarrow \matrm{e}\mu\mathrm{X}$ decay will remain undetected by the trigger compared to the nominal vertex electrons. 
+
+\section{Conclusions}
+The efficiency of the pixel match in the electron trigger chain has been studied for electrons from a $\tau$ decay. The efficiency is smaller than for the electrons from the nominal vertex.
+
+The ORCA results show that a significant amount of the electrons from the $\mathrm{H} \rightarrow \tau \tau \rightarrow \mathrm{eX}$ is missed by the trigger. This has not been explained by the spin correlations results. The loss of electrons needs to be taken into account when analysing the trigger results.
+
+The role of the spin correlations in the $\mathrm{h, H, A} \rightarrow \tau \tau \rightarrow \mathrm{eX}$ decay distributions has also been studied. Spin correlations do not have a significant effect on the angular distribution of the $\tau$ decay in the energy levels of the CMS experiment.
+
+However, the energy cut will favour $e_L^-$ and $e_R^+$ particles due to the polarisation effects, thus affecting the momentum distribution. The experimental relevance of this phenomenon may need to be subjected to a further study.
+
+\pagebreak
+
+\begin{thebibliography}{99}
+  \addcontentsline{toc}{section}{Bibliography}
+\bibitem{SM} S.Weinberg, \emph{Phys. Rev. Lett} {\bf 19} (1967) 1264; Salam, A., \emph{Proc. 8th Nobel Symposium} (Stockholm), ed. N. Svartholm (Almqvist and Wiksell, Stockholm, 1968) p. 367; S. Glashow, \emph{Nucl. Phys.} {\bf 22} (1961) 579.
+\bibitem{HHunter} J. F. Gunion, H. E. Haber, G. Kane and S. Dawson, \emph{Higgs Hunter's Guide} Addison-Wesley, Reading, MA, (1990).  
+\bibitem{HMechanism} P. W. Higgs, \emph{Phys. Lett.} {\bf 12} (1964) 132, \emph{Phys. Rev. Lett} {\bf 13} (1964) 508, \emph{Phys. Rev.} {\bf 145} (1966) 1156; F. Englert and R. Brout, \emph{Phys. Rev. Lett.} {\bf 13} (1964) 321; G.S. Guralnik, C.R. Hagen and T.W.B. Kibble, \emph{Phys. Rev. Lett.} {\bf 13} (1964) 585; T.W.B. Kibble, \emph{Phys. Rev.} {\bf 155} (1967) 1554.
+\bibitem{MartinShaw} B.R. Martin and G. Shaw, \emph{Particle Physics}, Wiley \& Sons (1997).
+\bibitem{MSSM} H.P. Nilles, \emph{Phys. Rep.} {\bf 110} (1984) 1; R.Barbieri, \emph{Riv. Nuovo Cim.} {\bf 11} (1988) 1; H.E. Haber and G.L. Kane, \emph{Phys. Rep.} {\bf 117C} (1985) 75.  
+\bibitem{Kane} G. L. Kane, \emph{Perspectives on Higgs Physics II}, World Scientific Publishing Co. (1997). 
+\bibitem{hUppLimit} M. Quiros and J.R. Espinosa, {\bf hep-ph/9809269} (1998).
+\bibitem{TechPropCMS} CMS Collaboration, \emph{Technical Proposal} {\bf CERN/LHCC 94-38, LHCC/P1} (15 December 1994). 
+\bibitem{HLowLimit} ALEPH, DELPHI, L3 and OPAL Collaborations, The LEP working group for Higgs boson Searches, \emph{Searches for the Neutral Higgs Bosons of the MSSM: Preliminary combined results using LEP Data Collected at Energies up to 209 $GeV$}, ALEPH 2000-074 CONF 2000-051, DELPHI 2000-148 CONF 447, L3 Note 2600, OPAL Technical Note TN661, submitted to ICHEP'2000, Osaka, Japan (July 27-August 2, 2000).
+\bibitem{CMSNote98:019andCR00009} S. Lehti, R. Kinnunen, J. Tuominiemi, \emph{CMS Note} {\bf 1998/019} (1998); M. Dzelalija, \emph{Observability of $H_{SUSY} \rightarrow \tau \tau$ Decays in CMS at the LHC} {\bf CMS CR 2000/009} (2000). 
+\bibitem{vakiot} D. E. Groom et al., \emph{Review of Particle Physics}, The European Physical Journal {\bf C15}, 1 (2000).
+\bibitem{betadecPNC} Wu, Ambler, Hayward, Hoppes and Hudson, \emph{Phys.Rev} {\bf 105} (1957) 1413.
+\bibitem{L1Trigger} CMS The TriDAS Project, \emph{Technical Design Report} {\bf 1}, \emph{The Trigger Systems}, {\bf CERN/LHCC 2000-38, CMS TDR 6.1} (2000).
+\bibitem{TauGrotzPP} A. Stahl, \emph{Physics with Tau Leptons}, Springer-Verlag (2000); K. Grotz, H. V. Klapdor, \emph{The Weak Interaction in Nuclear, Particle and Astrophysics}, IOP Publishing Ltd (1990); W. E. Burcham and M. Jobes, \emph{Nuclear and Particle Physics}, Addison-Wesley (1995).
+\bibitem{Tsai} Y.-S. Tsai, \emph{Phys. Rev. D4} {\bf 9} (1971) 2821.
+\bibitem{taupolarisation} B.K. Bullock, K. Hagiwara, and A. D. Martin, \emph{Phys. Rev.} {\bf 67} (1991) 3055.
+\bibitem{ECALDesignReport} \emph{CMS: The Electromagnetic Calorimeter Design Report} {\bf CERN/LHCC 97-33, CMS TDR 4} (15 December 1997).
+\bibitem{matching} K. Lassila-Perini, \emph{Jet rejection with matching ECAL clusters to pixel hits} {\bf CMS Note 2001/021} (2001)
+\bibitem{Pythia} T.Sjostrand \emph{Pythia 5.7 and Jetset 7.4, Physics and Manual}, Theory Division CERN, {\bf CERN-TH.7112/93} (December 1993); T.Sjostrand et al., \emph{High Energy Physics Event Generation with PYTHIA 6.1}, {\bf hep-ph/0010017} LU TP 00-30; T. Sjostrand, \emph{Computer Physics Commun.} {\bf 101} (1997) 232.
+\bibitem{CPC} S. Jadach, J.H. Kuhn and Z. Was, \emph{Computer Physics Commun.} {\bf 64} (1991) 275; \emph{Computer Physics Commun.} {\bf 70} (1992) 69; \emph{Computer Physics Commun.} {\bf 76} (1993) 361.
+\bibitem{ORCA} CMS Software and Computing Group, \emph{Object Oriented Reconstruction for CMS Analysis} {\bf CMS-IN 1999/001} (1999); CMS Reconstruction Software: \emph{The ORCA Project} {\bf CMS IN-1999/035} (1999); CMS OO Reconstruction, http://cmsdoc.cern.ch/orca/
+\bibitem{curve} K. Hagiwara, A. D. Martin and D. Zeppenfeld, \emph{Phys. Lett.} {\bf B235} 1,2 (1990) 198. 
+\bibitem{CMSCR00:009} M. Dzelalija, \emph{Observability of $H_{SUSY} \rightarrow \tau \tau$ Decays in CMS at the LHC} {\bf CMS CR 2000/009} (2000).
+\bibitem{eemyydec} S. Lehti, R. Kinnunen and J. Tuominiemi: \emph{Study of $h$,$H$,$A$ $\rightarrow \tau \tau \rightarrow e \mu$ in the CMS detector}, {\bf CMS TN/98/019} (1998); R. Kinnunen and D. Denegri, {\bf CMS Note 1999/037} (1999). 
+
+\end{thebibliography}
+
+\end{document}
+
+

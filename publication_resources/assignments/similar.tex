@@ -1,0 +1,678 @@
+\documentclass[a4paper,12pt,titlepage]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+\usepackage[dvips]{graphics}
+\usepackage{subfigure}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{stmaryrd}
+\usepackage{bbm}
+\usepackage{textcomp}
+\usepackage[finnish]{babel}
+
+\setlength{\textwidth}{140mm}
+\setlength{\parindent}{0mm}
+\setlength{\parskip}{3mm plus0.5mm minus0.5mm}
+ 
+\title{Itsesimilaarien fraktaalien Hausdorffin dimension määrittäminen}
+\author{Leo Lahti}
+\date{8.5.2002}
+ 
+\begin{document}
+ 
+\newcommand{\mycaption}[1]{\caption{\small{#1}}}
+
+\newcommand{\C}{\mathbbm{C}}	 		% Kompleksitaso
+\newcommand{\N}{\mathbb{N}}			% Luonnolliset luvut
+\newcommand{\Nexp}{\mathbb{N}_0}		% Luonnolliset luvut ja 0
+\newcommand{\Z}{\mathbb{Z}}			% Kokonaisluvut
+\newcommand{\Rn}{\mathbb{R}^n}			% Rn
+\newcommand{\Ryks}{\mathbb{R}^1}		% R1
+\newcommand{\Rkaks}{\mathbb{R}^2}		% R2
+
+\newcommand{\ON}{\rightarrow}                   % Oikea nuoli
+\newcommand{\kuvaa}{\mapsto}                    % Kuvausnuoli
+\newcommand{\Imply}{\Longrightarrow}            % Implikaatio
+
+\newcommand{\VN}{\lefttarrow}                   % Vasen nuoli
+\newcommand{\Implyleft}{\Leftarrow}             % Vasemmalle Implikaatio
+
+\newcommand{\ekvi}{\Leftrightarrow}             % Ekvivalenssi
+
+\newcommand{\pallo}{\circ}                      % pallo
+
+\newcommand{\f}{\mathrm{f}\colon}               % funktio f:
+\newcommand{\fn}{f^{\circ n}}		        % funktion f iteraatti n
+\newcommand{\fk}{f^{\circ k}}         		% funktion f iteraatti k
+\newcommand{\fp}{f^{\circ p}}       		% funktion f iteraatti p
+\newcommand{\fj}{f^{\circ j}}		        % funktion f iteraatti j
+\newcommand{\fm}{f^{\circ m}}		        % funktion f iteraatti m
+
+\newcommand{\vastaa}{\doteq}	                % yhtäsuuruus plus sirkumfleksi
+\newcommand{\onon}{\equiv}                      % kolmoisyhtäsuuruus
+\newcommand{\eiole}{\neq}			% ei ole yhtä kuin
+
+\newcommand{\infinity}{\infty}		        % ääretön
+\newcommand{\kuuluu}{\in}	                % kuuluu
+\newcommand{\eikuulu}{\notin}		        % ei kuulu
+\newcommand{\osajoukko}{\subset} 	        % osajoukko
+\newcommand{\ylijoukko}{\supset} 	        % osajoukko toiseen suuntaan
+\newcommand{\pois}{\smallsetminus}		% poistetaan joukko ...
+
+\newcommand{\unioni}{\cup}                	% unioni
+\newcommand{\Unioni}{\bigcup}                	% unioni isompi
+\newcommand{\leikkaus}{\cap}                    % leikkaus
+\newcommand{\Ujm}{\bigcup_{j=1}^{m}}	  	% unioni j=1->m
+
+\newcommand{\laatikko}{\, \, \, \, \, \, \Box}	% todistettu-laatikko
+\newcommand{\tyhja}{\emptyset}               	% tyhjä joukko
+\newcommand{\onolemassa}{\exists}	        % on olemassa
+\newcommand{\patee}{\forall}	               	% pätee
+
+\newcommand{\reuna}{\partial} 	        	% reunan merkki 
+
+\newcommand{\perhe}{\mathcal{P}}       		% perhe P
+\newcommand{\perheD}{\mathcal{P}_D}     	% perhe P_D
+\newcommand{\Hs}{\mathcal{H}^s} 		% Haussdorffin H^s mitta
+\newcommand{\Ht}{\mathcal{H}^t} 		% Haussdorffin H^t mitta
+\newcommand{\Hsd}{\mathcal{H}_{\delta}^s} 	% Haussdorffin H^s_d esimitta
+\newcommand{\Htd}{\mathcal{H}_{\delta}^t} 	% Haussdorffin H^t_d esimitta
+\newcommand{\Cclass}{\mathcal{C}}		% luokka C
+\newcommand{\F}{\mathcal{F}}       		% F
+\newcommand{\Lclass}{\mathcal{L}}       	% L
+
+\newcommand{\Pfk}{\{ f^{\circ k} \}}            % funktion f iteraattien k perhe
+\newcommand{\Pfki}{\{ f^{\circ k_i} \}}         % funktion f iteraattien k_i perhe
+\newcommand{\Pfkip}{\{ f^{\circ k_i'} \}}       % funktion f iteraattien k_i' perhe
+\newcommand{\Pfn}{\{ f^{\circ n} \}}            % funktion f iteraattien n perhe
+
+\newcommand{\kip}{\circ k_i'}			% k_i pilkku
+
+\newcommand{\lainaus}{\textquotedblright} 	% lainausmerkki
+
+%\newcommand{\}{\} 	        		% 
+%\newcommand{\}{\} 	        		% 
+
+
+\begin{titlepage}
+  \begin{tabbing}
+    \hspace*{9cm} \= \\
+    TEKNILLINEN KORKEAKOULU \> ERIKOISTYÖ \\
+    Teknillisen fysiikan ja matematiikan osasto \> Mat-1.139 Matematiikka \\
+    \> \today \\
+  \end{tabbing}
+  \vspace{4cm}
+  \begin{center}
+    {\large {\bf Itsesimilaarien fraktaalien Hausdorffin dimension määrittäminen}}
+    \vspace{10cm} \\
+    Leo Lahti\linebreak
+    49791N
+    \vspace{2.5cm}
+  \end{center}
+\end{titlepage}
+
+\tableofcontents
+\pagebreak
+\pagebreak
+ 
+\section{Johdanto}
+
+Viime vuosisadan aikana esitettiin lukuisia esimerkkejä jatkuvista kuvauksista, jotka eivät ole derivoituvia yhdessäkään pisteessä. Näitä joukkoja kutsutaan usein \emph{fraktaaleiksi}. 
+
+Perinteiset mitat osoittautuivat riittämättömiksi tällaisten äärettömän ryppyisten, mutta säännönmukaisten joukkojen tarkasteluun. Fraktaalien käsittelyyn kehitettiin uudenlaisia mittoja, joista tunnetuimpia lienee \emph{Hausdorffin mitta}. Samalla dimension käsite laajennettiin luonnollisten lukujen alueelta koko ei-negatiiviseen reaalilukujoukkoon. Fraktaaleille määritettiin kokonaisluvuista poikkeavia dimensioita ja joukkojen mittaominaisuuksista saatiin uudenlaista tietoa.
+
+Hausdorffin dimension tarkka määrittäminen on käytännössä osoittautunut usein mahdottomaksi, mutta joissakin tapauksissa sille voidaan johtaa laskukaava. Tämä pätee esimerkiksi itsesimilaareille joukoille, joita konstruoidaan iteroimalla lähtöjoukkoa sopivilla kuvauksilla äärettömän monta kertaa. Itsesimilaarit joukot toistavat samaa perusrakennettaan äärettömän pieniin osiinsa asti.
+
+Tämän työn tarkoituksena on johtaa laskukaava itsesimilaarien joukkojen Hausdorffin dimension määrittämistä varten. Tarkastelemme $n$-ulotteista euklidista reaaliavaruutta $\Rn$, mutta useimmat tuloksista pätevät pienellä hienosäädöllä myös yleisissä metrisissä avaruuksissa. Luku 2 toimii johdatuksena ongelmakenttään ja siinä määritellään tarvittavat peruskäsitteet. Luvussa 3 esitämme laskukaavan johtamiseen tarvittavat todistukset. Lopuksi luku 4 havainnollistaa saatuja tuloksia esimerkkien avulla.
+
+Tekstin ymmärtäminen edellyttää lukijalta matemaattisen analyysin peruskäsitteiden tuntemista. Työtä voidaan pitää itsenäisenä lukuunottamatta \emph{Rieszin esityslauseen} ja \emph{kontraktiokuvauslauseen} todistuksia, joiden osalta viittaan Hutsonin teokseen \cite{Hutson, Hutson2}.
+
+Ensisijaisina lähteinäni ovat olleet Falconerin fraktaaligeometriaa käsittelevät teokset \cite{Falc1, Falc2}. Hutchinsonin julkaisu \cite{Hutch} on antanut tarkasteluihin täydentäviä näkökulmia. Havainnollisia esimerkkejä ja taustatietoa olen löytänyt kaaosteoriaa popularisoivista teoksista \cite{Chaos}. Työssä tarvittavia analyysin peruskäsitteitä esitellään esimerkiksi Rudinin \cite{Rudin} ja Hutsonin teoksissa.
+
+Tahdon kiittää turkulaisia ystäviäni, joiden myötävaikutuksella alun perin kiinnostuin aihepiiristä.
+
+\pagebreak
+\section{Määritelmiä ja peruskäsitteitä} 
+
+\subsection{Hausdorffin mitta, dimensio ja metriikka}
+
+Hausdorffin mitta on nimensä mukaisesti mitta. Fraktaalisten joukkojen tarkastelussa se on hyödyllinen perinteisiä mittoja täydentävä työväline. Tavanomaisia joukkoja tarkasteltaessa Hausdorffin mitta ja sitä vastaava dimensio yhtyvät perinteisempiin vastineisiinsa. 
+	
+Esimerkin Hausdorffin mitan erosta esimerkiksi tavanomaiseen Lebesguen mittaan verrattuna antaa Cantorin $\frac{1}{3}$-joukon tarkastelu. Cantorin joukko on 1-dimensioisen Lebesguen mitan mielessä nollamittainen, mutta sopiva $s$-di\-men\-si\-oi\-nen Hausdorffin mitta antaa joukon mitaksi 1. Tässä tapauksessa mittaa vastaava Hausdorffin dimensio on $s = \frac{log2}{log3} \approx 0,63$.
+
+Tällaisen mitan ja dimension konstruoiminen on siinä mielessä perusteltua, että Cantorin joukko on ylinumeroituvana selvästi jotakin enemmän kuin kokoelma yksittäisiä pisteitä, vaikkakin vähemmän kuin kokonainen epäjatkuva käyrä.
+
+Hausdorffin mitan konstruointi etenee kolmessa vaiheessa: Ensimmäiseksi valitsemme tarkasteltavalle joukolle $E$ sopivan peitekokoelman. Hausdorffin esimitta muotoillaan peitekokoelman avulla. Sen arvo riippuu peitekokoelman alkioiden suuruudesta. Varsinainen Hausdorffin mitta saadaan esimitan raja-arvona peitealkioiden kutistuessa rajatta. 
+	
+Tarkastelemme $n$-ulotteista euklidista reaaliavaruutta $\Rn$. Epätyhjän joukon $U \osajoukko \Rn$  \emph{lävistäjä} on määritelty seuraavasti:
+
+\[
+	|U| = sup\{ |x-y|: x, y \kuuluu U \}. 
+\]
+
+Se on suurin mahdollinen etäisyys kahden joukosta valitun pisteen välillä.
+
+Valitaan joukolle $E$ sellainen peitekokoelma $\{U_i \}$, jonka kunkin alkion lävistäjän suuruus on enintään $\delta$. Peitekokoelmalle pätee siis $E \osajoukko \Unioni _i U_i$ ja lisäksi $0<|U_i|\leq \delta$ kaikille peitteen alkioille $U_i$. Kutsumme tällaista kokoelmaa joukon $E$ \emph{$\delta$-peitteeksi}.
+
+Olkoon $s$ ei-negatiivinen reaaliluku. Parametrista $\delta >0$ riippuva \emph{Hausdorffin esimitta}
+
+\[
+	\Hsd (E) = inf \sum_{i=1}^{\infty} |U_i|^s
+\]
+
+on peitealkioiden lävistäjien $s$-potenssisummien suurin alaraja joukon $E$ kaikkien mahdollisten numeroituvien $\delta$-peitteiden joukossa. $\Hsd$ täyttää ulkomitalle asetetut vaatimukset $\Rn$:ssä.
+
+Joukon $E$ \emph{s-dimensioinen Hausdorffin mitta} saadaan esimitan raja-arvona, kun parametri $\delta$ lähestyy rajatta nollaa: 
+
+\[
+	\Hs (E) = lim_{\delta \ON 0} \Hsd (E) = sup_{\delta >0} \Hsd (E).
+\]
+
+Jälkimmäinen yhtäsuuruus selittyy sillä, että esimitta on parametrin $\delta$ pienentymisen kannalta ei-vähenevä, mikä voidaan todeta esimitan ja lävistäjän määritelmistä. Raja-arvo on olemassa ja saa positiivisen, mahdollisesti äärettömän arvon. 
+
+Joukkoja, joiden $s$-dimensioinen Hausdorffin mitta on äärellinen, sanotaan $\Hs$-mitallisiksi. $\Hs$-mitalliselle joukolle $E$, jonka mitta on positiivinen, pätee $0 < \Hs (E) < \infty$. Kutsumme tällaista joukkoa $s-joukoksi$. 
+
+Peitetarkastelun nojalla
+
+\[
+	\Htd (E) \geq \delta^{t-s} \Hsd (E),
+\]
+
+kun $t<s$. Tästä seuraa rajalla $\delta \ON 0$, että jos joukon $E$ $s$-dimensioiselle Hausdorffin mitalle pätee $0 < \Hs (E) < \infty$, niin matalampidimensioinen mitta $\Ht (E)$ antaa arvon $\infty$. Toisaalta korkeampidimensioisten mittojen arvo on 0, mikä nähdään käänteisellä tarkastelulla. On siis olemassa yksikäsitteinen luku dim$E$ siten, että
+
+\[
+	\Hs (E) = \begin{cases}
+			\infty, &\text{kun } s \kuuluu [0, \text{dim} E) \\
+			0, &\text{kun } s \kuuluu ( \text{dim} E, \infty ) .
+		\end{cases}	 
+\]
+
+Kutsumme lukua dim$E$ joukon $E$ \emph{Hausdorffin dimensioksi}. Kohdassa $s=$ dim$E$ joukon $E$ $s$-dimensioinen Hausdorffin mitta romahtaa arvosta $\infty$ arvoon $0$. Tässä kohdassa se voi kuitenkin saada äärellisen positiivisen arvon. Tavanomaisia joukkoja tarkasteltaessa Hausdorffin dimensio yhtyy perinteisempiin dimension määritelmiin ja saa kokonaislukuarvon.
+
+Joukon $E$ \emph{suljettu $\delta$-ympäristö} on joukosta $E$ enintään etäisyydellä $\delta$ olevien pisteiden suljettu joukko
+
+\[
+	[E] _{\delta} = \{ x \kuuluu \Rn : inf_{y \kuuluu E} |x-y| \leq \delta \}.
+\]
+
+	\emph{Hausdorffin metriikka} $\delta$ on määritelty $\Rn$:n epätyhjien ja kompaktien osajoukkojen kokoelmassa seuraavasti:
+
+\[
+	\delta (E, F) = inf \{ \delta : E \osajoukko [F] _{\delta} \text{ ja } F \osajoukko [E] _{\delta}\}.
+\]
+
+Se on siis pienin parametri $\delta$, jolla joukon $F$ suljettu $\delta$-ympäristö sisältää joukon $E$ ja toisaalta joukon $E$ suljettu $\delta$-ympäristö sisältää joukon $F$. Määritelmä täyttää metriikalle asetetut ehdot.
+
+\subsection{Itsesimilaari joukko}
+
+Kuvaus $\Psi \colon \Rn \kuvaa \Rn$ on \emph{kontraktio}, jos epäyhtälö $|\Psi (x) - \Psi (y)| \leq c|x-y|$ pätee kaikille $x, y \kuuluu \Rn$ parametrilla $c<1$. Lipschitz-jatkuvana kontraktio on selvästi jatkuva kuvaus. Kontraktion \emph{aste} on kaikkien mainitun epäyhtälön toteuttavien arvojen $c$ suurin alaraja.
+
+\emph{Similariteetti} on kontraktion erikoistapaus, jossa epäyhtälö voidaan korvata yhtälöllä. Tällöin $|\Psi (x) - \Psi (y)| = c|x-y|$.
+
+Merkitsemme mielivaltaiselle joukolle $V$ ja kontraktioiden kokoelmalle $\{ \Psi_j \}_{j=1}^m$
+
+\begin{equation}
+\label{eq:Psi}
+	\Psi (V) \onon \Ujm \Psi_j (V),
+\end{equation}
+
+kun tarkasteltava kontraktiokokoelma on asiayhteydestä tunnettu. Sanomme, että joukko $E$ on \emph{invariantti} kontraktioiden kokoelmalle $\{ \Psi_j \}_{j=1}^m$, jos $E = \Psi (E)$.
+
+Joukko $E$ on \emph{itsesimilaari}, mikäli se on invariantti similariteettien kokoelmalle $\{ \Psi_j \}_{j=1}^m$ ja on olemassa parametri $s$ siten, että joukon $E$ $s$-dimensioinen Hausdorffin mitta on positiivinen. Lisäksi vaadimme, että erillisten similariteettien kuvajoukkojen leikkaus on Hausdorffin mielessä nollamittainen joukko kuvattaessa joukkoa $E$, eli 
+
+\[
+	\Hs (\Psi_i (E) \leikkaus \Psi_j (E))=0, \text{ kun } i \eiole j. 
+\]
+
+Tulemme osoittamaan, että \emph{avoimuusehdon} täyttyminen takaa viimeisen ehdon toteutumisen ja usein onkin riittävää todeta tämän voimassaolo. Avoimuusehto pätee kontraktioiden kokoelmalle $\{ \Psi_j \}_{j=1}^m$, mikäli on olemassa avoin ja rajoitettu joukko $V$ siten, että $\Psi (V) \osajoukko V$, missä unioni on pistevieraiden joukkojen yhdiste, eli $\Psi_i (V) \leikkaus \Psi_j (V) = \tyhja, \text{ jos } i \eiole j$.
+
+
+
+Mielivaltaisen pisteen $x \kuuluu M$ kertaluvun $k$ \emph{iteraatti} kuvauksella $g \colon M \kuvaa \Rn$ on yhdistetty kuvaus 
+
+\[
+	g^{\pallo k} (x) \onon \underbrace{g \pallo \dots \pallo g}_{k} (x)
+\]
+
+Käytämme vastaavaa merkintää kuvauksen $g$ määrittelyjoukon $M$ osajoukkojen kuvauksista.
+
+Seuraava lause varmistaa, että epätyhjiä invariantteja joukkoja on olemassa ja niiden tutkiminen on mielekästä. Lisäksi toteamme, että tällainen joukko on Hausdorffin metriikalla kuvauksen $\Psi$ attraktiivinen kiintopiste.
+
+\newtheorem{lauseet}{Lause}
+\begin{lauseet}
+	\label{lauseet:eka}
+
+Jokaista $\Rn$:ssä määriteltyä kontraktioiden kokoelmaa $\{ \Psi_j \} _1^m$ kohden on olemassa yksikäsitteinen epätyhjä kompakti ja invariantti joukko $E$. Mielivaltaisen kompaktin ja epätyhjän joukon $F \osajoukko \Rn$ iteraatit $\Psi^{\circ k} (F)$ suppenevat Hausdorffin metriikalla kohti joukkoa $E$, kun $k \ON \infty$.
+
+\end{lauseet}
+
+\textsc{Todistus:}
+
+(i) Olkoon $\Cclass$ avaruuden $\Rn$ epätyhjien ja kompaktien osajoukkojen luokka. Oletamme, että joukot $F_1$ ja $F_2$ kuuluvat tähän luokkaan.
+
+Kuvausten $\Psi_j$ kontraktio-ominaisuudesta seuraa, että jos joukko $F_1$ sisältyy joukon $F_2$ suljettuun $\delta$-ympäristöön, niin silloin sen kuvajoukko $\Psi_j (F_1)$ sisältyy kuvajoukon $\Psi_j (F_2)$ suljettuun $r_j \delta$-ympäristöön. Siten joukkojen $F_1$ ja $F_2$ kuvaukselle $\Psi = \Ujm \Psi_j$ pätee Hausdorffin metriikalla
+
+\begin{equation}
+\label{eq:ey}
+\begin{split}
+	\delta (\Psi (F_1), \Psi (F_2)) 
+	&= \delta (\Ujm \Psi_j (F_1), \Ujm \Psi_j (F_2)) \\
+	&\leq max_j \delta (\Psi_j (F_1), \Psi_j (F_2)) \\
+	&\leq (max_j r_j) \delta(F_1, F_2).
+\end{split}
+\end{equation}
+
+Koska $max_j r_j<1$ ja kompaktit joukot $F_1, F_2$ ovat mielivaltaisia, olemme osoittaneet, että $\Psi$ on kontraktio luokassa $\Cclass$. 
+
+$\Cclass$ on täydellinen metrinen avaruus Hausdorffin metriikalla $\delta$. Täydellisiä metrisiä avaruuksia koskevan kontraktiokuvauslauseen \cite{Hutson} mukaan jokaisella täydellisen metrisen avaruuden kontraktiolla on olemassa yksikäsitteinen kiintopiste. Luokassa $\Cclass$ on siten olemassa yksikäsitteinen joukko $E$, jolle $E = \Psi (E)$. Luokan $\Cclass$ alkiona joukko $E$ on epätyhjä ja kompakti, joten olemme todistaneet lauseen ensimmäisen osan.
+
+(ii) Mielivaltaisen joukon $F \kuuluu \Cclass$ iteraatit kuvauksella $\Psi$ suppenevat kohti joukkoa $E$ Hausdorffin metriikalla:
+
+\begin{equation}
+\begin{split}
+	\delta (\Psi^{\circ k} (F), E)
+	&=\delta (\Psi^{\circ k} (F), \Psi (E)) \\
+ 	&=\delta (\Psi^{\circ k} (F), \Psi^{\circ k} (E)) \\ 
+	&=\delta (\Ujm \Psi_j (\Psi^{\circ k-1} (F)), \Ujm \Psi_j (\Psi^{\circ k-1} (E))) \\
+	&\leq max_j \delta (\Psi_j (\Psi^{\circ k-1} (F)), \Psi_j (\Psi^{\circ k-1} (E))) \\
+	&\leq (max_j r_j) \delta(\Psi^{\circ k-1} (F), \Psi^{\circ k-1} (E)) \\ 
+	&\leq \dots \\
+	&\leq (max_j r_j)^k \delta(F, E) \xrightarrow[k \ON \infty]{} 0,
+\end{split}
+\end{equation}
+
+koska $max_j r_j < 1$ ja $\delta(F, E) < \infty$. $\, \, \, \, \, \laatikko$
+ 
+\section{Itsesimilaarin joukon Hausdorffin dimensio} 
+
+Tarkastelemme tässä luvussa avoimuusehdon toteuttavaa similariteettien kokoelmaa $\{ \Psi_j \}_1^m$ ja vastaavaa kompaktia invarianttia joukkoa $E$. Merkitsemme kuvauksen $\Psi_j$ astetta symbolilla $r_j$. Joukon $E$ \emph{similaaridimensio} on yksikäsitteinen positiivinen luku $s$, joka määräytyy yhtälöstä 
+
+\begin{equation}
+\label{eq:simi}
+	\sum_{j=1}^m r_j^s = 1.
+\end{equation}
+
+Hausdorffin dimension tarkka laskeminen on usein käytännössä mahdotonta. Similaaridimension etuna on helppo laskettavuus. Tulemme osoittamaan, että avoimuusehdon toteuttavaa kokoelmaa $\{ \Psi_j \}_1^m$ vastaava kompakti ja invariantti joukko $E$ on itsesimilaari. Osoitamme myös, että itsesimilaarin joukon similaaridimensio ja Hausdorffin dimensio yhtyvät. Joukon $E$ Hausdorffin dimensio voidaan siten määrittää yhtälöstä~\eqref{eq:simi}. Näiden väitteiden todistamiseksi tarvitsemme kuitenkin ensin muutaman aputuloksen.
+
+Seuraavissa tarkasteluissa käytämme indeksijonojen kokoelmaa $\{ j_1, \dots , j_k \}_m$. Tämä on kaikkien sellaisten $k$-alkioisten jonojen joukko, joiden alkioille pätee $1 \leq j_i \leq m$, kun $i = 1, \dots , k$. Merkitsemme kullekin tällaiselle jonolle, sekä mielivaltaiselle $x \kuuluu \Rn$
+
+\[
+	x_{j_1 \dots j_k} = \Psi_{j_1} \circ \dots \circ \Psi_{j_k} (x).
+\]
+
+Yhdistetyn kuvauksen $k$ tekijää valitaan siis kokoelmasta $\{ \Psi_j \}_1^m$ ja sama tekijä voi esiintyä useammin kuin kerran. Käytämme vastaavaa merkintää osajoukon $F \osajoukko \Rn$ kuvauksista. 
+
+Olettakamme nyt, että $s$ toteuttaa ehdon 
+
+\begin{equation}
+\label{eq:rksumma}
+	\sum_{j_1 \dots j_k} (r_{j_1} r_{j_2} \dots r_{j_k})^s =1,
+\end{equation}
+
+missä summa lasketaan indeksijonojen kokoelman $\{ j_1, \dots , j_k \}_m$ kaikkien alkioiden yli ja $r_{j_i}$ merkitsee kontraktion $\Psi_{j_i}$ astetta. 
+
+Mitan $\mu$ \emph{kantaja} on pienin suljettu joukko $S$ siten, että $\int_{\Rn} f d\mu = 0$ kaikille jatkuville funktioille $f$, jotka katoavat joukossa $S$. Intuitiivisesti kantaja voidaan mieltää joukoksi, johon mitta on keskittynyt. Kantajan ulkopuolelle jäävä joukko on nollamittainen, joten jatkuvan funktion $f$ arvot kantajajoukon ulkopuolella ovat äärellisiä eivätkä vaikuta integraalin arvoon.
+
+Muotoilemme nyt \emph{Rieszin esityslauseen}, jota tulemme tarvitsemaan seuraavan lemman todistuksessa. Avaruudessa $\Rn$ \emph{Borelin mitalla} tarkoitetaan mittaa, joka on määritelty \emph{Borelin joukoille}. Borelin joukko on joukko, joka voidaan muodostaa avaruuden suljetuista osajoukoista numeroituvalla määrällä leikkauksia, yhdisteitä ja komplementteja.  
+
+\newtheorem{Riesz}[lauseet]{Lause}
+\begin{Riesz}[Rieszin esityslause]
+	\label{lauseet:Riesz}
+	Olkoon $S$ avaruuden $\Rn$ kompakti osajoukko ja $\Phi$ positiivinen lineaarinen funktionaali, joka on määritelty joukossa $S$ jatkuvien funktioiden avaruudessa $\F$. Tällöin on olemassa Borelin mitta $\mu$, jonka kantaja $S$ on, ja jolla mitta $\mu (S) < \infty$. Lisäksi kaikille avaruuden $\F$ funktioille $f$ pätee
+  
+\[
+	\Phi (f) = \int_{\Rn} f d\mu.
+\]
+
+\end{Riesz}
+
+Sivuutamme Rieszin esityslauseen todistuksen, joka löytyy esimerkiksi Hutsonin teoksesta \cite{Hutson2}. 
+
+Käytämme joukon $F$ alkukuvalle merkintää $\Psi_j^{-1} (F)$ ja muotoilemme seuraavan lemman: 
+
+\newtheorem{lemma1}[lauseet]{Lemma}
+\begin{lemma1}
+	\label{lauseet:lemma1}
+
+	On olemassa Borelin mitta $\mu$, jolle $\mu (\Rn )=1$ ja jonka kantaja sisältyy kompaktiin ja epätyhjään joukkoon $E$. Vastaaville mitallisille joukoille $F$ pätee
+
+\begin{equation}
+	\label{eq:lemma1}
+	\mu (F) = \sum_{j=1}^m r_j^s \mu (\Psi_j^{-1} (F)).
+\end{equation}
+
+\end{lemma1}
+
+\textsc{Todistus:}
+
+Olkoon $\F$ nyt joukossa $E$ määriteltyjen jatkuvien funktioiden avaruus ja $k$ jokin luonnollinen luku. Määrittelemme avaruudessa $\F$ positiivisen ja lineaarisen funktionaalin 
+
+\begin{equation}
+	\label{eq:fiikoo}
+	\Phi_k (f) = \sum_{j_1 \dots j_k} (r_{j_1} \dots r_{j_k})^s f(x_{j_1 \dots j_k}).
+\end{equation}
+
+Jokaista annettua $\varepsilon > 0$ kohden on olemassa luku $p$ siten, että funktion $f$ arvot vaihtelevat korkeintaan arvon $\varepsilon$ verran kussakin joukossa $E_{j_1 \dots j_k}$, kun $k \geq p$ ja indeksijono valitaan kokoelmasta $\{ j_1, \dots , j_k \}_m$. Tämä seuraa funktion $f$ jatkuvuudesta ja siitä, että riittävän suurella $p$ joukko $E_{j_1 \dots j_k}$ saadaan kutistumaan mielivaltaisen pieneksi. Joukon $E_{j_1 \dots j_k}$ lävistäjälle pätee 
+
+\begin{equation}
+\label{eq:Ejdots}
+\begin{split}
+	|E_{j_1 \dots j_k}| = | \Psi_{j_1} \pallo \dots \pallo \Psi_{j_k} (E) | \leq (max_j r_j)^k |E| \xrightarrow[k \ON \infty]{} 0, 
+\end{split}
+\end{equation}
+
+koska $max_j r_j < 1$ ja kompaktisuuden nojalla $|E| < \infty$. Määritelmänsä nojalla invariantti joukko $E = \Ujm  \Psi_j (E)$. Näistä tuloksista seuraa funktion $f$ on tasainen jatkuvuus kompaktissa joukossa $E$. 
+
+Valitaan piste $x \kuuluu E$. Nyt
+
+\begin{equation}
+\label{eq:EPsiit}
+	E_{ j_{k+n} \dots j_1 } = \Psi_{j_{k+n}} \circ \dots \circ \Psi_{j_k} \circ \dots \circ \Psi_{j_1} (E) \osajoukko \Psi_{j_k} \circ \dots \circ \Psi_{j_1} (E) = E_{j_k \dots j_1},
+\end{equation}
+
+sillä tarkasteltavista similariteeteista yhdistetyt kuvaukset eivät kuvaa joukon $E$ pisteitä lähtöjoukkonsa ulkopuolelle. 
+
+Edelleen
+
+\begin{equation}
+\label{eq:Phierotus}
+\begin{split}
+	|\Phi_k (f) - \Phi_{k'} (f)| 
+	& = |\sum_{j_1 \dots j_k} (r_{j_1} \dots r_{j_k})^s f(x_{j_1 \dots j_k}) - \sum_{j_1 \dots j_{k'}} (r_{j_1} \dots r_{j_{k'}})^{s'} f(x_{j_1 \dots j_{k'}}) | \\
+	& = |\sum_{j_1 \dots j_k} (r_{j_k} \dots r_{j_1})^s f(x_{j_k \dots j_1}) - \sum_{j_1 \dots j_{k'}} (r_{j_{k'}} \dots r_{j_1})^{s'} f(x_{j_{k'} \dots j_1}) |,
+\end{split}
+\end{equation}
+ 
+missä $s$ ja $s'$ toteuttavat ehdon~\eqref{eq:rksumma} ja molemmat summat lasketaan kaikkien vastaavien indeksijonojensa yli. 
+
+Toteamme, että $x_{j_k \dots j_1} \kuuluu E_{j_k \dots j_1}$ ja tuloksen~\eqref{eq:EPsiit} nojalla myös $x_{j_{k+n} \dots j_1} \kuuluu E_{j_{k+n} \dots j_1} \osajoukko E_{j_k \dots j_1}$. Kun $p$ valitaan riittävän suureksi, saadaan pisteet $x_{j_{k'} \dots j_1}$ ja $x_{j_{k} \dots j_1}$ mielivaltaisen lähelle toisiaan. Funktion $f$ tasaisen jatkuvuuden nojalla saamme edelleen $|f(x_{j_k \dots j_1}) - f(x_{j_{k'} \dots j_1})| < \varepsilon'$ mielivaltaiselle $\varepsilon'>0$. Riittävän suurella $p$ myös vastaavat kertoimet $(r_{j_k} \dots r_{j_1})^s$ ja $(r_{j_{k'}} \dots r_{j_1})^{s'}$ kutistuvat mielivaltaisen pieniksi. Annetulla $\varepsilon''>0$ saamme
+
+\[
+	|(r_{j_k} \dots r_{j_1})^s f(x_{j_k \dots j_1}) - (r_{j_{k'}} \dots r_{j_1})^{s'} f(x_{j_{k'} \dots j_1})| < \varepsilon''.
+\]
+
+Siten osa termeistä yhtälön~\eqref{eq:Phierotus} oikealla puolella likimain kumoaa toisensa ja jäljelle jää vain useampia tekijöitä omaavan summan termejä. Indeksijonoja on äärellinen määrä. Kasvattamalla lukua $p$ riittävän suureksi saamme jäljelle jäävien termien kertoimet ehdon~\eqref{eq:rksumma} nojalla mielivaltaisen pieniksi suhteessa yhteenlaskettavien määrään. Funktion $f$ saadessa samaan aikaan äärellisiä arvoja koko summa lähestyy nollaa parametrin $p$ kasvaessa ja saamme jokaisella mielivaltaisen pienellä $\varepsilon>0$ lopulta tuloksen 
+
+\[
+	|\Phi_k - \Phi_{k'}| < \varepsilon.
+\] 
+
+Funktiojono $\{ \Phi_k (f) \}$ suppenee jokaisella avaruuden $\F$ funktiolla ja sen raja-arvo määrittelee avaruudessa $\F$ positiivisen lineaarisen funktionaalin. Rieszin esityslauseen nojalla on olemassa Borelin mitta $\mu$ siten, että 
+
+\begin{equation}
+	\label{eq:riesz}
+	\int f \, d\mu = lim_{k \ON \infty} \Phi_k (f)
+\end{equation}
+	
+Lausekkeista~\eqref{eq:fiikoo} ja~\eqref{eq:riesz} nähdään, että asettamalla $f \onon 1$ saamme $\mu (\Rn ) = 1$. Edelleen
+
+\begin{equation}
+\begin{split}
+	\Phi_k (f) 
+	&= \sum_{j_1} r_{j_1}^s \sum_{j_2 \dots j_k} (r_{j_2} \dots r_{j_k})^s f(x_{j_1 \dots j_k}) \\
+	&= \sum_{j_1} r_{j_1}^s \sum_{j_2 \dots j_k} (r_{j_2} \dots r_{j_k})^s f(\Psi_{j_1} (x_{j_2 \dots j_k})) \\
+	&= \sum_j r_j^s \Phi_{k-1} (f \circ \Psi_j).
+\end{split}
+\end{equation}
+
+Ottamalla puolittain raja-arvon $k \ON \infty$ ja käyttämällä yhtälöä~\eqref{eq:riesz} saamme tuloksen
+
+\[
+	\int f \, d\mu = \sum_j r_j^s \int f \circ \Psi_j \, d\mu,
+\]
+
+kun $f \kuuluu \F$. Monotonisen konvergenssin lauseen avulla todetaan, että tämä pätee myös kaikille ei-negatiivisille funktioille ja saamme tuloksen~\eqref{eq:lemma1}.
+
+Olettakaamme, että $f$ katoaa joukossa $E$. Tällöin $\Phi_k (f) = 0$ joukossa $E$ kaikilla luonnollisilla luvuilla $k$. Yhtälön~\eqref{eq:riesz} nojalla $\int_{\Rn} f \, d\mu =0$. $E$ on siis mitan $\mu$ kantaja, koska $f$ oli mielivaltainen jatkuva funktio.	$\laatikko$
+
+Merkitköön $\overline{M}$ mielivaltaisen joukon $M$ sulkeumaa. Muotoilemme vielä seuraavan lemman.
+
+\newtheorem{lemma2}[lauseet]{Lemma}
+\begin{lemma2}
+	\label{lauseet:lemma2}
+
+Olkoon $\{ V_i \}$ sellainen $\Rn$:n pistevieraiden ja avointen osajoukkojen kokoelma, jonka jokainen alkio $V_i$ sisältää $c_1 \rho$-säteisen pallon ja toisaalta sisältyy $c_2 \rho$-säteiseen palloon. Silloin mikä tahansa $\rho$-säteinen pallo $B$ leikkaa enintään $(1+2c_2 )^n c_1^{-n}$ kappaletta joukoista $\overline{V_i}$.
+
+\end{lemma2}
+
+\textsc{Todistus:}
+
+Mikäli joukko $\overline{V_i}$ ja pallo $B$ leikkaavat, niin $\overline{V_i}$ sisältyy $(1+2c_2)\rho$-säteiseen palloon, joka on samankeskinen $B$:n kanssa. Jos $q$ kappaletta kokoelman $\{ V_i \}$ alkioista leikkaa palloa $B$, niin laskemalla yhteen vastaavien sisäpallojen tilavuudet saamme epäyhtälön $q(c_1\rho)^n \leq (1+2c_2)^n \rho ^n$. Tässä $n$ osoittaa tarkasteltavan avaruuden $\Rn$ dimensiota. Lausekkeesta on eliminoitu pallon tilavuuden $n$-riippuvat kertoimet, koska ne ovat samat sekä ulko- että sisäpalloille. Osajoukkojen lukumäärän yläraja $q$ seuraa suoraan tästä epäyhtälöstä. $\laatikko$ 
+
+Nyt voimme siirtyä päätulosten todistamiseen. Olemme olettaneet, että similariteettien kokoelma $\{ \Psi_j  \}_1^m$ toteuttaa avoimuusehdon ja $E$ on vastaava yksikäsitteinen kompakti invariantti joukko. Todistamme, että jos $s$ määräytyy yhtälöstä~\eqref{eq:simi}, niin  $0 < \Hs (E) < \infty$. Tällöin $E$ on positiivisesti $\Hs$-mitallinen, eli $s$-joukko. Lisäksi osoitamme, että erillisten similariteettien kuvajoukkojen leikkaus on Hausdorffin mielessä nollamittainen kuvattaessa joukkoa $E$. 
+
+\newtheorem{paalause}[lauseet]{Lause}
+\begin{paalause}
+	\label{lauseet:paalause}
+	
+	$E$ on $s$-joukko, jossa $s$ määräytyy yhtälöstä
+
+\[
+	\sum_{j=1}^m r_j^s = 1.
+\]
+	
+\end{paalause}
+
+\textsc{Todistus:}
+
+(i) Tutkitaan ensin joukon Hausdorffin mitan ylärajaa. Invariantille joukolle $E$ pätee määritelmänsä mukaan $E = \Psi (E) \onon \Ujm \Psi_j (E)$. Tätä iteroimalla saamme
+
+\begin{equation}
+\label{eq:EU}
+	E = \Unioni_{j_1 \dots j_k} E_{j_1 \dots j_k}. 
+\end{equation}
+
+Kun $s$ toteuttaa ehdon~\eqref{eq:rksumma}, niin
+
+\[
+	\sum_{j_1 \dots j_k} |E_{j_1 \dots j_k}|^s = \sum_{j_1 \dots j_k} |E|^s (r_{j_1} \dots r_{j_k})^s = |E|^s.
+\]
+
+Esimitta on kaikkien joukon $E$ mahdollisten $\delta$-peitteiden $s$-potenssisummien suurin alaraja. Yhtälöistä~\eqref{eq:Ejdots} ja~\eqref{eq:EU} näemme, että joukkojen kokoelma $\{ E_{j_1 \dots j_k} \}$ on riittävän suurella $k$ eräs joukon $E$ $\delta$-peite. Kompaktin joukon $E$ lävistäjä ja parametri $s$ ovat äärellisiä. Saamme siis joukon $E$ Hausdorffin mitalle ylärajan
+
+\begin{equation}
+\begin{split}
+	\Hs (E) 
+	& = lim_{\delta \ON 0} \Hsd (E) \\
+	& = lim_{\delta \ON 0} inf \sum_i |U_i|^s \\
+	& \leq lim_{k \ON \infty} \sum_{j_1 \dots j_k} |E_{j_1 \dots j_k}|^s \\
+	& = |E|^s < \infty.
+\end{split}
+\end{equation}
+
+(ii) Oletetaan, että avoin joukko $V$ sisältää $c_1$-säteisen pallon ja toisaalta sisältyy $c_2$-säteiseen palloon. Valitaan mielivaltainen $\rho > 0$ ja tarkastellaan äärettömän pitkiä jonoja $j_1, j_2, \dots$, joiden alkioille pätee $1 \leq j_i < m$. Katkaistaan jokainen tällainen jono viimeisen $k \geq 1$ kohdalta, jolle 
+
+\begin{equation}
+	\label{eq:arrat}
+	(min_j r_j)\rho \leq r_{j_1} \dots r_{j_k} \leq \rho
+\end{equation}
+
+Olkoon $\Lclass$ tällä tavoin saatujen äärellisten jonojen kokoelma. Osoitamme tuonnempana, että erillisten similariteettien kuvajoukkojen leikkaus on Hausdorffin mitan mielessä enintään nollamittainen. Avoimille joukoille $V$ muodostettava kokoelma $\{ V_{j_1 \dots j_k}\}$ muodostuu erillisistä joukoista. 
+
+Jokainen kokoelman alkio $V_{j_1 \dots j_k}$ sisältää pallon, jonka säde on $c_1 r_{j_1} \dots r_{j_k}$ ja siten epäyhtälön~\eqref{eq:arrat} nojalla edelleen sellaisen, jonka säde on $c_1 (min_j r_j) \rho$. Kokoelma $\{ V_{j_1 \dots j_k}\}$ sisältyy palloon, jonka säde on $c_2 r_{j_1} \dots r_{j_k}$, ja edelleen $c_2 \rho$-säteiseen palloon.
+
+Merkitään jokaista kokoelman $\Lclass$ jonoa kohden
+
+\begin{equation}
+\begin{split}
+	\mu_{j_1 \dots j_k} (F) 
+	=\mu ((\Psi_{j_1} \circ \dots \circ \Psi_{j_k})^{-1}(F))
+	=\mu (\Psi_{j_k}^{-1} \circ \dots \circ \Psi_{j_1}^{-1} (F)).
+\end{split}
+\end{equation}
+
+Nyt $\mu_ {j_1 \dots j_k} (\Rn)=1$, sillä avaruus $\Rn$ on itsensä alkukuva. Mitalla $\mu_{j_1 \dots j_k}$ on joukkoon $E_{j_1 \dots j_k} = \Psi_{j_1} \pallo \dots \pallo \Psi_{j_k} (E)$ sisältyvä kantaja, koska lemman~\ref{lauseet:lemma1} nojalla $E$ on $\mu$:n kantaja. Oletamme, että $E$ sisältyy joukkoon $V$, jolloin $E_{j_1 \dots j_k} \osajoukko V_{j_1 \dots j_k}$. Yhtälöstä~\eqref{eq:lemma1}
+
+\begin{equation}
+	\label{eq:myyjiit}
+	\mu_{j_1 \dots j_k} = \sum_j r_j^s \mu_{j_1 \dots j_k j}.
+\end{equation}
+
+Iteroimalla yhtälöä~\eqref{eq:myyjiit} saamme nyt
+
+\[
+	\mu = \sum_{j_1 \dots j_k} (r_{j_1} \dots r_{j_k})^s \mu_{j_1 \dots j_k},
+\]
+
+siten että 
+
+\[
+	\mu (B) \leq \sum (r_{j_1} \dots r_{j_k})^s \mu_{j_1 \dots j_k} (\Rn ),
+\]
+
+missä summa lasketaan niiden kokoelman $\Lclass$ jonojen yli, joita vastaava suljettu joukko $\overline{V_{j_1 \dots j_k}}$ leikkaa palloa $B$. 
+
+Lemman~\ref{lauseet:lemma2} nojalla jokainen $\rho$-säteinen pallo $B$ leikkaa enintään 
+
+\[
+	q = (1+2c_2 )^n c_1^{-n} (min_j r_j)^{-n}
+\]
+
+kappaletta kokoelman $\{ \overline{V_{j_1 \dots j_k}}\}$ alkioista. Koska $E$ on mitan $\mu$ kantaja, saamme $\mu(E) = \mu (\Rn) = 1$. Siten
+
+\[
+	\mu (B) \leq q \rho ^s = q 2^{-s} |B|^s
+\]
+
+jokaiselle pallolle $B$, jonka lävistäjä on pienempi kuin joukon $V$ lävistäjä.
+
+Olkoon $\{ U_i \}$ jokin joukon $E$ peitekokoelma. Voimme peittää joukon $E$ myös sellaisella pallojen kokoelmalla $\{ B_i \}$, jonka alkioiden lävistäjille pätee $|B_i|<2|U_i|$. Siten 
+
+\[
+	1 = \mu (E) \leq \sum_i \mu (B_i) \leq q 2^{-s} \sum_i |B_i|^s \leq q \sum_i |U_i|^s.
+\]
+ 
+Hausdorffin mitan määritelmän nojalla summa $\sum_i |U_i|^s$ saadaan mielivaltaisen lähelle arvoa $\Hs (E)$, kun kokoelma $\{ U_i \}$ valitaan sopivasti. Saamme alarajan $\Hs (E) \geq \frac{1}{q} > 0$. $\laatikko$
+
+Tarkastelemme nyt joukon $E$ kuvajoukkoja, jotka saadaan erillisillä kokoelman $\{ \Psi_j \}_1^m$ similariteeteilla. Osoitamme, että avoimuusehdon vallitessa kuvajoukkojen leikkaus on Hausdorffin mitan mielessä nollamittainen joukko.
+
+\newtheorem{seuraus}[lauseet]{Seuraus}
+\begin{seuraus}
+	\label{lauseet:seuraus}
+
+	$\Hs (\Psi_i (E) \leikkaus \Psi_j (E) ) = 0$, kun $i \neq j$. 
+
+\end{seuraus}
+
+\textsc{Todistus:}
+
+Merkitsemme jälleen similariteetin $\Psi_j$ astetta symbolilla $r_j$. Oletuksen mukaan $\sum_j r_j^s = 1$. Koska $\{ \Psi_j \}_1^m$ on avoimuusehdon toteuttava similariteettien kokoelma ja $E$ vastaava kompakti ja invariantti joukko, pätee 
+
+\begin{equation}
+\label{eq:add}
+	\sum_{j=1}^m \Hs(\Psi_j (E)) = \sum_{j=1}^m r_j^s \Hs (E) = \Hs (E).
+\end{equation}
+
+Toisaalta Hausdorffin mitalle pätee peitetarkastelun nojalla
+
+\begin{equation}
+\begin{split}
+	\sum_{j=1}^m \Hs(\Psi_j (E)) 
+	& = \Hs(\Psi_1 (E)) + \dots + \Hs(\Psi_m (E)) \\
+	& = \Hs(\Psi_1 (E) \unioni \dots \unioni \Psi_m (E)) + \sum_{i \eiole j} \Hs (\Psi_i (E) \leikkaus \Psi_j (E)) \\
+	& = \Hs (E) + \sum_{i \eiole j} \Hs (\Psi_i (E) \leikkaus \Psi_j (E)).
+\end{split}
+\end{equation}
+
+Lauseen~\ref{lauseet:paalause} mukaan $0< \Hs (E) < \infty$. Yhtälö~\eqref{eq:add} voi toteutua vain, kun
+
+\[
+	\Hs (\Psi_i (E) \leikkaus \Psi_j (E) ) = 0 \text{, kun } i \neq j. \laatikko
+\]
+ 
+Olemme olettaneet, että $E$ on avoimuusehdon toteuttavaa similariteettien kokoelmaa $\{ \Psi_j \}_1^m$ vastaava invariantti joukko. Lauseen~\ref{lauseet:paalause} nojalla on olemassa yhtälöstä~\eqref{eq:simi} määräytyvä parametri $s$ siten, että $0 < \Hs (E) < \infty$. Seurauksen~\ref{lauseet:seuraus} mukaan kokoelman $\{ \Psi_j \}_1^m$ erillisten similariteettien kuvajoukkojen leikkaus on tyhjä joukko. $E$ on tällöin määritelmän mukaisesti itsesimilaari ja sen similaaridimensio yhtyy Hausdorffin dimensioon. 
+
+\pagebreak
+\section{Esimerkkejä}
+Esimerkkejä itsesimilaareista joukoista voitaisiin konstruoida loputtomiin. Seuraavassa esitellään muutama kuuluisimmista. Kuvat on koottu oheiseen liitteseen. 
+
+\subsection{Cantorin joukko}
+Cantorin $\frac{1}{3}$-joukko on esimerkki yksikäsitteisestä kompaktista joukosta, joka on invariantti reaaliakselilla määritellylle similariteettien kokoelmalle
+
+\[
+	\Psi_1 (x) = x/3 \text{  , } \Psi_2 (x) = x/3 + 2/3.
+\]
+
+Joukon konstruoinnissa päistään avoimen yksikköjanan $E_0$ keskeltä poistetaan suljettu joukko, jonka pituus on $\frac{1}{3}$. Jäljelle jää kaksi molemmista päistään avointa janaa, kumpikin pituudeltaan $\frac{1}{3}$. Olkoon tämä joukko $E_1$. Vastaava keskustan poisto suoritetaan nyt erikseen kummallekin näistä kahdesta janasta, jolloin saadaan neljän pienemmän janan joukko $E_2$. Prosessia toistetaan loputtomiin (Kuva 1). Raja-arvo $lim_{n \ON \infty} E_n = E$ on invariantti kuvausten $\Psi_1, \Psi_2$ suhteen. Avoimuusehto on voimassa, sillä avaruudessa $\Ryks$ avoimen yksikköjanan kuvajoukot sisältyvät yksikköjanaan, eikä niillä ole yhteisiä pisteitä.
+
+Itsesimilaarin joukon $E$ Hausdorffin dimensio voidaan nyt määrittää kaavasta~\eqref{eq:simi}. Kummankin similariteetin aste on $1/3$, joten saamme yhtälön 
+
+\[
+	\sum_{j=1}^m r_j^s = (\frac{1}{3})^s + (\frac{1}{3})^s = 1.
+\]
+
+Cantorin $\frac{1}{3}$-joukon similaaridimensio $s = \frac{log 2}{log 3} \approx 0,63$ saadaan tämän ratkaisuna.
+
+\subsection{Lumihiutalekäyrä}
+Tämä fraktaali tunnetaan myös von Kochin käyränä. Sen suljettu muoto muistuttaa lumihiutaletta. 
+
+Esittelen lumihiutalekäyrän muokatun version, joka konstruoidaan seuraavasti: Ensin valitaan jokin positiivinen reaaliluku $a \leq \frac{1}{3}$. Tämän jälkeen korvataan suoran yksikköjanan keskiosa rypyllä, joka muodostuu tasasivuisen kolmion kahdesta $a$:n pituisesta sivusta. Näin saamme käyrän $L_1$. Se on neljän janan yhdiste, joista kullekin toistetaan samat neljä kuvausta. Prosessia jatketaan rajatta (Kuva 2). Raja-arvona saatava joukko on invariantti niiden neljän similariteetin joukolle, joista jokainen kuvaa yksikköjanan yhdeksi käyrän $L_1$ neljästä osajanasta. 
+
+Similariteettien kokoelma täyttää avoimuusehdon. Esimerkiksi avoin tasasivuinen kolmio, jonka sivun pituus on yksi on avoimuusehdon vaatima joukko avaruudessa $\Rkaks$.
+
+Päätyjanat yksikköjanasta tuottavien kuvausten asteet ovat $\frac{1-a}{2}$. Rypyn sivut tuottavien kuvausten asteet ovat $a$. Muokatun lumihiutalekäyrän Hausdorffin dimensio on siten yhtälön 
+
+\[
+	2 a^s + 2 (\frac{1-a}{2} )^s=1
+\]
+
+ratkaisu. Esimerkiksi tapauksessa $a=\frac{1}{3}$ saamme lumihiutalekäyrän Hausdorffin dimensioksi $s = \frac{log 4}{log 3} \approx 1,262$.
+
+Mikäli parametri $a$ valittaisiin suuremmaksi kuin 1/3, menettäisimme avoimuusehdon vaatimuksen kuvajoukkojen leikkauksen nollamittaisuudesta.
+
+\subsection{Sierpi\'nskin kolmioverkko}
+
+Aloitamme poistamalla avoimen tasasivuisen kolmion keskeltä toisinpäin käännetty pienempi tasasivuinen kolmio, jonka kulmat sivuavat alkuperäisen kolmion sivuja. Näin saadaan neljä pienempää kolmiota, joille toistetaan sama operaatio. Prosessia jatketaan rajatta ja sen raja-arvona saatava pistejoukko on Sierpi\'nskin kolmioverkko (Kuva 3). 
+
+Se on invariantti niiden kolmen similariteetin joukolle, jotka kuvaavat alkuperäisen kolmion tällaiseksi kolmiojoukoksi. Tässä tapauksessa jokaisen similariteetin aste on selvästi $\frac{1}{2}$. Alkuperäisen kolmion sisus on avaruudessa $\Rkaks$ avoimuusehdon vaatima avoin joukko.
+
+Similaaridimensio lasketaan nyt yhtälöstä $\sum_1^3 (\frac{1}{2})^s=1$, jonka ratkaisuna saamme $s = \frac{log 3}{log 2} \approx 1,585$. 
+
+
+\pagebreak
+
+\begin{thebibliography}{99}
+  \addcontentsline{toc}{section}{Bibliography}
+
+\bibitem{Hutson} Hutson, V. and Pym, J. S.: \emph{Applications of Functional Analysis and Operator Theory}, Academic Press 1980. Theorem 4.3.4.
+\bibitem{Hutson2} Hutson, V. and Pym, J. S.: \emph{Applications of Functional Analysis and Operator Theory}, Academic Press 1980. Theorem 6.4.1.
+\bibitem{Falc1} Falconer, K. J: \emph{The Geometry of Fractal Sets}, Cambride University Press 1985.
+\bibitem{Falc2} Falconer, K. J: \emph{Fractal Geometry: Mathematical Foundations and Applications}, Wiley \& Sons 1990.
+\bibitem{Hutch} Hutchinson, John E: \emph{Fractals and Self Similarity}, Indiana University Mathematics Journal, Vol. 30, No. 5 (1981). 
+\bibitem{Chaos} Gleick, James: \emph{Chaos}, William Heynemann Ltd 1988.
+\bibitem{Rudin} Rudin, W: \emph{Real and Complex Analysis}, McGraw-Hill 1966.
+
+\end{thebibliography}
+ 
+\end{document}
+
+%\begin{figure}[htbp]
+%  \begin{center}
+%    \leavevmode
+%    \subfigure{file=/m/fs/user7/a/91/lmlahti/Opinnot/similar/kuvat/cantor.gif}
+%  
+%    \mycaption{The $\tau^+$-$e^+$ vertex distance from the beam line (z-axis) in the xy-plane. Continuous line stands for $\mathrm{h}$ parent, dark dots for $\mathrm{H}$ and lighter dots for $\mathrm{A}$.}
+%
+%\label{fig:dxytau}
+%
+%\end{center}
+%\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

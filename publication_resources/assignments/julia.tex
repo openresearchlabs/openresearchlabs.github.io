@@ -1,0 +1,667 @@
+\documentclass[a4paper,12pt,titlepage]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+\usepackage[dvips]{graphics}
+\usepackage{subfigure}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{stmaryrd}
+\usepackage{bbm}
+\usepackage{textcomp}
+\usepackage[finnish]{babel}
+
+\setlength{\textwidth}{140mm}
+\setlength{\parindent}{0mm}
+\setlength{\parskip}{3mm plus0.5mm minus0.5mm}
+ 
+\title{Julian joukko iteraatioiden valuma-altaan reunana}
+\author{Leo Lahti}
+\date{31.1.2002}
+ 
+\begin{document}
+ 
+\newcommand{\mycaption}[1]{\caption{\small{#1}}}
+
+\newcommand{\Cexp}{\mathbb{C} \cup \infty}	% Laajennettu Kompleksitaso
+\newcommand{\C}{\mathbbm{C}}	 		% Kompleksitaso
+\newcommand{\N}{\mathbb{N}}			% Luonnolliset luvut
+\newcommand{\Nexp}{\mathbb{N}_0}		% Luonnolliset luvut ja 0
+\newcommand{\Z}{\mathbb{Z}}			% Kokonaisluvut
+
+
+\newcommand{\ON}{\rightarrow}                   % Oikea nuoli
+\newcommand{\kuvaa}{\mapsto}                    % Kuvausnuoli
+\newcommand{\Imply}{\Longrightarrow}            % Implikaatio
+
+\newcommand{\VN}{\lefttarrow}                   % Vasen nuoli
+\newcommand{\Implyleft}{\Leftarrow}             % Vasemmalle Implikaatio
+
+\newcommand{\ekvi}{\Leftrightarrow}             % Ekvivalenssi
+
+\newcommand{\pallo}{\circ}                      % pallo
+
+\newcommand{\f}{\mathrm{f}\colon}               % funktio f:
+\newcommand{\fn}{f^{\circ n}}		        % funktion f iteraatti n
+\newcommand{\fk}{f^{\circ k}}         		% funktion f iteraatti k
+\newcommand{\fp}{f^{\circ p}}       		% funktion f iteraatti p
+\newcommand{\fj}{f^{\circ j}}		        % funktion f iteraatti j
+\newcommand{\fm}{f^{\circ m}}		        % funktion f iteraatti m
+\newcommand{\fkm}{f^{\circ -k}}       		% funktion f takaiteraatti k
+
+
+\newcommand{\g}{\mathrm{g}}                     % funktio g
+\newcommand{\w}{\mathrm{w}}                     % piste w
+\newcommand{\p}{\mathrm{p}}                     % p
+
+\newcommand{\vastaa}{\doteq}	                % yhtäsuuruus plus sirkumfleksi
+\newcommand{\onon}{\equiv}                      % kolmoisyhtäsuuruus
+\newcommand{\eiole}{\neq}			% ei ole yhtä kuin
+
+\newcommand{\infinity}{\infty}		        % ääretön
+\newcommand{\kuuluu}{\in}	                % kuuluu
+\newcommand{\eikuulu}{\notin}		        % ei kuulu
+\newcommand{\osajoukko}{\subset} 	        % osajoukko
+\newcommand{\ylijoukko}{\supset} 	        % osajoukko toiseen suuntaan
+\newcommand{\pois}{\smallsetminus}		% poistetaan joukko ...
+
+\newcommand{\unioni}{\cup}                	% unioni
+\newcommand{\leikkaus}{\cap}                    % leikkaus
+\newcommand{\UK}{\bigcup_{k=1}^{\infty}}  	% unioni k=1->ääretön
+\newcommand{\UKn}{\bigcup_{k=0}^{\infty}}  	% unioni k=0->ääretön
+
+\newcommand{\laatikko}{\Box}	               	% todistettu-laatikko
+\newcommand{\tyhja}{\emptyset}               	% tyhjä joukko
+\newcommand{\onolemassa}{\exists}	        % on olemassa
+\newcommand{\patee}{\forall}	               	% pätee
+
+\newcommand{\pty}{\leq} 	       		% pienempi tai yhtäsuuri
+\newcommand{\sty}{\geq} 	       		% suurempi tai yhtäsuuri
+
+\newcommand{\reuna}{\partial} 	        	% reunan merkki 
+
+\newcommand{\aaa}{\"a} 	        		% ä matikkamoodia varten
+\newcommand{\ooo}{\"o} 	        		% ö matikkamoodia varten
+
+\newcommand{\J}{\mathcal{J}} 	       		% Julian joukko
+\newcommand{\F}{\mathcal{F}} 	       		% Fatoun joukko
+\newcommand{\Jf}{\mathcal{J}(f)}       		% Julian joukko funktiolle f
+\newcommand{\Ff}{\mathcal{F}(f)}       		% Fatoun joukko funktiolle f
+\newcommand{\Jfn}{\mathcal{J}(f^{\circ n})}     % Julian joukko funktiolle fn
+\newcommand{\Ffn}{\mathcal{F}(f^{\circ n})}     % Fatoun joukko funktiolle fn
+
+\newcommand{\perhe}{\mathcal{P}}       		% perhe P
+\newcommand{\perheD}{\mathcal{P}_D}     	% perhe P_D
+\newcommand{\Pfk}{\{ f^{\circ k} \}}            % funktion f iteraattien k perhe
+\newcommand{\Pfki}{\{ f^{\circ k_i} \}}         % funktion f iteraattien k_i perhe
+\newcommand{\Pfkip}{\{ f^{\circ k_i'} \}}        % funktion f iteraattien k_i' perhe
+\newcommand{\Pfn}{\{ f^{\circ n} \}}            % funktion f iteraattien n perhe
+
+\newcommand{\kip}{\circ k_i'}			% k_i pilkku
+
+\newcommand{\lainaus}{\textquotedblright} 	% lainausmerkki
+
+%\newcommand{\}{\} 	        		% 
+%\newcommand{\}{\} 	        		% 
+
+
+\begin{titlepage}
+  \begin{tabbing}
+    \hspace*{9cm} \= \\
+    TEKNILLINEN KORKEAKOULU \> ERIKOISTYÖ \\
+    Teknillisen fysiikan ja matematiikan osasto \> Mat-1.139 Matematiikka \\
+    \> \today \\
+  \end{tabbing}
+  \vspace{4cm}
+  \begin{center}
+    {\large {\bf Julian joukko iteraatioiden valuma-altaan reunana}}
+    \vspace{10cm} \\
+    Leo Lahti\linebreak
+    49791N
+    \vspace{2.5cm}
+  \end{center}
+\end{titlepage}
+
+\tableofcontents
+\pagebreak
+\pagebreak
+ 
+\section{Johdanto}
+
+	Kompleksinen iterointi on esimerkki dynaamisesta systeemistä, jollaisten tutkimus on kasvanut valtavasti viime vuosikymmeninä. Vuosisadan vaihteessa virinnyt tutkimus sai uutta puhtia 60-luvulla, kun tietokoneiden kehitys mahdollisti numeeriset kokeet. Kaoottisten systeemien käyttäytymisessä paljastui piilevää säännönmukaisuutta, joka oli aikaisemmin jäänyt vaille huomiota. Sittemmin determinististen systeemien kaoottisen luonteen käsittelyyn on kehitetty tehokkaita matemaattisia menetelmiä, joilla on laajalti sovelluksia tärkeiden epälineaaristen ongelmien ratkonnassa fysiikasta ja kemiasta ekologiaan ja taloustieteisiin. 
+
+	Ensimmäisen Maailmansodan aikana Pierre Fatou ja Gaston Julia tutkivat rationaalifunktioiden iterointia ja havaitsivat kompleksitason jakautumisen kahteen käytökseltään radikaalisti erilaiseen joukkoon. Fa\-toun jou\-kos\-sa funk\-ti\-o\-i\-te\-raat\-ti\-en perhe käyttäytyy siististi ja ennustettavasti, mutta Julian joukon ympäristössä käytös on kaoottinen ja äärimmäisen herkkä lähtöarvoille. Ranskalaismatemaatikoiden tutkimukset ovat olleet pohjana myöhemmille epälineaaristen rationaalifunktioiden iterointia käsitteleville teorioille.
+	Julian joukot ovat esimerkki siitä, kuinka yksinkertaiset prosessit voivat johtaa tarkastelemaan erittäin monimutkaisia joukkoja. Yksinkertaisten kompleksitason funktioiden kuten $z^2+c$ iterointi synnyttää eksoottisia fraktaaleita, äärettömän ryppyisiä joukkoja, joiden rakenteessa piilee hämmästyttävää säännönmukaisuutta. Mielivaltaisen lähellä toisiaan olevien pisteiden iteraatit saattavat iteroitua Julian joukon reuna-alueelta mielivaltaisen etäälle, lukkiutua kiintopisteeseen tai kiertää loputonta kehää palaamatta milloinkaan samaan arvoon. Julian sanoin, \lainaus \emph{la structure de $\J$ est la m\^eme dans toutes ses parties.}\lainaus 
+
+	Koetan tässä työssä valottaa funktioiteraatioiden käyttäytymisen yleisiä piirteitä tarkastelemalla kompleksitason epälineaaristen polynomien iterointia. E\-sittelen Julian joukon perusominaisuuksia ja todistan kattavasti sen roolin iteraatioden valuma-altaan reunana. Useimmat tulokset pätevät pienellä hienosäädöllä myös laajennetun kompleksitason rationaalifunktioille. 
+	Ensisijaisina lähteinäni ovat olleet Falconerin fraktaaligeometriaa \cite{Falconer} ja Beardonin rationaalifunktioiden iterointia \cite{Beardon} käsittelevät teokset. Carlesonin ja Steinmetzin kirjat \cite{Carleson, Steinmetz} ovat täydentäneet todistusarsenaalia ja avanneet vaihtoehtoisia näkökulmia. Havainnollisia esimerkkejä ja runsaasti taustatietoa olen löytänyt kaaosta popularisoivista teoksista \cite{Chaos, Devaney}. Sivuuttamiani kompleksianalyysin todistuksia on käsitelty mm. Ahlforsin, Palkan ja Rudinin kirjoissa \cite{Rudin, Palka, Ahlfors}.
+
+\pagebreak
+\section{Pistejoukkojen stabiilisuus polynomi-iteraatiossa} 
+
+	Tarkastelen tässä työssä kompleksikertoimisten polynomien $f \colon \C \kuvaa \C$ iterointia. Funktion $f$ $k$:s \emph{iteraatti} pisteessä $z$ on 
+
+	\[ \fk(z) \vastaa \underbrace{f \pallo f \pallo \dots \pallo f}_k (z), \]
+
+	missä $k$ on luonnollinen luku. Kun funktio on asiayhteydestä tunnettu, voimme vaihtoehtoisesti puhua pisteen $z$ iteraateista, jolloin tarkoitamme funktion pisteessä $z$ laskettujen iteraattien arvoja. Sanomme, että piste $z$ \emph{iteroituu} kohti pistettä $w$, mikäli sen iteraatit lähestyvät rajatta pistettä $w$. 
+
+%eli jos $\fk (z) \ON w$, kun $k \ON \infinity$.
+
+\subsection{Periodisten pisteiden luokittelu}
+
+	Piste, joka kuvautuu itselleen, on funktion \emph{kiintopiste}. Jos funktion iteraatit pisteessä $w$ palaavat tähän lähtöarvoonsa äärellisellä iterointikierrosten määrällä, sanomme että $w$ on funktion \emph{periodinen piste}. Pienin tällainen iterointikierrosten määrä on pisteen $w$ \emph{periodi}. On huomattava, että funktion $f$ $p$-periodinen piste on funktion $\fp$ kiintopiste. 
+
+	Periodisen pisteen $w$ \emph{rata} on niiden pisteiden kokoelma, jotka sen iteraatit saavat arvokseen ennen paluuta lähtöarvoon: 
+
+\[
+	\{ w, f(w), f^{\circ 2}(w), ... , \fp (w) \}.
+\]
+
+	Ei-periodisen pisteen rata on sen kaikkien iteraattien kokoelma. 
+
+	Olkoon $w$ funktion $f$ periodinen piste periodilla $p$, jolloin $\fp(w)=w$. Merkitään lyhyemmin $g(z)=\fp (z)$ ja $g'(z)= (\fp)'(z) = \lambda$. Taylorin sarjakehitelmästä 
+
+\[
+	g(z)=\sum_{i=0}^{\infinity} {\frac{g^{(i)} (w)}{i!} (z-w)^i} \approx g(w)+g'(w)(z-w) = g(w)+\lambda (z-w)
+\]
+	näemme, että kun $|\lambda |<1$, pisteen $w$ koko ympäristö iteroituu siihen, ja mikäli $\lambda =0$, iteraattien suppeneminen on hyvin nopeaa. Jos $|\lambda |>1$, iteraatit puolestaan pyrkivät etääntymään pisteen ympäristöstä ainakin ensimmäisillä iteraatiokierroksilla. Niiden pisteiden, joissa $|\lambda |=1$ ympäristössä iteraattien käyttäytymisestä ei yleisesti voida sanoa juuri mitään. Kompleksitason periodiset pisteet $w$ voidaankin luontevasti luokitella tämän ominaisuuden mukaisesti. Sanomme, että piste $w$ on
+
+\begin{tabular}{ll}
+
+	 \emph{superattraktiivinen}, jos 	  & $\lambda=0$		\\
+	 \emph{attraktiivinen}, jos 		  & $0 < |{\lambda}|<1$ \\
+	 \emph{indifferentti}, jos 	 	  & $|{\lambda}|=1$   	\\
+	 \emph{hylkivä}, jos 			  & $|{\lambda}|>1$.   	\\
+
+\end{tabular}
+
+	Äärettömyyspiste $\infinity$ luokitellaan polynomien superattraktiiviseksi kiintopisteeksi.
+
+\subsection{Määritelmiä}
+
+	Määrittelemme seuraavaksi muutamia peruskäsitteitä ja lauseita, joita tarvitsemme polynomi-iteraatioiden teorian käsittelyssä. 
+
+	Olkoon $U$ kompleksitason avoin osajoukko ja $\perhe\colon U\kuvaa\C$ funktioperhe, jonka jäsenet ovat kompleksianalyyttisiä joukossa $U$.
+
+\newtheorem{lauseet}{Määritelmä}
+\begin{lauseet}[Normaali perhe]
+	\label{lauseet:normaali}
+	
+	Funktioperhe $\perhe$ on normaali joukossa  $U$, jos jokaisella siitä poimitulla funktiojonolla on osajono, joka suppenee tasaisesti kaikissa $U$:n kompakteissa osajoukoissa. Rajafunktiona on joko rajoitettu kompleksianalyyttinen funktio tai identtisesti ääretön.
+	
+	Perhe $\perhe$ on normaali pisteessä $w \kuuluu U$, jos se on normaali jossakin pisteen $w$ avoimessa ja epätyhjässä ympäristössä $V \osajoukko U$.
+
+\end{lauseet}
+
+Tehokas väline joukon normaaliuden tutkimiseen on Montelin lause \cite{Ransford, Conway}. Kyseessä on syvällinen kompleksianalyysin tulos. Sivuutamme lauseen todistuksen. 
+
+	Olkoon $\perheD$ alueessa $D$ määriteltyjen analyyttisten funktioiden perhe.
+
+\newtheorem{Montel}[lauseet]{Lause}
+\begin{Montel}[Montel]
+	\label{lauseet:Montel}
+	
+	Jos on olemassa kaksi kompleksitason pistettä $a$ ja $b$, jotka eivät kuulu yhdenkään perheen $\perheD$ funktion $g_k$ kuvajoukkoon, eli jos
+
+\[
+	\{a, b\} \leikkaus g_k(D) = \{\tyhja\}
+\]
+
+	kaikilla $g_k \kuuluu \perheD$, niin perhe $\perheD$ on normaali alueessa $D$.   
+
+\end{Montel}
+
+Fatoun ja Julian joukot määritellään perinteisesti normaaliuden avulla.
+
+\newtheorem{Fatou}[lauseet]{Määritelmä}
+\begin{Fatou}[Fatoun joukko]
+	\label{lauseet:Fatou}
+
+	Funktion $f$ Fatoun joukko on niiden pisteiden kokoelma, joissa iteraattien perhe $\{ \fk \}$ on normaali.
+
+\end{Fatou}
+
+\newtheorem{Julia}[lauseet]{Määritelmä}
+\begin{Julia}[Julian joukko]
+	\label{lauseet:Julia}
+	Julian joukko on Fatoun joukon komplementti.
+\end{Julia}
+
+	Merkitsemme jatkossa funktion $f$ Fatoun joukkoa $\Ff$ ja Julian joukkoa $\Jf$. Kun tarkasteltava funktio on asiayhteydestä selvä, voimme merkitä joukkoja lyhyemmin symboleilla $\F$ ja $\J$. 
+
+	Julian joukko on niiden pisteiden kokoelma, joissa perhe $\{ \fk \}$ ei ole normaali. Voimme johtaa polynomien Julian joukoille intuitiivisemman määritelmän kompleksianalyysin perustuloksiin kuuluvan Arzel\`a-Ascolin lauseen~\cite{Ahlfors} avulla. Lauseen mukaan normaalius ja yhtäjatkuvuus ovat ekvivalentteja ominaisuuksia tarkasteltaessa jatkuvia funktioita. 
+
+	Määrittelemme ensin \emph{yhtäjatkuvuuden}, joka on funktioperheen ominaisuus ja luonteeltaan tavanomaista jatkuvuutta vahvempi. Se poikkeaa tavanomaisesta jatkuvuudesta siten, että voimme löytää kaikille perheen funktioille ja määrittelyjoukon pisteille \emph{yhteisen} jatkuvuusparametrin $\delta$. 
+
+\newtheorem{equicont}[lauseet]{Määritelmä}
+\begin{equicont}[Yhtäjatkuvuus]
+	\label{lauseet:equicont}
+	
+	Olkoot $(X_1, d_1)$ ja $(X_2, d_2)$ metrisiä avaruuksia. Kuvauksien $f\colon X_1 \kuvaa X_2$ perhe on yhtäjatkuva, jos jokaista $\varepsilon >0$ kohti on olemassa $\delta >0$ siten, että
+
+\[
+	d_1(x, y) < \delta \Imply d_2(f(x), f(y))<\varepsilon
+\]
+
+	pätee perheen kaikille funktioille $f$ ja määrittelyjoukon pisteille $x, y \kuuluu X_1$.
+
+\end{equicont}
+
+\newtheorem{Arzela}[lauseet]{Lause}
+\begin{Arzela}[Arzel\`a-Ascoli]
+	\label{lauseet:Arzela}
+
+	Alueessa $D \osajoukko \C$ määriteltyjen jatkuvien kuvausten perhe on normaali alueessa $D$ jos ja vain jos se on yhtäjatkuva alueessa $D$.
+ 
+\end{Arzela}
+
+	Fatoun joukko $\Ff$ voidaan siis vaihtoehtoisesti määritellä niiden pisteiden joukoksi, jossa funktioperhe $\{\fk\}$ on yhtäjatkuva. Fatoun joukkoa kutsutaan myös stabiiliksi joukoksi. Nimitys johtuu siitä, että Fatoun joukossa läheisten pisteiden radat pysyttelevät lähellä toisiaan. Määritelmän mukaan $z \kuuluu \Ff$ jos ja vain jos jokaista $\varepsilon>0$ kohti on olemassa $\delta>0$ siten, että 
+
+\[
+	|z- \xi|< \delta \Imply |\fk (z)- \fk (\xi) | < \varepsilon
+\]
+
+ 	kaikilla $k \kuuluu \N$. Tässä $\xi \kuuluu \C$ on pisteen $z$ ympäristön piste.
+
+	Julian joukko $\Jf$ on vastaavasti niiden pisteiden joukko, joissa $\{\fk\}$ ei ole yhtäjatkuva. Näiden pisteiden ympäristössä iteraattien käytös on kaoottinen ja mielivaltaisen läheisten pisteiden radat voivat joukon ympäristöstä vaeltaa äärettömän etäälle toisistaan. Tulemme osoittamaan tämän kohdassa~\ref{lauseet:W}.
+
+	Itse Julian joukon pisteet eivät kuitenkaan iteroidu joukon ulkopuolelle, eikä Julian joukkoon voida päätyä Fatoun joukon pisteitä iteroimalla. Määrittelemme \emph{invarianssin} käsitteen kuvaamaan tätä ominaisuutta.
+
+	Olkoon $E$ kompleksitason epätyhjä osajoukko. Sanomme, että $E$ on \emph{eteenpäin invariantti} funktiolle $f$, jos sen pisteet eivät kuvaudu joukon ulkopuolelle, eli $f(E) \osajoukko E$. 
+
+	Merkitsemme joukon $E$ alkukuvaa $f^{-1} (E) = \{ z \kuuluu \C \colon f(z) \kuuluu E \}$. Joukko on \emph{taaksepäin invariantti}, jos sen alkukuva ei sisällä joukon ulkopuolisia pisteitä. Tällöin $f^{-1}(E) \osajoukko E$. 
+
+	Joukko $E$ on \emph{täysin invariantti}, mikäli se on sekä eteen- että taaksepäin invariantti. Tällöin $f^{-1}(E) = E = f(E)$. Täysin invarianttiin joukkoon ei voida päätyä iteroimalla sen ulkopuolisia pisteitä eivätkä sen pisteet milloinkaan iteroidu joukon ulkopuolelle. 
+
+	Joukon täydellisestä invarianssista seuraa sen komplementin täysi invarianssi. Komplementin $\C \pois E$ pisteitä iteroimalla ei voida päätyä joukkoon $E$, koska $E$ on taaksepäin invariantti. Sen pisteet eivät myöskään voi olla joukon $E$ pisteiden iteraatteja, koska $E$ on eteenpäin invariantti. Siten myös täysin invariantin joukon komplementti on eteen- ja taaksepäin invariantti. 
+
+\subsection{Esimerkkejä}
+
+\subsubsection{Kiintopisteet Julian ja Fatoun joukoissa}
+
+	Kiintopisteen laatu, hylkivä tai (super)attraktiivinen, määrää sen kuulumisen Julian tai Fatoun joukkoon.  
+
+\newtheorem{FEsim1}[lauseet]{Esimerkki}
+\begin{FEsim1}
+	\label{lauseet:FEsim1}	
+	Attraktiiviset kiintopisteet kuuluvat Fatoun joukkoon.
+\end{FEsim1}
+
+\textsc{Todistus:}
+
+	Attraktiivisella kiintopisteellä $w$ on ympäristö $U$ ja parametri $\lambda \kuuluu (0, 1)$ siten, että 
+
+\[
+	|f(\xi)-f(\eta)|< \lambda |\xi -\eta| 
+\]	
+
+	pätee kaikille ympäristön pisteille $\xi, \eta \kuuluu U$. Tämän seurauksena
+
+\[ 
+	|\fk (\xi)- \fk (\eta)| \leq {\lambda}^n |\xi -\eta| < \lambda |\xi -\eta| 
+\]
+	kaikilla luonnollisilla luvuilla $k$ ja mielivaltaisilla pisteillä $\xi , \eta \kuuluu U$. Siten perhe $\Pfk$ on yhtäjatkuva pisteen $w$ ympäristössä ja $z \kuuluu \Ff$. $\laatikko$
+
+	Edellisen seurauksena myös attraktiiviset periodiset pisteet kuuluvat Fatoun joukkoon.
+
+\newtheorem{JEsim1}[lauseet]{Esimerkki}
+\begin{JEsim1}
+	\label{lauseet:JEsim1}
+	Hylkivät kiintopisteet kuuluvat Julian joukkoon.
+\end{JEsim1}
+
+
+\textsc{Todistus:}
+
+	Oletetaan, että $w$ on funktion $f$ hylkivä kiintopiste, jolloin $|f'(w)|>1$. Polynomina $f$ on analyyttinen koko kompleksitasossa. 
+
+	Olkoon $\Pfki$ perheestä $\Pfk$ poimittu funktiojono ja $\Pfkip$ tämän jokin osajono. Jos analyyttisten funktioiteraattien osajono $\Pfkip$ suppenisi analyyttiseen rajafunktioon $\phi$, niin vastaava iteraattien derivaattojen osajono $\{ ( f^{\circ k_i'}  ) '\}$ suppenisi kohti analyyttistä derivaattaa $\phi '$. Rajoitetussa pisteessä analyyttisen funktion derivaatta on äärellinen. Kiintopisteessä myös rajafunktiolle on pädettävä $\phi (w) = w$. Pisteessä $w$ rajafunktion derivaatan arvo $\phi ' (w)$ olisi siten äärellinen. Tämä on ristiriidassa sen kanssa, että $(\fk )'(w)=(f'(w))^k \ON \infinity$, kun $k \ON \infinity$. Yksikään jonon $\Pfki$ osajono $\Pfkip$ ei siten suppene analyyttiseen rajafunktioon $\phi$ pisteessä $w$. Määritelmän mukaan $w$ kuuluu Julian joukkoon.  $\laatikko$
+
+%	Jos nimittäin $z \eiole \infinity$ ja jos olisi $z \kuuluu \Ff$, niin jollakin $t>0$ pätisi $|w-z|<t$. Tästä seuraa edelleen 
+%
+%\[
+%	|\fn (w)| \leq |\fn (w)|-|\fn (z)| + |\fn (z)| = 1 + |z|.
+%\] 
+%
+%	Nyt 
+%
+%\[
+%	|(\fn )'(z)|= |\frac{1}{2 \pi i} \int_{S(z, t)} \frac{\fn (\xi )}{(\xi -z)^2} \, d\xi| \leq \frac{1+|z|}{t^2} \patee n \kuuluu \N,
+%\]
+%	mutta $(\fn)'(z)={\lambda}^n, |\lambda |>1$. Siis $z \kuuluu \Jf. \laatikko$
+
+	Tämän seurauksena myös hylkivät periodiset pisteet kuuluvat Julian joukkoon. Voidaan itse asiassa osoittaa, että funktion Julian joukko on sen hylkivien periodisten pisteiden joukon sulkeuma.
+
+\subsubsection{Funktion $z \ON z^2$ iterointi}
+
+	Yksinkertainen esimerkki Julian ja Fatoun joukoista tarjoaa polynomi $f(z)=z^2$, jonka iteraatit ovat muotoa $\fk (z) = z^{2^k}$. Funktion kiintopisteinä ovat pisteet 0 (attraktiivinen), 1 (hylkivä) ja $\infinity$ (attraktiivinen).
+
+	Kompleksipisteiden kulmaesitystä $z \vastaa re^{i \theta}$ tarkastelemalla näemme, että yksikköympyrän ulkopuoliset pisteet iteroituvat äärettömyyteen ja sen sisäpuoliset pisteet origoon pitkin spiraalinmuotoista rataa. Neliöinti kaksinkertaistaa kompleksiluvun argumentin $\theta$ ja neliöi sen itseisarvon $r$. 
+
+	Yksikköympyrän kehä on raja näiden kahden iteraatiojoukon välillä. Kehäpisteet eivät kuitenkaan itse suppene mainittuihin attraktiopisteisiin. Niiden iteraateilla esiintyy kahta erityyppistä käyttäytymistä. Käytös riippuu tarkasteltavan pisteen lukuteoreettisista ominaisuuksista. Tässä tapauksessa yksikköympyrän kehä on täysin invariantti ja voidaan osoittaa, että se on funktion $z^2$ Julian joukko. 
+
+	Kehän periodiset pisteet ovat muotoa $exp({\frac{2 \pi i r}{2^p}})$, missä parametrit $r$ ja $p$ ovat kokonaislukuja. Periodiset pisteet $v$ iteroituvat kiintopisteeseen 1 äärellisellä iterointikierrosten määrällä $p$, jolloin $\fp (v) = 1$. 
+
+	Kehällä on kaikkia luonnollisia periodeja $p \kuuluu \N$ vastaavia periodisia pisteitä ja jokainen kehän kaari sisältää äärettömän monta pistettä, joiden rata päättyy hylkivään kiintopisteeseen 1. 
+
+	Ei-periodisten pisteiden iteraatit eivät suppene mihinkään pisteeseen. Jos nimittäin ei-periodinen piste $z$ iteroituu pisteeseen $w$, niin $w$ on funktion $f$ yksikköympyrän kehällä oleva kiintopiste, ja siten $w=1$. Mutta $w$ on funktion $\fp$ hylkivä kiintopiste ja silloin $\fp (z) = 1$ jollakin luonnollisella luvulla $p$. Hylkivyyden seurauksena rajaton lähestyminen ei tule kyseeseen. Siten $z$ olisi periodinen piste, mikä on ristiriidassa alkuoletuksen kanssa. Kaari sisältää äärettömän monia tällaisia pisteitä, jotka jäävät kiertämään kehää järjestäytymättömästi suppenematta mihinkään. 
+
+	Periodiset pisteet ovat tiheässä. Tiheässä ovat myös ne pisteet, jotka eivät ole periodisia. Mielivaltaisen lähellä toisiaan olevien pisteiden iteraateilla voi siten olla täysin erilainen käytös.
+
+%	$(\fp)'(z)= {2^p}z^{2^p-1}$, jolloin $|(\fp)'(z)|= |{2^p}z^{2^p-1}|$. Kehällä $|z|=1$, joten $|(\fp)'(z)|=2^p>1$, joten $z$ on hylkivä periodinen piste. 
+
+\subsubsection{Funktion $z \ON z^2-1$ iterointi}
+
+	Kun iteroitava funktio on aavistuksen edeltävää esimerkkiä monimutkaisempi, niin ei-suppenevista pisteistä muodostuvan reunan rakenne muuttuu yleensä dramaattisesti ja siitä tulee \emph{fraktaali}. Satunnaisesti valitun pisteen käytös reunan lähellä on tällöin ennalta arvaamatonta. Tyypillisen esimerkin tästä tarjoaa polynomin $f (z) = z^2-1$ iterointi. 
+
+	Kuvan 1 (liite) musta reunakäyrä esittää funktion $f (z) = z^2-1$ Julian joukkoa. Reunan ulkopuolisen Fatoun joukon komponentin $\F_{\infinity}$ pisteet iteroituvat äärettömyyteen. Polynomi kuvaa Fatoun joukon kaksi komponenttia $\F_0$ (joka sisältää pisteen 0) ja $\F_{-1}$ (joka sisältää pisteen -1), ristiin toisilleen, eli
+
+\[
+	f(\F_0)=\F_{-1}, f(\F_{-1})=\F_0.
+\]
+
+	Tämä on oleellisesti seurausta siitä, että $f(0)=-1$ ja $f(-1)=0$. 
+	
+	Fatoun joukko on täysin invariantti, minkä tulemme todistamaan kohdassa~\ref{lauseet:invarianssi}. Osajoukolla $\F_{\infinity}$ on se erikoinen ominaisuus, että se on itsessään sekä eteen- että taaksepäin invariantti. Oleellisesti tämä johtuu siitä, että pisteellä $\infinity$ on tämä ominaisuus. Muut Fatoun joukon komponenttien pisteet iteroituvat kohti komponenttiparia $\F_0$, $\F_{-1}$ ja jäävät lopulta vuorottelemaan attraktiiviseen 2-periodiseen sykliin $\{ 0, -1 \}$. 
+
+	Kaikki Julian joukot eivät rajaa erillistä kompleksitason aluetta. Esimerkki tällaisesta funktiosta on $f(z)=z^2-i$ (liite, kuva 2). Kaikki joukon ulkopuolelle jäävät pisteet iteroituvat äärettömyyteen, joka on funktion ainoa attraktiivinen kiintopiste.
+
+	Muuten pisteiden käyttäytyminen Julian joukossa muistuttaa aina ensimmäisen iteraatioesimerkin $z \kuvaa z^2$ tapausta tiheine periodisine ja ei-periodisine pisteineen. Sekä funktion $f(z)= z^2-1$ että funktion $f(z)=z^2-i$ Julian joukot ovat äärimmäisen ryppyisiä, eivätkä derivoidu yhdessäkään pisteessä. Kuitenkin niiden rakenteessa havaitaan ilmeistä säännönmukaisuutta.
+
+\section{Julian joukkojen ominaisuuksia}
+
+	Fatoun ja Julian joukoilla on monia erikoisia piirteitä. Erityisesti Julian joukon ympäristössä pisteiden iteraatit käyttäytyvät ennalta-arvaamattomasti. Seuraavaksi esittelen muutamia Julian joukon perusominaisuuksia, jotka pohjustavat tämän työn päätulosta eli Julian Joukon roolia iteraatioiden valuma-altaan reunana. Ensimmäiseksi todistamme, että Julian joukko sisältää pisteitä ja on siten mielekäs käsite. 
+
+\newtheorem{tyhjyys}[lauseet]{Lause}
+\begin{tyhjyys}
+	\label{lauseet:tyhjyys}
+	Julian joukko on epätyhjä.	
+\end{tyhjyys}
+
+\textsc{Todistus:}
+
+	Olettakaamme, että Julian joukko on tyhjä. Tällöin koko kompleksitaso kuuluu Fatoun joukkoon ja perhe $\Pfk$ on normaali kaikissa kompleksitason $r$-säteisissä origokeskisissä avoimissa kiekoissa $B_r (0)$. Riittävän suurella säteellä $r$ kiekko sisältää sellaisia pisteitä $z$, joiden polynomi-iteraatit suppenevat äärettömyyteen. Kompleksisella polynomilla on asteensa osoittama määrä juuria, joten toisaalta kiekko sisältää myös polynomin $\fk$ kiintopisteen $w$, jolloin $\fk (w)=w$. Tämä pätee kaikilla luonnollisilla luvuilla $k$.
+
+	Siten yksikään perheen $\Pfk$ osajono ei voi supeta tasaisesti kohti rajoitettua analyyttistä funktiota tai ääretöntä missään kiekon $B_r (0)$ sellaisessa kompaktissa osajoukossa, joka sisältää sekä pisteen $z$ että pisteen $w$. Perheestä $\Pfk$ poimittujen jonojen osajonot eivät siis suppene tasaisesti kaikissa kompleksitason kompakteissa osajoukoissa ja siten perhe $\Pfk$ ei ole normaali koko kompleksitasossa. Tämä on ristiriidassa alkuoletuksen kanssa.              $\laatikko$
+
+
+	Kompleksitason suljettu ja rajoitettu joukko on kompakti.
+
+\newtheorem{kompakti}[lauseet]{Lause}
+\begin{kompakti}
+	\label{lauseet:kompakti}
+	Julian joukko on kompakti.
+\end{kompakti}
+
+\textsc{Todistus:} 
+
+(i) Fatoun joukon määritelmän mukaan 
+
+\[
+	\Ff = \{ z \kuuluu \C: \{ \fk \} \ on \ normaali \ perhe \ pisteessa \ z\}. 
+\]
+
+	Pisteellä $z \kuuluu \Ff$ on avoin ympäristö $V \osajoukko \C$ siten, että $\Pfk$ on normaali perhe joukossa $V$. Fatoun joukko on siis avoin. Julian joukko on suljettu, koska sen komplementti on avoin.
+	
+	(ii) Oletuksen mukaan polynomi $f$ on vähintään toista astetta. Riittävän suurella säteellä $r$ pätee $|f(z)|\sty 2|z|$, kun $|z|\sty r$. Tällöin $|\fk (z)|>2^k r$, kun $|z|\sty r$. Polynomi-iteraattien jono suppenee siten avoimessa joukossa $V=\{z:|z|>r\}$ tasaisesti kohti ääretöntä. Perhe $\{\fk\}$ on siten normaali joukossa $V$ ja kuuluu määritelmän nojalla Fatoun joukkoon. Julian joukko on rajoitettu, sillä nyt 
+
+\[
+	\Jf \osajoukko \C \pois V= \{z \kuuluu \C: |z| \pty r\}.
+\]
+
+	Olemme osoittaneet, että Julian joukko on suljettu ja rajoitettu. Siten se on kompakti. $\laatikko$
+
+	Julian ja Fatoun joukot ovat täysin invariantteja, eivätkä niiden pisteet iteroidu joukon ulkopuolelle. 
+
+\newtheorem{invarianssi}[lauseet]{Lause}
+\begin{invarianssi}
+	\label{lauseet:invarianssi}
+	Julian joukko on täysin invariantti.
+\end{invarianssi}
+
+\textsc{Todistus:} Tarkastelemme ensin funktion $f$ Fatoun joukkoa $\F = \Ff$ ja osoitamme, että se on täysin invariantti. 
+
+	Olkoon $V \osajoukko \F$ avoin. Perhe $\Pfk$ on normaali joukossa $V$. Siitä poimitulla funktiojonolla $\Pfki$ on osajono $\{ f^{\circ k_i +1}  \}$, joka suppenee tasaisesti joukossa $V$. Jatkuva kuvaus säilyttää avoimuuden. Joukko $f(V)$ on siis avoin, koska $f$ on polynomina jatkuva koko kompleksitasossa. Nyt jono $\Pfki$ suppenee tasaisesti joukossa $f(V)$ ja edelleen $f(V) \osajoukko \F$. Koska $V$ oli mielivaltainen Fatoun joukon osajoukko, saamme $f(\F ) \osajoukko \F$.
+
+	%Olkoon $V \osajoukko \F$ avoin. Perhe $\Pfk$ on siis normaali joukossa $V$. Funktio $f$ on polynomina jatkuva, joten joukon $V$ alkukuva $f^{-1} (V)$ on avoin. Olkoon $\{ f^{\circ k_i} \} $ perheestä $\Pfk$ poimittu osajono. Sillä on osajono $\{ f^{\circ k_i +1} \} $. Tällä on edelleen osajono $\{ f^{\circ \kip +1} \}$, joka normaalin perheen $\Pfk$ osajonona suppenee tasaisesti kaikissa joukon $V$ kompakteissa osajoukoissa. Jos nyt $K \osajoukko f^{-1} (V)$ on kompakti, niin silloin $\{ f^{\circ \kip +1} \} $ suppenee tasaisesti kompaktissa joukossa $f(K) \osajoukko V$. Jatkuva kuvaus säilyttää kompaktisuuden, joten osajono $\{ f^{\circ \kip } \} $ suppenee tasaisesti joukossa $K \osajoukko f^{-1} (V)$. Jono $\{ f^{\circ \kip } \} $ on perheen $\Pfk$ osajono. Siten perhe $\Pfk$ on määritelmän mukaan normaali joukossa $f^{-1} (V)$, ja edelleen $\Ff \osajoukko f^{-1} (\Ff)$, koska $V$ oli Fatoun joukon mielivaltainen avoin osajoukko. 
+
+	Olkoon nyt joukko $V \osajoukko f^{-1} (\F)$ avoin, jolloin myös joukko $f(V) \osajoukko f(f^{-1}(\F )) \osajoukko \F$ on avoin. Perhe $\Pfk$ on määritelmän mukaisesti normaali joukossa $f(V) \osajoukko \F$. Olkoon $\{ f^{\circ k_i} \}$ perheestä $\Pfk$ poimittu osajono. Tämän osajono $\{ f^{\circ k_i+1} \}$ suppenee tasaisesti joukon $f(V)$ kompakteissa osajoukoissa. Jatkuva kuvaus säilyttää kompaktisuuden. Jos joukko $K \osajoukko V$ on kompakti, niin myös sen kuvajoukko $f(K) \osajoukko f(V)$ on kompakti. Jono $\{ f^{\circ k_i +1} \}$ siis suppenee tasaisesti joukossa $f(K)$. Edelleen, $\Pfki$ suppenee tasaisesti kompaktissa joukossa $K \osajoukko V$. Kompakti joukko $K \osajoukko V$ oli mielivaltainen ja $\Pfki$ on jonon $\Pfk$ osajono, joten perhe $\Pfk$ on normaali joukossa $V$. Siten $f^{-1} (\F) \osajoukko \F$.
+
+	Olemme osoittaneet, että Fatoun joukko on täysin invariantti, jolloin 
+
+\[
+	f^{-1} (\Ff ) = \Ff = f(\Ff ).
+\]
+
+	Julian joukko on Fatoun joukon komplementtina täysin invariantti. $\laatikko$
+
+	Täydellisen invarianssin lisäksi funktion kaikilla iteraateilla on samat Julian ja Fatoun joukot. Todistusta varten tarvitsemme apulauseen, jonka mukaan polynomilla operointi ei tuhoa funktioperheen tasaista suppenemista.
+
+\newtheorem{lemmatassup}[lauseet]{Lemma}
+\begin{lemmatassup}
+	\label{lauseet:lemmatassup}
+
+	Olkoon $U \kuuluu \C$ kompakti ja $\{ g_k \}$ funktioperhe, joka suppenee joukossa $U$ tasaisesti kohti joko rajoitettua funktiota tai identtisesti ääretöntä, kun $k \ON \infinity$. Tällöin myös perhe $\{h \circ \{ g_k \} \}$ suppenee tasaisesti joukossa $U$, kun $h$ on polynomi. 
+
+\end{lemmatassup}
+
+	Polynomin lisääminen ei vaikuta tasaiseen suppenemiseen koska polynomi on rajoitettu ja sileä kaikissa kompleksitason kompakteissa osajoukoissa. Rajafunktio luonnollisesti muuttuu polynomin määräämällä tavalla.
+
+\newtheorem{iteraattienJ}[lauseet]{Lause}
+\begin{iteraattienJ}
+	\label{lauseet:iteraattienJ}
+	Funktiolla ja sen kaikilla iteraateilla on sama Julian joukko.
+\end{iteraattienJ}
+
+\textsc{Todistus:}
+	Todistamme ensin vastaavan väitteen Fatoun joukolle.
+
+	(i) Olkoon perhe $\{\fk\}$ on normaali avoimessa kompleksitason osajoukossa $U$, ja $\Pfki$ jokin siitä poimittu osajono. Perheestä $\{ f^{\circ nk}\}$ poimitulla funktiojonolla on sellainen osajono, joka on jollakin perheestä $\Pfki$ poimitulla funktiojonolla ja suppenee tasaisesti kaikissa $U$:n kompakteissa osajoukoissa. Perhe $\{\fk\}$ on oletuksen mukaisesti normaali, joten tällainen osajono on olemassa. Siten myös perhe $\{ f^{\circ nk}\}_{n \kuuluu \N}$ on normaali joukossa $U$.
+
+	Funktion $f$ Fatoun joukko on siis sen $n$-iteraatin Fatoun joukon osajoukko, $\Ff \osajoukko \Ffn$.
+
+	(ii) Jos perhe $\{ f^{\circ nk}\}_{n \kuuluu \N}$ on normaali avoimessa joukossa $V$, niin lemman~\ref{lauseet:lemmatassup} nojalla myös perhe $\{ f^{\circ nk + r}\}$ on normaali tässä joukossa kaikilla luonnollisilla luvuilla $r<n$. Jokainen perheen $\{\fk\}$ osajono sisältää jonkin perheestä $\{ f^{\circ nk + r}\}$ poimitun osajonon jollakin $r$. Tämä sisältää puolestaan sellaisen osajonon, joka on tasaisesti suppeneva kaikissa $V$:n kompakteissa osajoukoissa, koska perhe $\{ f^{\circ nk + r}\}$ on normaali joukossa $V$. Täten perhe $\{\fk\}$ on normaali, kun  $\{ f^{\circ nk}\}$ on normaali. Saamme siis $\Ffn \osajoukko \Ff$.
+
+	Olemme todistaneet, että väite pätee Fatoun joukoille. Julian joukoille väite on yllä olevan suora seuraus. Koska funktion ja sen iteraattien Fatoun joukot ovat identtiset, myös niiden komplementit eli vastaavat Julian joukot ovat identtisiä;
+
+	\[ \Jf \onon \C \pois \Ff = \C \pois \Ffn \onon \Jfn . \ \ \ \laatikko \] 
+
+	Iteraattien yhdistetyssä arvojoukossa korkeintaan yksi kompleksitason piste jää saavuttamatta, kun tarkastellaan mielivaltaisen Julian joukon pisteen ympäristöä. Julian ympäristön pisteiden iteraatit peittävät siten lähes koko komp\-leksitason.  
+
+	Olkoon $w$ Julian joukon piste ja $U$ on jokin tämän avoin ympäristö.
+
+\newtheorem{W}[lauseet]{Lemma}
+\begin{W}
+	\label{lauseet:W}
+	
+	$W \onon \UK \fk(U) = \C$ korkeintaan yhdellä poikkeuksella. Poikkeuspiste ei kuulu Julian joukkoon ja on lisäksi riippumaton sekä pisteestä $w$ että tämän ympäristöstä $U$.
+\end{W}
+
+\textsc{Todistus:} 
+
+	(i) Jos poikkeuspisteitä olisi useampia kuin yksi, niin Montelin lauseen nojalla $\Pfk$ olisi normaali perhe Julian joukon pisteessä $w$, mikä on ristiriita. 
+
+	(ii) Oletetaan, että poikkeuspiste $s \eikuulu W$. Jos $f(z)=s$, niin $z \eikuulu W$, koska joukon $W$ määritelmän nojalla $f(W) \osajoukko W$. Joukossa $\C \pois W$ on enintään yksi piste, joten $z=s$. Funktio $f$ on siis sellainen $n$-asteinen polynomi siten, jolle $z=s$ on yhtälön $f(z)-s=0$ ainoa ratkaisu. Tästä voimme päätellä, että $f(z)-s=c(z-s)^n$ jollakin vakiolla $c$.
+
+	Riittävän lähellä poikkeuspistettä $s$ iteraatit suppenevat tasaisesti. Esimerkiksi ympäristössä $\{ z\colon |z-s|<(2c)^{- \frac{1}{n-1} }  \}$ saamme 
+
+\[
+	|f(z) - s| = |c (z-s)^n| < c (2c)^{- \frac{n}{n-1}} < 1.
+\]
+ 
+	Tästä näemme. että $\fk (z)-s$ suppenee tasaisesti origoon, kun $k$ lähestyy ääretöntä. Siten perhe $\Pfk$ on normaali pisteessä $s$ eikä piste $s$ kuulu Julian joukkoon $\Jf$.
+
+	(iii) Edeltävän tarkastelun nojalla on selvää, että piste $s$ riippuu ainoastaan polynomista $f$. $\laatikko$
+
+%Poikkeuspisteitä esiintyy vain harvoin ja sellaisen omaaville polynomeille voidaan jopa johtaa kaava. Oletetaan, että on olemassa piste $w \kuuluu \Jf$ ja sillä on ympäristö $U$ siten, että 
+%
+%\[
+%	\UKn \fn (U) = \C \pois \{ s \}.
+%\]
+%
+%	Tällöin $f(z) = s + c(z-s)^k$ jollakin $c \kuuluu \C$ ja kokonaisluvulla $k$.
+%
+%	Jos $s \eikuulu W$, niin $\Jf$ on ympyrä, jonka keskipiste on $s$ ja säde $c^{- \frac{1}{n-1}}$.
+%
+%	Jos esimerkiksi $U$ leikkaa Julian joukkoa, mutta ei origoa, niin silloin origo on lemman~\ref{lauseet:W} poikkeuspiste, eli
+%
+%\[
+%	\UK \fn (U) = \C \pois \{ 0 \}.
+%\]
+%	
+%\newtheorem{leikkaukset}[lauseet]{Seuraus}
+%\begin{leikkaukset}
+%	\label{lauseet:leikkaukset}
+%	
+%	(i) Seuraava väite pätee kaikille $z \kuuluu \C$ korkeintaan yhdellä poikkeuksella: jos $U$ on avoin joukko, joka leikkaa funktion $f$ Julian joukkoa $\Jf$, niin $\fkm (z)$ leikkaa joukkoa $U$ äärettömän monella $k$:n arvolla.
+%
+%	(ii) Mielivaltaisen pisteen $w \kuuluu \Jf$ takaperoiset iteraatit ovat tiheässä Julian joukossa: 
+%
+%\[
+%	\Jf=\overline{\UK \fkm (w)}.
+%\]
+%
+%\end{leikkaukset}
+%
+%\textsc{Todistus:}
+%
+%	???
+%
+%	(i) Jos $z$ ei ole lemman~\ref{lauseet:W} poikkeuspiste, niin $z \kuuluu \fk (U)$ jollain $k$. Siten $\fkm (z)$ leikkaa joukkoa $U$ jollain $k$. Toistamalla prosessia saamme äärettömän luonnollisten lukujen $k$ jonon, joille $\fkm (z)$ leikkaa joukkoa $U$. 
+%
+% 	(ii) Oletamme, että $w \kuuluu \Jf$. Nyt $\fkm (w) \osajoukko \Jf$, koska Julian joukko on täysin invariantti. Julian joukko on lisäksi kompakti, joten se sisältää osajoukkonsa sulkeuman, eli
+%
+%\[
+%	\overline{\UK \fkm (z)} \osajoukko \Jf.
+%\]
+%
+%	Olettakaamme, että $U$ on avoin ja leikkaa Julian joukkoa pisteessä $w$. Kohdan (i) nojalla $\fkm (w)$ leikkaa joukkoa $U$ jollakin, itse asiassa äärettömän monella arvolla $k$. Siten $w$ ei voi olla lemman~\ref{lauseet:W} poikkeuspiste, mikä on ristiriita. Nythän $z \kuuluu \UK \fk (U)$, josta seuraa (i) ja edelleen $z \kuuluu \UK \fkm (z)$. $\laatikko$
+%
+%	Joukko on \emph{täydellinen}, jos se on suljettu eikä sisällä eristettyjä pisteitä.
+%
+%\newtheorem{perfect}[lauseet]{Lause}
+%\begin{perfect}
+%	\label{lauseet:perfect}
+%	Julian joukko on täydellinen.
+%\end{perfect}
+%
+%\textsc{Todistus:} 
+%	Todistimme kohdassa~\ref{lauseet:kompakti}, että Julian joukko on suljettu. Riittää osoittaa, että jokaisen Julian joukosta valitun pisteen $v \kuuluu \Jf$ mielivaltainen ympäristö $U$ sisältää myös muita Julian joukon pisteitä. Todistus jakautuu kahteen tapaukseen pisteen laadun mukaan.
+%
+%	(i) Oletetaan, että piste $v$ ei ole funktion $f$ periodinen piste eikä sen kiintopiste. 
+%
+%	Valitaan piste $q \kuuluu \Jf$ siten, että $f(q)=v$. Nyt $\fn (v) \eiole q$ kaikilla $n \kuuluu \N$, sillä muuten $v$ olisi periodinen piste periodilla $n+1$: 
+%
+%\[
+%	f^{\circ n+1} (v) = f(\fn (v)) = f(q) = v.
+%\]
+%
+%	Pisteen $q \kuuluu \Jf$ takaperoiset iteraatit ovat Julian joukossa tiheässä kohdan~\ref{lauseet:leikkaukset} (ii) nojalla. Siten pisteen $v$ mielivaltaisessa ympäristössä $U$ on Julian joukon piste $\xi$, jolle $f^{\circ m} (\xi)=q$ jollakin $m \kuuluu \N$. Lisäksi $\xi \eiole v$, koska $v$ ei ole periodinen piste. Muuten pätisi
+%
+%\[
+% 	f(f^{\circ m} (\xi=v))=f(q)=v.
+%\]
+%
+%	Jokaisessa Julian joukon pisteen $v$ ympäristössä on siis myös muita Julian joukon pisteitä.
+%
+%	(ii) Oletetaan, että $v$ on funktion $f$ periodinen piste periodilla $p$, eli $\fp (v) = v$, missä $p$ on pienin luonnollinen luku, joka toteuttaa yhtälön. Jos $v$ olisi yhtälön $\fp (z) = v$ ainoa ratkaisu, niin tällöin olisi $\fp (z) = \lambda (z-v)^k + v$ sopivilla parametreillä $\lambda$ ja $k$. Edelleen $v$ olisi funktion $g=\fn$ superattraktiivinen kiintopiste, sillä nyt $g'(z)= k \lambda (z-v)^{k-1}$ ja siten $g'(v)= 0$.
+%
+%	Superattraktiiviset kiintopisteet kuuluvat Fatoun joukkoon, kuten osoitimme esimerkissä~\ref{lauseet:FEsim1}. Oletuksen mukaan $v \kuuluu \Jf$. On siis olemassa $q \eiole v$, jolle $\fp (q) = v$. Edelleen $\fj (v) \eiole q$ kaikilla $j \kuuluu \Nexp$, sillä muuten se pätisi periodisuuden vuoksi jollekin $j$, $0 \leq j <p$. Tällöin saataisiin $\fj (v) = f^{\circ p+j} (v) = \fp (q) = v$, mikä on ristiriita. Periodi $p$ on määritelmän mukaan pienin mahdollinen luku, jolle $\fp (v) = v$.
+%
+%	Kuten kohdassa (i), $q= \fm (\xi)$ siten, että $\xi \kuuluu U \leikkaus \J$ ja $\xi \eiole v$ jollain $m \kuuluu \N$. On siis olemassa $q$ siten, että $\fp (q) = v$ ja $q \eiole v$. Tällöin $f^{\circ m+p} (\xi) = \fm (q) = v$, eli pisteen $v$ ympäristössä on sellainen piste $\xi$, jonka iterointi johtaa pisteeseen $v$. Julian joukko on kohdan~\ref{lauseet:invarianssi} mukaan täysin invariantti, joten myös piste $\xi$ kuuluu Julian joukkoon.
+%	
+%	Tästä tuloksesta seuraa Bairen kategorialauseen nojalla Julian joukkojen ylinumeroituvuus.
+%
+	
+\section{Julian joukko valuma-altaan reunana}
+
+	Olemme aikaisemmassa esimerkissä tarkastelleet funktiota $f(z)=z^2$. Tämän iterointi jakaa kompleksitason kahteen alueeseen, joista kumpikin sisältää (super)attraktiivisen kiintopisteen. Tässä tapauksessa yksikköympyrän sisäpuoliset pisteet iteroituvat origoon ja kaikki sen ulkopuolella olevat pisteet äärettömyyteen. On luontevaa nimittää nämä alueet origon ja äärettömyyspisteen \emph{valuma-altaiksi}. 
+
+	Määrittelemme seuraavaksi pisteen $w \kuuluu \Cexp$ valuma-altaan.
+
+\newtheorem{allas}[lauseet]{Määritelmä}
+\begin{allas}[Valuma-allas]
+	\label{lauseet:allas}
+	Pisteen $w \kuuluu \Cexp$ valuma-allas 
+\[
+	A(w)=\{z \kuuluu \C \colon \fk (z) \ON w, \ kun \ k \ON \infinity\} .
+\]
+
+\end{allas}
+
+	Valuma-allas on avoin. 
+
+	Esimerkissämme yksikköympyrän kehä toimii rajana kahden valuma-altaan $A(0)$ ja $A(\infinity )$ välillä ja on toisaalta funktion Julian joukko. Lopuksi osoitammekin Julian joukon roolin yleisenä iteraatioiden valuma-altaan reunana. Olkoon $w \kuuluu \Cexp$ funktion $f$ attraktiivinen kiintopiste. 
+
+\newtheorem{finaali}[lauseet]{Lemma}
+\begin{finaali}
+	\label{lauseet:finaali}
+	Valuma-altaan reuna ja Julian joukko ovat identtiset, 
+\[
+	\reuna A(w)=\Jf.
+\]
+
+\end{finaali}
+
+\textsc{Todistus:}
+
+	(i) Jos $z$ on Julian joukon piste, niin täydellisen invarianssin nojalla myös sen kaikki iteraatit $\fk (z)$ kuuluvat Julian joukkoon. Olemme osoittaneet, että attraktiiviset kiintopisteet kuuluvat Fatoun joukkoon. Pisteen $z$ iteraatit eivät siten voi supeta attraktiiviseen kiintopisteeseen $w \kuuluu \Ff$, eivätkä Julian joukon pisteet siten kuulu valuma-altaaseen $A(w)$. 
+
+	Jos $U$ on pisteen $z$ mielivaltainen epätyhjä ympäristö, niin lemman~\ref{lauseet:W} nojalla joukko $\fk (U)$ sisältää valuma-altaan $A(w)$ pisteitä jollakin $k$, ja siten pisteitä, jotka iteroituvat pisteeseen $w$. Pisteen $z$ jokaisessa mielivaltaisen pienessä ympäristössä on siis valuma-altaan $A(w)$ pisteitä. Piste $z$ on valuma-altaan $A(w)$ kasautumispiste ja kuuluu valuma-altaan sulkeumaan. Oletuksen nojalla $z$ ei ole valuma-altaan piste. Se on siis valuma-altaan reunapiste ja olemme todistaneet, että $\Jf \osajoukko \reuna A(w)$.
+
+	(ii) Olettakaamme nyt, että $z$ kuuluu funktion $f$ valuma-altaan $A(w)$ reunaan, mutta ei funktion Julian joukkoon. Silloin perhe $\Pfk$ on normaali pisteessä $z$. Siitä poimitulla funktiojonolla $\Pfki$ on jossakin pisteen $z$ ympäristössä $V$ sellainen osajono $\Pfkip$, joka suppenee tasaisesti kohti analyyttistä funktiota tai identtisesti ääretöntä. Koska $z$ on valuma-altaan reunapiste, sen avoimessa ympäristössä $V$ on valuma-altaan pisteitä. 
+
+	Osajono suppenee pisteeseen $w$ avoimessa epätyhjässä joukossa $V \leikkaus A(w)$. Analyyttinen funktio on tunnetusti vakio yhtenäisessä joukossa, jos se on vakio jossakin tämän avoimessa osajoukossa. Siten osajono $\Pfkip$ suppenee tasaisesti pisteeseen $w$ koko joukossa $V$. Pisteen $z$ avoin ympäristö $V$ on siten valuma-altaan $A(w)$ osajoukko ja $z$ edelleen valuma-altaan sisäpiste. Alkuoletuksena oli kuitenkin, että $z$ on valuma-altaan reunapiste. Tämä on ristiriita ja olemme todistaneet, että $\reuna A(w) \osajoukko \Jf$. $\laatikko$
+
+	Olemme tutkineet Julian joukon perusominaisuuksia ja osoittaneet Julian joukon roolin iteraatioiden valuma-altaan reunana. Julian ja Fatoun joukoilla on runsaasti mielenkiintoisia lisäominaisuuksia. Julian joukko on esimerkiksi täydellinen ja ylinumeroituva. Muotoa $z^2 + c$ olevien polynomien yhtenäisyyden tutkiminen johtaisi kuuluisan \emph{Mandelbrotin} joukon tarkasteluun. Voitaisiin myös tutkia, missä tapauksissa Julian joukko on sileä ja kiltisti derivoituva tai millä nopeudella Fatoun joukon pisteet iteroituvat attraktiopisteeseensä ja miten tämä puolestaan riippuu niiden etäisyydestä Julian joukkoon. Yleisten rationaalifunktioiden iterointiteoriaan tuovat lisäväriä niiden mahdolliset ylimääräiset epäjatkuvuuskohdat ja laajennetun kompleksitason käsittely Riemannin pallona. 
+
+	Kiintoisimmat ilmiöt esiintyvät nimenomaan Julian ja Fatoun joukkojen herkällä reuna-alueella. Lisätietoa kaipaaville Beardonin ja Falconerin teokset toimivat hyvänä johdatuksena rationaalifunktioiden iterointiin ja fraktaaligeometriaan.
+
+\pagebreak
+
+{\bf Kuva 1}
+
+Funktion $f(z)=z^2-1$ Julian joukko (musta reunakäyrä) jakaa kompleksitason äärettömän moneen alueeseen. Reunakäyrän rajaaman alueen ulkopuolelle, Fatoun joukon komponenttiin ${\F}_{\infinity}$ kuuluvat pisteet iteroituvat äärettömyyteen. Käyrän rajaamista alueista pisteet iteroituvat attraktiiviseen 2-periodiseen sykliin ${\F}_0$, ${\F}_{-1}$. Funktiolla on siten kaksi valuma-allasta; käyrän rajaamat ja sen ulkopuoliset alueet.
+
+Pisteen periodisuus määrää sen käyttäytymisen Julian joukossa. Julian joukko ei ole derivoituva yhdessäkään pisteessä, mutta sen rakenteessa on ilmeistä säännönmukaisuutta. 
+
+{\bf Kuva 2}
+
+Funktion $z^2-i$ Julian joukko ei rajaa kompleksitasosta erillistä aluetta. Kaikki joukon ulkopuolella olevat pisteet iteroituvat äärettömyyteen. Julian joukossa ei-periodisten pisteiden iteraatit vaeltavat loputtomiin suppenematta mihinkään pisteeseen.
+
+\pagebreak
+
+ 
+\begin{thebibliography}{99}
+  \addcontentsline{toc}{section}{Bibliography}
+ 
+\bibitem{Falconer} Falconer, K. J: \emph{Fractal Geometry: Mathematical Foundations and Applications}, Wiley \& Sons 1990.
+\bibitem{Beardon} Beardon, A. F: \emph{Iteration of Rational Functions}, Springer-Verlag, New York 1991.
+\bibitem{Rudin} Rudin, W: \emph{Real and Complex Analysis}, McGraw-Hill 1966.
+\bibitem{Carleson} Carleson L. and Gamelin, T. W: \emph{Complex Dynamics}, Springer-Verlag, New York 1993.
+\bibitem{Steinmetz} Steinmetz, Norbert: \emph{Rational Iteration: Complex Analytic Dynamical Systems}, Walter de Gruyter \& Co., Berlin 1993.
+\bibitem{Chaos} Gleick, James: \emph{Chaos}, William Heynemann Ltd 1988.
+\bibitem{Devaney} Devaney, Robert L: \emph{An Introduction to Chaotic Dynamical Systems}, Benjamin/Cummings 1986.
+\bibitem{Palka} Palka, Bruce P: \emph{An Introduction to Complex Function Theory}, Springer-Verlag, New York 1991.
+\bibitem{Ahlfors} Ahlfors, L. V: \emph{Complex Analysis} (third edition), McGraw-Hill 1979.
+\bibitem{Ransford} Ransford, T: \emph{Potential Theory in the Complex Plane}, Cambridge University Press 1995. 
+\bibitem{Conway} Conway, John B: \emph{Functions of One Complex Variable} (second edition), Springer-Verlag 1978.
+
+\end{thebibliography}
+ 
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
