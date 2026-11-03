@@ -7,6 +7,10 @@ on:
   pull_request:
   workflow_dispatch:  # started by automerge-bib-monitor.yml after a merge
 
+concurrency:
+  group: pages-${{ github.ref }}  # one at a time per branch/PR; PR builds never cancel master deploys
+  cancel-in-progress: true
+
 jobs:
   deploy:
     runs-on: ubuntu-22.04
@@ -31,4 +35,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          force_orphan: true  # keep gh-pages as a single commit
