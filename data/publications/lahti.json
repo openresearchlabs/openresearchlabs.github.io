@@ -17623,5 +17623,75 @@
     "status": "in press",
     "title": "A framework for gut microbiome and resistome research in Indigenous Orang Asli communities of Peninsular Malaysia",
     "type": "article-journal"
+  },
+  {
+    "DOI": "10.1038/s44355-026-00066-y",
+    "ISSN": "3004-9806",
+    "author": [
+      {
+        "family": "Hintikka",
+        "given": "Jukka"
+      },
+      {
+        "family": "Permi",
+        "given": "Perttu"
+      },
+      {
+        "family": "Lehtonen",
+        "given": "Marko"
+      },
+      {
+        "family": "Lensu",
+        "given": "Sanna"
+      },
+      {
+        "family": "Driuchina",
+        "given": "Anastasiia"
+      },
+      {
+        "family": "Jormanainen",
+        "given": "Mika"
+      },
+      {
+        "family": "Laukkanen",
+        "given": "Jari"
+      },
+      {
+        "family": "Bayal",
+        "given": "Nitin"
+      },
+      {
+        "family": "Erawijantari",
+        "given": "Pande Putu"
+      },
+      {
+        "family": "O’Connell",
+        "given": "Thomas M."
+      },
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      },
+      {
+        "family": "Pekkala",
+        "given": "Satu"
+      }
+    ],
+    "container-title": "npj Gut and Liver",
+    "id": "Hintikka2026",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5
+        ]
+      ]
+    },
+    "keyword": "bioscience",
+    "title": "Prebiotic xylo-oligosaccharides for alleviation of hepatic steatosis: Results from a four-month dietary intervention and determinants of response",
+    "title-short": "Prebiotic xylo-oligosaccharides for alleviation of hepatic steatosis",
+    "type": "article-journal",
+    "volume": "3"
   }
 ]
