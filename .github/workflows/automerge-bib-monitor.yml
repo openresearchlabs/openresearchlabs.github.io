@@ -68,9 +68,13 @@ jobs:
         if: steps.pr.outputs.number
         run: hugo --minify
 
+      # The monitor sometimes opens its PR as a draft, which cannot be merged.
       - name: Merge
         if: steps.pr.outputs.number
         run: |
+          if [ "$(gh pr view "${{ steps.pr.outputs.number }}" --json isDraft --jq .isDraft)" = true ]; then
+            gh pr ready "${{ steps.pr.outputs.number }}"
+          fi
           gh pr merge "${{ steps.pr.outputs.number }}" --merge --delete-branch \
             --match-head-commit "${{ steps.pr.outputs.head }}"
 
