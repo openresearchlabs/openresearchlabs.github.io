@@ -1580,6 +1580,7 @@
   },
   {
     "DOI": "10.1101/2025.10.29.685036",
+    "annote": "Preprint DOI; journal has not assigned a DOI yet",
     "author": [
       {
         "family": "Borman",
@@ -1669,17 +1670,17 @@
         "given": "Leo"
       }
     ],
-    "container-title": "bioRxiv",
+    "container-title": "Nature Communications",
     "id": "Borman2025oma",
     "issued": {
       "date-parts": [
         [
-          2025
+          2026
         ]
       ]
     },
     "keyword": "bioscience",
-    "status": "preprint",
+    "status": "in press",
     "title": "Orchestrating microbiome analysis with Bioconductor",
     "type": "article-journal"
   },
