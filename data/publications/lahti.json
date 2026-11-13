@@ -2529,7 +2529,6 @@
       ]
     },
     "keyword": "bioscience",
-    "status": "in press",
     "title": "BioSIFTR: Functional inference from shallow shotgun sequencing using biome-specific genome catalogues benchmarked in gut microbiomes",
     "title-short": "BioSIFTR",
     "type": "article-journal"
@@ -17694,5 +17693,27 @@
     "title-short": "Prebiotic xylo-oligosaccharides for alleviation of hepatic steatosis",
     "type": "article-journal",
     "volume": "3"
+  },
+  {
+    "URL": "https://fennicahub.github.io/fennica-statistical-programming-lesson",
+    "author": [
+      {
+        "family": "Lahti",
+        "given": "Leo"
+      }
+    ],
+    "id": "Lahti2026fennicalesson",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "keyword": "dh",
+    "note": "Online training material, not peer reviewed",
+    "publisher": "GitHub Pages",
+    "title": "Fennica statistical programming lesson",
+    "type": ""
   }
 ]
